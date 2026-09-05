@@ -1,0 +1,17 @@
+{
+  "name": "Banco domande · Chimica e propedeutica biochimica",
+  "short_name": "Chimica",
+  "description": "Banco domande per l'esame di Chimica e propedeutica biochimica del semestre filtro di Medicina.",
+  "lang": "it",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f6f5",
+  "theme_color": "#0f2530",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Banco domande · Chimica</title>
+<meta name="description" content="Banco domande per l'esame di Chimica e propedeutica biochimica del semestre filtro.">
+<meta name="theme-color" content="#0f2530">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Chimica">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="topbar">
+  <button id="btn-home" class="ghost" type="button" hidden>&larr; Esci</button>
+  <h1 id="topbar-title">Banco domande · Chimica</h1>
+  <div id="timer" hidden>00:00</div>
+</header>
+
+<main id="main">
+
+  <!-- ══════════ HOME ══════════ -->
+  <section id="view-home" class="view">
+    <div id="bank-status" class="card muted-card">Caricamento del banco domande…</div>
+
+    <div id="review-due" class="card alert" hidden>
+      <p><strong id="review-due-count"></strong> <span id="review-due-text"></span></p>
+      <button id="btn-review-due" class="primary" type="button">Test di ripasso</button>
+    </div>
+
+    <h2>Scegli l'unità</h2>
+    <div id="unit-list" class="unit-list"></div>
+
+    <h2>Lunghezza del test</h2>
+    <div class="card">
+      <label for="len-select">Numero di domande</label>
+      <select id="len-select">
+        <option value="10">10 domande</option>
+        <option value="15">15 domande</option>
+        <option value="20">20 domande</option>
+        <option value="31" selected>31 domande (test completo)</option>
+        <option value="0">tutte quelle disponibili</option>
+      </select>
+      <p class="hint">Con «tutto il programma» il test da 31 domande rispetta la proporzione dell'appello ufficiale: U1 8 · U2 2 · U3 2 · U4 5 · U5 4 · U6 1 · U7 9. Lunghezze diverse mantengono le stesse proporzioni in scala.</p>
+    </div>
+
+    <h2>Altro</h2>
+    <div class="row-buttons">
+      <button id="btn-errors" class="secondary" type="button">I miei errori</button>
+      <button id="btn-stats" class="secondary" type="button">Statistiche</button>
+      <button id="btn-data" class="secondary" type="button">Dati e backup</button>
+    </div>
+  </section>
+
+  <!-- ══════════ TEST ══════════ -->
+  <section id="view-test" class="view" hidden>
+    <div id="test-progress" class="progress"><div id="test-progress-bar"></div></div>
+    <p id="test-counter" class="counter"></p>
+    <div id="test-question" class="card question"></div>
+    <div class="nav-buttons">
+      <button id="btn-prev" class="secondary" type="button">Precedente</button>
+      <button id="btn-next" class="primary" type="button">Successiva</button>
+    </div>
+    <button id="btn-submit" class="danger wide" type="button">Consegna</button>
+    <div id="test-map" class="map"></div>
+  </section>
+
+  <!-- ══════════ RISULTATI ══════════ -->
+  <section id="view-results" class="view" hidden>
+    <div id="score" class="card score"></div>
+    <div id="per-unit" class="card"></div>
+    <h2>Correzione</h2>
+    <div id="corrections"></div>
+    <button id="btn-results-home" class="primary wide" type="button">Torna alla schermata iniziale</button>
+  </section>
+
+  <!-- ══════════ ERRORI ══════════ -->
+  <section id="view-errors" class="view" hidden>
+    <div id="errors-actions" class="row-buttons">
+      <button id="btn-error-test" class="primary" type="button">Genera test di soli errori</button>
+    </div>
+    <div id="errors-list"></div>
+  </section>
+
+  <!-- ══════════ STATISTICHE ══════════ -->
+  <section id="view-stats" class="view" hidden>
+    <div id="stats-body"></div>
+  </section>
+
+  <!-- ══════════ DATI ══════════ -->
+  <section id="view-data" class="view" hidden>
+    <div class="card">
+      <h2>Esporta</h2>
+      <p class="hint">Salva su file lo storico delle domande somministrate, gli errori e i ripassi in scadenza. Serve per passare a un altro dispositivo.</p>
+      <button id="btn-export" class="primary" type="button">Esporta progressi (JSON)</button>
+    </div>
+    <div class="card">
+      <h2>Importa</h2>
+      <p class="hint">Carica un file esportato in precedenza.</p>
+      <label class="radio"><input type="radio" name="import-mode" value="merge" checked> Unisci ai dati già presenti su questo dispositivo</label>
+      <label class="radio"><input type="radio" name="import-mode" value="replace"> Sostituisci tutto</label>
+      <input id="file-import" type="file" accept="application/json,.json">
+      <p id="import-result" class="hint"></p>
+    </div>
+    <div class="card">
+      <h2>Azzera</h2>
+      <p class="hint">Cancella lo storico su questo dispositivo. Le domande tornano tutte «mai somministrate».</p>
+      <button id="btn-reset" class="danger" type="button">Azzera i progressi</button>
+    </div>
+    <div class="card">
+      <h2>Banco domande</h2>
+      <div id="data-bank-info" class="hint"></div>
+      <button id="btn-refresh" class="secondary" type="button">Cerca nuove domande</button>
+    </div>
+  </section>
+
+</main>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
