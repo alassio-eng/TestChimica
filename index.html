@@ -13,6 +13,13 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Chimica">
 <link rel="stylesheet" href="style.css">
+<script>
+/* Applica il tema salvato prima del primo disegno, per evitare il lampo. */
+try {
+  var t = localStorage.getItem('bancoChimica.tema');
+  if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+} catch (e) {}
+</script>
 </head>
 <body>
 
@@ -20,6 +27,7 @@
   <button id="btn-home" class="ghost" type="button" hidden>&larr; Esci</button>
   <h1 id="topbar-title">Banco domande · Chimica</h1>
   <div id="timer" hidden>00:00</div>
+  <button id="btn-theme" class="ghost" type="button" title="Tema" aria-label="Cambia tema"></button>
 </header>
 
 <main id="main">

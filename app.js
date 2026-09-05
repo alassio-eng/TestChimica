@@ -429,6 +429,56 @@ function mostra(vista, titolo) {
 }
 
 /* ----------------------------------------------------------
+   6-bis. Tema chiaro / scuro
+   ---------------------------------------------------------- */
+
+const TEMA_KEY = 'bancoChimica.tema';
+const TEMI = ['auto', 'light', 'dark'];
+const TEMA_ETICHETTA = { auto: 'Tema: automatico', light: 'Tema: chiaro', dark: 'Tema: scuro' };
+/* Icone disegnate a mano: i glifi Unicode di sole e luna non sono
+   disponibili ovunque e in certi ambienti scadono nel carattere mancante. */
+const SVG = (d) => '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" ' +
+  'stroke="currentColor" stroke-width="2" stroke-linecap="round" ' +
+  'stroke-linejoin="round" aria-hidden="true">' + d + '</svg>';
+const TEMA_ICONA = {
+  auto:  SVG('<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor" stroke="none"/>'),
+  light: SVG('<circle cx="12" cy="12" r="4.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/>'),
+  dark:  SVG('<path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z"/>')
+};
+
+function temaSalvato() {
+  try {
+    const t = localStorage.getItem(TEMA_KEY);
+    return TEMI.includes(t) ? t : 'auto';
+  } catch (e) { return 'auto'; }
+}
+
+function applicaTema(t) {
+  if (t === 'auto') delete document.documentElement.dataset.theme;
+  else document.documentElement.dataset.theme = t;
+
+  const b = $('#btn-theme');
+  if (b) {
+    b.innerHTML = TEMA_ICONA[t];
+    b.title = TEMA_ETICHETTA[t];
+    b.setAttribute('aria-label', TEMA_ETICHETTA[t] + ' — tocca per cambiare');
+  }
+  // la barra di stato del sistema segue il colore effettivo della topbar
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    const c = getComputedStyle(document.documentElement).getPropertyValue('--topbar-bg').trim();
+    if (c) meta.setAttribute('content', c);
+  }
+}
+
+function ciclaTema() {
+  const t = TEMI[(TEMI.indexOf(temaSalvato()) + 1) % TEMI.length];
+  try { localStorage.setItem(TEMA_KEY, t); } catch (e) { /* niente da fare */ }
+  applicaTema(t);
+  toast(TEMA_ETICHETTA[t]);
+}
+
+/* ----------------------------------------------------------
    7. Schermata iniziale
    ---------------------------------------------------------- */
 
@@ -947,6 +997,12 @@ function renderDati() {
    ---------------------------------------------------------- */
 
 function collega() {
+  $('#btn-theme').addEventListener('click', ciclaTema);
+  if (window.matchMedia) {
+    window.matchMedia('(prefers-color-scheme: dark)')
+      .addEventListener('change', () => { if (temaSalvato() === 'auto') applicaTema('auto'); });
+  }
+
   $('#btn-home').addEventListener('click', () => {
     if (vistaCorrente === 'test') {
       if (!confirm('Uscire dal test? Le risposte date andranno perse.')) return;
@@ -1020,6 +1076,7 @@ function collega() {
 async function avvio() {
   caricaStato();
   collega();
+  applicaTema(temaSalvato());
   try {
     await caricaBanco(false);
   } catch (e) {

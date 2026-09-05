@@ -28,6 +28,11 @@ esportazione e importazione di un file JSON.
   dedicato. Risposta esatta al ripasso dei 3 giorni → la domanda torna a 10
   giorni; esatta anche lì → esce dagli errori aperti e passa fra le «superate».
   Risposta di nuovo sbagliata → il conteggio riparte da zero.
+- **Tema chiaro, scuro o automatico**, dal pulsante in alto a destra; la scelta
+  resta salvata sul dispositivo. La pagina dichiara `color-scheme`, così i
+  browser non sovrappongono il proprio auto-dark ai colori del tema. Tutte le
+  combinazioni testo/sfondo stanno sopra 6:1 in entrambi i temi (WCAG AA chiede
+  4,5:1); `test-contrast.js` nella cronologia di sviluppo le misura.
 - **Offline** dopo la prima apertura: manifest, service worker, icone.
   Installabile su iOS e Android come applicazione a sé.
 - **Esporta / importa i progressi** in JSON, in modalità «unisci» o

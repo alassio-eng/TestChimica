@@ -1,42 +1,77 @@
 /* Banco domande · Chimica — foglio di stile unico */
 
+/* `color-scheme` dice al browser che la pagina gestisce da sé i due temi:
+   senza, Chrome può sovrapporre il proprio auto-dark e schiacciare i colori. */
 :root {
+  color-scheme: light dark;
+
   --bg: #f4f6f5;
   --surface: #ffffff;
-  --surface-2: #eceff0;
-  --ink: #16211f;
-  --ink-soft: #5b6b6a;
-  --line: #d5dcdb;
-  --accent: #0f5c56;
+  --surface-2: #e9edec;
+  --ink: #101a19;
+  --ink-soft: #465453;
+  --line: #ccd5d3;
+  --accent: #0b504a;
   --accent-ink: #ffffff;
-  --ok: #1c7a4a;
-  --ok-bg: #e6f4ec;
-  --ko: #a52323;
-  --ko-bg: #fbeaea;
-  --warn: #8a5a08;
-  --warn-bg: #fdf3e0;
+  --topbar-bg: #0b504a;
+  --topbar-ink: #ffffff;
+  --topbar-ghost: rgba(255, 255, 255, .18);
+  --ok: #15633b;
+  --ok-bg: #e2f2e9;
+  --ko: #8f201e;
+  --ko-bg: #fbe9e9;
+  --warn: #744a04;
+  --warn-bg: #fdf2de;
   --radius: 10px;
   --maxw: 780px;
 }
 
+/* Tema scuro: preferenza di sistema, salvo scelta esplicita del tema chiaro. */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #101614;
+  :root:not([data-theme="light"]) {
+    --bg: #0d1413;
     --surface: #18211f;
-    --surface-2: #212b29;
-    --ink: #e8edec;
-    --ink-soft: #9aa8a6;
-    --line: #2e3a38;
-    --accent: #52b3a4;
-    --accent-ink: #06211d;
-    --ok: #63c78f;
-    --ok-bg: #16301f;
-    --ko: #f08a8a;
-    --ko-bg: #33191a;
-    --warn: #e2b567;
-    --warn-bg: #33280f;
+    --surface-2: #232e2c;
+    --ink: #f2f6f5;
+    --ink-soft: #b3c0be;
+    --line: #38443f;
+    --accent: #7ad3c2;
+    --accent-ink: #04211c;
+    --topbar-bg: #18211f;
+    --topbar-ink: #f2f6f5;
+    --topbar-ghost: rgba(255, 255, 255, .12);
+    --ok: #7ed9a4;
+    --ok-bg: #133021;
+    --ko: #ffa1a1;
+    --ko-bg: #3a1c1d;
+    --warn: #f0c67e;
+    --warn-bg: #3a2c11;
   }
 }
+
+/* Tema scuro scelto a mano: vince sulla preferenza di sistema. */
+:root[data-theme="dark"] {
+  --bg: #0d1413;
+  --surface: #18211f;
+  --surface-2: #232e2c;
+  --ink: #f2f6f5;
+  --ink-soft: #b3c0be;
+  --line: #38443f;
+  --accent: #7ad3c2;
+  --accent-ink: #04211c;
+  --topbar-bg: #18211f;
+  --topbar-ink: #f2f6f5;
+  --topbar-ghost: rgba(255, 255, 255, .12);
+  --ok: #7ed9a4;
+  --ok-bg: #133021;
+  --ko: #ffa1a1;
+  --ko-bg: #3a1c1d;
+  --warn: #f0c67e;
+  --warn-bg: #3a2c11;
+}
+
+:root[data-theme="dark"] { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
 
 * { box-sizing: border-box; }
 
@@ -58,8 +93,9 @@ body {
   align-items: center;
   gap: 12px;
   padding: calc(10px + env(safe-area-inset-top)) 16px 10px;
-  background: var(--accent);
-  color: var(--accent-ink);
+  background: var(--topbar-bg);
+  color: var(--topbar-ink);
+  border-bottom: 1px solid var(--line);
 }
 
 #topbar h1 {
@@ -79,7 +115,7 @@ body {
   font-weight: 600;
   padding: 2px 8px;
   border-radius: 6px;
-  background: rgba(255, 255, 255, .16);
+  background: var(--topbar-ghost);
 }
 
 main {
@@ -143,11 +179,20 @@ button:disabled { opacity: .4; cursor: default; }
 .secondary { background: var(--surface); color: var(--ink); border-color: var(--line); }
 .danger { background: var(--ko-bg); color: var(--ko); border-color: var(--ko); }
 .ghost {
-  background: rgba(255, 255, 255, .16);
-  color: var(--accent-ink);
+  background: var(--topbar-ghost);
+  color: var(--topbar-ink);
   border: 0;
   padding: 7px 11px;
   font-size: 14px;
+}
+
+#btn-theme {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 32px;
+  padding: 0;
 }
 .wide { display: block; width: 100%; margin-top: 14px; }
 

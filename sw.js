@@ -2,7 +2,7 @@
    Guscio dell'applicazione in cache-first, domande in network-first
    così un lotto nuovo viene raccolto appena il dispositivo è online. */
 
-const VERSIONE = 'v3';
+const VERSIONE = 'v4';
 const CACHE_SHELL = 'banco-chimica-shell-' + VERSIONE;
 const CACHE_DATI = 'banco-chimica-dati-' + VERSIONE;
 
