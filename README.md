@@ -116,5 +116,25 @@ Chiave `localStorage`: `bancoChimica.v1`.
 }
 ```
 
-Svuotare i dati del sito nel browser cancella lo storico: prima di farlo,
-esportare.
+### Cosa sopravvive a un aggiornamento
+
+Pubblicare una nuova versione **non** tocca i progressi: il codice sta sul
+server, lo storico nel `localStorage` del browser, e sono due spazi separati.
+Sopravvivono quindi a qualunque deploy le domande già somministrate, gli
+errori con le loro scadenze di ripasso, lo storico dei test e la preferenza di
+tema. Verificato: `test-aggiornamento.js` nella cronologia di sviluppo simula
+un deploy completo (codice nuovo, service worker nuovo, lotto di domande
+aggiunto) e confronta lo stato prima e dopo.
+
+L'aggancio fra storico e domande è il campo `id`. Perciò un id **non si
+rinumera e non si riusa mai**: cambiarlo fa tornare quella domanda «mai
+somministrata» e ne perde lo storico di errori. Modificare testo, opzioni,
+ordine delle opzioni o spiegazione di una domanda esistente è invece
+innocuo.
+
+I progressi si perdono soltanto se: si svuotano i dati del sito nel browser,
+si usa una finestra anonima, si cambia browser o dispositivo (ogni browser ha
+il suo `localStorage`), oppure — su iPhone — non si apre l'app per diverse
+settimane e Safari libera lo spazio. Installarla sulla schermata Home rende
+quest'ultimo caso molto meno probabile. In ogni caso l'esportazione in JSON è
+il backup: conviene farla ogni tanto.
