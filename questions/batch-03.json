@@ -72,7 +72,7 @@
         "Na⁺"
       ],
       "corretta": 1,
-      "spiegazione": "Lo ione solfato è formato da cinque atomi legati covalentemente fra loro, e l'insieme porta una carica complessiva di 2−: è quindi uno ione poliatomico.\n\nE), C), A) ed D) sono ioni monoatomici, costituiti da un unico atomo che ha ceduto o acquistato elettroni. Negli ioni poliatomici i legami interni restano covalenti: la carica riguarda l'aggregato nel suo complesso, non un singolo atomo."
+      "spiegazione": "Lo ione solfato è formato da cinque atomi legati covalentemente fra loro, e l'insieme porta una carica complessiva di 2−: è quindi uno ione poliatomico.\n\nA), C) ed E) D) sono ioni monoatomici, costituiti da un unico atomo che ha ceduto o acquistato elettroni. Negli ioni poliatomici i legami interni restano covalenti: la carica riguarda l'aggregato nel suo complesso, non un singolo atomo."
     },
     {
       "id": "u1-0058",
@@ -127,7 +127,7 @@
         "omopolare, perché i due atomi hanno uguale elettronegatività e condividono equamente la coppia"
       ],
       "corretta": 4,
-      "spiegazione": "Due atomi identici hanno la stessa elettronegatività: la coppia di elettroni è distribuita simmetricamente, non si genera alcun momento dipolare e il legame è covalente puro, o omopolare.\n\nB) ed A) Richiederebbero una differenza di elettronegatività, che qui è nulla per definizione.\nC) Nel legame dativo entrambi gli elettroni vengono da un solo atomo; in H₂ ciascun atomo mette a disposizione il proprio.\nD) La formazione di ioni richiederebbe un trasferimento completo di elettroni, che non avviene fra atomi uguali."
+      "spiegazione": "Due atomi identici hanno la stessa elettronegatività: la coppia di elettroni è distribuita simmetricamente, non si genera alcun momento dipolare e il legame è covalente puro, o omopolare.\n\nA) e B) Richiederebbero una differenza di elettronegatività, che qui è nulla per definizione.\nC) Nel legame dativo entrambi gli elettroni vengono da un solo atomo; in H₂ ciascun atomo mette a disposizione il proprio.\nD) La formazione di ioni richiederebbe un trasferimento completo di elettroni, che non avviene fra atomi uguali."
     },
     {
       "id": "u1-0062",
@@ -545,7 +545,7 @@
         "è dello stesso ordine di grandezza"
       ],
       "corretta": 0,
-      "spiegazione": "Un legame a idrogeno vale tipicamente 10-40 kJ/mol, mentre un legame covalente O–H vale circa 460 kJ/mol e un legame C–C circa 348 kJ/mol: la differenza è di più di un ordine di grandezza.\n\nB) Il legame a idrogeno ha un'energia perfettamente misurabile, ed è proprio la sua debolezza a renderlo utile in biologia: si forma e si rompe alla temperatura corporea, permettendo al DNA di aprirsi e alle proteine di cambiare conformazione. La stabilità delle strutture biologiche deriva dal numero di questi legami, non dalla forza di ciascuno.\nD) e C) Invertono il confronto: nessuna interazione debole supera un legame covalente, e le forze intermolecolari sono per definizione più deboli dei legami chimici veri e propri.\nE) Se le energie fossero confrontabili, separare due filamenti di DNA costerebbe quanto romperne lo scheletro covalente, e la replicazione sarebbe impossibile."
+      "spiegazione": "Un legame a idrogeno vale tipicamente 10-40 kJ/mol, mentre un legame covalente O–H vale circa 460 kJ/mol e un legame C–C circa 348 kJ/mol: la differenza è di più di un ordine di grandezza.\n\nB) Il legame a idrogeno ha un'energia perfettamente misurabile, ed è proprio la sua debolezza a renderlo utile in biologia: si forma e si rompe alla temperatura corporea, permettendo al DNA di aprirsi e alle proteine di cambiare conformazione. La stabilità delle strutture biologiche deriva dal numero di questi legami, non dalla forza di ciascuno.\nC) e D) Invertono il confronto: nessuna interazione debole supera un legame covalente, e le forze intermolecolari sono per definizione più deboli dei legami chimici veri e propri.\nE) Se le energie fossero confrontabili, separare due filamenti di DNA costerebbe quanto romperne lo scheletro covalente, e la replicazione sarebbe impossibile."
     },
     {
       "id": "u1-0091",
@@ -573,7 +573,7 @@
         "legami a idrogeno fra le basi azotate complementari"
       ],
       "corretta": 4,
-      "spiegazione": "Le basi appaiate formano legami a idrogeno: due fra adenina e timina, tre fra guanina e citosina. Essendo interazioni deboli, i due filamenti possono essere separati senza rompere alcun legame covalente, come avviene nella replicazione e nella trascrizione.\n\nA) I ponti disolfuro riguardano le cisteine delle proteine.\nB) I gruppi fosfato portano cariche negative e si respingono; sono neutralizzati da cationi e proteine basiche, ma non tengono uniti i filamenti.\nC) ed D) Il legame fosfodiestere unisce i nucleotidi lungo lo stesso filamento, non i due filamenti fra loro."
+      "spiegazione": "Le basi appaiate formano legami a idrogeno: due fra adenina e timina, tre fra guanina e citosina. Essendo interazioni deboli, i due filamenti possono essere separati senza rompere alcun legame covalente, come avviene nella replicazione e nella trascrizione.\n\nA) I ponti disolfuro riguardano le cisteine delle proteine.\nB) I gruppi fosfato portano cariche negative e si respingono; sono neutralizzati da cationi e proteine basiche, ma non tengono uniti i filamenti.\nC) e D) Il legame fosfodiestere unisce i nucleotidi lungo lo stesso filamento, non i due filamenti fra loro."
     },
     {
       "id": "u1-0093",

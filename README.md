@@ -8,10 +8,18 @@ esportazione e importazione di un file JSON.
 
 ## Cosa fa
 
-- **Scelta dell'unità** (U1…U7) oppure **tutto il programma**, che compone il
-  test con la proporzione dell'appello ufficiale: U1 8 · U2 2 · U3 2 · U4 5 ·
-  U5 4 · U6 1 · U7 9 (31 domande). Lunghezze diverse mantengono le stesse
-  proporzioni, ricalcolate con il metodo dei resti maggiori.
+- **Due formati fissi**, entrambi con le domande a risposta multipla prima e
+  quelle a completamento dopo, come nell'appello:
+  - **tutto il programma** — 31 domande, 15 a risposta multipla e 16 a
+    completamento, ripartite fra le unità secondo la proporzione ufficiale
+    U1 8 · U2 2 · U3 2 · U4 5 · U5 4 · U6 1 · U7 9 (metodo dei resti maggiori
+    per la ripartizione dei tipi dentro le quote);
+  - **singola unità** (U1…U7) — 15 domande, 8 a risposta multipla e 7 a
+    completamento.
+
+  Se un'unità non ha abbastanza domande di un tipo, la differenza viene coperta
+  con l'altro tipo della stessa unità e il fatto viene dichiarato prima di
+  iniziare.
 - **Estrae solo domande mai somministrate su questo dispositivo.** Quando
   l'unità è esaurita lo dice esplicitamente, prima di iniziare, e chiede
   conferma; nel ripescaggio dà la precedenza alle domande sbagliate (più errori

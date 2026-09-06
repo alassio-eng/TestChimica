@@ -20,8 +20,15 @@ const UNITS = [
 ];
 
 const UNIT_BY_KEY = Object.fromEntries(UNITS.map(u => [u.key, u]));
-const TEST_UFFICIALE = 31;               // 15 a risposta multipla + 16 a completamento
-const QUOTA_MULTIPLA = 15;
+/* Formato dei test, fisso.
+   Tutto il programma: come l'appello ufficiale, 31 domande con le quote
+   per unità U1 8 · U2 2 · U3 2 · U4 5 · U5 4 · U6 1 · U7 9.
+   Singola unità: 15 domande, 8 a risposta multipla e 7 a completamento. */
+const FORMATO = {
+  all:   { totale: 31, multipla: 15, completamento: 16 },
+  unita: { totale: 15, multipla: 8,  completamento: 7  }
+};
+const MAX_RIPASSO = 31;                  // tetto per i test di errori e ripasso
 const GIORNO = 86400000;
 const RIPASSO_1 = 3 * GIORNO;
 const RIPASSO_2 = 10 * GIORNO;
@@ -310,105 +317,147 @@ function prioritaRipescaggio(a, b) {
   return Date.parse((va && va.ultima) || 0) - Date.parse((vb && vb.ultima) || 0);
 }
 
-/* Sceglie `n` domande da `cands` (già ordinate per priorità),
-   cercando di rispettare il fabbisogno residuo per tipo. */
-function scegli(cands, n, fabbisogno, bilancia) {
-  const scelte = [], scarti = [];
-  for (const q of cands) {
-    if (scelte.length >= n) break;
-    if (!bilancia || (fabbisogno[q.tipo] || 0) > 0) {
-      scelte.push(q);
-      fabbisogno[q.tipo] = (fabbisogno[q.tipo] || 0) - 1;
-    } else scarti.push(q);
+/* Ripartisce le domande a risposta multipla fra le unità, in proporzione
+   alla quota di ciascuna, sempre con il metodo dei resti maggiori. */
+function ripartisciTipi(quote) {
+  const grezzi = UNITS.map(u => ({
+    key: u.key,
+    val: (quote[u.key] || 0) * FORMATO.all.multipla / FORMATO.all.totale
+  }));
+  const mult = {};
+  let assegnate = 0;
+  for (const g of grezzi) { mult[g.key] = Math.floor(g.val); assegnate += mult[g.key]; }
+  const resti = grezzi
+    .map(g => ({ key: g.key, r: g.val - Math.floor(g.val) }))
+    .sort((a, b) => b.r - a.r);
+  let i = 0;
+  while (assegnate < FORMATO.all.multipla && i < resti.length * 4) {
+    const k = resti[i % resti.length].key;
+    if (mult[k] < (quote[k] || 0)) { mult[k] += 1; assegnate += 1; }
+    i += 1;
   }
-  for (const q of scarti) {
-    if (scelte.length >= n) break;
-    scelte.push(q);
-    fabbisogno[q.tipo] = (fabbisogno[q.tipo] || 0) - 1;
+  const out = {};
+  for (const u of UNITS) {
+    out[u.key] = { multipla: mult[u.key], completamento: (quote[u.key] || 0) - mult[u.key] };
   }
-  return scelte;
+  return out;
+}
+
+/* Estrae `n` domande di un dato tipo da una unità: prima quelle mai
+   somministrate, poi, se non bastano, le già viste con la precedenza
+   a quelle sbagliate. */
+function estrai(k, tipo, n, prese) {
+  if (n <= 0) return { presi: [], ripescate: 0, mancano: 0 };
+  const pool = (banco.perUnita[k] || []).filter(q => q.tipo === tipo && !prese.has(q.id));
+  const presi = shuffle(pool.filter(q => !stato.viste[q.id])).slice(0, n);
+  let ripescate = 0;
+  if (presi.length < n) {
+    const viste = pool.filter(q => stato.viste[q.id]).sort(prioritaRipescaggio);
+    const extra = viste.slice(0, n - presi.length);
+    presi.push(...extra);
+    ripescate = extra.length;
+  }
+  presi.forEach(q => prese.add(q.id));
+  return { presi, ripescate, mancano: n - presi.length };
 }
 
 /**
  * Compone un test.
- * @param ambito  'all' | 'u1'..'u7'
- * @param totale  numero di domande richiesto (0 = tutte le disponibili)
- * @returns { domande, avvisi, quote }
+ * @param ambito  'all' (31 domande: 15 multipla + 16 completamento, quote
+ *                ufficiali per unità) oppure 'u1'..'u7' (15 domande:
+ *                8 multipla + 7 completamento della sola unità)
+ * @returns { domande, avvisi }
  */
-function componiTest(ambito, totale) {
+function componiTest(ambito) {
   const tuttoIlProgramma = ambito === 'all';
+  const fmt = tuttoIlProgramma ? FORMATO.all : FORMATO.unita;
   const disponibili = tuttoIlProgramma ? banco.domande : (banco.perUnita[ambito] || []);
-  if (!disponibili.length) return { domande: [], avvisi: [], quote: {} };
+  if (!disponibili.length) return { domande: [], avvisi: [] };
 
-  let n = totale > 0 ? Math.min(totale, disponibili.length) : disponibili.length;
-  const quote = tuttoIlProgramma ? ripartisci(n) : { [ambito]: n };
+  const richieste = tuttoIlProgramma
+    ? ripartisciTipi(ripartisci(fmt.totale))
+    : { [ambito]: { multipla: fmt.multipla, completamento: fmt.completamento } };
 
-  const fabbisogno = tuttoIlProgramma
-    ? { multipla: Math.round(n * QUOTA_MULTIPLA / TEST_UFFICIALE), completamento: 0 }
-    : { multipla: Math.round(n / 2), completamento: 0 };
-  fabbisogno.completamento = n - fabbisogno.multipla;
-
+  const chiavi = tuttoIlProgramma ? UNITS.map(u => u.key) : [ambito];
   const avvisi = [];
   const prese = new Set();
   const scelte = [];
 
-  const chiavi = tuttoIlProgramma ? UNITS.map(u => u.key) : [ambito];
-
-  // passata 1 — solo domande mai somministrate
   for (const k of chiavi) {
-    const quota = quote[k] || 0;
-    if (!quota) continue;
-    const pool = banco.perUnita[k] || [];
-    const inedite = shuffle(pool.filter(q => !stato.viste[q.id]));
-    const prese1 = scegli(inedite, quota, fabbisogno, true);
-    prese1.forEach(q => { prese.add(q.id); scelte.push(q); });
-    quote[k + '_inedite'] = prese1.length;
-  }
+    const req = richieste[k];
+    if (!req || (req.multipla + req.completamento) === 0) continue;
+    let ripescate = 0;
+    const mancanti = { multipla: 0, completamento: 0 };
 
-  // passata 2 — ripescaggio nella stessa unità
-  for (const k of chiavi) {
-    const quota = quote[k] || 0;
-    const mancano = quota - (quote[k + '_inedite'] || 0);
-    if (mancano <= 0) continue;
-    const pool = (banco.perUnita[k] || []).filter(q => !prese.has(q.id));
-    const viste = pool.filter(q => stato.viste[q.id]).sort(prioritaRipescaggio);
-    const prese2 = scegli(viste, mancano, fabbisogno, false);
-    prese2.forEach(q => { prese.add(q.id); scelte.push(q); });
-    const nome = UNIT_BY_KEY[k].key.toUpperCase();
-    if (prese2.length) {
-      avvisi.push(`${nome}: le domande mai somministrate sono esaurite. ${prese2.length} ${plur(prese2.length, 'domanda già vista è stata ripescata', 'domande già viste sono state ripescate')}, dando la precedenza a quelle sbagliate.`);
-    } else if (mancano > 0) {
-      avvisi.push(`${nome}: nel banco non ci sono abbastanza domande per riempire la quota (${quota} ${plur(quota, 'richiesta', 'richieste')}).`);
+    for (const tipo of ['multipla', 'completamento']) {
+      const r = estrai(k, tipo, req[tipo], prese);
+      scelte.push(...r.presi);
+      ripescate += r.ripescate;
+      mancanti[tipo] = r.mancano;
+    }
+
+    // un tipo esaurito viene compensato con l'altro, all'interno della stessa unità
+    for (const [tipo, altro] of [['multipla', 'completamento'], ['completamento', 'multipla']]) {
+      if (mancanti[tipo] <= 0) continue;
+      const r = estrai(k, altro, mancanti[tipo], prese);
+      scelte.push(...r.presi);
+      ripescate += r.ripescate;
+      if (r.presi.length) {
+        avvisi.push(`${k.toUpperCase()}: nel banco non ci sono abbastanza domande a ${tipo === 'multipla' ? 'risposta multipla' : 'completamento'}. Il test ne contiene ${req[tipo] - mancanti[tipo]} invece di ${req[tipo]}, e la differenza è coperta con domande dell'altro tipo.`);
+      }
+      mancanti[tipo] = r.mancano;
+    }
+
+    if (ripescate) {
+      avvisi.push(`${k.toUpperCase()}: le domande mai somministrate sono esaurite. ${ripescate} ${plur(ripescate, 'domanda già vista è stata ripescata', 'domande già viste sono state ripescate')}, dando la precedenza a quelle sbagliate.`);
     }
   }
 
-  // passata 3 — riequilibrio fra unità, solo per il test su tutto il programma
-  if (tuttoIlProgramma && scelte.length < n) {
+  // riequilibrio fra unità: solo per il test su tutto il programma
+  if (tuttoIlProgramma && scelte.length < fmt.totale) {
+    // si continua a rispettare il rapporto 15/16 fra i due tipi, finché il banco lo consente
+    const mancaTipo = {
+      multipla: fmt.multipla - scelte.filter(q => q.tipo === 'multipla').length,
+      completamento: fmt.completamento - scelte.filter(q => q.tipo === 'completamento').length
+    };
     const resto = banco.domande.filter(q => !prese.has(q.id));
     const inedite = shuffle(resto.filter(q => !stato.viste[q.id]));
     const viste = resto.filter(q => stato.viste[q.id]).sort(prioritaRipescaggio);
-    for (const q of inedite.concat(viste)) {
-      if (scelte.length >= n) break;
-      prese.add(q.id);
-      scelte.push(q);
+    const coda = inedite.concat(viste);
+    for (const passata of [1, 2]) {
+      for (const q of coda) {
+        if (scelte.length >= fmt.totale) break;
+        if (prese.has(q.id)) continue;
+        if (passata === 1 && mancaTipo[q.tipo] <= 0) continue;
+        mancaTipo[q.tipo] -= 1;
+        prese.add(q.id);
+        scelte.push(q);
+      }
     }
-    if (scelte.length < n) {
-      avvisi.push(`Il banco contiene solo ${scelte.length} domande: il test è più corto delle ${n} richieste.`);
-    } else {
-      avvisi.push('Alcune unità non avevano abbastanza domande: le quote sono state ridistribuite sulle altre.');
-    }
+    avvisi.push(scelte.length < fmt.totale
+      ? `Il banco contiene solo ${scelte.length} domande utilizzabili: il test ne ha ${scelte.length} invece di ${fmt.totale}.`
+      : 'Alcune unità non avevano abbastanza domande: le quote sono state ridistribuite sulle altre.');
   }
 
-  // ordine finale: prima le a risposta multipla, come nell'appello ufficiale
-  scelte.sort((a, b) => (a.tipo === b.tipo) ? 0 : (a.tipo === 'multipla' ? -1 : 1));
-  return { domande: scelte, avvisi, quote };
+  if (!tuttoIlProgramma && scelte.length < fmt.totale) {
+    avvisi.push(`${ambito.toUpperCase()}: il banco contiene solo ${scelte.length} domande di questa unità, invece delle ${fmt.totale} previste.`);
+  }
+
+  ordinaComeAppello(scelte);
+  return { domande: scelte, avvisi };
+}
+
+/* Come nell'appello ufficiale: prima le domande a risposta multipla,
+   poi quelle a completamento. */
+function ordinaComeAppello(lista) {
+  lista.sort((a, b) => (a.tipo === b.tipo) ? 0 : (a.tipo === 'multipla' ? -1 : 1));
 }
 
 function componiTestDaElenco(ids, limite) {
   const q = ids.map(id => banco.perId[id]).filter(Boolean);
   const ordinate = q.sort(prioritaRipescaggio);
   const tagliate = limite > 0 ? ordinate.slice(0, limite) : ordinate;
-  tagliate.sort((a, b) => (a.tipo === b.tipo) ? 0 : (a.tipo === 'multipla' ? -1 : 1));
+  ordinaComeAppello(tagliate);
   return tagliate;
 }
 
@@ -517,7 +566,7 @@ function renderHome() {
   const bodyAll = el('div', 'unit-body');
   bodyAll.appendChild(el('div', 'unit-name', 'Tutto il programma'));
   const metaAll = el('div', 'unit-meta');
-  metaAll.textContent = `proporzione ufficiale U1 8 · U2 2 · U3 2 · U4 5 · U5 4 · U6 1 · U7 9 — ${inedite} inedite disponibili`;
+  metaAll.textContent = `31 domande · 15 a risposta multipla e 16 a completamento · quote ufficiali per unità — ${inedite} inedite disponibili`;
   bodyAll.appendChild(metaAll);
   btnAll.append(tagAll, bodyAll);
   btnAll.disabled = tot === 0;
@@ -532,14 +581,19 @@ function renderHome() {
     b.append(el('div', 'unit-tag', u.key.toUpperCase()));
     const body = el('div', 'unit-body');
     body.appendChild(el('div', 'unit-name', u.nome));
+    const nm = pool.filter(q => q.tipo === 'multipla').length;
+    const nc = pool.length - nm;
     const meta = el('div', 'unit-meta');
     if (!pool.length) {
       meta.textContent = 'nessuna domanda nel banco';
+    } else if (nm < FORMATO.unita.multipla || nc < FORMATO.unita.completamento) {
+      meta.appendChild(el('span', 'exhausted', 'banco incompleto'));
+      meta.append(` · ${nm} a risposta multipla e ${nc} a completamento, servono ${FORMATO.unita.multipla} e ${FORMATO.unita.completamento}`);
     } else if (ined === 0) {
       meta.appendChild(el('span', 'exhausted', 'inedite esaurite'));
       meta.append(` · ${pool.length} in totale, si ripescano le già viste`);
     } else {
-      meta.textContent = `${ined} inedite su ${pool.length}`;
+      meta.textContent = `15 domande · ${ined} inedite su ${pool.length}`;
     }
     body.appendChild(meta);
     b.appendChild(body);
@@ -556,8 +610,7 @@ function renderHome() {
 let sessione = null;   // { domande, risposte, indice, inizio, ambito, timer }
 
 function avviaTest(ambito) {
-  const lenSel = Number($('#len-select').value);
-  const { domande, avvisi } = componiTest(ambito, lenSel);
+  const { domande, avvisi } = componiTest(ambito);
   if (!domande.length) { toast('Nessuna domanda disponibile per questa scelta.'); return; }
   if (avvisi.length) {
     const ok = confirm(avvisi.join('\n\n') + '\n\nProcedo comunque?');
@@ -567,9 +620,11 @@ function avviaTest(ambito) {
 }
 
 function avviaTestDaElenco(ids, etichetta) {
-  const lenSel = Number($('#len-select').value);
-  const domande = componiTestDaElenco(ids, lenSel);
+  const domande = componiTestDaElenco(ids, MAX_RIPASSO);
   if (!domande.length) { toast('Nessuna domanda da ripassare.'); return; }
+  if (ids.length > MAX_RIPASSO) {
+    toast(`${ids.length} domande da ripassare: il test ne contiene le ${MAX_RIPASSO} più urgenti.`);
+  }
   partenza(domande, etichetta);
 }
 

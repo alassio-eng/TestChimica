@@ -16,7 +16,7 @@
         "SO₃"
       ],
       "corretta": 4,
-      "spiegazione": "Gli ossidi dei non metalli sono ossidi acidi: reagendo con l'acqua danno un acido. SO₃ + H₂O → H₂SO₄. Lo zolfo è un non metallo, quindi SO₃ è l'anidride solforica.\n\nD), A), B) ed C) sono ossidi di metalli, quindi ossidi basici: con l'acqua danno idrossidi, per esempio CaO + H₂O → Ca(OH)₂. Il criterio da applicare è la natura metallica o non metallica dell'elemento legato all'ossigeno, non il numero di atomi nella formula."
+      "spiegazione": "Gli ossidi dei non metalli sono ossidi acidi: reagendo con l'acqua danno un acido. SO₃ + H₂O → H₂SO₄. Lo zolfo è un non metallo, quindi SO₃ è l'anidride solforica.\n\nA), B) e D) C) sono ossidi di metalli, quindi ossidi basici: con l'acqua danno idrossidi, per esempio CaO + H₂O → Ca(OH)₂. Il criterio da applicare è la natura metallica o non metallica dell'elemento legato all'ossigeno, non il numero di atomi nella formula."
     },
     {
       "id": "u1-0104",
@@ -325,7 +325,7 @@
         "le molecole abbiano volume trascurabile e non si attraggano fra loro"
       ],
       "corretta": 4,
-      "spiegazione": "Le due ipotesi fondanti sono proprio queste: particelle puntiformi e assenza di interazioni, salvo gli urti. Da esse discende l'equazione PV = nRT.\n\nB) La temperatura è precisamente la misura dell'agitazione molecolare.\nC) Gli urti sono assunti perfettamente elastici: l'energia cinetica totale si conserva, altrimenti un gas si raffredderebbe da solo.\nD) e A) Sono le condizioni in cui il modello smette di funzionare, cioè alte pressioni e basse temperature; per tenerne conto servono equazioni come quella di van der Waals."
+      "spiegazione": "Le due ipotesi fondanti sono proprio queste: particelle puntiformi e assenza di interazioni, salvo gli urti. Da esse discende l'equazione PV = nRT.\n\nB) La temperatura è precisamente la misura dell'agitazione molecolare.\nC) Gli urti sono assunti perfettamente elastici: l'energia cinetica totale si conserva, altrimenti un gas si raffredderebbe da solo.\nA) e D) Sono le condizioni in cui il modello smette di funzionare, cioè alte pressioni e basse temperature; per tenerne conto servono equazioni come quella di van der Waals."
     },
     {
       "id": "u1-0125",
@@ -385,7 +385,7 @@
         "O₂"
       ],
       "corretta": 1,
-      "spiegazione": "Alla stessa temperatura tutte le molecole hanno la stessa energia cinetica media: da (1/2)mv² segue che la velocità cresce al diminuire della massa, secondo v ∝ 1/√M. L'idrogeno, con massa molare 2 g/mol, è il più leggero dell'elenco e quindi il più veloce.\n\nC), E) ed A) Con masse molari di 28, 32 e 44 g/mol sono progressivamente più lenti. È lo stesso principio che rende i gas leggeri i più rapidi a diffondere.\nD) L'elio ha massa molare 4 g/mol: veloce, ma meno dell'idrogeno."
+      "spiegazione": "Alla stessa temperatura tutte le molecole hanno la stessa energia cinetica media: da (1/2)mv² segue che la velocità cresce al diminuire della massa, secondo v ∝ 1/√M. L'idrogeno, con massa molare 2 g/mol, è il più leggero dell'elenco e quindi il più veloce.\n\nA), C) ed E) Con masse molari di 28, 32 e 44 g/mol sono progressivamente più lenti. È lo stesso principio che rende i gas leggeri i più rapidi a diffondere.\nD) L'elio ha massa molare 4 g/mol: veloce, ma meno dell'idrogeno."
     },
     {
       "id": "u1-0129",
@@ -473,7 +473,7 @@
         "il sudore prodotto è più freddo della superficie della pelle"
       ],
       "corretta": 0,
-      "spiegazione": "Per passare allo stato di vapore le molecole d'acqua devono assorbire il calore latente di evaporazione, e lo prelevano dalla pelle: la superficie corporea si raffredda. L'efficacia del meccanismo dipende dall'elevato calore di evaporazione dell'acqua.\n\nC) L'evaporazione assorbe calore, non lo libera: a liberarlo è la condensazione.\nD) e B) Effetti marginali o inesistenti. Il meccanismo perde efficacia in ambiente molto umido, perché l'aria satura di vapore rallenta l'evaporazione.\nE) Il sudore esce a temperatura corporea; il raffreddamento avviene dopo, con l'evaporazione."
+      "spiegazione": "Per passare allo stato di vapore le molecole d'acqua devono assorbire il calore latente di evaporazione, e lo prelevano dalla pelle: la superficie corporea si raffredda. L'efficacia del meccanismo dipende dall'elevato calore di evaporazione dell'acqua.\n\nC) L'evaporazione assorbe calore, non lo libera: a liberarlo è la condensazione.\nB) e D) Effetti marginali o inesistenti. Il meccanismo perde efficacia in ambiente molto umido, perché l'aria satura di vapore rallenta l'evaporazione.\nE) Il sudore esce a temperatura corporea; il raffreddamento avviene dopo, con l'evaporazione."
     },
     {
       "id": "u1-0135",
@@ -583,7 +583,7 @@
         "il ΔH è positivo e il sistema assorbe calore dall'ambiente"
       ],
       "corretta": 1,
-      "spiegazione": "In una reazione esotermica i prodotti hanno entalpia minore dei reagenti: la differenza viene ceduta all'ambiente come calore, e il ΔH risulta negativo. La combustione ne è l'esempio tipico.\n\nC) Un ΔH nullo indicherebbe assenza di scambio termico.\nD) È l'errore concettuale più insidioso: la spontaneità dipende dal ΔG, non dal solo ΔH. Una reazione esotermica ma con forte diminuzione di entropia può risultare non spontanea ad alta temperatura, e reazioni endotermiche spontanee esistono, come lo scioglimento di certi sali in acqua.\nE) e A) Descrivono una reazione endotermica."
+      "spiegazione": "In una reazione esotermica i prodotti hanno entalpia minore dei reagenti: la differenza viene ceduta all'ambiente come calore, e il ΔH risulta negativo. La combustione ne è l'esempio tipico.\n\nC) Un ΔH nullo indicherebbe assenza di scambio termico.\nD) È l'errore concettuale più insidioso: la spontaneità dipende dal ΔG, non dal solo ΔH. Una reazione esotermica ma con forte diminuzione di entropia può risultare non spontanea ad alta temperatura, e reazioni endotermiche spontanee esistono, come lo scioglimento di certi sali in acqua.\nA) ed E) Descrivono una reazione endotermica."
     },
     {
       "id": "u1-0143",
@@ -670,7 +670,7 @@
         "spontanea solo alle basse temperature"
       ],
       "corretta": 2,
-      "spiegazione": "In ΔG = ΔH − TΔS il primo termine è negativo e il secondo, con ΔS positivo, dà −TΔS anch'esso negativo: la somma è negativa per qualunque valore positivo di T. Entrambi i fattori spingono nella stessa direzione.\n\nA) L'equilibrio richiede ΔG = 0, condizione qui mai soddisfatta.\nB) Il caso mai spontaneo è ΔH > 0 con ΔS < 0.\nE) e D) Descrivono i casi in cui i due termini hanno effetto contrario: con ΔH < 0 e ΔS < 0 la spontaneità è confinata alle basse temperature, con ΔH > 0 e ΔS > 0 alle alte."
+      "spiegazione": "In ΔG = ΔH − TΔS il primo termine è negativo e il secondo, con ΔS positivo, dà −TΔS anch'esso negativo: la somma è negativa per qualunque valore positivo di T. Entrambi i fattori spingono nella stessa direzione.\n\nA) L'equilibrio richiede ΔG = 0, condizione qui mai soddisfatta.\nB) Il caso mai spontaneo è ΔH > 0 con ΔS < 0.\nD) ed E) Descrivono i casi in cui i due termini hanno effetto contrario: con ΔH < 0 e ΔS < 0 la spontaneità è confinata alle basse temperature, con ΔH > 0 e ΔS > 0 alle alte."
     },
     {
       "id": "u1-0149",
