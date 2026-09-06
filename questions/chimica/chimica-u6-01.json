@@ -1,0 +1,18 @@
+{
+  "lotto": "chimica-u6-01",
+  "unita": "u6",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u6-0001",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Alcoli: reazioni di ossidazione",
+      "testo": "L'ossidazione di un alcol secondario porta alla formazione di un ……",
+      "accettate": [
+        "chetone"
+      ],
+      "spiegazione": "Nell'alcol secondario il carbonio che porta l'ossidrile è legato ad altri due atomi di carbonio e a un solo idrogeno: la perdita di quell'idrogeno e di quello dell'ossidrile genera un doppio legame C=O con due sostituenti carboniosi, cioè un chetone. È il caso del 2-propanolo che dà acetone (propanone).\n\nGli alcoli primari danno invece prima un'aldeide e, in condizioni più spinte, un acido carbossilico. Gli alcoli terziari non hanno idrogeno sul carbonio carbinolico e non si ossidano se non con rottura della catena carboniosa."
+    }
+  ]
+}

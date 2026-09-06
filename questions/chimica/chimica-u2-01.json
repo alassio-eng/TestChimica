@@ -1,0 +1,713 @@
+{
+  "lotto": "chimica-u2-01",
+  "unita": "u2",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u2-0001",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Proprietà colligative: pressione osmotica e fattore di van't Hoff",
+      "testo": "Considerando gli elettroliti completamente dissociati e comportamento ideale, quale delle seguenti soluzioni acquose ha la pressione osmotica maggiore, a parità di temperatura?",
+      "opzioni": [
+        "KCl 0,10 M",
+        "urea 0,15 M",
+        "NaCl 0,10 M",
+        "CaCl₂ 0,10 M",
+        "glucosio 0,20 M"
+      ],
+      "corretta": 3,
+      "spiegazione": "La pressione osmotica segue π = i·M·R·T: conta l'osmolarità, cioè la molarità moltiplicata per il fattore di van't Hoff i (numero di particelle liberate per unità formula). CaCl₂ dà Ca²⁺ + 2 Cl⁻, quindi i = 3 e l'osmolarità è 3 × 0,10 = 0,30 osmol/L, la più alta dell'elenco.\n\nA) KCl: i = 2, osmolarità 0,20 osmol/L, identica a NaCl.\nB) urea: non elettrolita, i = 1, osmolarità 0,15 osmol/L.\nC) NaCl: i = 2, osmolarità 0,20 osmol/L.\nE) glucosio: è un non elettrolita, i = 1, osmolarità 0,20 osmol/L. È il distrattore di chi confronta le molarità dimenticando van't Hoff.\n\nOrdine finale: CaCl₂ (0,30) > NaCl = KCl = glucosio (0,20) > urea (0,15)."
+    },
+    {
+      "id": "u2-0002",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Miscele omogenee ed eterogenee",
+      "testo": "Quale fra i seguenti sistemi è una miscela omogenea?",
+      "opzioni": [
+        "latte",
+        "acqua e olio",
+        "nebbia",
+        "acqua e sabbia",
+        "soluzione fisiologica"
+      ],
+      "corretta": 4,
+      "spiegazione": "In una miscela omogenea i componenti non sono distinguibili nemmeno al microscopio e la composizione è la stessa in ogni punto: la soluzione fisiologica è NaCl disciolto in acqua, quindi una soluzione vera.\n\nA) Il latte è un'emulsione colloidale di goccioline di grasso in fase acquosa.\nB) Acqua e olio danno due fasi separate, quindi un sistema eterogeneo.\nC) La nebbia è un aerosol, cioè un colloide di goccioline liquide disperse in un gas.\nD) Acqua e sabbia formano una sospensione: le particelle sono visibili e sedimentano."
+    },
+    {
+      "id": "u2-0003",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Colloidi",
+      "testo": "Le particelle disperse in un sistema colloidale hanno dimensioni comprese all'incirca fra 1 e 1000 ……",
+      "accettate": [
+        "nanometri",
+        "nanometro",
+        "nm"
+      ],
+      "spiegazione": "È l'intervallo che distingue i colloidi dalle soluzioni vere, dove le particelle disciolte sono ioni o molecole di dimensioni inferiori al nanometro, e dalle sospensioni, dove superano il micrometro e sedimentano.\n\nLe particelle colloidali non sedimentano spontaneamente e non vengono trattenute dai filtri comuni, ma sono abbastanza grandi da diffondere la luce."
+    },
+    {
+      "id": "u2-0004",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Proprietà dei colloidi",
+      "testo": "Un fascio di luce che attraversa un colloide diventa visibile perché le particelle disperse lo diffondono. Questo fenomeno si chiama:",
+      "opzioni": [
+        "dialisi",
+        "effetto Doppler",
+        "effetto Tyndall",
+        "diffusione di Fick",
+        "elettroforesi"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'effetto Tyndall si osserva nei colloidi e non nelle soluzioni vere, dove le particelle sono troppo piccole per diffondere la luce visibile: è il criterio più semplice per distinguere i due sistemi. Lo si vede nei fari di un'auto nella nebbia.\n\nA) La dialisi separa particelle di dimensioni diverse attraverso una membrana.\nB) L'effetto Doppler riguarda la variazione di frequenza di un'onda con il moto relativo della sorgente.\nD) La diffusione di Fick descrive il flusso di materia lungo un gradiente di concentrazione.\nE) L'elettroforesi separa particelle cariche in un campo elettrico."
+    },
+    {
+      "id": "u2-0005",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Sospensioni",
+      "testo": "Una miscela eterogenea in cui le particelle disperse, se il sistema è lasciato a riposo, si depositano sul fondo si chiama ……",
+      "accettate": [
+        "sospensione",
+        "sospensioni"
+      ],
+      "spiegazione": "Nelle sospensioni le particelle superano il micrometro: sono trattenute dai filtri e sedimentano sotto l'azione della gravità. È il motivo per cui certi farmaci in sospensione vanno agitati prima dell'uso.\n\nNei colloidi le particelle sono più piccole e restano disperse a tempo indefinito; nelle soluzioni vere non esistono particelle separate dalla fase liquida."
+    },
+    {
+      "id": "u2-0006",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Aerosol",
+      "testo": "Un aerosol è un sistema colloidale in cui:",
+      "opzioni": [
+        "le particelle disperse superano il millimetro",
+        "la fase disperdente è un gas",
+        "il soluto è disciolto a livello molecolare",
+        "la fase disperdente è un solido",
+        "entrambe le fasi sono liquide e miscibili"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nell'aerosol un liquido (nebbia, spray) o un solido (fumo, polveri sottili) è disperso in un gas. È la forma con cui molti farmaci raggiungono le vie respiratorie.\n\nA) Particelle così grandi non resterebbero disperse: sedimenterebbero subito.\nC) La dispersione a livello molecolare definisce la soluzione vera.\nD) Un solido disperdente dà per esempio le schiume solide o i gel, non un aerosol.\nE) Due liquidi miscibili darebbero una soluzione, non un colloide."
+    },
+    {
+      "id": "u2-0007",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Componenti di una soluzione",
+      "testo": "In una soluzione il componente presente in quantità maggiore, che determina lo stato fisico del sistema, si chiama ……",
+      "accettate": [
+        "solvente"
+      ],
+      "spiegazione": "Il soluto è il componente in quantità minore, disperso a livello molecolare o ionico nel solvente.\n\nNei sistemi biologici il solvente è quasi sempre l'acqua, e la definizione è convenzionale: quando i due componenti sono presenti in quantità confrontabili si parla semplicemente di miscela."
+    },
+    {
+      "id": "u2-0008",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Soluzioni solide, liquide e gassose",
+      "testo": "L'ottone, una lega di rame e zinco, è un esempio di:",
+      "opzioni": [
+        "soluzione solida",
+        "miscela eterogenea",
+        "sospensione",
+        "colloide",
+        "composto chimico definito"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nelle leghe metalliche gli atomi di un metallo sono distribuiti uniformemente nel reticolo dell'altro: la composizione è omogenea a livello atomico e lo stato è solido, quindi si tratta di una soluzione solida.\n\nB) L'omogeneità esclude che il sistema sia eterogeneo.\nC) e D) Richiederebbero particelle disperse distinguibili come fase separata.\nE) Un composto avrebbe una formula e un rapporto fisso fra gli elementi; nell'ottone la proporzione rame-zinco è variabile con continuità.\n\nAnche l'aria è una soluzione, in questo caso gassosa."
+    },
+    {
+      "id": "u2-0009",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "L'acqua come solvente polare",
+      "testo": "L'acqua scioglie bene i composti ionici perché:",
+      "opzioni": [
+        "ha una massa molecolare bassa rispetto ad altri solventi",
+        "reagisce chimicamente con gli ioni formando nuovi composti stabili",
+        "ha una temperatura di ebollizione più elevata di altri solventi",
+        "le sue molecole polari circondano gli ioni e ne indeboliscono l'attrazione",
+        "possiede un momento dipolare nullo che la rende elettricamente neutra"
+      ],
+      "corretta": 3,
+      "spiegazione": "La molecola d'acqua è un dipolo: orienta l'ossigeno parzialmente negativo verso i cationi e gli idrogeni parzialmente positivi verso gli anioni. L'energia liberata da questa solvatazione compensa l'energia reticolare che tiene insieme il cristallo.\n\nA) La massa molecolare non spiega il potere solvente: l'H₂S ha massa maggiore e non è un buon solvente per i sali.\nB) La dissoluzione è un processo fisico: gli ioni restano tali e possono essere recuperati per evaporazione.\nC) L'elevata temperatura di ebollizione è un'altra conseguenza della polarità, non la causa della solubilità.\nE) Il momento dipolare dell'acqua non è affatto nullo: è proprio la geometria angolare a impedirne l'annullamento."
+    },
+    {
+      "id": "u2-0010",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Solvatazione",
+      "testo": "Il processo con cui le molecole di solvente circondano e stabilizzano uno ione in soluzione si chiama ……",
+      "accettate": [
+        "solvatazione",
+        "idratazione",
+        "solvatazione idratazione"
+      ],
+      "spiegazione": "Quando il solvente è l'acqua si parla più precisamente di idratazione. Attorno a ciascuno ione si forma un guscio di molecole d'acqua orientate, la cui energia di formazione rende possibile la dissoluzione del cristallo.\n\nGli ioni idratati sono più ingombranti degli ioni nudi, e questo influenza la loro mobilità in soluzione e il passaggio attraverso i canali di membrana."
+    },
+    {
+      "id": "u2-0011",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Solubilità e polarità",
+      "testo": "Quale fra le seguenti sostanze è la più solubile in acqua?",
+      "opzioni": [
+        "olio d'oliva",
+        "benzene",
+        "cera di paraffina",
+        "esano",
+        "glucosio"
+      ],
+      "corretta": 4,
+      "spiegazione": "Vale la regola «il simile scioglie il simile»: il glucosio possiede cinque gruppi ossidrilici capaci di formare legami a idrogeno con l'acqua, quindi è molto solubile.\n\nA), B), C) e D) sono sostanze apolari o quasi: idrocarburi, trigliceridi e cere interagiscono fra loro solo con forze di London e non possono sostituire i legami a idrogeno che l'acqua perderebbe accogliendole. Restano perciò separati dalla fase acquosa."
+    },
+    {
+      "id": "u2-0012",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Elettroliti",
+      "testo": "Una sostanza che, sciolta in acqua, si dissocia in ioni e rende la soluzione conduttrice di corrente elettrica si chiama ……",
+      "accettate": [
+        "elettrolita",
+        "elettroliti",
+        "elettrolito"
+      ],
+      "spiegazione": "Sono elettroliti i sali, gli acidi e le basi. I portatori di carica in soluzione sono gli ioni, che migrano verso l'elettrodo di segno opposto.\n\nUn non elettrolita, come il glucosio o l'urea, si scioglie restando in forma molecolare: la soluzione non conduce. La distinzione è decisiva per le proprietà colligative, perché un elettrolita libera più particelle per unità di formula."
+    },
+    {
+      "id": "u2-0013",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Elettroliti forti e deboli",
+      "testo": "Un elettrolita debole in soluzione acquosa:",
+      "opzioni": [
+        "si dissocia solo in parte, stabilendo un equilibrio fra forma molecolare e ioni",
+        "si dissocia completamente, come i sali",
+        "si dissocia completamente solo a bassa temperatura",
+        "non si dissocia in alcuna misura e non conduce corrente",
+        "conduce corrente meglio di un elettrolita forte alla stessa concentrazione"
+      ],
+      "corretta": 0,
+      "spiegazione": "In soluzione coesistono le molecole indissociate e gli ioni, in equilibrio fra loro: solo una frazione delle molecole è dissociata, e quella frazione dipende dalla concentrazione. L'acido acetico e l'ammoniaca sono esempi tipici.\n\nB) La dissociazione completa caratterizza gli elettroliti forti.\nC) L'abbassamento della temperatura non porta alla dissociazione completa.\nD) Una dissociazione nulla darebbe un non elettrolita.\nE) A parità di concentrazione l'elettrolita debole libera meno ioni, quindi conduce peggio."
+    },
+    {
+      "id": "u2-0014",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Elettroliti nei fluidi biologici",
+      "testo": "Il catione più abbondante nel liquido extracellulare è il sodio, mentre quello più abbondante nel liquido intracellulare è il ……",
+      "accettate": [
+        "potassio",
+        "potassio k",
+        "k"
+      ],
+      "spiegazione": "La differenza è mantenuta attivamente dalla pompa sodio-potassio, che consuma ATP per espellere sodio e introdurre potassio contro i rispettivi gradienti.\n\nÈ questa asimmetria a generare il potenziale di membrana a riposo, indispensabile per la trasmissione dell'impulso nervoso e per la contrazione muscolare."
+    },
+    {
+      "id": "u2-0015",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Solubilità dei solidi e temperatura",
+      "testo": "Per la maggior parte dei sali, all'aumentare della temperatura la solubilità in acqua:",
+      "opzioni": [
+        "aumenta soltanto se la soluzione è già satura",
+        "diminuisce, perché aumenta l'agitazione delle molecole d'acqua",
+        "aumenta, perché la dissoluzione è di norma endotermica",
+        "diminuisce, esattamente come accade per i gas",
+        "resta costante, perché dipende solo dalla natura del sale"
+      ],
+      "corretta": 2,
+      "spiegazione": "Per la maggior parte dei sali la dissoluzione assorbe calore: fornire energia al sistema sposta l'equilibrio verso la forma disciolta e la solubilità cresce. Si scioglie più zucchero nel tè caldo che in quello freddo.\n\nA) Il comportamento non dipende dallo stato di saturazione.\nB) La maggiore agitazione favorisce la dispersione del soluto, non il contrario.\nD) I gas si comportano in modo opposto: la loro solubilità diminuisce con la temperatura.\nE) La solubilità è una proprietà che dipende sempre dalla temperatura, e per questo va sempre indicata insieme a essa."
+    },
+    {
+      "id": "u2-0016",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Saturazione",
+      "testo": "Una soluzione che contiene la massima quantità di soluto che il solvente può sciogliere a quella temperatura si dice ……",
+      "accettate": [
+        "satura",
+        "saturata"
+      ],
+      "spiegazione": "Nella soluzione satura in presenza di corpo di fondo si stabilisce un equilibrio dinamico: nell'unità di tempo si sciolgono tante particelle quante ne precipitano.\n\nRaffreddando lentamente una soluzione satura si può ottenere una soluzione soprasatura, instabile: basta un urto o un cristallo di innesco perché il soluto in eccesso precipiti."
+    },
+    {
+      "id": "u2-0017",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Non elettroliti",
+      "testo": "Quale fra le seguenti sostanze, sciolta in acqua, si comporta da non elettrolita?",
+      "opzioni": [
+        "CaCl₂",
+        "glucosio",
+        "HCl",
+        "KCl",
+        "NaCl"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il glucosio si scioglie in forma molecolare: i suoi gruppi ossidrilici formano legami a idrogeno con l'acqua, ma la molecola non si dissocia in ioni e la soluzione non conduce corrente.\n\nC) L'acido cloridrico è un acido forte: in acqua si dissocia completamente in H₃O⁺ e Cl⁻.\nA), D) ed E) sono sali, quindi elettroliti forti completamente dissociati.\n\nLa differenza pesa sulle proprietà colligative: una soluzione 0,1 M di glucosio contiene 0,1 mol/L di particelle, una di NaCl 0,2 mol/L."
+    },
+    {
+      "id": "u2-0018",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge di Henry",
+      "testo": "Secondo la legge di Henry, a temperatura costante la quantità di un gas disciolta in un liquido è direttamente proporzionale:",
+      "opzioni": [
+        "alla pressione totale della miscela gassosa",
+        "alla massa molare del gas",
+        "alla pressione parziale di quel gas sopra il liquido",
+        "al volume del liquido soltanto",
+        "alla temperatura assoluta"
+      ],
+      "corretta": 2,
+      "spiegazione": "La legge si scrive C = k · p, dove p è la pressione parziale del gas considerato: raddoppiando la pressione parziale raddoppia la concentrazione disciolta all'equilibrio.\n\nA) Conta la pressione parziale del singolo gas, non quella totale: è la ragione per cui in una miscela ogni gas si scioglie indipendentemente dagli altri.\nB) La massa molare influenza la costante k, che è specifica per ogni coppia gas-solvente, ma non è la variabile della proporzionalità.\nD) Il volume del liquido determina la quantità totale disciolta, non la concentrazione.\nE) La temperatura ha effetto opposto: aumentandola la solubilità diminuisce."
+    },
+    {
+      "id": "u2-0019",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Applicazioni della legge di Henry",
+      "testo": "Aprendo una bottiglia di acqua gassata la pressione sopra il liquido cala di colpo e l'anidride carbonica sfugge in bollicine: è un'applicazione diretta della legge di ……",
+      "accettate": [
+        "henry"
+      ],
+      "spiegazione": "Nella bottiglia chiusa la CO₂ è mantenuta in soluzione da una pressione parziale elevata. All'apertura la pressione scende a quella atmosferica, la concentrazione di equilibrio crolla e il gas in eccesso lascia la soluzione.\n\nLo stesso principio spiega perché l'ossigenoterapia iperbarica aumenta la quantità di ossigeno disciolto nel plasma."
+    },
+    {
+      "id": "u2-0020",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Solubilità dei gas e temperatura",
+      "testo": "Aumentando la temperatura, la solubilità di un gas in un liquido:",
+      "opzioni": [
+        "diminuisce solo per i gas apolari",
+        "aumenta se la pressione resta costante",
+        "aumenta, come per la maggior parte dei sali",
+        "diminuisce, perché la dissoluzione di un gas è un processo esotermico",
+        "resta invariata, perché dipende solo dalla pressione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Sciogliere un gas libera energia: le molecole passano da uno stato disordinato a uno più vincolato in seno al liquido. Fornendo calore l'equilibrio si sposta verso la fase gassosa e la solubilità cala.\n\nA) Il comportamento vale per tutti i gas.\nB) L'andamento è opposto anche a pressione costante.\nC) È il comportamento dei solidi, e applicare a un gas il ragionamento valido per i sali è l'errore ricorrente.\nE) La solubilità dipende sia dalla pressione parziale sia dalla temperatura.\n\nNe deriva che le acque calde contengono meno ossigeno disciolto, con conseguenze per gli organismi acquatici."
+    },
+    {
+      "id": "u2-0021",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Solubilità dei gas: rilevanza biomedica",
+      "testo": "La malattia da decompressione dei subacquei è dovuta alla formazione di bolle di …… che, disciolto nel sangue in profondità, si libera durante una risalita troppo rapida.",
+      "accettate": [
+        "azoto",
+        "azoto n2",
+        "n2"
+      ],
+      "spiegazione": "In profondità la pressione parziale dell'azoto respirato è alta e, per la legge di Henry, la quantità disciolta nei tessuti e nel sangue aumenta. Risalendo, la pressione cala: se la risalita è rapida l'azoto in eccesso non ha tempo di essere eliminato con la ventilazione e forma bolle nei vasi e nei tessuti.\n\nL'azoto è responsabile perché è inerte e presente in aria all'incirca al 78%; l'ossigeno viene invece consumato dal metabolismo."
+    },
+    {
+      "id": "u2-0022",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Molarità",
+      "testo": "La concentrazione espressa come numero di moli di soluto contenute in un litro di soluzione si chiama ……",
+      "accettate": [
+        "molarita",
+        "concentrazione molare"
+      ],
+      "spiegazione": "La molarità si indica con M e si calcola come M = n / V, con il volume della soluzione, non del solvente.\n\nDipende dalla temperatura, perché il volume della soluzione si dilata scaldando: è la ragione per cui, quando serve una grandezza indipendente dalla temperatura, si usa la molalità."
+    },
+    {
+      "id": "u2-0023",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo della molarità",
+      "testo": "Sciogliendo 0,50 mol di cloruro di sodio in acqua fino a ottenere 250 mL di soluzione, la concentrazione molare è:",
+      "opzioni": [
+        "0,125 M",
+        "0,50 M",
+        "2,0 M",
+        "5,0 M",
+        "125 M"
+      ],
+      "corretta": 2,
+      "spiegazione": "M = n / V con V in litri: 0,50 mol ÷ 0,250 L = 2,0 M.\n\nA) 0,125 si ottiene moltiplicando invece di dividere (0,50 × 0,250).\nB) 0,50 riporta le moli senza rapportarle al volume.\nD) 5,0 nasce da un errore nella conversione di 250 mL, trattati come 0,1 L.\nE) 125 confonde i millilitri con i litri."
+    },
+    {
+      "id": "u2-0024",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Molalità",
+      "testo": "La concentrazione espressa come numero di moli di soluto per chilogrammo di solvente si chiama ……",
+      "accettate": [
+        "molalita",
+        "concentrazione molale"
+      ],
+      "spiegazione": "Si indica con m e si calcola come m = n / kg di solvente. Il riferimento è la massa del solo solvente, non quella della soluzione né il suo volume.\n\nÈ la grandezza che compare nelle formule delle proprietà colligative, proprio perché non varia con la temperatura."
+    },
+    {
+      "id": "u2-0025",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Molarità e molalità a confronto",
+      "testo": "La molalità, a differenza della molarità:",
+      "opzioni": [
+        "vale soltanto per le soluzioni acquose",
+        "si esprime in moli per litro",
+        "aumenta sempre al crescere della temperatura",
+        "si riferisce alla massa della soluzione anziché a quella del solvente",
+        "non varia al variare della temperatura, perché è riferita a una massa e non a un volume"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le masse non dipendono dalla temperatura, i volumi sì: scaldando una soluzione il volume aumenta, quindi la molarità diminuisce leggermente, mentre la molalità resta esattamente la stessa.\n\nA) La definizione vale per qualunque solvente.\nB) Le moli per litro sono la molarità.\nC) La molalità non varia con la temperatura, né in un senso né nell'altro.\nD) La molalità si riferisce al solvente, non alla soluzione; è la molarità a considerare il volume complessivo della soluzione.\n\nIn soluzioni acquose molto diluite i due valori sono quasi coincidenti, perché un litro d'acqua pesa circa un chilogrammo."
+    },
+    {
+      "id": "u2-0026",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Percentuale peso su volume",
+      "testo": "Una soluzione di glucosio al 5% peso/volume contiene:",
+      "opzioni": [
+        "5 mL di glucosio in 100 mL di soluzione",
+        "5 g di glucosio in 100 mL di soluzione",
+        "5 mol di glucosio in 100 mL di soluzione",
+        "5 g di glucosio in 100 g di soluzione",
+        "5 g di glucosio in 1 L di soluzione"
+      ],
+      "corretta": 1,
+      "spiegazione": "La percentuale peso/volume esprime i grammi di soluto contenuti in 100 mL di soluzione: al 5% p/V corrispondono 5 g in 100 mL, cioè 50 g in un litro.\n\nA) Millilitri su 100 mL è la percentuale volume/volume, usata per i liquidi miscibili.\nC) Le moli non compaiono nelle percentuali: sono la base della molarità.\nD) Grammi su 100 g di soluzione è la percentuale peso/peso.\nE) 5 g/L corrisponderebbero allo 0,5% p/V."
+    },
+    {
+      "id": "u2-0027",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Unità percentuali di concentrazione",
+      "testo": "La concentrazione peso su volume indica i grammi di soluto contenuti in …… millilitri di soluzione.",
+      "accettate": [
+        "cento",
+        "100"
+      ],
+      "spiegazione": "Il riferimento è sempre a 100 mL di soluzione, come per tutte le espressioni percentuali di concentrazione.\n\nDalla percentuale p/V si passa alla molarità dividendo i grammi per litro per la massa molare: una soluzione fisiologica allo 0,9% p/V contiene 9 g/L di NaCl, cioè 9 ÷ 58,5 ≈ 0,15 mol/L."
+    },
+    {
+      "id": "u2-0028",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Preparazione di una soluzione a titolo noto",
+      "testo": "Quanti grammi di idrossido di sodio (massa molare 40 g/mol) occorrono per preparare 500 mL di soluzione 0,20 M?",
+      "opzioni": [
+        "0,10 g",
+        "2,0 g",
+        "4,0 g",
+        "8,0 g",
+        "40 g"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le moli necessarie sono n = M × V = 0,20 mol/L × 0,500 L = 0,10 mol; la massa è m = n × M(molare) = 0,10 × 40 = 4,0 g.\n\nA) 0,10 è il numero di moli, non la massa in grammi.\nB) 2,0 g si ottiene dimezzando due volte, cioè applicando il volume anche alla massa molare.\nD) 8,0 g corrisponderebbe a un litro di soluzione.\nE) 40 g è la massa di una mole intera."
+    },
+    {
+      "id": "u2-0029",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Frazione molare",
+      "testo": "La somma delle frazioni molari di tutti i componenti di una miscela vale sempre ……",
+      "accettate": [
+        "uno",
+        "1"
+      ],
+      "spiegazione": "La frazione molare di un componente è il rapporto fra le sue moli e le moli totali: sommando tutti i rapporti si ottiene il totale diviso sé stesso, cioè 1.\n\nÈ una grandezza adimensionale, e per questo compare naturalmente nella legge di Raoult e in quella di Dalton, dove mette in relazione la composizione con una pressione."
+    },
+    {
+      "id": "u2-0030",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Diluizioni",
+      "testo": "Prelevando 50 mL di una soluzione 2,0 M e portandoli con acqua a un volume finale di 200 mL, la concentrazione ottenuta è:",
+      "opzioni": [
+        "0,10 M",
+        "0,50 M",
+        "1,0 M",
+        "4,0 M",
+        "8,0 M"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nella diluizione vale C₁V₁ = C₂V₂: C₂ = (2,0 × 50) ÷ 200 = 0,50 M. Il volume è quadruplicato, quindi la concentrazione si riduce a un quarto.\n\nA) 0,10 M si otterrebbe con una diluizione di venti volte.\nC) 1,0 M corrisponderebbe a un raddoppio del volume.\nD) e E) Applicano la proporzionalità diretta invece di quella inversa: diluendo la concentrazione scende, non sale."
+    },
+    {
+      "id": "u2-0031",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Diluizioni",
+      "testo": "In una diluizione si aggiunge solvente senza aggiungere soluto: il numero di moli di soluto resta perciò ……",
+      "accettate": [
+        "costante",
+        "invariato",
+        "lo stesso",
+        "uguale"
+      ],
+      "spiegazione": "È esattamente il contenuto della relazione C₁V₁ = C₂V₂: entrambi i membri esprimono le stesse moli di soluto, prima e dopo l'aggiunta di solvente.\n\nQuello che cambia è il volume in cui quelle moli sono distribuite, e quindi la concentrazione."
+    },
+    {
+      "id": "u2-0032",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Il concetto di equivalente",
+      "testo": "A quanti equivalenti corrisponde 1 mole di ioni Ca²⁺?",
+      "opzioni": [
+        "0,5 equivalenti",
+        "1 equivalente",
+        "2 equivalenti",
+        "4 equivalenti",
+        "40 equivalenti"
+      ],
+      "corretta": 2,
+      "spiegazione": "Per uno ione il numero di equivalenti si ottiene moltiplicando le moli per il valore assoluto della carica: 1 mol × 2 = 2 eq. L'equivalente misura la capacità di combinazione, ed è la ragione per cui in ambito clinico le concentrazioni degli elettroliti si esprimono spesso in mEq/L.\n\nA) 0,5 si otterrebbe dividendo per la carica invece di moltiplicare.\nB) 1 equivalente corrisponde a una mole di ioni monovalenti, come Na⁺ o K⁺.\nD) 4 corrisponderebbe a una carica 4+.\nE) 40 è la massa atomica del calcio, non un numero di equivalenti."
+    },
+    {
+      "id": "u2-0033",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Soluzioni non ideali e attività",
+      "testo": "Nelle soluzioni concentrate gli ioni interagiscono fra loro e si comportano come se fossero meno numerosi: la concentrazione efficace che ne risulta si chiama ……",
+      "accettate": [
+        "attivita"
+      ],
+      "spiegazione": "L'attività si ottiene moltiplicando la concentrazione analitica per il coefficiente di attività, un numero minore di 1 nelle soluzioni reali e tanto più piccolo quanto più la soluzione è concentrata e quanto maggiori sono le cariche degli ioni.\n\nNelle soluzioni molto diluite il coefficiente tende a 1 e attività e concentrazione coincidono, che è il motivo per cui nei calcoli scolastici si usa direttamente la concentrazione. Nello spazio intracellulare, affollato di ioni e macromolecole, lo scostamento non è invece trascurabile."
+    },
+    {
+      "id": "u2-0034",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Percentuale peso su peso",
+      "testo": "Una soluzione al 10% peso/peso contiene:",
+      "opzioni": [
+        "10 g di soluto ogni 100 g di soluzione",
+        "10 g di soluto ogni 100 g di solvente",
+        "10 mL di soluto ogni 100 g di soluzione",
+        "10 g di soluto ogni 100 mL di soluzione",
+        "10 mol di soluto ogni 100 g di soluzione"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nella percentuale peso/peso il denominatore è la massa complessiva della soluzione: 10 g di soluto e 90 g di solvente danno 100 g di soluzione al 10% p/p.\n\nB) Riferire i 10 g ai soli 100 g di solvente darebbe 110 g di soluzione, quindi una percentuale di circa 9,1%.\nC) Mescolare un volume di soluto con una massa di soluzione non corrisponde ad alcuna unità in uso.\nD) Grammi su 100 mL di soluzione è la percentuale peso/volume.\nE) Le moli appartengono alla molarità e alla molalità."
+    },
+    {
+      "id": "u2-0035",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge di Dalton",
+      "testo": "Secondo la legge di Dalton, la pressione totale esercitata da una miscela di gas che non reagiscono fra loro è:",
+      "opzioni": [
+        "la somma delle pressioni parziali dei singoli componenti",
+        "indipendente dalla composizione della miscela",
+        "il prodotto delle pressioni parziali dei componenti",
+        "uguale alla pressione parziale del componente più abbondante",
+        "la media delle pressioni parziali dei componenti"
+      ],
+      "corretta": 0,
+      "spiegazione": "Ogni gas si comporta come se fosse solo nel recipiente e contribuisce alla pressione totale in proporzione al numero delle sue molecole: P totale = p₁ + p₂ + p₃ + …\n\nB) La pressione totale a volume e temperatura fissati dipende dal numero totale di molecole, quindi dalla composizione.\nD) Il componente più abbondante dà il contributo maggiore, ma non l'intera pressione.\nC) ed E) Non corrispondono ad alcuna relazione fisica fra le pressioni."
+    },
+    {
+      "id": "u2-0036",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Pressione parziale",
+      "testo": "La pressione che un singolo gas di una miscela eserciterebbe se occupasse da solo l'intero volume, alla stessa temperatura, si chiama pressione ……",
+      "accettate": [
+        "parziale"
+      ],
+      "spiegazione": "La pressione parziale si calcola moltiplicando la pressione totale per la frazione molare del gas considerato.\n\nÈ la grandezza che governa gli scambi respiratori: ossigeno e anidride carbonica diffondono attraverso la membrana alveolare secondo il gradiente delle loro pressioni parziali, non delle concentrazioni."
+    },
+    {
+      "id": "u2-0037",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo delle pressioni parziali",
+      "testo": "L'aria contiene circa il 21% di ossigeno in volume. A una pressione atmosferica di 760 mmHg, la pressione parziale dell'ossigeno è circa:",
+      "opzioni": [
+        "21 mmHg",
+        "160 mmHg",
+        "600 mmHg",
+        "760 mmHg",
+        "36 mmHg"
+      ],
+      "corretta": 1,
+      "spiegazione": "La pressione parziale si ottiene moltiplicando la pressione totale per la frazione molare, che per i gas coincide con la frazione in volume: 0,21 × 760 ≈ 160 mmHg.\n\nA) 21 confonde la percentuale con una pressione.\nC) 600 mmHg è all'incirca la pressione parziale dell'azoto (0,78 × 760).\nD) 760 mmHg è la pressione totale dell'intera miscela.\nE) 36 mmHg si otterrebbe dividendo 760 per 21.\n\nNegli alveoli la pressione parziale dell'ossigeno scende a circa 100 mmHg, perché l'aria inspirata si mescola con quella residua e si satura di vapore acqueo."
+    },
+    {
+      "id": "u2-0038",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Aria inspirata ed espirata",
+      "testo": "Rispetto all'aria inspirata, l'aria espirata è più povera di ossigeno e nettamente più ricca di ……",
+      "accettate": [
+        "anidride carbonica",
+        "biossido di carbonio",
+        "co2",
+        "co 2"
+      ],
+      "spiegazione": "L'aria inspirata contiene circa il 21% di ossigeno e lo 0,04% di anidride carbonica; quella espirata circa il 16% di ossigeno e il 4-5% di anidride carbonica. La differenza corrisponde agli scambi avvenuti negli alveoli.\n\nL'azoto attraversa i polmoni senza essere consumato: la sua percentuale resta praticamente invariata. L'aria espirata è inoltre satura di vapore acqueo e alla temperatura corporea."
+    },
+    {
+      "id": "u2-0039",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Composizione dell'aria",
+      "testo": "Il componente più abbondante dell'aria secca è:",
+      "opzioni": [
+        "vapore acqueo",
+        "ossigeno",
+        "anidride carbonica",
+        "argon",
+        "azoto"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'aria secca è costituita per circa il 78% da azoto, per il 21% da ossigeno, per lo 0,9% da argon e per lo 0,04% circa da anidride carbonica.\n\nA) Il vapore acqueo è escluso per definizione dall'aria secca; nell'aria reale la sua percentuale è variabile.\nB) L'ossigeno è il secondo componente.\nC) L'anidride carbonica è presente in tracce, per quanto decisive per il clima e per il controllo della respirazione.\nD) L'argon è il gas nobile più abbondante in atmosfera, ma resta sotto l'1%."
+    },
+    {
+      "id": "u2-0040",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Legge di Dalton",
+      "testo": "La pressione parziale di un gas in una miscela si ottiene moltiplicando la pressione totale per la sua frazione ……",
+      "accettate": [
+        "molare"
+      ],
+      "spiegazione": "La relazione è pᵢ = xᵢ · P totale. Per i gas la frazione molare coincide numericamente con la frazione in volume, perché a parità di temperatura e pressione volumi uguali contengono lo stesso numero di molecole.\n\nÈ questa equivalenza che permette di ricavare le pressioni parziali dalle percentuali in volume dell'aria."
+    },
+    {
+      "id": "u2-0041",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Definizione di proprietà colligative",
+      "testo": "Le proprietà di una soluzione che dipendono soltanto dal numero di particelle di soluto disciolte, e non dalla loro natura chimica, si chiamano proprietà ……",
+      "accettate": [
+        "colligative",
+        "colligativa"
+      ],
+      "spiegazione": "Sono quattro: abbassamento della tensione di vapore, innalzamento ebullioscopico, abbassamento crioscopico e pressione osmotica.\n\nProprio perché contano le particelle e non la loro identità, un elettrolita produce un effetto maggiore di un non elettrolita alla stessa concentrazione: NaCl 0,1 m libera 0,2 mol/kg di particelle, il glucosio 0,1 m soltanto 0,1."
+    },
+    {
+      "id": "u2-0042",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge di Raoult",
+      "testo": "Secondo la legge di Raoult, la tensione di vapore di una soluzione contenente un soluto non volatile:",
+      "opzioni": [
+        "dipende dalla natura chimica del soluto e non dalla sua quantità",
+        "è maggiore di quella del solvente puro, in proporzione al soluto",
+        "è uguale a quella del solvente puro, qualunque sia il soluto",
+        "è minore di quella del solvente puro, in proporzione al solvente presente",
+        "si annulla completamente in presenza di un soluto non volatile"
+      ],
+      "corretta": 3,
+      "spiegazione": "La legge si scrive p = x(solvente) · p°(solvente): poiché la frazione molare del solvente in una soluzione è minore di 1, la tensione di vapore risulta sempre inferiore a quella del solvente puro.\n\nA) È il punto centrale delle proprietà colligative: conta quante particelle ci sono, non quali.\nB) ed E) Sono in contrasto con la relazione: la tensione diminuisce ma non si annulla.\nC) L'uguaglianza si avrebbe solo con frazione molare del solvente pari a 1, cioè in assenza di soluto."
+    },
+    {
+      "id": "u2-0043",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Abbassamento della tensione di vapore",
+      "testo": "L'aggiunta di un soluto non volatile a un liquido provoca un abbassamento della tensione di ……",
+      "accettate": [
+        "vapore"
+      ],
+      "spiegazione": "È la prima delle quattro proprietà colligative, e da essa discendono le altre tre: se il liquido evapora meno facilmente, servirà una temperatura più alta perché la tensione di vapore uguagli la pressione esterna, cioè perché bolla.\n\nL'entità dell'abbassamento è Δp = x(soluto) · p°, quindi cresce con la frazione molare del soluto."
+    },
+    {
+      "id": "u2-0044",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Interpretazione dell'abbassamento della tensione di vapore",
+      "testo": "L'abbassamento della tensione di vapore si spiega perché la presenza del soluto riduce la frazione …… del solvente e quindi il numero di sue molecole che passano in fase vapore.",
+      "accettate": [
+        "molare"
+      ],
+      "spiegazione": "La superficie del liquido è in parte occupata da particelle di soluto non volatili: a parità di temperatura, un numero minore di molecole di solvente riesce a lasciare la fase liquida, e l'equilibrio si stabilisce a una pressione di vapore più bassa.\n\nÈ un effetto puramente statistico e non chimico: dipende dalla proporzione fra particelle di solvente e di soluto, non dalla natura del soluto."
+    },
+    {
+      "id": "u2-0045",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Innalzamento ebullioscopico",
+      "testo": "La differenza fra la temperatura di ebollizione di una soluzione e quella del solvente puro si chiama innalzamento ……",
+      "accettate": [
+        "ebullioscopico",
+        "ebullioscopica"
+      ],
+      "spiegazione": "Vale ΔTeb = Keb · m · i, dove Keb è la costante ebullioscopica del solvente (0,512 °C·kg/mol per l'acqua), m la molalità e i il fattore di van't Hoff.\n\nL'origine del fenomeno è l'abbassamento della tensione di vapore: la soluzione deve essere portata a temperatura più alta perché la sua tensione di vapore raggiunga la pressione esterna."
+    },
+    {
+      "id": "u2-0046",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Proprietà colligative e numero di particelle",
+      "testo": "A parità di molalità e di temperatura, quale fra le seguenti soluzioni acquose presenta la tensione di vapore più bassa?",
+      "opzioni": [
+        "glucosio 0,10 m",
+        "saccarosio 0,10 m",
+        "glicerolo 0,10 m",
+        "urea 0,10 m",
+        "cloruro di sodio 0,10 m"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'abbassamento della tensione di vapore dipende dal numero di particelle disciolte. Il cloruro di sodio è un elettrolita forte e si dissocia in Na⁺ e Cl⁻: 0,10 m di NaCl dà 0,20 mol/kg di particelle, il doppio delle altre soluzioni.\n\nA), B), C) e D) sono tutti non elettroliti, con fattore di van't Hoff pari a 1: a parità di molalità producono lo stesso effetto colligativo, minore di quello del sale.\n\nCon lo stesso ragionamento, la soluzione di NaCl è anche quella che bolle alla temperatura più alta e congela alla più bassa."
+    },
+    {
+      "id": "u2-0047",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Natura delle proprietà colligative",
+      "testo": "Le proprietà colligative dipendono dal …… di particelle di soluto presenti, non dalla loro identità chimica.",
+      "accettate": [
+        "numero",
+        "conteggio"
+      ],
+      "spiegazione": "Una mole di glucosio e una mole di urea, sciolte nella stessa quantità di acqua, producono esattamente lo stesso abbassamento crioscopico, benché siano molecole diverse.\n\nQuando invece il soluto è un elettrolita occorre moltiplicare per il fattore di van't Hoff, perché una sola unità di formula libera più particelle."
+    },
+    {
+      "id": "u2-0048",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'abbassamento crioscopico",
+      "testo": "Sciogliendo 0,10 mol di glucosio in 1,0 kg di acqua (costante crioscopica 1,86 °C·kg/mol), la soluzione congela a:",
+      "opzioni": [
+        "0 °C",
+        "−0,186 °C",
+        "−1,86 °C",
+        "−0,372 °C",
+        "+0,186 °C"
+      ],
+      "corretta": 1,
+      "spiegazione": "La molalità è 0,10 mol/kg e il glucosio è un non elettrolita, quindi i = 1: ΔTcr = 1,86 × 0,10 × 1 = 0,186 °C. La temperatura di congelamento scende sotto lo zero, quindi −0,186 °C.\n\nA) 0 °C è il valore dell'acqua pura: l'aggiunta di un soluto lo abbassa sempre.\nC) −1,86 °C corrisponderebbe a una molalità di 1,0 mol/kg.\nD) −0,372 °C si otterrebbe con i = 2, cioè se il glucosio si dissociasse: ma è un non elettrolita.\nE) Il segno è invertito: l'aggiunta di soluto abbassa il punto di congelamento, non lo innalza."
+    },
+    {
+      "id": "u2-0049",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Applicazioni dell'abbassamento crioscopico",
+      "testo": "Spargere sale sulle strade ghiacciate serve a far sciogliere il ghiaccio a temperature inferiori a 0 °C, e sfrutta l'abbassamento ……",
+      "accettate": [
+        "crioscopico",
+        "crioscopica"
+      ],
+      "spiegazione": "Il sale disciolto abbassa la temperatura di congelamento della soluzione che si forma: a −5 °C il ghiaccio puro resterebbe solido, mentre la soluzione salina è ancora liquida.\n\nIl cloruro di sodio è particolarmente efficace perché è un elettrolita: ogni unità di formula libera due particelle e l'effetto è doppio rispetto a un non elettrolita a parità di molalità."
+    },
+    {
+      "id": "u2-0050",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Fattore di van't Hoff e abbassamento crioscopico",
+      "testo": "A parità di molalità, quale fra le seguenti soluzioni acquose congela alla temperatura più bassa (elettroliti completamente dissociati)?",
+      "opzioni": [
+        "glucosio 0,10 m",
+        "cloruro di sodio 0,10 m",
+        "urea 0,10 m",
+        "cloruro di calcio 0,10 m",
+        "cloruro di potassio 0,10 m"
+      ],
+      "corretta": 3,
+      "spiegazione": "Conta il numero di particelle, cioè il prodotto m × i. Il cloruro di calcio dà Ca²⁺ + 2 Cl⁻, quindi i = 3 e 0,30 mol/kg di particelle: l'abbassamento crioscopico è il maggiore dell'elenco.\n\nA) e C) Glucosio e urea sono non elettroliti, i = 1, quindi 0,10 mol/kg.\nB) ed E) NaCl e KCl hanno i = 2, quindi 0,20 mol/kg di particelle.\n\nOrdine dell'abbassamento: CaCl₂ > NaCl = KCl > glucosio = urea."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "materia": "fisica",
+  "nome": "Fisica",
+  "aggiornato": null,
+  "formato": {
+    "unita": {
+      "totale": 15,
+      "multipla": 8,
+      "completamento": 7
+    },
+    "completo": {
+      "totale": 31,
+      "multipla": 15,
+      "completamento": 16
+    }
+  },
+  "_da_compilare": "Elenco delle unità didattiche ricavato dal syllabus ufficiale: id (u1, u2, …), nome, quota nel test completo (la somma delle quote deve dare 31) e obiettivo di domande a regime. I file delle domande seguono la convenzione fisica-uN-NN.json, uno per unità, massimo una cinquantina di domande ciascuno. Vedi SPEC-NUOVA-MATERIA.md.",
+  "unita": [],
+  "lotti": []
+}

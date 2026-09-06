@@ -1,0 +1,74 @@
+{
+  "schema": 2,
+  "materia": "chimica",
+  "nome": "Chimica e propedeutica biochimica",
+  "aggiornato": "2026-09-06",
+  "formato": {
+    "unita": {
+      "totale": 15,
+      "multipla": 8,
+      "completamento": 7
+    },
+    "completo": {
+      "totale": 31,
+      "multipla": 15,
+      "completamento": 16
+    }
+  },
+  "unita": [
+    {
+      "id": "u1",
+      "nome": "Atomo, legami, stati della materia, termodinamica",
+      "quota": 8,
+      "obiettivo": 150
+    },
+    {
+      "id": "u2",
+      "nome": "Miscele, soluzioni, proprietà colligative",
+      "quota": 2,
+      "obiettivo": 70
+    },
+    {
+      "id": "u3",
+      "nome": "Cinetica ed equilibrio chimico",
+      "quota": 2,
+      "obiettivo": 70
+    },
+    {
+      "id": "u4",
+      "nome": "Acidi, basi, tamponi, redox ed elettrochimica",
+      "quota": 5,
+      "obiettivo": 100
+    },
+    {
+      "id": "u5",
+      "nome": "Carbonio, idrocarburi, aromatici",
+      "quota": 4,
+      "obiettivo": 90
+    },
+    {
+      "id": "u6",
+      "nome": "Gruppi funzionali e isomerie",
+      "quota": 1,
+      "obiettivo": 70
+    },
+    {
+      "id": "u7",
+      "nome": "Amminoacidi, carboidrati, lipidi, acidi nucleici",
+      "quota": 9,
+      "obiettivo": 150
+    }
+  ],
+  "lotti": [
+    "chimica-u1-01.json",
+    "chimica-u1-02.json",
+    "chimica-u1-03.json",
+    "chimica-u2-01.json",
+    "chimica-u2-02.json",
+    "chimica-u3-01.json",
+    "chimica-u4-01.json",
+    "chimica-u5-01.json",
+    "chimica-u6-01.json",
+    "chimica-u7-01.json"
+  ]
+}

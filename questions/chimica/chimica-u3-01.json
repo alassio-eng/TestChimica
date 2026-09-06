@@ -1,0 +1,18 @@
+{
+  "lotto": "chimica-u3-01",
+  "unita": "u3",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u3-0001",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Cinetica: catalizzatori ed energia di attivazione",
+      "testo": "Un catalizzatore aumenta la velocità di una reazione perché offre un cammino alternativo caratterizzato da una minore energia di ……",
+      "accettate": [
+        "attivazione"
+      ],
+      "spiegazione": "Il catalizzatore fa procedere la reazione attraverso uno stato di transizione a energia più bassa: abbassando l'energia di attivazione Ea, secondo l'equazione di Arrhenius k = A·e^(−Ea/RT), la costante cinetica aumenta.\n\nDa non confondere con l'energia libera di reazione: il catalizzatore abbassa Ea della reazione diretta e di quella inversa nella stessa misura, quindi non modifica né il ΔG della reazione né la costante di equilibrio. Cambia la velocità con cui l'equilibrio viene raggiunto, non la sua posizione."
+    }
+  ]
+}

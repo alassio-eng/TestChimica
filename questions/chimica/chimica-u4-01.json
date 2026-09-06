@@ -1,0 +1,35 @@
+{
+  "lotto": "chimica-u4-01",
+  "unita": "u4",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u4-0001",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Soluzioni tampone: equazione di Henderson-Hasselbalch",
+      "testo": "Una soluzione contiene acido acetico 0,10 M e acetato di sodio 0,10 M. Sapendo che il pKa dell'acido acetico è 4,76, il pH della soluzione è:",
+      "opzioni": [
+        "4,76",
+        "4,00",
+        "7,00",
+        "2,38",
+        "9,52"
+      ],
+      "corretta": 0,
+      "spiegazione": "Si applica l'equazione di Henderson-Hasselbalch: pH = pKa + log([base coniugata]/[acido]). Poiché acido e base coniugata hanno la stessa concentrazione, il rapporto vale 1, il suo logaritmo è 0 e quindi pH = pKa = 4,76. È anche la condizione di massimo potere tamponante.\n\nB) 4,00 è −log(0,10): si otterrebbe trattando l'acido acetico come un acido forte completamente dissociato, ignorando che è un acido debole e che è presente la sua base coniugata.\nC) 7,00 è l'errore di chi deduce «concentrazioni uguali, quindi soluzione neutra». Le concentrazioni uguali danno pH = pKa, che è neutro solo se pKa vale 7.\nD) 2,38 è pKa/2, operazione priva di fondamento; la formula pH = ½(pKa − log Ca) vale per un acido debole da solo, non per un tampone.\nE) 9,52 è 2 × pKa, anch'esso privo di significato; 14 − 4,76 = 9,24 sarebbe il pKb, non il pH."
+    },
+    {
+      "id": "u4-0002",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Elettrochimica: elettrodi di una cella galvanica",
+      "testo": "In una cella elettrochimica l'elettrodo presso il quale avviene la semireazione di ossidazione si chiama ……",
+      "accettate": [
+        "anodo",
+        "l'anodo"
+      ],
+      "spiegazione": "Per definizione l'ossidazione avviene sempre all'anodo e la riduzione sempre al catodo, sia nelle celle galvaniche sia in quelle elettrolitiche: è la definizione stessa dei due elettrodi.\n\nL'errore tipico è legare l'anodo al segno della polarità: nella cella galvanica l'anodo è il polo negativo (gli elettroni vi vengono prodotti e da lì escono verso il circuito esterno), mentre nella cella elettrolitica l'anodo è il polo positivo. Il segno cambia, la definizione in termini di ossidazione no."
+    }
+  ]
+}

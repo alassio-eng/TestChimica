@@ -1,0 +1,718 @@
+{
+  "lotto": "chimica-u1-02",
+  "unita": "u1",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u1-0051",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Massa molare",
+      "testo": "La massa di una mole di sostanza, espressa in grammi su mole, si chiama massa ……",
+      "accettate": [
+        "molare"
+      ],
+      "spiegazione": "La massa molare si ricava sommando le masse atomiche degli elementi che compongono la formula e leggendo il risultato in g/mol: per l'acqua 18 g/mol, per il glucosio 180 g/mol.\n\nDa non confondere con la massa molecolare, che è la stessa quantità numerica ma espressa in unità di massa atomica e riferita a una singola molecola."
+    },
+    {
+      "id": "u1-0052",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Relazione fra massa molare e massa molecolare",
+      "testo": "Il valore numerico della massa molare di una sostanza, espressa in g/mol:",
+      "opzioni": [
+        "è sempre dodici volte maggiore di quello della sua massa molecolare",
+        "coincide con il numero di Avogadro, cioè con 6,022·10²³",
+        "dipende dalla quantità di sostanza che si considera nel calcolo",
+        "coincide con quello della sua massa molecolare espressa in unità di massa atomica",
+        "è uguale al numero di atomi che compongono una molecola"
+      ],
+      "corretta": 3,
+      "spiegazione": "La coincidenza numerica è voluta: l'unità di massa atomica e la costante di Avogadro sono definite in modo che la massa di una mole in grammi abbia lo stesso valore della massa di una singola particella in unità di massa atomica. L'acqua ha massa molecolare 18 u e massa molare 18 g/mol.\n\nA) Il fattore 12 non compare in questa relazione; il 12 della definizione di unità di massa atomica riguarda il carbonio-12.\nB) Il numero di Avogadro è un conteggio di particelle, non una massa.\nC) La massa molare è una proprietà della sostanza e non dipende da quanta se ne prende: dipende dalla quantità la massa in grammi, non il rapporto massa/moli.\nE) Il numero di atomi per molecola è un'altra grandezza: l'acqua ne ha 3, ma massa molare 18 g/mol."
+    },
+    {
+      "id": "u1-0053",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Volume molare dei gas",
+      "testo": "Una mole di qualunque gas che si comporti idealmente, a 0 °C e 1 atm, occupa un volume di circa:",
+      "opzioni": [
+        "22,4 L",
+        "1 L",
+        "44,8 L",
+        "6,022·10²³ L",
+        "18 L"
+      ],
+      "corretta": 0,
+      "spiegazione": "Dall'equazione di stato V = nRT/P, con n = 1 mol, T = 273,15 K, P = 1 atm e R = 0,0821 L·atm·mol⁻¹·K⁻¹, si ottiene circa 22,4 L. Il valore non dipende dalla natura del gas: è il contenuto del principio di Avogadro, secondo cui volumi uguali di gas diversi, nelle stesse condizioni, contengono lo stesso numero di molecole.\n\nC) 44,8 L corrispondono a due moli.\nD) Confonde il numero di particelle con un volume.\nE) 18 è la massa molare dell'acqua in g/mol, non un volume."
+    },
+    {
+      "id": "u1-0054",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Calcolo della quantità di sostanza",
+      "testo": "Il rapporto fra la massa di un campione e la sua massa molare fornisce il numero di ……",
+      "accettate": [
+        "moli",
+        "mole"
+      ],
+      "spiegazione": "La relazione è n = m / M: dividendo grammi per grammi su mole restano le moli.\n\nÈ la formula che collega la grandezza pesabile in laboratorio, la massa, con la grandezza che compare nei coefficienti stechiometrici, la quantità di sostanza."
+    },
+    {
+      "id": "u1-0055",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Mole e composizione delle molecole",
+      "testo": "Quanti atomi di ossigeno sono contenuti in 1 mole di acido solforico H₂SO₄?",
+      "opzioni": [
+        "7",
+        "4",
+        "6,022·10²³",
+        "1,2·10²⁴",
+        "2,4·10²⁴"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ogni molecola contiene 4 atomi di ossigeno, quindi una mole di H₂SO₄ contiene 4 moli di atomi di ossigeno: 4 × 6,022·10²³ = 2,4·10²⁴ atomi.\n\nA) 7 è il numero totale di atomi in una molecola di H₂SO₄ (2 + 1 + 4).\nB) 4 è il numero di atomi di ossigeno in una singola molecola, non in una mole.\nC) È il numero di molecole di H₂SO₄, non di atomi di ossigeno.\nD) Corrisponde a 2 moli di atomi: si otterrebbe considerando i due idrogeni."
+    },
+    {
+      "id": "u1-0056",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Tipi di formula chimica",
+      "testo": "La formula che indica soltanto il rapporto minimo, espresso da numeri interi, fra gli atomi presenti in un composto si chiama formula ……",
+      "accettate": [
+        "minima",
+        "empirica"
+      ],
+      "spiegazione": "Per il perossido di idrogeno la formula minima è HO, mentre la formula molecolare, che dà il numero effettivo di atomi per molecola, è H₂O₂.\n\nLa formula di struttura aggiunge l'informazione su come gli atomi sono legati fra loro, che le prime due non forniscono: è ciò che distingue isomeri con la stessa formula molecolare."
+    },
+    {
+      "id": "u1-0057",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ioni poliatomici",
+      "testo": "Quale fra le seguenti specie è uno ione poliatomico?",
+      "opzioni": [
+        "Ca²⁺",
+        "SO₄²⁻",
+        "Cl⁻",
+        "O²⁻",
+        "Na⁺"
+      ],
+      "corretta": 1,
+      "spiegazione": "Lo ione solfato è formato da cinque atomi legati covalentemente fra loro, e l'insieme porta una carica complessiva di 2−: è quindi uno ione poliatomico.\n\nA), C), D) ed E) sono ioni monoatomici, costituiti da un unico atomo che ha ceduto o acquistato elettroni. Negli ioni poliatomici i legami interni restano covalenti: la carica riguarda l'aggregato nel suo complesso, non un singolo atomo."
+    },
+    {
+      "id": "u1-0058",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Definizione di ione",
+      "testo": "Un atomo o un gruppo di atomi che possiede una carica elettrica netta, per aver ceduto o acquistato elettroni, si chiama ……",
+      "accettate": [
+        "ione"
+      ],
+      "spiegazione": "Se ha ceduto elettroni la carica è positiva e lo ione si dice catione; se li ha acquistati la carica è negativa e si parla di anione.\n\nIl numero di protoni non cambia mai in questi processi: l'identità dell'elemento resta la stessa, cambia solo il numero di elettroni."
+    },
+    {
+      "id": "u1-0059",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Legame ionico",
+      "testo": "Il legame ionico si forma tipicamente fra:",
+      "opzioni": [
+        "molecole polari che si attraggono per interazione fra dipoli permanenti",
+        "atomi di metalli i cui elettroni di valenza restano delocalizzati nel reticolo",
+        "due atomi con la stessa elettronegatività, che condividono equamente gli elettroni",
+        "atomi con differenza di elettronegatività elevata, per trasferimento di elettroni",
+        "due atomi non metallici che mettono in comune una o più coppie di elettroni"
+      ],
+      "corretta": 3,
+      "spiegazione": "Quando la differenza di elettronegatività fra i due atomi è grande (convenzionalmente maggiore di circa 1,9), l'atomo più elettronegativo strappa l'elettrone all'altro: si formano un catione e un anione, tenuti insieme dall'attrazione elettrostatica. È il caso di NaCl, con differenza di circa 2,1.\n\nA) Le interazioni dipolo-dipolo sono forze intermolecolari deboli, non un legame chimico vero e proprio.\nB) Descrive il legame metallico.\nC) Elettronegatività uguale dà un legame covalente omopolare.\nE) La condivisione fra non metalli è il legame covalente."
+    },
+    {
+      "id": "u1-0060",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legame ionico",
+      "testo": "Il legame che si instaura per trasferimento di elettroni da un metallo a un non metallo, con formazione di ioni di segno opposto che si attraggono, si chiama legame ……",
+      "accettate": [
+        "ionico",
+        "elettrovalente"
+      ],
+      "spiegazione": "L'attrazione elettrostatica fra ioni di carica opposta non ha una direzione privilegiata: ogni ione attrae in tutte le direzioni. Per questo i composti ionici allo stato solido formano reticoli cristallini estesi e non molecole discrete.\n\nLa formula NaCl indica quindi il rapporto minimo fra gli ioni nel reticolo, non una molecola di cloruro di sodio."
+    },
+    {
+      "id": "u1-0061",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Legame covalente omopolare",
+      "testo": "Nella molecola di idrogeno H₂ il legame è covalente:",
+      "opzioni": [
+        "polare, perché l'idrogeno è uno degli elementi più elettronegativi",
+        "eteropolare, perché uno dei due atomi attrae verso di sé la coppia elettronica condivisa",
+        "dativo, perché entrambi gli elettroni del legame provengono da uno solo dei due atomi",
+        "ionico, perché nella molecola si formano gli ioni H⁺ e H⁻ che si attraggono",
+        "omopolare, perché i due atomi hanno uguale elettronegatività e condividono equamente la coppia"
+      ],
+      "corretta": 4,
+      "spiegazione": "Due atomi identici hanno la stessa elettronegatività: la coppia di elettroni è distribuita simmetricamente, non si genera alcun momento dipolare e il legame è covalente puro, o omopolare.\n\nA) e B) Richiederebbero una differenza di elettronegatività, che qui è nulla per definizione.\nC) Nel legame dativo entrambi gli elettroni vengono da un solo atomo; in H₂ ciascun atomo mette a disposizione il proprio.\nD) La formazione di ioni richiederebbe un trasferimento completo di elettroni, che non avviene fra atomi uguali."
+    },
+    {
+      "id": "u1-0062",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legame covalente polare",
+      "testo": "Un legame covalente fra due atomi con elettronegatività diversa, in cui la coppia elettronica è più spostata verso uno dei due, si dice covalente ……",
+      "accettate": [
+        "polare",
+        "eteropolare"
+      ],
+      "spiegazione": "Lo spostamento della densità elettronica genera cariche parziali, δ− sull'atomo più elettronegativo e δ+ sull'altro, e quindi un momento dipolare di legame. È il caso del legame O–H nell'acqua.\n\nÈ una situazione intermedia fra il covalente puro (differenza nulla) e il legame ionico (trasferimento completo): non esiste un confine netto, ma una gradualità."
+    },
+    {
+      "id": "u1-0063",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Legame covalente dativo",
+      "testo": "Nel legame covalente dativo (o di coordinazione):",
+      "opzioni": [
+        "il legame è più debole di un normale legame covalente",
+        "entrambi gli elettroni della coppia condivisa provengono da uno solo dei due atomi",
+        "ciascuno dei due atomi mette a disposizione un elettrone",
+        "gli elettroni sono delocalizzati su tutti gli atomi della molecola",
+        "un elettrone viene trasferito completamente da un atomo all'altro"
+      ],
+      "corretta": 1,
+      "spiegazione": "Un atomo donatore, che possiede un doppietto elettronico non condiviso, lo mette a disposizione di un atomo o ione accettore, che dispone di un orbitale vuoto. È così che l'ammoniaca lega un protone formando NH₄⁺.\n\nA) Una volta formato, il legame dativo è indistinguibile da un normale legame covalente: nello ione ammonio i quattro legami N–H sono equivalenti.\nC) Descrive il legame covalente ordinario.\nD) La delocalizzazione riguarda il legame metallico e i sistemi coniugati.\nE) Il trasferimento completo dà un legame ionico."
+    },
+    {
+      "id": "u1-0064",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legame dativo",
+      "testo": "Nella formazione dello ione ossonio H₃O⁺ l'acqua fornisce entrambi gli elettroni del nuovo legame con il protone, che è quindi un legame covalente ……",
+      "accettate": [
+        "dativo",
+        "coordinativo",
+        "di coordinazione"
+      ],
+      "spiegazione": "L'ossigeno dell'acqua possiede due doppietti non condivisi; uno di essi accoglie il protone H⁺, che è privo di elettroni e mette a disposizione solo il proprio orbitale vuoto.\n\nDopo la formazione i tre legami O–H dello ione ossonio sono del tutto equivalenti: l'aggettivo «dativo» descrive il modo in cui il legame si è formato, non una sua proprietà residua."
+    },
+    {
+      "id": "u1-0065",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ibridazione sp³",
+      "testo": "Un atomo di carbonio ibridato sp³:",
+      "opzioni": [
+        "forma quattro orbitali ibridi equivalenti diretti verso i vertici di un tetraedro",
+        "ha geometria quadrata planare",
+        "forma due orbitali ibridi a 180° e conserva due orbitali p puri",
+        "possiede un doppio legame e due legami singoli",
+        "forma tre orbitali ibridi complanari a 120° e conserva un orbitale p puro"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'ibridazione sp³ combina un orbitale s con tre orbitali p, generando quattro orbitali ibridi identici orientati verso i vertici di un tetraedro, con angoli di circa 109,5°. È la situazione del carbonio negli alcani e in tutti gli atomi di carbonio che formano solo legami singoli.\n\nB) La geometria quadrata planare non deriva dall'ibridazione sp³, che è tetraedrica.\nC) Descrive l'ibridazione sp, tipica degli alchini.\nD) Un carbonio con un doppio legame è ibridato sp², non sp³.\nE) Descrive l'ibridazione sp², tipica del carbonio degli alcheni."
+    },
+    {
+      "id": "u1-0066",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Geometria molecolare del carbonio sp³",
+      "testo": "Un atomo di carbonio ibridato sp³ legato a quattro sostituenti dà luogo a una geometria ……",
+      "accettate": [
+        "tetraedrica",
+        "tetraedro"
+      ],
+      "spiegazione": "I quattro orbitali ibridi si dispongono il più lontano possibile l'uno dall'altro, cioè verso i vertici di un tetraedro regolare, con angoli di circa 109,5°: è la disposizione che minimizza la repulsione fra le coppie elettroniche di legame.\n\nÈ questa geometria a rendere possibile la chiralità: un carbonio sp³ con quattro sostituenti diversi non è sovrapponibile alla propria immagine speculare."
+    },
+    {
+      "id": "u1-0067",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ibridazione sp²",
+      "testo": "Nell'etene CH₂=CH₂ i due atomi di carbonio sono ibridati:",
+      "opzioni": [
+        "sp³d",
+        "sp",
+        "non sono ibridati",
+        "sp²",
+        "sp³"
+      ],
+      "corretta": 3,
+      "spiegazione": "Ciascun carbonio forma tre legami σ (due con gli idrogeni e uno con l'altro carbonio) e li orienta a 120° su un piano: servono tre orbitali ibridi, ottenuti combinando un orbitale s con due p. L'orbitale p rimasto, perpendicolare al piano, si sovrappone lateralmente con quello dell'altro carbonio formando il legame π del doppio legame.\n\nA) L'ibridazione sp³d richiede orbitali d, non disponibili per il carbonio del secondo periodo.\nB) L'ibridazione sp compare negli alchini, con due legami π.\nC) Senza ibridazione non si spiegherebbero la planarità né l'equivalenza dei legami C–H.\nE) L'ibridazione sp³ non lascia orbitali p disponibili per il legame π."
+    },
+    {
+      "id": "u1-0068",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Orbitali molecolari",
+      "testo": "Nel doppio legame carbonio-carbonio, oltre al legame sigma è presente un legame ……",
+      "accettate": [
+        "pi greco",
+        "pigreco",
+        "pi",
+        "greco"
+      ],
+      "spiegazione": "Il legame π nasce dalla sovrapposizione laterale di due orbitali p paralleli, perpendicolari al piano della molecola. La densità elettronica si dispone sopra e sotto quel piano.\n\nLa sovrapposizione laterale è meno efficace di quella frontale del legame σ: il legame π è più debole e più reattivo, ed è la ragione per cui gli alcheni danno reazioni di addizione. Impedisce inoltre la rotazione attorno al doppio legame, rendendo possibile l'isomeria cis-trans."
+    },
+    {
+      "id": "u1-0069",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Geometria molecolare dell'acqua",
+      "testo": "La molecola dell'acqua ha geometria angolare, con un angolo H–O–H di circa 104,5°, perché:",
+      "opzioni": [
+        "il legame O–H ha carattere prevalentemente ionico e non direzionale",
+        "l'ossigeno non è ibridato e impiega due orbitali p puri disposti fra loro a 90°",
+        "i due doppietti non condivisi sull'ossigeno comprimono l'angolo fra le coppie di legame",
+        "l'ossigeno è ibridato sp e i due legami O–H risultano allineati fra loro a 180°",
+        "i due atomi di idrogeno, respingendosi a vicenda, allontanano i legami fra loro"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'ossigeno è ibridato sp³ e le quattro coppie elettroniche (due di legame e due non condivise) si dispongono verso i vertici di un tetraedro. I doppietti non condivisi, non essendo trattenuti fra due nuclei, occupano più spazio e comprimono l'angolo di legame da 109,5° a circa 104,5°.\n\nA) Il legame O–H è covalente polare: la differenza di elettronegatività è circa 1,4.\nB) Senza ibridazione ci si aspetterebbero circa 90°, valore lontano da quello osservato.\nD) L'ibridazione sp darebbe una molecola lineare, con angolo di 180°.\nE) La repulsione fra i due idrogeni tenderebbe ad allargare l'angolo, non a chiuderlo sotto il valore tetraedrico."
+    },
+    {
+      "id": "u1-0070",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Geometria molecolare dell'ammoniaca",
+      "testo": "Nella molecola di ammoniaca la presenza di un doppietto elettronico non condiviso sull'azoto determina una geometria ……",
+      "accettate": [
+        "piramidale",
+        "piramide trigonale",
+        "piramidale trigonale"
+      ],
+      "spiegazione": "L'azoto sp³ ha quattro coppie elettroniche disposte tetraedricamente, ma solo tre sono di legame: la forma della molecola, che si descrive considerando le posizioni dei nuclei, è quella di una piramide a base triangolare, con l'azoto al vertice e un angolo H–N–H di circa 107°.\n\nÈ proprio quel doppietto non condiviso a rendere l'ammoniaca una base e un nucleofilo."
+    },
+    {
+      "id": "u1-0071",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Polarità delle molecole",
+      "testo": "L'anidride carbonica CO₂ possiede due legami C=O nettamente polari, ma la molecola nel suo complesso è apolare. Il motivo è che:",
+      "opzioni": [
+        "i due legami hanno momenti dipolari trascurabili",
+        "la molecola è angolare e i momenti si sommano a zero",
+        "il carbonio possiede doppietti non condivisi che compensano la polarità",
+        "il carbonio e l'ossigeno hanno la stessa elettronegatività",
+        "la molecola è lineare e i due momenti dipolari, uguali e opposti, si annullano"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il carbonio in CO₂ è ibridato sp e la molecola è lineare (O=C=O, angolo 180°). I due momenti dipolari di legame hanno lo stesso modulo e direzioni opposte: la loro somma vettoriale è nulla e la molecola non presenta momento dipolare complessivo.\n\nA) I legami C=O sono molto polari: la differenza di elettronegatività è circa 1.\nB) La molecola non è angolare; se lo fosse, come nell'acqua, i momenti non si annullerebbero e la molecola sarebbe polare.\nC) Il carbonio in CO₂ non ha doppietti non condivisi.\nD) Ossigeno 3,5 e carbonio 2,5 sono ben diversi."
+    },
+    {
+      "id": "u1-0072",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Momento dipolare e simmetria",
+      "testo": "Una molecola con legami polari risulta nel complesso apolare quando, per la simmetria della sua geometria, i momenti dipolari di legame si ……",
+      "accettate": [
+        "annullano",
+        "annulla",
+        "elidono",
+        "compensano"
+      ],
+      "spiegazione": "Il momento dipolare complessivo è la somma vettoriale dei momenti dei singoli legami: geometrie simmetriche come quella lineare della CO₂, quella trigonale planare del BF₃ o quella tetraedrica del CCl₄ producono una risultante nulla.\n\nPer stabilire se una molecola è polare non basta quindi guardare i legami: occorre conoscerne la geometria, doppietti non condivisi compresi."
+    },
+    {
+      "id": "u1-0073",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Distanza ed energia di legame",
+      "testo": "Passando dal legame singolo C–C al doppio C=C e al triplo C≡C:",
+      "opzioni": [
+        "la distanza di legame diminuisce e l'energia di legame aumenta",
+        "distanza ed energia restano invariate",
+        "sia la distanza sia l'energia di legame aumentano",
+        "sia la distanza sia l'energia di legame diminuiscono",
+        "la distanza di legame aumenta e l'energia di legame diminuisce"
+      ],
+      "corretta": 0,
+      "spiegazione": "Aumentando il numero di coppie condivise cresce la densità elettronica fra i due nuclei, che vengono avvicinati più fortemente: la distanza scende da circa 154 pm (singolo) a 134 pm (doppio) a 120 pm (triplo), mentre l'energia necessaria a rompere il legame sale da circa 348 a 614 a 839 kJ/mol.\n\nLegami più corti e legami più forti vanno insieme: E), C) e D) accoppiano gli andamenti in modo errato.\nB) L'ordine di legame ha un effetto molto marcato su entrambe le grandezze."
+    },
+    {
+      "id": "u1-0074",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Energia di legame",
+      "testo": "L'energia necessaria per rompere una mole di legami di un certo tipo, in fase gassosa, si chiama energia di ……",
+      "accettate": [
+        "legame",
+        "dissociazione"
+      ],
+      "spiegazione": "È una grandezza sempre positiva: rompere un legame richiede energia, mentre la sua formazione ne libera altrettanta. Su questo bilancio si fonda il calcolo approssimato del ΔH di reazione a partire dalle energie di legame.\n\nUn valore elevato indica un legame forte e difficile da rompere, e va di pari passo con una distanza di legame corta."
+    },
+    {
+      "id": "u1-0075",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Legame metallico",
+      "testo": "Il legame metallico è descritto come:",
+      "opzioni": [
+        "l'attrazione fra ioni positivi e ioni negativi disposti alternativamente",
+        "una serie di legami covalenti direzionali fra atomi vicini",
+        "una condivisione di coppie elettroniche fra due atomi determinati",
+        "un reticolo di cationi immersi in una nuvola di elettroni di valenza delocalizzati",
+        "l'insieme delle forze di van der Waals fra atomi metallici"
+      ],
+      "corretta": 3,
+      "spiegazione": "I metalli hanno bassa energia di ionizzazione: gli elettroni di valenza non restano legati a un atomo particolare ma si muovono liberamente attraverso l'intero reticolo di cationi. Questa mobilità spiega la conducibilità elettrica e termica; la non direzionalità del legame spiega malleabilità e duttilità, perché i piani di ioni possono scorrere senza che il legame si rompa.\n\nA) Descrive il legame ionico, che richiede ioni di segno opposto.\nB) e C) Il legame metallico non è direzionale né localizzato fra due atomi.\nE) Le forze di van der Waals sono di gran lunga troppo deboli per giustificare le proprietà dei metalli."
+    },
+    {
+      "id": "u1-0076",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legame metallico",
+      "testo": "Nel modello del legame metallico gli elettroni di valenza non appartengono a un singolo atomo ma sono ……",
+      "accettate": [
+        "delocalizzati",
+        "delocalizzato",
+        "condivisi da tutti gli atomi"
+      ],
+      "spiegazione": "La delocalizzazione degli elettroni su tutto il reticolo è ciò che rende i metalli conduttori: applicando una differenza di potenziale gli elettroni si muovono ordinatamente senza dover rompere legami.\n\nNei solidi ionici, invece, le cariche sono vincolate nel reticolo: conducono solo allo stato fuso o in soluzione, quando gli ioni diventano liberi di muoversi."
+    },
+    {
+      "id": "u1-0077",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Orbitali molecolari sigma e pi greco",
+      "testo": "Un legame σ (sigma) si forma per sovrapposizione:",
+      "opzioni": [
+        "di due orbitali orientati a 90° fra loro",
+        "frontale di due orbitali lungo l'asse che congiunge i due nuclei",
+        "di orbitali appartenenti a livelli energetici diversi soltanto",
+        "laterale di due orbitali p paralleli",
+        "di due orbitali completamente vuoti"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel legame σ la sovrapposizione avviene lungo la congiungente dei nuclei e la densità elettronica è massima proprio su quell'asse: è il tipo di sovrapposizione più efficace, e per questo il legame σ è il più forte. Consente inoltre la libera rotazione attorno all'asse di legame.\n\nA) Una disposizione a 90° darebbe sovrapposizione nulla per simmetria.\nC) Possono sovrapporsi orbitali dello stesso o di diverso tipo, purché con simmetria e energia compatibili.\nD) La sovrapposizione laterale genera il legame π.\nE) Un legame richiede una coppia di elettroni: orbitali vuoti non ne formano."
+    },
+    {
+      "id": "u1-0078",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Orbitali molecolari",
+      "testo": "Il legame covalente che si forma per sovrapposizione frontale di due orbitali lungo l'asse che congiunge i nuclei si chiama legame ……",
+      "accettate": [
+        "sigma"
+      ],
+      "spiegazione": "Il primo legame fra due atomi è sempre un legame σ; gli eventuali legami successivi, nel doppio e nel triplo legame, sono di tipo π.\n\nAttorno a un legame σ semplice la rotazione è libera, perché la sovrapposizione lungo l'asse non cambia ruotando: è la ragione per cui gli alcani presentano conformazioni interconvertibili e non isomeri separabili."
+    },
+    {
+      "id": "u1-0079",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Composizione dei legami multipli",
+      "testo": "In un triplo legame carbonio-carbonio sono presenti:",
+      "opzioni": [
+        "tre legami σ",
+        "un legame σ, un legame π e un legame dativo",
+        "due legami σ e un legame π",
+        "tre legami π",
+        "un legame σ e due legami π"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ciascun carbonio è ibridato sp: un orbitale ibrido forma il legame σ con l'altro carbonio, mentre i due orbitali p rimasti, perpendicolari fra loro, si sovrappongono lateralmente dando due legami π. La molecola risulta lineare.\n\nA) e C) Fra due atomi può esistere un solo legame σ: la sovrapposizione frontale lungo l'asse avviene una volta sola.\nB) Nel triplo legame degli alchini non compaiono legami dativi: ogni atomo contribuisce con i propri elettroni.\nD) Senza un legame σ i due atomi non sarebbero tenuti insieme sull'asse."
+    },
+    {
+      "id": "u1-0080",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Ibridazione sp",
+      "testo": "Nell'etino (acetilene) i due atomi di carbonio, che formano fra loro un triplo legame, sono ibridati ……",
+      "accettate": [
+        "sp"
+      ],
+      "spiegazione": "Ogni carbonio forma solo due legami σ, uno con l'idrogeno e uno con l'altro carbonio: bastano due orbitali ibridi, ottenuti combinando un orbitale s con un orbitale p, orientati a 180°. Ne deriva la geometria lineare della molecola.\n\nI due orbitali p non ibridati, perpendicolari fra loro e all'asse molecolare, formano i due legami π."
+    },
+    {
+      "id": "u1-0081",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Repulsione fra coppie elettroniche",
+      "testo": "Nell'ammoniaca l'azoto è ibridato sp³, ma l'angolo H–N–H vale circa 107° invece dei 109,5° tipici della geometria tetraedrica. Il motivo è che:",
+      "opzioni": [
+        "il doppietto non condiviso occupa più spazio e comprime le coppie di legame",
+        "gli atomi di idrogeno sono troppo piccoli per allargare l'angolo",
+        "la molecola di ammoniaca è planare, con tre angoli uguali di 120°",
+        "l'azoto in realtà non è ibridato e impiega tre orbitali p puri",
+        "l'azoto forma un legame dativo con uno dei tre atomi di idrogeno"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il doppietto non condiviso è trattenuto da un solo nucleo, quindi la sua nuvola elettronica è più diffusa di quella di una coppia di legame, che è compressa fra due nuclei. Respinge perciò più intensamente le coppie di legame e ne riduce l'angolo. Nell'acqua, dove i doppietti sono due, la contrazione è ancora maggiore: 104,5°.\n\nB) Le dimensioni degli idrogeni non spiegherebbero una compressione dell'angolo.\nC) Se la molecola fosse planare l'angolo sarebbe di 120°, non di 107°.\nD) La geometria piramidale osservata è proprio ciò che l'ibridazione sp³ prevede.\nE) I tre legami N–H sono normali legami covalenti; il doppietto resta libero, e sarà quello a formare un legame dativo con un protone."
+    },
+    {
+      "id": "u1-0082",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Tipi di legame covalente",
+      "testo": "Il legame covalente fra due atomi uguali, come in H₂, Cl₂ o O₂, si definisce covalente ……",
+      "accettate": [
+        "omopolare",
+        "puro",
+        "apolare",
+        "non polare"
+      ],
+      "spiegazione": "Atomi identici hanno la stessa elettronegatività: la coppia elettronica è condivisa in modo perfettamente simmetrico e il legame non presenta momento dipolare.\n\nQuando gli atomi sono diversi il legame è covalente polare (o eteropolare), e la polarità cresce con la differenza di elettronegatività fino a sfociare, per differenze molto grandi, nel legame ionico."
+    },
+    {
+      "id": "u1-0083",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Proprietà del legame ionico",
+      "testo": "Quale affermazione sul legame ionico è corretta?",
+      "opzioni": [
+        "È più debole delle forze di van der Waals che agiscono fra le molecole",
+        "È direzionale e orientato lungo la congiungente dei due ioni coinvolti",
+        "Non è direzionale: ogni ione attrae in tutte le direzioni, dando un reticolo",
+        "Dà origine a molecole discrete, come le singole molecole di NaCl nel cristallo",
+        "Si forma per condivisione di una coppia di elettroni fra i due atomi"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'attrazione elettrostatica agisce in modo isotropo: ogni catione circonda sé stesso del massimo numero possibile di anioni e viceversa, generando un reticolo cristallino esteso. Nel cloruro di sodio ogni ione è circondato da sei ioni di segno opposto.\n\nA) Il legame ionico è fra i più forti: i composti ionici hanno temperature di fusione elevate, 801 °C per NaCl.\nB) La direzionalità è caratteristica del legame covalente, che nasce dalla sovrapposizione di orbitali orientati.\nD) Nel solido non esistono molecole di NaCl: la formula esprime il rapporto fra gli ioni nel reticolo.\nE) La condivisione definisce il legame covalente; nel legame ionico c'è trasferimento."
+    },
+    {
+      "id": "u1-0084",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Legame a idrogeno",
+      "testo": "Il legame a idrogeno può formarsi quando un atomo di idrogeno è legato covalentemente a:",
+      "opzioni": [
+        "un qualsiasi atomo non metallico",
+        "fluoro, ossigeno o azoto",
+        "un atomo di carbonio",
+        "un altro atomo di idrogeno",
+        "un metallo alcalino"
+      ],
+      "corretta": 1,
+      "spiegazione": "Servono due condizioni: un atomo molto elettronegativo e di piccole dimensioni legato all'idrogeno, che lo renda fortemente parziale positivo e quasi privo di schermo elettronico, e un secondo atomo elettronegativo che gli offra un doppietto non condiviso. Solo F, O e N soddisfano entrambe.\n\nA) Il cloro, per esempio, è elettronegativo quanto l'azoto ma troppo grande: la densità di carica è troppo diffusa.\nC) Il legame C–H è poco polare (differenza di elettronegatività circa 0,4) e non dà legami a idrogeno: è la ragione per cui gli idrocarburi sono insolubili in acqua.\nD) In H₂ il legame è apolare.\nE) Con un metallo l'idrogeno assume carica parziale negativa."
+    },
+    {
+      "id": "u1-0085",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legame a idrogeno",
+      "testo": "Il legame a idrogeno si stabilisce quando l'atomo di idrogeno è legato covalentemente a un atomo di piccole dimensioni e molto ……",
+      "accettate": [
+        "elettronegativo",
+        "elettronegativa"
+      ],
+      "spiegazione": "L'elevata elettronegatività dell'atomo partner sposta su di sé la densità elettronica e lascia il protone dell'idrogeno quasi scoperto: quella concentrazione di carica positiva su un volume minuscolo è ciò che permette l'interazione con il doppietto di un altro atomo elettronegativo.\n\nCon energie fra 10 e 40 kJ/mol il legame a idrogeno è molto più debole di un legame covalente, ma il suo numero elevato lo rende decisivo nella struttura dell'acqua, delle proteine e degli acidi nucleici."
+    },
+    {
+      "id": "u1-0086",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Effetti del legame a idrogeno",
+      "testo": "L'acqua bolle a 100 °C mentre l'acido solfidrico H₂S, che ha massa molecolare quasi doppia, bolle a circa −60 °C. La ragione è che:",
+      "opzioni": [
+        "l'acqua possiede legami covalenti O–H più forti dei legami S–H",
+        "l'H₂S è una molecola perfettamente apolare e simmetrica",
+        "l'acqua è un composto ionico e non molecolare come l'H₂S",
+        "fra le molecole d'acqua si formano legami a idrogeno, assenti nell'H₂S",
+        "l'acqua ha massa molare maggiore di quella dell'acido solfidrico"
+      ],
+      "corretta": 3,
+      "spiegazione": "La temperatura di ebollizione dipende dalle forze intermolecolari, non dalla forza dei legami interni alle molecole. Le molecole d'acqua formano fra loro estese reti di legami a idrogeno, e separarle richiede molta energia. Nell'H₂S lo zolfo è troppo poco elettronegativo e troppo grande perché il legame a idrogeno si formi, e restano solo deboli interazioni dipolo-dipolo e di London.\n\nA) Nell'ebollizione i legami covalenti O–H non si rompono affatto.\nB) L'H₂S è angolare e leggermente polare.\nC) L'acqua è una sostanza molecolare, non ionica.\nE) La massa molare dell'acqua (18) è minore di quella dell'H₂S (34): a parità di altre condizioni ci si aspetterebbe il contrario, ed è proprio questa anomalia che il legame a idrogeno spiega."
+    },
+    {
+      "id": "u1-0087",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Forze di van der Waals",
+      "testo": "Le forze attrattive dovute a dipoli istantanei e dipoli indotti, presenti fra tutte le molecole comprese quelle apolari, si chiamano forze di ……",
+      "accettate": [
+        "london",
+        "dispersione",
+        "dispersione di london"
+      ],
+      "spiegazione": "Il moto degli elettroni produce in ogni istante una distribuzione di carica leggermente asimmetrica: il dipolo istantaneo così generato induce un dipolo nella molecola vicina, e i due si attraggono.\n\nSono le uniche forze attrattive fra molecole apolari, e la loro intensità cresce con il numero di elettroni e con la superficie di contatto: spiegano perché il pentano è liquido a temperatura ambiente e il metano è un gas."
+    },
+    {
+      "id": "u1-0088",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Interazioni idrofobiche",
+      "testo": "Le interazioni idrofobiche che tengono ravvicinate le catene apolari immerse in acqua:",
+      "opzioni": [
+        "si formano perché le catene apolari portano cariche elettriche opposte",
+        "sono veri e propri legami covalenti che si formano fra le catene apolari",
+        "derivano dal guadagno di entropia dell'acqua che circonda le superfici apolari",
+        "sono interazioni più forti dei legami covalenti presenti nelle catene",
+        "sono dovute a legami a idrogeno che si formano fra le catene apolari"
+      ],
+      "corretta": 2,
+      "spiegazione": "Una superficie apolare non può formare legami a idrogeno: le molecole d'acqua che la circondano sono costrette a disporsi in un guscio più ordinato, con perdita di entropia. Quando le regioni apolari si aggregano fra loro, la superficie complessivamente esposta all'acqua diminuisce e parte di quelle molecole viene liberata: l'entropia del sistema aumenta e il processo risulta spontaneo. Il motore, quindi, è il comportamento del solvente, non un'attrazione fra le catene.\n\nA) Le catene apolari non portano cariche.\nB) Non si formano legami covalenti.\nD) Sono interazioni deboli.\nE) Le catene apolari non hanno gruppi capaci di dare legami a idrogeno."
+    },
+    {
+      "id": "u1-0089",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Interazioni idrofobiche nelle proteine",
+      "testo": "Nelle proteine globulari le catene laterali apolari tendono a disporsi all'interno della struttura, lontano dall'acqua, per effetto delle interazioni ……",
+      "accettate": [
+        "idrofobiche",
+        "idrofobica",
+        "idrofobe",
+        "idrofobiche non polari"
+      ],
+      "spiegazione": "È uno dei principali contributi al ripiegamento delle proteine: i residui apolari, come quelli di valina, leucina, isoleucina e fenilalanina, si raccolgono in un nucleo interno, mentre i residui polari e carichi restano esposti al solvente.\n\nLa stessa logica governa la formazione del doppio strato fosfolipidico: le code idrocarburiche si affrontano all'interno, le teste polari guardano l'acqua."
+    },
+    {
+      "id": "u1-0090",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Confronto fra legami forti e deboli",
+      "testo": "L'energia di un legame a idrogeno, rispetto a quella di un legame covalente:",
+      "opzioni": [
+        "è circa dieci-venti volte minore",
+        "non è confrontabile perché il legame a idrogeno non ha energia",
+        "è circa dieci volte maggiore",
+        "è maggiore",
+        "è dello stesso ordine di grandezza"
+      ],
+      "corretta": 0,
+      "spiegazione": "Un legame a idrogeno vale tipicamente 10-40 kJ/mol, mentre un legame covalente O–H vale circa 460 kJ/mol e un legame C–C circa 348 kJ/mol: la differenza è di più di un ordine di grandezza.\n\nB) Il legame a idrogeno ha un'energia perfettamente misurabile, ed è proprio la sua debolezza a renderlo utile in biologia: si forma e si rompe alla temperatura corporea, permettendo al DNA di aprirsi e alle proteine di cambiare conformazione. La stabilità delle strutture biologiche deriva dal numero di questi legami, non dalla forza di ciascuno.\nC) e D) Invertono il confronto: nessuna interazione debole supera un legame covalente, e le forze intermolecolari sono per definizione più deboli dei legami chimici veri e propri.\nE) Se le energie fossero confrontabili, separare due filamenti di DNA costerebbe quanto romperne lo scheletro covalente, e la replicazione sarebbe impossibile."
+    },
+    {
+      "id": "u1-0091",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Struttura del ghiaccio",
+      "testo": "Nel ghiaccio ogni molecola d'acqua forma quattro legami a idrogeno che danno un reticolo aperto: per questo il ghiaccio risulta meno …… dell'acqua liquida e galleggia su di essa.",
+      "accettate": [
+        "denso",
+        "densa"
+      ],
+      "spiegazione": "La geometria tetraedrica dei legami a idrogeno impone alle molecole una disposizione con ampi spazi vuoti. Fondendo, quella struttura collassa parzialmente e le molecole si avvicinano: l'acqua liquida a 0 °C è più densa del ghiaccio, e raggiunge la densità massima a 4 °C.\n\nÈ un comportamento anomalo rispetto alla maggior parte delle sostanze, e ha conseguenze biologiche notevoli: i bacini d'acqua gelano dalla superficie verso il fondo, lasciando sotto uno strato liquido in cui la vita continua."
+    },
+    {
+      "id": "u1-0092",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Interazioni deboli nelle biomolecole",
+      "testo": "Nella doppia elica del DNA i due filamenti sono tenuti uniti fra loro principalmente da:",
+      "opzioni": [
+        "ponti disolfuro",
+        "legami ionici fra i gruppi fosfato",
+        "legami fosfodiestere",
+        "legami covalenti fra gli zuccheri",
+        "legami a idrogeno fra le basi azotate complementari"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le basi appaiate formano legami a idrogeno: due fra adenina e timina, tre fra guanina e citosina. Essendo interazioni deboli, i due filamenti possono essere separati senza rompere alcun legame covalente, come avviene nella replicazione e nella trascrizione.\n\nA) I ponti disolfuro riguardano le cisteine delle proteine.\nB) I gruppi fosfato portano cariche negative e si respingono; sono neutralizzati da cationi e proteine basiche, ma non tengono uniti i filamenti.\nC) e D) Il legame fosfodiestere unisce i nucleotidi lungo lo stesso filamento, non i due filamenti fra loro."
+    },
+    {
+      "id": "u1-0093",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Forze intermolecolari",
+      "testo": "L'insieme delle forze attrattive deboli fra molecole, che comprende le interazioni dipolo-dipolo e le forze di dispersione, prende il nome di forze di van der ……",
+      "accettate": [
+        "waals"
+      ],
+      "spiegazione": "Sotto questo nome si raccolgono le interazioni dipolo permanente-dipolo permanente, dipolo permanente-dipolo indotto e dipolo istantaneo-dipolo indotto (forze di London).\n\nSono molto più deboli dei legami chimici veri e propri, ma determinano le proprietà fisiche delle sostanze molecolari: temperature di fusione ed ebollizione, viscosità, tensione superficiale."
+    },
+    {
+      "id": "u1-0094",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Numero di ossidazione",
+      "testo": "Qual è il numero di ossidazione dello zolfo nell'acido solforico H₂SO₄?",
+      "opzioni": [
+        "+2",
+        "+4",
+        "+6",
+        "−2",
+        "0"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'idrogeno vale +1 e l'ossigeno −2. Nella molecola neutra la somma algebrica deve essere zero: 2(+1) + x + 4(−2) = 0, da cui x = +6.\n\nA) +2 non bilancia il conteggio.\nB) +4 è il numero di ossidazione dello zolfo nell'acido solforoso H₂SO₃, che ha un ossigeno in meno.\nD) −2 è il valore dello zolfo nei solfuri, come H₂S, dove lo zolfo è l'elemento più elettronegativo del composto.\nE) Lo zolfo ha numero di ossidazione 0 solo allo stato elementare."
+    },
+    {
+      "id": "u1-0095",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Numero di ossidazione",
+      "testo": "Negli elementi allo stato libero, come O₂, N₂ o Fe metallico, il numero di ossidazione è sempre ……",
+      "accettate": [
+        "zero",
+        "0",
+        "nullo"
+      ],
+      "spiegazione": "Quando un atomo è legato ad atomi identici, o non è legato affatto, gli elettroni di legame vengono ripartiti in parti uguali: nessun atomo ne acquista o ne cede formalmente.\n\nDalla stessa convenzione discendono le altre regole: per uno ione monoatomico il numero di ossidazione coincide con la carica, in un composto neutro la somma algebrica è zero, in uno ione poliatomico è pari alla carica dello ione."
+    },
+    {
+      "id": "u1-0096",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Numero di ossidazione dell'ossigeno",
+      "testo": "Nel perossido di idrogeno H₂O₂ il numero di ossidazione dell'ossigeno vale:",
+      "opzioni": [
+        "−2",
+        "−1",
+        "0",
+        "+1",
+        "+2"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nei perossidi due atomi di ossigeno sono legati fra loro (H–O–O–H): il legame O–O, essendo fra atomi uguali, non attribuisce elettroni a nessuno dei due. Ciascun ossigeno ne acquista formalmente solo uno dall'idrogeno e ha quindi numero di ossidazione −1. Il calcolo lo conferma: 2(+1) + 2x = 0, x = −1.\n\nA) −2 è il valore usuale dell'ossigeno, ma non nei perossidi: è l'errore più frequente su questo quesito.\nC) 0 vale per l'ossigeno elementare O₂.\nD) +1 non corrisponde a nessuna specie dell'ossigeno.\nE) +2 si ha nel fluoruro di ossigeno OF₂, dove il fluoro è più elettronegativo dell'ossigeno."
+    },
+    {
+      "id": "u1-0097",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Classi di composti",
+      "testo": "I composti come H₂O₂, che contengono il legame O–O e in cui l'ossigeno ha numero di ossidazione −1, appartengono alla classe dei ……",
+      "accettate": [
+        "perossidi",
+        "perossido"
+      ],
+      "spiegazione": "Il legame ossigeno-ossigeno è debole e si rompe facilmente in modo omolitico, generando radicali: per questo i perossidi sono ossidanti energici e, in ambito biologico, sorgenti di specie reattive dell'ossigeno.\n\nIl perossido di idrogeno è prodotto nella cellula da diverse reazioni ossidative ed è smaltito dalla catalasi; in presenza di ioni Fe²⁺ può generare il radicale idrossilico attraverso la reazione di Fenton."
+    },
+    {
+      "id": "u1-0098",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Formule dei composti ionici",
+      "testo": "Qual è la formula del fosfato di calcio, il sale che costituisce la parte minerale dell'osso?",
+      "opzioni": [
+        "Ca₃PO₄",
+        "Ca(PO₄)₂",
+        "Ca₂PO₄",
+        "Ca₃(PO₄)₂",
+        "CaPO₄"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il calcio forma lo ione Ca²⁺, il fosfato è PO₄³⁻. Per ottenere un composto elettricamente neutro servono tre cationi (+6 in totale) e due anioni (−6 in totale): Ca₃(PO₄)₂.\n\nA) Darebbe +3: manca il secondo gruppo fosfato, e le parentesi servono proprio a indicare che l'intero ione poliatomico va preso due volte.\nB) Darebbe una carica complessiva di −4.\nC) Darebbe una carica complessiva di +1.\nE) Sarebbe neutro solo se il fosfato avesse carica 2−."
+    },
+    {
+      "id": "u1-0099",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Nomenclatura degli anioni",
+      "testo": "L'anione CO₃²⁻, che deriva dall'acido carbonico per doppia deprotonazione, prende il nome di ione ……",
+      "accettate": [
+        "carbonato"
+      ],
+      "spiegazione": "Nella nomenclatura tradizionale l'anione di un acido con desinenza -ico prende il suffisso -ato: dall'acido carbonico H₂CO₃ si ottengono lo ione idrogenocarbonato (o bicarbonato) HCO₃⁻ e lo ione carbonato CO₃²⁻.\n\nLa coppia CO₂/HCO₃⁻ costituisce il principale sistema tampone del sangue."
+    },
+    {
+      "id": "u1-0100",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Numero di ossidazione del carbonio",
+      "testo": "Nell'anidride carbonica CO₂ il numero di ossidazione del carbonio è:",
+      "opzioni": [
+        "−4",
+        "0",
+        "+2",
+        "+4",
+        "+6"
+      ],
+      "corretta": 3,
+      "spiegazione": "Ciascun ossigeno vale −2, e la molecola è neutra: x + 2(−2) = 0, quindi x = +4. È lo stato di ossidazione più alto possibile per il carbonio, che ha quattro elettroni di valenza: la CO₂ è infatti il prodotto finale dell'ossidazione completa dei composti organici.\n\nA) −4 è il valore del carbonio nel metano CH₄, cioè nella sua forma più ridotta.\nB) 0 corrisponde per esempio al carbonio elementare, o mediamente al carbonio della formaldeide.\nC) +2 è il valore nel monossido di carbonio CO.\nE) +6 supera il numero di elettroni di valenza disponibili."
+    }
+  ]
+}

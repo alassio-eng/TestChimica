@@ -1,0 +1,282 @@
+{
+  "lotto": "chimica-u2-02",
+  "unita": "u2",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u2-0051",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Fattore di van't Hoff",
+      "testo": "Nelle formule delle proprietà colligative il simbolo i, che tiene conto del numero di particelle liberate da un elettrolita, si chiama fattore di ……",
+      "accettate": [
+        "van't hoff",
+        "vant hoff",
+        "hoff"
+      ],
+      "spiegazione": "Per un non elettrolita i vale 1; per NaCl vale 2, per CaCl₂ e K₂SO₄ vale 3, per Al₂(SO₄)₃ vale 5, assumendo dissociazione completa.\n\nDimenticare il fattore i è l'errore più frequente nei problemi sulle proprietà colligative: porta a sottostimare l'effetto di tutte le soluzioni saline, comprese quelle di interesse fisiologico."
+    },
+    {
+      "id": "u2-0052",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'innalzamento ebullioscopico",
+      "testo": "Una soluzione acquosa 0,50 m di un non elettrolita (costante ebullioscopica dell'acqua 0,512 °C·kg/mol) bolle, a 1 atm, alla temperatura di:",
+      "opzioni": [
+        "99,74 °C",
+        "100,00 °C",
+        "100,26 °C",
+        "100,51 °C",
+        "102,56 °C"
+      ],
+      "corretta": 2,
+      "spiegazione": "ΔTeb = Keb × m × i = 0,512 × 0,50 × 1 = 0,256 °C, da sommare ai 100 °C dell'acqua pura: circa 100,26 °C.\n\nA) Il segno è invertito: l'aggiunta di soluto innalza la temperatura di ebollizione e abbassa quella di congelamento.\nB) 100,00 °C è il valore del solvente puro.\nD) 100,51 °C corrisponderebbe a una molalità di 1,0 mol/kg, oppure a un soluto con i = 2.\nE) 102,56 °C si otterrebbe con una molalità dieci volte maggiore."
+    },
+    {
+      "id": "u2-0053",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Definizione di osmosi",
+      "testo": "Il passaggio spontaneo di solvente attraverso una membrana semipermeabile, dalla soluzione più diluita verso quella più concentrata, si chiama ……",
+      "accettate": [
+        "osmosi"
+      ],
+      "spiegazione": "A muoversi è il solvente, non il soluto: la membrana lascia passare l'acqua e trattiene le particelle disciolte. Il flusso netto tende a pareggiare le concentrazioni sui due lati.\n\nNon va confusa con la diffusione, in cui è il soluto a spostarsi lungo il proprio gradiente e che non richiede alcuna membrana."
+    },
+    {
+      "id": "u2-0054",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Definizione di pressione osmotica",
+      "testo": "La pressione osmotica di una soluzione è definita come:",
+      "opzioni": [
+        "la pressione da applicare alla soluzione per arrestare il flusso osmotico di solvente",
+        "la differenza fra la pressione atmosferica e la tensione di vapore della soluzione",
+        "la pressione di vapore della soluzione alla temperatura di ebollizione",
+        "la pressione esercitata dalle particelle di soluto sulle pareti del recipiente",
+        "la pressione necessaria a far passare il soluto attraverso la membrana"
+      ],
+      "corretta": 0,
+      "spiegazione": "È la pressione che bilancia esattamente la tendenza del solvente a entrare nella soluzione: applicandola si arresta il flusso osmotico netto. Si calcola con π = i·M·R·T.\n\nB) e C) Confondono la pressione osmotica con grandezze relative all'equilibrio liquido-vapore.\nD) Il soluto disciolto non esercita una pressione sulle pareti nel senso dei gas.\nE) La membrana semipermeabile è per definizione impermeabile al soluto: il soluto non passa a nessuna pressione."
+    },
+    {
+      "id": "u2-0055",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Membrane",
+      "testo": "Una membrana che lascia passare le molecole di solvente ma trattiene le particelle di soluto si dice ……",
+      "accettate": [
+        "semipermeabile",
+        "semipermeabili"
+      ],
+      "spiegazione": "È la condizione perché si stabilisca un flusso osmotico. Le membrane biologiche sono in realtà selettivamente permeabili: lasciano passare l'acqua liberamente, spesso attraverso acquaporine, e regolano il passaggio dei soluti con canali e trasportatori specifici.\n\nUn soluto capace di attraversare la membrana non contribuisce alla pressione osmotica efficace, perché si distribuisce su entrambi i lati."
+    },
+    {
+      "id": "u2-0056",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Formula della pressione osmotica",
+      "testo": "La pressione osmotica di una soluzione diluita si calcola con la relazione:",
+      "opzioni": [
+        "π = Kcr · m · i",
+        "π = P · V",
+        "π = x · p°",
+        "π = i · M / (R · T)",
+        "π = i · M · R · T"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'equazione di van't Hoff per la pressione osmotica è π = i·M·R·T, con M la molarità, R la costante dei gas (0,0821 L·atm·mol⁻¹·K⁻¹) e T la temperatura assoluta. La sua forma ricorda l'equazione di stato dei gas perfetti riscritta come P = (n/V)RT.\n\nA) È la formula dell'abbassamento crioscopico.\nB) Il prodotto P·V è la legge di Boyle.\nC) È la legge di Raoult per la tensione di vapore.\nD) Inverte il ruolo di R·T: darebbe una pressione decrescente con la temperatura, mentre la pressione osmotica cresce con essa."
+    },
+    {
+      "id": "u2-0057",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Osmolarità",
+      "testo": "Il numero complessivo di osmoli di particelle contenute in un litro di soluzione si chiama ……",
+      "accettate": [
+        "osmolarita"
+      ],
+      "spiegazione": "Si ottiene moltiplicando la molarità per il fattore di van't Hoff: una soluzione di NaCl 0,15 M ha osmolarità 0,30 osmol/L, cioè 300 mOsm/L.\n\nÈ la grandezza che determina il comportamento osmotico di un fluido: il plasma ha un'osmolarità di circa 290 mOsm/L, e le soluzioni destinate all'infusione endovenosa sono formulate per avvicinarsi a questo valore."
+    },
+    {
+      "id": "u2-0058",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Osmolarità e osmolalità",
+      "testo": "A differenza dell'osmolarità, che è riferita a un litro di soluzione, l'osmolalità esprime le osmoli contenute in un chilogrammo di ……",
+      "accettate": [
+        "solvente",
+        "acqua",
+        "solvente acqua"
+      ],
+      "spiegazione": "La distinzione è la stessa che corre fra molarità e molalità: la prima si basa sul volume della soluzione, la seconda sulla massa del solvente, e solo la seconda è indipendente dalla temperatura.\n\nNei fluidi biologici, che sono soluzioni acquose diluite, i due valori sono numericamente molto vicini, e in ambito clinico i termini vengono spesso usati come sinonimi anche se non lo sono."
+    },
+    {
+      "id": "u2-0059",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Calcolo del fattore di van't Hoff",
+      "testo": "Il fattore di van't Hoff del cloruro di calcio CaCl₂, che in acqua si dissocia completamente liberando uno ione calcio e due ioni cloruro, vale ……",
+      "accettate": [
+        "tre",
+        "3"
+      ],
+      "spiegazione": "Ogni unità di formula produce tre particelle indipendenti: Ca²⁺ + 2 Cl⁻. Il valore di i è il numero di particelle liberate, non la somma delle cariche.\n\nÈ un errore frequente rispondere 2 guardando i due ioni cloruro, oppure 4 sommando le cariche: conta il numero di particelle in soluzione."
+    },
+    {
+      "id": "u2-0060",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'osmolarità",
+      "testo": "Considerando la dissociazione completa, l'osmolarità di una soluzione di NaCl 0,15 M è:",
+      "opzioni": [
+        "0,075 osmol/L",
+        "0,15 osmol/L",
+        "0,30 osmol/L",
+        "0,45 osmol/L",
+        "1,5 osmol/L"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'osmolarità è M × i. Per NaCl i = 2, quindi 0,15 × 2 = 0,30 osmol/L, cioè 300 mOsm/L: è all'incirca l'osmolarità del plasma, e per questo la soluzione fisiologica ha proprio questa concentrazione.\n\nA) 0,075 si otterrebbe dividendo per 2 invece di moltiplicare.\nB) 0,15 osmol/L è il valore che si avrebbe se NaCl fosse un non elettrolita: è il classico errore di van't Hoff dimenticato.\nD) 0,45 corrisponderebbe a i = 3, cioè a un sale come CaCl₂.\nE) 1,5 sposta la virgola."
+    },
+    {
+      "id": "u2-0061",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Diffusione",
+      "testo": "Il movimento netto di particelle di soluto da una regione a concentrazione maggiore verso una a concentrazione minore, fino a uniformare la concentrazione, si chiama ……",
+      "accettate": [
+        "diffusione"
+      ],
+      "spiegazione": "La diffusione è dovuta all'agitazione termica e non richiede né una membrana né consumo di energia: è un processo spontaneo che aumenta l'entropia del sistema.\n\nNell'osmosi, invece, la membrana impedisce al soluto di ridistribuirsi ed è il solvente a muoversi. Le due parole descrivono fenomeni diversi e non vanno scambiate."
+    },
+    {
+      "id": "u2-0062",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Direzione del flusso osmotico",
+      "testo": "Due soluzioni separate da una membrana semipermeabile hanno osmolarità rispettivamente di 0,20 e 0,40 osmol/L. Il solvente si sposta prevalentemente:",
+      "opzioni": [
+        "dalla soluzione a 0,20 verso quella a 0,40 osmol/L",
+        "dalla soluzione a 0,40 verso quella a 0,20 soltanto se si applica una pressione",
+        "in nessuna direzione, perché la membrana blocca anche il solvente",
+        "dalla soluzione a 0,40 verso quella a 0,20 osmol/L",
+        "in entrambe le direzioni, senza alcun flusso netto"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il solvente si muove verso la soluzione più concentrata, cioè verso quella a 0,40 osmol/L, diluendola e riducendo la differenza di osmolarità. Detto in altri termini, l'acqua si sposta là dove la sua concentrazione è minore.\n\nB) Applicando pressione alla soluzione concentrata si può arrestare o invertire il flusso: è il principio dell'osmosi inversa, non il comportamento spontaneo.\nC) Una membrana semipermeabile lascia passare proprio il solvente.\nD) È la direzione opposta a quella spontanea.\nE) Il passaggio avviene nei due sensi, ma il flusso netto non è nullo finché le osmolarità restano diverse."
+    },
+    {
+      "id": "u2-0063",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Soluzione fisiologica",
+      "testo": "La soluzione fisiologica impiegata in ambito clinico è una soluzione acquosa di cloruro di sodio:",
+      "opzioni": [
+        "allo 0,09% peso/volume, ipotonica rispetto al plasma",
+        "al 9% peso/volume, ipertonica rispetto al plasma",
+        "al 5% peso/volume, isotonica con il plasma",
+        "allo 0,9% peso/volume, isotonica con il plasma",
+        "allo 0,9% peso/peso, ipotonica rispetto al plasma"
+      ],
+      "corretta": 3,
+      "spiegazione": "Lo 0,9% p/V corrisponde a 9 g/L, cioè circa 0,15 mol/L di NaCl. Poiché il sale si dissocia in due ioni, l'osmolarità è circa 0,30 osmol/L, praticamente uguale a quella del plasma: la soluzione è isotonica e può essere infusa senza danneggiare le cellule.\n\nA) e B) Sbagliano di un fattore dieci: al 9% sarebbe fortemente ipertonica, allo 0,09% marcatamente ipotonica e capace di provocare emolisi.\nC) Il 5% p/V è la concentrazione della soluzione glucosata, non di quella salina.\nE) L'unità corretta è p/V, e comunque a quella concentrazione la soluzione non sarebbe ipotonica."
+    },
+    {
+      "id": "u2-0064",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Tonicità",
+      "testo": "Una soluzione che ha la stessa pressione osmotica del plasma, e che quindi non provoca alcun movimento netto di acqua attraverso la membrana cellulare, si dice ……",
+      "accettate": [
+        "isotonica",
+        "isotonico",
+        "isotoniche"
+      ],
+      "spiegazione": "Nelle soluzioni isotoniche le cellule mantengono volume e forma. Sono isotoniche con il plasma la soluzione fisiologica (NaCl 0,9% p/V) e la glucosata al 5%.\n\nUna soluzione con pressione osmotica maggiore è ipertonica e sottrae acqua alle cellule; una con pressione minore è ipotonica e ne provoca il rigonfiamento."
+    },
+    {
+      "id": "u2-0065",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Comportamento dei globuli rossi in soluzione ipotonica",
+      "testo": "Un globulo rosso immerso in acqua distillata:",
+      "opzioni": [
+        "aumenta la propria osmolarità interna",
+        "assorbe acqua, si rigonfia e può rompersi",
+        "perde acqua e si raggrinzisce",
+        "resta invariato, perché la membrana è impermeabile all'acqua",
+        "perde ioni sodio fino a raggiungere l'equilibrio"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'acqua distillata ha osmolarità praticamente nulla ed è quindi fortemente ipotonica rispetto al citoplasma. L'acqua entra nella cellula per osmosi, il volume aumenta e la membrana, poco estensibile, finisce per cedere: è l'emolisi.\n\nA) L'ingresso di acqua diluisce il contenuto cellulare, quindi l'osmolarità interna diminuisce.\nC) È ciò che accade in una soluzione ipertonica.\nD) Le membrane cellulari sono molto permeabili all'acqua, anche grazie alle acquaporine.\nE) Un'eventuale perdita di ioni non sarebbe il fenomeno prevalente né spiegherebbe la rottura."
+    },
+    {
+      "id": "u2-0066",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Emolisi",
+      "testo": "La rottura dei globuli rossi che assorbono acqua quando sono immersi in una soluzione ipotonica si chiama ……",
+      "accettate": [
+        "emolisi"
+      ],
+      "spiegazione": "L'emoglobina liberata passa nel plasma, che assume un colore rosso trasparente detto «laccato». È la ragione per cui non si infondono mai soluzioni ipotoniche pure per via endovenosa.\n\nIn soluzione ipertonica avviene il fenomeno opposto: la cellula perde acqua e la membrana si increspa, un processo chiamato crenazione o raggrinzimento."
+    },
+    {
+      "id": "u2-0067",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Comportamento cellulare in soluzione ipertonica",
+      "testo": "Una cellula immersa in una soluzione ipertonica:",
+      "opzioni": [
+        "perde acqua verso l'esterno e riduce il proprio volume",
+        "si rigonfia per l'ingresso di acqua",
+        "aumenta di volume solo se la soluzione contiene glucosio",
+        "assorbe soluto fino a pareggiare le concentrazioni",
+        "non subisce variazioni di volume"
+      ],
+      "corretta": 0,
+      "spiegazione": "La soluzione ipertonica ha osmolarità maggiore di quella del citoplasma: l'acqua esce dalla cellula per osmosi e il volume diminuisce. Nei globuli rossi il fenomeno si osserva come crenazione.\n\nB) Il rigonfiamento avviene in ambiente ipotonico.\nC) La natura del soluto è irrilevante: conta l'osmolarità complessiva della soluzione esterna.\nD) La membrana regola strettamente il passaggio dei soluti: non si pareggiano le concentrazioni per libero ingresso del soluto.\nE) L'assenza di variazioni caratterizza l'ambiente isotonico."
+    },
+    {
+      "id": "u2-0068",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Squilibri osmotici: edema",
+      "testo": "L'accumulo anomalo di liquido negli spazi interstiziali, dovuto a uno squilibrio fra le pressioni che governano gli scambi capillari, si chiama ……",
+      "accettate": [
+        "edema",
+        "edemi"
+      ],
+      "spiegazione": "Nel capillare la pressione idrostatica spinge il liquido verso l'interstizio, mentre la pressione oncotica delle proteine plasmatiche lo richiama. L'edema compare quando la prima aumenta o la seconda diminuisce.\n\nÈ il motivo per cui una riduzione marcata dell'albumina plasmatica, per malnutrizione o insufficienza epatica, si accompagna a edemi diffusi."
+    },
+    {
+      "id": "u2-0069",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Soluzione glucosata",
+      "testo": "La soluzione glucosata al 5% peso/volume risulta all'incirca isotonica con il plasma perché:",
+      "opzioni": [
+        "il glucosio si dissocia in due particelle e raddoppia l'osmolarità della soluzione",
+        "il glucosio non attraversa mai la membrana delle cellule",
+        "la sua osmolarità è nulla, come quella dell'acqua distillata",
+        "contiene circa 0,28 mol/L di glucosio, non elettrolita, cioè circa 280 mOsm/L",
+        "contiene 5 mol/L di glucosio, concentrazione pari a quella del plasma"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il 5% p/V corrisponde a 50 g/L; dividendo per la massa molare del glucosio (180 g/mol) si ottengono circa 0,28 mol/L. Essendo un non elettrolita, i = 1 e l'osmolarità è circa 280 mOsm/L, vicina ai 290 mOsm/L del plasma.\n\nA) Il glucosio non si dissocia: è proprio questo che rende il calcolo diretto.\nB) Il glucosio entra nelle cellule tramite trasportatori, ed è la ragione per cui, una volta metabolizzato, la glucosata si comporta di fatto come acqua libera.\nC) Una soluzione con osmolarità nulla sarebbe fortemente ipotonica ed emolizzante.\nE) 5 mol/L di glucosio corrisponderebbero a 900 g/L, una concentrazione impossibile."
+    },
+    {
+      "id": "u2-0070",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Pressione oncotica",
+      "testo": "La quota di pressione osmotica del plasma dovuta alle proteine, che trattiene il liquido all'interno del capillare, si chiama pressione …… (o colloido-osmotica).",
+      "accettate": [
+        "oncotica",
+        "oncotico"
+      ],
+      "spiegazione": "Vale circa 25 mmHg ed è dovuta soprattutto all'albumina. È una frazione minima dell'osmolarità plasmatica totale, perché le proteine sono poche in termini di numero di particelle, ma è decisiva negli scambi capillari: gli ioni attraversano liberamente la parete del capillare, le proteine no.\n\nProprio perché sono le sole particelle che restano confinate nel plasma, sono le uniche a esercitare un effetto osmotico efficace attraverso la parete capillare."
+    }
+  ]
+}

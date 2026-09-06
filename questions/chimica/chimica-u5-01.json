@@ -1,0 +1,23 @@
+{
+  "lotto": "chimica-u5-01",
+  "unita": "u5",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u5-0001",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Idrocarburi aromatici: struttura e reattività del benzene",
+      "testo": "Quale delle seguenti affermazioni sul benzene (C₆H₆) è corretta?",
+      "opzioni": [
+        "Ha gli atomi di carbonio ibridati sp³ e struttura non planare",
+        "Dà preferenzialmente reazioni di addizione elettrofila, come gli alcheni",
+        "Ha tutti gli atomi di carbonio ibridati sp² e sei elettroni π delocalizzati sull'anello",
+        "Non soddisfa la regola di Hückel",
+        "Contiene tre doppi legami localizzati, alternati a tre legami semplici di lunghezza diversa"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel benzene ciascun carbonio è ibridato sp², forma tre legami σ complanari a 120° e mette a disposizione un orbitale p perpendicolare al piano: i sei orbitali p si sovrappongono dando un sistema π delocalizzato di 6 elettroni sull'intero anello.\n\nA) L'ibridazione sp³ darebbe il cicloesano, saturo e non planare, non il benzene.\nB) La reazione caratteristica dei composti aromatici è la sostituzione elettrofila aromatica, proprio perché l'addizione distruggerebbe il sistema delocalizzato e la stabilità che ne deriva.\nD) Falso: con 6 elettroni π, la regola di Hückel 4n + 2 è soddisfatta per n = 1, ed è la ragione per cui il benzene è aromatico.\nE) È la rappresentazione di Kekulé presa alla lettera: la delocalizzazione rende tutti i legami C–C equivalenti e di lunghezza intermedia (circa 139 pm) fra un legame semplice (154 pm) e uno doppio (134 pm)."
+    }
+  ]
+}

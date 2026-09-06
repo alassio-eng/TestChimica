@@ -1,0 +1,36 @@
+{
+  "lotto": "chimica-u7-01",
+  "unita": "u7",
+  "generato": "2026-09-06",
+  "domande": [
+    {
+      "id": "u7-0001",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Proteine: natura del legame peptidico",
+      "testo": "Quale affermazione descrive correttamente il legame peptidico?",
+      "opzioni": [
+        "È un legame a idrogeno fra il gruppo C=O di un residuo e il gruppo N–H di un altro",
+        "Si forma per ossidazione dei gruppi tiolici di due residui",
+        "Unisce la catena laterale di un amminoacido al gruppo amminico di quello successivo",
+        "È un legame estereo fra il gruppo carbossilico di un amminoacido e l'ossidrile della catena laterale di un altro",
+        "È un legame ammidico con parziale carattere di doppio legame, che rende il gruppo planare e ne impedisce la libera rotazione"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il legame peptidico nasce dalla condensazione fra il gruppo α-carbossilico di un amminoacido e il gruppo α-amminico del successivo, con eliminazione di una molecola d'acqua: è quindi un legame ammidico. La delocalizzazione del doppietto dell'azoto verso il carbonile gli conferisce un parziale carattere di doppio legame: i sei atomi del gruppo peptidico stanno su un piano e la rotazione attorno al legame C–N è impedita.\n\nA) I legami a idrogeno fra C=O e N–H stabilizzano la struttura secondaria (α-elica, foglietto β), ma sono interazioni deboli, non il legame covalente dello scheletro.\nB) L'ossidazione di due gruppi –SH dà il ponte disolfuro fra due residui di cisteina, che stabilizza la struttura terziaria ma non è il legame peptidico.\nC) Le catene laterali non partecipano alla formazione dello scheletro polipeptidico.\nD) Il legame estereo si formerebbe con un alcol; inoltre il legame peptidico coinvolge i gruppi α, non le catene laterali."
+    },
+    {
+      "id": "u7-0002",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Acidi nucleici: legame fra nucleotidi",
+      "testo": "Nella catena del DNA due nucleotidi consecutivi sono uniti fra loro da un legame ……",
+      "accettate": [
+        "fosfodiestere",
+        "fosfodiestereo",
+        "fosfodiesterico"
+      ],
+      "spiegazione": "Il gruppo fosfato lega l'ossidrile in 3' del pentoso di un nucleotide e l'ossidrile in 5' del nucleotide successivo: essendo esterificato due volte, il legame si chiama fosfodiestere. È il legame che costruisce lo scheletro zucchero-fosfato e che definisce la polarità 5'→3' del filamento.\n\nDa non confondere con il legame N-glicosidico, che unisce la base azotata al carbonio anomerico C1' del pentoso all'interno del singolo nucleotide, né con i legami a idrogeno, che appaiano le basi complementari dei due filamenti (A–T, G–C) e non fanno parte della catena."
+    }
+  ]
+}
