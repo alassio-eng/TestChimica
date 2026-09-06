@@ -1,8 +1,11 @@
 /* Service worker — funzionamento offline dopo la prima apertura.
    Guscio dell'applicazione in cache-first, domande in network-first
-   così un lotto nuovo viene raccolto appena il dispositivo è online. */
+   così un lotto nuovo viene raccolto appena il dispositivo è online.
 
-const VERSIONE = 'v5';
+   Il banco è multi-materia: si parte dal manifest questions/index.json,
+   si leggono gli indici delle singole materie e da lì i loro lotti. */
+
+const VERSIONE = 'v8';
 const CACHE_SHELL = 'banco-chimica-shell-' + VERSIONE;
 const CACHE_DATI = 'banco-chimica-dati-' + VERSIONE;
 
@@ -18,18 +21,23 @@ const SHELL = [
   'icons/icon-180.png'
 ];
 
+async function metti(cache, url) {
+  const r = await fetch(url, { cache: 'reload' });
+  if (!r.ok) throw new Error(url + ' → ' + r.status);
+  await cache.put(url, r.clone());
+  return r.json();
+}
+
 async function cacheDomande() {
   const cache = await caches.open(CACHE_DATI);
-  const risposta = await fetch('questions/index.json', { cache: 'reload' });
-  if (!risposta.ok) throw new Error('indice non disponibile');
-  await cache.put('questions/index.json', risposta.clone());
-  const indice = await risposta.json();
-  const lotti = Array.isArray(indice.lotti) ? indice.lotti : [];
-  await Promise.all(lotti.map(async file => {
+  const manifest = await metti(cache, 'questions/index.json');
+  const materie = manifest.materie || [];
+  await Promise.all(materie.map(async voce => {
+    const dir = 'questions/' + (voce.cartella || voce.id) + '/';
     try {
-      const r = await fetch('questions/' + file, { cache: 'reload' });
-      if (r.ok) await cache.put('questions/' + file, r.clone());
-    } catch (e) { /* lotto non raggiungibile: resta quello in cache */ }
+      const idx = await metti(cache, dir + 'index.json');
+      await Promise.all((idx.lotti || []).map(f => metti(cache, dir + f).catch(() => null)));
+    } catch (e) { /* materia non ancora pubblicata: si prosegue con le altre */ }
   }));
 }
 

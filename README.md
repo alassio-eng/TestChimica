@@ -1,13 +1,19 @@
-# Banco domande · Chimica e propedeutica biochimica
+# Banco domande · semestre filtro
 
-PWA statica per esercitarsi sul programma di Chimica e propedeutica biochimica
-del semestre filtro di Medicina. Nessun backend, nessuna libreria esterna,
+PWA statica per esercitarsi sui programmi del semestre filtro di Medicina.
+Gestisce più materie: chimica (banco in riempimento), fisica e biologia
+(cartelle predisposte). Materie, unità didattiche e formato dei test stanno
+nei dati e non nel codice: aggiungere una materia significa aggiungere una
+cartella sotto `questions/`. Nessun backend, nessuna libreria esterna,
 nessuna traccia lasciata fuori dal dispositivo: tutto lo storico vive nel
 `localStorage` del browser e si sposta da un dispositivo all'altro tramite
 esportazione e importazione di un file JSON.
 
 ## Cosa fa
 
+- **Scelta della materia** in cima alla schermata iniziale; la scelta resta
+  salvata, e ogni materia ha il proprio storico, i propri errori e le proprie
+  statistiche. Un pallino sulla materia segnala i ripassi in scadenza lì.
 - **Due formati fissi**, entrambi con le domande a risposta multipla prima e
   quelle a completamento dopo, come nell'appello:
   - **tutto il programma** — 31 domande, 15 a risposta multipla e 16 a
@@ -56,30 +62,49 @@ manifest.webmanifest    installazione come app
 sw.js                   cache offline
 icons/                  icone 180 · 192 · 512 · maskable
 questions/
-  index.json            elenco dei lotti
-  batch-01.json         primo lotto
-  SCHEMA.md             formato delle domande
+  index.json            manifest delle materie
+  chimica/
+    index.json          unità, quote, formato, elenco dei lotti
+    chimica-u1-01.json …  un file per unità, col prefisso della materia
+  fisica/index.json     predisposta, unità da compilare
+  biologia/index.json   predisposta, unità da compilare
 tools/valida.py         validatore da eseguire prima di pubblicare
+SPEC-NUOVA-MATERIA.md   specifica per chi genera le domande di una materia
 ```
 
 Il codice non dà per scontato quante domande ci siano né che tutte le unità
 siano piene: unità vuote appaiono disattivate, quote non riempibili vengono
 ridistribuite e segnalate.
 
-## Aggiungere un lotto di domande
+## Aggiungere una materia
 
-1. Scrivere `questions/batch-NN.json` seguendo `questions/SCHEMA.md`.
-   I lotti già pubblicati non si toccano.
-2. Aggiungere il nome del file all'array `lotti` di `questions/index.json` e
-   aggiornare il campo `aggiornato`.
+1. Creare `questions/<materia>/index.json` dichiarando unità, quote e formato:
+   il modello sta in `SPEC-NUOVA-MATERIA.md`.
+2. Registrare la materia nell'array `materie` di `questions/index.json`.
+3. Aggiungere i lotti come qui sotto. Il codice non va toccato.
+
+## Aggiungere domande
+
+I file seguono la convenzione `<materia>-<unità>-<progressivo>.json`: un file
+contiene domande di una sola unità, e il validatore lo verifica.
+
+1. Scrivere `questions/<materia>/<materia>-uN-NN.json` seguendo
+   `SPEC-NUOVA-MATERIA.md`. I file già pubblicati non si toccano: per
+   aggiungere domande a un'unità si crea il progressivo successivo.
+2. Aggiungere il nome del file all'array `lotti` di
+   `questions/<materia>/index.json` e aggiornare il campo `aggiornato`.
 3. Validare:
 
    ```bash
-   python3 tools/valida.py
+   python3 tools/valida.py                    # tutte le materie
+   python3 tools/valida.py --materia fisica   # una sola
    ```
 
-   Il validatore stampa anche la copertura per unità rispetto all'obiettivo a
-   regime (U1 150 · U2 70 · U3 70 · U4 100 · U5 90 · U6 70 · U7 150).
+   Il validatore stampa anche la copertura per unità rispetto all'obiettivo
+   dichiarato nell'indice della materia, la distribuzione delle posizioni
+   della risposta corretta e la quota di quesiti in cui la corretta è
+   l'opzione più lunga: sono i due modi con cui un banco diventa indovinabile
+   senza saperlo.
 4. Commit e push. Sui dispositivi già installati il nuovo lotto arriva alla
    prima apertura online; «Dati e backup → Cerca nuove domande» lo forza subito.
 
@@ -104,17 +129,25 @@ il caricamento dei lotti richiedono un server.
 
 ## Dati sul dispositivo
 
-Chiave `localStorage`: `bancoChimica.v1`.
+Chiave `localStorage`: `bancoChimica.v1`. Le chiavi delle domande sono
+qualificate dalla materia, così due materie possono usare gli stessi codici di
+unità senza collidere.
 
 ```jsonc
 {
-  "viste":    { "u1-0001": { "n": 2, "ultima": "…", "ultimaEsatta": false } },
-  "errori":   { "u1-0001": { "n": 1, "ultimoErrore": "…", "stage": 0,
-                             "scadenza": "…", "risolto": null } },
-  "sessioni": [ { "id": "…", "data": "…", "ambito": "all", "durata": 0,
-                  "punteggio": 0, "totale": 31, "perUnita": {}, "voci": [] } ]
+  "schema": 2,
+  "viste":    { "chimica/u1-0001": { "n": 2, "ultima": "…", "ultimaEsatta": false } },
+  "errori":   { "chimica/u1-0001": { "n": 1, "ultimoErrore": "…", "stage": 0,
+                                     "scadenza": "…", "risolto": null } },
+  "sessioni": [ { "id": "…", "data": "…", "materia": "chimica", "ambito": "all",
+                  "durata": 0, "punteggio": 0, "totale": 31,
+                  "perUnita": {}, "voci": [] } ]
 }
 ```
+
+Lo storico creato dalla versione a materia singola viene migrato alla prima
+apertura: le chiavi vengono qualificate con `chimica/` e riscritte, senza
+perdita.
 
 ### Cosa sopravvive a un aggiornamento
 

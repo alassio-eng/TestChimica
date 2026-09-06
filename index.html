@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Banco domande · Chimica</title>
-<meta name="description" content="Banco domande per l'esame di Chimica e propedeutica biochimica del semestre filtro.">
+<title>Banco domande · semestre filtro</title>
+<meta name="description" content="Banco domande per gli esami del semestre filtro: chimica, fisica e biologia.">
 <meta name="theme-color" content="#0f2530">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Chimica">
+<meta name="apple-mobile-web-app-title" content="Banco domande">
 <link rel="stylesheet" href="style.css">
 <script>
 /* Applica il tema salvato prima del primo disegno, per evitare il lampo. */
@@ -25,7 +25,7 @@ try {
 
 <header id="topbar">
   <button id="btn-home" class="ghost" type="button" hidden>&larr; Esci</button>
-  <h1 id="topbar-title">Banco domande · Chimica</h1>
+  <h1 id="topbar-title">Banco domande</h1>
   <div id="timer" hidden>00:00</div>
   <button id="btn-theme" class="ghost" type="button" title="Tema" aria-label="Cambia tema"></button>
 </header>
@@ -41,15 +41,14 @@ try {
       <button id="btn-review-due" class="primary" type="button">Test di ripasso</button>
     </div>
 
+    <h2>Materia</h2>
+    <div id="subject-list" class="subjects"></div>
+
     <h2>Scegli l'unità</h2>
     <div id="unit-list" class="unit-list"></div>
 
     <h2>Formato dei test</h2>
-    <div class="card">
-      <p class="hint"><strong>Tutto il programma</strong> — 31 domande come l'appello ufficiale: 15 a risposta multipla e 16 a completamento, ripartite fra le unità secondo la proporzione U1 8 · U2 2 · U3 2 · U4 5 · U5 4 · U6 1 · U7 9.</p>
-      <p class="hint"><strong>Singola unità</strong> — 15 domande: 8 a risposta multipla e 7 a completamento.</p>
-      <p class="hint">In entrambi i casi vengono prima le domande a risposta multipla, poi quelle a completamento.</p>
-    </div>
+    <div id="format-info" class="card"></div>
 
     <h2>Altro</h2>
     <div class="row-buttons">
