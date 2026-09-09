@@ -1,0 +1,710 @@
+{
+  "lotto": "fisica-u1-01",
+  "unita": "u1",
+  "generato": "2026-09-07",
+  "domande": [
+    {
+      "id": "u1-0001",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Grandezze fondamentali del Sistema Internazionale",
+      "testo": "Quale fra le seguenti NON è una grandezza fondamentale del Sistema Internazionale?",
+      "opzioni": [
+        "l'intensità di corrente elettrica",
+        "la quantità di sostanza",
+        "la forza",
+        "la temperatura termodinamica",
+        "l'intensità luminosa"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le grandezze fondamentali del SI sono sette: lunghezza (m), massa (kg), tempo (s), intensità di corrente (A), temperatura termodinamica (K), quantità di sostanza (mol) e intensità luminosa (cd). La forza non è fra queste: è una grandezza derivata, definita dalla seconda legge della dinamica, e il newton vale 1 kg·m/s².\n\nA) L'intensità di corrente è fondamentale e si misura in ampere.\nB) La quantità di sostanza è fondamentale e si misura in moli.\nD) La temperatura termodinamica è fondamentale e si misura in kelvin.\nE) L'intensità luminosa è fondamentale e si misura in candele."
+    },
+    {
+      "id": "u1-0002",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Unità di misura della quantità di sostanza",
+      "testo": "Nel Sistema Internazionale l'unità di misura fondamentale della quantità di sostanza è la ……",
+      "accettate": [
+        "mole",
+        "mol",
+        "moli"
+      ],
+      "spiegazione": "La mole è una delle sette unità fondamentali del SI e contiene un numero di entità elementari pari alla costante di Avogadro, 6,022 × 10²³ mol⁻¹.\n\nLe altre sei unità fondamentali sono metro, chilogrammo, secondo, ampere, kelvin e candela."
+    },
+    {
+      "id": "u1-0003",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Conversione di unità di velocità",
+      "testo": "Un'automobile viaggia a 72 km/h. La sua velocità espressa in unità SI vale:",
+      "opzioni": [
+        "7,2 m/s",
+        "20 m/s",
+        "25,9 m/s",
+        "259,2 m/s",
+        "1200 m/s"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per passare da km/h a m/s si divide per 3,6, perché 1 km/h = 1000 m / 3600 s: 72 ÷ 3,6 = 20 m/s.\n\nA) 7,2 m/s si ottiene dividendo per 10, cioè usando un fattore inventato.\nC) 25,9 m/s nasce dal moltiplicare per 0,36 invece di dividere per 3,6.\nD) 259,2 m/s è il risultato del moltiplicare per 3,6: è la conversione fatta nel verso opposto, da m/s a km/h.\nE) 1200 m/s si ottiene convertendo i chilometri in metri ma dividendo per 60 anziché per 3600, cioè fermandosi ai minuti."
+    },
+    {
+      "id": "u1-0004",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grandezza fondamentale misurata in kelvin",
+      "testo": "La grandezza fondamentale del Sistema Internazionale che si misura in kelvin è la ……",
+      "accettate": [
+        "temperatura",
+        "temperatura termodinamica",
+        "temperatura assoluta"
+      ],
+      "spiegazione": "Il kelvin è l'unità fondamentale della temperatura termodinamica. La scala Kelvin ha lo zero nello zero assoluto e ampiezza del grado uguale a quella della scala Celsius: T(K) = t(°C) + 273,15.\n\nIl grado Celsius non è un'unità fondamentale del SI: è ammesso come unità derivata per esprimere differenze e temperature d'uso pratico."
+    },
+    {
+      "id": "u1-0005",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Equazione dimensionale della pressione",
+      "testo": "Indicando con [M], [L] e [T] le dimensioni di massa, lunghezza e tempo, quali sono le dimensioni di una pressione?",
+      "opzioni": [
+        "[M][L][T]⁻²",
+        "[M][L]⁻¹[T]⁻²",
+        "[M][L]²[T]⁻²",
+        "[M][L]⁻³",
+        "[M][L]⁻¹[T]⁻¹"
+      ],
+      "corretta": 1,
+      "spiegazione": "La pressione è il rapporto fra una forza e una superficie: [F]/[L]² = [M][L][T]⁻² / [L]² = [M][L]⁻¹[T]⁻². Coerentemente 1 Pa = 1 N/m² = 1 kg·m⁻¹·s⁻².\n\nA) [M][L][T]⁻² sono le dimensioni della forza, cioè del numeratore soltanto.\nC) [M][L]²[T]⁻² sono le dimensioni del lavoro e dell'energia.\nD) [M][L]⁻³ sono le dimensioni della densità.\nE) [M][L]⁻¹[T]⁻¹ sono le dimensioni della viscosità dinamica (Pa·s)."
+    },
+    {
+      "id": "u1-0006",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prefissi del Sistema Internazionale",
+      "testo": "Il prefisso del Sistema Internazionale che indica un fattore pari a un milionesimo si chiama ……",
+      "accettate": [
+        "micro"
+      ],
+      "spiegazione": "Il prefisso micro corrisponde a 10⁻⁶ e si indica con la lettera greca μ: 1 μm = 10⁻⁶ m, 1 μg = 10⁻⁶ g.\n\nI prefissi vicini sono milli (10⁻³) e nano (10⁻⁹): confonderli sposta il risultato di tre ordini di grandezza."
+    },
+    {
+      "id": "u1-0007",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Notazione scientifica",
+      "testo": "Quale delle seguenti espressioni è la scrittura in notazione scientifica del numero 0,00047?",
+      "opzioni": [
+        "47 × 10⁻⁵",
+        "4,7 × 10⁻³",
+        "4,7 × 10⁴",
+        "4,7 × 10⁻⁴",
+        "0,47 × 10⁻³"
+      ],
+      "corretta": 3,
+      "spiegazione": "In notazione scientifica un numero si scrive come prodotto di un coefficiente maggiore o uguale a 1 e minore di 10 per una potenza di dieci. Spostando la virgola di quattro posti verso destra si ottiene il coefficiente 4,7, quindi 0,00047 = 4,7 × 10⁻⁴.\n\nA) 47 × 10⁻⁵ vale lo stesso numero, ma il coefficiente è maggiore di 10: non è notazione scientifica.\nB) 4,7 × 10⁻³ vale 0,0047, dieci volte tanto: la virgola è stata spostata di tre posti soltanto.\nC) 4,7 × 10⁴ vale 47 000: l'esponente ha il segno sbagliato.\nE) 0,47 × 10⁻³ vale ancora lo stesso numero, ma con coefficiente minore di 1: neanche questa è notazione scientifica."
+    },
+    {
+      "id": "u1-0008",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grandezze estensive",
+      "testo": "Le grandezze il cui valore dipende dall'estensione del sistema, come la massa e il volume, si dicono ……",
+      "accettate": [
+        "estensive",
+        "estensiva",
+        "estensivo"
+      ],
+      "spiegazione": "Una grandezza estensiva è additiva: dividendo un corpo in due parti, la massa e il volume di ciascuna parte sono minori di quelli del corpo intero, e la loro somma restituisce il valore iniziale.\n\nÈ la proprietà che distingue queste grandezze da quelle intensive, come densità e temperatura, che restano invece le stesse in ogni porzione di un sistema omogeneo."
+    },
+    {
+      "id": "u1-0009",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ordine di grandezza",
+      "testo": "L'ordine di grandezza di una lunghezza pari a 2,3 × 10⁵ m è:",
+      "opzioni": [
+        "10³ m",
+        "2 × 10⁵ m",
+        "10⁶ m",
+        "10⁴ m",
+        "10⁵ m"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'ordine di grandezza è la potenza di dieci più vicina al valore. Con coefficiente 2,3 il numero è più vicino a 10⁵ che a 10⁶, quindi l'ordine di grandezza è 10⁵ m.\n\nA) 10³ m sarebbe l'ordine di grandezza di un valore cento volte più piccolo.\nB) 2 × 10⁵ m è un'approssimazione del valore, non un ordine di grandezza: l'ordine di grandezza è sempre una potenza di dieci, senza coefficiente.\nC) 10⁶ m si otterrebbe arrotondando per eccesso, cosa lecita solo quando il coefficiente è vicino a 10.\nD) 10⁴ m abbassa di uno l'esponente: è l'errore di chi conta male gli spostamenti della virgola."
+    },
+    {
+      "id": "u1-0010",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grandezze intensive",
+      "testo": "Le grandezze che non dipendono dalla quantità di materia considerata, come la temperatura e la densità, si dicono ……",
+      "accettate": [
+        "intensive",
+        "intensiva",
+        "intensivo"
+      ],
+      "spiegazione": "Le grandezze intensive non sono additive: due bicchieri d'acqua a 20 °C, versati insieme, danno acqua a 20 °C e non a 40 °C.\n\nIl rapporto fra due grandezze estensive dà spesso una grandezza intensiva: la densità è massa diviso volume, la concentrazione è quantità di soluto diviso volume."
+    },
+    {
+      "id": "u1-0011",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Grandezze intensive ed estensive",
+      "testo": "Quale fra le seguenti è una grandezza intensiva?",
+      "opzioni": [
+        "la massa",
+        "la densità",
+        "il volume",
+        "il numero di moli",
+        "il peso"
+      ],
+      "corretta": 1,
+      "spiegazione": "Tagliando in due un blocco omogeneo, ciascuna metà ha la stessa densità del blocco intero: il valore non dipende dalla quantità di materia. La densità è infatti il rapporto fra due grandezze estensive, massa e volume, che si dimezzano insieme.\n\nA) La massa si dimezza: è estensiva.\nC) Il volume si dimezza: è estensivo.\nD) Il numero di moli è proporzionale alla massa, quindi è estensivo.\nE) Il peso è il prodotto della massa per g: dimezzando la massa si dimezza, quindi è estensivo."
+    },
+    {
+      "id": "u1-0012",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grandezze scalari",
+      "testo": "Una grandezza fisica completamente individuata da un numero seguito dalla sua unità di misura si dice ……",
+      "accettate": [
+        "scalare",
+        "scalari"
+      ],
+      "spiegazione": "Sono scalari massa, tempo, temperatura, volume, densità, lavoro ed energia: per definirle basta il valore, senza indicare alcuna direzione.\n\nLe grandezze vettoriali richiedono invece tre informazioni: modulo, direzione e verso."
+    },
+    {
+      "id": "u1-0013",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Grandezze scalari e vettoriali",
+      "testo": "Quale fra le seguenti grandezze è vettoriale?",
+      "opzioni": [
+        "la massa",
+        "il tempo",
+        "la temperatura",
+        "il lavoro",
+        "l'accelerazione"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'accelerazione ha modulo, direzione e verso: è la variazione del vettore velocità nel tempo, e cambia anche quando cambia solo la direzione del moto, come nel moto circolare uniforme.\n\nA) La massa è uno scalare: è definita dal solo valore numerico.\nB) Il tempo è uno scalare.\nC) La temperatura è uno scalare.\nD) Il lavoro è uno scalare, benché nasca da due vettori: il prodotto scalare fra forza e spostamento restituisce un numero."
+    },
+    {
+      "id": "u1-0014",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grandezze vettoriali",
+      "testo": "Una grandezza fisica per la quale occorre indicare modulo, direzione e verso si dice ……",
+      "accettate": [
+        "vettoriale",
+        "vettoriali"
+      ],
+      "spiegazione": "Sono vettoriali spostamento, velocità, accelerazione, forza, quantità di moto e campo elettrico: dire «una forza di 10 N» non basta, occorre dire lungo quale retta agisce e in quale dei due versi.\n\nProprio perché hanno una direzione, i vettori non si sommano aritmeticamente ma con la regola del parallelogramma."
+    },
+    {
+      "id": "u1-0015",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Somma di vettori perpendicolari",
+      "testo": "Due vettori fra loro perpendicolari hanno moduli 3 e 4. Il modulo del vettore somma vale:",
+      "opzioni": [
+        "5",
+        "7",
+        "1",
+        "12",
+        "25"
+      ],
+      "corretta": 0,
+      "spiegazione": "Con vettori perpendicolari il parallelogramma è un rettangolo e la diagonale si calcola con il teorema di Pitagora: √(3² + 4²) = √25 = 5.\n\nB) 7 è la somma aritmetica dei moduli, valida solo per vettori paralleli e concordi.\nC) 1 è la differenza dei moduli, valida solo per vettori paralleli e discordi.\nD) 12 è il prodotto dei moduli, che non ha alcun ruolo nella somma.\nE) 25 è la somma dei quadrati: manca l'estrazione della radice."
+    },
+    {
+      "id": "u1-0016",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Versore",
+      "testo": "Un vettore di modulo unitario, usato per indicare soltanto una direzione e un verso, si chiama ……",
+      "accettate": [
+        "versore",
+        "versori",
+        "vettore unitario"
+      ],
+      "spiegazione": "I versori degli assi cartesiani si indicano con i, j e k e permettono di scrivere un vettore come somma delle sue componenti: v = vₓ i + v_y j + v_z k.\n\nIl versore associato a un vettore si ottiene dividendo il vettore per il proprio modulo."
+    },
+    {
+      "id": "u1-0017",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Modulo della somma di due vettori",
+      "testo": "Due vettori hanno moduli 6 e 8. Quale fra i seguenti valori NON può essere il modulo della loro somma?",
+      "opzioni": [
+        "2",
+        "10",
+        "14",
+        "16",
+        "8"
+      ],
+      "corretta": 3,
+      "spiegazione": "Al variare dell'angolo compreso, il modulo della somma varia con continuità fra il valore minimo |8 − 6| = 2, che si ha con i vettori paralleli e discordi, e il valore massimo 8 + 6 = 14, che si ha con i vettori paralleli e concordi. Il valore 16 cade fuori da questo intervallo.\n\nA) 2 è proprio il valore minimo possibile.\nB) 10 si ottiene con i due vettori perpendicolari: √(36 + 64) = 10.\nC) 14 è il valore massimo possibile.\nE) 8 è un valore interno all'intervallo, ottenibile con un opportuno angolo ottuso."
+    },
+    {
+      "id": "u1-0018",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Componenti di un vettore",
+      "testo": "Le proiezioni di un vettore sugli assi di un sistema di riferimento cartesiano si chiamano …… del vettore",
+      "accettate": [
+        "componenti",
+        "componente",
+        "componenti cartesiane"
+      ],
+      "spiegazione": "Per un vettore di modulo v che forma un angolo θ con l'asse x, le componenti valgono vₓ = v cos θ e v_y = v sen θ, e il modulo si ricava da v = √(vₓ² + v_y²).\n\nLavorare per componenti trasforma la somma vettoriale in due somme algebriche indipendenti, una per ciascun asse."
+    },
+    {
+      "id": "u1-0019",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Prodotto scalare di vettori perpendicolari",
+      "testo": "Il prodotto scalare di due vettori non nulli e fra loro perpendicolari:",
+      "opzioni": [
+        "è uguale al prodotto dei moduli",
+        "è un vettore perpendicolare a entrambi",
+        "è nullo",
+        "ha modulo uguale al prodotto vettoriale",
+        "è un numero negativo"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il prodotto scalare vale a · b = a b cos θ. Per θ = 90° il coseno è zero, quindi il prodotto scalare si annulla anche se nessuno dei due vettori è nullo.\n\nA) Il prodotto dei moduli si ottiene per θ = 0°, cioè per vettori paralleli e concordi.\nB) Confonde i due prodotti: il risultato del prodotto scalare è un numero, non un vettore.\nD) Per vettori perpendicolari il prodotto vettoriale ha modulo a b, cioè il massimo possibile: i due prodotti sono in questo caso l'uno nullo e l'altro massimo.\nE) Il prodotto scalare è negativo quando l'angolo compreso è ottuso, non retto."
+    },
+    {
+      "id": "u1-0020",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prodotto scalare",
+      "testo": "L'operazione fra due vettori che restituisce un numero, pari al prodotto dei moduli per il coseno dell'angolo compreso, si chiama prodotto ……",
+      "accettate": [
+        "scalare"
+      ],
+      "spiegazione": "Il prodotto scalare si scrive a · b = a b cos θ. È massimo per vettori concordi, nullo per vettori perpendicolari e negativo per angoli ottusi.\n\nÈ l'operazione con cui si definisce il lavoro di una forza: L = F · s = F s cos θ, che infatti è una grandezza scalare."
+    },
+    {
+      "id": "u1-0021",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Direzione del prodotto vettoriale",
+      "testo": "Dati due vettori a e b non paralleli, il vettore c = a × b è:",
+      "opzioni": [
+        "parallelo ad a, con verso opposto",
+        "contenuto nel piano individuato da a e b",
+        "diretto lungo la bisettrice dell'angolo fra a e b",
+        "perpendicolare al piano individuato da a e b",
+        "parallelo a b, con modulo pari ad a b"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il prodotto vettoriale è perpendicolare a entrambi i fattori, quindi al piano che essi individuano; il verso è dato dalla regola della mano destra e il modulo vale a b sen θ.\n\nA) Non può essere parallelo ad a, perché è perpendicolare ad a.\nB) Il vettore risultante esce dal piano dei due fattori, non vi appartiene.\nC) La bisettrice giace nel piano dei due vettori, quindi non può essere la direzione cercata.\nE) Oltre a non essere parallelo a b, il modulo a b si avrebbe solo se i due vettori fossero perpendicolari, cioè con sen θ = 1."
+    },
+    {
+      "id": "u1-0022",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prodotto vettoriale",
+      "testo": "L'operazione fra due vettori il cui risultato è un vettore perpendicolare al piano dei due fattori si chiama prodotto ……",
+      "accettate": [
+        "vettoriale"
+      ],
+      "spiegazione": "Il modulo del prodotto vettoriale vale a b sen θ ed è numericamente uguale all'area del parallelogramma costruito sui due vettori: è nullo per vettori paralleli e massimo per vettori perpendicolari.\n\nA differenza del prodotto scalare non è commutativo: a × b = − b × a."
+    },
+    {
+      "id": "u1-0023",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Componenti cartesiane di un vettore",
+      "testo": "Un vettore di modulo 10 forma un angolo di 60° con l'asse x. La sua componente lungo l'asse x vale:",
+      "opzioni": [
+        "10",
+        "8,7",
+        "5",
+        "0,5",
+        "17,3"
+      ],
+      "corretta": 2,
+      "spiegazione": "La componente lungo x è vₓ = v cos θ = 10 × cos 60° = 10 × 0,5 = 5.\n\nA) 10 è il modulo del vettore: coinciderebbe con la componente x solo per un angolo nullo.\nB) 8,7 è 10 × sen 60°, cioè la componente lungo y: è l'errore di chi scambia seno e coseno.\nD) 0,5 è il valore del coseno, non moltiplicato per il modulo.\nE) 17,3 è 10 × tan 60°, cioè l'uso della funzione trigonometrica sbagliata."
+    },
+    {
+      "id": "u1-0024",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Differenza fra vettori",
+      "testo": "Per costruire la differenza a − b si somma al vettore a il vettore …… di b",
+      "accettate": [
+        "opposto"
+      ],
+      "spiegazione": "Il vettore opposto ha stesso modulo e stessa direzione ma verso contrario: a − b = a + (− b). Ricondotta a una somma, la differenza si costruisce con la solita regola del parallelogramma.\n\nGraficamente il vettore differenza coincide con l'altra diagonale del parallelogramma costruito su a e b, quella che congiunge le punte dei due vettori."
+    },
+    {
+      "id": "u1-0025",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Trigonometria del triangolo rettangolo",
+      "testo": "In un triangolo rettangolo l'ipotenusa misura 10 cm e uno degli angoli acuti vale 30°. Il cateto opposto a quell'angolo misura:",
+      "opzioni": [
+        "8,7 cm",
+        "10 cm",
+        "5,8 cm",
+        "20 cm",
+        "5 cm"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il cateto opposto si ottiene moltiplicando l'ipotenusa per il seno dell'angolo: 10 × sen 30° = 10 × 0,5 = 5 cm.\n\nA) 8,7 cm è 10 × cos 30°, cioè il cateto adiacente all'angolo di 30°.\nB) 10 cm ripete l'ipotenusa, che è sempre maggiore di ciascun cateto.\nC) 5,8 cm è 10 × tan 30°: la tangente lega fra loro i due cateti, non un cateto e l'ipotenusa.\nD) 20 cm si ottiene dividendo per 0,5 anziché moltiplicare, e darebbe un cateto maggiore dell'ipotenusa."
+    },
+    {
+      "id": "u1-0026",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Definizione di seno",
+      "testo": "In un triangolo rettangolo il rapporto fra il cateto opposto a un angolo acuto e l'ipotenusa è il …… di quell'angolo",
+      "accettate": [
+        "seno",
+        "sen",
+        "sin"
+      ],
+      "spiegazione": "Poiché l'ipotenusa è il lato maggiore, il seno di un angolo acuto è sempre compreso fra 0 e 1. Vale sen 30° = 0,5, sen 45° ≈ 0,71, sen 60° ≈ 0,87.\n\nÈ la funzione che serve per ricavare la componente di un vettore perpendicolare a un asse, quando l'angolo è misurato rispetto a quell'asse."
+    },
+    {
+      "id": "u1-0027",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Conversione di unità di superficie",
+      "testo": "Una superficie di 2 m² equivale a:",
+      "opzioni": [
+        "2 × 10⁴ cm²",
+        "2 × 10² cm²",
+        "2 × 10⁶ cm²",
+        "2 × 10⁸ cm²",
+        "2 × 10⁻⁴ cm²"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il fattore fra metri e centimetri è 10², quindi fra metri quadrati e centimetri quadrati è (10²)² = 10⁴: 2 m² = 2 × 10⁴ cm².\n\nB) 2 × 10² cm² applica il fattore lineare senza elevarlo al quadrato.\nC) 2 × 10⁶ cm² usa il fattore delle unità di volume, che è (10²)³ = 10⁶.\nD) 2 × 10⁸ cm² eleva al quadrato il fattore 10⁴, già corretto per le aree.\nE) 2 × 10⁻⁴ cm² applica la conversione nel verso opposto, come se il centimetro fosse più grande del metro."
+    },
+    {
+      "id": "u1-0028",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Regola del parallelogramma",
+      "testo": "La costruzione grafica che dà la somma di due vettori applicati nello stesso punto, tracciando la diagonale del quadrilatero costruito su di essi, si chiama regola del ……",
+      "accettate": [
+        "parallelogramma",
+        "parallelogrammo"
+      ],
+      "spiegazione": "Il vettore somma è la diagonale del parallelogramma che ha per lati i due vettori, e il suo modulo vale √(a² + b² + 2 a b cos θ).\n\nÈ equivalente al metodo punta-coda, in cui il secondo vettore viene traslato con la coda sulla punta del primo e la somma congiunge la coda del primo alla punta del secondo."
+    },
+    {
+      "id": "u1-0029",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Conversione di unità di volume",
+      "testo": "Un volume di 500 cm³ corrisponde a:",
+      "opzioni": [
+        "5 × 10⁻⁴ m³",
+        "5 × 10⁻² m³",
+        "0,5 m³",
+        "5 × 10⁻⁶ m³",
+        "5 × 10² m³"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il fattore fra metri cubi e centimetri cubi è (10²)³ = 10⁶, quindi 500 cm³ = 500 × 10⁻⁶ m³ = 5 × 10⁻⁴ m³. Lo stesso volume vale 0,5 L, dato che 1 L = 1 dm³ = 10⁻³ m³.\n\nB) 5 × 10⁻² m³ usa il fattore 10⁴, cioè quello delle superfici.\nC) 0,5 m³ scambia il metro cubo con il litro: il valore 0,5 è giusto ma l'unità è sbagliata di mille volte.\nD) 5 × 10⁻⁶ m³ corrisponde a 5 cm³: è il fattore applicato al numero sbagliato.\nE) 5 × 10² m³ applica la conversione nel verso opposto."
+    },
+    {
+      "id": "u1-0030",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Definizione di coseno",
+      "testo": "In un triangolo rettangolo il rapporto fra il cateto adiacente a un angolo acuto e l'ipotenusa è il …… di quell'angolo",
+      "accettate": [
+        "coseno",
+        "cos"
+      ],
+      "spiegazione": "Vale cos 30° ≈ 0,87, cos 45° ≈ 0,71, cos 60° = 0,5: al crescere dell'angolo il coseno diminuisce, mentre il seno cresce.\n\nÈ la funzione che compare nella componente di un vettore lungo l'asse rispetto al quale è misurato l'angolo, e nella definizione del prodotto scalare."
+    },
+    {
+      "id": "u1-0031",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Multipli e sottomultipli",
+      "testo": "Facendo uso dei multipli e dei sottomultipli, 10⁻⁹ km corrisponde a:",
+      "opzioni": [
+        "1 nm",
+        "1 mm",
+        "1 cm",
+        "1 dm",
+        "1 µm"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il chilometro vale 10³ m, quindi 10⁻⁹ km = 10⁻⁹ × 10³ m = 10⁻⁶ m, cioè un micrometro.\n\nA) 1 nm vale 10⁻⁹ m: è il risultato di chi legge l'esponente −9 dimenticando di convertire prima i chilometri in metri.\nB) 1 mm vale 10⁻³ m.\nC) 1 cm vale 10⁻² m.\nD) 1 dm vale 10⁻¹ m."
+    },
+    {
+      "id": "u1-0032",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prodotto scalare e vettori perpendicolari",
+      "testo": "Il prodotto scalare di due vettori non nulli e fra loro perpendicolari vale ……",
+      "accettate": [
+        "zero",
+        "0",
+        "nullo"
+      ],
+      "spiegazione": "Nel prodotto scalare a b cos θ il coseno di 90° è zero: il risultato si annulla senza che nessuno dei due vettori sia nullo.\n\nÈ il motivo per cui una forza perpendicolare allo spostamento non compie lavoro: la forza centripeta nel moto circolare uniforme, per esempio, non modifica l'energia cinetica."
+    },
+    {
+      "id": "u1-0033",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Analisi dimensionale",
+      "testo": "Quale fra le seguenti grandezze ha dimensioni [M][L]²[T]⁻²?",
+      "opzioni": [
+        "la potenza",
+        "la quantità di moto",
+        "la forza",
+        "il lavoro",
+        "la pressione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il lavoro è il prodotto di una forza per uno spostamento: [M][L][T]⁻² × [L] = [M][L]²[T]⁻². Le stesse dimensioni hanno l'energia e il calore, coerentemente con il fatto che si misurano tutti in joule.\n\nA) La potenza è lavoro diviso tempo: [M][L]²[T]⁻³.\nB) La quantità di moto è massa per velocità: [M][L][T]⁻¹.\nC) La forza è massa per accelerazione: [M][L][T]⁻².\nE) La pressione è forza diviso area: [M][L]⁻¹[T]⁻²."
+    },
+    {
+      "id": "u1-0034",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Definizione di tangente",
+      "testo": "Il rapporto fra il seno e il coseno di un angolo si chiama ……",
+      "accettate": [
+        "tangente",
+        "tan",
+        "tg"
+      ],
+      "spiegazione": "In un triangolo rettangolo la tangente di un angolo acuto è anche il rapporto fra il cateto opposto e il cateto adiacente. Vale tan 45° = 1, mentre per l'angolo di 90° non è definita, perché il coseno si annulla.\n\nÈ la funzione che compare quando si conoscono le due componenti di un vettore e se ne vuole ricavare la direzione."
+    },
+    {
+      "id": "u1-0035",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Grafici: proporzionalità inversa",
+      "testo": "Due grandezze x e y sono inversamente proporzionali. Il grafico cartesiano di y in funzione di x è:",
+      "opzioni": [
+        "una retta passante per l'origine",
+        "una retta con intercetta diversa da zero",
+        "un ramo di iperbole",
+        "una parabola con il vertice nell'origine",
+        "una retta parallela all'asse delle ascisse"
+      ],
+      "corretta": 2,
+      "spiegazione": "La proporzionalità inversa si scrive y = k/x, cioè x·y = k: il grafico è un ramo di iperbole equilatera, che si avvicina indefinitamente agli assi senza toccarli.\n\nA) La retta per l'origine rappresenta la proporzionalità diretta, y = k x.\nB) Una retta con intercetta non nulla rappresenta una relazione lineare, ma non una proporzionalità.\nD) La parabola con vertice nell'origine rappresenta y = k x², cioè la proporzionalità quadratica.\nE) La retta parallela all'asse delle ascisse rappresenta una grandezza costante, indipendente da x."
+    },
+    {
+      "id": "u1-0036",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grafici: proporzionalità diretta",
+      "testo": "Se due grandezze sono direttamente proporzionali, il loro grafico cartesiano è una retta passante per l'……",
+      "accettate": [
+        "origine",
+        "origine degli assi"
+      ],
+      "spiegazione": "La legge è y = k x: quando x vale zero anche y vale zero, quindi la retta passa per l'origine, e il coefficiente angolare k è la costante di proporzionalità.\n\nUna retta che non passa per l'origine descrive una relazione lineare, y = k x + q, ma non una proporzionalità: raddoppiando x, y non raddoppia."
+    },
+    {
+      "id": "u1-0037",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Lettura di un grafico lineare",
+      "testo": "Il grafico di y in funzione di x è una retta passante per l'origine. Ne segue che:",
+      "opzioni": [
+        "y è inversamente proporzionale a x",
+        "il rapporto y/x è costante",
+        "il prodotto x·y è costante",
+        "y è proporzionale al quadrato di x",
+        "y non dipende da x"
+      ],
+      "corretta": 1,
+      "spiegazione": "Una retta per l'origine ha equazione y = k x, quindi y/x = k per ogni coppia di valori: il rapporto fra le due grandezze è costante ed è il coefficiente angolare della retta.\n\nA) Nella proporzionalità inversa il grafico sarebbe un ramo di iperbole.\nC) Il prodotto costante caratterizza la proporzionalità inversa, non quella diretta.\nD) La proporzionalità con il quadrato darebbe una parabola.\nE) Se y non dipendesse da x la retta sarebbe orizzontale, e passando per l'origine coinciderebbe con l'asse x."
+    },
+    {
+      "id": "u1-0038",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Analisi dimensionale",
+      "testo": "Il controllo che verifica se i due membri di una formula hanno le stesse dimensioni fisiche si chiama analisi ……",
+      "accettate": [
+        "dimensionale"
+      ],
+      "spiegazione": "Un'equazione fisica deve essere omogenea: non si possono sommare grandezze di dimensioni diverse, né uguagliare una lunghezza a un tempo. L'analisi dimensionale è il primo controllo da fare su una formula ricavata a memoria.\n\nNon garantisce però che la formula sia esatta: i coefficienti numerici puri, come il 2 o il π, sono adimensionali e sfuggono a questo controllo."
+    },
+    {
+      "id": "u1-0039",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Unità derivate espresse in unità fondamentali",
+      "testo": "Il pascal, unità SI della pressione, espresso mediante le unità fondamentali del SI equivale a:",
+      "opzioni": [
+        "kg·m⁻¹·s⁻²",
+        "kg·m·s⁻²",
+        "kg·m²·s⁻²",
+        "kg·m⁻³",
+        "kg·m⁻¹·s⁻¹"
+      ],
+      "corretta": 0,
+      "spiegazione": "1 Pa = 1 N/m², e il newton vale 1 kg·m·s⁻²: dividendo per m² si ottiene 1 kg·m⁻¹·s⁻².\n\nB) kg·m·s⁻² è il newton, cioè l'unità della forza.\nC) kg·m²·s⁻² è il joule, unità di lavoro ed energia.\nD) kg·m⁻³ è l'unità della densità.\nE) kg·m⁻¹·s⁻¹ è il pascal per secondo, unità della viscosità dinamica."
+    },
+    {
+      "id": "u1-0040",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Unità di misura della forza",
+      "testo": "Nel Sistema Internazionale l'unità di misura della forza è il ……",
+      "accettate": [
+        "newton",
+        "n"
+      ],
+      "spiegazione": "Il newton è un'unità derivata: 1 N = 1 kg·m/s², cioè la forza che imprime a una massa di 1 kg un'accelerazione di 1 m/s².\n\nSulla superficie terrestre una massa di 1 kg pesa circa 9,8 N: massa e peso sono grandezze diverse, la prima scalare e in chilogrammi, la seconda vettoriale e in newton."
+    },
+    {
+      "id": "u1-0041",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Operazioni in notazione scientifica",
+      "testo": "Il prodotto (3 × 10⁵) × (2 × 10⁻⁸) vale:",
+      "opzioni": [
+        "6 × 10⁻³",
+        "6 × 10¹³",
+        "5 × 10⁻³",
+        "6 × 10⁻⁴⁰",
+        "6 × 10³"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nel prodotto si moltiplicano i coefficienti e si sommano gli esponenti: 3 × 2 = 6 e 5 + (−8) = −3, quindi 6 × 10⁻³.\n\nB) 6 × 10¹³ sottrae gli esponenti invece di sommarli, come si fa nella divisione.\nC) 5 × 10⁻³ somma i coefficienti anziché moltiplicarli.\nD) 6 × 10⁻⁴⁰ moltiplica fra loro gli esponenti.\nE) 6 × 10³ sbaglia il segno nella somma degli esponenti."
+    },
+    {
+      "id": "u1-0042",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Relazione fondamentale della trigonometria",
+      "testo": "Per qualunque angolo, la somma del quadrato del seno e del quadrato del coseno vale ……",
+      "accettate": [
+        "uno",
+        "1"
+      ],
+      "spiegazione": "L'identità sen²α + cos²α = 1 è la traduzione del teorema di Pitagora nella circonferenza di raggio unitario, dove seno e coseno sono i due cateti e il raggio è l'ipotenusa.\n\nÈ la relazione che garantisce che le due componenti cartesiane di un vettore ricostruiscano sempre il modulo di partenza: v²cos²θ + v²sen²θ = v²."
+    },
+    {
+      "id": "u1-0043",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Grandezze estensive",
+      "testo": "Quale fra le seguenti coppie è formata da due grandezze entrambe estensive?",
+      "opzioni": [
+        "densità e temperatura",
+        "massa e volume",
+        "pressione e densità",
+        "volume e temperatura",
+        "temperatura e massa"
+      ],
+      "corretta": 1,
+      "spiegazione": "Massa e volume dipendono entrambi dalla quantità di materia: dimezzando il sistema si dimezzano entrambi. Il loro rapporto, la densità, resta invece invariato ed è per questo intensivo.\n\nA) Densità e temperatura sono entrambe intensive.\nC) Pressione e densità sono entrambe intensive.\nD) Il volume è estensivo, ma la temperatura è intensiva.\nE) La massa è estensiva, ma la temperatura è intensiva."
+    },
+    {
+      "id": "u1-0044",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Equivalenza fra metro cubo e litro",
+      "testo": "Un metro cubo corrisponde a …… litri",
+      "accettate": [
+        "mille",
+        "1000"
+      ],
+      "spiegazione": "Il litro è definito come un decimetro cubo, e in un metro cubo entrano 10 × 10 × 10 = 1000 decimetri cubi. Ne segue 1 L = 10⁻³ m³.\n\nL'errore frequente è applicare al volume il fattore lineare 10: fra metro e decimetro il fattore è 10, ma fra metro cubo e decimetro cubo è 10³."
+    },
+    {
+      "id": "u1-0045",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Annullamento del prodotto vettoriale",
+      "testo": "Il prodotto vettoriale a × b di due vettori non nulli è il vettore nullo quando:",
+      "opzioni": [
+        "a e b sono fra loro perpendicolari",
+        "a e b hanno lo stesso modulo",
+        "l'angolo compreso fra a e b vale 45°",
+        "a e b hanno la stessa direzione",
+        "il prodotto scalare fra a e b è nullo"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il modulo del prodotto vettoriale vale a b sen θ e si annulla quando sen θ = 0, cioè per θ = 0° o θ = 180°: i due vettori giacciono sulla stessa retta, concordi o discordi che siano.\n\nA) Per vettori perpendicolari il seno vale 1 e il prodotto vettoriale è massimo, non nullo.\nB) L'uguaglianza dei moduli non dice nulla sull'angolo compreso.\nC) Con θ = 45° il seno vale circa 0,71 e il prodotto è diverso da zero.\nE) Il prodotto scalare nullo significa vettori perpendicolari, quindi proprio il caso di prodotto vettoriale massimo."
+    },
+    {
+      "id": "u1-0046",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Ordine di grandezza",
+      "testo": "La potenza di dieci più vicina al valore di una grandezza ne esprime l'…… di grandezza",
+      "accettate": [
+        "ordine"
+      ],
+      "spiegazione": "L'ordine di grandezza serve a confrontare rapidamente numeri molto diversi: il raggio di un atomo (10⁻¹⁰ m) e quello della Terra (10⁷ m) differiscono di diciassette ordini di grandezza.\n\nSi ricava dalla notazione scientifica: se il coefficiente è vicino a 1 si tiene l'esponente, se è vicino a 10 si aumenta l'esponente di uno."
+    },
+    {
+      "id": "u1-0047",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Somma di due vettori con angolo qualsiasi",
+      "testo": "Due vettori di modulo 4 formano fra loro un angolo di 60°. Il modulo del vettore somma vale circa:",
+      "opzioni": [
+        "8",
+        "4",
+        "5,7",
+        "0",
+        "6,9"
+      ],
+      "corretta": 4,
+      "spiegazione": "Vale la formula √(a² + b² + 2 a b cos θ) = √(16 + 16 + 2 × 16 × 0,5) = √48 ≈ 6,9.\n\nA) 8 è la somma aritmetica dei moduli: si avrebbe solo con angolo nullo.\nB) 4 è il risultato che si otterrebbe con un angolo di 120°.\nC) 5,7 è 4√2, il risultato per due vettori perpendicolari.\nD) 0 si avrebbe solo con vettori opposti, cioè con angolo di 180°."
+    },
+    {
+      "id": "u1-0048",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prodotto scalare e angolo ottuso",
+      "testo": "Se il prodotto scalare di due vettori non nulli è negativo, l'angolo compreso fra i due vettori è ……",
+      "accettate": [
+        "ottuso"
+      ],
+      "spiegazione": "Nel prodotto a b cos θ i moduli sono positivi per definizione: il segno dipende solo dal coseno, che è negativo per angoli compresi fra 90° e 180°.\n\nÈ il caso di una forza che ha una componente opposta allo spostamento, come la forza di attrito: il lavoro che compie è infatti negativo."
+    },
+    {
+      "id": "u1-0049",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Modulo di un vettore dalle componenti",
+      "testo": "Un vettore ha componenti cartesiane (3; −4). Il suo modulo vale:",
+      "opzioni": [
+        "1",
+        "7",
+        "5",
+        "−5",
+        "25"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il modulo si ricava dal teorema di Pitagora: √(3² + (−4)²) = √(9 + 16) = √25 = 5. I quadrati eliminano il segno delle componenti.\n\nA) 1 è la somma algebrica delle componenti, 3 + (−4).\nB) 7 somma i valori assoluti delle componenti, come se i due assi fossero allineati.\nD) −5 attribuisce al modulo il segno della componente negativa: il modulo di un vettore è per definizione non negativo.\nE) 25 è la somma dei quadrati, senza estrarre la radice."
+    },
+    {
+      "id": "u1-0050",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Notazione scientifica",
+      "testo": "Il numero 47 000 scritto in notazione scientifica è 4,7 per dieci elevato alla ……",
+      "accettate": [
+        "quarta",
+        "quattro",
+        "4"
+      ],
+      "spiegazione": "Per ottenere un coefficiente compreso fra 1 e 10 la virgola va spostata di quattro posti verso sinistra: 47 000 = 4,7 × 10⁴.\n\nLo spostamento verso sinistra dà esponente positivo, quello verso destra esponente negativo: 0,00047 = 4,7 × 10⁻⁴."
+    }
+  ]
+}

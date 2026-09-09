@@ -2,20 +2,19 @@
   "schema": 2,
   "materia": "fisica",
   "nome": "Fisica",
-  "aggiornato": null,
+  "aggiornato": "2026-09-07",
   "formato": {
-    "unita": {
-      "totale": 15,
-      "multipla": 8,
-      "completamento": 7
-    },
-    "completo": {
-      "totale": 31,
-      "multipla": 15,
-      "completamento": 16
-    }
+    "unita":    { "totale": 15, "multipla": 8,  "completamento": 7  },
+    "completo": { "totale": 31, "multipla": 15, "completamento": 16 }
   },
-  "_da_compilare": "Elenco delle unità didattiche ricavato dal syllabus ufficiale: id (u1, u2, …), nome, quota nel test completo (la somma delle quote deve dare 31) e obiettivo di domande a regime. I file delle domande seguono la convenzione fisica-uN-NN.json, uno per unità, massimo una cinquantina di domande ciascuno. Vedi SPEC-NUOVA-MATERIA.md.",
-  "unita": [],
-  "lotti": []
+  "unita": [
+    { "id": "u1", "nome": "Introduzione ai metodi della fisica", "quota": 4, "obiettivo": 70  },
+    { "id": "u2", "nome": "Meccanica",                            "quota": 5, "obiettivo": 130 },
+    { "id": "u3", "nome": "Meccanica dei fluidi",                 "quota": 5, "obiettivo": 110 },
+    { "id": "u4", "nome": "Onde meccaniche",                      "quota": 4, "obiettivo": 70  },
+    { "id": "u5", "nome": "Termodinamica",                        "quota": 5, "obiettivo": 100 },
+    { "id": "u6", "nome": "Elettricità e magnetismo",             "quota": 5, "obiettivo": 120 },
+    { "id": "u7", "nome": "Fisica delle radiazioni",              "quota": 3, "obiettivo": 80  }
+  ],
+  "lotti": ["fisica-u1-01.json"]
 }

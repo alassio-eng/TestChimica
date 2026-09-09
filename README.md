@@ -1,8 +1,8 @@
 # Banco domande · semestre filtro
 
 PWA statica per esercitarsi sui programmi del semestre filtro di Medicina.
-Gestisce più materie: chimica (banco in riempimento), fisica e biologia
-(cartelle predisposte). Materie, unità didattiche e formato dei test stanno
+Gestisce tre materie — chimica, fisica e biologia — ciascuna col proprio
+banco in riempimento. Materie, unità didattiche e formato dei test stanno
 nei dati e non nel codice: aggiungere una materia significa aggiungere una
 cartella sotto `questions/`. Nessun backend, nessuna libreria esterna,
 nessuna traccia lasciata fuori dal dispositivo: tutto lo storico vive nel
@@ -66,10 +66,15 @@ questions/
   chimica/
     index.json          unità, quote, formato, elenco dei lotti
     chimica-u1-01.json …  un file per unità, col prefisso della materia
-  fisica/index.json     predisposta, unità da compilare
-  biologia/index.json   predisposta, unità da compilare
+  fisica/
+    index.json
+    fisica-u1-01.json …
+  biologia/
+    index.json
+    biologia-u1-01.json …
 tools/valida.py         validatore da eseguire prima di pubblicare
 SPEC-NUOVA-MATERIA.md   specifica per chi genera le domande di una materia
+ISTRUZIONI-PROGETTO.md  cosa scrivere nelle istruzioni dei progetti Claude
 ```
 
 Il codice non dà per scontato quante domande ci siano né che tutte le unità

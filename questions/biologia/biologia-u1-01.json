@@ -1,0 +1,724 @@
+{
+  "lotto": "biologia-u1-01",
+  "unita": "u1",
+  "generato": "2026-09-07",
+  "domande": [
+    {
+      "id": "u1-0001",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "La teoria cellulare",
+      "testo": "Quale delle seguenti affermazioni fa parte della teoria cellulare?",
+      "opzioni": [
+        "Tutte le cellule contengono un nucleo delimitato da un involucro membranoso",
+        "Le cellule possono originarsi per generazione spontanea da materia non vivente",
+        "La cellula è l'unità funzionale ma non l'unità strutturale degli organismi",
+        "Ogni cellula può sopravvivere soltanto all'interno di un organismo pluricellulare",
+        "Ogni cellula deriva da una cellula preesistente per divisione"
+      ],
+      "corretta": 4,
+      "spiegazione": "La teoria cellulare afferma tre cose: tutti gli organismi sono formati da cellule, la cellula è l'unità strutturale e funzionale dei viventi, ogni cellula deriva da una cellula preesistente (omnis cellula e cellula).\n\nA) Il nucleo delimitato da membrana è carattere degli eucarioti: i procarioti sono cellule a tutti gli effetti e ne sono privi.\nB) La generazione spontanea è proprio l'ipotesi che il terzo enunciato della teoria cellulare esclude.\nC) La cellula è entrambe le cose: unità strutturale e unità funzionale.\nD) Esistono innumerevoli organismi unicellulari che vivono come cellule isolate."
+    },
+    {
+      "id": "u1-0002",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "I tre domini della vita",
+      "testo": "Il confronto fra le sequenze degli RNA ribosomiali distingue tre domini della vita: Bacteria, Eukarya e ……",
+      "accettate": [
+        "archaea",
+        "archea",
+        "archeobatteri",
+        "archibatteri",
+        "archei"
+      ],
+      "spiegazione": "La suddivisione in tre domini si deve all'analisi comparativa delle sequenze dell'RNA ribosomiale della subunità minore, una molecola presente in tutti i viventi e sottoposta a vincoli evolutivi molto stretti.\n\nArchaea e Bacteria sono entrambi procarioti sul piano dell'organizzazione cellulare, ma sono linee evolutive distinte: gli Archaea condividono con gli eucarioti diverse caratteristiche dell'apparato di trascrizione e di traduzione."
+    },
+    {
+      "id": "u1-0003",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "I tre domini e la classificazione dei viventi",
+      "testo": "Quale terna corrisponde ai tre domini in cui sono classificati gli esseri viventi?",
+      "opzioni": [
+        "Bacteria, Archaea ed Eukarya",
+        "Bacteria, Eukarya e Virus",
+        "Procarioti, Eucarioti e Funghi",
+        "Monere, Protisti e Metazoi",
+        "Archaea, Eukarya e Protisti"
+      ],
+      "corretta": 0,
+      "spiegazione": "I tre domini sono Bacteria, Archaea ed Eukarya: la ripartizione più alta della classificazione, ricavata dal confronto delle sequenze degli RNA ribosomiali.\n\nB) I virus non sono organismi cellulari e restano fuori dall'albero dei domini.\nC) «Procarioti» non è un dominio ma un livello di organizzazione cellulare che accomuna due domini distinti; i funghi sono un regno degli Eukarya.\nD) Monere, protisti e metazoi appartengono a classificazioni in regni, non in domini.\nE) I protisti sono un raggruppamento interno agli Eukarya, non un dominio a sé."
+    },
+    {
+      "id": "u1-0004",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il capside virale",
+      "testo": "Il rivestimento proteico che racchiude e protegge il genoma di un virus si chiama ……",
+      "accettate": [
+        "capside",
+        "capside proteico",
+        "capsidi"
+      ],
+      "spiegazione": "Il capside è formato da un numero limitato di tipi di subunità proteiche, i capsomeri, che si assemblano spontaneamente: è il modo con cui un genoma molto piccolo riesce a codificare un contenitore grande. Le simmetrie più comuni sono l'icosaedrica e l'elicoidale.\n\nL'insieme di capside e acido nucleico costituisce il nucleocapside; alcuni virus possiedono in più un involucro lipidico esterno."
+    },
+    {
+      "id": "u1-0005",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Natura dei virus",
+      "testo": "Per quale motivo i virus non sono considerati organismi cellulari?",
+      "opzioni": [
+        "Perché il loro genoma è costituito sempre da RNA a singolo filamento",
+        "Perché sono privi di qualunque proteina codificata dal proprio genoma",
+        "Perché non possiedono metabolismo proprio e si replicano solo dentro una cellula ospite",
+        "Perché le loro dimensioni sono inferiori al micrometro, sotto il limite del microscopio ottico",
+        "Perché il loro materiale genetico non è racchiuso da alcuna struttura di rivestimento"
+      ],
+      "corretta": 2,
+      "spiegazione": "Un virus è un parassita endocellulare obbligato: non produce ATP, non possiede ribosomi e non compie sintesi proteica autonoma. Fuori dalla cellula ospite è una particella inerte.\n\nA) Il genoma virale può essere DNA o RNA, a singolo o a doppio filamento.\nB) Le proteine del capside sono codificate dal genoma virale.\nD) Le dimensioni ridotte sono una conseguenza, non il criterio: esistono batteri più piccoli di certi virus giganti.\nE) Il genoma è racchiuso nel capside, e in molti virus anche in un involucro lipidico."
+    },
+    {
+      "id": "u1-0006",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "L'involucro membranoso dei virus",
+      "testo": "Alcuni virus animali possiedono, all'esterno del capside, un rivestimento lipidico derivato dalle membrane della cellula ospite e detto involucro o ……",
+      "accettate": [
+        "pericapside",
+        "envelope",
+        "peplos"
+      ],
+      "spiegazione": "L'involucro deriva da una membrana dell'ospite (plasmatica, del reticolo endoplasmatico o del Golgi) e ne conserva i lipidi, mentre le proteine inserite sono di origine virale: sono le glicoproteine che mediano il riconoscimento del recettore e la fusione.\n\nI virus con involucro sono più sensibili ai solventi dei lipidi e ai detergenti; i virus nudi, protetti dal solo capside proteico, resistono meglio nell'ambiente esterno."
+    },
+    {
+      "id": "u1-0007",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ciclo lisogenico di un virus batterico",
+      "testo": "Nel ciclo lisogenico di un batteriofago, il genoma virale:",
+      "opzioni": [
+        "viene degradato dalle nucleasi della cellula batterica subito dopo l'iniezione",
+        "si integra nel cromosoma batterico e viene replicato insieme a esso",
+        "dirige immediatamente la sintesi di nuovi virioni e la lisi della cellula infettata",
+        "resta libero nel citoplasma e si replica in modo del tutto indipendente dall'ospite",
+        "viene trasferito a un'altra cellula batterica attraverso il pilo sessuale"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nella lisogenia il DNA del fago si integra nel cromosoma batterico come profago e viene duplicato a ogni divisione insieme al genoma dell'ospite, senza produrre virioni. Uno stimolo appropriato può poi indurre il passaggio al ciclo litico.\n\nA) La degradazione del DNA estraneo è opera dei sistemi di restrizione ed è un meccanismo di difesa, non una tappa del ciclo lisogenico.\nC) La produzione immediata di virioni e la lisi descrivono il ciclo litico.\nD) La replicazione autonoma nel citoplasma è il comportamento di un plasmide, non del profago integrato.\nE) Il trasferimento tramite pilo è la coniugazione batterica."
+    },
+    {
+      "id": "u1-0008",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il profago",
+      "testo": "Nel ciclo lisogenico il genoma del batteriofago integrato nel cromosoma batterico prende il nome di ……",
+      "accettate": [
+        "profago",
+        "profagi"
+      ],
+      "spiegazione": "Il profago è replicato passivamente insieme al cromosoma dell'ospite e trasmesso a tutte le cellule figlie: il batterio che lo porta si dice lisogeno. La maggior parte dei geni virali resta silente, repressa da una proteina codificata dal fago stesso.\n\nEventi che danneggiano il DNA, come l'irradiazione con raggi ultravioletti, inattivano il repressore e inducono il passaggio al ciclo litico."
+    },
+    {
+      "id": "u1-0009",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ciclo di un retrovirus",
+      "testo": "Nel ciclo di un retrovirus, la trascrittasi inversa:",
+      "opzioni": [
+        "sintetizza molecole di RNA usando come stampo il DNA virale integrato",
+        "inserisce il DNA virale nel genoma della cellula ospite tagliandone il DNA",
+        "taglia le poliproteine virali nei singoli prodotti maturi prima dell'assemblaggio",
+        "sintetizza una molecola di DNA usando come stampo l'RNA virale",
+        "traduce direttamente l'RNA virale nelle proteine strutturali del capside"
+      ],
+      "corretta": 3,
+      "spiegazione": "La trascrittasi inversa è una DNA polimerasi RNA-dipendente: copia il genoma a RNA del retrovirus in DNA a doppio filamento, che verrà poi integrato nel genoma dell'ospite come provirus. È il passaggio che inverte il flusso consueto dell'informazione.\n\nA) La sintesi di RNA a partire dal provirus integrato è compiuta dalla RNA polimerasi II della cellula ospite.\nB) L'inserimento nel genoma dell'ospite è compito dell'integrasi.\nC) Il taglio delle poliproteine spetta alla proteasi virale.\nE) Nessun enzima «traduce»: la traduzione è opera dei ribosomi della cellula ospite."
+    },
+    {
+      "id": "u1-0010",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Enzimi dei retrovirus",
+      "testo": "Il DNA prodotto dalla trascrittasi inversa viene inserito nel genoma della cellula ospite dall'enzima virale ……",
+      "accettate": [
+        "integrasi",
+        "integrase"
+      ],
+      "spiegazione": "L'integrasi taglia il DNA cromosomico dell'ospite e vi salda le estremità del DNA virale: il risultato è il provirus, che da quel momento viene replicato e trasmesso come una qualsiasi porzione del genoma della cellula.\n\nÈ la ragione per cui un'infezione da retrovirus è permanente a livello della cellula infettata, e per cui trascrittasi inversa, integrasi e proteasi sono i tre bersagli classici della terapia antiretrovirale."
+    },
+    {
+      "id": "u1-0011",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Uscita di un virus animale dalla cellula",
+      "testo": "Un virus animale provvisto di involucro lipidico acquisisce di norma il proprio involucro:",
+      "opzioni": [
+        "nel citosol, sintetizzando ex novo lipidi codificati dal genoma virale",
+        "durante l'ingresso, fondendo il capside con la membrana plasmatica dell'ospite",
+        "all'interno del nucleoide della cellula ospite, insieme alle proteine virali",
+        "dopo la lisi della cellula, dai frammenti di membrana rilasciati nell'ambiente",
+        "gemmando attraverso una membrana della cellula ospite"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nella gemmazione il nucleocapside si affaccia a una membrana cellulare in cui sono già inserite le glicoproteine virali, la deforma e se ne distacca portandola con sé: l'involucro è dunque membrana dell'ospite con proteine virali. La cellula può restare vitale e continuare a produrre virioni.\n\nA) I virus non codificano una via di sintesi dei lipidi: prendono quelli dell'ospite.\nB) La fusione con la membrana plasmatica è una modalità di ingresso, e riguarda virus che l'involucro ce l'hanno già.\nC) Il nucleoide è una struttura dei procarioti, non delle cellule animali.\nD) L'uscita per lisi riguarda tipicamente i virus nudi e non produce alcun involucro."
+    },
+    {
+      "id": "u1-0012",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Virus dei batteri",
+      "testo": "Un virus che infetta una cellula batterica si chiama ……",
+      "accettate": [
+        "batteriofago",
+        "batteriofagi",
+        "fago",
+        "fagi"
+      ],
+      "spiegazione": "I batteriofagi iniettano nella cellula il solo acido nucleico e lasciano all'esterno il capside: è il motivo per cui l'esperimento di Hershey e Chase poté dimostrare che il materiale genetico è il DNA e non la proteina.\n\nPossono compiere un ciclo litico, con produzione immediata di nuovi virioni e lisi della cellula, oppure un ciclo lisogenico, con integrazione del genoma virale nel cromosoma batterico."
+    },
+    {
+      "id": "u1-0013",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Entrata di un virus nella cellula animale",
+      "testo": "Un virus animale privo di involucro lipidico entra tipicamente nella cellula ospite:",
+      "opzioni": [
+        "per endocitosi mediata da recettori",
+        "fondendo il proprio involucro lipidico con la membrana plasmatica della cellula",
+        "iniettando il solo acido nucleico e lasciando il capside all'esterno della cellula",
+        "attraversando i pori nucleari insieme alle proteine importate nel nucleo",
+        "per trasporto attivo, grazie a una pompa ATPasi presente nella membrana"
+      ],
+      "corretta": 0,
+      "spiegazione": "Un virus nudo non ha membrana da fondere: si lega a un recettore di superficie e viene internalizzato in una vescicola endocitica, dal cui interno il genoma passa poi nel citosol, spesso sfruttando l'acidificazione dell'endosoma.\n\nB) La fusione diretta è possibile soltanto ai virus dotati di involucro lipidico.\nC) L'iniezione del solo acido nucleico è la modalità dei batteriofagi, che devono superare la parete batterica.\nD) I pori nucleari collegano nucleo e citosol: non sono una via d'ingresso dall'esterno della cellula.\nE) Le pompe ATPasi trasportano ioni e piccole molecole, non particelle virali."
+    },
+    {
+      "id": "u1-0014",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il nucleoide procariotico",
+      "testo": "Nei procarioti il cromosoma occupa una regione del citoplasma non delimitata da membrana chiamata ……",
+      "accettate": [
+        "nucleoide",
+        "nucleoidi"
+      ],
+      "spiegazione": "Il nucleoide non è un compartimento: non c'è alcun involucro che lo separi dal citoplasma, ed è questa la ragione per cui nei batteri trascrizione e traduzione avvengono contemporaneamente sullo stesso messaggero.\n\nIl cromosoma batterico è di norma unico e circolare, superavvolto e organizzato in anse; a esso possono affiancarsi plasmidi, molecole di DNA circolare più piccole e replicate in modo autonomo."
+    },
+    {
+      "id": "u1-0015",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Parete dei batteri Gram-negativi",
+      "testo": "Che cosa distingue l'involucro di un batterio Gram-negativo da quello di un Gram-positivo?",
+      "opzioni": [
+        "Uno strato di peptidoglicano notevolmente più spesso",
+        "L'assenza completa di peptidoglicano nella parete cellulare",
+        "La presenza di una membrana esterna ricca di lipopolisaccaride",
+        "La presenza di una capsula polisaccaridica al di fuori della parete",
+        "La sostituzione del peptidoglicano con chitina e con acidi teicoici"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nei Gram-negativi il peptidoglicano è sottile e sta in uno spazio periplasmatico compreso fra la membrana plasmatica e una seconda membrana, quella esterna, il cui foglietto rivolto verso l'ambiente contiene lipopolisaccaride.\n\nA) Il peptidoglicano spesso è carattere dei Gram-positivi.\nB) Il peptidoglicano c'è, solo in strato sottile.\nD) La capsula è presente in batteri sia Gram-positivi sia Gram-negativi e non è il criterio della distinzione.\nE) La chitina è un polisaccaride della parete dei funghi; gli acidi teicoici sono invece tipici dei Gram-positivi."
+    },
+    {
+      "id": "u1-0016",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Composizione della parete batterica",
+      "testo": "La parete delle cellule batteriche è costituita da un polimero di zuccheri e amminoacidi chiamato ……",
+      "accettate": [
+        "peptidoglicano",
+        "peptidoglicani",
+        "mureina",
+        "murina"
+      ],
+      "spiegazione": "Il peptidoglicano è una rete unica e continua di catene glicaniche unite fra loro da corti ponti peptidici: è questa struttura reticolata a sostenere la pressione osmotica interna e a dare forma alla cellula.\n\nÈ un bersaglio selettivo per la terapia antibatterica proprio perché le cellule umane non lo possiedono: le penicilline bloccano la formazione dei legami crociati fra le catene."
+    },
+    {
+      "id": "u1-0017",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "La colorazione di Gram",
+      "testo": "Al termine della colorazione di Gram i batteri Gram-negativi appaiono rosati perché:",
+      "opzioni": [
+        "non legano affatto il cristalvioletto, che non riesce ad attraversare la membrana esterna",
+        "perdono il cristalvioletto durante la decolorazione e fissano poi la safranina",
+        "vengono colorati soltanto dal liquido di Lugol e non dagli altri reattivi impiegati",
+        "trattengono il cristalvioletto ma lo mascherano con il lipopolisaccaride della parete",
+        "vengono decolorati dalla safranina, che rimuove il colorante fissato in precedenza"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il trattamento con alcol dissolve la membrana esterna e il sottile strato di peptidoglicano non riesce a trattenere il complesso cristalvioletto-iodio: la cellula si decolora e assume poi il colore del secondo colorante, la safranina. Nei Gram-positivi lo spesso peptidoglicano trattiene il complesso e le cellule restano violette.\n\nA) Il cristalvioletto entra ed è fissato anche nei Gram-negativi: il punto è che non viene trattenuto.\nC) Il liquido di Lugol non è un colorante ma un mordenzante: forma con il cristalvioletto un complesso poco solubile.\nD) Il lipopolisaccaride non maschera alcun colore.\nE) La safranina è il colorante di contrasto e viene applicata dopo la decolorazione: non decolora nulla."
+    },
+    {
+      "id": "u1-0018",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "La membrana esterna dei Gram-negativi",
+      "testo": "Nel foglietto esterno della membrana esterna dei batteri Gram-negativi si trova una molecola con attività endotossica chiamata ……",
+      "accettate": [
+        "lipopolisaccaride",
+        "lipopolisaccaridi",
+        "lps"
+      ],
+      "spiegazione": "Il lipopolisaccaride è formato da tre parti: il lipide A, ancorato alla membrana e responsabile dell'attività tossica, un nucleo oligosaccaridico e l'antigene O, una catena polisaccaridica variabile che sporge verso l'esterno.\n\nRilasciato in circolo, il lipide A attiva in modo massivo la risposta infiammatoria: è il meccanismo dello shock settico da Gram-negativi. A differenza delle esotossine, non è una proteina secreta ma un componente strutturale dell'involucro."
+    },
+    {
+      "id": "u1-0019",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "La coniugazione batterica",
+      "testo": "La coniugazione si distingue dagli altri meccanismi di trasferimento genico orizzontale dei batteri perché:",
+      "opzioni": [
+        "trasferisce DNA libero captato dall'ambiente circostante la cellula",
+        "richiede un batteriofago che funga da vettore del DNA trasferito",
+        "avviene esclusivamente fra cellule appartenenti a specie diverse fra loro",
+        "richiede il contatto diretto fra due cellule attraverso un pilo",
+        "trasferisce RNA anziché DNA dalla cellula donatrice a quella ricevente"
+      ],
+      "corretta": 3,
+      "spiegazione": "Nella coniugazione la cellula donatrice, che porta un plasmide coniugativo, stabilisce un contatto con la ricevente tramite un pilo e le trasferisce una copia del plasmide attraverso un ponte citoplasmatico. È il meccanismo con cui si diffondono molti geni di resistenza agli antibiotici.\n\nA) La captazione di DNA libero dall'ambiente è la trasformazione.\nB) Il trasferimento mediato da un fago è la trasduzione.\nC) La coniugazione avviene normalmente fra cellule della stessa specie, e in alcuni casi anche fra specie diverse: non è una condizione necessaria.\nE) Il materiale trasferito è DNA."
+    },
+    {
+      "id": "u1-0020",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Trasferimento genico orizzontale: la trasformazione",
+      "testo": "Il meccanismo con cui un batterio capta dall'ambiente esterno DNA libero e lo incorpora nel proprio genoma si chiama ……",
+      "accettate": [
+        "trasformazione",
+        "trasformazione batterica"
+      ],
+      "spiegazione": "Il DNA rilasciato da cellule lisate viene captato dai batteri che si trovano in stato di competenza e può essere integrato per ricombinazione omologa nel cromosoma della cellula ricevente.\n\nÈ il fenomeno osservato da Griffith nel 1928 con lo pneumococco, e su cui Avery, MacLeod e McCarty dimostrarono nel 1944 che il principio trasformante è il DNA."
+    },
+    {
+      "id": "u1-0021",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Trasferimento genico orizzontale: la trasduzione",
+      "testo": "Il trasferimento di geni da una cellula batterica a un'altra a opera di un batteriofago si chiama:",
+      "opzioni": [
+        "trasformazione",
+        "coniugazione",
+        "traslocazione",
+        "trasfezione",
+        "trasduzione"
+      ],
+      "corretta": 4,
+      "spiegazione": "Durante l'assemblaggio dei virioni, un frammento di DNA batterico può essere impacchettato per errore nel capside al posto del genoma virale: il fago che ne deriva lo inietta nella cellula successiva, che può integrarlo.\n\nA) La trasformazione è la captazione di DNA libero dall'ambiente.\nB) La coniugazione richiede il contatto diretto fra due cellule tramite un pilo.\nC) La traslocazione è un riarrangiamento cromosomico, che riguarda le mutazioni di struttura.\nD) La trasfezione è l'introduzione sperimentale di acidi nucleici in cellule eucariotiche."
+    },
+    {
+      "id": "u1-0022",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "La capsula batterica",
+      "testo": "Lo strato gelatinoso di polisaccaridi che riveste alcuni batteri all'esterno della parete e ne ostacola la fagocitosi si chiama ……",
+      "accettate": [
+        "capsula"
+      ],
+      "spiegazione": "La capsula è un fattore di virulenza: impedisce l'adesione dei fagociti e ostacola l'azione del complemento. È lo strato che distingue i ceppi capsulati virulenti dello pneumococco da quelli non capsulati e innocui dell'esperimento di Griffith.\n\nOltre alla protezione, la capsula favorisce l'adesione alle superfici e la formazione di biofilm, e riduce la disidratazione della cellula."
+    },
+    {
+      "id": "u1-0023",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Appendici della cellula procariotica",
+      "testo": "Quale funzione svolgono le fimbrie di una cellula batterica?",
+      "opzioni": [
+        "Permettono il movimento della cellula ruotando come un'elica",
+        "Sintetizzano il peptidoglicano durante l'accrescimento della parete",
+        "Mediano l'adesione della cellula alle superfici e ad altre cellule",
+        "Formano il ponte citoplasmatico attraverso cui passa il DNA coniugativo",
+        "Racchiudono il cromosoma batterico isolandolo dal citoplasma"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le fimbrie sono appendici proteiche brevi e numerose, distinte dai flagelli e dal pilo sessuale: servono all'adesione, primo passo della colonizzazione di una superficie o di un epitelio.\n\nA) Il movimento è compito del flagello, che ruota mosso da un motore molecolare inserito nell'involucro.\nB) La sintesi della parete è svolta da enzimi, non da appendici di superficie.\nD) Il ponte per il trasferimento del DNA è stabilito dal pilo sessuale, più lungo e presente in una o poche copie.\nE) Il cromosoma sta nel nucleoide e non è racchiuso da alcuna struttura."
+    },
+    {
+      "id": "u1-0024",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Motilità batterica",
+      "testo": "L'appendice filamentosa che, ruotando come un'elica, permette il movimento di molte cellule batteriche si chiama ……",
+      "accettate": [
+        "flagello",
+        "flagelli",
+        "flagello batterico"
+      ],
+      "spiegazione": "Il flagello batterico è costituito da un filamento di flagellina, un uncino e un corpo basale che funziona da motore rotante alimentato dal gradiente protonico attraverso la membrana, non dall'ATP.\n\nÈ una struttura completamente diversa dal flagello degli eucarioti, che è un fascio di microtubuli rivestito di membrana e si flette invece di ruotare: l'analogia è solo nel nome e nella funzione."
+    },
+    {
+      "id": "u1-0025",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Eubatteri e archeobatteri",
+      "testo": "Quale carattere distingue gli Archaea dai Bacteria?",
+      "opzioni": [
+        "Possiedono un nucleo delimitato da un involucro membranoso",
+        "Hanno ribosomi di tipo 80S, identici a quelli degli eucarioti",
+        "I lipidi di membrana sono uniti al glicerolo da legami etere",
+        "Sono privi di membrana plasmatica e di qualunque rivestimento",
+        "Hanno un genoma costituito da RNA anziché da DNA"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nei Bacteria e negli eucarioti le catene idrocarburiche sono legate al glicerolo da legami estere; negli Archaea il legame è etere e le catene sono isoprenoidi ramificati. È una differenza chimica di fondo, che contribuisce alla resistenza di molti Archaea ad ambienti estremi.\n\nA) Gli Archaea sono procarioti: non hanno nucleo delimitato da membrana.\nB) I ribosomi degli Archaea sono 70S come quelli dei Bacteria, anche se alcune loro proteine somigliano a quelle eucariotiche.\nD) La membrana plasmatica c'è; manca semmai il peptidoglicano, sostituito in molti Archaea dalla pseudomureina.\nE) Il materiale genetico è DNA in tutti gli organismi cellulari."
+    },
+    {
+      "id": "u1-0026",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Origine dei mitocondri",
+      "testo": "Secondo la teoria dell'…… i mitocondri derivano da un batterio aerobio inglobato da una cellula ospite ancestrale.",
+      "accettate": [
+        "endosimbiosi",
+        "endosimbiosi seriale",
+        "endosimbiontica",
+        "teoria endosimbiontica"
+      ],
+      "spiegazione": "L'ipotesi è sostenuta da un insieme coerente di osservazioni: doppia membrana, con quella interna simile a una membrana batterica; genoma proprio, circolare e privo di istoni; ribosomi 70S sensibili agli antibiotici antibatterici; divisione per scissione, indipendente dalla divisione della cellula.\n\nIl nucleo e il sistema delle endomembrane hanno invece un'origine diversa, per invaginazione e specializzazione della membrana plasmatica della cellula ospite."
+    },
+    {
+      "id": "u1-0027",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Prove dell'origine endosimbiotica dei mitocondri",
+      "testo": "Quale osservazione sostiene l'origine endosimbiotica dei mitocondri?",
+      "opzioni": [
+        "Sono delimitati da una sola membrana, esattamente come i perossisomi",
+        "Tutte le loro proteine sono codificate dal genoma nucleare della cellula",
+        "Si formano per gemmazione a partire dal reticolo endoplasmatico ruvido",
+        "Possiedono DNA circolare proprio e ribosomi simili a quelli batterici",
+        "Il loro genoma è organizzato in cromosomi lineari associati a istoni"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il genoma mitocondriale è una molecola circolare, senza istoni, e i ribosomi della matrice sono di tipo procariotico: sono i caratteri residui dell'antico endosimbionte.\n\nA) Le membrane sono due, e la doppia membrana è proprio uno degli argomenti a favore dell'endosimbiosi.\nB) La maggior parte delle proteine mitocondriali è codificata dal nucleo, ma non tutte: alcune sono codificate dal DNA mitocondriale.\nC) I mitocondri non si formano ex novo da altri organelli: derivano da mitocondri preesistenti per crescita e divisione.\nE) Cromosomi lineari e istoni sono caratteri del genoma nucleare eucariotico."
+    },
+    {
+      "id": "u1-0028",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il sistema delle endomembrane",
+      "testo": "Reticolo endoplasmatico, apparato di Golgi, endosomi e lisosomi appartengono al sistema delle ……",
+      "accettate": [
+        "endomembrane",
+        "endomembrana"
+      ],
+      "spiegazione": "I compartimenti del sistema scambiano fra loro materiale soprattutto tramite vescicole che gemmano da un compartimento e fondono con quello successivo: il lume di ciascuno è topologicamente equivalente all'esterno della cellula.\n\nMitocondri e perossisomi ne restano fuori: non ricevono proteine per via vescicolare, ma le importano direttamente dal citosol grazie a sequenze segnale riconosciute da recettori propri."
+    },
+    {
+      "id": "u1-0029",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Compartimentazione della cellula eucariotica",
+      "testo": "Quale dei seguenti compartimenti NON fa parte del sistema delle endomembrane?",
+      "opzioni": [
+        "L'involucro nucleare",
+        "Il mitocondrio",
+        "L'apparato di Golgi",
+        "Il reticolo endoplasmatico",
+        "Il lisosoma"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il mitocondrio non riceve materiale per via vescicolare: importa le proprie proteine direttamente dal citosol attraverso traslocatori delle due membrane. La sua origine endosimbiotica lo colloca fuori dal sistema.\n\nA) L'involucro nucleare è continuo con il reticolo endoplasmatico.\nC) L'apparato di Golgi riceve vescicole dal reticolo e ne invia agli altri compartimenti.\nD) Il reticolo endoplasmatico è il punto di partenza della via secretoria.\nE) I lisosomi ricevono materiale sia dalla via secretoria sia dalla via endocitica."
+    },
+    {
+      "id": "u1-0030",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il legame fra i monosaccaridi",
+      "testo": "Il legame covalente che unisce due monosaccaridi in un disaccaride si chiama legame ……",
+      "accettate": [
+        "glicosidico",
+        "glucosidico",
+        "glicosidici"
+      ],
+      "spiegazione": "Il legame glicosidico si forma per condensazione, con eliminazione di una molecola d'acqua, fra il carbonio anomerico di un monosaccaride e un gruppo ossidrilico dell'altro; la sua scissione è un'idrolisi.\n\nL'orientamento del legame, α o β, determina proprietà del tutto diverse: l'amido, con legami α, è digeribile dall'uomo, mentre la cellulosa, con legami β, non lo è perché manca l'enzima capace di idrolizzarli."
+    },
+    {
+      "id": "u1-0031",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "I polisaccaridi del glucosio",
+      "testo": "Amido, glicogeno e cellulosa sono tutti polimeri del glucosio, ma hanno proprietà molto diverse. La differenza dipende principalmente:",
+      "opzioni": [
+        "dalla presenza di atomi di azoto nella sola molecola di cellulosa",
+        "dal fatto che il glicogeno è un polimero di fruttosio e non di glucosio",
+        "dalla diversa massa molecolare media raggiunta dai tre polimeri",
+        "dalla presenza di legami peptidici fra le unità che formano l'amido",
+        "dal tipo di legame glicosidico e dal grado di ramificazione"
+      ],
+      "corretta": 4,
+      "spiegazione": "Cambia il modo in cui le stesse unità di glucosio sono unite: legami β nella cellulosa, che danno catene lineari affiancate e resistenti; legami α nell'amido e nel glicogeno, con ramificazioni assenti nell'amilosio, scarse nell'amilopectina e frequenti nel glicogeno.\n\nA) La cellulosa non contiene azoto; lo contiene la chitina, un altro polisaccaride strutturale.\nB) Il glicogeno è un polimero di glucosio.\nC) La massa molecolare varia, ma non spiega né la digeribilità né la funzione strutturale.\nD) I legami peptidici uniscono amminoacidi, non zuccheri."
+    },
+    {
+      "id": "u1-0032",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Riserva di glucosio negli animali",
+      "testo": "Negli animali il glucosio in eccesso viene immagazzinato sotto forma di un polisaccaride molto ramificato chiamato ……",
+      "accettate": [
+        "glicogeno"
+      ],
+      "spiegazione": "Il glicogeno si accumula soprattutto nel fegato e nel muscolo scheletrico. Le numerose ramificazioni moltiplicano le estremità non riducenti disponibili, e quindi i punti da cui gli enzimi possono staccare glucosio rapidamente.\n\nÈ una riserva compatta e osmoticamente inerte: la stessa quantità di glucosio in forma libera richiamerebbe acqua nella cellula in misura insostenibile."
+    },
+    {
+      "id": "u1-0033",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "I fosfolipidi e le membrane",
+      "testo": "I fosfolipidi si dispongono spontaneamente in un doppio strato in ambiente acquoso perché:",
+      "opzioni": [
+        "sono molecole anfipatiche, con una testa polare e code idrofobiche",
+        "sono molecole interamente idrofile, che legano acqua su tutta la superficie",
+        "portano una carica netta positiva e si respingono l'un l'altro ordinatamente",
+        "sono privi di gruppi carichi e perciò non interagiscono affatto con l'acqua",
+        "formano legami covalenti stabili fra le teste di molecole adiacenti"
+      ],
+      "corretta": 0,
+      "spiegazione": "La testa contenente il fosfato interagisce con l'acqua, le due code idrocarburiche no: la disposizione a doppio strato, con le code affacciate all'interno, è quella che sottrae le porzioni idrofobiche al contatto con l'acqua. È un'aggregazione spontanea, guidata dall'effetto idrofobico.\n\nB) e D) Descrivono una molecola tutta idrofila o tutta idrofobica: in nessuno dei due casi si formerebbe un doppio strato.\nC) I fosfolipidi non hanno carica netta positiva, e la repulsione non spiegherebbe l'orientamento delle code.\nE) Le molecole del doppio strato non sono legate covalentemente fra loro: possono infatti diffondere lateralmente."
+    },
+    {
+      "id": "u1-0034",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Molecole anfipatiche",
+      "testo": "Una molecola che possiede sia una porzione idrofila sia una porzione idrofobica si dice ……",
+      "accettate": [
+        "anfipatica",
+        "anfipatico",
+        "anfifilica",
+        "anfifilico"
+      ],
+      "spiegazione": "Sono anfipatici i fosfolipidi, il colesterolo, gli acidi grassi a catena lunga e molte proteine di membrana. È questa doppia natura a rendere possibile la formazione spontanea dei doppi strati lipidici e quindi la compartimentazione della cellula.\n\nUn trigliceride, invece, è del tutto apolare: i tre ossidrili del glicerolo sono impegnati nei legami estere e la molecola non ha più alcuna testa idrofila."
+    },
+    {
+      "id": "u1-0035",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Il legame peptidico",
+      "testo": "Il legame peptidico si forma:",
+      "opzioni": [
+        "fra il gruppo amminico di un amminoacido e la catena laterale di un altro",
+        "fra due catene laterali di cisteina, con formazione di un ponte disolfuro",
+        "fra il gruppo carbossilico di un amminoacido e il gruppo amminico del successivo",
+        "per addizione di una molecola d'acqua fra due amminoacidi contigui",
+        "fra il gruppo fosfato di un amminoacido e l'ossidrile di quello successivo"
+      ],
+      "corretta": 2,
+      "spiegazione": "È una reazione di condensazione fra il carbossile di un residuo e l'amminogruppo del successivo, con eliminazione di una molecola d'acqua. Il legame che ne risulta ha un parziale carattere di doppio legame, che lo rende planare e non liberamente rotabile: è il vincolo su cui si fondano le strutture secondarie.\n\nA) Le catene laterali non partecipano alla formazione dello scheletro polipeptidico.\nB) Il ponte disolfuro è un legame covalente accessorio, che stabilizza la struttura terziaria.\nD) L'acqua viene eliminata, non aggiunta: la sua addizione è l'idrolisi, cioè la reazione inversa.\nE) Gli amminoacidi non contengono gruppi fosfato nella loro struttura di base."
+    },
+    {
+      "id": "u1-0036",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il legame fra gli amminoacidi",
+      "testo": "Il legame covalente che unisce due amminoacidi consecutivi in una catena polipeptidica si chiama legame ……",
+      "accettate": [
+        "peptidico",
+        "peptidici"
+      ],
+      "spiegazione": "La catena ha un verso: a un'estremità resta libero un gruppo amminico (estremità N-terminale), all'altra un gruppo carbossilico (estremità C-terminale). La sintesi procede dall'estremità amminica a quella carbossilica.\n\nLa sequenza degli amminoacidi uniti da legami peptidici costituisce la struttura primaria, dalla quale dipendono tutti i livelli superiori di organizzazione della proteina."
+    },
+    {
+      "id": "u1-0037",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Struttura secondaria delle proteine",
+      "testo": "L'α-elica e il foglietto β sono elementi di struttura secondaria e sono stabilizzati:",
+      "opzioni": [
+        "da legami covalenti fra le catene laterali di amminoacidi vicini",
+        "da ponti disolfuro fra residui di cisteina distanti nella sequenza",
+        "dall'associazione di più catene polipeptidiche distinte fra loro",
+        "da legami a idrogeno fra atomi dello scheletro polipeptidico",
+        "dalla sequenza degli amminoacidi uniti fra loro da legami peptidici"
+      ],
+      "corretta": 3,
+      "spiegazione": "I legami a idrogeno si stabiliscono fra il gruppo carbonilico di un residuo e il gruppo amminico di un altro, cioè fra atomi dello scheletro e non fra catene laterali: per questo gli stessi motivi ricorrono in proteine di sequenza molto diversa.\n\nA) e B) Interazioni fra catene laterali, compresi i ponti disolfuro, definiscono la struttura terziaria.\nC) L'associazione di più catene è la struttura quaternaria.\nE) La sequenza degli amminoacidi è la struttura primaria."
+    },
+    {
+      "id": "u1-0038",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Perdita della conformazione proteica",
+      "testo": "La perdita della conformazione tridimensionale di una proteina, con conseguente perdita della sua funzione, si chiama ……",
+      "accettate": [
+        "denaturazione"
+      ],
+      "spiegazione": "Calore, valori estremi di pH, detergenti e agenti come l'urea rompono le interazioni deboli che tengono ripiegata la catena, lasciando intatti i legami peptidici: la struttura primaria non viene toccata.\n\nIn condizioni favorevoli alcune proteine denaturate possono rinaturarsi spontaneamente, segno che l'informazione sul ripiegamento è contenuta nella sequenza; nella cellula il processo è comunque assistito dalle proteine chaperon."
+    },
+    {
+      "id": "u1-0039",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "La catalisi enzimatica",
+      "testo": "Un enzima accelera una reazione perché:",
+      "opzioni": [
+        "rende spontanea una reazione che di per sé non lo sarebbe",
+        "abbassa l'energia di attivazione della reazione",
+        "aumenta la differenza di energia libera fra reagenti e prodotti",
+        "sposta la posizione di equilibrio della reazione verso i prodotti",
+        "viene consumato insieme ai reagenti in rapporto stechiometrico"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'enzima stabilizza lo stato di transizione e riduce la barriera energetica da superare: la reazione diventa più veloce, in entrambi i versi, senza che cambi la termodinamica del processo.\n\nA) e C) Una reazione non spontanea resta tale: l'enzima non modifica il ΔG, che dipende solo da reagenti e prodotti.\nD) La costante di equilibrio non cambia; cambia solo la rapidità con cui l'equilibrio viene raggiunto.\nE) L'enzima si ritrova immutato al termine della reazione e può ricominciare il ciclo catalitico."
+    },
+    {
+      "id": "u1-0040",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il sito attivo degli enzimi",
+      "testo": "I residui amminoacidici che riconoscono il substrato, lo posizionano correttamente e ne catalizzano la trasformazione si trovano nel sito …… dell'enzima.",
+      "accettate": [
+        "attivo",
+        "catalitico"
+      ],
+      "spiegazione": "Il sito attivo è una tasca o una fessura formata da residui spesso lontani nella sequenza ma avvicinati dal ripiegamento della catena: è la ragione per cui la funzione dipende dalla struttura terziaria e una denaturazione la abolisce.\n\nÈ anche la sede della specificità: il legame con il substrato è di norma accompagnato da un adattamento reciproco delle due strutture, l'adattamento indotto."
+    },
+    {
+      "id": "u1-0041",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Classi di enzimi e reazioni opposte",
+      "testo": "Quale coppia di enzimi catalizza reazioni opposte sullo stesso tipo di modificazione?",
+      "opzioni": [
+        "chinasi e deacetilasi",
+        "acetilasi e fosfatasi",
+        "ubiquitina ligasi e chinasi",
+        "fosfatasi e deubiquitinasi",
+        "acetilasi e deacetilasi"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le acetilasi trasferiscono un gruppo acetile a un residuo di lisina, le deacetilasi lo rimuovono: la coppia rende la modificazione reversibile e quindi utilizzabile come interruttore regolativo. Lo stesso vale per chinasi e fosfatasi e per ubiquitina ligasi e deubiquitinasi.\n\nA) Chinasi e deacetilasi agiscono su modificazioni diverse: fosforilazione l'una, acetilazione l'altra.\nB) Acetilasi e fosfatasi appartengono a coppie differenti.\nC) Ubiquitina ligasi e chinasi aggiungono entrambe qualcosa, ma modificazioni diverse.\nD) Fosfatasi e deubiquitinasi rimuovono entrambe, ma modificazioni diverse."
+    },
+    {
+      "id": "u1-0042",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Modificazioni post-traduzionali: la fosforilazione",
+      "testo": "L'aggiunta di un gruppo fosfato a un residuo di serina, treonina o tirosina di una proteina si chiama ……",
+      "accettate": [
+        "fosforilazione"
+      ],
+      "spiegazione": "La reazione è catalizzata dalle chinasi, che prelevano il fosfato terminale dell'ATP; le fosfatasi lo rimuovono per idrolisi. L'introduzione di due cariche negative ingombranti altera le interazioni locali e può cambiare conformazione, attività o localizzazione della proteina.\n\nÈ la modificazione più diffusa nelle vie di trasduzione del segnale, proprio perché rapida e reversibile."
+    },
+    {
+      "id": "u1-0043",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Modificazioni post-traduzionali: la glicosilazione",
+      "testo": "La glicosilazione di una proteina consiste:",
+      "opzioni": [
+        "nell'aggiunta covalente di catene di zuccheri a determinati residui",
+        "nella rimozione di un gruppo fosfato da una serina o da una treonina",
+        "nel taglio proteolitico della catena in due frammenti distinti fra loro",
+        "nell'aggiunta di una catena di ubiquitine che ne segna la degradazione",
+        "nell'inserimento di un amminoacido modificato durante la traduzione"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le catene oligosaccaridiche vengono legate all'azoto della catena laterale dell'asparagina (glicosilazione N-legata) oppure all'ossigeno di serina e treonina (O-legata). Avviene nel reticolo endoplasmatico e nell'apparato di Golgi e riguarda soprattutto proteine di membrana e proteine secrete.\n\nB) La rimozione di un fosfato è la defosforilazione, opera delle fosfatasi.\nC) Il taglio proteolitico è una modificazione diversa, per esempio quella che converte un proenzima nella forma attiva.\nD) L'aggiunta di ubiquitine è l'ubiquitinazione.\nE) Una modificazione post-traduzionale, per definizione, avviene dopo la sintesi della catena."
+    },
+    {
+      "id": "u1-0044",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Le unità degli acidi nucleici",
+      "testo": "L'unità monomerica di un acido nucleico, formata da uno zucchero a cinque atomi di carbonio, una base azotata e un gruppo fosfato, si chiama ……",
+      "accettate": [
+        "nucleotide",
+        "nucleotidi"
+      ],
+      "spiegazione": "Senza il gruppo fosfato la stessa unità prende il nome di nucleoside: la distinzione è precisa e viene chiesta spesso.\n\nI nucleotidi non sono soltanto i mattoni degli acidi nucleici: l'ATP è il trasportatore universale di energia, GTP, cAMP e cGMP intervengono nella trasduzione del segnale, e NAD e FAD contengono nucleotidi nella propria struttura."
+    },
+    {
+      "id": "u1-0045",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Il modello di Watson e Crick",
+      "testo": "Nel modello di Watson e Crick, i due filamenti della doppia elica del DNA:",
+      "opzioni": [
+        "sono paralleli e uniti fra loro da legami fosfodiesterici fra le basi",
+        "sono antiparalleli e appaiati per complementarietà fra le basi azotate",
+        "hanno sequenze identiche, così da poter essere copiati indifferentemente",
+        "sono tenuti insieme da legami covalenti fra le basi azotate affacciate",
+        "si appaiano secondo la regola purina con purina e pirimidina con pirimidina"
+      ],
+      "corretta": 1,
+      "spiegazione": "I due filamenti corrono in direzioni opposte, uno in senso 5'→3' e l'altro 3'→5', e si appaiano secondo complementarietà: adenina con timina tramite due legami a idrogeno, guanina con citosina tramite tre.\n\nA) I legami fosfodiesterici sono interni a ciascun filamento e uniscono nucleotidi consecutivi, non i due filamenti fra loro.\nC) Le sequenze non sono identiche ma complementari: è proprio questo a rendere possibile la replicazione semiconservativa.\nD) Le basi affacciate sono unite da legami a idrogeno, deboli e reversibili: se fossero covalenti la doppia elica non potrebbe aprirsi.\nE) L'appaiamento è sempre fra una purina e una pirimidina, e questo mantiene costante la larghezza dell'elica."
+    },
+    {
+      "id": "u1-0046",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Lo scheletro degli acidi nucleici",
+      "testo": "Lungo un filamento di acido nucleico i nucleotidi consecutivi sono uniti fra loro da legami ……",
+      "accettate": [
+        "fosfodiestere",
+        "fosfodiesterei",
+        "fosfodiesterico",
+        "fosfodiesterici",
+        "fosfodiestereo",
+        "fosfodiesteri"
+      ],
+      "spiegazione": "Il legame unisce il carbonio 3' dello zucchero di un nucleotide al carbonio 5' del successivo attraverso un gruppo fosfato: da qui il nome di legame 3'-5' fosfodiestere, e da qui la polarità del filamento.\n\nLo scheletro zucchero-fosfato è carico negativamente a pH fisiologico ed è rivolto verso l'esterno della doppia elica, mentre le basi azotate, idrofobiche, sono impilate all'interno."
+    },
+    {
+      "id": "u1-0047",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Differenze fra DNA e RNA",
+      "testo": "Quale differenza distingue correttamente l'RNA dal DNA?",
+      "opzioni": [
+        "L'RNA contiene timina al posto dell'uracile presente invece nel DNA",
+        "L'RNA è sempre a doppio filamento, mentre il DNA è a singolo filamento",
+        "L'RNA contiene ribosio e uracile, il DNA desossiribosio e timina",
+        "L'RNA è privo di gruppi fosfato e i suoi nucleosidi non formano una catena",
+        "L'RNA non può assumere alcuna struttura tridimensionale ripiegata"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le due differenze chimiche sono lo zucchero, ribosio contro desossiribosio, e una delle quattro basi, uracile al posto della timina. Il gruppo ossidrile in 2' del ribosio rende l'RNA più reattivo e meno stabile del DNA.\n\nA) Il rapporto è invertito: la timina sta nel DNA, l'uracile nell'RNA.\nB) Il DNA è tipicamente a doppio filamento e l'RNA a singolo filamento, benché quest'ultimo si ripieghi su sé stesso formando tratti appaiati.\nD) Anche l'RNA ha uno scheletro zucchero-fosfato con legami fosfodiestere.\nE) Il ripiegamento dell'RNA è essenziale alla funzione del tRNA, degli rRNA e dei ribozimi."
+    },
+    {
+      "id": "u1-0048",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Idrolisi e degradazione dei polimeri",
+      "testo": "La reazione che scinde un polimero nei suoi monomeri consumando una molecola d'acqua per ogni legame rotto si chiama ……",
+      "accettate": [
+        "idrolisi",
+        "reazione di idrolisi"
+      ],
+      "spiegazione": "È la reazione inversa della condensazione: nella condensazione la formazione di ciascun legame libera una molecola d'acqua, nell'idrolisi la rottura ne consuma una. Vale per i legami glicosidici dei polisaccaridi, peptidici delle proteine, estere dei trigliceridi e fosfodiestere degli acidi nucleici.\n\nLe reazioni di idrolisi appartengono al catabolismo e sono nel complesso esoergoniche, ma nella cellula procedono a velocità apprezzabile solo se catalizzate da enzimi appropriati, le idrolasi."
+    },
+    {
+      "id": "u1-0049",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Anabolismo, catabolismo e reazioni di condensazione",
+      "testo": "Le reazioni di condensazione che uniscono monomeri in un polimero:",
+      "opzioni": [
+        "appartengono al catabolismo e liberano l'energia contenuta nei legami",
+        "richiedono l'aggiunta di una molecola d'acqua per ogni legame formato",
+        "avvengono spontaneamente, senza alcun apporto di energia da parte della cellula",
+        "appartengono all'anabolismo e liberano una molecola d'acqua per ogni legame",
+        "scindono i polimeri nei rispettivi monomeri costitutivi con consumo di ATP"
+      ],
+      "corretta": 3,
+      "spiegazione": "Costruire un polimero è biosintesi, quindi anabolismo: le reazioni sono endoergoniche e vengono accoppiate all'idrolisi dell'ATP o di altri composti ad alta energia. Ogni legame formato libera una molecola d'acqua.\n\nA) Il catabolismo demolisce; la costruzione di legami richiede energia invece di liberarla.\nB) L'acqua viene eliminata nella condensazione e consumata nell'idrolisi: qui i due processi sono scambiati.\nC) Se fossero spontanee, la cellula non spenderebbe ATP per la biosintesi.\nE) La scissione dei polimeri è l'idrolisi, che appartiene al catabolismo."
+    },
+    {
+      "id": "u1-0050",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Le due facce del metabolismo",
+      "testo": "L'insieme delle vie metaboliche che demoliscono le molecole complesse liberando energia si chiama ……",
+      "accettate": [
+        "catabolismo",
+        "vie cataboliche",
+        "metabolismo catabolico"
+      ],
+      "spiegazione": "Il catabolismo converte l'energia dei nutrienti in ATP e in trasportatori di elettroni ridotti, e fornisce nello stesso tempo i precursori monomerici che l'anabolismo utilizza per costruire nuove macromolecole. È in questo doppio senso che degradazione e biosintesi sono collegate.\n\nL'anabolismo procede in senso opposto: consuma energia per costruire molecole complesse a partire da precursori semplici."
+    }
+  ]
+}
