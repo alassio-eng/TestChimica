@@ -199,3 +199,42 @@ REGOLE
 5. Carica l'indice compilato nella knowledge del progetto e nel repository.
 6. Da lì in poi, una chat per unità: «genera fisica-u1-01.json».
 7. Prima di ogni push: `python3 tools/valida.py --materia fisica`.
+
+---
+
+## Una chat per unità
+
+È l'organizzazione giusta, e il motivo è tecnico: il rischio vero non è che
+due unità si sovrappongano — non possono, hanno numerazioni separate — ma che
+dentro la stessa unità il secondo lotto ripeta il primo, o peggio ne riusi
+gli id. Con una chat per unità, quella chat vede i propri lotti precedenti e
+può evitarlo; con una chat sola per tutta la materia, il contesto si esaurisce
+e le ripetizioni arrivano.
+
+Regole per queste chat:
+
+- **una chat possiede una sola unità** e la porta fino all'obiettivo, un lotto
+  da 50 alla volta;
+- **nessuna chat tocca `index.json`.** Produce solo il file del lotto.
+  L'inserimento nell'array `lotti` avviene una volta sola, a valle;
+- a ogni lotto successivo, **ricordale l'ultimo id usato e l'ultimo nome di
+  file**: è più affidabile che sperare se lo ricordi, e in una chat lunga il
+  primo lotto può essere uscito dal contesto;
+- chiedile di **tenere l'elenco degli argomenti già coperti** e di
+  ripartire da lì, altrimenti il secondo lotto ripete i concetti facili del
+  primo.
+
+Il messaggio di apertura di ciascuna chat non va scritto a mano: lo stampa il
+repository, con il nome del file e il primo id libero già calcolati sui dati
+veri.
+
+```bash
+python3 tools/prossimo.py                  # quadro di tutte le materie
+python3 tools/prossimo.py biologia u3      # testo da incollare nella chat
+```
+
+L'ordine in cui riempire le unità è **prima la larghezza, poi la profondità**:
+un lotto per ogni unità prima di tornare sulla U1. Finché le altre unità sono
+vuote il test «tutto il programma» non può rispettare le quote e ripiega su
+ciò che trova — in chimica, con U1 e U2 piene e il resto quasi a zero, un test
+da 31 domande ne pesca 19 dalla U1.

@@ -1,0 +1,443 @@
+{
+  "lotto": "biologia-u1-02",
+  "unita": "u1",
+  "generato": "2026-09-09",
+  "domande": [
+    {
+      "id": "u1-0051",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Proprietà fondamentali della materia vivente",
+      "testo": "Quale delle seguenti proprietà NON è comune a tutti gli organismi viventi?",
+      "opzioni": [
+        "La capacità di ricavare energia dalla luce mediante la fotosintesi",
+        "La capacità di mantenere costante il proprio ambiente interno",
+        "La capacità di riprodursi trasmettendo l'informazione genetica",
+        "L'organizzazione in una o più cellule delimitate da membrana",
+        "La capacità di rispondere agli stimoli provenienti dall'ambiente"
+      ],
+      "corretta": 0,
+      "spiegazione": "La fotosintesi è propria dei soli organismi fotoautotrofi: piante, alghe e alcuni batteri. Tutti gli altri viventi ricavano energia ossidando molecole organiche, e restano viventi a pieno titolo.\n\nB) L'omeostasi, cioè il mantenimento di condizioni interne costanti, è una proprietà universale.\nC) La riproduzione con trasmissione dell'informazione genetica è comune a tutti i viventi.\nD) L'organizzazione cellulare è il criterio stesso con cui si distingue un vivente da un virus.\nE) La risposta agli stimoli ambientali è presente in tutti gli organismi, anche unicellulari."
+    },
+    {
+      "id": "u1-0052",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Omeostasi",
+      "testo": "La capacità di un organismo di mantenere costanti le proprie condizioni interne al variare dell'ambiente esterno si chiama ……",
+      "accettate": [
+        "omeostasi",
+        "omeostasi cellulare"
+      ],
+      "spiegazione": "L'omeostasi ha un costo energetico: mantenere concentrazioni ioniche, pH, temperatura e volume diversi da quelli dell'ambiente significa lavorare contro i gradienti, e per farlo la cellula consuma continuamente ATP.\n\nÈ per questo che la morte cellulare porta rapidamente all'equilibrio con l'ambiente: senza energia, i gradienti si dissipano da soli."
+    },
+    {
+      "id": "u1-0053",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Il genoma dei virus",
+      "testo": "Il genoma di un virus:",
+      "opzioni": [
+        "è sempre costituito da DNA a doppio filamento, come quello cellulare",
+        "può essere DNA o RNA, a singolo o a doppio filamento",
+        "è sempre costituito da RNA a singolo filamento di polarità positiva",
+        "è costituito da DNA nei virus animali e da RNA nei batteriofagi",
+        "contiene sempre sia DNA sia RNA, in copie separate dentro il capside"
+      ],
+      "corretta": 1,
+      "spiegazione": "È la caratteristica che distingue i virus dagli organismi cellulari, il cui materiale genetico è sempre DNA a doppio filamento: nei virus si trovano tutte e quattro le combinazioni, e i virus a RNA a singolo filamento si distinguono ulteriormente per la polarità del genoma.\n\nA) e C) Fissano un solo tipo di genoma e ignorano la varietà reale.\nD) La distinzione non passa per il tipo di ospite: esistono batteriofagi a DNA e virus animali a RNA.\nE) In un virione è presente un solo tipo di acido nucleico."
+    },
+    {
+      "id": "u1-0054",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Le subunità del capside",
+      "testo": "Le subunità proteiche che, assemblandosi fra loro, costituiscono il capside di un virus si chiamano ……",
+      "accettate": [
+        "capsomeri",
+        "capsomero",
+        "capsomeri proteici"
+      ],
+      "spiegazione": "I capsomeri sono pochi tipi di proteine ripetute molte volte: è la soluzione con cui un genoma piccolissimo riesce a specificare un involucro grande, perché una sola sequenza codificante basta a produrre centinaia di copie della stessa subunità.\n\nL'assemblaggio è spontaneo e guidato dalla forma delle subunità, e porta alle due simmetrie fondamentali, quella icosaedrica e quella elicoidale."
+    },
+    {
+      "id": "u1-0055",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Virus a RNA a polarità negativa",
+      "testo": "Un virus a RNA a singolo filamento di polarità negativa, per potersi replicare, deve:",
+      "opzioni": [
+        "integrare il proprio genoma nel DNA della cellula che ha infettato",
+        "essere tradotto direttamente dai ribosomi della cellula ospite",
+        "portare con sé nel virione una RNA polimerasi RNA-dipendente",
+        "convertire il proprio genoma in DNA grazie alla trascrittasi inversa",
+        "attendere la mitosi, quando l'involucro nucleare si disassembla"
+      ],
+      "corretta": 2,
+      "spiegazione": "Un genoma a polarità negativa è complementare al messaggero e quindi non può essere letto dai ribosomi. Deve prima essere copiato in un filamento positivo, e poiché la cellula non possiede enzimi capaci di sintetizzare RNA su stampo di RNA, il virus deve trasportare il proprio dentro il virione.\n\nA) L'integrazione nel DNA dell'ospite caratterizza i retrovirus.\nB) La traduzione diretta è possibile ai soli genomi a polarità positiva, che funzionano già da messaggero.\nD) La trascrittasi inversa è un enzima dei retrovirus, non dei virus a RNA a polarità negativa.\nE) La replicazione di questi virus avviene nel citoplasma e non dipende dalla mitosi."
+    },
+    {
+      "id": "u1-0056",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Liberazione del genoma virale",
+      "testo": "Il processo con cui, dopo l'ingresso nella cellula, il genoma virale viene liberato dal capside che lo racchiude si chiama ……",
+      "accettate": [
+        "scapsidamento",
+        "decapsidazione",
+        "spogliazione",
+        "uncoating"
+      ],
+      "spiegazione": "Lo scapsidamento può avvenire alla membrana plasmatica, dentro un endosoma, oppure al poro nucleare, a seconda del virus: è il passaggio che rende il genoma disponibile alla replicazione e alla trascrizione.\n\nDa questo momento e fino alla comparsa dei primi virioni maturi non è possibile isolare particelle virali complete dalla cellula infettata: è il periodo detto di eclissi."
+    },
+    {
+      "id": "u1-0057",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Il ciclo litico",
+      "testo": "Quale sequenza descrive correttamente il ciclo litico di un batteriofago?",
+      "opzioni": [
+        "Penetrazione, adsorbimento, assemblaggio, replicazione, lisi",
+        "Adsorbimento, integrazione nel cromosoma batterico, replicazione, lisi",
+        "Adsorbimento, penetrazione, lisi, replicazione, assemblaggio",
+        "Adsorbimento, penetrazione, replicazione, assemblaggio, lisi",
+        "Replicazione, adsorbimento, penetrazione, assemblaggio, lisi"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il fago riconosce e si lega a un recettore della superficie batterica, inietta il proprio acido nucleico, dirotta la cellula per replicare il genoma e sintetizzare le proteine virali, i nuovi virioni si assemblano e infine la cellula viene lisata.\n\nA) L'adsorbimento è necessariamente il primo passo: senza legame al recettore non c'è penetrazione.\nB) L'integrazione nel cromosoma batterico appartiene al ciclo lisogenico.\nC) La lisi è l'evento finale, non intermedio: dopo la lisi non c'è più una cellula in cui replicarsi.\nE) La replicazione presuppone che il genoma sia già entrato nella cellula."
+    },
+    {
+      "id": "u1-0058",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "L'albero della vita",
+      "testo": "L'antenato comune universale da cui, secondo l'albero della vita, discendono tutti e tre i domini è indicato con la sigla ……",
+      "accettate": [
+        "luca",
+        "ultimo antenato comune universale"
+      ],
+      "spiegazione": "LUCA sta per Last Universal Common Ancestor. Non è un organismo di cui si abbiano fossili: è la ricostruzione dedotta da ciò che tutti i viventi condividono, cioè il codice genetico, i meccanismi di trascrizione e traduzione, l'ATP come moneta energetica e la membrana lipidica.\n\nLUCA non è la prima cellula comparsa sulla Terra, ma l'ultima da cui discendono tutte le linee ancora esistenti: le linee sorelle eventualmente estinte non lasciano traccia in questo tipo di ricostruzione."
+    },
+    {
+      "id": "u1-0059",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "I ribosomi dei procarioti",
+      "testo": "I ribosomi di una cellula procariotica:",
+      "opzioni": [
+        "sono identici a quelli presenti nelle cellule eucariotiche",
+        "sono racchiusi in un compartimento delimitato da membrana",
+        "hanno un coefficiente di sedimentazione di 80S",
+        "sono formati da sole proteine, senza alcuna componente a RNA",
+        "hanno un coefficiente di sedimentazione di 70S"
+      ],
+      "corretta": 4,
+      "spiegazione": "I ribosomi procariotici sono 70S e risultano dall'associazione di una subunità 30S e di una 50S. I valori non si sommano perché il coefficiente di sedimentazione dipende dalla forma oltre che dalla massa.\n\nA) e C) I ribosomi eucariotici citoplasmatici sono 80S, formati da subunità 40S e 60S: la differenza è netta ed è il bersaglio di numerosi antibiotici.\nB) I procarioti non hanno compartimenti delimitati da membrana.\nD) I ribosomi sono ribonucleoproteine: contengono RNA ribosomiali oltre alle proteine, e l'attività catalitica risiede proprio nell'RNA.\n\nI ribosomi dei mitocondri sono anch'essi 70S, coerentemente con la loro origine endosimbiotica."
+    },
+    {
+      "id": "u1-0060",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "La parete dei Gram-positivi",
+      "testo": "I polimeri di glicerolo o ribitolo fosfato caratteristici della parete dei batteri Gram-positivi, assenti nei Gram-negativi, sono gli acidi ……",
+      "accettate": [
+        "teicoici",
+        "teicoico",
+        "teicoici e lipoteicoici"
+      ],
+      "spiegazione": "Gli acidi teicoici attraversano lo spesso strato di peptidoglicano e sporgono verso l'esterno; quelli ancorati alla membrana plasmatica sono detti acidi lipoteicoici. Contribuiscono alla carica negativa della superficie e all'adesione.\n\nSono un esempio di come Gram-positivi e Gram-negativi risolvano in modo diverso lo stesso problema: dove i primi hanno peptidoglicano spesso e acidi teicoici, i secondi hanno peptidoglicano sottile e una membrana esterna con lipopolisaccaride."
+    },
+    {
+      "id": "u1-0061",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Strutture assenti nella cellula procariotica",
+      "testo": "Quale delle seguenti strutture NON è presente in una cellula procariotica?",
+      "opzioni": [
+        "Il reticolo endoplasmatico",
+        "La parete cellulare di peptidoglicano",
+        "I ribosomi per la sintesi delle proteine",
+        "Il DNA organizzato in un cromosoma circolare",
+        "Il citoplasma delimitato dalla membrana plasmatica"
+      ],
+      "corretta": 0,
+      "spiegazione": "I procarioti non possiedono alcun compartimento delimitato da membrana interna: niente reticolo endoplasmatico, né apparato di Golgi, né nucleo, né mitocondri. Le funzioni che negli eucarioti sono affidate agli organelli si svolgono nel citoplasma o sulla membrana plasmatica.\n\nB) La parete di peptidoglicano è caratteristica dei batteri.\nC) I ribosomi ci sono, di tipo 70S.\nD) Il cromosoma circolare è la forma tipica del genoma batterico.\nE) Citoplasma e membrana plasmatica sono presenti in ogni cellula."
+    },
+    {
+      "id": "u1-0062",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Struttura terziaria delle proteine",
+      "testo": "Il ripiegamento complessivo di una singola catena polipeptidica nello spazio tridimensionale costituisce la struttura ……",
+      "accettate": [
+        "terziaria",
+        "terziario"
+      ],
+      "spiegazione": "La struttura terziaria è stabilizzata dalle interazioni fra le catene laterali: legami a idrogeno, interazioni ioniche, forze idrofobiche e, dove presenti, ponti disolfuro fra residui di cisteina. Il contributo maggiore viene dall'effetto idrofobico, che confina all'interno i residui apolari.\n\nÈ il livello da cui dipende la funzione: il sito attivo di un enzima è formato da residui distanti nella sequenza e avvicinati proprio dal ripiegamento terziario."
+    },
+    {
+      "id": "u1-0063",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "I plasmidi",
+      "testo": "Che cos'è un plasmide?",
+      "opzioni": [
+        "Un frammento di RNA che regola l'espressione dei geni batterici",
+        "Una molecola di DNA circolare che si replica in modo autonomo",
+        "La regione del citoplasma in cui è alloggiato il cromosoma batterico",
+        "Un virus a DNA che infetta esclusivamente le cellule batteriche",
+        "Un'appendice di superficie con cui il batterio aderisce ad altre cellule"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il plasmide è una molecola di DNA extracromosomica, di norma circolare, dotata di una propria origine di replicazione e quindi indipendente dal cromosoma. Porta geni accessori, non indispensabili alla sopravvivenza in condizioni normali ma spesso decisivi in condizioni particolari, come le resistenze agli antibiotici.\n\nA) Il plasmide è DNA, non RNA.\nC) La regione che ospita il cromosoma batterico è il nucleoide.\nD) Un virus dei batteri è un batteriofago; il plasmide non ha capside e non è infettante in quel senso.\nE) L'adesione è compito delle fimbrie."
+    },
+    {
+      "id": "u1-0064",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Trigliceridi",
+      "testo": "L'unione di una molecola di glicerolo con tre acidi grassi mediante legami estere produce un ……",
+      "accettate": [
+        "trigliceride",
+        "trigliceridi",
+        "triacilglicerolo",
+        "triacilgliceroli",
+        "grasso neutro"
+      ],
+      "spiegazione": "Nel trigliceride tutti e tre gli ossidrili del glicerolo sono impegnati nei legami estere: la molecola risulta priva di gruppi polari ed è quindi del tutto apolare, e per questo si accumula in gocce separate dalla fase acquosa.\n\nÈ la forma di riserva energetica più conveniente, perché a parità di massa i lipidi liberano circa il doppio dell'energia di zuccheri e proteine e vengono immagazzinati praticamente senza acqua."
+    },
+    {
+      "id": "u1-0065",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "La pluricellularità",
+      "testo": "Quale vantaggio ha reso possibile il passaggio dagli organismi unicellulari a quelli pluricellulari complessi?",
+      "opzioni": [
+        "La possibilità di riprodursi senza trasmettere il proprio genoma",
+        "L'eliminazione della necessità di scambiare materia con l'ambiente",
+        "La specializzazione di gruppi di cellule in funzioni diverse",
+        "L'aumento della velocità di divisione di ciascuna singola cellula",
+        "La perdita, in ciascuna cellula, dei geni non usati da quel tipo cellulare"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel pluricellulare le cellule si differenziano e si dividono i compiti: alcune assorbono, altre trasportano, altre difendono. Nessuna deve più svolgere da sola tutte le funzioni vitali, e questo permette prestazioni e dimensioni inaccessibili a una cellula singola.\n\nA) La riproduzione comporta sempre la trasmissione del genoma.\nB) Lo scambio con l'ambiente resta indispensabile, e anzi diventa più complesso al crescere delle dimensioni.\nD) La pluricellularità non richiede divisioni più rapide: nei tessuti differenziati molte cellule smettono del tutto di dividersi.\nE) Il differenziamento non comporta perdita di geni: le cellule di un organismo hanno lo stesso genoma e differiscono per quali geni esprimono."
+    },
+    {
+      "id": "u1-0066",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Il colesterolo",
+      "testo": "Il lipide formato da quattro anelli condensati, presente nelle membrane delle cellule animali e precursore degli ormoni steroidei, è il ……",
+      "accettate": [
+        "colesterolo"
+      ],
+      "spiegazione": "Il colesterolo è debolmente anfipatico: il solo gruppo ossidrilico si affaccia verso le teste polari, mentre il sistema di anelli rigidi si inserisce fra le code dei fosfolipidi.\n\nIl suo effetto sulla fluidità non è a senso unico: a temperature elevate limita il movimento delle code e riduce la fluidità, a temperature basse impedisce alle code di impacchettarsi ordinatamente e la mantiene. Funziona quindi da tampone, non da fluidificante."
+    },
+    {
+      "id": "u1-0067",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Il saccarosio",
+      "testo": "Il saccarosio è un disaccaride formato da:",
+      "opzioni": [
+        "due molecole di glucosio",
+        "glucosio e galattosio",
+        "due molecole di fruttosio",
+        "glucosio e fruttosio",
+        "galattosio e fruttosio"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il saccarosio, lo zucchero comune da cucina, è formato da una molecola di glucosio e una di fruttosio unite da un legame glicosidico.\n\nA) Due molecole di glucosio formano il maltosio, che deriva dalla digestione dell'amido.\nB) Glucosio e galattosio formano il lattosio, il disaccaride del latte.\nC) ed E) Non corrispondono ad alcun disaccaride di rilievo biologico.\n\nTutti e tre i disaccaridi citati hanno la stessa formula grezza: cambia quali monosaccaridi li compongono e come sono legati, e da questo dipende quale enzima intestinale sia in grado di idrolizzarli."
+    },
+    {
+      "id": "u1-0068",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Basi puriniche",
+      "testo": "L'adenina e la guanina, costituite da due anelli condensati, appartengono alle basi ……",
+      "accettate": [
+        "puriniche",
+        "purine",
+        "purinica",
+        "purina"
+      ],
+      "spiegazione": "Le purine hanno due anelli, le pirimidine uno solo: citosina, timina e uracile. È la ragione geometrica per cui l'appaiamento avviene sempre fra una purina e una pirimidina, e la doppia elica mantiene larghezza costante.\n\nUn appaiamento fra due purine sarebbe troppo ingombrante e uno fra due pirimidine lascerebbe uno spazio vuoto: in entrambi i casi l'elica risulterebbe deformata."
+    },
+    {
+      "id": "u1-0069",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Gli acidi grassi insaturi",
+      "testo": "Rispetto a un acido grasso saturo della stessa lunghezza, un acido grasso insaturo:",
+      "opzioni": [
+        "ha una catena perfettamente lineare, che si impacchetta meglio",
+        "ha un punto di fusione più alto ed è solido a temperatura ambiente",
+        "contiene un numero maggiore di atomi di idrogeno nella catena",
+        "non può far parte dei fosfolipidi che formano le membrane",
+        "presenta uno o più doppi legami che piegano la catena"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il doppio legame in configurazione cis introduce un gomito nella catena: le molecole non riescono più ad affiancarsi ordinatamente, le interazioni fra loro si indeboliscono e il punto di fusione si abbassa. È per questo che gli oli vegetali, ricchi di insaturi, sono liquidi mentre i grassi animali sono solidi.\n\nA) La catena lineare, capace di impacchettarsi strettamente, è quella dell'acido grasso saturo.\nB) Il punto di fusione più alto è del saturo: è l'insaturo ad avere quello più basso.\nC) «Saturo» significa proprio saturo di idrogeno: è l'insaturo ad averne di meno.\nD) I fosfolipidi di membrana contengono abitualmente una coda insatura, e sono proprio le insaturazioni a mantenere la membrana fluida."
+    },
+    {
+      "id": "u1-0070",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Appaiamento delle basi",
+      "testo": "Nel DNA a doppia elica l'adenina si appaia sempre, mediante due legami a idrogeno, con la ……",
+      "accettate": [
+        "timina",
+        "timine",
+        "t"
+      ],
+      "spiegazione": "La complementarietà è rigida: adenina con timina, guanina con citosina. Ne consegue la regola di Chargaff, per cui in un DNA a doppio filamento la quantità di adenina eguaglia quella di timina e quella di guanina eguaglia quella di citosina.\n\nNell'RNA il partner dell'adenina è l'uracile, che differisce dalla timina per l'assenza del gruppo metile."
+    },
+    {
+      "id": "u1-0071",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Ciò che distingue i venti amminoacidi",
+      "testo": "I venti amminoacidi che formano le proteine differiscono fra loro:",
+      "opzioni": [
+        "per la catena laterale legata al carbonio α",
+        "per la posizione del gruppo amminico rispetto a quello carbossilico",
+        "per il tipo di legame con cui si uniscono l'uno all'altro nella catena",
+        "per la presenza o l'assenza del gruppo amminico nella loro struttura",
+        "per lo zucchero a cui sono legati durante la sintesi della proteina"
+      ],
+      "corretta": 0,
+      "spiegazione": "Ogni amminoacido ha lo stesso scheletro: un carbonio α legato a un gruppo amminico, a un gruppo carbossilico, a un idrogeno e a una catena laterale. È solo quest'ultima a cambiare, e da essa dipendono le proprietà del residuo, apolare, polare o carico.\n\nB) Negli amminoacidi che formano le proteine il gruppo amminico è sempre legato al carbonio α, cioè quello che porta il carbossile: la posizione non varia mai.\nC) Il legame è sempre lo stesso, il legame peptidico.\nD) Il gruppo amminico è presente in tutti: fa parte dello scheletro comune.\nE) Gli amminoacidi non sono legati a zuccheri; il legame con il tRNA riguarda la traduzione e non li distingue chimicamente fra loro."
+    },
+    {
+      "id": "u1-0072",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Modificazioni post-traduzionali: ubiquitinazione",
+      "testo": "L'aggiunta covalente di una o più molecole di ubiquitina a residui di lisina di una proteina si chiama ……",
+      "accettate": [
+        "ubiquitinazione",
+        "ubiquitinilazione",
+        "poliubiquitinazione"
+      ],
+      "spiegazione": "L'ubiquitina è una piccola proteina di 76 amminoacidi, molto conservata. Il suo legame al substrato richiede una successione di enzimi che la attivano, la trasportano e la trasferiscono al bersaglio; le deubiquitinasi compiono la reazione inversa e rendono la marcatura reversibile.\n\nL'effetto dipende dalla forma della marcatura: una catena di più ubiquitine segnala di norma la proteina per la degradazione, mentre l'aggiunta di una singola molecola serve piuttosto a modificarne la localizzazione o le interazioni."
+    },
+    {
+      "id": "u1-0073",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Struttura quaternaria",
+      "testo": "La struttura quaternaria di una proteina:",
+      "opzioni": [
+        "descrive il ripiegamento di una singola catena polipeptidica nello spazio",
+        "risulta dall'associazione di più catene polipeptidiche",
+        "corrisponde alla sequenza degli amminoacidi lungo la catena",
+        "è presente in tutte le proteine, senza alcuna eccezione",
+        "riguarda i tratti ad α-elica e a foglietto β presenti nella catena"
+      ],
+      "corretta": 1,
+      "spiegazione": "Si ha struttura quaternaria quando due o più catene, ciascuna con la propria struttura terziaria, si associano in un complesso funzionante. L'emoglobina, con le sue quattro subunità, ne è l'esempio classico.\n\nA) Il ripiegamento di una singola catena è la struttura terziaria.\nC) La sequenza degli amminoacidi è la struttura primaria.\nD) Le proteine formate da una sola catena, come la mioglobina, non hanno struttura quaternaria.\nE) α-elica e foglietto β sono elementi di struttura secondaria."
+    },
+    {
+      "id": "u1-0074",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Modificazioni post-traduzionali: aggiunta di lipidi",
+      "testo": "L'aggiunta covalente di una catena lipidica a una proteina, che ne favorisce l'ancoraggio alle membrane, si chiama ……",
+      "accettate": [
+        "lipidazione",
+        "lipidazioni",
+        "acilazione",
+        "aggiunta di lipidi"
+      ],
+      "spiegazione": "Una proteina priva di segmenti transmembrana può comunque essere legata stabilmente a una membrana grazie a un lipide agganciato in modo covalente: la catena idrocarburica si inserisce nel doppio strato e vi trattiene la proteina.\n\nMolte proteine della trasduzione del segnale sono ancorate così, ed è un ancoraggio regolabile: rimuovendo il lipide la proteina torna solubile e lascia la membrana."
+    },
+    {
+      "id": "u1-0075",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "I domini proteici",
+      "testo": "Che cos'è un dominio proteico?",
+      "opzioni": [
+        "Il tratto di catena compreso fra due legami peptidici consecutivi",
+        "L'insieme delle proteine che svolgono la stessa funzione biologica",
+        "Una porzione della catena che si ripiega in modo autonomo e stabile",
+        "La sequenza segnale che indirizza la proteina verso il suo compartimento",
+        "Il gruppo chimico non proteico legato in modo stabile a un enzima"
+      ],
+      "corretta": 2,
+      "spiegazione": "Un dominio è un modulo: si ripiega per conto proprio, spesso mantiene la funzione anche se isolato dal resto della catena, e ricorre in proteine per il resto diverse. Le proteine complesse sono in buona parte combinazioni di domini già collaudati.\n\nA) Fra due legami peptidici consecutivi si trova un singolo residuo amminoacidico.\nB) Un insieme di proteine con funzione affine è una famiglia proteica, non un dominio.\nD) La sequenza segnale è un breve tratto di indirizzamento, non un'unità di ripiegamento.\nE) Il gruppo non proteico legato a un enzima è un gruppo prostetico."
+    },
+    {
+      "id": "u1-0076",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "L'RNA messaggero",
+      "testo": "L'RNA che trasporta l'informazione dal nucleo ai ribosomi, dove viene tradotta in una sequenza di amminoacidi, è l'RNA ……",
+      "accettate": [
+        "messaggero",
+        "mrna",
+        "messaggeri"
+      ],
+      "spiegazione": "L'mRNA è un RNA codificante: la sua sequenza viene letta a triplette e specifica l'ordine degli amminoacidi. È anche il più instabile fra gli RNA cellulari, e la sua durata è essa stessa un livello di regolazione.\n\nGli altri due RNA classici non vengono tradotti: il ribosomiale è componente strutturale e catalitico del ribosoma, il transfer trasporta gli amminoacidi al ribosoma."
+    },
+    {
+      "id": "u1-0077",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Specificità enzimatica e adattamento indotto",
+      "testo": "Secondo il modello dell'adattamento indotto:",
+      "opzioni": [
+        "il substrato si lega a un sito diverso da quello catalitico dell'enzima",
+        "enzima e substrato hanno forme rigide e perfettamente complementari",
+        "l'enzima modifica in modo permanente la propria struttura terziaria",
+        "il sito attivo cambia forma quando il substrato vi si lega",
+        "un enzima può legare qualunque substrato, senza alcuna specificità"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il legame del substrato induce un aggiustamento della conformazione del sito attivo, che si chiude attorno alla molecola e dispone i residui catalitici nella posizione corretta. Enzima e substrato si adattano l'uno all'altro, invece di combaciare già in partenza.\n\nA) Il legame a un sito diverso da quello catalitico descrive la regolazione allosterica.\nB) La complementarietà rigida è il modello precedente, quello chiave-serratura, che l'adattamento indotto corregge.\nC) La variazione è reversibile: al rilascio del prodotto l'enzima torna alla conformazione di partenza.\nE) L'adattamento indotto non elimina la specificità: solo un substrato appropriato induce la conformazione catalitica."
+    },
+    {
+      "id": "u1-0078",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "RNA non codificanti",
+      "testo": "I brevi RNA non codificanti, lunghi una ventina di nucleotidi, che regolano l'espressione genica appaiandosi a mRNA bersaglio sono i ……",
+      "accettate": [
+        "microrna",
+        "mirna",
+        "micro rna"
+      ],
+      "spiegazione": "I microRNA non vengono tradotti: sono essi stessi il prodotto finale del gene. Appaiandosi per complementarietà a un mRNA ne bloccano la traduzione o ne accelerano la degradazione, e un solo microRNA può regolare molti messaggeri diversi.\n\nSono una parte della grande classe degli RNA non codificanti, che comprende anche gli RNA ribosomiali, i transfer e i piccoli RNA nucleari: la quota di genoma trascritta in RNA che non diventeranno mai proteine è di gran lunga superiore a quella dei geni codificanti."
+    },
+    {
+      "id": "u1-0079",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Appaiamento guanina-citosina",
+      "testo": "Nella doppia elica del DNA, la coppia guanina-citosina:",
+      "opzioni": [
+        "è tenuta insieme da un legame covalente fra i due anelli affacciati",
+        "è formata da due basi puriniche affacciate l'una all'altra",
+        "è unita da due legami a idrogeno, come la coppia adenina-timina",
+        "è meno stabile della coppia adenina-timina, a parità di condizioni",
+        "è unita da tre legami a idrogeno"
+      ],
+      "corretta": 4,
+      "spiegazione": "Guanina e citosina formano tre legami a idrogeno, adenina e timina soltanto due: le regioni ricche di G e C richiedono più energia per essere separate, e la temperatura a cui un DNA si denatura cresce con il loro contenuto.\n\nA) Fra le basi appaiate non c'è alcun legame covalente: se ci fosse, la doppia elica non potrebbe aprirsi.\nB) La citosina è una pirimidina, non una purina.\nC) È la coppia adenina-timina a essere unita da due legami a idrogeno.\nD) La conclusione è rovesciata: più legami a idrogeno significano maggiore stabilità."
+    },
+    {
+      "id": "u1-0080",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Anabolismo",
+      "testo": "L'insieme delle vie metaboliche che costruiscono molecole complesse a partire da precursori semplici, consumando energia, si chiama ……",
+      "accettate": [
+        "anabolismo",
+        "vie anaboliche",
+        "metabolismo anabolico",
+        "biosintesi"
+      ],
+      "spiegazione": "Le reazioni anaboliche sono endoergoniche: procedono solo se accoppiate a reazioni che liberano energia, tipicamente l'idrolisi dell'ATP prodotto dal catabolismo. Sono inoltre nel complesso riduttive, e per questo consumano trasportatori di elettroni ridotti.\n\nAnabolismo e catabolismo non sono semplicemente l'uno l'inverso dell'altro: pur partendo dagli stessi intermedi seguono spesso percorsi ed enzimi diversi, il che permette di regolarli in modo indipendente ed evita che si annullino a vicenda."
+    }
+  ]
+}

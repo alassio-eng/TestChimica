@@ -1,0 +1,711 @@
+{
+  "lotto": "biologia-u2-01",
+  "unita": "u2",
+  "generato": "2026-09-09",
+  "domande": [
+    {
+      "id": "u2-0001",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Organizzazione minimale di un cromosoma eucariotico",
+      "testo": "Quali elementi sono indispensabili perché un cromosoma eucariotico lineare venga replicato e trasmesso correttamente alle cellule figlie?",
+      "opzioni": [
+        "Un promotore, un enhancer e un sito di poliadenilazione funzionanti",
+        "Una sola origine di replicazione, collocata al centro della molecola",
+        "Le origini di replicazione, il centromero e i telomeri",
+        "Il centromero, il nucleolo e la lamina nucleare che lo ancora all'involucro",
+        "Le sequenze ripetute in tandem distribuite lungo tutto il braccio corto"
+      ],
+      "corretta": 2,
+      "spiegazione": "Sono i tre elementi minimi che un cromosoma artificiale deve contenere per comportarsi da cromosoma: le origini permettono la duplicazione, il centromero l'aggancio al fuso e quindi la segregazione, i telomeri la protezione e la replicazione completa delle estremità.\n\nA) Promotore, enhancer e sito di poliadenilazione servono all'espressione di un gene, non alla trasmissione del cromosoma.\nB) I cromosomi eucariotici hanno numerose origini di replicazione distribuite lungo tutta la loro lunghezza, non una sola: è la condizione per replicare in tempi ragionevoli molecole molto lunghe.\nD) Il nucleolo non è un elemento del cromosoma ma un condensato nucleare; la lamina non è richiesta per la trasmissione.\nE) Le sequenze ripetute in tandem sono abbondanti nei cromosomi ma non sono un requisito funzionale."
+    },
+    {
+      "id": "u2-0002",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Il centromero",
+      "testo": "La regione del cromosoma su cui si assembla il cinetocore e a cui si agganciano i microtubuli del fuso si chiama ……",
+      "accettate": [
+        "centromero",
+        "centromeri"
+      ],
+      "spiegazione": "Il centromero è la regione che tiene uniti i due cromatidi fratelli e li orienta verso i poli opposti: la sua posizione lungo il cromosoma definisce la classificazione morfologica in metacentrici, submetacentrici e acrocentrici.\n\nNell'uomo è costituito da DNA satellite alfa e non da una sequenza codificante; l'identità centromerica è marcata anche dalla variante istonica CENP-A, che nei nucleosomi di quella regione prende il posto dell'istone H3."
+    },
+    {
+      "id": "u2-0003",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Funzione del centromero",
+      "testo": "Qual è la funzione del centromero?",
+      "opzioni": [
+        "Costituisce il sito su cui si assembla il cinetocore",
+        "Contiene le origini da cui parte la replicazione del cromosoma",
+        "Protegge le estremità del cromosoma dalla degradazione enzimatica",
+        "Raccoglie i geni per gli RNA ribosomiali e organizza il nucleolo",
+        "Determina il numero di cromatidi presenti in ciascun cromosoma"
+      ],
+      "corretta": 0,
+      "spiegazione": "Sul DNA centromerico si assembla il cinetocore, la piattaforma proteica che lega i microtubuli del fuso: senza di essa il cromosoma non verrebbe ripartito fra le cellule figlie.\n\nB) Le origini di replicazione sono numerose e distribuite lungo tutto il cromosoma.\nC) La protezione delle estremità è compito dei telomeri.\nD) I geni per gli RNA ribosomiali stanno nelle regioni organizzatrici del nucleolo, sui bracci corti dei cromosomi acrocentrici.\nE) I cromatidi sono due dopo la replicazione e uno prima: dipende dalla fase del ciclo cellulare, non dal centromero."
+    },
+    {
+      "id": "u2-0004",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Il cinetocore",
+      "testo": "Il complesso proteico che si assembla sul DNA centromerico e ancora il cromosoma ai microtubuli del fuso si chiama ……",
+      "accettate": [
+        "cinetocore",
+        "cinetocori",
+        "chinetocore"
+      ],
+      "spiegazione": "Il cinetocore è una struttura stratificata: la parte interna riconosce la cromatina centromerica, quella esterna lega le estremità dei microtubuli e resta attaccata anche mentre questi si accorciano, trasformando la depolimerizzazione in forza di trazione.\n\nOgni cromatidio fratello porta il proprio cinetocore, ed è per questo che i due cromatidi possono essere agganciati da poli opposti del fuso."
+    },
+    {
+      "id": "u2-0005",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Il DNA telomerico",
+      "testo": "Il DNA telomerico dei vertebrati è costituito da:",
+      "opzioni": [
+        "sequenze uniche, diverse in ciascuno dei cromosomi della specie",
+        "un lungo tratto di DNA satellite alfa in unità da 171 paia di basi",
+        "geni per gli RNA ribosomiali ripetuti in tandem molte volte di seguito",
+        "sequenze che codificano proteine indispensabili alla divisione cellulare",
+        "brevi sequenze ripetute in tandem, ricche di guanina"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nei vertebrati il telomero è formato dalla ripetizione in tandem del motivo TTAGGG, presente in migliaia di copie e uguale in tutti i cromosomi della specie. L'estremità sporgente ricca di guanina si ripiega e si inserisce nel tratto a doppio filamento, formando un'ansa che nasconde l'estremità.\n\nA) Le sequenze telomeriche non sono uniche né specifiche di ciascun cromosoma: sono le stesse ovunque.\nB) Il satellite alfa è il DNA ripetuto dei centromeri, non dei telomeri.\nC) I geni per gli rRNA sono ripetuti in tandem ma stanno nelle regioni organizzatrici del nucleolo.\nD) I telomeri non contengono sequenze codificanti."
+    },
+    {
+      "id": "u2-0006",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "I telomeri",
+      "testo": "L'estremità di un cromosoma eucariotico lineare, costituita da brevi sequenze ripetute in tandem, si chiama ……",
+      "accettate": [
+        "telomero",
+        "telomeri"
+      ],
+      "spiegazione": "Il telomero risolve un problema che i cromosomi circolari dei procarioti non hanno: distinguere un'estremità fisiologica da una rottura del DNA, ed evitare che i sistemi di riparazione saldino fra loro cromosomi diversi.\n\nA ogni ciclo di replicazione il telomero si accorcia, perché la sintesi del filamento discontinuo non può essere completata fino all'estremità: nelle cellule somatiche questo accorciamento progressivo porta alla senescenza replicativa."
+    },
+    {
+      "id": "u2-0007",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Funzione dei telomeri",
+      "testo": "Perché le estremità dei cromosomi lineari devono essere protette dai telomeri?",
+      "opzioni": [
+        "Perché altrimenti verrebbero metilate e i geni vicini risulterebbero silenziati",
+        "Perché altrimenti sarebbero riconosciute come rotture del DNA a doppio filamento",
+        "Perché altrimenti il cromosoma non potrebbe condensarsi durante la mitosi",
+        "Perché altrimenti il cinetocore si assemblerebbe in una posizione sbagliata",
+        "Perché altrimenti gli istoni non riuscirebbero a legare il DNA in quella regione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Un'estremità libera di DNA a doppio filamento è il segnale di un danno: attiva la risposta al danno al DNA e i sistemi di saldatura, che unirebbero fra loro le estremità di cromosomi diversi generando cromosomi dicentrici. Il ripiegamento del telomero e le proteine che vi si legano mascherano l'estremità.\n\nA) La metilazione riguarda le citosine dei dinucleotidi CpG e non dipende dalla presenza di un'estremità.\nC) La condensazione mitotica è affidata alle condensine e non richiede i telomeri.\nD) La posizione del cinetocore è determinata dal centromero.\nE) Gli istoni legano il DNA telomerico come qualsiasi altro tratto di DNA."
+    },
+    {
+      "id": "u2-0008",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "L'unità strutturale della cromatina",
+      "testo": "L'unità strutturale fondamentale della cromatina, formata da un nucleo di istoni attorno al quale il DNA si avvolge, si chiama ……",
+      "accettate": [
+        "nucleosoma",
+        "nucleosomi"
+      ],
+      "spiegazione": "Nel nucleosoma circa 147 paia di basi di DNA compiono poco meno di due giri attorno a un ottamero istonico. È il primo livello di compattazione e riduce la lunghezza del DNA di circa sei volte: da solo non basta, visto che il DNA di una cellula umana misura complessivamente circa due metri.\n\nIl nucleosoma con in più l'istone H1 e il DNA di collegamento associato prende il nome di cromatosoma."
+    },
+    {
+      "id": "u2-0009",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Composizione del nucleosoma",
+      "testo": "Il nucleosoma è formato da:",
+      "opzioni": [
+        "un ottamero costituito da otto copie dell'istone H1, avvolto dal DNA",
+        "quattro istoni diversi, presenti in una sola copia ciascuno, e il DNA linker",
+        "un tetramero di istoni attorno a cui si avvolgono circa 300 paia di basi",
+        "due copie ciascuna degli istoni H2A, H2B, H3 e H4, con circa 147 paia di basi",
+        "un nucleo di proteine non istoniche associato a un tratto di DNA metilato"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'ottamero è formato da due copie di ciascuno dei quattro istoni del nucleo: H2A, H2B, H3 e H4. Attorno a esso si avvolgono circa 147 paia di basi di DNA.\n\nA) H1 non fa parte dell'ottamero: è l'istone di collegamento e si lega all'esterno del nucleosoma.\nB) Gli istoni del nucleo sono quattro tipi ma otto molecole; il DNA linker è il tratto fra due nucleosomi, non parte del nucleosoma.\nC) Le circa 300 paia di basi sono all'incirca la lunghezza di una sequenza Alu, non del DNA nucleosomico.\nE) Le proteine del nucleosoma sono istoni, e l'avvolgimento non dipende dalla metilazione del DNA."
+    },
+    {
+      "id": "u2-0010",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Le proteine della cromatina",
+      "testo": "Le proteine basiche, ricche di lisina e arginina, attorno alle quali il DNA si avvolge nel nucleosoma si chiamano ……",
+      "accettate": [
+        "istoni",
+        "istone",
+        "proteine istoniche"
+      ],
+      "spiegazione": "Gli istoni sono fra le proteine più conservate dell'evoluzione: H3 e H4 differiscono di pochissimi amminoacidi fra organismi lontanissimi fra loro, segno che quasi ogni loro residuo è vincolato dalla funzione.\n\nDall'ottamero sporgono le code N-terminali, non strutturate e accessibili: sono il bersaglio delle modificazioni post-traduzionali che regolano lo stato della cromatina."
+    },
+    {
+      "id": "u2-0011",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Interazione fra istoni e DNA",
+      "testo": "Gli istoni si legano saldamente al DNA perché:",
+      "opzioni": [
+        "formano legami covalenti con le basi azotate del filamento stampo",
+        "sono proteine acide, cariche negativamente come lo scheletro del DNA",
+        "sono proteine basiche, ricche di lisina e arginina, cariche positivamente",
+        "riconoscono sequenze nucleotidiche specifiche distribuite lungo il genoma",
+        "sono modificati dall'aggiunta di gruppi fosfato che ne aumentano l'adesività"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il legame è elettrostatico: le catene laterali di lisina e arginina, cariche positivamente a pH fisiologico, interagiscono con lo scheletro zucchero-fosfato, carico negativamente. Proprio perché il contatto avviene con lo scheletro e non con le basi, gli istoni legano il DNA indipendentemente dalla sequenza.\n\nA) Il legame è debole e reversibile, non covalente: se non lo fosse, la cromatina non potrebbe aprirsi.\nB) Sono proteine basiche, non acide: due cariche uguali si respingerebbero.\nD) Il riconoscimento di sequenze specifiche è proprio dei fattori di trascrizione.\nE) La fosforilazione aggiunge cariche negative, che riducono l'affinità per il DNA."
+    },
+    {
+      "id": "u2-0012",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Il DNA fra due nucleosomi",
+      "testo": "Il tratto di DNA compreso fra due nucleosomi consecutivi prende il nome di DNA ……",
+      "accettate": [
+        "linker",
+        "spaziatore",
+        "collegamento"
+      ],
+      "spiegazione": "La sua lunghezza varia, in media intorno alle 20-60 paia di basi a seconda della specie e del tipo cellulare: è questa alternanza fra nucleosomi e tratti liberi a dare l'aspetto «a collana di perle» al microscopio elettronico.\n\nÈ al DNA di collegamento, nel punto di ingresso e di uscita dal nucleosoma, che si lega l'istone H1."
+    },
+    {
+      "id": "u2-0013",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "L'istone H1",
+      "testo": "Qual è il ruolo dell'istone H1?",
+      "opzioni": [
+        "Lega il DNA di collegamento e favorisce la formazione della fibra da 30 nm",
+        "Costituisce, insieme a H3 e H4, il tetramero centrale dell'ottamero istonico",
+        "Taglia il DNA fra due nucleosomi consecutivi durante la condensazione mitotica",
+        "Aggiunge gruppi acetile alle code degli altri istoni presenti nel nucleosoma",
+        "Sostituisce l'istone H3 nei nucleosomi della regione centromerica del cromosoma"
+      ],
+      "corretta": 0,
+      "spiegazione": "H1 è l'istone di collegamento: si lega al DNA nel punto in cui entra ed esce dal nucleosoma, stabilizza l'avvolgimento e favorisce il ripiegamento della fibra da 11 nm in quella più compatta da 30 nm.\n\nB) Il tetramero centrale è formato da due copie di H3 e due di H4: H1 non ne fa parte.\nC) H1 non ha attività enzimatica e non taglia il DNA.\nD) L'acetilazione è catalizzata dalle istone acetiltransferasi.\nE) La sostituzione di H3 nei nucleosomi centromerici è opera della variante CENP-A."
+    },
+    {
+      "id": "u2-0014",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "L'istone di collegamento",
+      "testo": "L'istone che non fa parte dell'ottamero nucleosomico e che, legandosi al DNA di collegamento, favorisce la formazione della fibra da 30 nm è l'istone ……",
+      "accettate": [
+        "h1",
+        "istone h1"
+      ],
+      "spiegazione": "H1 è più variabile degli altri istoni ed è presente in numerose varianti tessuto-specifiche; la sua quantità relativa nella cromatina è circa una molecola per nucleosoma.\n\nLa sua rimozione sperimentale scioglie la fibra da 30 nm e riporta la cromatina all'aspetto «a collana di perle», che è il modo più diretto per mostrarne il ruolo nella compattazione."
+    },
+    {
+      "id": "u2-0015",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "La fibra da 11 nm",
+      "testo": "La struttura «a collana di perle» osservata al microscopio elettronico corrisponde:",
+      "opzioni": [
+        "al DNA nudo, del tutto privo di proteine associate, del diametro di 30 nm",
+        "alla fibra di cromatina più compatta, del diametro di circa 30 nanometri",
+        "ai cromosomi metafasici completamente condensati e divisi in due cromatidi",
+        "al DNA avvolto attorno a molecole del solo istone H1, del diametro di 5 nm",
+        "alla fibra di circa 11 nm formata da nucleosomi separati da DNA linker"
+      ],
+      "corretta": 4,
+      "spiegazione": "È il primo livello di organizzazione della cromatina: i nucleosomi sono le «perle», il DNA di collegamento il filo che li unisce, e il diametro complessivo è di circa 10-11 nm. Si osserva in condizioni di bassa forza ionica, che sciolgono i livelli superiori di compattazione.\n\nA) Il DNA nudo ha un diametro di circa 2 nm.\nB) Il diametro di circa 30 nm è quello della fibra successiva, più compatta.\nC) I cromosomi metafasici rappresentano il grado massimo di condensazione, non il primo livello.\nD) H1 non forma il nucleo attorno a cui si avvolge il DNA: quello è l'ottamero."
+    },
+    {
+      "id": "u2-0016",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Compattazione della cromatina",
+      "testo": "La fibra di cromatina più compatta, che si forma dal ripiegamento della collana di perle con il contributo dell'istone H1, ha un diametro di circa …… nanometri.",
+      "accettate": [
+        "30",
+        "trenta"
+      ],
+      "spiegazione": "Il valore di circa 30 nm è quello classicamente riportato per la fibra osservata in vitro; la sua esistenza come struttura regolare all'interno del nucleo è oggi discussa, e in molti tessuti la cromatina appare organizzata in modo più irregolare.\n\nI livelli successivi di compattazione consistono nel ripiegamento della fibra in anse ancorate a un'impalcatura proteica, fino al cromosoma metafasico."
+    },
+    {
+      "id": "u2-0017",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Dalla fibra da 11 nm a quella da 30 nm",
+      "testo": "Il passaggio dalla fibra da 11 nm a quella da 30 nm:",
+      "opzioni": [
+        "richiede la rimozione degli istoni del nucleo nucleosomico dalla fibra",
+        "è favorito dall'istone H1 e rende la cromatina meno accessibile",
+        "avviene soltanto nei cromosomi dei gameti e non in quelli somatici",
+        "coincide con la duplicazione del materiale genetico durante la fase S",
+        "è la conseguenza diretta dell'acetilazione delle code degli istoni"
+      ],
+      "corretta": 1,
+      "spiegazione": "H1 stabilizza il DNA all'ingresso e all'uscita del nucleosoma e permette ai nucleosomi di avvicinarsi fra loro: la cromatina si compatta e diventa meno accessibile agli apparati di trascrizione e di replicazione.\n\nA) Gli istoni del nucleo restano al loro posto: senza nucleosomi non ci sarebbe alcuna fibra da ripiegare.\nC) La compattazione riguarda tutti i tipi cellulari.\nD) La duplicazione del DNA è un processo distinto dalla compattazione della cromatina.\nE) L'acetilazione ha l'effetto opposto: apre la cromatina invece di compattarla."
+    },
+    {
+      "id": "u2-0018",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Cromatina trascrizionalmente attiva",
+      "testo": "La cromatina poco condensata, accessibile e trascrizionalmente attiva si chiama ……",
+      "accettate": [
+        "eucromatina"
+      ],
+      "spiegazione": "L'eucromatina occupa la maggior parte del volume nucleare, è ricca di geni e di sequenze uniche e si colora debolmente: la sua struttura aperta permette a fattori di trascrizione e RNA polimerasi di raggiungere il DNA.\n\nNon tutti i geni contenuti nell'eucromatina sono trascritti in un dato momento: la condizione è necessaria ma non sufficiente all'espressione."
+    },
+    {
+      "id": "u2-0019",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Eucromatina ed eterocromatina",
+      "testo": "Rispetto all'eucromatina, l'eterocromatina:",
+      "opzioni": [
+        "è più ricca di geni attivamente trascritti dalla RNA polimerasi",
+        "è meno condensata e più accessibile agli enzimi che agiscono sul DNA",
+        "si trova esclusivamente nel citoplasma della cellula, fuori dal nucleo",
+        "è più condensata e trascrizionalmente poco attiva",
+        "è priva di istoni ed è formata da solo DNA ripetuto in tandem"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'eterocromatina resta condensata anche in interfase, si colora intensamente ed è povera di geni espressi: la compattazione tiene il DNA fuori dalla portata dell'apparato trascrizionale.\n\nA) È l'eucromatina a essere ricca di geni trascritti.\nB) La minore condensazione e la maggiore accessibilità caratterizzano l'eucromatina.\nC) Entrambe le forme di cromatina stanno nel nucleo.\nE) L'eterocromatina contiene istoni come l'eucromatina, e contiene anche sequenze non ripetute."
+    },
+    {
+      "id": "u2-0020",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Cromatina condensata",
+      "testo": "La cromatina che resta fortemente condensata anche durante l'interfase e risulta trascrizionalmente inattiva si chiama ……",
+      "accettate": [
+        "eterocromatina"
+      ],
+      "spiegazione": "Si distingue in costitutiva, sempre condensata in tutte le cellule e localizzata soprattutto ai centromeri e ai telomeri, e facoltativa, condensata solo in alcune cellule o in certe fasi dello sviluppo.\n\nL'eterocromatina costitutiva è ricca di sequenze ripetute e povera di geni; quella facoltativa contiene geni che in altre cellule dello stesso organismo sono regolarmente trascritti."
+    },
+    {
+      "id": "u2-0021",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Eterocromatina facoltativa",
+      "testo": "Il corpo di Barr presente nelle cellule somatiche femminili è un esempio di:",
+      "opzioni": [
+        "eterocromatina facoltativa",
+        "eterocromatina costitutiva",
+        "eucromatina attivamente trascritta",
+        "nucleolo secondario",
+        "cromosoma politenico"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il corpo di Barr è uno dei due cromosomi X, inattivato e condensato. Poiché l'inattivazione colpisce a caso l'X materno o quello paterno, lo stesso cromosoma resta eucromatico e attivo nelle cellule in cui a essere inattivato è stato l'omologo: la condensazione non dipende quindi dalla sequenza, ed è questa la definizione di eterocromatina facoltativa.\n\nB) L'eterocromatina costitutiva è condensata sempre e in tutte le cellule, come quella dei centromeri.\nC) Il corpo di Barr è per definizione trascrizionalmente inattivo.\nD) Il nucleolo è il sito di sintesi e assemblaggio dei ribosomi, non un cromosoma condensato.\nE) I cromosomi politenici sono strutture giganti di alcune cellule di insetti, e non esistono nell'uomo."
+    },
+    {
+      "id": "u2-0022",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Inattivazione del cromosoma X",
+      "testo": "Nelle cellule somatiche femminili uno dei due cromosomi X è inattivato e condensato in una massa di eterocromatina detta corpo di ……",
+      "accettate": [
+        "barr"
+      ],
+      "spiegazione": "L'inattivazione avviene precocemente nello sviluppo embrionale e riguarda in modo casuale il cromosoma X di origine materna o paterna; una volta stabilita, la scelta viene mantenuta in tutte le cellule discendenti.\n\nNe deriva che una femmina eterozigote è un mosaico di cellule in cui è attivo un allele e di cellule in cui è attivo l'altro: è il motivo per cui certe malattie legate all'X si manifestano nelle portatrici in modo variabile e a chiazze."
+    },
+    {
+      "id": "u2-0023",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Acetilazione degli istoni",
+      "testo": "L'acetilazione delle lisine delle code istoniche:",
+      "opzioni": [
+        "aumenta la carica positiva degli istoni e compatta ulteriormente la cromatina",
+        "introduce un gruppo metile che silenzia stabilmente il promotore del gene",
+        "neutralizza la carica positiva delle lisine e favorisce l'apertura della cromatina",
+        "avviene sul DNA e non sulle proteine associate a esso nella cromatina",
+        "è una modificazione irreversibile, trasmessa immutata a tutte le cellule figlie"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il gruppo acetile azzera la carica positiva della lisina: l'attrazione elettrostatica fra coda istonica e scheletro fosfato si indebolisce, la cromatina si allenta e diventa accessibile. L'acetilazione delle code istoniche è infatti associata alle regioni trascrizionalmente attive.\n\nA) L'effetto sulla carica è opposto, e con esso l'effetto sulla compattazione.\nB) Il gruppo aggiunto è acetile, non metile.\nD) Il bersaglio dell'acetilazione sono le code degli istoni, non il DNA.\nE) È una modificazione reversibile: le deacetilasi rimuovono il gruppo acetile."
+    },
+    {
+      "id": "u2-0024",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Modificazioni delle code istoniche",
+      "testo": "L'aggiunta di un gruppo acetile ai residui di lisina delle code istoniche si chiama ……",
+      "accettate": [
+        "acetilazione",
+        "acetilazione istonica"
+      ],
+      "spiegazione": "La reazione è catalizzata dalle istone acetiltransferasi, che usano l'acetil-CoA come donatore del gruppo acetile, ed è invertita dalle istone deacetilasi. Molti coattivatori della trascrizione possiedono attività acetiltransferasica, molti corepressori attività deacetilasica.\n\nL'acetilazione è solo una delle modificazioni possibili: le code istoniche possono essere anche metilate, fosforilate e ubiquitinate, e l'effetto della metilazione dipende dal residuo colpito, potendo essere sia attivante sia repressivo."
+    },
+    {
+      "id": "u2-0025",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Istone deacetilasi",
+      "testo": "Gli enzimi che rimuovono i gruppi acetile dalle code istoniche, favorendo la compattazione della cromatina, sono:",
+      "opzioni": [
+        "le istone acetiltransferasi",
+        "le DNA metiltransferasi",
+        "le ubiquitina ligasi",
+        "le chinasi istoniche",
+        "le istone deacetilasi"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le istone deacetilasi ripristinano la carica positiva delle lisine, l'affinità delle code per il DNA aumenta e la cromatina si richiude: la loro azione si associa alla repressione trascrizionale.\n\nA) Le acetiltransferasi catalizzano la reazione opposta, cioè l'aggiunta del gruppo acetile.\nB) Le DNA metiltransferasi agiscono sulle citosine del DNA, non sugli istoni.\nC) Le ubiquitina ligasi aggiungono ubiquitina alle proteine bersaglio.\nD) Le chinasi trasferiscono gruppi fosfato, non rimuovono gruppi acetile."
+    },
+    {
+      "id": "u2-0026",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Enzimi che chiudono la cromatina",
+      "testo": "Gli enzimi che rimuovono i gruppi acetile dalle code degli istoni si chiamano istone ……",
+      "accettate": [
+        "deacetilasi",
+        "deacetilasi istoniche",
+        "hdac"
+      ],
+      "spiegazione": "Coppie di enzimi che aggiungono e rimuovono la stessa modificazione rendono il segnale reversibile e quindi regolabile: acetiltransferasi e deacetilasi per l'acetilazione, chinasi e fosfatasi per la fosforilazione.\n\nGli inibitori delle deacetilasi istoniche sono usati in terapia proprio perché spostano l'equilibrio verso una cromatina più aperta, riattivando geni silenziati."
+    },
+    {
+      "id": "u2-0027",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Rimodellamento della cromatina",
+      "testo": "I complessi di rimodellamento della cromatina:",
+      "opzioni": [
+        "tagliano il DNA di collegamento per liberare i nucleosomi dalla fibra",
+        "usano l'energia dell'ATP per spostare o rimuovere i nucleosomi",
+        "aggiungono gruppi metile alle citosine dei promotori dei geni bersaglio",
+        "sostituiscono gli istoni con proteine non istoniche di tipo strutturale",
+        "impediscono in modo stabile qualunque cambiamento nella cromatina"
+      ],
+      "corretta": 1,
+      "spiegazione": "Sono macchine molecolari ATP-dipendenti che fanno scorrere il nucleosoma lungo il DNA, lo staccano o ne sostituiscono gli istoni con varianti: il risultato è rendere accessibile o inaccessibile una sequenza, per esempio un promotore, senza modificare la sequenza stessa.\n\nA) Nessun taglio del DNA è coinvolto: il rimodellamento è reversibile e non lascia rotture.\nC) La metilazione delle citosine è opera delle DNA metiltransferasi.\nD) Gli istoni possono essere scambiati con varianti istoniche, non con proteine strutturali non istoniche.\nE) Il rimodellamento serve appunto a rendere la cromatina dinamica."
+    },
+    {
+      "id": "u2-0028",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Epigenetica",
+      "testo": "L'insieme dei cambiamenti ereditabili dell'espressione genica che non comportano alcuna variazione della sequenza del DNA costituisce l'oggetto di studio dell'……",
+      "accettate": [
+        "epigenetica"
+      ],
+      "spiegazione": "Metilazione del DNA e modificazioni delle code istoniche sono i due meccanismi epigenetici principali: entrambi cambiano la probabilità che un gene venga trascritto lasciando intatta la sequenza nucleotidica.\n\nÈ ciò che spiega come cellule con lo stesso genoma, in uno stesso organismo, possano essere e restare tanto diverse fra loro: un neurone e un epatocita differiscono per quali geni sono accessibili, non per quali geni possiedono."
+    },
+    {
+      "id": "u2-0029",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Che cos'è una modificazione epigenetica",
+      "testo": "Che cosa si intende per modificazione epigenetica?",
+      "opzioni": [
+        "Una mutazione che cambia una singola base nella sequenza del DNA",
+        "Un riarrangiamento che sposta un tratto di DNA su un altro cromosoma",
+        "Una modificazione ereditabile che altera l'espressione senza cambiare la sequenza",
+        "La perdita definitiva di un gene nel corso del differenziamento cellulare",
+        "Una variazione del numero di cromosomi presenti nel nucleo della cellula"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il criterio è duplice: la modificazione deve essere trasmessa alle cellule figlie e non deve toccare la sequenza nucleotidica. Metilazione del DNA e modificazioni istoniche rispondono a entrambe le condizioni.\n\nA) Il cambiamento di una base è una mutazione puntiforme, cioè una variazione della sequenza.\nB) Uno spostamento di materiale genetico è una traslocazione, una mutazione cromosomica.\nD) Salvo casi particolari, il differenziamento non comporta perdita di geni: le cellule di un organismo hanno lo stesso genoma.\nE) Le variazioni del numero di cromosomi sono alterazioni del cariotipo."
+    },
+    {
+      "id": "u2-0030",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Metilazione del DNA",
+      "testo": "L'aggiunta di un gruppo metile alla citosina del DNA, catalizzata dalle DNA metiltransferasi, si chiama ……",
+      "accettate": [
+        "metilazione",
+        "metilazione del dna"
+      ],
+      "spiegazione": "Il prodotto è la 5-metilcitosina, che appaia regolarmente con la guanina: la metilazione non altera la complementarietà e quindi non è una mutazione, ma cambia le proteine che si legano a quel tratto di DNA.\n\nPoiché la citosina metilata sta in un dinucleotide CpG, che è simmetrico sui due filamenti, dopo la replicazione ciascuna doppia elica figlia risulta metilata su un solo filamento: un enzima di mantenimento riconosce questo stato e ripristina la metilazione, ed è così che la marcatura viene ereditata."
+    },
+    {
+      "id": "u2-0031",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Bersaglio della metilazione del DNA",
+      "testo": "Nel genoma dei mammiferi la metilazione del DNA riguarda:",
+      "opzioni": [
+        "l'adenina delle sequenze ripetute in tandem",
+        "la guanina all'interno delle sole regioni codificanti",
+        "la timina dei promotori dei geni attivamente trascritti",
+        "la citosina dei dinucleotidi CpG",
+        "tutte e quattro le basi, in modo indifferenziato"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il gruppo metile viene aggiunto in posizione 5 dell'anello della citosina, e quasi esclusivamente quando la citosina è seguita da una guanina lungo lo stesso filamento: è il dinucleotide CpG.\n\nA) La metilazione dell'adenina è un fenomeno dei batteri, dove distingue il DNA proprio da quello estraneo.\nB) La guanina non è il bersaglio della metilazione.\nC) La timina non viene metilata: possiede già un gruppo metile che la distingue dall'uracile.\nE) La metilazione è tutt'altro che indifferenziata: è ristretta alla citosina in un contesto preciso."
+    },
+    {
+      "id": "u2-0032",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "La base metilata",
+      "testo": "Nel DNA dei mammiferi il gruppo metile viene aggiunto in posizione 5 dell'anello della base azotata ……",
+      "accettate": [
+        "citosina",
+        "citosine"
+      ],
+      "spiegazione": "La 5-metilcitosina è talvolta chiamata la quinta base del DNA. Si tratta però di una modificazione chimica di una base già presente, non di un nucleotide diverso incorporato durante la replicazione.\n\nHa una conseguenza mutazionale rilevante: la deaminazione spontanea della 5-metilcitosina produce timina, un errore che i sistemi di riparazione riconoscono meno facilmente rispetto all'uracile prodotto dalla deaminazione di una citosina non metilata. È una delle ragioni per cui i dinucleotidi CpG sono rari nel genoma umano."
+    },
+    {
+      "id": "u2-0033",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Metilazione dei promotori e silenziamento",
+      "testo": "Quale effetto ha, di regola, l'ipermetilazione delle isole CpG del promotore di un gene?",
+      "opzioni": [
+        "Il silenziamento della trascrizione del gene",
+        "Un forte aumento della trascrizione del gene",
+        "La comparsa di una mutazione puntiforme nel gene",
+        "La perdita fisica del gene dal cromosoma",
+        "L'inversione del verso di trascrizione del gene"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le citosine metilate reclutano proteine che le riconoscono e che a loro volta portano con sé complessi con attività deacetilasica: la cromatina si compatta e il promotore diventa inaccessibile. Nei geni attivi le isole CpG dei promotori sono di norma non metilate.\n\nB) L'effetto è opposto: la metilazione del promotore reprime.\nC) La metilazione non cambia la sequenza e quindi non è una mutazione, anche se ne favorisce indirettamente una.\nD) Il gene resta al suo posto: viene solo spento.\nE) Il verso di trascrizione è determinato dall'orientamento del promotore e non cambia."
+    },
+    {
+      "id": "u2-0034",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Isole CpG",
+      "testo": "Le regioni del genoma, spesso corrispondenti a promotori, particolarmente ricche del dinucleotide CG prendono il nome di isole ……",
+      "accettate": [
+        "cpg",
+        "cg"
+      ],
+      "spiegazione": "Le isole CpG si trovano nei promotori di gran parte dei geni espressi in tutte le cellule e sono normalmente prive di metilazione: sono un'eccezione locale alla rarefazione dei dinucleotidi CpG nel resto del genoma.\n\nLa loro ipermetilazione è un meccanismo con cui possono essere silenziati geni oncosoppressori nelle cellule tumorali, senza che la sequenza del gene risulti mutata."
+    },
+    {
+      "id": "u2-0035",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Le condensine",
+      "testo": "Le condensine sono complessi proteici che:",
+      "opzioni": [
+        "rimuovono i nucleosomi dai promotori dei geni attivamente trascritti",
+        "trasferiscono gruppi acetile alle code degli istoni del nucleosoma",
+        "riparano le rotture del DNA a doppio filamento prodotte dalle radiazioni",
+        "trasportano nel nucleo gli istoni sintetizzati nel citosol della cellula",
+        "ripiegano la cromatina in anse e condensano i cromosomi"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le condensine sono complessi con subunità SMC che, consumando ATP, estrudono progressivamente anse di cromatina: da questa attività deriva la compattazione longitudinale che trasforma i lunghi filamenti interfasici nei cromosomi metafasici, distinti e separabili.\n\nA) Lo spostamento e la rimozione dei nucleosomi spettano ai complessi di rimodellamento.\nB) Il trasferimento di gruppi acetile è compito delle istone acetiltransferasi.\nC) La riparazione delle rotture a doppio filamento è affidata a sistemi enzimatici dedicati.\nD) L'importazione degli istoni nel nucleo avviene attraverso i pori nucleari con l'intervento delle importine."
+    },
+    {
+      "id": "u2-0036",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Condensazione dei cromosomi",
+      "testo": "I complessi proteici che ripiegano la cromatina in anse e ne determinano la condensazione in vista della divisione cellulare si chiamano ……",
+      "accettate": [
+        "condensine",
+        "condensina"
+      ],
+      "spiegazione": "Le condensine appartengono alla famiglia dei complessi SMC, la stessa a cui appartengono le coesine, che invece tengono uniti i due cromatidi fratelli fino all'anafase: due complessi imparentati con compiti complementari.\n\nLa condensazione non è solo un fatto di ingombro: cromosomi compatti e individualizzati possono essere separati senza aggrovigliarsi e senza rompersi durante la segregazione."
+    },
+    {
+      "id": "u2-0037",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Composizione del genoma umano",
+      "testo": "Quale frazione del genoma umano è costituita da sequenze che codificano proteine?",
+      "opzioni": [
+        "circa un terzo del totale",
+        "circa il 2 per cento",
+        "circa la metà del totale",
+        "circa il 25 per cento",
+        "praticamente il 100 per cento"
+      ],
+      "corretta": 1,
+      "spiegazione": "Gli esoni codificanti dei circa 20.000 geni che specificano proteine occupano poco meno del 2% dei circa 3,2 miliardi di paia di basi del genoma aploide. Il resto comprende introni, sequenze regolative, geni per RNA non codificanti e una grande quota di DNA ripetuto.\n\nA), C), D) ed E) sovrastimano tutte la parte codificante: è l'errore di chi identifica il genoma con l'insieme dei geni, mentre più della metà del genoma umano è costituita da sequenze ripetute."
+    },
+    {
+      "id": "u2-0038",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Dimensioni del genoma umano",
+      "testo": "Il genoma umano aploide è costituito da circa 3,2 miliardi di paia di …… azotate.",
+      "accettate": [
+        "basi",
+        "base"
+      ],
+      "spiegazione": "Il valore si riferisce al corredo aploide, cioè a una sola copia di ciascun cromosoma: una cellula somatica diploide ne contiene il doppio, distribuito in 46 cromosomi.\n\nLa dimensione del genoma non è proporzionale alla complessità dell'organismo: molte specie di anfibi e di piante hanno genomi assai più grandi di quello umano, differenza dovuta soprattutto alla quota di DNA ripetuto."
+    },
+    {
+      "id": "u2-0039",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Famiglie geniche",
+      "testo": "I geni delle globine costituiscono un esempio di:",
+      "opzioni": [
+        "sequenze ripetute intersperse, distribuite in tutto il genoma",
+        "elementi trasponibili capaci di spostarsi da un sito all'altro",
+        "sequenze ripetute in tandem prive di qualunque funzione codificante",
+        "famiglia genica originata per duplicazione di un gene ancestrale",
+        "geni presenti in una sola copia nell'intero genoma della specie"
+      ],
+      "corretta": 3,
+      "spiegazione": "I geni delle globine sono organizzati in due gruppi, quello alfa e quello beta, situati su cromosomi diversi: sono geni imparentati fra loro, derivati da duplicazioni successive di un progenitore comune e poi divergenti, che vengono espressi in fasi diverse dello sviluppo. Nei due gruppi sono presenti anche pseudogeni.\n\nA) Le sequenze intersperse sono DNA ripetuto non codificante, disseminato nel genoma.\nB) Gli elementi trasponibili sono sequenze mobili, anch'esse non codificanti per proteine dell'organismo.\nC) I geni delle globine sono codificanti a tutti gli effetti.\nE) Sono presenti in più copie, ed è proprio questo a definire una famiglia genica."
+    },
+    {
+      "id": "u2-0040",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Geni per gli RNA ribosomiali",
+      "testo": "I geni che codificano gli RNA ribosomiali sono presenti in centinaia di copie ripetute in …… nelle regioni organizzatrici del nucleolo.",
+      "accettate": [
+        "tandem",
+        "serie"
+      ],
+      "spiegazione": "Le unità ripetute sono disposte una dopo l'altra sui bracci corti dei cinque cromosomi acrocentrici umani. L'elevato numero di copie serve a soddisfare la richiesta di rRNA di una cellula, che deve produrre milioni di ribosomi.\n\nÈ intorno a queste regioni che si organizza il nucleolo, dove gli rRNA vengono trascritti, maturati e assemblati con le proteine ribosomiali."
+    },
+    {
+      "id": "u2-0041",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Pseudogeni",
+      "testo": "Uno pseudogene è:",
+      "opzioni": [
+        "una sequenza simile a un gene ma non funzionante",
+        "un gene privo di introni caratteristico dei procarioti",
+        "un gene la cui trascrizione avviene soltanto nei gameti",
+        "un tratto di DNA che codifica un RNA ribosomiale maturo",
+        "una sequenza ripetuta situata nella regione centromerica"
+      ],
+      "corretta": 0,
+      "spiegazione": "Uno pseudogene deriva da un gene reale, per duplicazione o per reinserzione di una copia retrotrascritta del suo mRNA, ma ha accumulato mutazioni che ne impediscono l'espressione o rendono non funzionale il prodotto. Se ne trovano diversi all'interno delle famiglie geniche, comprese quelle delle globine.\n\nB) L'assenza di introni è un carattere dei geni procariotici, e non li rende pseudogeni.\nC) L'espressione limitata ai gameti riguarda geni funzionanti a regolazione tessuto-specifica.\nD) I geni per gli rRNA sono geni funzionanti.\nE) Il DNA ripetuto centromerico non deriva da un gene."
+    },
+    {
+      "id": "u2-0042",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Copie geniche non funzionanti",
+      "testo": "Una sequenza che deriva da un gene ma ha accumulato mutazioni che la rendono non funzionante si chiama ……",
+      "accettate": [
+        "pseudogene",
+        "pseudogeni"
+      ],
+      "spiegazione": "Gli pseudogeni sono utili in prospettiva evolutiva: conservano la traccia di duplicazioni antiche e, non essendo più sottoposti a selezione, accumulano mutazioni a velocità pressoché costante.\n\nUna parte di essi è processata, cioè priva di introni e provvista di una coda di poliadenine: sono copie di mRNA retrotrascritte e reinserite nel genoma, e la loro struttura ne rivela l'origine."
+    },
+    {
+      "id": "u2-0043",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Microsatelliti e minisatelliti",
+      "testo": "I microsatelliti si distinguono dai minisatelliti perché:",
+      "opzioni": [
+        "sono distribuiti come copie singole e non in serie ripetute",
+        "sono costituiti da sequenze codificanti brevi ma pienamente funzionali",
+        "hanno un'unità ripetuta molto più corta, di poche paia di basi",
+        "si trovano soltanto nelle regioni telomeriche dei cromosomi",
+        "derivano da retrovirus integrati nel genoma della linea germinale"
+      ],
+      "corretta": 2,
+      "spiegazione": "Entrambi sono DNA ripetuto in tandem e la differenza sta nella lunghezza dell'unità: da una a sei paia di basi nei microsatelliti, dell'ordine delle decine nei minisatelliti.\n\nA) Sono ripetizioni in serie per definizione.\nB) Sono sequenze non codificanti.\nD) Sono distribuiti in tutto il genoma; è il DNA telomerico a essere confinato alle estremità.\nE) L'origine da retrovirus integrati riguarda i retrovirus endogeni, che sono sequenze intersperse e non ripetizioni in tandem."
+    },
+    {
+      "id": "u2-0044",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Microsatelliti",
+      "testo": "Le sequenze ripetute in tandem la cui unità è lunga da una a sei paia di basi, usate come marcatori nell'identificazione personale, si chiamano ……",
+      "accettate": [
+        "microsatelliti",
+        "microsatellite",
+        "str"
+      ],
+      "spiegazione": "Il numero di ripetizioni in un dato locus varia molto da individuo a individuo: analizzando insieme una decina di loci si ottiene un profilo praticamente irripetibile, ed è il fondamento delle indagini di identificazione genetica e dei test di paternità.\n\nI microsatelliti sono anche instabili durante la replicazione: lo scivolamento della polimerasi può aggiungere o togliere unità, e l'espansione di alcune ripetizioni è la causa di un gruppo di malattie ereditarie."
+    },
+    {
+      "id": "u2-0045",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Minisatelliti",
+      "testo": "Le sequenze ripetute in tandem la cui unità è lunga all'incirca da dieci a cento paia di basi si chiamano ……",
+      "accettate": [
+        "minisatelliti",
+        "minisatellite",
+        "vntr"
+      ],
+      "spiegazione": "Sono anche detti VNTR, cioè ripetizioni in tandem in numero variabile, e come i microsatelliti sono altamente polimorfici: furono i primi marcatori impiegati per l'identificazione genetica individuale.\n\nSi trovano preferenzialmente vicino ai telomeri. Il DNA satellite in senso stretto, con unità e blocchi molto più estesi, costituisce invece l'eterocromatina costitutiva dei centromeri."
+    },
+    {
+      "id": "u2-0046",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "DNA satellite centromerico",
+      "testo": "Il DNA ripetuto in tandem che costituisce i centromeri umani, con unità di circa 171 paia di basi, è detto DNA satellite ……",
+      "accettate": [
+        "alfa",
+        "alfoide",
+        "alfa satellite"
+      ],
+      "spiegazione": "Il nome «satellite» deriva dal metodo con cui queste sequenze furono isolate: per il loro contenuto in basi diverso dalla media, durante la centrifugazione in gradiente di densità formavano una banda separata, satellite rispetto a quella principale.\n\nNell'uomo il satellite alfa si estende per centinaia di migliaia di paia di basi in ogni centromero e costituisce eterocromatina costitutiva."
+    },
+    {
+      "id": "u2-0047",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Le sequenze Alu",
+      "testo": "Le sequenze Alu del genoma umano:",
+      "opzioni": [
+        "sono elementi ripetuti in tandem che costituiscono il DNA centromerico",
+        "costituiscono la famiglia genica che codifica gli RNA ribosomiali",
+        "sono i geni che codificano gli istoni presenti nel nucleosoma",
+        "sono lunghe circa 6.000 paia di basi e codificano una trascrittasi inversa",
+        "sono la famiglia di sequenze intersperse più abbondante del genoma"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le Alu sono SINE lunghe circa 300 paia di basi, presenti in oltre un milione di copie disperse nel genoma umano, dove occupano complessivamente all'incirca il 10% del DNA totale.\n\nA) Le Alu sono intersperse, cioè disseminate, non ripetute in tandem.\nB) I geni per gli RNA ribosomiali sono ripetuti in tandem nelle regioni organizzatrici del nucleolo.\nC) I geni degli istoni sono geni codificanti, del tutto estranei alle sequenze ripetute disperse.\nD) Le dimensioni indicate e la capacità di codificare una trascrittasi inversa sono proprie dei LINE, non delle Alu, che sono elementi corti e non autonomi."
+    },
+    {
+      "id": "u2-0048",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "SINE",
+      "testo": "La famiglia di sequenze intersperse corte più abbondante nel genoma umano, lunga circa 300 paia di basi, prende il nome di sequenze ……",
+      "accettate": [
+        "alu",
+        "elementi alu",
+        "sequenze alu"
+      ],
+      "spiegazione": "Il nome deriva dal sito di taglio per l'enzima di restrizione AluI che queste sequenze contengono. Sono elementi non autonomi: per spostarsi devono servirsi degli enzimi codificati dai LINE.\n\nLa loro grande abbondanza ha una conseguenza pratica: due copie di Alu situate in posizioni diverse possono appaiarsi per errore e dare ricombinazione fra sequenze non corrispondenti, meccanismo all'origine di alcune delezioni e duplicazioni patologiche."
+    },
+    {
+      "id": "u2-0049",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "LINE e SINE",
+      "testo": "Rispetto ai LINE, i SINE:",
+      "opzioni": [
+        "si spostano tagliandosi e reinserendosi, senza un intermedio a RNA",
+        "non codificano gli enzimi necessari alla propria mobilizzazione",
+        "sono molto più lunghi e contengono geni pienamente funzionanti",
+        "sono presenti in poche decine di copie nel genoma umano",
+        "si trovano esclusivamente all'interno delle regioni codificanti"
+      ],
+      "corretta": 1,
+      "spiegazione": "I LINE sono elementi lunghi e autonomi: codificano una trascrittasi inversa e un'endonucleasi, e con quelle si spostano. I SINE, fra cui le Alu, sono corti e privi di capacità codificante, e per mobilizzarsi devono sfruttare gli enzimi prodotti dai LINE.\n\nA) Entrambi sono retrotrasposoni e si spostano attraverso un intermedio a RNA; il meccanismo di taglio è quello dei trasposoni a DNA.\nC) I SINE sono più corti dei LINE, non più lunghi.\nD) Le Alu da sole superano il milione di copie.\nE) Sono dispersi in tutto il genoma, introni compresi."
+    },
+    {
+      "id": "u2-0050",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Elementi mobili del DNA",
+      "testo": "La differenza fra un trasposone a DNA e un retrotrasposone sta nel fatto che il secondo:",
+      "opzioni": [
+        "si sposta soltanto durante la divisione meiotica della cellula germinale",
+        "non è in grado di cambiare posizione all'interno del genoma dell'ospite",
+        "si sposta tagliandosi dal sito di origine e reinserendosi altrove",
+        "si sposta attraverso un intermedio a RNA, retrotrascritto in DNA",
+        "è costituito da RNA anziché da DNA anche nella forma integrata"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il retrotrasposone viene trascritto in RNA, l'RNA è retrotrascritto in DNA e la copia si inserisce in un nuovo sito: l'originale resta al suo posto, e il meccanismo è quindi «copia e incolla». Nell'uomo i retrotrasposoni sono di gran lunga i più abbondanti, e comprendono i LINE, i SINE e i retrovirus endogeni.\n\nA) La mobilizzazione non è ristretta alla meiosi, benché solo gli eventi nella linea germinale siano trasmessi ai discendenti.\nB) L'incapacità di spostarsi contraddice la definizione stessa di elemento mobile.\nC) Il meccanismo «taglia e incolla», mediato dalla trasposasi, è quello dei trasposoni a DNA.\nE) Nel genoma l'elemento è DNA in entrambi i casi: l'RNA è solo l'intermedio del trasferimento."
+    }
+  ]
+}

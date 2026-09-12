@@ -2,19 +2,68 @@
   "schema": 2,
   "materia": "biologia",
   "nome": "Biologia",
-  "aggiornato": "2026-09-07",
+  "aggiornato": "2026-09-12",
+  "fonteQuote": "quote per unità ricavate da un appello ufficiale, non stimate",
   "formato": {
-    "unita":    { "totale": 15, "multipla": 8,  "completamento": 7  },
-    "completo": { "totale": 31, "multipla": 15, "completamento": 16 }
+    "unita": {
+      "totale": 15,
+      "multipla": 8,
+      "completamento": 7
+    },
+    "completo": {
+      "totale": 31,
+      "multipla": 15,
+      "completamento": 16
+    }
   },
   "unita": [
-    { "id": "u1", "nome": "Le basi dell'organizzazione biologica e molecolare della vita", "quota": 3, "obiettivo": 80 },
-    { "id": "u2", "nome": "I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica", "quota": 2, "obiettivo": 60 },
-    { "id": "u3", "nome": "Il flusso dell'informazione", "quota": 7, "obiettivo": 180 },
-    { "id": "u4", "nome": "I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati", "quota": 4, "obiettivo": 110 },
-    { "id": "u5", "nome": "Le strutture cellulari: biogenesi, morfologia e funzioni", "quota": 8, "obiettivo": 200 },
-    { "id": "u6", "nome": "La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale", "quota": 4, "obiettivo": 100 },
-    { "id": "u7", "nome": "Il controllo della proliferazione e della sopravvivenza cellulare", "quota": 3, "obiettivo": 90 }
+    {
+      "id": "u1",
+      "nome": "Le basi dell'organizzazione biologica e molecolare della vita",
+      "quota": 3,
+      "obiettivo": 80
+    },
+    {
+      "id": "u2",
+      "nome": "I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica",
+      "quota": 2,
+      "obiettivo": 60
+    },
+    {
+      "id": "u3",
+      "nome": "Il flusso dell'informazione",
+      "quota": 7,
+      "obiettivo": 180
+    },
+    {
+      "id": "u4",
+      "nome": "I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati",
+      "quota": 4,
+      "obiettivo": 110
+    },
+    {
+      "id": "u5",
+      "nome": "Le strutture cellulari: biogenesi, morfologia e funzioni",
+      "quota": 8,
+      "obiettivo": 200
+    },
+    {
+      "id": "u6",
+      "nome": "La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale",
+      "quota": 4,
+      "obiettivo": 100
+    },
+    {
+      "id": "u7",
+      "nome": "Il controllo della proliferazione e della sopravvivenza cellulare",
+      "quota": 3,
+      "obiettivo": 90
+    }
   ],
-  "lotti": ["biologia-u1-01.json"]
+  "lotti": [
+    "biologia-u1-01.json",
+    "biologia-u1-02.json",
+    "biologia-u2-01.json",
+    "biologia-u2-02.json"
+  ]
 }

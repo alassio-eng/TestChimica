@@ -1,0 +1,717 @@
+{
+  "lotto": "fisica-u2-02",
+  "unita": "u2",
+  "generato": "2026-09-10",
+  "domande": [
+    {
+      "id": "u2-0051",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Velocità media",
+      "testo": "Un ciclista percorre i primi 100 m in 20 s e i successivi 100 m in 30 s. La sua velocità media sull'intero percorso vale:",
+      "opzioni": [
+        "4 m/s",
+        "4,17 m/s",
+        "5 m/s",
+        "3,33 m/s",
+        "8,33 m/s"
+      ],
+      "corretta": 0,
+      "spiegazione": "La velocità media è il rapporto fra lo spazio totale e il tempo totale: 200 m / 50 s = 4 m/s. Non è la media delle due velocità, perché i due tratti sono percorsi in tempi diversi.\n\nB) 4,17 m/s è la media aritmetica delle due velocità, (5 + 3,33)/2: sarebbe corretta solo se i due tratti durassero lo stesso tempo, non se hanno la stessa lunghezza.\nC) 5 m/s è la velocità del primo tratto.\nD) 3,33 m/s è la velocità del secondo tratto.\nE) 8,33 m/s è la somma delle due velocità, operazione priva di significato."
+    },
+    {
+      "id": "u2-0052",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Velocità media",
+      "testo": "Il rapporto fra lo spostamento compiuto e l'intervallo di tempo impiegato a compierlo si chiama …… media",
+      "accettate": [
+        "velocita"
+      ],
+      "spiegazione": "La velocità media si misura in m/s e non dice nulla su ciò che è accaduto all'interno dell'intervallo: lo stesso valore può derivare da un moto uniforme o da una successione di accelerazioni e frenate.\n\nSe si usa lo spostamento, che è un vettore, la velocità media è a sua volta un vettore e può risultare nulla anche in un moto reale, quando il punto di arrivo coincide con quello di partenza."
+    },
+    {
+      "id": "u2-0053",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Grafico velocità-tempo",
+      "testo": "In un grafico che riporta la velocità in funzione del tempo, la pendenza della curva rappresenta:",
+      "opzioni": [
+        "lo spazio percorso",
+        "l'accelerazione",
+        "la velocità media",
+        "la forza applicata",
+        "la quantità di moto"
+      ],
+      "corretta": 1,
+      "spiegazione": "La pendenza è il rapporto fra la variazione della grandezza in ordinata e quella in ascissa: qui Δv/Δt, cioè per definizione l'accelerazione. Una retta orizzontale indica accelerazione nulla, una retta discendente accelerazione negativa.\n\nA) Lo spazio percorso si ottiene dall'area sottesa dalla curva, non dalla sua pendenza.\nC) La velocità media si legge sull'asse delle ordinate, come valore medio, non come pendenza.\nD) La forza si ricava dall'accelerazione solo conoscendo la massa, che in un grafico cinematico non compare.\nE) La quantità di moto richiede anch'essa la massa del corpo."
+    },
+    {
+      "id": "u2-0054",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Velocità istantanea",
+      "testo": "La velocità calcolata su un intervallo di tempo piccolissimo, cioè riferita a un singolo istante, si dice velocità ……",
+      "accettate": [
+        "istantanea",
+        "istantanee"
+      ],
+      "spiegazione": "È il valore che segna il tachimetro di un'automobile. Graficamente corrisponde alla pendenza della tangente alla curva spazio-tempo nel punto considerato.\n\nNel moto rettilineo uniforme velocità media e velocità istantanea coincidono, perché la velocità non cambia; in ogni altro moto le due grandezze sono distinte."
+    },
+    {
+      "id": "u2-0055",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Area sottesa dal grafico velocità-tempo",
+      "testo": "In un grafico velocità-tempo, l'area compresa fra la curva e l'asse dei tempi rappresenta:",
+      "opzioni": [
+        "l'accelerazione media",
+        "la velocità finale raggiunta",
+        "lo spazio percorso",
+        "il tempo impiegato",
+        "il lavoro compiuto dalle forze"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'area ha per dimensioni il prodotto di una velocità per un tempo, cioè una lunghezza: rappresenta lo spazio percorso. Nel moto uniforme l'area è un rettangolo, v·t; nel moto uniformemente accelerato da fermo è un triangolo, ½·t·(at) = ½at².\n\nA) L'accelerazione media è la pendenza della curva, non l'area.\nB) La velocità finale si legge direttamente sull'asse delle ordinate.\nD) Il tempo si legge sull'asse delle ascisse.\nE) Il lavoro richiede una forza, che in un grafico cinematico non compare."
+    },
+    {
+      "id": "u2-0056",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Moto ritardato",
+      "testo": "Quando l'accelerazione ha verso opposto a quello della velocità, il moto rallenta e si parla di ……",
+      "accettate": [
+        "decelerazione",
+        "decelerazioni",
+        "accelerazione negativa",
+        "moto decelerato",
+        "moto ritardato"
+      ],
+      "spiegazione": "Il segno dell'accelerazione da solo non dice se il corpo accelera o rallenta: conta il confronto con il verso della velocità. Un corpo che si muove nel verso negativo dell'asse con accelerazione negativa sta accelerando, non frenando.\n\nQuando i due vettori hanno versi opposti il modulo della velocità diminuisce, e il moto si dice ritardato."
+    },
+    {
+      "id": "u2-0057",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Moto rettilineo uniforme",
+      "testo": "Un corpo si muove di moto rettilineo uniforme alla velocità di 15 m/s. Lo spazio percorso in 4 minuti vale:",
+      "opzioni": [
+        "60 m",
+        "225 m",
+        "3,75 m",
+        "3600 m",
+        "900 m"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il tempo va convertito in secondi: 4 min = 240 s, quindi s = v t = 15 × 240 = 3600 m.\n\nA) 60 m moltiplica la velocità per i minuti senza convertirli in secondi.\nB) 225 m è il quadrato della velocità, che qui non ha alcun ruolo.\nC) 3,75 m divide la velocità per il tempo invece di moltiplicare.\nE) 900 m corrisponde a un solo minuto di moto."
+    },
+    {
+      "id": "u2-0058",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Moto rettilineo uniforme",
+      "testo": "Il moto che avviene lungo una retta con velocità costante in modulo, direzione e verso si dice moto rettilineo ……",
+      "accettate": [
+        "uniforme"
+      ],
+      "spiegazione": "La legge oraria è s = s₀ + v t e il grafico spazio-tempo è una retta la cui pendenza è la velocità. L'accelerazione è nulla, quindi per la seconda legge la risultante delle forze è nulla.\n\nDa non confondere con il moto circolare uniforme, dove è costante il solo modulo della velocità e l'accelerazione centripeta è diversa da zero."
+    },
+    {
+      "id": "u2-0059",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge della velocità nel moto uniformemente accelerato",
+      "testo": "Un corpo ha velocità iniziale 5 m/s e accelerazione costante 2 m/s², concorde con la velocità. Dopo 4 s la sua velocità vale:",
+      "opzioni": [
+        "8 m/s",
+        "40 m/s",
+        "10 m/s",
+        "5 m/s",
+        "13 m/s"
+      ],
+      "corretta": 4,
+      "spiegazione": "Vale v = v₀ + a t = 5 + 2 × 4 = 13 m/s.\n\nA) 8 m/s è il solo prodotto a·t: trascura la velocità iniziale.\nB) 40 m/s moltiplica fra loro tutti e tre i dati.\nC) 10 m/s raddoppia la velocità iniziale, senza rapporto con i dati del problema.\nD) 5 m/s ripete la velocità iniziale, come se l'accelerazione fosse nulla."
+    },
+    {
+      "id": "u2-0060",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Gittata",
+      "testo": "La distanza orizzontale percorsa da un proiettile dal lancio fino al ritorno alla quota di partenza si chiama ……",
+      "accettate": [
+        "gittata",
+        "gittate"
+      ],
+      "spiegazione": "La gittata si ricava moltiplicando la componente orizzontale della velocità, che resta costante, per il tempo di volo, che dipende invece dalla sola componente verticale.\n\nA parità di velocità iniziale, e trascurando la resistenza dell'aria, la gittata è massima per un angolo di lancio di 45°."
+    },
+    {
+      "id": "u2-0061",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Tempo di caduta libera",
+      "testo": "Un corpo è lasciato cadere da fermo da un'altezza di 45 m. Trascurando la resistenza dell'aria e assumendo g = 10 m/s², il tempo di caduta vale:",
+      "opzioni": [
+        "3 s",
+        "4,5 s",
+        "9 s",
+        "1,5 s",
+        "90 s"
+      ],
+      "corretta": 0,
+      "spiegazione": "Da h = ½ g t² segue t = √(2h/g) = √(90/10) = √9 = 3 s.\n\nB) 4,5 s è h/g, cioè un rapporto senza la radice né il fattore 2.\nC) 9 s è il valore di t², non di t: manca l'estrazione della radice.\nD) 1,5 s è la metà del risultato corretto, come se il fattore ½ andasse applicato al tempo.\nE) 90 s è il doppio dell'altezza, senza alcuna operazione ulteriore."
+    },
+    {
+      "id": "u2-0062",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Accelerazione centripeta",
+      "testo": "L'accelerazione diretta verso il centro della traiettoria, responsabile del cambiamento di direzione della velocità, si dice ……",
+      "accettate": [
+        "centripeta",
+        "centripete"
+      ],
+      "spiegazione": "Vale a = v²/r ed è perpendicolare alla velocità in ogni istante: per questo cambia la direzione del moto senza modificare il modulo della velocità.\n\nLa forza che la produce, F = m v²/r, è una forza reale esercitata da un vincolo, da un filo o dalla gravità; la cosiddetta forza centrifuga non è una forza reale, ma un effetto che si osserva descrivendo il moto da un riferimento rotante."
+    },
+    {
+      "id": "u2-0063",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Indipendenza dei moti nel moto parabolico",
+      "testo": "Da un tavolo, nello stesso istante, una biglia viene lanciata orizzontalmente e una seconda biglia viene semplicemente lasciata cadere. Trascurando la resistenza dell'aria:",
+      "opzioni": [
+        "tocca terra prima quella lanciata, perché percorre più strada",
+        "toccano terra nello stesso istante",
+        "tocca terra prima quella lasciata cadere, perché cade in verticale",
+        "l'ordine di arrivo dipende dalla velocità di lancio",
+        "l'ordine di arrivo dipende dalle masse delle due biglie"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il moto parabolico è la composizione di due moti indipendenti: quello orizzontale, uniforme, e quello verticale, uniformemente accelerato. La componente orizzontale non influisce sulla caduta, quindi il tempo di volo dipende solo dall'altezza del tavolo ed è lo stesso per entrambe.\n\nA) La biglia lanciata percorre una traiettoria più lunga, ma nella direzione verticale scende esattamente come l'altra.\nC) Il moto verticale è identico nei due casi: nessuna delle due è avvantaggiata.\nD) Cambiando la velocità di lancio cambia la gittata, non il tempo di caduta.\nE) In assenza di resistenza dell'aria la massa non influisce sul moto di caduta."
+    },
+    {
+      "id": "u2-0064",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Velocità angolare",
+      "testo": "Nel moto circolare, il rapporto fra l'angolo descritto e il tempo impiegato a descriverlo si chiama velocità ……",
+      "accettate": [
+        "angolare",
+        "angolari"
+      ],
+      "spiegazione": "La velocità angolare si indica con ω, si misura in radianti al secondo e nel moto circolare uniforme vale ω = 2π/T.\n\nÈ legata alla velocità lungo la traiettoria dalla relazione v = ω r: a parità di velocità angolare, i punti più lontani dal centro si muovono più rapidamente."
+    },
+    {
+      "id": "u2-0065",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Velocità nel moto circolare uniforme",
+      "testo": "Un punto percorre una circonferenza di raggio 2 m compiendo un giro completo in 4 s. Il modulo della sua velocità vale circa:",
+      "opzioni": [
+        "0,5 m/s",
+        "1,57 m/s",
+        "3,14 m/s",
+        "12,6 m/s",
+        "6,28 m/s"
+      ],
+      "corretta": 2,
+      "spiegazione": "In un periodo il punto percorre l'intera circonferenza: v = 2πr/T = (2 × 3,14 × 2)/4 = 12,56/4 ≈ 3,14 m/s.\n\nA) 0,5 m/s è r/T, cioè il rapporto senza la circonferenza.\nB) 1,57 m/s dimentica il fattore 2 nella circonferenza, calcolando πr/T.\nD) 12,6 m/s è la lunghezza della circonferenza, non divisa per il periodo.\nE) 6,28 m/s è il valore di 2π, cioè il calcolo svolto come se il raggio valesse 1 m e il periodo 1 s."
+    },
+    {
+      "id": "u2-0066",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Forza peso",
+      "testo": "La forza con cui la Terra attrae verso il basso un corpo posto nelle sue vicinanze si chiama forza ……",
+      "accettate": [
+        "peso",
+        "pesante"
+      ],
+      "spiegazione": "Vale P = m g, è un vettore diretto verticalmente verso il basso e si misura in newton. È applicata nel baricentro del corpo.\n\nÈ un caso particolare della forza gravitazionale, calcolata per un corpo posto alla superficie terrestre: il valore di g dipende infatti dalla massa e dal raggio della Terra."
+    },
+    {
+      "id": "u2-0067",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge di gravitazione universale",
+      "testo": "Due corpi si attraggono con una forza gravitazionale F. Raddoppiando la distanza fra i loro centri, e lasciando invariate le masse, la forza diventa:",
+      "opzioni": [
+        "un quarto di F",
+        "la metà di F",
+        "il doppio di F",
+        "uguale a F",
+        "un ottavo di F"
+      ],
+      "corretta": 0,
+      "spiegazione": "La legge di gravitazione universale dà F = G m₁m₂/d²: la forza è inversamente proporzionale al quadrato della distanza, quindi raddoppiando d la forza si riduce a 1/2² = 1/4.\n\nB) Il dimezzamento corrisponderebbe a una dipendenza dall'inverso della distanza.\nC) La forza diminuisce allontanando i corpi, non aumenta.\nD) L'invarianza richiederebbe che la distanza non compaia nella legge.\nE) Un ottavo corrisponderebbe a una dipendenza dal cubo della distanza."
+    },
+    {
+      "id": "u2-0068",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Forza gravitazionale",
+      "testo": "La forza attrattiva che si esercita fra due corpi qualsiasi dotati di massa si chiama forza ……",
+      "accettate": [
+        "gravitazionale",
+        "gravitazionali",
+        "di gravitazione universale"
+      ],
+      "spiegazione": "Vale F = G m₁m₂/d², è sempre attrattiva e agisce lungo la retta che congiunge i due corpi. La costante G è universale e vale circa 6,67 × 10⁻¹¹ N·m²/kg².\n\nÈ una forza debolissima fra corpi ordinari e diventa rilevante solo quando almeno una delle due masse è molto grande, come nel caso di un pianeta."
+    },
+    {
+      "id": "u2-0069",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Forza peso: calcolo",
+      "testo": "Una persona ha massa 60 kg. Assumendo g = 9,8 m/s², il suo peso vale:",
+      "opzioni": [
+        "60 N",
+        "6,12 N",
+        "58,8 N",
+        "5880 N",
+        "588 N"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il peso è una forza: P = m g = 60 × 9,8 = 588 N.\n\nA) 60 N confonde il peso con la massa, che si misura in chilogrammi e non in newton.\nB) 6,12 N è m/g, cioè la divisione al posto della moltiplicazione.\nC) 58,8 N è il risultato corretto diviso dieci.\nD) 5880 N è il risultato corretto moltiplicato per dieci."
+    },
+    {
+      "id": "u2-0070",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Attrito statico",
+      "testo": "L'attrito che si oppone alla messa in movimento di un corpo fermo si chiama attrito ……",
+      "accettate": [
+        "statico",
+        "statici",
+        "radente statico"
+      ],
+      "spiegazione": "L'attrito statico non ha un valore fissato: si adegua alla forza applicata, equilibrandola, fino a un massimo pari a μs·N. Superato quel valore il corpo si mette in moto e subentra l'attrito dinamico.\n\nPer una stessa coppia di superfici il coefficiente statico è di norma maggiore di quello dinamico: per questo serve più forza per far partire un mobile pesante che per continuare a spingerlo."
+    },
+    {
+      "id": "u2-0071",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Comportamento dell'attrito statico",
+      "testo": "Un corpo fermo su un piano orizzontale viene spinto con una forza orizzontale di modulo inferiore al massimo valore dell'attrito statico. In queste condizioni:",
+      "opzioni": [
+        "il corpo si muove con accelerazione costante",
+        "il corpo resta fermo e l'attrito eguaglia la forza applicata",
+        "il corpo resta fermo e l'attrito vale μs·N",
+        "il corpo si muove con velocità costante",
+        "l'attrito è nullo, perché il corpo non si muove"
+      ],
+      "corretta": 1,
+      "spiegazione": "Finché la forza applicata non supera il valore massimo, l'attrito statico assume esattamente il valore necessario a equilibrarla: la risultante è nulla e il corpo resta fermo.\n\nA) L'accelerazione richiederebbe una risultante non nulla, che qui non c'è.\nC) μs·N è il valore massimo che l'attrito statico può raggiungere, non quello che assume in ogni situazione: l'attrito vale quanto serve, non di più.\nD) Anche il moto uniforme richiederebbe che il corpo si sia messo in movimento.\nE) Se l'attrito fosse nullo, la forza applicata resterebbe l'unica forza orizzontale e il corpo accelererebbe."
+    },
+    {
+      "id": "u2-0072",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Attrito dinamico",
+      "testo": "L'attrito che agisce su un corpo già in movimento, opponendosi al suo scorrimento, si chiama attrito ……",
+      "accettate": [
+        "dinamico",
+        "dinamici",
+        "radente dinamico",
+        "cinetico"
+      ],
+      "spiegazione": "Vale f = μd·N, ha modulo praticamente costante e verso sempre opposto allo spostamento. Non dipende dall'area di contatto né, in prima approssimazione, dalla velocità.\n\nCompie sempre lavoro negativo, e l'energia meccanica sottratta al corpo si ritrova come calore: è la ragione per cui le superfici si scaldano per strofinio."
+    },
+    {
+      "id": "u2-0073",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Piano inclinato: componente del peso",
+      "testo": "Un corpo di massa 10 kg è appoggiato su un piano inclinato di 30° rispetto all'orizzontale. Assumendo g = 9,8 m/s², la componente della forza peso parallela al piano vale:",
+      "opzioni": [
+        "98 N",
+        "84,9 N",
+        "49 N",
+        "9,8 N",
+        "5 N"
+      ],
+      "corretta": 2,
+      "spiegazione": "La componente parallela al piano vale P sen α = m g sen 30° = 10 × 9,8 × 0,5 = 49 N. È questa componente a far scivolare il corpo lungo il piano.\n\nA) 98 N è il peso totale, che si otterrebbe solo con un piano verticale, cioè con angolo di 90°.\nB) 84,9 N è m g cos 30°, cioè la componente perpendicolare al piano, quella che determina la forza normale.\nD) 9,8 N è il valore di g, non una forza calcolata sui dati.\nE) 5 N è il prodotto della massa per il seno, senza g."
+    },
+    {
+      "id": "u2-0074",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Forza risultante",
+      "testo": "Il vettore che si ottiene sommando tutte le forze applicate a un corpo si chiama forza ……",
+      "accettate": [
+        "risultante",
+        "risultanti",
+        "totale"
+      ],
+      "spiegazione": "È la forza che, da sola, produrrebbe lo stesso effetto di tutte le altre insieme, ed è quella che compare nella seconda legge della dinamica: F(risultante) = m a.\n\nDue forze uguali e opposte applicate allo stesso corpo danno risultante nulla: il corpo non accelera, pur essendo soggetto a forze."
+    },
+    {
+      "id": "u2-0075",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Equilibrio traslazionale e tensione",
+      "testo": "Un lampadario è appeso al soffitto mediante un unico filo verticale e resta in quiete. La tensione del filo:",
+      "opzioni": [
+        "è maggiore del peso, altrimenti il lampadario cadrebbe",
+        "è minore del peso, perché il filo è leggero",
+        "è nulla, perché il lampadario non si muove",
+        "ha lo stesso modulo del peso del lampadario",
+        "dipende dalla lunghezza del filo"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il lampadario è in equilibrio, quindi la risultante delle forze che agiscono su di esso è nulla: la tensione, diretta verso l'alto, deve avere lo stesso modulo del peso, diretto verso il basso.\n\nA) Una tensione maggiore del peso darebbe risultante non nulla e il lampadario accelererebbe verso l'alto.\nB) La massa del filo è trascurabile e non riduce la tensione necessaria.\nC) Una tensione nulla lascerebbe il peso come unica forza: il lampadario cadrebbe.\nE) La lunghezza del filo non compare nella condizione di equilibrio."
+    },
+    {
+      "id": "u2-0076",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Equilibrio di un corpo",
+      "testo": "Un corpo fermo su cui la risultante delle forze applicate è nulla si dice in ……",
+      "accettate": [
+        "equilibrio",
+        "equilibrio statico",
+        "quiete"
+      ],
+      "spiegazione": "È la condizione di equilibrio traslazionale, che discende dal primo principio della dinamica: senza forza risultante lo stato di quiete si conserva.\n\nPer un corpo esteso non basta: occorre anche che sia nulla la somma dei momenti, altrimenti il corpo, pur non traslando, ruota."
+    },
+    {
+      "id": "u2-0077",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Segno del lavoro della forza peso",
+      "testo": "Un corpo viene sollevato verticalmente di 2 m, a velocità costante. Il lavoro compiuto dalla forza peso durante il sollevamento è:",
+      "opzioni": [
+        "positivo e pari a m g h",
+        "nullo, perché la velocità è costante",
+        "nullo, perché la forza peso non compie mai lavoro",
+        "positivo, ma minore di m g h",
+        "negativo e pari a − m g h"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il peso è diretto verso il basso e lo spostamento verso l'alto: l'angolo fra i due vettori è di 180°, il coseno vale −1 e il lavoro è negativo, pari a − m g h. È il lavoro della forza applicata dall'esterno a essere positivo, e i due si compensano proprio perché l'energia cinetica non varia.\n\nA) Il lavoro del peso è positivo quando il corpo scende, non quando sale.\nB) La velocità costante implica che il lavoro totale sia nullo, non quello della singola forza peso.\nC) La forza peso non compie lavoro solo negli spostamenti orizzontali, non in quelli verticali.\nD) Il segno è negativo, e in modulo il lavoro vale esattamente m g h."
+    },
+    {
+      "id": "u2-0078",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Forze conservative",
+      "testo": "Le forze il cui lavoro non dipende dal percorso seguito, ma soltanto dalle posizioni iniziale e finale, si dicono ……",
+      "accettate": [
+        "conservative",
+        "conservativa",
+        "conservativo"
+      ],
+      "spiegazione": "Sono conservative la forza peso, la forza gravitazionale e la forza elastica. Solo per esse ha senso definire un'energia potenziale, e il loro lavoro lungo un percorso chiuso è nullo.\n\nL'attrito non lo è: percorrendo un tragitto di andata e ritorno il suo lavoro non si annulla, ma raddoppia in valore assoluto, restando negativo."
+    },
+    {
+      "id": "u2-0079",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Lavoro della forza di attrito",
+      "testo": "Il lavoro compiuto dalla forza di attrito dinamico su un corpo che scivola è:",
+      "opzioni": [
+        "sempre negativo",
+        "sempre positivo",
+        "nullo, perché l'attrito non sposta il corpo",
+        "positivo se il corpo accelera, negativo se rallenta",
+        "positivo o negativo a seconda del verso dello spostamento"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'attrito dinamico ha sempre verso opposto allo spostamento: l'angolo fra forza e spostamento è di 180° e il lavoro risulta negativo in ogni caso. L'energia meccanica sottratta si trasforma in calore.\n\nB) Un lavoro positivo significherebbe che l'attrito fornisce energia al corpo.\nC) L'attrito agisce mentre il corpo si sposta: il lavoro sarebbe nullo solo a corpo fermo.\nD) L'attrito è negativo anche quando il corpo accelera per effetto di un'altra forza maggiore.\nE) Invertendo il moto si inverte anche il verso dell'attrito, quindi il segno del lavoro non cambia."
+    },
+    {
+      "id": "u2-0080",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Energia potenziale",
+      "testo": "L'energia che un corpo possiede in virtù della propria posizione o della propria configurazione si chiama energia ……",
+      "accettate": [
+        "potenziale"
+      ],
+      "spiegazione": "È definita solo per le forze conservative e il suo valore dipende dal livello di riferimento scelto: ciò che ha significato fisico è la sua variazione, non il valore assoluto.\n\nNella forma gravitazionale vale U = m g h vicino alla superficie terrestre; in quella elastica U = ½ k x²."
+    },
+    {
+      "id": "u2-0081",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Potenza come prodotto di forza e velocità",
+      "testo": "Un'automobile procede a velocità costante di 3 m/s mentre il motore esercita una forza di trazione di 200 N nella direzione del moto. La potenza sviluppata vale:",
+      "opzioni": [
+        "66,7 W",
+        "600 W",
+        "300 W",
+        "6000 W",
+        "200 W"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per una forza parallela al moto vale P = F v = 200 × 3 = 600 W. La relazione discende da P = L/t con L = F s e s/t = v.\n\nA) 66,7 W è F/v, cioè la divisione al posto del prodotto.\nC) 300 W introduce un fattore ½ che nella definizione di potenza non compare.\nD) 6000 W è il risultato corretto moltiplicato per dieci.\nE) 200 W ripete il valore della forza, che si misura in newton."
+    },
+    {
+      "id": "u2-0082",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Legge di Hooke",
+      "testo": "La legge secondo cui la forza elastica di una molla ideale è direttamente proporzionale alla deformazione si chiama legge di ……",
+      "accettate": [
+        "hooke"
+      ],
+      "spiegazione": "Si scrive F = − k x: il segno meno indica che la forza è sempre opposta alla deformazione e tende a riportare la molla alla lunghezza di riposo.\n\nVale finché la deformazione resta entro il limite di elasticità del materiale; oltre quel limite la proporzionalità si perde e la deformazione diventa permanente."
+    },
+    {
+      "id": "u2-0083",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'energia cinetica",
+      "testo": "Un corpo di massa 4 kg si muove alla velocità di 3 m/s. La sua energia cinetica vale:",
+      "opzioni": [
+        "12 J",
+        "36 J",
+        "18 J",
+        "6 J",
+        "72 J"
+      ],
+      "corretta": 2,
+      "spiegazione": "Vale K = ½ m v² = ½ × 4 × 3² = ½ × 4 × 9 = 18 J.\n\nA) 12 J è il prodotto m·v, cioè la quantità di moto, che si misura in kg·m/s.\nB) 36 J è m v², senza il fattore ½.\nD) 6 J è ½ m v, con la velocità non elevata al quadrato.\nE) 72 J raddoppia m v² invece di dimezzarlo."
+    },
+    {
+      "id": "u2-0084",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Urto elastico",
+      "testo": "L'urto in cui, oltre alla quantità di moto, si conserva anche l'energia cinetica totale si dice perfettamente ……",
+      "accettate": [
+        "elastico",
+        "elastica",
+        "elastici"
+      ],
+      "spiegazione": "È un caso ideale, avvicinato dagli urti fra corpi molto rigidi e dalle collisioni fra particelle: i corpi si respingono senza deformazioni permanenti e senza produzione di calore.\n\nIn tutti gli urti reali una parte dell'energia cinetica si perde; la quantità di moto totale, invece, si conserva sempre, purché il sistema sia isolato."
+    },
+    {
+      "id": "u2-0085",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'energia potenziale elastica",
+      "testo": "Una molla di costante elastica 100 N/m viene compressa di 20 cm. L'energia potenziale elastica immagazzinata vale:",
+      "opzioni": [
+        "20 J",
+        "10 J",
+        "4 J",
+        "2 J",
+        "40 J"
+      ],
+      "corretta": 3,
+      "spiegazione": "Vale U = ½ k x², con la deformazione in metri: ½ × 100 × 0,20² = ½ × 100 × 0,04 = 2 J.\n\nA) 20 J è k·x, cioè la forza elastica in newton, non un'energia.\nB) 10 J è ½ k x, con la deformazione non elevata al quadrato.\nC) 4 J è k x², senza il fattore ½.\nE) 40 J è 2 k x², cioè il raddoppio invece del dimezzamento."
+    },
+    {
+      "id": "u2-0086",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Sistema isolato",
+      "testo": "Un sistema di corpi su cui la risultante delle forze esterne è nulla si dice ……",
+      "accettate": [
+        "isolato",
+        "isolata",
+        "isolati"
+      ],
+      "spiegazione": "In un sistema isolato la quantità di moto totale si conserva, perché le forze interne sono a due a due opposte per il terzo principio e non alterano la quantità di moto complessiva.\n\nPer la stessa ragione il centro di massa di un sistema isolato resta fermo oppure si muove di moto rettilineo uniforme."
+    },
+    {
+      "id": "u2-0087",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Urto elastico e anelastico a confronto",
+      "testo": "In un urto perfettamente elastico fra due corpi:",
+      "opzioni": [
+        "si conserva l'energia cinetica ma non la quantità di moto",
+        "i due corpi restano attaccati dopo l'urto",
+        "non si conserva nulla, perché l'urto è un fenomeno dissipativo",
+        "si conserva la quantità di moto ma non l'energia cinetica",
+        "si conservano sia la quantità di moto sia l'energia cinetica"
+      ],
+      "corretta": 4,
+      "spiegazione": "È proprio questo a definire l'urto elastico: la quantità di moto si conserva, come in ogni urto fra corpi isolati, e in più i corpi si separano senza aver dissipato energia, quindi si conserva anche l'energia cinetica totale.\n\nA) La quantità di moto si conserva in qualunque urto fra corpi isolati, elastico o no.\nB) I corpi che restano attaccati caratterizzano l'urto perfettamente anelastico.\nC) La quantità di moto si conserva in ogni caso.\nD) È la descrizione dell'urto anelastico, non di quello elastico."
+    },
+    {
+      "id": "u2-0088",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Rinculo",
+      "testo": "Il movimento all'indietro di un'arma da fuoco al momento dello sparo, conseguenza della conservazione della quantità di moto, si chiama ……",
+      "accettate": [
+        "rinculo",
+        "rinculi"
+      ],
+      "spiegazione": "Prima dello sparo la quantità di moto del sistema è nulla; dopo, quella del proiettile e quella dell'arma devono avere somma ancora nulla, quindi versi opposti e moduli uguali.\n\nPoiché la massa dell'arma è molto maggiore di quella del proiettile, la sua velocità di rinculo è molto minore: lo stesso ragionamento spiega la propulsione a razzo."
+    },
+    {
+      "id": "u2-0089",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Conservazione della quantità di moto: rinculo",
+      "testo": "Un fucile di massa 4 kg spara un proiettile di 20 g alla velocità di 400 m/s. La velocità di rinculo del fucile vale:",
+      "opzioni": [
+        "2 m/s",
+        "8 m/s",
+        "20 m/s",
+        "400 m/s",
+        "0,005 m/s"
+      ],
+      "corretta": 0,
+      "spiegazione": "La quantità di moto totale resta nulla: m(proiettile) v(proiettile) = m(fucile) v(fucile), quindi 0,020 × 400 = 4 × v, da cui v = 8/4 = 2 m/s, in verso opposto a quello del proiettile.\n\nB) 8 m/s è la quantità di moto del proiettile, che si misura in kg·m/s: manca la divisione per la massa del fucile.\nC) 20 m/s tratta i 20 g come 0,2 kg, sbagliando la conversione di un fattore dieci.\nD) 400 m/s attribuisce al fucile la stessa velocità del proiettile: sono uguali le quantità di moto, non le velocità.\nE) 0,005 m/s è il solo rapporto fra le masse, senza moltiplicare per la velocità del proiettile."
+    },
+    {
+      "id": "u2-0090",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Baricentro",
+      "testo": "Il punto di un corpo in cui si può considerare applicata la sua forza peso si chiama ……",
+      "accettate": [
+        "baricentro",
+        "baricentri",
+        "centro di gravita"
+      ],
+      "spiegazione": "In un campo gravitazionale uniforme il baricentro coincide con il centro di massa. Per un corpo omogeneo di forma regolare si trova nel centro geometrico, e può cadere all'esterno della materia, come nel caso di un anello.\n\nUn corpo appoggiato resta in equilibrio finché la verticale condotta dal baricentro cade dentro la base d'appoggio."
+    },
+    {
+      "id": "u2-0091",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'impulso",
+      "testo": "Una forza costante di 50 N agisce su un corpo per 0,2 s. L'impulso della forza vale:",
+      "opzioni": [
+        "250 N·s",
+        "10 N·s",
+        "0,004 N·s",
+        "50 N·s",
+        "100 N·s"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'impulso è il prodotto della forza per l'intervallo di tempo: I = F Δt = 50 × 0,2 = 10 N·s, pari alla variazione della quantità di moto del corpo, cioè 10 kg·m/s.\n\nA) 250 N·s è F/Δt, cioè la divisione al posto del prodotto.\nC) 0,004 N·s è Δt/F, il rapporto rovesciato.\nD) 50 N·s ripete il valore della forza, come se il tempo fosse di 1 s.\nE) 100 N·s è il risultato corretto moltiplicato per dieci."
+    },
+    {
+      "id": "u2-0092",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Corpo rigido",
+      "testo": "Il corpo esteso e indeformabile, in cui la distanza fra due punti qualsiasi resta costante, si chiama corpo ……",
+      "accettate": [
+        "rigido",
+        "rigidi"
+      ],
+      "spiegazione": "È un modello: nessun corpo reale è perfettamente indeformabile, ma l'approssimazione è buona quando le deformazioni sono trascurabili rispetto alle dimensioni del corpo.\n\nA differenza del punto materiale, un corpo rigido può ruotare: per il suo equilibrio non basta che sia nulla la risultante delle forze, serve anche che sia nulla la somma dei momenti."
+    },
+    {
+      "id": "u2-0093",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Leve di primo genere nel corpo umano",
+      "testo": "L'articolazione fra il cranio e la colonna vertebrale, dove i muscoli posteriori del collo bilanciano il peso della testa che grava davanti al punto di appoggio, funziona come una leva:",
+      "opzioni": [
+        "di secondo genere, sempre vantaggiosa",
+        "di terzo genere, sempre svantaggiosa",
+        "di primo genere",
+        "di terzo genere, ma vantaggiosa",
+        "di secondo genere, sempre svantaggiosa"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il fulcro, cioè l'articolazione, si trova fra la resistenza (il peso della testa, applicato davanti) e la potenza (la trazione dei muscoli nucali, applicata dietro): questa è la definizione di leva di primo genere.\n\nA) Nella leva di secondo genere è la resistenza a trovarsi fra il fulcro e la potenza, non il fulcro in mezzo.\nB) Nella leva di terzo genere è la potenza a trovarsi in posizione intermedia: è il caso dell'avambraccio.\nD) La leva di terzo genere è sempre svantaggiosa, mai vantaggiosa.\nE) La leva di secondo genere è sempre vantaggiosa, mai svantaggiosa.\n\nLa leva di primo genere è l'unica che può essere vantaggiosa, svantaggiosa o indifferente: dipende da quale dei due bracci è il maggiore."
+    },
+    {
+      "id": "u2-0094",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Fulcro",
+      "testo": "Il punto fisso attorno al quale una leva può ruotare si chiama ……",
+      "accettate": [
+        "fulcro",
+        "fulcri"
+      ],
+      "spiegazione": "Il genere di una leva si stabilisce dalla posizione del fulcro rispetto alle due forze: fra potenza e resistenza nella leva di primo genere, all'estremità nelle altre due.\n\nNel corpo umano il fulcro è quasi sempre un'articolazione, la potenza è esercitata da un muscolo e la resistenza è il peso del segmento corporeo o del carico."
+    },
+    {
+      "id": "u2-0095",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Leve di secondo genere nel corpo umano",
+      "testo": "Sollevandosi sulle punte dei piedi, il fulcro è nell'appoggio delle teste metatarsali, la resistenza è il peso del corpo trasmesso dalla caviglia e la potenza è la trazione del tendine d'Achille sul calcagno. La leva è:",
+      "opzioni": [
+        "di primo genere, perché il fulcro sta al centro",
+        "di terzo genere, come l'avambraccio",
+        "di primo genere, sempre indifferente",
+        "di secondo genere, vantaggiosa",
+        "di terzo genere, sempre svantaggiosa"
+      ],
+      "corretta": 3,
+      "spiegazione": "Lungo il piede l'ordine dei tre punti è: fulcro alle dita, resistenza alla caviglia, potenza al calcagno. La resistenza si trova fra il fulcro e la potenza, e questa è la definizione di leva di secondo genere; il braccio della potenza è il maggiore, quindi la leva è vantaggiosa.\n\nA) Nella leva di primo genere sarebbe il fulcro a stare in mezzo, mentre qui in mezzo c'è la resistenza.\nB) Nella leva di terzo genere è la potenza a trovarsi in posizione intermedia: è il caso dell'avambraccio, dove il bicipite si inserisce fra il gomito e la mano.\nC) Oltre al genere sbagliato, la leva di primo genere non è affatto sempre indifferente: lo è solo con bracci uguali.\nE) Il genere è sbagliato, e in ogni caso questa leva è vantaggiosa, non svantaggiosa."
+    },
+    {
+      "id": "u2-0096",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Resistenza di una leva",
+      "testo": "Nella leva, la forza che occorre vincere, contrapposta alla potenza, si chiama ……",
+      "accettate": [
+        "resistenza",
+        "resistenze"
+      ],
+      "spiegazione": "La condizione di equilibrio si scrive P·bₚ = R·b_R: il prodotto di ciascuna forza per il proprio braccio.\n\nQuando il braccio della potenza supera quello della resistenza la leva è vantaggiosa, perché basta una potenza minore della resistenza per equilibrarla."
+    },
+    {
+      "id": "u2-0097",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Equilibrio di una leva",
+      "testo": "Una leva è in equilibrio. La resistenza vale 200 N e agisce con un braccio di 0,1 m; il braccio della potenza è di 0,5 m. La potenza vale:",
+      "opzioni": [
+        "1000 N",
+        "200 N",
+        "100 N",
+        "20 N",
+        "40 N"
+      ],
+      "corretta": 4,
+      "spiegazione": "All'equilibrio i due momenti si eguagliano: P × 0,5 = 200 × 0,1, quindi P = 20/0,5 = 40 N. La leva è vantaggiosa, perché il braccio della potenza è cinque volte quello della resistenza.\n\nA) 1000 N inverte il rapporto fra i bracci, e darebbe una leva svantaggiosa.\nB) 200 N attribuisce alla potenza lo stesso valore della resistenza, cosa vera solo con bracci uguali.\nC) 100 N moltiplica la resistenza per il braccio della potenza.\nD) 20 N è il momento della resistenza, che si misura in N·m e non in newton."
+    },
+    {
+      "id": "u2-0098",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Leva vantaggiosa",
+      "testo": "La leva in cui il braccio della potenza è maggiore di quello della resistenza, e che permette quindi di equilibrare la resistenza con una forza minore, si dice ……",
+      "accettate": [
+        "vantaggiosa",
+        "vantaggiose"
+      ],
+      "spiegazione": "Il guadagno in forza si paga in spostamento: la potenza deve percorrere un tratto tanto più lungo quanto minore è la forza impiegata, e il lavoro compiuto resta lo stesso.\n\nLe leve di secondo genere sono sempre vantaggiose, quelle di terzo genere mai; quelle di primo genere possono essere dell'uno o dell'altro tipo, a seconda dei bracci."
+    },
+    {
+      "id": "u2-0099",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Momento risultante e rotazione",
+      "testo": "Su un'asta incernierata nel suo punto medio agiscono due forze verticali verso il basso, di uguale modulo, applicate una a destra e una a sinistra della cerniera, a distanze diverse da essa. L'asta:",
+      "opzioni": [
+        "resta in equilibrio, perché le forze sono uguali",
+        "trasla verso il basso senza ruotare",
+        "resta in equilibrio, perché sono applicate da parti opposte",
+        "ruota nel verso della forza con il braccio maggiore",
+        "ruota nel verso della forza con il braccio minore"
+      ],
+      "corretta": 3,
+      "spiegazione": "I due momenti hanno versi di rotazione opposti, ma moduli diversi, perché i bracci sono diversi: la loro somma non è nulla e l'asta ruota nel verso imposto dal momento maggiore, cioè quello della forza applicata più lontano dalla cerniera.\n\nA) L'uguaglianza dei moduli non basta: nell'equilibrio rotazionale contano i momenti, cioè i prodotti forza per braccio.\nB) La cerniera impedisce la traslazione, esercitando la reazione vincolare necessaria.\nC) Essere applicate da parti opposte rende i momenti discordi, ma non uguali in modulo.\nE) Il momento maggiore è quello del braccio maggiore, non del minore."
+    },
+    {
+      "id": "u2-0100",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Equilibrio rotazionale",
+      "testo": "L'equilibrio che si realizza quando è nulla la somma dei momenti delle forze applicate a un corpo rigido si dice equilibrio ……",
+      "accettate": [
+        "rotazionale",
+        "alla rotazione",
+        "rotatorio"
+      ],
+      "spiegazione": "È la seconda delle due condizioni di equilibrio di un corpo rigido, indipendente dalla prima: una coppia di forze uguali e opposte su rette d'azione distinte ha risultante nulla ma momento non nullo, e mette il corpo in rotazione.\n\nNel calcolo si attribuiscono segni opposti ai momenti che tendono a far ruotare il corpo in verso orario e in verso antiorario."
+    }
+  ]
+}

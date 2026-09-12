@@ -1,0 +1,435 @@
+{
+  "lotto": "fisica-u2-03",
+  "unita": "u2",
+  "generato": "2026-09-12",
+  "domande": [
+    {
+      "id": "u2-0101",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge oraria del moto uniformemente accelerato",
+      "testo": "Un corpo parte dall'origine con velocità iniziale 4 m/s e accelerazione costante 2 m/s², concorde con la velocità. Dopo 3 s si trova a una distanza dall'origine di:",
+      "opzioni": [
+        "21 m",
+        "12 m",
+        "9 m",
+        "30 m",
+        "18 m"
+      ],
+      "corretta": 0,
+      "spiegazione": "La legge oraria è s = s₀ + v₀t + ½at² = 0 + 4 × 3 + ½ × 2 × 3² = 12 + 9 = 21 m.\n\nB) 12 m è il solo termine v₀t: trascura il contributo dell'accelerazione.\nC) 9 m è il solo termine ½at²: trascura la velocità iniziale.\nD) 30 m somma v₀t e at², cioè dimentica il fattore ½ nel secondo termine.\nE) 18 m è at², lo stesso errore del caso precedente ma senza il termine di velocità iniziale."
+    },
+    {
+      "id": "u2-0102",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Moto uniformemente accelerato",
+      "testo": "Il moto rettilineo in cui l'accelerazione si mantiene costante in modulo, direzione e verso si dice moto uniformemente ……",
+      "accettate": [
+        "accelerato",
+        "accelerata"
+      ],
+      "spiegazione": "La legge oraria è s = s₀ + v₀t + ½at² e quella della velocità è v = v₀ + at: il grafico spazio-tempo è una parabola, quello velocità-tempo una retta.\n\nQuando l'accelerazione è opposta alla velocità il moto è ancora uniformemente accelerato nel senso della definizione, ma il corpo rallenta: si parla allora di moto ritardato."
+    },
+    {
+      "id": "u2-0103",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Moto verticale verso l'alto",
+      "testo": "Un corpo è lanciato verticalmente verso l'alto con velocità iniziale 20 m/s. Trascurando la resistenza dell'aria e assumendo g = 10 m/s², la quota massima raggiunta vale:",
+      "opzioni": [
+        "40 m",
+        "20 m",
+        "2 m",
+        "10 m",
+        "200 m"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel punto più alto la velocità si annulla. Dalla conservazione dell'energia, ½mv₀² = mgh, segue h = v₀²/(2g) = 400/20 = 20 m. Si ottiene lo stesso risultato con v² = v₀² − 2gh posta uguale a zero.\n\nA) 40 m dimentica il fattore 2 al denominatore, calcolando v₀²/g.\nC) 2 m è v₀/g, cioè il tempo di salita in secondi, non una quota.\nD) 10 m ripete il valore di g.\nE) 200 m è il prodotto v₀·g, privo di significato in questo calcolo."
+    },
+    {
+      "id": "u2-0104",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Velocità nel punto più alto",
+      "testo": "Un corpo lanciato verticalmente verso l'alto, nell'istante in cui raggiunge la quota massima, ha velocità ……",
+      "accettate": [
+        "nulla",
+        "zero",
+        "uguale a zero",
+        "0"
+      ],
+      "spiegazione": "La velocità diminuisce durante la salita, si annulla nel punto di inversione e riprende a crescere in discesa, con verso opposto.\n\nL'accelerazione, invece, non si annulla mai: vale g e resta diretta verso il basso per tutto il moto, anche nell'istante in cui il corpo è fermo. È l'errore più comune su questa domanda."
+    },
+    {
+      "id": "u2-0105",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Spazio di arresto",
+      "testo": "Un'automobile viaggia a 20 m/s e frena con decelerazione costante di 5 m/s². Lo spazio percorso dall'inizio della frenata all'arresto vale:",
+      "opzioni": [
+        "4 m",
+        "20 m",
+        "40 m",
+        "80 m",
+        "100 m"
+      ],
+      "corretta": 2,
+      "spiegazione": "Da v² = v₀² − 2as, posta la velocità finale uguale a zero, segue s = v₀²/(2a) = 400/10 = 40 m.\n\nA) 4 m è v₀/a, cioè il tempo di frenata in secondi, non uno spazio.\nB) 20 m ripete il valore della velocità iniziale.\nD) 80 m dimentica il fattore 2 al denominatore, calcolando v₀²/a.\nE) 100 m corrisponderebbe a una decelerazione di 2 m/s²."
+    },
+    {
+      "id": "u2-0106",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Spazio di arresto",
+      "testo": "Lo spazio percorso da un veicolo dall'istante in cui inizia a frenare fino alla fermata si chiama spazio di ……",
+      "accettate": [
+        "arresto",
+        "frenata",
+        "arresto frenata"
+      ],
+      "spiegazione": "Vale s = v₀²/(2a): dipende dal quadrato della velocità iniziale, quindi raddoppiando la velocità quadruplica.\n\nNel calcolo dello spazio complessivo va aggiunto lo spazio di reazione, percorso a velocità costante nel tempo che intercorre fra la percezione dell'ostacolo e l'inizio della frenata."
+    },
+    {
+      "id": "u2-0107",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Dipendenza dello spazio di arresto dalla velocità",
+      "testo": "A parità di decelerazione, raddoppiando la velocità di un veicolo lo spazio necessario a fermarlo:",
+      "opzioni": [
+        "raddoppia",
+        "resta lo stesso",
+        "aumenta di un fattore √2",
+        "quadruplica",
+        "aumenta di otto volte"
+      ],
+      "corretta": 3,
+      "spiegazione": "Lo spazio di arresto vale v₀²/(2a): dipende dal quadrato della velocità iniziale, quindi raddoppiando v₀ viene moltiplicato per 2² = 4. È la stessa dipendenza quadratica dell'energia cinetica, che la frenata deve dissipare per intero.\n\nA) Il raddoppio corrisponderebbe a una dipendenza lineare dalla velocità.\nB) L'invarianza richiederebbe che la velocità non compaia nella formula.\nC) Il fattore √2 si otterrebbe se lo spazio dipendesse dalla radice della velocità.\nE) Il fattore otto corrisponderebbe a una dipendenza dal cubo della velocità."
+    },
+    {
+      "id": "u2-0108",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Accelerazione tangenziale",
+      "testo": "La componente dell'accelerazione diretta lungo la traiettoria, che fa variare il modulo della velocità, si dice accelerazione ……",
+      "accettate": [
+        "tangenziale",
+        "tangenziali"
+      ],
+      "spiegazione": "In un moto curvilineo qualsiasi l'accelerazione si scompone in due componenti perpendicolari fra loro: quella centripeta, che cambia la direzione della velocità, e quella tangenziale, che ne cambia il modulo.\n\nNel moto circolare uniforme la componente tangenziale è nulla; nel moto rettilineo accelerato è nulla quella centripeta."
+    },
+    {
+      "id": "u2-0109",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Moto circolare non uniforme",
+      "testo": "Un'automobile percorre una curva aumentando progressivamente la velocità. In quel tratto la sua accelerazione:",
+      "opzioni": [
+        "è diretta esattamente verso il centro della curva",
+        "è tangente alla traiettoria in ogni punto",
+        "è nulla, perché la traiettoria è curva",
+        "è diretta verso l'esterno della curva",
+        "ha una componente centripeta e una tangenziale"
+      ],
+      "corretta": 4,
+      "spiegazione": "La direzione della velocità cambia, quindi esiste una componente centripeta; il modulo della velocità cresce, quindi esiste anche una componente tangenziale. L'accelerazione totale è la somma vettoriale delle due e punta obliquamente verso l'interno della curva.\n\nA) L'accelerazione sarebbe puramente centripeta solo se la velocità fosse costante in modulo.\nB) Sarebbe puramente tangenziale solo in un moto rettilineo.\nC) Un'accelerazione nulla comporterebbe un moto rettilineo uniforme.\nD) Non esiste alcuna accelerazione diretta verso l'esterno: la cosiddetta forza centrifuga compare solo descrivendo il moto da un riferimento rotante, che non è inerziale."
+    },
+    {
+      "id": "u2-0110",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Sistema di riferimento inerziale",
+      "testo": "Il sistema di riferimento in cui vale il principio d'inerzia, e quindi le leggi della dinamica nella forma consueta, si dice ……",
+      "accettate": [
+        "inerziale",
+        "inerziali"
+      ],
+      "spiegazione": "Un riferimento è inerziale se è fermo o si muove di moto rettilineo uniforme rispetto a un altro riferimento inerziale. In un riferimento accelerato, come un'automobile che frena o una giostra che ruota, si osservano accelerazioni senza forze reali che le producano.\n\nLe forze che si introducono per salvare la forma delle leggi in un riferimento non inerziale, come la forza centrifuga, si dicono apparenti: non corrispondono ad alcuna interazione fra corpi."
+    },
+    {
+      "id": "u2-0111",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Condizione di scivolamento sul piano inclinato",
+      "testo": "Un corpo appoggiato su un piano inclinato scabro comincia a scivolare quando:",
+      "opzioni": [
+        "la tangente dell'angolo supera il coefficiente di attrito statico",
+        "la componente del peso perpendicolare al piano supera la forza di attrito statico massima",
+        "l'angolo di inclinazione supera i 45°",
+        "la massa del corpo supera un valore critico, che dipende dall'inclinazione",
+        "il peso del corpo supera la forza normale"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il corpo si mette in moto quando la componente del peso parallela al piano, m g sen α, supera il massimo attrito statico, μs·N = μs·m g cos α. Dividendo entrambi i membri per m g cos α si ottiene tan α > μs: la massa si semplifica e la condizione dipende solo dall'angolo e dalle superfici.\n\nB) La componente perpendicolare non tende a far scivolare il corpo: è quella che genera la forza normale, e quindi l'attrito stesso.\nC) L'angolo critico vale 45° solo nel caso particolare in cui il coefficiente di attrito statico sia esattamente 1.\nD) La massa si semplifica nella disuguaglianza: un corpo pesante e uno leggero scivolano allo stesso angolo.\nE) Su un piano inclinato il peso è sempre maggiore della forza normale, anche quando il corpo resta fermo."
+    },
+    {
+      "id": "u2-0112",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Piano inclinato",
+      "testo": "La superficie piana che forma un angolo con l'orizzontale, lungo la quale un corpo può scivolare o essere trascinato, si chiama piano ……",
+      "accettate": [
+        "inclinato",
+        "inclinata"
+      ],
+      "spiegazione": "Il peso si scompone in una componente parallela al piano, m g sen α, che tende a far scendere il corpo, e in una perpendicolare, m g cos α, equilibrata dalla forza normale.\n\nAl crescere dell'inclinazione la prima componente aumenta e la seconda diminuisce: per questo il corpo scivola più facilmente, e la forza normale, con essa l'attrito, si riduce."
+    },
+    {
+      "id": "u2-0113",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Carrucola fissa",
+      "testo": "Una carrucola fissa ideale, di massa trascurabile e priva di attrito:",
+      "opzioni": [
+        "dimezza la forza necessaria a sollevare un carico",
+        "cambia la direzione della forza applicata senza modificarne il modulo",
+        "raddoppia la forza applicata alla fune",
+        "annulla il peso del carico da sollevare",
+        "riduce il lavoro necessario a sollevare il carico fino a una data quota"
+      ],
+      "corretta": 1,
+      "spiegazione": "In una fune ideale che scorre su una carrucola ideale la tensione è la stessa in tutti i punti: per sollevare un carico occorre una forza pari al suo peso, ma applicata tirando verso il basso invece che verso l'alto. Il vantaggio è di comodità, non di forza.\n\nA) Il dimezzamento si ottiene con una carrucola mobile, non con una fissa.\nC) La carrucola non amplifica la tensione, che resta uguale lungo tutta la fune.\nD) Il peso del carico non cambia: cambia solo la direzione in cui si tira.\nE) Nessuna macchina semplice riduce il lavoro: al più ripartisce diversamente forza e spostamento."
+    },
+    {
+      "id": "u2-0114",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Carrucola",
+      "testo": "Il dispositivo formato da una ruota scanalata su cui scorre una fune, usato per cambiare la direzione di una forza, si chiama ……",
+      "accettate": [
+        "carrucola",
+        "carrucole",
+        "puleggia"
+      ],
+      "spiegazione": "La carrucola fissa ha l'asse vincolato e non modifica il modulo della forza; la carrucola mobile si sposta insieme al carico e dimezza la forza necessaria, al prezzo di raddoppiare lo spostamento da compiere.\n\nIn entrambi i casi il lavoro resta lo stesso: è la macchina semplice a redistribuirlo fra forza e spostamento."
+    },
+    {
+      "id": "u2-0115",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Corpi collegati",
+      "testo": "Due blocchi di massa 2 kg e 3 kg, collegati da un filo inestensibile, sono trascinati su un piano orizzontale liscio da una forza di 10 N applicata al primo. L'accelerazione del sistema vale:",
+      "opzioni": [
+        "5 m/s²",
+        "3,33 m/s²",
+        "2 m/s²",
+        "10 m/s²",
+        "0,5 m/s²"
+      ],
+      "corretta": 2,
+      "spiegazione": "I due blocchi, collegati da un filo inestensibile, si muovono con la stessa accelerazione: la seconda legge va applicata al sistema complessivo, a = F/(m₁ + m₂) = 10/5 = 2 m/s².\n\nA) 5 m/s² divide la forza per la sola massa del primo blocco.\nB) 3,33 m/s² divide la forza per la sola massa del secondo blocco.\nD) 10 m/s² ripete il valore della forza, come se la massa complessiva fosse 1 kg.\nE) 0,5 m/s² è il rapporto rovesciato, massa totale diviso forza."
+    },
+    {
+      "id": "u2-0116",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Equilibrio traslazionale",
+      "testo": "L'equilibrio che si realizza quando è nulla la risultante delle forze applicate a un corpo si dice equilibrio ……",
+      "accettate": [
+        "traslazionale",
+        "alla traslazione",
+        "traslatorio"
+      ],
+      "spiegazione": "È la prima delle due condizioni di equilibrio di un corpo rigido e discende dal primo principio: senza risultante non c'è accelerazione del centro di massa.\n\nDa sola non basta: una coppia di forze uguali e opposte su rette d'azione distinte soddisfa questa condizione ma fa ruotare il corpo, perché viola quella sui momenti."
+    },
+    {
+      "id": "u2-0117",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Teorema dell'energia cinetica applicato alla frenata",
+      "testo": "Un'automobile di massa 1000 kg che viaggia a 20 m/s viene portata all'arresto. Il lavoro compiuto complessivamente dalle forze frenanti vale:",
+      "opzioni": [
+        "200 000 J",
+        "−20 000 J",
+        "400 000 J",
+        "−200 000 J",
+        "0 J"
+      ],
+      "corretta": 3,
+      "spiegazione": "Per il teorema dell'energia cinetica il lavoro totale è pari alla variazione dell'energia cinetica: L = 0 − ½ × 1000 × 20² = −200 000 J. Il segno negativo indica che le forze frenanti sottraggono energia al veicolo.\n\nA) 200 000 J è il modulo corretto, ma con il segno sbagliato: un lavoro positivo accelererebbe l'automobile.\nB) −20 000 J è il risultato corretto diviso dieci.\nC) 400 000 J è m v², cioè senza il fattore ½ e senza il segno.\nE) 0 J confonde l'energia cinetica finale, che è effettivamente nulla, con la sua variazione, che non lo è."
+    },
+    {
+      "id": "u2-0118",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Segno del lavoro",
+      "testo": "Il lavoro compiuto da una forza che ha una componente opposta allo spostamento del corpo è ……",
+      "accettate": [
+        "negativo",
+        "negativa",
+        "resistente"
+      ],
+      "spiegazione": "Nel prodotto L = F s cos θ il coseno è negativo per angoli compresi fra 90° e 180°: la forza sottrae energia al corpo. È il caso dell'attrito e della forza peso su un corpo che sale.\n\nUna forza perpendicolare allo spostamento non compie alcun lavoro, perché il coseno di 90° è nullo."
+    },
+    {
+      "id": "u2-0119",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Potenza media e potenza istantanea",
+      "testo": "La potenza media sviluppata in un intervallo di tempo e la potenza istantanea coincidono:",
+      "opzioni": [
+        "sempre, perché sono due nomi diversi della stessa identica grandezza",
+        "solo se il corpo è fermo",
+        "solo se la forza applicata è nulla",
+        "mai, perché si misurano in unità diverse",
+        "quando la potenza sviluppata si mantiene costante nel tempo"
+      ],
+      "corretta": 4,
+      "spiegazione": "La potenza media è il rapporto fra il lavoro totale e la durata dell'intervallo; quella istantanea è il valore assunto in un singolo istante, pari a F·v per una forza parallela al moto. I due valori coincidono se la potenza non varia, esattamente come velocità media e istantanea coincidono nel moto uniforme.\n\nA) Un motore che accelera sviluppa potenza crescente: la media è inferiore al valore massimo.\nB) A corpo fermo la potenza è nulla, e il caso è irrilevante per il confronto.\nC) Con forza nulla il lavoro è nullo, quindi entrambe le potenze valgono zero: è un caso particolare, non la condizione generale.\nD) Entrambe si misurano in watt: sono la stessa grandezza calcolata su intervalli diversi."
+    },
+    {
+      "id": "u2-0120",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Potenza media",
+      "testo": "La potenza calcolata come rapporto fra il lavoro totale compiuto e l'intera durata dell'intervallo si dice potenza ……",
+      "accettate": [
+        "media",
+        "medie"
+      ],
+      "spiegazione": "Vale P = L/Δt e si misura in watt. Non dice nulla su come la potenza si sia distribuita all'interno dell'intervallo.\n\nLa potenza istantanea è invece il valore riferito a un singolo istante e, per una forza parallela al moto, si calcola come P = F v."
+    },
+    {
+      "id": "u2-0121",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Conservazione dell'energia con una molla",
+      "testo": "Una molla di costante elastica 200 N/m è compressa di 10 cm e lanciata contro un blocco di 0,5 kg appoggiato su un piano orizzontale liscio. La velocità acquistata dal blocco vale:",
+      "opzioni": [
+        "2 m/s",
+        "1 m/s",
+        "4 m/s",
+        "0,5 m/s",
+        "20 m/s"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'energia potenziale elastica si trasforma integralmente in energia cinetica: ½ k x² = ½ m v². Il primo membro vale ½ × 200 × 0,10² = 1 J, quindi v = √(2 × 1 / 0,5) = √4 = 2 m/s.\n\nB) 1 m/s è il valore dell'energia in joule, scambiato per una velocità.\nC) 4 m/s è il valore di v², senza estrarre la radice.\nD) 0,5 m/s ripete il valore della massa.\nE) 20 m/s è k·x, cioè la forza elastica iniziale in newton."
+    },
+    {
+      "id": "u2-0122",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Principio di conservazione della quantità di moto",
+      "testo": "L'enunciato secondo cui in un sistema isolato la quantità di moto totale non cambia nel tempo si chiama principio di …… della quantità di moto",
+      "accettate": [
+        "conservazione"
+      ],
+      "spiegazione": "Discende dal terzo principio: le forze interne sono a due a due uguali e opposte, quindi i loro effetti sulla quantità di moto complessiva si annullano.\n\nVale in tutti gli urti, elastici e anelastici, purché le forze esterne siano nulle o trascurabili rispetto a quelle dell'urto: è per questo che si applica anche a corpi che poggiano su un piano con attrito, se l'urto è abbastanza breve."
+    },
+    {
+      "id": "u2-0123",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Urto anelastico fra corpi entrambi in moto",
+      "testo": "Su una guida orizzontale liscia un corpo di 2 kg si muove verso destra a 3 m/s e ne incontra uno di 1 kg che si muove verso sinistra a 3 m/s. I due restano attaccati. Dopo l'urto procedono:",
+      "opzioni": [
+        "a 3 m/s verso destra",
+        "a 2 m/s verso destra",
+        "a 1 m/s verso destra",
+        "restando fermi",
+        "a 6 m/s verso destra"
+      ],
+      "corretta": 2,
+      "spiegazione": "La quantità di moto è un vettore e le due velocità hanno versi opposti: p = 2 × 3 − 1 × 3 = 3 kg·m/s, diretta verso destra. Dividendo per la massa totale, v = 3/3 = 1 m/s verso destra.\n\nA) 3 m/s ripete la velocità iniziale, ignorando sia l'urto sia l'aumento di massa.\nB) 2 m/s si otterrebbe sommando le due quantità di moto invece di sottrarle e dividendo per 3.\nD) I due corpi resterebbero fermi solo se le quantità di moto fossero uguali e opposte, cioè con masse uguali.\nE) 6 m/s è la quantità di moto del solo primo corpo, per giunta scambiata per una velocità."
+    },
+    {
+      "id": "u2-0124",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Urto",
+      "testo": "L'interazione fra due corpi che dura un tempo brevissimo, durante la quale le forze scambiate sono molto maggiori di quelle esterne, si chiama ……",
+      "accettate": [
+        "urto",
+        "urti",
+        "collisione"
+      ],
+      "spiegazione": "Proprio perché le forze esterne sono trascurabili rispetto a quelle interne, durante un urto il sistema si comporta come isolato e la quantità di moto totale si conserva.\n\nL'energia cinetica invece si conserva solo negli urti elastici: negli altri una parte si trasforma in deformazione e calore."
+    },
+    {
+      "id": "u2-0125",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Centro di massa di due corpi",
+      "testo": "Due sfere puntiformi, una di 2 kg posta in x = 0 e una di 6 kg posta in x = 4 m, giacciono sullo stesso asse. Il centro di massa del sistema si trova in:",
+      "opzioni": [
+        "x = 2 m",
+        "x = 1 m",
+        "x = 4 m",
+        "x = 3 m",
+        "x = 24 m"
+      ],
+      "corretta": 3,
+      "spiegazione": "La posizione del centro di massa è la media delle posizioni pesata con le masse: x = (2 × 0 + 6 × 4)/(2 + 6) = 24/8 = 3 m. Risulta più vicino alla sfera più pesante, come deve essere.\n\nA) x = 2 m è il punto di mezzo fra le due sfere: sarebbe corretto solo con masse uguali.\nB) x = 1 m scambia le masse nella media pesata, avvicinando il risultato alla sfera leggera.\nC) x = 4 m è la posizione della sfera più pesante: il centro di massa vi coinciderebbe solo se l'altra massa fosse trascurabile.\nE) x = 24 m è il numeratore della formula, non diviso per la massa totale."
+    },
+    {
+      "id": "u2-0126",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Esplosione",
+      "testo": "Il fenomeno inverso dell'urto, in cui un corpo inizialmente unico si separa in due o più frammenti che si allontanano, si chiama ……",
+      "accettate": [
+        "esplosione",
+        "esplosioni"
+      ],
+      "spiegazione": "Se il corpo era fermo, la quantità di moto totale era nulla e tale resta: i frammenti si allontanano in modo che la somma vettoriale delle loro quantità di moto sia zero.\n\nL'energia cinetica, al contrario, aumenta: proviene dall'energia chimica o elastica immagazzinata, quindi il sistema non è conservativo dal punto di vista meccanico."
+    },
+    {
+      "id": "u2-0127",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Conservazione dell'energia su un piano inclinato",
+      "testo": "Un corpo parte da fermo e scivola senza attrito lungo un piano inclinato, partendo da una quota di 1,8 m. Assumendo g = 10 m/s², la velocità con cui arriva in fondo vale:",
+      "opzioni": [
+        "18 m/s",
+        "6 m/s",
+        "36 m/s",
+        "3,6 m/s",
+        "1,8 m/s"
+      ],
+      "corretta": 1,
+      "spiegazione": "In assenza di attrito l'energia meccanica si conserva: m g h = ½ m v², da cui v = √(2 g h) = √(2 × 10 × 1,8) = √36 = 6 m/s. La massa si semplifica e l'inclinazione del piano non compare: conta solo il dislivello.\n\nA) 18 m/s è il prodotto g·h, cioè il valore di ½v².\nC) 36 m/s è 2gh, cioè v² senza estrarre la radice.\nD) 3,6 m/s è il doppio dell'altezza.\nE) 1,8 m/s ripete la quota di partenza.\n\nÈ lo stesso valore che il corpo avrebbe raggiungendo il suolo in caduta libera da 1,8 m: cambia il tempo impiegato, non la velocità finale."
+    },
+    {
+      "id": "u2-0128",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Leve di terzo genere",
+      "testo": "La leva in cui la potenza è applicata in un punto compreso fra il fulcro e la resistenza si dice di …… genere",
+      "accettate": [
+        "terzo",
+        "3",
+        "terzo genere"
+      ],
+      "spiegazione": "In questa disposizione il braccio della potenza è sempre minore di quello della resistenza, quindi la leva è sempre svantaggiosa: serve una forza maggiore della resistenza da vincere.\n\nÈ la disposizione più diffusa nel corpo umano, perché privilegia l'ampiezza e la rapidità del movimento: oltre al bicipite sull'avambraccio, si ritrova nel muscolo temporale sulla mandibola e negli adduttori della coscia."
+    },
+    {
+      "id": "u2-0129",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Momento di una forza non perpendicolare",
+      "testo": "Una forza di 10 N è applicata all'estremità di un'asta incernierata, a 0,4 m dal perno, formando un angolo di 30° con l'asta. Il momento della forza rispetto al perno vale:",
+      "opzioni": [
+        "4 N·m",
+        "3,46 N·m",
+        "0,2 N·m",
+        "20 N·m",
+        "2 N·m"
+      ],
+      "corretta": 4,
+      "spiegazione": "Conta solo la componente della forza perpendicolare all'asta: M = F d sen α = 10 × 0,4 × sen 30° = 10 × 0,4 × 0,5 = 2 N·m. In alternativa si calcola il braccio, cioè la distanza fra il perno e la retta d'azione, che vale d sen α = 0,2 m.\n\nA) 4 N·m è F·d senza il fattore trigonometrico: sarebbe corretto solo con forza perpendicolare all'asta.\nB) 3,46 N·m usa il coseno al posto del seno, cioè la componente parallela all'asta, che non produce alcuna rotazione.\nC) 0,2 N·m è il valore del braccio in metri, non moltiplicato per la forza.\nD) 20 N·m divide la forza per il seno invece di moltiplicare."
+    },
+    {
+      "id": "u2-0130",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Leve di primo genere",
+      "testo": "La leva in cui il fulcro si trova in posizione intermedia fra la potenza e la resistenza si dice di …… genere",
+      "accettate": [
+        "primo",
+        "1",
+        "primo genere"
+      ],
+      "spiegazione": "È l'unica delle tre che può essere vantaggiosa, svantaggiosa o indifferente: dipende da quale dei due bracci è il maggiore. L'altalena e le forbici ne sono esempi.\n\nNel corpo umano il caso tipico è l'articolazione fra cranio e colonna vertebrale, dove i muscoli posteriori del collo bilanciano il peso della testa che grava davanti al punto di appoggio."
+    }
+  ]
+}

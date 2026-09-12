@@ -1,0 +1,152 @@
+{
+  "lotto": "biologia-u2-02",
+  "unita": "u2",
+  "generato": "2026-09-12",
+  "domande": [
+    {
+      "id": "u2-0051",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "I retrovirus endogeni",
+      "testo": "Che cosa sono i retrovirus endogeni presenti nel genoma umano?",
+      "opzioni": [
+        "Sequenze derivate da antichi retrovirus integrati nella linea germinale",
+        "Virus attualmente attivi che infettano le cellule dell'organismo adulto",
+        "Geni cellulari che codificano le proteine strutturali del capside virale",
+        "Sequenze ripetute in tandem che costituiscono i centromeri dei cromosomi",
+        "Frammenti di RNA virale rimasti stabilmente nel citoplasma delle cellule"
+      ],
+      "corretta": 0,
+      "spiegazione": "Sono il residuo di infezioni retrovirali che, in un passato remoto, hanno colpito cellule della linea germinale: il provirus integrato è stato così trasmesso ai discendenti ed è diventato parte stabile del genoma. Nell'uomo occupano complessivamente all'incirca l'8% del DNA e nella quasi totalità dei casi sono difettivi, cioè incapaci di produrre particelle infettanti.\n\nB) Non sono virus attivi: sono sequenze di DNA ereditate, presenti in ogni cellula dell'organismo.\nC) Non sono geni cellulari nati come tali, e nella grande maggioranza non producono alcuna proteina funzionante.\nD) I retrovirus endogeni sono sequenze intersperse, non ripetizioni in tandem centromeriche.\nE) Il materiale ereditato è DNA integrato nel genoma nucleare, non RNA citoplasmatico.\n\nPer la loro struttura appartengono ai retrotrasposoni: si sono moltiplicati nel genoma attraverso un intermedio a RNA, come i LINE."
+    },
+    {
+      "id": "u2-0052",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Nucleosoma e istone H1",
+      "testo": "Il nucleosoma con in più l'istone H1 e il tratto di DNA di collegamento a esso associato prende il nome di ……",
+      "accettate": [
+        "cromatosoma",
+        "cromatosomi"
+      ],
+      "spiegazione": "Il cromatosoma comprende circa 166 paia di basi: le 147 avvolte attorno all'ottamero più i circa 20 nucleotidi trattenuti da H1 nel punto in cui il DNA entra ed esce dal nucleosoma.\n\nLa distinzione conta perché H1 non fa parte dell'ottamero e può essere rimosso senza smontare il nucleosoma: togliendolo si scioglie la fibra compatta e resta la collana di perle."
+    },
+    {
+      "id": "u2-0053",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Sequenze a copia singola",
+      "testo": "Nel genoma umano, le sequenze presenti in una sola copia:",
+      "opzioni": [
+        "costituiscono la quasi totalità del DNA nucleare",
+        "comprendono la maggior parte dei geni che codificano proteine",
+        "sono localizzate esclusivamente nelle regioni centromeriche dei cromosomi",
+        "coincidono con le sequenze ripetute intersperse del genoma",
+        "sono per definizione prive di qualunque funzione biologica"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le sequenze uniche sono la classe a cui appartengono i geni che specificano proteine, con le regioni regolative che li accompagnano. Il resto del genoma è in buona parte DNA ripetuto, in tandem o disperso.\n\nA) Non sono la quasi totalità: più della metà del genoma umano è costituita da sequenze ripetute.\nC) Le regioni centromeriche sono fatte di DNA ripetuto in tandem, cioè l'opposto di sequenze a copia singola.\nD) Le sequenze intersperse sono ripetute in moltissime copie, come le Alu.\nE) È proprio fra le sequenze uniche che si trovano i geni: dire che non hanno funzione è il rovescio della verità."
+    },
+    {
+      "id": "u2-0054",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Varianti istoniche e identità del centromero",
+      "testo": "Nei nucleosomi della regione centromerica l'istone H3 è sostituito dalla variante istonica ……",
+      "accettate": [
+        "cenp-a",
+        "cenpa",
+        "cenp a"
+      ],
+      "spiegazione": "CENP-A marca la cromatina centromerica e costituisce la base su cui si assembla il cinetocore. È la ragione per cui l'identità del centromero non dipende soltanto dalla sequenza del DNA: è determinata anche da quali nucleosomi vi sono depositati, e come tale viene ereditata dopo ogni replicazione.\n\nLe varianti istoniche sono istoni codificati da geni distinti e depositati fuori dalla fase S: rendono i nucleosomi diversi fra loro e marcano regioni con funzioni particolari."
+    },
+    {
+      "id": "u2-0055",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Le code istoniche",
+      "testo": "Le code N-terminali degli istoni:",
+      "opzioni": [
+        "costituiscono il nucleo attorno a cui si avvolge il DNA nucleosomico",
+        "sono tratti di DNA che sporgono dal nucleosoma verso l'esterno",
+        "sporgono dal nucleosoma e sono il bersaglio di modificazioni chimiche",
+        "vengono rimosse per taglio proteolitico subito dopo l'assemblaggio",
+        "sono presenti soltanto nell'istone H1, che non fa parte dell'ottamero istonico"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le code sono tratti amminoacidici non ripiegati che escono dal corpo compatto del nucleosoma e restano accessibili: proprio per questo sono la sede su cui agiscono acetilasi, deacetilasi, metiltransferasi e chinasi, e attraverso cui passa la regolazione dello stato della cromatina.\n\nA) Il nucleo del nucleosoma è formato dai domini globulari degli istoni, non dalle code.\nB) Le code sono di natura proteica: sono la parte terminale della catena polipeptidica dell'istone.\nD) Non vengono tagliate: se lo fossero, la marcatura che portano andrebbe perduta a ogni assemblaggio.\nE) Le code sono presenti in tutti e quattro gli istoni del nucleo, e sono quelle di H3 e H4 le più studiate."
+    },
+    {
+      "id": "u2-0056",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Enzimi della metilazione del DNA",
+      "testo": "Gli enzimi che catalizzano l'aggiunta di un gruppo metile alle citosine del DNA si chiamano DNA ……",
+      "accettate": [
+        "metiltransferasi",
+        "metiltrasferasi",
+        "metilasi",
+        "dnmt"
+      ],
+      "spiegazione": "Si distinguono per funzione: le metiltransferasi de novo istituiscono nuovi schemi di metilazione, per esempio durante il differenziamento, mentre quella di mantenimento riconosce il DNA emimetilato che risulta dalla replicazione e ripristina la metilazione sul filamento appena sintetizzato.\n\nÈ questo secondo enzima a rendere la marcatura epigenetica ereditabile: senza di esso lo schema di metilazione si diluirebbe a ogni divisione cellulare."
+    },
+    {
+      "id": "u2-0057",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Il problema della compattazione",
+      "testo": "Il DNA contenuto nel nucleo di una cellula somatica umana, disteso, misurerebbe complessivamente circa:",
+      "opzioni": [
+        "due millimetri",
+        "due centimetri",
+        "venti centimetri",
+        "due metri",
+        "due chilometri"
+      ],
+      "corretta": 3,
+      "spiegazione": "I circa 6,4 miliardi di paia di basi di una cellula diploide corrispondono a poco più di due metri di doppia elica, che devono stare in un nucleo del diametro di pochi micrometri. È la ragione per cui la cromatina esiste: senza i livelli successivi di compattazione il DNA non entrerebbe nel nucleo.\n\nA), B) e C) Sottostimano di ordini di grandezza: già il solo cromosoma 1 supera gli otto centimetri di lunghezza.\nE) Sovrastima di circa mille volte.\n\nIl solo avvolgimento nei nucleosomi accorcia il DNA di circa sei volte; il cromosoma metafasico, il grado massimo di condensazione, di alcune migliaia."
+    },
+    {
+      "id": "u2-0058",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Livelli superiori di compattazione",
+      "testo": "Oltre la fibra da 30 nm la cromatina si compatta ulteriormente ripiegandosi in …… ancorate a un'impalcatura proteica.",
+      "accettate": [
+        "anse",
+        "ansa",
+        "loop",
+        "anse cromatiniche"
+      ],
+      "spiegazione": "Le anse sono radicate a intervalli su un'impalcatura di proteine non istoniche: è il livello che organizza la cromatina in domini e che, in mitosi, viene portato all'estremo dalle condensine fino al cromosoma metafasico.\n\nL'organizzazione in anse non è solo strutturale: avvicina fra loro tratti di DNA distanti lungo la sequenza e ne separa altri, con effetti diretti su quali sequenze regolative possano agire su quali geni."
+    },
+    {
+      "id": "u2-0059",
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Morfologia dei cromosomi e posizione del centromero",
+      "testo": "Un cromosoma in cui il centromero è collocato molto vicino a un'estremità, così che uno dei due bracci risulta assai più corto dell'altro, si dice:",
+      "opzioni": [
+        "metacentrico",
+        "submetacentrico",
+        "policentrico",
+        "dicentrico",
+        "acrocentrico"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nei cromosomi acrocentrici il centromero è spostato quasi all'estremità e il braccio corto è ridotto al minimo. Nell'uomo sono acrocentrici i cromosomi 13, 14, 15, 21 e 22, ed è sui loro bracci corti che si trovano le regioni organizzatrici del nucleolo.\n\nA) Nel metacentrico il centromero è mediano e i due bracci hanno lunghezza simile.\nB) Nel submetacentrico è spostato dal centro, ma non tanto da rendere un braccio molto più corto.\nC) «Policentrico» non appartiene alla classificazione morfologica dei cromosomi umani.\nD) Un cromosoma dicentrico ha due centromeri ed è il prodotto anomalo di un riarrangiamento, non una forma normale."
+    },
+    {
+      "id": "u2-0060",
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Enzima dei trasposoni a DNA",
+      "testo": "L'enzima che catalizza l'escissione di un trasposone a DNA dal sito di origine e il suo inserimento in un nuovo sito si chiama ……",
+      "accettate": [
+        "trasposasi",
+        "transposasi"
+      ],
+      "spiegazione": "La trasposasi è codificata dal trasposone stesso, ne riconosce le ripetizioni terminali invertite, taglia il DNA a entrambe le estremità e ne salda le estremità nel nuovo sito: è il meccanismo «taglia e incolla», che a differenza della retrotrasposizione non aumenta il numero di copie.\n\nNel genoma umano i trasposoni a DNA sono presenti ma nella quasi totalità inattivi, perché le copie di trasposasi hanno accumulato mutazioni: la mobilità residua è dovuta essenzialmente ai retrotrasposoni."
+    }
+  ]
+}

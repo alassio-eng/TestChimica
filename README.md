@@ -73,6 +73,7 @@ questions/
     index.json
     biologia-u1-01.json …
 tools/valida.py         validatore da eseguire prima di pubblicare
+tools/prossimo.py       prossimo lotto e primo id libero, per unità
 SPEC-NUOVA-MATERIA.md   specifica per chi genera le domande di una materia
 ISTRUZIONI-PROGETTO.md  cosa scrivere nelle istruzioni dei progetti Claude
 ```
@@ -80,6 +81,12 @@ ISTRUZIONI-PROGETTO.md  cosa scrivere nelle istruzioni dei progetti Claude
 Il codice non dà per scontato quante domande ci siano né che tutte le unità
 siano piene: unità vuote appaiono disattivate, quote non riempibili vengono
 ridistribuite e segnalate.
+
+Le `quota` dichiarate negli indici delle tre materie sono ricavate da appelli
+ufficiali, non stimate: il campo `fonteQuote` di ogni indice lo registra. Non
+vanno ritoccate a cuor leggero — sono ciò che determina la composizione del
+test «tutto il programma», e cambiarle rende i test già svolti non
+confrontabili con quelli successivi.
 
 ## Aggiungere una materia
 
@@ -93,6 +100,13 @@ ridistribuite e segnalate.
 I file seguono la convenzione `<materia>-<unità>-<progressivo>.json`: un file
 contiene domande di una sola unità, e il validatore lo verifica.
 
+0. Chiedere al repository come si chiama il prossimo lotto e da quale id
+   ripartire — a occhio è l'errore facile, e un id riusato è irreversibile:
+
+   ```bash
+   python3 tools/prossimo.py                  # quadro di tutte le materie
+   python3 tools/prossimo.py biologia u3      # testo da dare alla chat
+   ```
 1. Scrivere `questions/<materia>/<materia>-uN-NN.json` seguendo
    `SPEC-NUOVA-MATERIA.md`. I file già pubblicati non si toccano: per
    aggiungere domande a un'unità si crea il progressivo successivo.

@@ -2,7 +2,8 @@
   "schema": 2,
   "materia": "chimica",
   "nome": "Chimica e propedeutica biochimica",
-  "aggiornato": "2026-09-06",
+  "aggiornato": "2026-09-09",
+  "fonteQuote": "quote per unità del primo appello di novembre 2025",
   "formato": {
     "unita": {
       "totale": 15,

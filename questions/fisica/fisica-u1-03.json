@@ -1,0 +1,148 @@
+{
+  "lotto": "fisica-u1-03",
+  "unita": "u1",
+  "generato": "2026-09-10",
+  "domande": [
+    {
+      "id": "u1-0071",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Prodotto scalare calcolato per componenti",
+      "testo": "Due vettori hanno componenti cartesiane a = (3; 2) e b = (1; 4). Il loro prodotto scalare vale:",
+      "opzioni": [
+        "11",
+        "(3; 8)",
+        "14",
+        "10",
+        "(4; 6)"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il prodotto scalare si ottiene sommando i prodotti delle componenti dello stesso asse: a · b = aₓbₓ + a_yb_y = 3 × 1 + 2 × 4 = 3 + 8 = 11. Il risultato è un numero, non un vettore.\n\nB) (3; 8) sono i due prodotti parziali lasciati separati: vanno sommati, e in ogni caso il prodotto scalare non può essere un vettore.\nC) 14 incrocia le componenti, calcolando 3 × 4 + 2 × 1: vanno invece moltiplicate fra loro quelle dello stesso asse.\nD) 10 è la somma di tutte e quattro le componenti.\nE) (4; 6) è il vettore somma a + b."
+    },
+    {
+      "id": "u1-0072",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prefisso pico",
+      "testo": "Il prefisso del Sistema Internazionale che indica un fattore pari a 10⁻¹² si chiama ……",
+      "accettate": [
+        "pico"
+      ],
+      "spiegazione": "Il simbolo è p minuscola: 1 ps = 10⁻¹² s, 1 pF = 10⁻¹² F.\n\nNella scala dei sottomultipli si procede di tre in tre negli esponenti: milli (10⁻³), micro (10⁻⁶), nano (10⁻⁹), pico (10⁻¹²), femto (10⁻¹⁵)."
+    },
+    {
+      "id": "u1-0073",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Direzione di un vettore ricavata dalle componenti",
+      "testo": "Un vettore ha componenti cartesiane (1; 1). L'angolo che esso forma con il semiasse positivo delle ascisse vale:",
+      "opzioni": [
+        "0°",
+        "45°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "corretta": 1,
+      "spiegazione": "La direzione si ricava dalla tangente: tan θ = v_y/vₓ = 1/1 = 1, e l'angolo acuto con tangente uguale a 1 è 45°. Il vettore è la diagonale del quadrato di lato 1.\n\nA) 0° corrisponde a un vettore diretto lungo l'asse x, quindi con componente y nulla.\nC) 30° ha tangente circa 0,58: si otterrebbe con componenti come (1; 0,58).\nD) 60° ha tangente circa 1,73, cioè una componente y quasi doppia della x.\nE) 90° corrisponde a un vettore diretto lungo l'asse y, quindi con componente x nulla."
+    },
+    {
+      "id": "u1-0074",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Vettori complanari",
+      "testo": "Due o più vettori che giacciono tutti nello stesso piano si dicono ……",
+      "accettate": [
+        "complanari",
+        "complanare"
+      ],
+      "spiegazione": "Due vettori sono sempre complanari, perché due rette incidenti o parallele individuano sempre un piano; la condizione diventa restrittiva da tre vettori in poi.\n\nIl prodotto vettoriale di due vettori complanari non nulli è perpendicolare a quel piano, quindi esce dal piano dei fattori."
+    },
+    {
+      "id": "u1-0075",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Valori del coseno agli angoli notevoli",
+      "testo": "Il coseno di un angolo di 90° vale:",
+      "opzioni": [
+        "1",
+        "0,5",
+        "0",
+        "0,87",
+        "non è definito"
+      ],
+      "corretta": 2,
+      "spiegazione": "Mentre l'angolo passa da 0° a 90° il coseno decresce da 1 a 0: quindi cos 90° = 0, mentre sen 90° = 1. È la ragione per cui il prodotto scalare di due vettori perpendicolari è nullo e per cui una forza perpendicolare allo spostamento non compie lavoro.\n\nA) 1 è il valore del seno di 90°, oltre che del coseno di 0°: è lo scambio fra le due funzioni.\nB) 0,5 è il coseno di 60°.\nD) 0,87 è il coseno di 30°.\nE) A 90° non è definita la tangente, perché ha il coseno al denominatore; il coseno stesso è definito e vale zero."
+    },
+    {
+      "id": "u1-0076",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Unità di misura della potenza",
+      "testo": "Nel Sistema Internazionale l'unità di misura della potenza è il ……",
+      "accettate": [
+        "watt",
+        "w"
+      ],
+      "spiegazione": "Il watt è un'unità derivata: 1 W = 1 J/s, cioè kg·m²/s³ nelle unità fondamentali.\n\nAttenzione a non confondere potenza ed energia: il chilowattora, che compare nelle bollette, è il prodotto di una potenza per un tempo, quindi è un'energia e vale 3,6 × 10⁶ J."
+    },
+    {
+      "id": "u1-0077",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Vettori discordi",
+      "testo": "Due vettori che hanno la stessa direzione ma verso opposto si dicono:",
+      "opzioni": [
+        "concordi",
+        "complanari",
+        "perpendicolari",
+        "discordi",
+        "equiversi"
+      ],
+      "corretta": 3,
+      "spiegazione": "Avere la stessa direzione significa giacere su rette parallele; se i versi sono opposti i vettori si dicono discordi, e il modulo della loro somma è pari alla differenza dei moduli, cioè il minimo possibile.\n\nA) I vettori concordi hanno la stessa direzione e anche lo stesso verso.\nB) Complanari significa soltanto che giacciono nello stesso piano, e non dice nulla sulla direzione.\nC) I vettori perpendicolari formano un angolo retto, quindi non hanno la stessa direzione.\nE) Equiversi è sinonimo di concordi, quindi descrive il caso opposto a quello richiesto."
+    },
+    {
+      "id": "u1-0078",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Unità fondamentale dell'intensità luminosa",
+      "testo": "Nel Sistema Internazionale l'unità di misura fondamentale dell'intensità luminosa è la ……",
+      "accettate": [
+        "candela",
+        "candele",
+        "cd"
+      ],
+      "spiegazione": "La candela è la settima e ultima delle unità fondamentali del SI, insieme a metro, chilogrammo, secondo, ampere, kelvin e mole.\n\nMisura l'intensità luminosa emessa da una sorgente in una data direzione, tenendo conto della sensibilità dell'occhio umano: non è quindi una misura puramente energetica."
+    },
+    {
+      "id": "u1-0079",
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Scomposizione di un vettore lungo gli assi",
+      "testo": "Un vettore di modulo 20 forma un angolo di 30° con l'asse x. Le sue componenti cartesiane (vₓ; v_y) valgono circa:",
+      "opzioni": [
+        "(10; 17,3)",
+        "(20; 0)",
+        "(17,3; 17,3)",
+        "(10; 10)",
+        "(17,3; 10)"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le componenti sono vₓ = v cos 30° = 20 × 0,87 ≈ 17,3 e v_y = v sen 30° = 20 × 0,5 = 10. La verifica è immediata: √(17,3² + 10²) = √(300 + 100) = 20, cioè il modulo di partenza.\n\nA) (10; 17,3) scambia il seno con il coseno: sarebbe il vettore che forma 60° con l'asse x.\nB) (20; 0) descrive un vettore diretto lungo l'asse x, cioè il caso di angolo nullo.\nC) (17,3; 17,3) usa il coseno per entrambe le componenti, e darebbe un modulo di circa 24,5.\nD) (10; 10) usa il seno per entrambe, e darebbe un modulo di circa 14,1."
+    },
+    {
+      "id": "u1-0080",
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Grandezze adimensionali",
+      "testo": "Una grandezza definita come rapporto fra due grandezze omogenee, e perciò priva di unità di misura, si dice ……",
+      "accettate": [
+        "adimensionale",
+        "adimensionali",
+        "numero puro"
+      ],
+      "spiegazione": "Nel rapporto le dimensioni si semplificano: il coefficiente di attrito è il rapporto fra due forze, il radiante è il rapporto fra un arco e un raggio, l'indice di rifrazione è il rapporto fra due velocità.\n\nIl valore di una grandezza adimensionale è lo stesso in qualunque sistema di unità, purché numeratore e denominatore siano espressi nella stessa unità."
+    }
+  ]
+}
