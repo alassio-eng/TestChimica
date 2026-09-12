@@ -52,6 +52,7 @@ try {
 
     <h2>Altro</h2>
     <div class="row-buttons">
+      <button id="btn-browse" class="secondary" type="button">Sfoglia le domande</button>
       <button id="btn-errors" class="secondary" type="button">I miei errori</button>
       <button id="btn-stats" class="secondary" type="button">Statistiche</button>
       <button id="btn-data" class="secondary" type="button">Dati e backup</button>
@@ -81,6 +82,45 @@ try {
   </section>
 
   <!-- ══════════ ERRORI ══════════ -->
+  <!-- ══════════ SFOGLIO ══════════ -->
+  <section id="view-browse" class="view" hidden>
+    <details id="browse-filters" class="card">
+      <summary><span id="browse-count">…</span><span class="chev">Filtri</span></summary>
+      <p class="note">Qui niente viene registrato: le domande che leggi restano
+        «mai somministrate» e gli errori non entrano nel ripasso. È ripasso libero.</p>
+      <div class="filters">
+        <label>Unità
+          <select id="browse-unit"></select>
+        </label>
+        <label>Tipo
+          <select id="browse-type">
+            <option value="">tutti i tipi</option>
+            <option value="multipla">risposta multipla</option>
+            <option value="completamento">completamento</option>
+          </select>
+        </label>
+        <label>Stato
+          <select id="browse-state">
+            <option value="">tutte</option>
+            <option value="inedite">mai somministrate</option>
+            <option value="viste">già somministrate</option>
+            <option value="errori">che ho sbagliato</option>
+          </select>
+        </label>
+      </div>
+      <input id="browse-search" type="search" autocomplete="off"
+             placeholder="Cerca nel testo, nell'argomento o nella spiegazione">
+    </details>
+
+    <div id="browse-card"></div>
+
+    <div id="browse-nav" class="row-buttons">
+      <button id="browse-prev" class="secondary" type="button">&larr; Precedente</button>
+      <button id="browse-reveal" class="primary" type="button">Mostra la risposta</button>
+      <button id="browse-next" class="secondary" type="button">Successiva &rarr;</button>
+    </div>
+  </section>
+
   <section id="view-errors" class="view" hidden>
     <div id="errors-actions" class="row-buttons">
       <button id="btn-error-test" class="primary" type="button">Genera test di soli errori</button>

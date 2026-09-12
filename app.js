@@ -239,7 +239,11 @@ const unitaDi = m => (m && m.unita) || [];
 const unitaPerId = (m, id) => unitaDi(m).find(u => u.id === id);
 
 async function caricaBanco(forzaRete) {
-  const opt = forzaRete ? { cache: 'reload' } : {};
+  // 'reload' ignora ogni cache; 'no-cache' rivalida sempre col server e in
+  // caso di file immutato costa un 304. Senza, la cache HTTP del browser può
+  // servire un indice vecchio per tutta la durata del max-age, e i lotti
+  // appena pubblicati non compaiono.
+  const opt = { cache: forzaRete ? 'reload' : 'no-cache' };
   const leggi = async (url) => {
     const r = await fetch(url, opt);
     if (!r.ok) throw new Error(url + ' → ' + r.status);
@@ -495,7 +499,7 @@ function componiTestDaElenco(chiavi, limite) {
    6. Navigazione fra le schermate
    ---------------------------------------------------------- */
 
-const VIEWS = ['home', 'test', 'results', 'errors', 'stats', 'data'];
+const VIEWS = ['home', 'test', 'results', 'browse', 'errors', 'stats', 'data'];
 let vistaCorrente = 'home';
 
 function mostra(vista, titolo) {
@@ -928,6 +932,179 @@ function renderErrori() {
   }
 }
 
+/* ----------------------------------------------------------
+   10-bis. Sfoglio del banco
+
+   Ripasso libero: si scorrono le domande una per una, si può provare a
+   rispondere e vedere subito la correzione. Non tocca lo stato: nessuna
+   domanda viene marcata come somministrata, nessun errore entra nel
+   ripasso a 3 e 10 giorni. Il serbatoio delle inedite resta intatto,
+   così si può rileggere un'unità quante volte si vuole.
+   ---------------------------------------------------------- */
+
+const sfoglio = { elenco: [], i: 0, data: null, rivelata: false };
+
+function filtriSfoglio() {
+  return {
+    unita: $('#browse-unit').value,
+    tipo: $('#browse-type').value,
+    stato: $('#browse-state').value,
+    testo: normalizza($('#browse-search').value || '')
+  };
+}
+
+function elencoSfoglio() {
+  const m = M();
+  if (!m) return [];
+  const f = filtriSfoglio();
+  return m.domande.filter(q => {
+    if (f.unita && q.unita !== f.unita) return false;
+    if (f.tipo && q.tipo !== f.tipo) return false;
+    if (f.stato === 'inedite' && vistaDi(q)) return false;
+    if (f.stato === 'viste' && !vistaDi(q)) return false;
+    if (f.stato === 'errori' && !erroreDi(q)) return false;
+    if (f.testo) {
+      const campi = [q.testo, q.argomento, q.spiegazione,
+        ...(q.opzioni || []), ...(q.accettate || [])].join(' ');
+      if (!normalizza(campi).includes(f.testo)) return false;
+    }
+    return true;
+  });
+}
+
+function renderFiltriSfoglio() {
+  const m = M();
+  const sel = $('#browse-unit');
+  const scelto = sel.value;
+  sel.innerHTML = '';
+  const tutte = document.createElement('option');
+  tutte.value = ''; tutte.textContent = 'tutte le unità';
+  sel.appendChild(tutte);
+  unitaDi(m).forEach(u => {
+    const n = (m.perUnita[u.id] || []).length;
+    const o = document.createElement('option');
+    o.value = u.id;
+    o.textContent = `${u.id.toUpperCase()} · ${u.nome} (${n})`;
+    o.disabled = n === 0;
+    sel.appendChild(o);
+  });
+  if ([...sel.options].some(o => o.value === scelto)) sel.value = scelto;
+}
+
+function aggiornaSfoglio(mantieniPosizione) {
+  const precedente = sfoglio.elenco[sfoglio.i];
+  sfoglio.elenco = elencoSfoglio();
+  const i = mantieniPosizione && precedente
+    ? sfoglio.elenco.findIndex(q => q.id === precedente.id && q.materia === precedente.materia)
+    : -1;
+  vaiASfoglio(i >= 0 ? i : 0, true);
+}
+
+function vaiASfoglio(i, azzera) {
+  const n = sfoglio.elenco.length;
+  sfoglio.i = n ? Math.max(0, Math.min(n - 1, i)) : 0;
+  if (azzera !== false) { sfoglio.data = null; sfoglio.rivelata = false; }
+  renderSfoglio();
+}
+
+function rivelaSfoglio() {
+  sfoglio.rivelata = true;
+  renderSfoglio();
+}
+
+function renderSfoglio() {
+  const cont = $('#browse-card');
+  const n = sfoglio.elenco.length;
+  const m = M();
+  cont.innerHTML = '';
+
+  $('#browse-count').textContent = n
+    ? `Domanda ${sfoglio.i + 1} di ${n}${m ? ' · ' + m.nome : ''}`
+    : 'Nessuna domanda corrisponde ai filtri.';
+  $('#browse-prev').disabled = n === 0 || sfoglio.i === 0;
+  $('#browse-next').disabled = n === 0 || sfoglio.i >= n - 1;
+  $('#browse-reveal').disabled = n === 0 || sfoglio.rivelata;
+
+  if (!n) return;
+  const q = sfoglio.elenco[sfoglio.i];
+  const box = el('div', 'card browse-q');
+
+  const testa = el('div', 'qtype');
+  testa.textContent = (q.tipo === 'multipla' ? 'Risposta multipla' : 'Completamento') +
+    ' · ' + q.unita.toUpperCase() + (q.argomento ? ' · ' + q.argomento : '');
+  box.appendChild(testa);
+  const segni = el('div', 'browse-tags');
+  if (vistaDi(q)) segni.appendChild(el('span', 'tag', 'già somministrata'));
+  if (erroreDi(q) && !erroreDi(q).risolto) segni.appendChild(el('span', 'tag ko', 'sbagliata in passato'));
+  if (segni.children.length) box.appendChild(segni);
+  box.appendChild(el('div', 'qtext', q.testo));
+
+  const esatta = sfoglio.data !== null ? rispostaCorretta(q, sfoglio.data) : null;
+
+  if (q.tipo === 'multipla') {
+    const wrap = el('div', 'options');
+    q.opzioni.forEach((opt, i) => {
+      const scelta = sfoglio.data === i;
+      let cls = 'option';
+      if (scelta) cls += ' selected';
+      if (sfoglio.rivelata) {
+        if (i === q.corretta) cls += ' giusta';
+        else if (scelta) cls += ' sbagliata';
+      }
+      const b = el('button', cls);
+      b.type = 'button';
+      b.disabled = sfoglio.rivelata;
+      b.append(el('span', 'letter', String.fromCharCode(65 + i) + ')'), el('span', null, opt));
+      b.addEventListener('click', () => { sfoglio.data = i; rivelaSfoglio(); });
+      wrap.appendChild(b);
+    });
+    box.appendChild(wrap);
+  } else {
+    const wrap = el('div', 'fill-wrap');
+    const inp = document.createElement('input');
+    inp.type = 'text';
+    inp.autocomplete = 'off';
+    inp.autocapitalize = 'off';
+    inp.spellcheck = false;
+    inp.placeholder = 'la parola mancante';
+    inp.value = sfoglio.data || '';
+    inp.disabled = sfoglio.rivelata;
+    inp.addEventListener('input', () => { sfoglio.data = inp.value; });
+    inp.addEventListener('keydown', ev => {
+      if (ev.key === 'Enter') { sfoglio.data = inp.value; rivelaSfoglio(); }
+    });
+    wrap.appendChild(inp);
+    box.appendChild(wrap);
+  }
+
+  if (sfoglio.rivelata) {
+    const esito = el('div', 'browse-esito ' + (esatta === null ? 'neutro' : esatta ? 'ok' : 'ko'));
+    esito.textContent = esatta === null ? 'Risposta non data'
+      : esatta ? 'Risposta esatta' : 'Risposta sbagliata';
+    box.appendChild(esito);
+    if (q.tipo === 'completamento' && sfoglio.data && !esatta) {
+      box.appendChild(el('div', 'given', 'La tua risposta: ' + sfoglio.data));
+    }
+    box.appendChild(el('div', 'right', 'Corretta: ' + testoCorretto(q)));
+    box.appendChild(el('div', 'expl', q.spiegazione || '—'));
+  }
+
+  cont.appendChild(box);
+}
+
+function apriSfoglio(unitaIniziale) {
+  // i filtri ripartono puliti a ogni apertura: trovarsi ancora addosso la
+  // selezione di mezz'ora fa, magari su un'altra materia, fa sembrare che
+  // manchino delle domande.
+  renderFiltriSfoglio();
+  $('#browse-unit').value = unitaIniziale || '';
+  $('#browse-type').value = '';
+  $('#browse-state').value = '';
+  $('#browse-search').value = '';
+  aggiornaSfoglio(false);
+  mostra('browse', 'Sfoglia le domande');
+}
+
 function vociErrore(e, superata) {
   const q = banco.perId[e.chiave];
   const box = el('div', 'err-item');
@@ -1099,6 +1276,18 @@ function collega() {
   $('#btn-submit').addEventListener('click', consegna);
   $('#btn-results-home').addEventListener('click', () => { renderHome(); mostra('home'); });
 
+  $('#btn-browse').addEventListener('click', () => apriSfoglio());
+  ['#browse-unit', '#browse-type', '#browse-state'].forEach(sel =>
+    $(sel).addEventListener('change', () => aggiornaSfoglio(false)));
+  let ricercaTimer = null;
+  $('#browse-search').addEventListener('input', () => {
+    clearTimeout(ricercaTimer);
+    ricercaTimer = setTimeout(() => aggiornaSfoglio(false), 200);
+  });
+  $('#browse-prev').addEventListener('click', () => vaiASfoglio(sfoglio.i - 1));
+  $('#browse-next').addEventListener('click', () => vaiASfoglio(sfoglio.i + 1));
+  $('#browse-reveal').addEventListener('click', rivelaSfoglio);
+
   $('#btn-errors').addEventListener('click', () => { renderErrori(); mostra('errors', 'I miei errori'); });
   $('#btn-stats').addEventListener('click', () => { renderStats(); mostra('stats', 'Statistiche'); });
   $('#btn-data').addEventListener('click', () => { renderDati(); mostra('data', 'Dati e backup'); });
@@ -1138,6 +1327,19 @@ function collega() {
   });
 
   document.addEventListener('keydown', ev => {
+    if (vistaCorrente === 'browse') {
+      if (ev.target.tagName === 'INPUT' || ev.target.tagName === 'SELECT') return;
+      if (!sfoglio.elenco.length) return;
+      if (ev.key === 'ArrowRight') vaiASfoglio(sfoglio.i + 1);
+      if (ev.key === 'ArrowLeft') vaiASfoglio(sfoglio.i - 1);
+      if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); rivelaSfoglio(); }
+      const qs = sfoglio.elenco[sfoglio.i];
+      if (qs.tipo === 'multipla' && !sfoglio.rivelata && /^[a-eA-E]$/.test(ev.key)) {
+        const i = ev.key.toLowerCase().charCodeAt(0) - 97;
+        if (i < qs.opzioni.length) { sfoglio.data = i; rivelaSfoglio(); }
+      }
+      return;
+    }
     if (vistaCorrente !== 'test' || !sessione) return;
     if (ev.target.tagName === 'INPUT') return;
     if (ev.key === 'ArrowRight') vaiA(sessione.indice + 1);

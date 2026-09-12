@@ -5,7 +5,7 @@
    Il banco è multi-materia: si parte dal manifest questions/index.json,
    si leggono gli indici delle singole materie e da lì i loro lotti. */
 
-const VERSIONE = 'v8';
+const VERSIONE = 'v10';
 const CACHE_SHELL = 'banco-chimica-shell-' + VERSIONE;
 const CACHE_DATI = 'banco-chimica-dati-' + VERSIONE;
 
@@ -42,11 +42,21 @@ async function cacheDomande() {
 }
 
 self.addEventListener('install', ev => {
+  // sincrono e per primo: chiamato in fondo a una catena di await, Chromium
+  // lascia il nuovo service worker in attesa e la versione appena pubblicata
+  // entra in funzione solo alla chiusura successiva dell'app.
+  self.skipWaiting();
   ev.waitUntil((async () => {
     const cache = await caches.open(CACHE_SHELL);
-    await cache.addAll(SHELL);
+    // cache.addAll() userebbe la cache HTTP del browser e potrebbe congelare
+    // nel guscio nuovo i file della versione precedente: 'reload' garantisce
+    // che a essere messo in cache sia davvero ciò che il server ha adesso.
+    await Promise.all(SHELL.map(async url => {
+      const r = await fetch(url, { cache: 'reload' });
+      if (!r.ok) throw new Error(url + ' → ' + r.status);
+      await cache.put(url, r);
+    }));
     try { await cacheDomande(); } catch (e) { /* offline al primo avvio */ }
-    self.skipWaiting();
   })());
 });
 
@@ -90,7 +100,9 @@ self.addEventListener('fetch', ev => {
     ev.respondWith((async () => {
       const cache = await caches.open(CACHE_DATI);
       try {
-        const r = await fetch(req);
+        // 'no-cache' rivalida col server invece di accontentarsi della cache
+        // HTTP: è ciò che fa comparire un lotto nuovo alla prima apertura.
+        const r = await fetch(req.url, { cache: 'no-cache' });
         if (r.ok) cache.put(req, r.clone());
         return r;
       } catch (e) {

@@ -35,6 +35,13 @@ esportazione e importazione di un file JSON.
   scorciatoie da tastiera (`A`–`E`, frecce).
 - **Alla consegna**: punteggio, resa per unità didattica, e per ogni domanda la
   risposta data, quella corretta e la spiegazione completa.
+- **Sfoglia le domande**: ripasso libero sull'intero banco della materia, una
+  domanda per volta, con filtri per unità, tipo e stato (mai somministrate, già
+  viste, sbagliate) e ricerca nel testo, nell'argomento e nella spiegazione. Si
+  può provare a rispondere e vedere subito correzione e spiegazione, oppure
+  scoprire direttamente la risposta. **Non tocca lo storico**: nulla viene
+  marcato come somministrato, nessun errore entra nel ripasso, il serbatoio
+  delle inedite resta intatto e un'unità si può rileggere quante volte si vuole.
 - **I miei errori**: elenco delle sbagliate ordinate per scadenza di ripasso,
   pulsante per generare un test di soli errori.
 - **Ripescaggio automatico a 3 e a 10 giorni** dall'errore. La schermata
@@ -129,6 +136,24 @@ contiene domande di una sola unità, e il validatore lo verifica.
 
 Se cambia qualcosa in `index.html`, `app.js`, `style.css` o `sw.js`, alzare la
 costante `VERSIONE` in `sw.js`: è ciò che invalida la cache offline.
+
+### Come arriva un aggiornamento sui dispositivi
+
+Tre accorgimenti, tutti e tre necessari, e ciascuno è stato una volta un bug:
+
+- i file delle domande si chiedono con `cache: 'no-cache'`, non con la
+  richiesta normale: GitHub Pages manda `max-age=600` e senza rivalidazione un
+  lotto appena pubblicato resta invisibile finché la cache HTTP non scade;
+- il guscio si mette in cache con `cache: 'reload'` file per file invece che
+  con `cache.addAll()`, che pescherebbe dalla stessa cache HTTP e congelerebbe
+  nella cache nuova i file della versione precedente;
+- `self.skipWaiting()` è la **prima** istruzione dell'evento `install`: chiamata
+  in fondo a una catena di `await`, Chromium la ignora e il service worker nuovo
+  resta in attesa, così la versione appena pubblicata entra in funzione solo
+  alla chiusura successiva dell'app.
+
+`test-lotto-nuovo.js` nella cronologia di sviluppo riproduce il caso completo:
+server con `max-age=600`, app già installata, lotto pubblicato dopo.
 
 ## Pubblicazione su GitHub Pages
 
