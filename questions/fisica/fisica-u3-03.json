@@ -1,0 +1,148 @@
+{
+  "lotto": "fisica-u3-03",
+  "unita": "u3",
+  "generato": "2026-09-14",
+  "domande": [
+    {
+      "id": "u3-0101",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Calcolo della massa a partire dalla densità",
+      "testo": "Un recipiente contiene 2,0 litri di un liquido di densità 0,80 g/cm³. La massa del liquido vale:",
+      "opzioni": [
+        "1,6 kg",
+        "2,5 kg",
+        "0,40 kg",
+        "2,0 kg",
+        "16 kg"
+      ],
+      "corretta": 0,
+      "spiegazione": "Dalla definizione di densità segue m = ρ·V. Conviene lavorare in unità coerenti: 0,80 g/cm³ = 800 kg/m³ e 2,0 L = 2,0 × 10⁻³ m³, quindi m = 800 × 2,0 × 10⁻³ = 1,6 kg. Lo stesso risultato si ottiene in g/cm³: 0,80 × 2000 cm³ = 1600 g.\n\nB) 2,5 kg divide il volume per la densità invece di moltiplicare: è il rapporto rovesciato.\nC) 0,40 kg divide la densità per il numero di litri, un'operazione priva di senso dimensionale.\nD) 2,0 kg usa la densità dell'acqua, come se i litri dessero direttamente i chilogrammi.\nE) 16 kg sbaglia di un fattore dieci la conversione fra litri e centimetri cubi."
+    },
+    {
+      "id": "u3-0102",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Definizione del pascal",
+      "testo": "Un pascal equivale a un newton su metro ……",
+      "accettate": [
+        "quadrato",
+        "quadrati",
+        "quadro"
+      ],
+      "spiegazione": "La pressione è una forza divisa per un'area, quindi 1 Pa = 1 N/m². È un'unità piccola rispetto alle pressioni ordinarie: la pressione atmosferica normale vale 101 325 Pa, cioè circa 10⁵ Pa. Espresso nelle unità fondamentali del Sistema Internazionale, il pascal corrisponde a kg·m⁻¹·s⁻²."
+    },
+    {
+      "id": "u3-0103",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Galleggiamento: carico massimo sostenibile",
+      "testo": "Una zattera di legno di densità 600 kg/m³ e volume 2,0 m³ galleggia in acqua di densità 1000 kg/m³. La massa del carico massimo che può sostenere senza immergersi completamente vale:",
+      "opzioni": [
+        "1200 kg",
+        "800 kg",
+        "2000 kg",
+        "400 kg",
+        "3200 kg"
+      ],
+      "corretta": 1,
+      "spiegazione": "La spinta è massima quando la zattera è tutta immersa e corrisponde al peso di 2,0 m³ d'acqua, cioè a una massa di 1000 × 2,0 = 2000 kg. La zattera da sola ha massa 600 × 2,0 = 1200 kg, quindi il carico aggiuntivo massimo ha massa 2000 − 1200 = 800 kg.\n\nA) 1200 kg è la massa della zattera stessa, non del carico che può portare.\nC) 2000 kg è la massa d'acqua spostata a immersione completa: dimentica di sottrarre il peso della zattera.\nD) 400 kg userebbe un volume di 1,0 m³, cioè metà di quello indicato.\nE) 3200 kg somma le due masse invece di sottrarle."
+    },
+    {
+      "id": "u3-0104",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Enunciato del principio di Pascal",
+      "testo": "Il principio di Pascal afferma che:",
+      "opzioni": [
+        "la pressione in un liquido in quiete cresce proporzionalmente alla profondità",
+        "un corpo immerso riceve una spinta pari al peso del fluido spostato",
+        "una variazione di pressione si trasmette inalterata in tutto il fluido",
+        "la portata di un fluido incomprimibile si conserva lungo il condotto",
+        "la pressione sul fondo non dipende dalla forma del recipiente"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il principio di Pascal riguarda la trasmissione delle variazioni di pressione: se si aumenta la pressione in un punto di un fluido incomprimibile, lo stesso aumento si ritrova identico in ogni altro punto del fluido e sulle pareti del recipiente. È il principio su cui si fondano il torchio e i freni idraulici.\n\nA) è l'enunciato della legge di Stevino.\nB) è l'enunciato del principio di Archimede.\nD) è l'equazione di continuità, che riguarda i fluidi in movimento.\nE) è il paradosso idrostatico, una conseguenza della legge di Stevino."
+    },
+    {
+      "id": "u3-0105",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Spazio sovrastante la colonna nell'esperimento di Torricelli",
+      "testo": "Nel tubo dell'esperimento di Torricelli, sopra la colonna di mercurio, si trova praticamente il ……",
+      "accettate": [
+        "vuoto",
+        "vuoto torricelliano"
+      ],
+      "spiegazione": "Capovolgendo nella bacinella il tubo pieno di mercurio, il livello scende finché il peso della colonna non è equilibrato dalla pressione atmosferica che agisce sulla superficie libera esterna: in cima resta uno spazio privo d'aria, occupato soltanto da una quantità trascurabile di vapori di mercurio. Se lì sopra ci fosse un gas, la sua pressione si sommerebbe e la colonna non misurerebbe più la sola pressione atmosferica."
+    },
+    {
+      "id": "u3-0106",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Bernoulli: termine di quota in un condotto a sezione costante",
+      "testo": "Un fluido ideale scorre in un condotto di sezione costante il cui tratto finale si trova più in alto di quello iniziale. Nel tratto in quota, rispetto a quello iniziale, il fluido ha:",
+      "opzioni": [
+        "velocità maggiore e pressione minore",
+        "velocità minore e pressione maggiore",
+        "velocità e pressione entrambe invariate",
+        "stessa velocità e pressione minore",
+        "stessa velocità e pressione maggiore"
+      ],
+      "corretta": 3,
+      "spiegazione": "La sezione non cambia, quindi per l'equazione di continuità la velocità resta la stessa e il termine ½ρv² è costante. Perché la somma p + ρgh si conservi, all'aumentare della quota h la pressione p deve diminuire. È il motivo per cui l'acqua arriva con meno pressione ai piani alti di un edificio.\n\nA) fa variare la velocità, che a sezione costante non può cambiare.\nB) fa variare la velocità nel verso opposto e per di più aumenta la pressione salendo.\nC) trascura del tutto il termine di quota, come se il condotto fosse orizzontale.\nE) riconosce che la velocità non cambia ma sbaglia il verso della variazione di pressione: salendo la pressione si perde, non si guadagna."
+    },
+    {
+      "id": "u3-0107",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Portata di massa",
+      "testo": "La massa di fluido che attraversa una sezione del condotto nell'unità di tempo si chiama portata ……",
+      "accettate": [
+        "di massa",
+        "massica"
+      ],
+      "spiegazione": "La portata di massa si misura in kg/s e si ottiene moltiplicando la portata volumetrica per la densità: Q_m = ρ·Q. In un fluido incomprimibile le due portate sono proporzionali e si conservano insieme; in un fluido comprimibile a conservarsi lungo il condotto è la portata di massa, non quella volumetrica."
+    },
+    {
+      "id": "u3-0108",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Linee di flusso",
+      "testo": "Le curve tangenti in ogni punto alla velocità del fluido, che in moto stazionario non si intersecano mai, si chiamano linee di ……",
+      "accettate": [
+        "flusso",
+        "corrente"
+      ],
+      "spiegazione": "In moto stazionario le linee di flusso coincidono con le traiettorie delle particelle e non cambiano nel tempo. Che non si intersechino discende dall'unicità della velocità in ogni punto: in un eventuale incrocio il fluido dovrebbe avere contemporaneamente due velocità diverse. Dove le linee si infittiscono la sezione del tubo di flusso è minore e la velocità è maggiore."
+    },
+    {
+      "id": "u3-0109",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Legge di Poiseuille: dipendenza dalla viscosità",
+      "testo": "In un condotto cilindrico percorso da un fluido viscoso in regime laminare, a parità di geometria e di caduta di pressione ai capi, se la viscosità del fluido raddoppia la portata:",
+      "opzioni": [
+        "raddoppia",
+        "resta invariata",
+        "si riduce a un quarto",
+        "diventa sedici volte minore",
+        "si dimezza"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nella legge di Poiseuille Q = πR⁴Δp/(8ηL) la viscosità compare al denominatore alla prima potenza: raddoppiandola, a parità di tutto il resto, la portata si dimezza.\n\nA) inverte la relazione: un fluido più viscoso scorre con più difficoltà, non con più facilità.\nB) suppone che la viscosità non influisca sulla portata, il che vale solo nel modello di fluido ideale, dove però non c'è caduta di pressione.\nC) attribuisce alla viscosità una dipendenza quadratica che la legge non prevede.\nD) è l'effetto del dimezzamento del raggio, che entra alla quarta potenza: la viscosità non ha quel peso."
+    },
+    {
+      "id": "u3-0110",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Forma del menisco nei liquidi che bagnano",
+      "testo": "In un capillare di vetro immerso nell'acqua il menisco assume forma ……",
+      "accettate": [
+        "concava",
+        "concavo"
+      ],
+      "spiegazione": "L'acqua bagna il vetro perché le forze di adesione fra liquido e parete prevalgono su quelle di coesione fra le molecole d'acqua: il liquido risale lungo la parete e la superficie libera resta più bassa al centro, cioè concava. Con il mercurio accade il contrario: prevalgono le forze di coesione, il menisco è convesso e il livello nel capillare scende sotto quello esterno."
+    }
+  ]
+}

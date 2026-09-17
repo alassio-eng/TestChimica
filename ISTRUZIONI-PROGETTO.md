@@ -213,24 +213,28 @@ e le ripetizioni arrivano.
 
 Regole per queste chat:
 
-- **una chat possiede una sola unità** e la porta fino all'obiettivo, un lotto
-  da 50 alla volta;
-- **nessuna chat tocca `index.json`.** Produce solo il file del lotto.
-  L'inserimento nell'array `lotti` avviene una volta sola, a valle;
-- a ogni lotto successivo, **ricordale l'ultimo id usato e l'ultimo nome di
-  file**: è più affidabile che sperare se lo ricordi, e in una chat lunga il
-  primo lotto può essere uscito dal contesto;
-- chiedile di **tenere l'elenco degli argomenti già coperti** e di
-  ripartire da lì, altrimenti il secondo lotto ripete i concetti facili del
-  primo.
+- **una chat possiede una sola unità** e la porta all'obiettivo per intero;
+- il testo di apertura le consegna il **piano completo dei file**: quanti sono,
+  come si chiamano, quante domande ciascuno e con quali id. Non resta niente da
+  ricordare a memoria, ed è ciò che impedisce il difetto tipico — il secondo
+  file che ricomincia la numerazione da `uN-0001`;
+- **prima di scrivere**, la chat propone la ripartizione delle domande fra gli
+  argomenti del syllabus e si ferma. Approvare quella ripartizione costa due
+  minuti ed è ciò che evita il primo file pieno di concetti facili e l'ultimo
+  pieno di ripetizioni;
+- poi **un file per volta**: lo consegna, tu lo validi, le dici «prossimo».
+  Non anticipa e non riapre i file già consegnati;
+- **nessuna chat tocca `index.json`.** L'inserimento nell'array `lotti` avviene
+  a valle, una volta sola.
 
 Il messaggio di apertura di ciascuna chat non va scritto a mano: lo stampa il
-repository, con il nome del file e il primo id libero già calcolati sui dati
-veri.
+repository, col piano dei file calcolato sui dati veri. `APERTURA-CHAT.md` li
+contiene tutti, già pronti; si rigenera dopo ogni integrazione.
 
 ```bash
 python3 tools/prossimo.py                  # quadro di tutte le materie
 python3 tools/prossimo.py biologia u3      # testo da incollare nella chat
+python3 tools/prossimo.py --tutti > APERTURA-CHAT.md
 ```
 
 L'ordine in cui riempire le unità è **prima la larghezza, poi la profondità**:

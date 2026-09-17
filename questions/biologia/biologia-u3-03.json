@@ -1,0 +1,752 @@
+{
+  "lotto": "biologia-u3-03",
+  "unita": "u3",
+  "generato": "2026-09-14",
+  "domande": [
+    {
+      "id": "u3-0101",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Fedeltà della replicazione",
+      "testo": "Che cosa comporta la perdita dell'attività di correzione di bozze di una DNA polimerasi replicativa?",
+      "opzioni": [
+        "L'arresto immediato della forcella, che non riesce più ad avanzare lungo lo stampo",
+        "La sintesi del solo filamento continuo, mentre quello discontinuo non viene più prodotto",
+        "L'incorporazione di ribonucleotidi al posto dei desossiribonucleotidi nella catena",
+        "Un forte aumento del tasso di errore, perché gli appaiamenti sbagliati restano",
+        "La perdita della capacità di allungare la catena a partire da un innesco a RNA"
+      ],
+      "corretta": 3,
+      "spiegazione": "La selezione del nucleotide corretto in fase di incorporazione lascia passare un errore ogni centomila circa; la correzione di bozze abbassa quel valore di circa due ordini di grandezza. Se viene a mancare, la polimerasi continua a sintetizzare ma con una frequenza di errore molto più alta.\n\nA) La correzione è un controllo di qualità, non un requisito dell'avanzamento: la sintesi prosegue lo stesso.\nB) La discontinuità del filamento in ritardo dipende dalla polarità degli stampi e non dall'attività esonucleasica.\nC) La discriminazione fra ribonucleotidi e desossiribonucleotidi dipende dal sito di incorporazione, non dal sito di correzione.\nE) Il riconoscimento dell'innesco è indipendente dall'attività di correzione."
+    },
+    {
+      "id": "u3-0102",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Bolla di replicazione",
+      "testo": "La regione compresa fra due forcelle divergenti, in cui i filamenti sono separati e la sintesi è in corso, si chiama ……",
+      "accettate": [
+        "bolla di replicazione",
+        "bolla",
+        "bolle di replicazione",
+        "occhio di replicazione"
+      ],
+      "spiegazione": "La bolla si allarga man mano che le due forcelle si allontanano dall'origine; negli eucarioti bolle nate da origini vicine finiscono per incontrarsi e fondersi, fino al completamento della duplicazione del cromosoma.\n\nNon va confusa con la bolla di trascrizione, che è molto più piccola, accompagna l'RNA polimerasi e si richiude subito dietro di essa."
+    },
+    {
+      "id": "u3-0103",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Replicazione e trascrizione a confronto",
+      "testo": "Quale differenza distingue la replicazione dalla trascrizione?",
+      "opzioni": [
+        "La replicazione copia entrambi i filamenti, la trascrizione un tratto di uno solo",
+        "La replicazione procede in direzione 3'→5', la trascrizione in direzione 5'→3'",
+        "La replicazione richiede uno stampo, la trascrizione produce RNA senza stampo",
+        "La replicazione avviene nel citoplasma, mentre la trascrizione avviene nel nucleo cellulare",
+        "La replicazione riguarda solo i geni attivi, la trascrizione l'intero genoma"
+      ],
+      "corretta": 0,
+      "spiegazione": "La replicazione duplica per intero la molecola e produce due doppie eliche complete; la trascrizione copia selettivamente un segmento, leggendo per quel gene un solo filamento, e lascia il DNA immutato.\n\nB) Entrambi i processi sintetizzano la nuova catena in direzione 5'→3'.\nC) Anche la trascrizione richiede uno stampo: è il filamento del DNA che l'RNA polimerasi legge.\nD) Negli eucarioti entrambi i processi avvengono nel nucleo.\nE) È l'inverso: la trascrizione riguarda i geni attivi in quel momento, la replicazione l'intero genoma."
+    },
+    {
+      "id": "u3-0104",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Filamento in ritardo",
+      "testo": "Il filamento neosintetizzato costruito a tratti successivi, la cui sintesi procede in verso opposto all'avanzamento della forcella, si chiama filamento ……",
+      "accettate": [
+        "in ritardo",
+        "ritardato",
+        "lento",
+        "discontinuo",
+        "lagging"
+      ],
+      "spiegazione": "Su questo filamento lo stampo si rende disponibile nella direzione sbagliata rispetto al verso di allungamento della polimerasi: ogni volta che si apre un nuovo tratto occorre un nuovo innesco e un nuovo frammento.\n\nI frammenti vengono poi privati dell'innesco, completati con DNA e saldati dalla ligasi: il risultato finale è un filamento continuo come l'altro, che si distingue solo per il modo in cui è stato costruito."
+    },
+    {
+      "id": "u3-0105",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Direzione dei frammenti di Okazaki",
+      "testo": "In quale verso viene allungato ciascun frammento di Okazaki rispetto al movimento della forcella replicativa?",
+      "opzioni": [
+        "Nello stesso verso della forcella, come avviene per il filamento continuo",
+        "In direzione 3'→5', l'unica compatibile con l'orientamento di quello stampo",
+        "In verso perpendicolare all'asse della doppia elica, verso l'esterno della bolla",
+        "In verso variabile, deciso di volta in volta dalla primasi al momento dell'innesco",
+        "In verso opposto a quello della forcella, pur crescendo come sempre da 5' a 3'"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ogni frammento cresce da 5' a 3', come qualunque catena di DNA, ma poiché lo stampo di quel filamento ha orientamento opposto, la sintesi si allontana dalla forcella anziché seguirla: è il motivo per cui va reiniziata a ogni tratto di stampo che si rende disponibile.\n\nA) Se procedesse nello stesso verso della forcella non ci sarebbe alcun bisogno di frammenti.\nB) Nessuna DNA polimerasi allunga in direzione 3'→5'.\nC) La sintesi segue l'asse della molecola stampo, non una direzione trasversale.\nD) Il verso è imposto dalla chimica della polimerasi e dall'orientamento dello stampo: non è una scelta della primasi."
+    },
+    {
+      "id": "u3-0106",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Prodotto della polimerizzazione",
+      "testo": "Quando un nucleotide viene aggiunto alla catena di DNA in crescita, dei suoi tre gruppi fosfato due vengono rilasciati insieme sotto forma di ……",
+      "accettate": [
+        "pirofosfato",
+        "pirofosfati",
+        "difosfato inorganico"
+      ],
+      "spiegazione": "L'attacco del 3'-OH della catena avviene sul fosfato più vicino allo zucchero: il legame fosfodiestere si forma e i due fosfati restanti si staccano uniti. La loro successiva idrolisi in due fosfati inorganici rende la reazione praticamente irreversibile.\n\nÈ la ragione per cui i substrati della polimerizzazione sono nucleosidi trifosfato e non nucleotidi semplici: l'energia della reazione è già contenuta nel substrato."
+    },
+    {
+      "id": "u3-0107",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Ruolo della DNA ligasi",
+      "testo": "Che cosa accadrebbe se la DNA ligasi fosse inattiva durante la replicazione?",
+      "opzioni": [
+        "La forcella non si aprirebbe, perché l'elicasi non riuscirebbe a separare i filamenti",
+        "Il filamento in ritardo resterebbe frammentato, con interruzioni fra i tratti",
+        "Non verrebbe sintetizzato alcun innesco a RNA e la replicazione non comincerebbe",
+        "I nucleotidi verrebbero incorporati in modo casuale, senza rispettare l'appaiamento",
+        "Entrambi i filamenti figli sarebbero costituiti da RNA anziché da DNA"
+      ],
+      "corretta": 1,
+      "spiegazione": "La ligasi interviene alla fine, quando gli inneschi sono già stati sostituiti con DNA: senza di essa i frammenti resterebbero accostati ma non uniti covalentemente, e il filamento in ritardo non diventerebbe mai una catena continua.\n\nA) L'apertura dell'elica dipende dall'elicasi e non richiede la ligasi.\nC) Gli inneschi sono opera della primasi.\nD) La fedeltà dell'appaiamento dipende dalla polimerasi e dalla sua correzione di bozze.\nE) L'RNA degli inneschi viene comunque rimosso e sostituito con DNA: è un passaggio indipendente dalla saldatura finale."
+    },
+    {
+      "id": "u3-0108",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Antiparallelismo",
+      "testo": "I due filamenti della doppia elica corrono in direzioni opposte, uno da 5' a 3' e l'altro da 3' a 5': si dicono perciò ……",
+      "accettate": [
+        "antiparalleli",
+        "antiparallele",
+        "antiparallelo",
+        "antiparallela"
+      ],
+      "spiegazione": "L'antiparallelismo è la conseguenza strutturale dell'appaiamento fra le basi ed è la ragione per cui la replicazione non può procedere allo stesso modo sui due filamenti: da qui la distinzione fra filamento continuo e filamento in ritardo.\n\nLo stesso principio vale nell'appaiamento fra codone e anticodone e in quello fra il filamento stampo e l'RNA trascritto: ogni ibrido fra due catene di acido nucleico è antiparallelo."
+    },
+    {
+      "id": "u3-0109",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Complesso d'inizio della replicazione",
+      "testo": "Qual è la funzione del complesso proteico che si assembla sull'origine di replicazione?",
+      "opzioni": [
+        "Trascrivere l'origine in un RNA che serve da innesco a tutte le forcelle del cromosoma",
+        "Tagliare il DNA in corrispondenza dell'origine per separare i due cromatidi fratelli",
+        "Riconoscere l'origine, aprire localmente l'elica e caricarvi gli enzimi della replicazione",
+        "Rimuovere gli istoni dall'intero cromosoma prima che la duplicazione abbia inizio",
+        "Contare il numero di duplicazioni già avvenute e interrompere il processo al termine"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le proteine che riconoscono l'origine destabilizzano la doppia elica in quel punto e fungono da piattaforma per il caricamento dell'elicasi, che a sua volta consente l'arrivo della primasi e delle polimerasi: da lì si organizzano le due forcelle.\n\nA) L'innesco è sintetizzato dalla primasi a ogni forcella, e non una volta per tutte sull'origine.\nB) La separazione dei cromatidi fratelli avviene nella mitosi, non all'inizio della replicazione.\nD) La cromatina viene riorganizzata localmente al passaggio della forcella, non rimossa in blocco dal cromosoma.\nE) Nessun complesso conta le duplicazioni: il controllo dipende dallo stato delle origini."
+    },
+    {
+      "id": "u3-0110",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Telomerasi e proliferazione illimitata",
+      "testo": "Perché la maggior parte delle cellule tumorali riesce a dividersi un numero indefinito di volte?",
+      "opzioni": [
+        "Perché esprime la telomerasi e mantiene così la lunghezza dei propri telomeri",
+        "Perché replica il DNA senza mai perdere nucleotidi alle estremità dei cromosomi",
+        "Perché possiede cromosomi circolari, che non pongono il problema delle estremità",
+        "Perché le sue DNA polimerasi sono capaci di partire senza alcun innesco a RNA",
+        "Perché sostituisce il DNA telomerico perduto con sequenze prese da altri cromosomi"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nelle cellule somatiche la telomerasi è quasi inattiva e l'accorciamento progressivo porta alla senescenza replicativa; la grande maggioranza delle cellule tumorali ne riattiva l'espressione e aggira quel limite.\n\nB) La perdita alle estremità dipende dal meccanismo stesso della replicazione e riguarda anche le cellule tumorali: ciò che cambia è la compensazione.\nC) I cromosomi delle cellule umane, normali o tumorali, sono lineari.\nD) L'innesco a RNA è indispensabile per qualunque DNA polimerasi.\nE) Non esiste un meccanismo ordinario di questo tipo: sarebbe una fonte di instabilità, non una soluzione."
+    },
+    {
+      "id": "u3-0111",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Telomero",
+      "testo": "L'insieme del DNA ripetitivo terminale e delle proteine che vi si associano, che protegge l'estremità di un cromosoma lineare, si chiama ……",
+      "accettate": [
+        "telomero",
+        "telomeri"
+      ],
+      "spiegazione": "Il telomero non contiene geni: la sua funzione è strutturale e consiste nel far sì che l'estremità non venga interpretata dalla cellula come una rottura del DNA da riparare.\n\nIl suo accorciamento a ogni divisione funziona come un contatore: quando scende sotto una soglia critica la cellula esce definitivamente dal ciclo ed entra in senescenza replicativa."
+    },
+    {
+      "id": "u3-0112",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Sito di inizio della trascrizione",
+      "testo": "Da quale punto comincia il trascritto primario di un gene?",
+      "opzioni": [
+        "Dal primo nucleotide del promotore, che viene copiato insieme al resto del gene",
+        "Dalla TATA box, che costituisce l'inizio della sequenza trascritta",
+        "Dal codone AUG, che segna contemporaneamente l'inizio della trascrizione e della traduzione",
+        "Dal sito di inizio, posto a valle del promotore e indicato convenzionalmente come +1",
+        "Dall'enhancer più vicino, da cui la polimerasi comincia a scorrere lungo il DNA"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il promotore serve a posizionare la polimerasi ma non viene trascritto: la sintesi dell'RNA comincia dal nucleotide convenzionalmente numerato +1, rispetto al quale gli elementi del promotore sono in posizione negativa.\n\nA) Se il promotore fosse trascritto, ogni messaggero porterebbe in testa la propria sequenza regolativa.\nB) La TATA box appartiene al promotore e si trova a monte del +1.\nC) L'AUG è interno al trascritto e riguarda la traduzione: prima di esso c'è la regione non tradotta al 5'.\nE) L'enhancer può trovarsi molto lontano e non è il punto di partenza della trascrizione."
+    },
+    {
+      "id": "u3-0113",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "mRNA monocistronico",
+      "testo": "Un mRNA che porta l'informazione per una sola proteina, come accade di regola negli eucarioti, si dice ……",
+      "accettate": [
+        "monocistronico",
+        "monocistronica",
+        "monocistronici"
+      ],
+      "spiegazione": "A un trascritto corrisponde una proteina: la regolazione coordinata di più geni, che nei batteri è garantita dall'organizzazione in operoni, negli eucarioti si ottiene condividendo gli stessi elementi regolativi e gli stessi fattori di trascrizione.\n\nIl termine cistrone è sinonimo di unità genica codificante una catena polipeptidica: monocistronico significa quindi che il messaggero contiene una sola di queste unità."
+    },
+    {
+      "id": "u3-0114",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Operone lac: massima espressione",
+      "testo": "In quale condizione l'operone lac raggiunge il massimo livello di trascrizione?",
+      "opzioni": [
+        "Glucosio abbondante e lattosio assente dal terreno di coltura",
+        "Lattosio presente e glucosio assente dal terreno di coltura",
+        "Glucosio e lattosio entrambi presenti in quantità elevata",
+        "Glucosio e lattosio entrambi assenti dal terreno di coltura",
+        "Glucosio abbondante e lattosio presente solo in tracce"
+      ],
+      "corretta": 1,
+      "spiegazione": "Servono due condizioni simultanee: l'allolattosio derivato dal lattosio stacca il repressore dall'operatore, e la scarsità di glucosio mantiene alto il cAMP, così che CAP si leghi e renda efficiente il promotore. Solo allora il controllo negativo è rimosso e quello positivo è attivo.\n\nA) Senza lattosio il repressore resta sull'operatore e l'operone è spento.\nC) Con glucosio abbondante il cAMP è basso e la trascrizione resta modesta anche se il repressore è staccato.\nD) In assenza di lattosio l'operone è spento, a prescindere dal livello di cAMP.\nE) Tracce di lattosio non bastano a derepimere l'operone e il glucosio tiene comunque basso il cAMP."
+    },
+    {
+      "id": "u3-0115",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Operone lac: la permeasi",
+      "testo": "Il trasportatore di membrana codificato dall'operone lac, che fa entrare il lattosio nella cellula batterica, è la lattosio ……",
+      "accettate": [
+        "permeasi",
+        "permeasi lattosio",
+        "lattosio permeasi"
+      ],
+      "spiegazione": "L'operone comprende tre geni strutturali: oltre alla β-galattosidasi che scinde il lattosio, la permeasi che lo importa e una transacetilasi il cui ruolo fisiologico è meno definito.\n\nÈ una disposizione tipicamente efficiente: enzima catabolico e trasportatore del substrato sono trascritti insieme e compaiono nella cellula nello stesso momento, quando servono."
+    },
+    {
+      "id": "u3-0116",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Controllo negativo e positivo",
+      "testo": "Come si classificano i due meccanismi che regolano l'operone lac?",
+      "opzioni": [
+        "Il repressore esercita un controllo positivo e CAP un controllo negativo",
+        "Entrambi esercitano un controllo negativo, su bersagli diversi del promotore",
+        "Entrambi esercitano un controllo positivo, attivando la polimerasi in momenti diversi",
+        "Il repressore esercita un controllo epigenetico e CAP un controllo trascrizionale",
+        "Il repressore esercita un controllo negativo e CAP un controllo positivo"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il repressore, legandosi all'operatore, impedisce la trascrizione: è un regolatore negativo, e l'induttore lo rimuove. CAP, legandosi a monte del promotore, aumenta il reclutamento della polimerasi: è un regolatore positivo, attivato dal cAMP.\n\nA) Attribuzione invertita rispetto al funzionamento reale dei due regolatori.\nB) CAP non blocca nulla: la sua assenza lascia il promotore poco efficiente, ma il suo legame stimola.\nC) Il repressore riduce la trascrizione, quindi non può essere un regolatore positivo.\nD) Nessuno dei due agisce modificando la cromatina: entrambi si legano direttamente al DNA e regolano la trascrizione."
+    },
+    {
+      "id": "u3-0117",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Operoni inducibili",
+      "testo": "Un operone normalmente spento, che viene acceso dalla comparsa del substrato da metabolizzare come accade per il lac, si dice operone ……",
+      "accettate": [
+        "inducibile",
+        "inducibili",
+        "induttivo"
+      ],
+      "spiegazione": "Negli operoni inducibili il repressore è attivo per conto proprio e viene inattivato dall'induttore: la presenza della molecola da degradare accende la produzione degli enzimi che servono a degradarla.\n\nIl caso opposto è quello degli operoni reprimibili, tipici delle vie biosintetiche: lì il prodotto finale della via attiva il repressore e spegne la sintesi degli enzimi quando il prodotto è già abbondante."
+    },
+    {
+      "id": "u3-0118",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Promotore prossimale",
+      "testo": "Che cosa sono gli elementi del promotore prossimale di un gene eucariotico?",
+      "opzioni": [
+        "Proteine regolatrici che si legano alla polimerasi e la accompagnano lungo il gene",
+        "Sequenze collocate dentro gli esoni, che regolano la scelta dei siti di splicing",
+        "Brevi sequenze poste poco a monte del sito di inizio, che legano fattori specifici",
+        "Sequenze poste a molte migliaia di basi dal gene, attive in entrambi gli orientamenti",
+        "Regioni di RNA trascritte insieme al gene e capaci di regolarne l'espressione"
+      ],
+      "corretta": 2,
+      "spiegazione": "Gli elementi prossimali stanno nell'ordine delle decine o poche centinaia di paia di basi a monte del sito di inizio: reclutano fattori di trascrizione specifici che agiscono sull'apparato basale assemblato sul promotore core.\n\nA) I fattori di trascrizione sono proteine, ma il promotore prossimale è DNA: sono le sequenze, non i loro occupanti.\nB) Il promotore prossimale si trova a monte del sito di inizio e non è trascritto.\nD) La descrizione corrisponde agli enhancer, che sono elementi distali.\nE) Gli elementi del promotore non vengono trascritti: agiscono in cis sul DNA."
+    },
+    {
+      "id": "u3-0119",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Filamento codificante",
+      "testo": "Il filamento del DNA che non viene letto dalla polimerasi e la cui sequenza coincide con quella del trascritto, salvo la sostituzione della timina con l'uracile, si chiama filamento ……",
+      "accettate": [
+        "codificante",
+        "senso",
+        "non stampo",
+        "filamento codificante"
+      ],
+      "spiegazione": "Per convenzione le sequenze geniche vengono scritte nella forma del filamento codificante: è il motivo per cui in un database si legge la sequenza del gene e vi si riconosce direttamente il codone di inizio ATG.\n\nIl filamento effettivamente copiato è quello complementare, detto stampo o antisenso; il termine codificante non significa quindi che quel filamento venga letto, ma che la sua sequenza corrisponde al messaggio."
+    },
+    {
+      "id": "u3-0120",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Fattori richiesti dalle RNA polimerasi eucariotiche",
+      "testo": "Che cosa hanno in comune le tre RNA polimerasi eucariotiche?",
+      "opzioni": [
+        "Nessuna riconosce da sola il proprio promotore: tutte richiedono propri fattori",
+        "Trascrivono tutte nel nucleolo, dove si concentra l'apparato di trascrizione della cellula",
+        "Sono tutte inibite dalla stessa molecola e possono essere bloccate in blocco",
+        "Sintetizzano tutte RNA che verranno poi tradotti in proteine dai ribosomi",
+        "Hanno tutte bisogno di un innesco a RNA prodotto dalla primasi per iniziare la sintesi"
+      ],
+      "corretta": 0,
+      "spiegazione": "È una differenza di fondo rispetto alla polimerasi batterica, che con il fattore sigma riconosce direttamente il promotore: negli eucarioti ciascuna delle tre polimerasi ha bisogno di un proprio corredo di fattori che la posizionino sul DNA.\n\nB) Solo la polimerasi I opera nel nucleolo; le altre due lavorano nel nucleoplasma.\nC) La sensibilità agli inibitori è diversa per le tre polimerasi ed è anzi uno dei criteri con cui sono state distinte.\nD) Solo i trascritti della polimerasi II vengono tradotti: tRNA e rRNA sono prodotti finali.\nE) Nessuna RNA polimerasi richiede un innesco: possono iniziare una catena dal nulla."
+    },
+    {
+      "id": "u3-0121",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Fattori generali: terminologia",
+      "testo": "I fattori richiesti da tutti i promotori di classe II per assemblare il complesso di inizio, indicati con sigle come TFIIB e TFIID, si chiamano fattori di trascrizione ……",
+      "accettate": [
+        "generali",
+        "basali",
+        "generici",
+        "generale"
+      ],
+      "spiegazione": "Sono detti generali perché non conferiscono alcuna specificità: la loro presenza è necessaria a qualunque gene trascritto dalla polimerasi II e da sola sostiene solo un livello basale di trascrizione.\n\nA differenziare i geni sono i fattori specifici, che riconoscono elementi presenti soltanto in alcuni promotori o enhancer e modulano l'efficienza del complesso basale."
+    },
+    {
+      "id": "u3-0122",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Allungamento della trascrizione",
+      "testo": "Che cosa avviene al DNA e all'RNA durante la fase di allungamento della trascrizione?",
+      "opzioni": [
+        "Il DNA resta completamente appaiato e l'RNA viene sintetizzato all'esterno della doppia elica",
+        "I due filamenti del DNA si separano per tutta la lunghezza del gene fino al termine della sintesi",
+        "L'RNA resta appaiato al filamento stampo e sostituisce stabilmente il filamento codificante",
+        "La polimerasi mantiene aperto un breve tratto di elica e un corto ibrido RNA-DNA, poi tutto si richiude",
+        "Il DNA viene tagliato davanti alla polimerasi e risaldato dietro di essa a ogni nucleotide aggiunto"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'enzima porta con sé una piccola bolla di trascrizione: apre l'elica davanti a sé, tiene il trascritto nascente appaiato allo stampo per pochi nucleotidi, poi lascia uscire l'RNA e permette al DNA di richiudersi dietro di sé.\n\nA) Perché l'appaiamento con lo stampo sia possibile, l'elica deve essere aperta localmente.\nB) Un'apertura dell'intero gene sarebbe energeticamente insostenibile e non serve alla sintesi.\nC) L'ibrido è transitorio: se l'RNA restasse appaiato, il gene non potrebbe essere ritrascritto.\nE) Il taglio e la risaldatura del DNA sono opera delle topoisomerasi e servono a gestire la torsione, non a far avanzare la polimerasi."
+    },
+    {
+      "id": "u3-0123",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "TBP",
+      "testo": "La subunità di TFIID che si inserisce nel solco minore della TATA box e piega il DNA è la proteina legante la TATA, indicata con la sigla ……",
+      "accettate": [
+        "tbp",
+        "tata binding protein",
+        "proteina legante la tata"
+      ],
+      "spiegazione": "TBP è richiesta anche dai promotori privi di TATA box e dalle altre due RNA polimerasi: è quindi un componente comune a tutti i sistemi di inizio della trascrizione eucariotica, benché sia arrivata con il nome del solo elemento che riconosce direttamente.\n\nLa piegatura che introduce nel DNA è marcata e crea la geometria su cui si assemblano gli altri fattori generali."
+    },
+    {
+      "id": "u3-0124",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Trascritto primario",
+      "testo": "Il prodotto immediato della trascrizione di un gene eucariotico, ancora provvisto di introni e non maturato, si chiama trascritto ……",
+      "accettate": [
+        "primario",
+        "primaria",
+        "pre-mrna",
+        "pre mrna",
+        "premrna"
+      ],
+      "spiegazione": "Il trascritto primario di un gene codificante proteine è più lungo del messaggero maturo, perché contiene tutti gli introni; la maturazione lo accorcia e ne modifica le due estremità.\n\nPer i geni che non codificano proteine esiste comunque un precursore da maturare: i tRNA e gli rRNA vengono anch'essi tagliati e modificati prima di diventare funzionali."
+    },
+    {
+      "id": "u3-0125",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Sequenze consenso degli introni",
+      "testo": "Quali dinucleotidi si trovano quasi sempre alle due estremità di un introne nel pre-mRNA?",
+      "opzioni": [
+        "AG all'estremità 5' e GU all'estremità 3'",
+        "GU all'estremità 5' e AG all'estremità 3'",
+        "AU all'estremità 5' e GC all'estremità 3'",
+        "CA a entrambe le estremità dell'introne, in modo perfettamente simmetrico",
+        "TA all'estremità 5' e AT all'estremità 3'"
+      ],
+      "corretta": 1,
+      "spiegazione": "Gli introni cominciano con GU e finiscono con AG: sono le sequenze riconosciute all'inizio dell'assemblaggio dello spliceosoma e servono a definire con precisione dove tagliare, perché un errore di un solo nucleotide sposterebbe la cornice di lettura.\n\nA) Le due estremità sono invertite rispetto alla realtà.\nC) AU e GC non sono le sequenze conservate dei siti di splicing.\nD) I due siti di splicing non sono identici fra loro: hanno sequenze diverse e funzioni diverse.\nE) Contiene timine: nel pre-mRNA la base è l'uracile."
+    },
+    {
+      "id": "u3-0126",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Punto di ramificazione",
+      "testo": "L'adenosina interna all'introne il cui gruppo 2'-OH attacca il sito di splicing in 5' si trova nel punto di ……",
+      "accettate": [
+        "ramificazione",
+        "branch point",
+        "branchpoint",
+        "diramazione"
+      ],
+      "spiegazione": "Il nome deriva dalla struttura che si forma: quell'adenosina stabilisce un terzo legame, oltre ai due che ha lungo la catena, e il punto diventa una ramificazione da cui l'introne assume la forma a cappio.\n\nIl punto di ramificazione si trova poche decine di nucleotidi a monte del sito di splicing 3' ed è riconosciuto dalla snRNP U2 durante l'assemblaggio dello spliceosoma."
+    },
+    {
+      "id": "u3-0127",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Prodotti dello splicing",
+      "testo": "Che cosa si ottiene al termine della rimozione di un introne?",
+      "opzioni": [
+        "Due messaggeri distinti, ciascuno corrispondente a uno dei due esoni separati",
+        "Un messaggero in cui l'introne è stato sostituito da una sequenza di adenine",
+        "Un introne integrato nel DNA del gene e due esoni liberi nel nucleoplasma",
+        "Un esone rimosso e un introne conservato all'interno del messaggero maturo",
+        "I due esoni uniti fra loro e l'introne libero a cappio, poi degradato"
+      ],
+      "corretta": 4,
+      "spiegazione": "La seconda transesterificazione salda l'estremità dell'esone a monte con l'inizio di quello a valle e libera l'introne, che resta ripiegato a cappio e viene rapidamente demolito: il suo contenuto in nucleotidi viene riutilizzato.\n\nA) Gli esoni non restano separati: sono proprio loro a essere uniti.\nB) Le adenine sono aggiunte in coda all'estremità 3' del messaggero e non sostituiscono gli introni.\nC) Lo splicing agisce sull'RNA: il DNA del gene resta invariato e conserva l'introne.\nD) È l'inverso di ciò che accade: vengono rimossi gli introni e conservati gli esoni."
+    },
+    {
+      "id": "u3-0128",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "snRNA",
+      "testo": "I piccoli RNA nucleari che, associati a proteine, formano le particelle dello spliceosoma e riconoscono i siti di splicing si chiamano ……",
+      "accettate": [
+        "snrna",
+        "piccoli rna nucleari",
+        "small nuclear rna",
+        "rna nucleari piccoli"
+      ],
+      "spiegazione": "Ciascuno di essi, indicato con la lettera U e un numero, riconosce una regione precisa del pre-mRNA per complementarità di basi: il riconoscimento dei siti di splicing è quindi affidato a un appaiamento fra RNA, non a una proteina.\n\nGli snRNA non sono soltanto elementi di riconoscimento: nel complesso riorganizzato costituiscono anche il sito catalitico che esegue le due transesterificazioni."
+    },
+    {
+      "id": "u3-0129",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Editing per deaminazione",
+      "testo": "In alcuni trascritti l'editing converte un'adenosina in inosina. Come viene interpretata l'inosina dal ribosoma?",
+      "opzioni": [
+        "Come un'adenosina, perché la modifica non cambia l'appaiamento con l'anticodone",
+        "Come un uracile, per effetto della perdita del gruppo amminico della base",
+        "Come una guanosina, con possibile cambiamento dell'amminoacido inserito",
+        "Come un codone di stop, che interrompe la traduzione in quel punto",
+        "Non viene interpretata affatto: il ribosoma salta la tripletta che la contiene"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'inosina si appaia come una guanosina: se la conversione cade in una posizione che conta, il codone cambia significato e nella proteina compare un amminoacido diverso da quello previsto dalla sequenza del gene.\n\nA) Se l'inosina fosse letta come l'adenosina di partenza, l'editing non avrebbe alcun effetto sul prodotto.\nB) La deaminazione dell'adenosina dà inosina; è la deaminazione della citosina a dare uracile.\nD) L'inosina non genera di per sé un segnale di terminazione.\nE) Il ribosoma non salta triplette: la cornice di lettura è continua."
+    },
+    {
+      "id": "u3-0130",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Maturazione dell'RNA",
+      "testo": "L'insieme delle modificazioni che trasformano il trascritto primario in un mRNA maturo pronto per l'esportazione si chiama ……",
+      "accettate": [
+        "maturazione",
+        "processamento",
+        "processing",
+        "maturazione dell rna"
+      ],
+      "spiegazione": "Comprende l'aggiunta del cappuccio, la rimozione degli introni, il taglio e la poliadenilazione dell'estremità 3' e, in alcuni trascritti, l'editing: nessuna di queste tappe cambia il DNA del gene.\n\nAvviene in gran parte mentre la trascrizione è ancora in corso, perché gli enzimi coinvolti sono reclutati sul dominio carbossiterminale fosforilato della RNA polimerasi II."
+    },
+    {
+      "id": "u3-0131",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Sede della maturazione dell'mRNA",
+      "testo": "Dove avvengono capping, splicing e poliadenilazione in una cellula eucariotica?",
+      "opzioni": [
+        "Nel nucleo, prima che il messaggero venga esportato attraverso i pori nucleari",
+        "Nel citoplasma, sui polisomi, contemporaneamente alla traduzione del messaggero",
+        "Nel reticolo endoplasmatico ruvido, mentre la proteina viene sintetizzata",
+        "Nella matrice mitocondriale, dove si concentrano gli enzimi di maturazione",
+        "Sulla membrana nucleare esterna, subito dopo l'uscita del trascritto dal nucleo"
+      ],
+      "corretta": 0,
+      "spiegazione": "La maturazione è nucleare e in buona parte co-trascrizionale: il messaggero raggiunge il citoplasma già capucciato, privo di introni e poliadenilato. È proprio la separazione fra nucleo e citoplasma a rendere possibili questi controlli, che nei procarioti non esistono.\n\nB) Nel citoplasma il messaggero viene tradotto, non maturato: uno spliceosoma citoplasmatico non esiste.\nC) Nel reticolo avviene la maturazione di alcune proteine, non quella degli RNA.\nD) I mitocondri hanno un proprio sistema di espressione, distinto da quello nucleare.\nE) Un messaggero non maturato non verrebbe neppure esportato: i controlli precedono l'uscita."
+    },
+    {
+      "id": "u3-0132",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Esiti del silenziamento mediato da RISC",
+      "testo": "Che cosa determina se un mRNA riconosciuto dal complesso RISC venga tagliato oppure soltanto represso?",
+      "opzioni": [
+        "La lunghezza della coda di poli-A del messaggero bersaglio",
+        "Il numero di ribosomi già impegnati nella traduzione di quel messaggero",
+        "La presenza o meno del cappuccio all'estremità 5' del bersaglio",
+        "Il grado di complementarità fra l'RNA guida e la sequenza bersaglio",
+        "La posizione del bersaglio nel nucleo oppure nel citoplasma della cellula"
+      ],
+      "corretta": 3,
+      "spiegazione": "Con appaiamento completo il complesso taglia il messaggero, che viene poi degradato; con appaiamento parziale, tipico dei miRNA dei mammiferi sulle regioni non tradotte al 3', si ha blocco della traduzione e deadenilazione accelerata.\n\nA) La coda di poli-A subisce le conseguenze del silenziamento ma non ne determina la modalità.\nB) Il numero di ribosomi non decide fra taglio e repressione.\nC) Il cappuccio è presente in tutti i messaggeri maturi e non discrimina i due esiti.\nE) Il silenziamento mediato da RISC si svolge nel citoplasma in entrambi i casi."
+    },
+    {
+      "id": "u3-0133",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "microRNA",
+      "testo": "I piccoli RNA non codificanti endogeni, lunghi circa venti nucleotidi, che regolano stabilità e traduzione dei messaggeri bersaglio si chiamano ……",
+      "accettate": [
+        "microrna",
+        "mirna",
+        "micro rna",
+        "micro-rna"
+      ],
+      "spiegazione": "Sono trascritti da geni propri o ricavati da introni, maturati in due tappe successive e infine caricati su RISC: un solo miRNA può regolare decine di messaggeri diversi, perché l'appaiamento richiesto è parziale.\n\nSi distinguono dai piccoli RNA interferenti per l'origine: i miRNA sono prodotti endogeni della cellula, mentre gli altri derivano tipicamente da RNA a doppio filamento esogeno."
+    },
+    {
+      "id": "u3-0134",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Sede della maturazione degli rRNA",
+      "testo": "Il precursore comune degli rRNA 18S, 5,8S e 28S viene trascritto e maturato in una regione specializzata del nucleo chiamata ……",
+      "accettate": [
+        "nucleolo",
+        "nucleoli"
+      ],
+      "spiegazione": "Lì si trovano le copie ripetute dei geni degli rRNA, la RNA polimerasi I e i fattori che tagliano e modificano chimicamente il precursore; nello stesso luogo gli rRNA maturi vengono assemblati con le proteine ribosomiali.\n\nL'rRNA 5S fa eccezione quanto alla trascrizione, che è opera della polimerasi III fuori dal nucleolo, ma viene poi reclutato anch'esso nell'assemblaggio della subunità maggiore."
+    },
+    {
+      "id": "u3-0135",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Dimensione del codone",
+      "testo": "Perché un codone deve essere costituito da almeno tre basi?",
+      "opzioni": [
+        "Perché tre è il numero di basi che un tRNA riesce fisicamente ad appaiare",
+        "Perché con due basi si otterrebbero solo 16 combinazioni, insufficienti per venti amminoacidi",
+        "Perché il ribosoma avanza sempre di tre nucleotidi alla volta lungo il messaggero",
+        "Perché servono tre basi per distinguere l'RNA dal DNA durante la traduzione",
+        "Perché ogni amminoacido possiede esattamente tre gruppi in grado di legare l'RNA"
+      ],
+      "corretta": 1,
+      "spiegazione": "È un argomento combinatorio: con quattro basi, gruppi di due darebbero 4×4 = 16 possibilità, meno dei venti amminoacidi da specificare; gruppi di tre ne danno 64, abbondantemente sufficienti e con un margine che si traduce in degenerazione.\n\nA) L'anticodone è di tre basi perché il codone lo è: è una conseguenza, non la causa.\nC) Anche l'avanzamento di tre nucleotidi discende dalla dimensione del codone.\nD) La distinzione fra RNA e DNA non dipende dal numero di basi lette insieme.\nE) Gli amminoacidi non si legano all'RNA messaggero: sono trasportati dai tRNA."
+    },
+    {
+      "id": "u3-0136",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Codone",
+      "testo": "La tripletta di basi dell'mRNA che specifica un amminoacido o un segnale di terminazione si chiama ……",
+      "accettate": [
+        "codone",
+        "codoni",
+        "tripletta",
+        "triplette"
+      ],
+      "spiegazione": "I codoni si leggono senza sovrapposizioni e senza interruzioni a partire dal codone di inizio: la sequenza di nucleotidi viene così convertita in una sequenza di amminoacidi secondo una corrispondenza fissa.\n\nDei 64 codoni possibili, 61 specificano amminoacidi e tre funzionano da segnali di stop. Il codone non si appaia con l'amminoacido, che non ha alcuna affinità per l'RNA, ma con l'anticodone del tRNA che lo trasporta."
+    },
+    {
+      "id": "u3-0137",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Sostituzioni in terza posizione",
+      "testo": "Perché la sostituzione della terza base di un codone spesso non cambia l'amminoacido inserito?",
+      "opzioni": [
+        "Perché la terza base non viene letta dal ribosoma, che si ferma alle prime due",
+        "Perché il tRNA corregge automaticamente le sostituzioni che riguardano quella posizione",
+        "Perché ogni terza base viene sostituita con la corrispondente base complementare",
+        "Perché la terza posizione appartiene sempre a una regione non tradotta del messaggero",
+        "Perché il codice è degenerato e i codoni sinonimi differiscono soprattutto nella terza base"
+      ],
+      "corretta": 4,
+      "spiegazione": "La degenerazione non è distribuita a caso: i codoni che specificano lo stesso amminoacido condividono di regola le prime due basi e differiscono nella terza. Una sostituzione in quella posizione ha perciò buone probabilità di essere silente.\n\nA) La terza base viene letta: semplicemente, spesso non discrimina fra amminoacidi diversi.\nB) Il tRNA non corregge nulla: si appaia al codone così com'è.\nC) Nessun meccanismo sostituisce sistematicamente una base con la sua complementare.\nD) La terza base di un codone appartiene alla regione tradotta, per definizione."
+    },
+    {
+      "id": "u3-0138",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Codone AUG",
+      "testo": "Oltre a specificare la metionina, il codone AUG ha una seconda funzione: segnala al ribosoma il punto di …… della traduzione",
+      "accettate": [
+        "inizio",
+        "avvio",
+        "partenza"
+      ],
+      "spiegazione": "L'AUG che dà inizio alla traduzione fissa la cornice di lettura: da quel nucleotide in poi le basi vengono raggruppate a tre a tre fino al codone di stop.\n\nGli AUG interni alla sequenza codificante specificano metionine ordinarie e non riavviano la traduzione: ciò che distingue quello iniziale è il contesto in cui si trova e il fatto di essere il primo incontrato durante lo scorrimento della subunità minore dall'estremità 5'."
+    },
+    {
+      "id": "u3-0139",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Associazione delle subunità ribosomiali",
+      "testo": "Quando si associano fra loro le due subunità del ribosoma di una cellula eucariotica?",
+      "opzioni": [
+        "Restano sempre associate, dal momento del loro assemblaggio fino alla degradazione",
+        "Si associano nel nucleolo e raggiungono il citoplasma già come ribosoma completo",
+        "Si associano dopo che la subunità minore ha individuato il codone di inizio AUG",
+        "Si associano soltanto quando il ribosoma incontra un codone di stop sul messaggero",
+        "Si associano nel momento in cui il primo tRNA scarico abbandona il sito di uscita"
+      ],
+      "corretta": 2,
+      "spiegazione": "La subunità minore, con i fattori di inizio e il tRNA iniziatore, si aggancia al cappuccio e scorre fino all'AUG; solo allora la subunità maggiore si unisce e si forma il ribosoma funzionante, che si dissocia di nuovo al termine della traduzione.\n\nA) Se restassero unite non potrebbero né caricare il messaggero né essere riutilizzate su trascritti diversi.\nB) Le subunità vengono assemblate separatamente ed esportate separatamente.\nD) Al codone di stop il ribosoma si dissocia: è il momento opposto.\nE) L'uscita del tRNA scarico appartiene al ciclo di allungamento, quando il ribosoma è già completo."
+    },
+    {
+      "id": "u3-0140",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Siti del ribosoma: sito E",
+      "testo": "Il terzo sito del ribosoma, quello dal quale il tRNA privo di amminoacido abbandona il complesso, è il sito di ……",
+      "accettate": [
+        "uscita",
+        "exit",
+        "espulsione"
+      ],
+      "spiegazione": "È indicato con la lettera E: vi transita il tRNA che ha ceduto la propria catena polipeptidica al tRNA entrante e che, ormai scarico, viene rilasciato nel citosol dove sarà ricaricato dalla propria sintetasi.\n\nI tre siti sono percorsi sempre nello stesso ordine, da quello aminoacilico a quello peptidilico e infine a quello di uscita, a ogni passo di traslocazione."
+    },
+    {
+      "id": "u3-0141",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Energia della traduzione",
+      "testo": "Quale nucleotide viene idrolizzato dai fattori di allungamento a ogni ciclo di aggiunta di un amminoacido?",
+      "opzioni": [
+        "GTP",
+        "ATP",
+        "AMP ciclico",
+        "UTP",
+        "NADH"
+      ],
+      "corretta": 0,
+      "spiegazione": "I fattori di inizio, di allungamento e di rilascio sono proteine che legano e idrolizzano GTP: l'idrolisi accompagna sia l'ingresso del tRNA carico nel sito A sia la traslocazione del ribosoma.\n\nB) L'ATP è consumato in traduzione, ma a monte: serve alle aminoacil-tRNA sintetasi per caricare l'amminoacido sul tRNA.\nC) L'AMP ciclico è un secondo messaggero e non una fonte di energia per la traduzione.\nD) L'UTP è un substrato della sintesi dell'RNA, non un cofattore dei fattori di allungamento.\nE) Il NADH è un trasportatore di elettroni del metabolismo energetico."
+    },
+    {
+      "id": "u3-0142",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Aminoacil-tRNA",
+      "testo": "Il complesso formato da un tRNA che porta legato all'estremità 3' il proprio amminoacido si chiama ……",
+      "accettate": [
+        "aminoacil trna",
+        "amminoacil trna",
+        "aminoacil-trna",
+        "amminoacil-trna",
+        "trna carico"
+      ],
+      "spiegazione": "Il legame estere fra l'amminoacido e l'adenosina terminale è ad alta energia: sarà la sua rottura a fornire l'energia per la formazione del legame peptidico nel ribosoma.\n\nUn tRNA privo di amminoacido è detto scarico: viene rilasciato dal sito di uscita del ribosoma e può essere ricaricato dalla propria aminoacil-tRNA sintetasi con consumo di ATP."
+    },
+    {
+      "id": "u3-0143",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Fedeltà della traduzione",
+      "testo": "Che cosa accade se una sintetasi carica per errore un tRNA con l'amminoacido sbagliato?",
+      "opzioni": [
+        "Il ribosoma riconosce l'errore e rifiuta il tRNA all'ingresso nel sito aminoacilico",
+        "Il tRNA viene degradato prima di poter raggiungere il ribosoma",
+        "Il codone corrispondente viene saltato e la traduzione prosegue in cornice",
+        "L'amminoacido sbagliato viene inserito nella proteina a quel codone",
+        "La traduzione si interrompe e la catena incompleta viene rilasciata"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il ribosoma verifica soltanto l'appaiamento fra codone e anticodone e non ha alcun modo di controllare quale amminoacido il tRNA stia trasportando: un tRNA caricato male inserisce il proprio carico come se fosse quello giusto.\n\nA) Il controllo nel sito aminoacilico riguarda la geometria dell'appaiamento codone-anticodone, non l'amminoacido.\nB) Non esiste un sistema di sorveglianza che elimini i tRNA caricati male prima dell'uso.\nC) La cornice di lettura non ammette salti: ogni codone viene letto.\nE) La traduzione non si interrompe: l'errore passa inosservato e la catena viene completata.\n\nÈ la ragione per cui la specificità delle aminoacil-tRNA sintetasi è il punto critico della fedeltà dell'intero processo."
+    },
+    {
+      "id": "u3-0144",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Polarità della catena polipeptidica",
+      "testo": "L'estremità della proteina che viene sintetizzata per prima, corrispondente all'amminoacido specificato dal codone di inizio, è l'estremità ……",
+      "accettate": [
+        "amminoterminale",
+        "aminoterminale",
+        "n-terminale",
+        "n terminale",
+        "ammino terminale",
+        "amino terminale"
+      ],
+      "spiegazione": "Ogni nuovo amminoacido viene aggiunto al gruppo carbossilico della catena in crescita: il primo residuo conserva quindi il gruppo amminico libero e resta a quell'estremità per tutta la durata della sintesi.\n\nLa corrispondenza è ordinata: il messaggero viene letto da 5' a 3' e la proteina cresce dall'estremità amminica a quella carbossilica, che è l'ultima a essere formata."
+    },
+    {
+      "id": "u3-0145",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Controllo traduzionale",
+      "testo": "Quale dei seguenti è un esempio di controllo traduzionale dell'espressione genica?",
+      "opzioni": [
+        "La metilazione del DNA nella regione del promotore di un gene",
+        "La fosforilazione di un fattore di inizio, che riduce la resa in proteina dei messaggeri",
+        "L'inclusione o l'esclusione di un esone durante la maturazione del trascritto",
+        "L'ubiquitinazione di un enzima, che ne determina la degradazione proteasomica",
+        "Il legame di un fattore di trascrizione specifico a un enhancer del gene"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il controllo traduzionale agisce su messaggeri già maturi e presenti nel citoplasma, modulando quanto vengono tradotti: agire su un fattore di inizio è il modo più diretto per farlo, perché riduce l'avvio della sintesi senza toccare la quantità di mRNA.\n\nA) La metilazione del promotore agisce sulla trascrizione.\nC) La scelta degli esoni è controllo post-trascrizionale.\nD) L'ubiquitinazione riguarda la proteina già sintetizzata: è controllo post-traduzionale.\nE) Il legame a un enhancer regola l'inizio della trascrizione."
+    },
+    {
+      "id": "u3-0146",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Controllo post-trascrizionale",
+      "testo": "Il livello di controllo che comprende splicing alternativo, editing e regolazione della stabilità del messaggero si chiama controllo ……",
+      "accettate": [
+        "post-trascrizionale",
+        "post trascrizionale",
+        "posttrascrizionale",
+        "post-trascrizionali"
+      ],
+      "spiegazione": "Agisce dopo che il gene è stato trascritto e prima che la proteina sia prodotta: determina quale forma matura il messaggero assuma, quanto a lungo sopravviva e se raggiunga il citoplasma.\n\nÈ il livello che negli eucarioti si aggiunge a quelli disponibili nei procarioti, dove trascrizione e traduzione avvengono nello stesso compartimento e in parte contemporaneamente."
+    },
+    {
+      "id": "u3-0147",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Chaperonine",
+      "testo": "Che cosa caratterizza il funzionamento di una chaperonina?",
+      "opzioni": [
+        "Taglia le proteine mal ripiegate in frammenti che vengono poi riutilizzati",
+        "Trasferisce la proteina nel nucleo perché venga ripiegata dagli enzimi nucleari",
+        "Modifica la sequenza amminoacidica del substrato per renderlo ripiegabile",
+        "Si lega stabilmente al substrato e rimane parte della proteina matura",
+        "Racchiude il substrato in una camera isolata dove il ripiegamento avviene protetto"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le chaperonine formano strutture cilindriche cave: il polipeptide viene accolto all'interno e ripiegato in un ambiente separato dal citosol affollato, dove il rischio di incontrare altre molecole e aggregare è azzerato. Il ciclo è guidato dall'idrolisi di ATP.\n\nA) La demolizione delle proteine è compito del proteasoma, non degli chaperon.\nB) Il ripiegamento avviene nel compartimento in cui la proteina è sintetizzata.\nC) Nessuno chaperon modifica la sequenza: l'informazione è già nella catena.\nD) Gli chaperon si staccano al termine e non entrano nella struttura finale."
+    },
+    {
+      "id": "u3-0148",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Origine dell'informazione per il ripiegamento",
+      "testo": "L'informazione che determina quale struttura tridimensionale una proteina assumerà è contenuta nella sua ……",
+      "accettate": [
+        "sequenza amminoacidica",
+        "sequenza aminoacidica",
+        "struttura primaria",
+        "sequenza",
+        "sequenza degli amminoacidi"
+      ],
+      "spiegazione": "È la conseguenza più importante del rapporto fra struttura primaria e struttura terziaria: data la sequenza, la conformazione nativa è quella termodinamicamente favorita, e in condizioni adatte molte proteine si ripiegano spontaneamente.\n\nGli chaperon non forniscono informazione aggiuntiva: rendono più probabile e più rapido il raggiungimento di quella conformazione, evitando che la catena resti intrappolata in stati mal ripiegati o aggregati."
+    },
+    {
+      "id": "u3-0149",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Proteine simili all'ubiquitina",
+      "testo": "Che cosa comporta per una proteina il legame covalente di SUMO, una proteina simile all'ubiquitina?",
+      "opzioni": [
+        "La sua immediata degradazione da parte del proteasoma 26S",
+        "Il suo trasferimento nel lisosoma, dove viene demolita dalle idrolasi acide",
+        "Un cambiamento di localizzazione, attività o interazioni della proteina",
+        "Il taglio della catena polipeptidica in due frammenti funzionalmente distinti",
+        "Il suo ancoraggio permanente alla faccia citosolica della membrana plasmatica"
+      ],
+      "corretta": 2,
+      "spiegazione": "SUMO e le altre proteine di questa famiglia usano una chimica di coniugazione analoga a quella dell'ubiquitina, con enzimi propri, ma il significato del marchio è diverso: modifica il comportamento della proteina bersaglio anziché condannarla alla demolizione.\n\nA) L'indirizzamento al proteasoma richiede una catena di ubiquitina, non SUMO.\nB) La via lisosomiale è distinta e ha altri meccanismi di indirizzamento.\nD) La coniugazione non comporta alcun taglio del substrato.\nE) L'ancoraggio alle membrane si ottiene con l'aggiunta di lipidi, non con proteine simili all'ubiquitina."
+    },
+    {
+      "id": "u3-0150",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Deubiquitinasi",
+      "testo": "Gli enzimi che staccano l'ubiquitina dai substrati, permettendone il riutilizzo e potendo annullare la marcatura per la degradazione, si chiamano ……",
+      "accettate": [
+        "deubiquitinasi",
+        "deubiquitinilasi",
+        "dub",
+        "deubiquitinase"
+      ],
+      "spiegazione": "La loro azione rende reversibile l'ubiquitinazione: una proteina già marcata può essere risparmiata se la catena viene rimossa prima che il proteasoma la ingoi.\n\nIntervengono anche all'ingresso del proteasoma, dove recuperano le molecole di ubiquitina prima che il substrato venga introdotto nella camera catalitica: l'ubiquitina non viene degradata insieme alla proteina, ma riciclata."
+    }
+  ]
+}
