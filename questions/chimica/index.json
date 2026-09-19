@@ -2,7 +2,7 @@
   "schema": 2,
   "materia": "chimica",
   "nome": "Chimica e propedeutica biochimica",
-  "aggiornato": "2026-09-09",
+  "aggiornato": "2026-09-19",
   "fonteQuote": "quote per unità del primo appello di novembre 2025",
   "formato": {
     "unita": {
@@ -67,6 +67,8 @@
     "chimica-u2-01.json",
     "chimica-u2-02.json",
     "chimica-u3-01.json",
+    "chimica-u3-02.json",
+    "chimica-u3-03.json",
     "chimica-u4-01.json",
     "chimica-u5-01.json",
     "chimica-u6-01.json",

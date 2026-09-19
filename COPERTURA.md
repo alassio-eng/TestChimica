@@ -2,18 +2,18 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**687 domande su 2200** a regime.
+**756 domande su 2200** a regime.
 
 
 ---
 
-## Chimica e propedeutica biochimica — 227/700
+## Chimica e propedeutica biochimica — 296/700
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Atomo, legami, stati della materia, termodinamica | 150/150 | 80M + 70C | 140 | 8 |
 | U2 | Miscele, soluzioni, proprietà colligative | 70/70 | 35M + 35C | 68 | 2 |
-| U3 | Cinetica ed equilibrio chimico | 1/70 | 0M + 1C | 1 | 2 |
+| U3 | Cinetica ed equilibrio chimico | 70/70 | 34M + 36C | 10 | 2 |
 | U4 | Acidi, basi, tamponi, redox ed elettrochimica | 2/100 | 1M + 1C | 2 | 5 |
 | U5 | Carbonio, idrocarburi, aromatici | 1/90 | 1M + 0C | 1 | 4 |
 | U6 | Gruppi funzionali e isomerie | 1/70 | 0M + 1C | 1 | 1 |
@@ -239,8 +239,17 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U3 — Cinetica ed equilibrio chimico
 
-1 domande su 70 · 0 a risposta multipla e 1 a completamento · 1 argomenti distinti · file: chimica-u3-01.json
+70 domande su 70 · 34 a risposta multipla e 36 a completamento · 10 argomenti distinti · file: chimica-u3-01.json, chimica-u3-02.json, chimica-u3-03.json
 
+- arrhenius e stato di transizione (10 domande)
+- costante di equilibrio (10 domande)
+- cinetica: velocità e fattori (9 domande)
+- equilibrio mobile e stato stazionario (8 domande)
+- ordine e molecolarità (8 domande)
+- reazioni e bilanciamento (7 domande)
+- catalisi ed enzimi (6 domande)
+- energia libera ed equilibrio (6 domande)
+- solubilità e ione comune (5 domande)
 - Cinetica: catalizzatori ed energia di attivazione
 
 ### U4 — Acidi, basi, tamponi, redox ed elettrochimica

@@ -19,43 +19,7 @@ Obiettivo raggiunto (70/70): nessuna chat da aprire.
 
 ## U3 — Cinetica ed equilibrio chimico
 
-1/70 nel banco · mancano 69 domande in 2 file: `chimica-u3-02.json` … `chimica-u3-03.json`, id da `u3-0002` a `u3-0070`
-
-```text
-Sei la chat che si occupa di una sola unità del banco domande di Chimica e propedeutica biochimica: la U3. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
-
-UNITÀ
-U3 — Cinetica ed equilibrio chimico
-Obiettivo: 70 domande in totale. Nel banco ci sono già 1 domande di questa unità, con id fino a u3-0001. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
-Mancano 69 domande, che consegnerai in 2 file successivi.
-
-PIANO DEI FILE — già calcolato, seguilo alla lettera
-1. chimica-u3-02.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0002 a u3-0051
-2. chimica-u3-03.json — 19 domande (9 a risposta multipla e 10 a completamento), id da u3-0052 a u3-0070
-
-Ogni file è un JSON completo e valido con questa forma:
-{ "lotto": "<nome del file senza .json>", "unita": "u3", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
-
-PRIMA DI SCRIVERE
-Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 69 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
-
-POI, UN FILE PER VOLTA
-Consegni il file, io lo valido e ti dico «prossimo». Non anticipare il file successivo e non riaprire quelli già consegnati. Se ti accorgi di un errore in un file già consegnato, dimmelo invece di rigenerarlo: correggere il testo di una domanda è innocuo, cambiarne l'id no.
-
-COME DEVONO ESSERE LE DOMANDE
-- Formato JSON, campi obbligatori e normalizzazione delle risposte accettate: SPEC-NUOVA-MATERIA.md, nella knowledge del progetto. Leggila per intero prima di cominciare.
-- Il perimetro è il syllabus: niente che stia oltre il programma.
-- Distrattori che corrispondono a errori che uno studente commette davvero, non opzioni assurde da scartare a colpo d'occhio.
-- Una sola risposta inequivocabilmente corretta: se un quesito ti risulta ambiguo, riscrivilo invece di consegnarlo.
-- Nei completamenti si chiede il termine esatto: sono quesiti di terminologia. In "accettate" elenca tutte le forme legittime — singolare e plurale, sinonimi ammessi, sigla ed esteso.
-- Ogni spiegazione dice perché la corretta è corretta E perché le altre non lo sono, analizzando i distrattori uno per uno.
-- La posizione della risposta corretta va distribuita in modo uniforme fra A ed E, e la corretta non deve essere sistematicamente l'opzione più lunga: sono i due modi con cui un banco diventa indovinabile senza sapere la materia. Controllali tu prima di consegnare ogni file.
-- Precisione prima di tutto: se non sei certo di un dato, dimmelo invece di arrotondare. Un errore in una tua spiegazione me lo porto all'esame.
-
-ALTRO
-Non toccare index.json e non rigenerarlo: alla registrazione dei file ci penso io. Non dichiarare mai che una domanda è «nuova» o «non ancora somministrata»: non hai modo di saperlo. Italiano, tono asciutto, niente incoraggiamenti di circostanza.
-```
+Obiettivo raggiunto (70/70): nessuna chat da aprire.
 
 ## U4 — Acidi, basi, tamponi, redox ed elettrochimica
 

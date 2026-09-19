@@ -1,0 +1,273 @@
+{
+  "lotto": "chimica-u3-03",
+  "unita": "u3",
+  "domande": [
+    {
+      "id": "u3-0052",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "reazioni e bilanciamento",
+      "testo": "Nell'equazione bilanciata della reazione Al + O2 -> Al2O3, il coefficiente stechiometrico dell'alluminio è:",
+      "opzioni": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'equazione bilanciata è 4 Al + 3 O2 -> 2 Al2O3: al secondo membro compaiono 4 atomi di alluminio e 6 di ossigeno, che corrispondono a 3 molecole di O2. L'opzione 1 è la scrittura non bilanciata da cui si parte. L'opzione 2 confonde il coefficiente dell'alluminio con quello dell'ossido, che vale appunto 2. L'opzione 3 riporta il coefficiente dell'ossigeno molecolare. L'opzione 6 conta gli atomi di ossigeno anziché quelli di alluminio. Si noti che l'indice 2 nella formula Al2O3 non è modificabile: a variare sono soltanto i coefficienti."
+    },
+    {
+      "id": "u3-0053",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "reazioni e bilanciamento",
+      "testo": "In una reazione chimica, oltre alla massa e alla carica elettrica, si conserva anche l'…… totale del sistema, che può però cambiare forma passando per esempio da chimica a termica.",
+      "accettate": [
+        "energia"
+      ],
+      "spiegazione": "È il primo principio della termodinamica applicato alla reazione chimica: l'energia complessiva non si crea né si distrugge. Nelle reazioni esotermiche parte dell'energia dei legami viene ceduta all'ambiente come calore, nelle endotermiche accade il contrario, ma il bilancio complessivo resta nullo."
+    },
+    {
+      "id": "u3-0054",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "cinetica: velocità e fattori",
+      "testo": "Per la reazione fra due gas A e B, condotta in un recipiente a temperatura costante, quale intervento NON modifica la velocità della reazione?",
+      "opzioni": [
+        "L'introduzione di un gas inerte, mantenendo costante il volume del recipiente",
+        "La riduzione del volume del recipiente",
+        "L'introduzione di un'ulteriore quantità del reagente A",
+        "L'aggiunta di un catalizzatore adatto alla reazione",
+        "L'aumento della concentrazione del reagente B"
+      ],
+      "corretta": 0,
+      "spiegazione": "A volume costante un gas inerte aumenta la pressione totale, ma lascia invariate le concentrazioni di A e di B, che sono le uniche grandezze presenti nella legge cinetica: la velocità non cambia. La riduzione del volume agisce invece sulle concentrazioni, che aumentano entrambe comprimendo il gas. L'aggiunta di A e l'aumento della concentrazione di B accrescono direttamente un termine della legge cinetica. Il catalizzatore abbassa l'energia di attivazione e quindi fa crescere la costante di velocità k. L'errore tipico è confondere la pressione totale con le pressioni parziali: soltanto queste ultime contano."
+    },
+    {
+      "id": "u3-0055",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "cinetica: velocità e fattori",
+      "testo": "Una reazione in cui reagenti e prodotti si trovano tutti in una sola fase è detta reazione …….",
+      "accettate": [
+        "omogenea",
+        "omogenee"
+      ],
+      "spiegazione": "Nelle reazioni omogenee gli urti possono avvenire in tutto il volume del sistema, mentre in quelle eterogenee sono confinati all'interfaccia fra le fasi. Da questa differenza dipende il fatto che la superficie di contatto sia un fattore determinante della velocità soltanto nelle reazioni eterogenee."
+    },
+    {
+      "id": "u3-0056",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "ordine e molecolarità",
+      "testo": "Si determina sperimentalmente che una reazione è di ordine zero rispetto al reagente B. Ciò significa che:",
+      "opzioni": [
+        "il reagente B non compare fra i reagenti dell'equazione bilanciata",
+        "la velocità della reazione non dipende dalla concentrazione di B",
+        "la velocità della reazione è nulla finché B non viene consumato",
+        "il reagente B viene consumato interamente nel primo istante della reazione",
+        "il reagente B compare nell'equazione bilanciata con coefficiente pari a zero"
+      ],
+      "corretta": 1,
+      "spiegazione": "Un esponente zero rende il termine [B] elevato a zero uguale a 1, per cui la concentrazione di B sparisce dalla legge cinetica e non ne influenza il valore. Accade tipicamente quando B interviene dopo lo stadio determinante, oppure quando un catalizzatore risulta saturato. La prima opzione è falsa: B partecipa eccome alla reazione, semplicemente non alla determinazione della velocità. La terza confonde l'ordine zero con una velocità nulla: la reazione procede, e lo fa a velocità costante. La quarta descrive uno scenario privo di fondamento cinetico. L'ultima confonde l'ordine, che è un esponente ricavato sperimentalmente, con il coefficiente stechiometrico, che non può valere zero per una specie presente."
+    },
+    {
+      "id": "u3-0057",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "ordine e molecolarità",
+      "testo": "Uno stadio elementare che avviene per urto fra due particelle di reagente è detto stadio …….",
+      "accettate": [
+        "bimolecolare",
+        "bimolecolari"
+      ],
+      "spiegazione": "La molecolarità di uno stadio elementare conta le particelle che vi partecipano: unimolecolare se una sola specie si trasforma o si decompone, bimolecolare se avviene un urto fra due particelle, trimolecolare nei rari casi di urto simultaneo fra tre, evento tanto improbabile da rendere questi stadi eccezionali."
+    },
+    {
+      "id": "u3-0058",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "arrhenius e stato di transizione",
+      "testo": "Nel diagramma energetico di una reazione, l'energia di attivazione della reazione inversa risulta maggiore di quella della reazione diretta. Se ne deduce che la reazione diretta è:",
+      "opzioni": [
+        "endotermica",
+        "termoneutra, cioè con variazione di entalpia nulla",
+        "esotermica",
+        "esotermica soltanto se condotta in presenza di un catalizzatore",
+        "di natura non determinabile, se non si conosce il valore della costante di equilibrio"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le due energie di attivazione si misurano verso la stessa sommità, occupata dal complesso attivato: se la barriera è più alta partendo dai prodotti, significa che i prodotti si trovano a un livello energetico più basso dei reagenti, cioè che la reazione diretta libera calore. In formula, la variazione di entalpia è pari all'energia di attivazione diretta meno quella inversa, quindi è negativa. L'opzione endotermica inverte la conclusione e corrisponde al caso opposto. La termoneutralità richiederebbe due energie di attivazione uguali. L'opzione che chiama in causa il catalizzatore è priva di senso, perché il catalizzatore abbassa entrambe le barriere della stessa quantità e non tocca la variazione di entalpia. L'ultima cerca l'informazione nella costante di equilibrio, che riguarda la posizione finale dell'equilibrio e non il profilo energetico."
+    },
+    {
+      "id": "u3-0059",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "arrhenius e stato di transizione",
+      "testo": "Nell'equazione di Arrhenius il fattore A, che tiene conto della frequenza degli urti e del loro corretto orientamento, è detto fattore …….",
+      "accettate": [
+        "pre-esponenziale",
+        "preesponenziale",
+        "pre esponenziale",
+        "di frequenza"
+      ],
+      "spiegazione": "Il fattore pre-esponenziale, detto anche fattore di frequenza, moltiplica il termine esponenziale che contiene l'energia di attivazione. Racchiude gli aspetti geometrici e statistici degli urti, mentre l'esponenziale racchiude quello energetico."
+    },
+    {
+      "id": "u3-0060",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "arrhenius e stato di transizione",
+      "testo": "La teoria che descrive la reazione come passaggio obbligato attraverso una specie di massima energia, situata al vertice della curva del profilo energetico, è detta teoria dello stato di …….",
+      "accettate": [
+        "transizione"
+      ],
+      "spiegazione": "La teoria dello stato di transizione integra quella degli urti, descrivendo la reazione come formazione e successiva decomposizione del complesso attivato. Lo stato di transizione occupa un massimo della curva e non è isolabile, a differenza di un intermedio di reazione, che occupa invece un minimo relativo."
+    },
+    {
+      "id": "u3-0061",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "catalisi ed enzimi",
+      "testo": "Quale affermazione sugli enzimi, catalizzatori biologici, è corretta?",
+      "opzioni": [
+        "Vengono consumati in quantità stechiometrica nel corso della reazione che catalizzano",
+        "Rendono spontanea una reazione che in loro assenza non lo sarebbe",
+        "Aumentano il valore della costante di equilibrio della reazione catalizzata",
+        "La loro attività è indipendente dalla temperatura e dal pH dell'ambiente",
+        "Abbassano l'energia di attivazione e sono altamente specifici per il proprio substrato"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'enzima lega il substrato in una regione detta sito attivo, la cui struttura spiega insieme l'abbassamento della barriera e l'elevata specificità. La prima opzione è falsa: come ogni catalizzatore, l'enzima viene rigenerato e agisce in quantità minime. La seconda e la terza attribuiscono a un catalizzatore effetti termodinamici che non possiede, perché spontaneità e costante di equilibrio dipendono dalla variazione di energia libera e dalla temperatura, non dall'esistenza di un cammino più rapido. La quarta contraddice il fatto che gli enzimi, essendo proteine, si denaturano fuori dagli intervalli adatti e possiedono un pH ottimale di attività."
+    },
+    {
+      "id": "u3-0062",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "catalisi ed enzimi",
+      "testo": "Un catalizzatore non compare nell'equazione globale della reazione perché, dopo essere stato consumato in uno stadio del meccanismo, viene …… in uno stadio successivo.",
+      "accettate": [
+        "rigenerato",
+        "rigenerata",
+        "ripristinato",
+        "riformato"
+      ],
+      "spiegazione": "Il catalizzatore entra effettivamente nel meccanismo, formando specie intermedie a bassa energia, ma si ritrova immutato al termine del ciclo. Per questo una quantità minima di catalizzatore può far reagire una quantità molto grande di reagente."
+    },
+    {
+      "id": "u3-0063",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "costante di equilibrio",
+      "testo": "Se si scrive l'equazione di un equilibrio chimico nel verso opposto a quello di partenza, il valore della nuova costante di equilibrio, alla stessa temperatura, è:",
+      "opzioni": [
+        "il reciproco di quello precedente",
+        "identico a quello precedente",
+        "uguale a quello precedente ma cambiato di segno",
+        "il quadrato di quello precedente",
+        "la metà di quello precedente"
+      ],
+      "corretta": 0,
+      "spiegazione": "Invertire l'equazione significa scambiare numeratore e denominatore nella legge d'azione di massa, per cui la nuova costante vale 1 diviso la precedente. La seconda opzione ignora del tutto l'effetto dell'inversione. La terza applica alla costante di equilibrio il comportamento della variazione di energia libera, che effettivamente cambia segno quando si inverte la reazione: è l'errore più frequente, e va ricordato che la costante di equilibrio è sempre positiva e non può cambiare segno. La quarta descrive ciò che accade raddoppiando tutti i coefficienti, non invertendo il verso. L'ultima attribuisce alla costante un dimezzamento che non si verifica in alcun caso."
+    },
+    {
+      "id": "u3-0064",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "costante di equilibrio",
+      "testo": "Un equilibrio in cui reagenti e prodotti si trovano in fasi diverse, come quello fra un sale solido e i suoi ioni in soluzione, è detto equilibrio …….",
+      "accettate": [
+        "eterogeneo",
+        "eterogenea",
+        "eterogenei"
+      ],
+      "spiegazione": "Negli equilibri eterogenei le fasi condensate pure non compaiono nell'espressione della costante, perché la loro concentrazione è costante. È il motivo per cui aumentare la quantità di solido presente non sposta l'equilibrio."
+    },
+    {
+      "id": "u3-0065",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "costante di equilibrio",
+      "testo": "Per un equilibrio fra specie gassose, la costante espressa in funzione delle pressioni parziali anziché delle concentrazioni molari si indica con il simbolo …….",
+      "accettate": [
+        "Kp",
+        "K p"
+      ],
+      "spiegazione": "Kp si costruisce con la stessa struttura di Kc, sostituendo a ciascuna concentrazione la corrispondente pressione parziale elevata al proprio coefficiente. I due valori coincidono soltanto quando il numero di moli gassose è uguale nei due membri dell'equazione."
+    },
+    {
+      "id": "u3-0066",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "energia libera ed equilibrio",
+      "testo": "La relazione ΔG = ΔG° + RT ln Q permette di affermare che:",
+      "opzioni": [
+        "ΔG e ΔG° hanno sempre lo stesso valore e lo stesso segno",
+        "il verso spontaneo della reazione dipende anche dalla composizione della miscela, non solo da ΔG°",
+        "una reazione con ΔG° positivo non può in alcun caso procedere verso i prodotti",
+        "all'equilibrio si annulla il valore di ΔG° della reazione",
+        "all'equilibrio il quoziente di reazione Q assume valore nullo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il termine RT ln Q introduce nella relazione le concentrazioni effettive: partendo da una miscela ricca di reagenti, Q è piccolo, il logaritmo è fortemente negativo e ΔG può risultare negativo anche quando ΔG° è positivo. La prima opzione confonde le due grandezze, che coincidono soltanto quando Q vale 1, cioè in condizioni standard. La terza è la conclusione sbagliata che si trae ignorando il termine con Q, e nelle cellule viene smentita di continuo dalle reazioni accoppiate. La quarta confonde ΔG, che all'equilibrio si annulla, con ΔG°, che all'equilibrio vale meno RT ln K e in generale non è nullo. L'ultima è falsa perché all'equilibrio Q diventa uguale a K, non a zero."
+    },
+    {
+      "id": "u3-0067",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "equilibrio mobile e stato stazionario",
+      "testo": "Da un sistema chimico all'equilibrio viene sottratto in modo continuo uno dei prodotti, mantenendo costante la temperatura. L'equilibrio:",
+      "opzioni": [
+        "resta immobile, dal momento che la costante K non varia",
+        "si sposta verso i reagenti, perché il sistema tende a compensare la perdita",
+        "si sposta verso i prodotti, ricostituendo in parte la specie sottratta",
+        "si sposta verso i reagenti, perché la sottrazione fa aumentare il quoziente Q",
+        "si sposta verso i prodotti soltanto se la reazione è endotermica"
+      ],
+      "corretta": 2,
+      "spiegazione": "Sottrarre un prodotto abbassa il numeratore del quoziente di reazione, per cui Q diventa minore di K e il sistema procede nel verso diretto fino a ripristinare l'uguaglianza. La prima opzione parte da un'osservazione vera, l'invarianza di K, per trarne la conclusione sbagliata: proprio perché K deve restare la stessa, le concentrazioni devono riaggiustarsi. La seconda individua il verso sbagliato pur invocando la compensazione. La quarta ragiona in modo invertito sul quoziente, che diminuisce e non aumenta quando si toglie un prodotto. L'ultima introduce una condizione sull'entalpia che qui non ha alcun ruolo, dato che la temperatura resta costante. È il principio sfruttato in laboratorio per portare a completamento una reazione, per esempio distillando via un prodotto volatile."
+    },
+    {
+      "id": "u3-0068",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "equilibrio mobile e stato stazionario",
+      "testo": "Quando a un sistema all'equilibrio si aggiunge un'ulteriore quantità di un reagente, il quoziente di reazione Q diventa …… della costante K e la reazione riprende nel verso diretto.",
+      "accettate": [
+        "minore",
+        "più piccolo",
+        "inferiore"
+      ],
+      "spiegazione": "Aggiungendo un reagente si accresce il denominatore del quoziente, che perciò diminuisce e scende sotto il valore di K. Il sistema risponde consumando reagenti e formando prodotti finché Q non risale fino a K."
+    },
+    {
+      "id": "u3-0069",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "solubilità e ione comune",
+      "testo": "In una soluzione il prodotto delle concentrazioni degli ioni di un sale poco solubile, elevate ai rispettivi coefficienti, risulta maggiore del valore del prodotto di solubilità. La soluzione:",
+      "opzioni": [
+        "è insatura e può sciogliere altro sale",
+        "è esattamente satura e si trova all'equilibrio",
+        "presenta un valore di Kps più alto di quello tabulato per quel sale",
+        "è sovrasatura e il sale tende a precipitare",
+        "si trova in una condizione che non può verificarsi in alcun caso"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il confronto fra prodotto ionico e Kps è il caso particolare del confronto fra Q e K applicato agli equilibri di solubilità: se il prodotto ionico supera il Kps il sistema non è all'equilibrio e vi ritorna facendo precipitare il solido. La prima opzione descrive il caso opposto, con prodotto ionico minore del Kps. La seconda corrisponde all'uguaglianza fra i due valori. La terza confonde la condizione momentanea della soluzione con il valore della costante, che dipende soltanto dalla temperatura. L'ultima nega la possibilità stessa della sovrasaturazione, che invece si realizza e sta alla base della precipitazione degli urati."
+    },
+    {
+      "id": "u3-0070",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "solubilità e ione comune",
+      "testo": "La precipitazione degli urati nelle articolazioni e la formazione dei calcoli renali sono esempi di equilibrio eterogeneo fra un solido e i suoi ioni, governato dalla costante detta prodotto di …….",
+      "accettate": [
+        "solubilità"
+      ],
+      "spiegazione": "Il prodotto di solubilità, Kps, fissa il valore massimo che il prodotto delle concentrazioni ioniche può assumere in soluzione a una data temperatura. Quando quel valore viene superato, per aumento della concentrazione degli ioni o per effetto dello ione comune, il sale precipita."
+    }
+  ]
+}

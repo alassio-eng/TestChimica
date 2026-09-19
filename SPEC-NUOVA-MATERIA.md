@@ -129,11 +129,11 @@ domanda, ma rendono il file leggibile da solo.
 | `unita` | sì | uno degli `id` dichiarati nell'indice, altrimenti la domanda viene scartata |
 | `tipo` | sì | `multipla` oppure `completamento` |
 | `argomento` | sì in pratica | argomento specifico, mostrato nella correzione e in «I miei errori» |
-| `testo` | sì | nei completamenti la lacuna si segna con `……` (due caratteri `…`) |
+| `testo` | sì | nei completamenti la lacuna si segna con `……` (due caratteri `…`, U+2026). **Non** con trattini bassi `___`: il resto del banco usa `……` e la differenza si vede nell'app |
 | `opzioni` | solo `multipla` | esattamente 5 voci |
 | `corretta` | solo `multipla` | indice **a base zero** dentro `opzioni` |
 | `accettate` | solo `completamento` | tutte le forme accettabili |
-| `spiegazione` | sì | `\n` per andare a capo |
+| `spiegazione` | sì | `\n` per andare a capo. Nelle risposte multiple i distrattori si citano **con la loro lettera** — `A)`, `B)`, … — perché è così che lo studente li vede sullo schermo. Non «la prima opzione», «la quarta»: costringono a contare |
 
 ### Gli `id` non si toccano mai
 
