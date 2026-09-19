@@ -1,0 +1,632 @@
+{
+  "lotto": "chimica-u4-02",
+  "unita": "u4",
+  "generato": "2026-09-19",
+  "domande": [
+    {
+      "id": "u4-0003",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Teoria di Brønsted e Lowry: individuazione dell'acido e della base",
+      "testo": "Nella reazione HCO₃⁻ + H₂O ⇌ H₂CO₃ + OH⁻, quale specie si comporta da base secondo Brønsted e Lowry?",
+      "opzioni": [
+        "H₂O, perché in soluzione acquosa l'acqua funge sempre da base",
+        "HCO₃⁻, perché acquista un protone dall'acqua",
+        "OH⁻, perché è lo ione responsabile della basicità delle soluzioni",
+        "HCO₃⁻, perché cede un protone all'acqua",
+        "H₂CO₃, perché si forma insieme agli ioni OH⁻"
+      ],
+      "corretta": 1,
+      "spiegazione": "Una base di Brønsted è la specie che acquista un protone. Nell'equazione scritta HCO₃⁻ si trasforma in H₂CO₃, quindi ha acquistato un H⁺; l'acqua, che si trasforma in OH⁻, è la specie che quel protone lo ha ceduto. HCO₃⁻ è la base, H₂O l'acido.\n\nA) l'acqua è anfotera: qui cede un protone, quindi agisce da acido. Non esiste un ruolo fisso dell'acqua.\nC) OH⁻ è un prodotto, non un reagente: è la base coniugata dell'acqua, non la specie che reagisce da base.\nD) direzione invertita: se HCO₃⁻ cedesse un protone si otterrebbe CO₃²⁻, che nell'equazione non compare.\nE) H₂CO₃ è l'acido coniugato di HCO₃⁻; comparire fra i prodotti insieme a OH⁻ non lo rende una base."
+    },
+    {
+      "id": "u4-0004",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Teoria di Lewis: definizione di acido",
+      "testo": "Secondo la teoria di Lewis un acido è:",
+      "opzioni": [
+        "una specie che cede ioni H⁺ in soluzione acquosa",
+        "una specie che cede una coppia di elettroni non condivisa",
+        "una specie che libera ioni OH⁻ in soluzione acquosa",
+        "una specie che accetta una coppia di elettroni non condivisa",
+        "una specie che accetta un protone"
+      ],
+      "corretta": 3,
+      "spiegazione": "Lewis sposta la definizione dagli ioni H⁺ agli elettroni: acido è l'accettore di un doppietto elettronico, base il donatore. È la definizione più ampia delle tre, perché comprende anche specie prive di idrogeno, come gli ioni metallici che legano un doppietto dell'acqua.\n\nA) è la definizione di acido secondo Arrhenius, limitata alle soluzioni acquose.\nB) descrive la base di Lewis: i due ruoli sono scambiati.\nC) è la definizione di base secondo Arrhenius.\nE) è la definizione di base secondo Brønsted e Lowry."
+    },
+    {
+      "id": "u4-0005",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Specie anfotere",
+      "testo": "Quale fra le seguenti specie può comportarsi sia da acido sia da base secondo Brønsted e Lowry?",
+      "opzioni": [
+        "NH₄⁺",
+        "NO₃⁻",
+        "Na⁺",
+        "H₂PO₄⁻",
+        "CO₃²⁻"
+      ],
+      "corretta": 3,
+      "spiegazione": "H₂PO₄⁻ ha ancora idrogeni cedibili (dà HPO₄²⁻) e allo stesso tempo può acquistare un protone tornando a H₃PO₄: è quindi anfotero, come in generale gli anioni intermedi degli acidi poliprotici.\n\nA) NH₄⁺ può solo cedere un protone, dando NH₃: l'azoto ha già impegnato tutti e quattro i suoi legami e non dispone di doppietti liberi per acquistarne un altro.\nB) NO₃⁻ può solo acquistare protoni e, essendo la base coniugata di un acido forte, lo fa in misura trascurabile.\nC) Na⁺ non cede né acquista protoni: è uno ione spettatore.\nE) CO₃²⁻ non ha idrogeni da cedere: può solo acquistare protoni, quindi si comporta unicamente da base."
+    },
+    {
+      "id": "u4-0006",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Definizione di acido secondo Brønsted e Lowry",
+      "testo": "Secondo la teoria di Brønsted e Lowry un acido è una specie chimica capace di cedere un ……",
+      "accettate": ["protone", "protoni", "idrogenione", "ione idrogeno", "ione H⁺"],
+      "spiegazione": "Brønsted e Lowry definiscono l'acido come donatore di protoni e la base come accettore di protoni. Il protone ceduto non resta libero in soluzione acquosa: viene accolto da una molecola d'acqua, che diventa ione idronio H₃O⁺."
+    },
+    {
+      "id": "u4-0007",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Coppie acido-base coniugate",
+      "testo": "La specie che si ottiene da un acido di Brønsted dopo che questo ha ceduto il protone è detta base ……",
+      "accettate": ["coniugata", "coniugate"],
+      "spiegazione": "Acido e base che differiscono per un solo protone formano una coppia coniugata: da CH₃COOH si ottiene CH₃COO⁻, sua base coniugata. Quanto più forte è l'acido, tanto più debole è la base coniugata, perché il prodotto delle due costanti è fisso e pari a Kw."
+    },
+    {
+      "id": "u4-0008",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Relazione fra pH e pOH",
+      "testo": "A 25 °C una soluzione acquosa ha [OH⁻] = 1,0 × 10⁻⁵ M. Il suo pH vale:",
+      "opzioni": [
+        "−5",
+        "5",
+        "7",
+        "9",
+        "1,0 × 10⁻⁹"
+      ],
+      "corretta": 3,
+      "spiegazione": "pOH = −log(1,0 × 10⁻⁵) = 5; poiché a 25 °C pH + pOH = 14, il pH vale 14 − 5 = 9. Il risultato è coerente con il fatto che [OH⁻] è maggiore di 10⁻⁷ M, quindi la soluzione è basica.\n\nA) si ottiene calcolando il logaritmo e dimenticando il cambio di segno previsto dalla definizione.\nB) è il pOH: i due valori sono stati scambiati fra loro.\nC) 7 è il pH dell'acqua pura a 25 °C, ma qui [OH⁻] è cento volte maggiore di 10⁻⁷ M.\nE) è il valore di [H₃O⁺] in mol/L, non il pH: manca il passaggio al logaritmo cambiato di segno."
+    },
+    {
+      "id": "u4-0009",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Autoprotolisi dell'acqua: dipendenza di Kw dalla temperatura",
+      "testo": "L'autoprotolisi dell'acqua è un processo endotermico. Passando da 25 °C a 37 °C, il prodotto ionico Kw:",
+      "opzioni": [
+        "aumenta, e il pH dell'acqua pura scende sotto 7 pur restando neutra",
+        "aumenta, ma il pH dell'acqua pura resta esattamente 7",
+        "diminuisce, e il pH dell'acqua pura sale sopra 7",
+        "resta invariato, perché Kw è una costante universale",
+        "resta invariato, perché l'acqua pura è neutra a ogni temperatura"
+      ],
+      "corretta": 0,
+      "spiegazione": "Per un processo endotermico un aumento di temperatura sposta l'equilibrio verso i prodotti, quindi Kw cresce: a 37 °C vale circa 2,4 × 10⁻¹⁴ contro 1,0 × 10⁻¹⁴ a 25 °C. Cresce di conseguenza [H₃O⁺] = [OH⁻] = √Kw e il pH di neutralità scende a circa 6,8. L'acqua resta neutra perché le due concentrazioni restano uguali fra loro.\n\nB) se Kw aumenta aumenta anche √Kw: il pH di neutralità non può restare 7.\nC) per un processo endotermico la costante cresce con la temperatura, non diminuisce.\nD) Kw è una costante di equilibrio e come ogni costante di equilibrio dipende dalla temperatura.\nE) la neutralità significa [H₃O⁺] = [OH⁻], non pH = 7: la coincidenza con il valore 7 vale solo a 25 °C."
+    },
+    {
+      "id": "u4-0010",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Autoprotolisi dell'acqua",
+      "testo": "La reazione in cui due molecole d'acqua si scambiano un protone dando H₃O⁺ e OH⁻ è detta ……",
+      "accettate": ["autoprotolisi", "autoionizzazione", "autodissociazione", "auto-protolisi", "autoprotolisi dell'acqua"],
+      "spiegazione": "Nell'autoprotolisi una molecola d'acqua agisce da acido e l'altra da base: 2 H₂O ⇌ H₃O⁺ + OH⁻. La costante di questo equilibrio è il prodotto ionico dell'acqua, Kw = [H₃O⁺][OH⁻], che a 25 °C vale 1,0 × 10⁻¹⁴."
+    },
+    {
+      "id": "u4-0011",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Somma di pH e pOH",
+      "testo": "A 25 °C, in qualunque soluzione acquosa la somma pH + pOH vale ……",
+      "accettate": ["14", "14,0", "quattordici"],
+      "spiegazione": "Da Kw = [H₃O⁺][OH⁻] = 1,0 × 10⁻¹⁴, passando ai logaritmi cambiati di segno, si ottiene pH + pOH = pKw = 14. La relazione vale soltanto a 25 °C: a temperatura diversa cambia Kw e quindi cambia anche il valore della somma."
+    },
+    {
+      "id": "u4-0012",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Confronto fra le forze di due acidi deboli",
+      "testo": "L'acido acetico ha Ka = 1,8 × 10⁻⁵, l'acido formico Ka = 1,8 × 10⁻⁴. Quale affermazione è corretta?",
+      "opzioni": [
+        "l'acido formico è più forte perché ha il pKa più grande",
+        "l'acido acetico è più forte perché ha la Ka più piccola",
+        "l'acido formico è più forte e la sua base coniugata è più debole",
+        "l'acido acetico è più forte e la sua base coniugata è più debole",
+        "i due acidi hanno la stessa forza perché hanno lo stesso coefficiente"
+      ],
+      "corretta": 2,
+      "spiegazione": "Ka misura l'estensione della dissociazione: a Ka maggiore corrisponde acido più forte. L'acido formico (1,8 × 10⁻⁴) è dieci volte più forte dell'acido acetico (1,8 × 10⁻⁵), con pKa 3,74 contro 4,74. Poiché Ka × Kb = Kw, quanto più forte è l'acido tanto più debole è la sua base coniugata: il formiato è una base più debole dell'acetato.\n\nA) la conclusione sull'acido è giusta ma la motivazione è rovesciata: pKa = −log Ka, quindi all'acido più forte corrisponde il pKa più piccolo.\nB) una Ka più piccola indica un acido meno dissociato, quindi più debole.\nD) l'acido acetico è il più debole dei due e la sua base coniugata è la più forte: entrambe le affermazioni sono invertite.\nE) la forza dipende dall'esponente della potenza di dieci, non dal coefficiente 1,8 che i due valori hanno in comune."
+    },
+    {
+      "id": "u4-0013",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Relazione fra Ka e Kb di una coppia coniugata",
+      "testo": "Per una coppia acido/base coniugata in soluzione acquosa a 25 °C vale la relazione:",
+      "opzioni": [
+        "Ka + Kb = Kw",
+        "Ka / Kb = Kw",
+        "pKa + pKb = 7",
+        "pKa × pKb = 14",
+        "Ka × Kb = Kw"
+      ],
+      "corretta": 4,
+      "spiegazione": "Sommando l'equilibrio di dissociazione dell'acido a quello della sua base coniugata si ottiene l'autoprotolisi dell'acqua; quando due equilibri si sommano le rispettive costanti si moltiplicano. Quindi Ka × Kb = Kw = 1,0 × 10⁻¹⁴, e in forma logaritmica pKa + pKb = 14.\n\nA) le costanti di equilibrio si combinano per prodotto, non per somma.\nB) il rapporto fra Ka e Kb non assume alcun valore costante.\nC) il valore corretto in forma logaritmica è 14; il 7 è il pH dell'acqua pura a 25 °C, grandezza diversa.\nD) passando ai logaritmi un prodotto diventa una somma: pKa e pKb vanno sommati, non moltiplicati."
+    },
+    {
+      "id": "u4-0014",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Significato del pKa",
+      "testo": "Il valore del pKa di un acido è tanto più piccolo quanto più l'acido è ……",
+      "accettate": ["forte", "forti"],
+      "spiegazione": "pKa = −log Ka: al crescere di Ka il pKa diminuisce. Gli acidi forti hanno pKa negativo, l'acido acetico ha pKa 4,74 e lo ione ammonio 9,25. Leggere la scala al contrario è uno degli errori più frequenti."
+    },
+    {
+      "id": "u4-0015",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Costante di dissociazione basica",
+      "testo": "La costante di equilibrio che misura la tendenza di una base debole ad acquistare un protone dall'acqua si indica con il simbolo ……",
+      "accettate": ["Kb", "costante di dissociazione basica", "costante di basicità"],
+      "spiegazione": "Per l'equilibrio B + H₂O ⇌ BH⁺ + OH⁻ si scrive Kb = [BH⁺][OH⁻]/[B]. È l'analogo basico della Ka ed è legata alla costante dell'acido coniugato dalla relazione Ka × Kb = Kw."
+    },
+    {
+      "id": "u4-0016",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "pH di una soluzione di acido forte",
+      "testo": "A 25 °C il pH di una soluzione acquosa 0,010 M di HCl vale:",
+      "opzioni": [
+        "−2",
+        "0,010",
+        "1",
+        "2",
+        "12"
+      ],
+      "corretta": 3,
+      "spiegazione": "HCl è un acido forte e si dissocia completamente, quindi [H₃O⁺] = 0,010 M = 1,0 × 10⁻². Il pH è −log(1,0 × 10⁻²) = 2.\n\nA) è il logaritmo della concentrazione senza il cambio di segno richiesto dalla definizione di pH.\nB) è la concentrazione molare riportata tale e quale: il pH è un numero puro ottenuto dal logaritmo.\nC) 1 è il pH di una soluzione 0,10 M: l'esponente è stato sbagliato di una unità.\nE) è il pOH della soluzione, cioè 14 − 2: il calcolo è stato riferito agli ioni OH⁻ anziché a H₃O⁺."
+    },
+    {
+      "id": "u4-0017",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "pH di una soluzione di acido debole",
+      "testo": "Un acido debole monoprotico HA ha Ka = 1,0 × 10⁻⁵. In una soluzione 0,10 M di questo acido il pH vale circa:",
+      "opzioni": [
+        "1",
+        "3",
+        "5",
+        "6",
+        "11"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per un acido debole poco dissociato vale [H₃O⁺] ≈ √(Ka × C) = √(1,0 × 10⁻⁵ × 0,10) = √(1,0 × 10⁻⁶) = 1,0 × 10⁻³ M, da cui pH = 3. L'approssimazione è lecita perché la frazione dissociata risulta di circa l'1%.\n\nA) è il pH che si otterrebbe se HA fosse un acido forte, cioè completamente dissociato.\nC) 5 è il pKa dell'acido: coincide con il pH solo in un tampone equimolare, non nella soluzione del solo acido.\nD) si ottiene calcolando −log(Ka × C) senza estrarre la radice quadrata.\nE) è il pOH corrispondente al risultato giusto: si riferisce agli ioni OH⁻, mentre la soluzione è acida."
+    },
+    {
+      "id": "u4-0018",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Effetto della diluizione sul pH di un acido forte",
+      "testo": "Una soluzione di HCl 0,10 M viene diluita dieci volte con acqua. Il pH:",
+      "opzioni": [
+        "aumenta di una unità",
+        "diminuisce di una unità",
+        "aumenta di dieci unità",
+        "non cambia, perché HCl resta comunque un acido forte",
+        "diminuisce di dieci unità"
+      ],
+      "corretta": 0,
+      "spiegazione": "Diluendo dieci volte, [H₃O⁺] passa da 0,10 M a 0,010 M e il pH da 1 a 2: aumenta di una unità, perché la soluzione diventa meno acida. Ogni diluizione di un fattore dieci sposta il pH di un acido forte di una unità verso la neutralità.\n\nB) la diluizione riduce [H₃O⁺], quindi fa salire il pH, non scendere.\nC) il fattore dieci agisce sulla concentrazione; sul pH, che è una scala logaritmica, produce una variazione di una sola unità.\nD) la forza dell'acido non cambia, ma il pH dipende dalla concentrazione, che è stata modificata.\nE) unisce due errori: verso sbagliato della variazione ed entità sbagliata."
+    },
+    {
+      "id": "u4-0019",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "pH di una soluzione di base forte",
+      "testo": "A 25 °C una soluzione acquosa 0,0010 M di NaOH ha pH uguale a ……",
+      "accettate": ["11", "11,0", "undici"],
+      "spiegazione": "NaOH è una base forte e si dissocia completamente: [OH⁻] = 1,0 × 10⁻³ M, quindi pOH = 3 e pH = 14 − 3 = 11. L'errore tipico consiste nel fermarsi al pOH e riportarlo come pH."
+    },
+    {
+      "id": "u4-0020",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Acidi poliprotici: dissociazioni successive",
+      "testo": "L'acido fosforico H₃PO₄ è un acido triprotico con Ka1 > Ka2 > Ka3. Quale affermazione è corretta?",
+      "opzioni": [
+        "le tre dissociazioni avvengono contemporaneamente e nella stessa misura",
+        "la seconda dissociazione è più estesa della prima, perché lo ione è già carico",
+        "le tre costanti hanno lo stesso valore, perché i tre idrogeni sono equivalenti",
+        "l'acido cede i tre protoni in un unico stadio, come un acido forte",
+        "la prima dissociazione è la più estesa ed è quella che determina il pH"
+      ],
+      "corretta": 4,
+      "spiegazione": "Gli acidi poliprotici si dissociano per stadi successivi e ogni stadio è molto meno esteso del precedente, perché strappare un protone a una specie già carica negativamente richiede più energia. Essendo Ka1 maggiore delle altre di diversi ordini di grandezza, nel calcolo del pH di una soluzione di H₃PO₄ si considera in pratica la sola prima dissociazione.\n\nA) le dissociazioni sono successive e di estensione molto diversa, come dichiara la disuguaglianza fra le tre costanti.\nB) è l'errore opposto: la carica negativa crescente rende ogni cessione più difficile della precedente.\nC) i tre idrogeni non sono equivalenti proprio perché vengono ceduti da specie di carica diversa; se lo fossero le tre Ka sarebbero uguali, contro il dato del quesito.\nD) la cessione avviene in tre stadi distinti, ciascuno con la propria costante di equilibrio."
+    },
+    {
+      "id": "u4-0021",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Classificazione degli acidi per numero di protoni cedibili",
+      "testo": "Un acido che può cedere due protoni, come l'acido carbonico H₂CO₃, è detto acido ……",
+      "accettate": ["diprotico", "biprotico", "diprotici", "bibasico"],
+      "spiegazione": "Il prefisso indica il numero di protoni cedibili: monoprotico per HCl, diprotico per H₂CO₃ e H₂SO₄, triprotico per H₃PO₄. Le cessioni avvengono in stadi successivi, con costanti di dissociazione decrescenti."
+    },
+    {
+      "id": "u4-0022",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Indicatori di pH: meccanismo del viraggio",
+      "testo": "Un indicatore acido-base cambia colore:",
+      "opzioni": [
+        "a un valore di pH fisso, uguale per tutti gli indicatori",
+        "esattamente a pH 7, che corrisponde alla neutralità",
+        "soltanto in ambiente acido, mai in ambiente basico",
+        "in un intervallo che dipende dalla sua concentrazione e non dal pH",
+        "in un intervallo di pH centrato all'incirca sul proprio pKa"
+      ],
+      "corretta": 4,
+      "spiegazione": "Un indicatore è un acido debole la cui forma indissociata ha colore diverso da quello della base coniugata. Il colore percepito cambia quando si inverte il rapporto fra le due forme, cioè intorno al pH in cui esse sono ugualmente presenti: il pKa dell'indicatore, con un intervallo di viraggio ampio circa due unità.\n\nA) ogni indicatore ha il proprio pKa e quindi il proprio intervallo: il metilarancio vira fra 3,1 e 4,4, la fenolftaleina fra 8,2 e 10,0.\nB) il viraggio cade a pH 7 solo nel caso particolare di un indicatore con pKa vicino a 7.\nC) esistono indicatori che virano in ambiente nettamente basico, come la fenolftaleina.\nD) la concentrazione dell'indicatore determina l'intensità del colore, non il pH a cui avviene il viraggio."
+    },
+    {
+      "id": "u4-0023",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Intervallo di viraggio di un indicatore",
+      "testo": "L'intervallo di pH entro il quale un indicatore passa da un colore all'altro è detto intervallo di ……",
+      "accettate": ["viraggio", "viraggi"],
+      "spiegazione": "L'intervallo di viraggio è ampio circa due unità di pH ed è centrato sul pKa dell'indicatore. Al di fuori di esso una delle due forme colorate prevale nettamente sull'altra e il colore non cambia più in modo apprezzabile."
+    },
+    {
+      "id": "u4-0024",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Comportamento acido o basico dei sali in acqua",
+      "testo": "Quale fra i seguenti sali, sciolto in acqua, dà una soluzione basica?",
+      "opzioni": [
+        "NH₄Cl",
+        "NaCl",
+        "CH₃COONa",
+        "KNO₃",
+        "NH₄NO₃"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'acetato di sodio deriva da una base forte (NaOH) e da un acido debole (CH₃COOH). Il catione Na⁺ è uno ione spettatore, mentre l'acetato, base coniugata di un acido debole, reagisce con l'acqua: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. La soluzione risulta basica.\n\nA) deriva da base debole (NH₃) e acido forte (HCl): NH₄⁺ cede protoni all'acqua e la soluzione è acida.\nB) deriva da base forte e acido forte: entrambi gli ioni sono spettatori e la soluzione è neutra.\nD) deriva da base forte (KOH) e acido forte (HNO₃): anche in questo caso la soluzione è neutra.\nE) deriva da base debole e acido forte, quindi dà soluzione acida come il cloruro corrispondente."
+    },
+    {
+      "id": "u4-0025",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Idrolisi del catione di un sale",
+      "testo": "Una soluzione acquosa di NH₄Cl risulta acida perché:",
+      "opzioni": [
+        "lo ione Cl⁻ reagisce con l'acqua liberando ioni H₃O⁺",
+        "lo ione NH₄⁺ acquista un protone dall'acqua",
+        "il sale contiene atomi di idrogeno nella propria formula",
+        "entrambi gli ioni del sale si comportano da acidi",
+        "lo ione NH₄⁺ cede un protone all'acqua"
+      ],
+      "corretta": 4,
+      "spiegazione": "NH₄⁺ è l'acido coniugato della base debole NH₃ e reagisce con l'acqua secondo NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺. La produzione di ioni idronio porta il pH sotto 7.\n\nA) Cl⁻ è la base coniugata di un acido forte e non reagisce in misura apprezzabile con l'acqua: è uno ione spettatore.\nB) la direzione è invertita: NH₄⁺ non ha doppietti liberi per acquistare un protone, ne cede uno.\nC) la sola presenza di idrogeno nella formula non basta: anche NaHCO₃ contiene idrogeno e dà soluzione basica.\nD) soltanto il catione si comporta da acido; l'anione è inerte."
+    },
+    {
+      "id": "u4-0026",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Reazione fra un acido e una base",
+      "testo": "La reazione fra un acido e una base che porta alla formazione di un sale e di acqua è detta reazione di ……",
+      "accettate": ["neutralizzazione", "neutralizzazioni"],
+      "spiegazione": "Nella neutralizzazione gli ioni H₃O⁺ dell'acido e gli ioni OH⁻ della base si combinano dando acqua, mentre gli ioni rimanenti costituiscono il sale. Il pH finale è 7 soltanto se acido e base sono entrambi forti: negli altri casi il sale prodotto reagisce con l'acqua e il pH si discosta dalla neutralità."
+    },
+    {
+      "id": "u4-0027",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Solubilità e pH: acido urico e urati",
+      "testo": "Nelle vie urinarie l'acido urico precipita quando il pH è basso, mentre la sua forma deprotonata, lo ione ……, è più solubile e prevale a pH più alto.",
+      "accettate": ["urato", "urati"],
+      "spiegazione": "L'acido urico è un acido debole con pKa di poco inferiore a 6: a pH acido prevale la forma indissociata, poco solubile, che può precipitare dando calcoli; al salire del pH prevale lo ione urato, più solubile. Su questo si basa l'alcalinizzazione delle urine come misura preventiva."
+    },
+    {
+      "id": "u4-0028",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Composizione di una soluzione tampone",
+      "testo": "Quale fra le seguenti coppie di sostanze, in soluzione acquosa, costituisce un sistema tampone?",
+      "opzioni": [
+        "HCl e NaCl",
+        "NaOH e NaCl",
+        "CH₃COOH e CH₃COONa",
+        "HCl e NaOH",
+        "NaCl e KCl"
+      ],
+      "corretta": 2,
+      "spiegazione": "Un tampone richiede un acido debole e la sua base coniugata in concentrazioni confrontabili: l'acido acetico e l'acetato di sodio soddisfano esattamente questa condizione. L'acido neutralizza le basi forti aggiunte, l'acetato neutralizza gli acidi forti.\n\nA) HCl è un acido forte, completamente dissociato: non c'è alcun equilibrio da spostare e Cl⁻ non ha carattere basico apprezzabile.\nB) è una base forte accompagnata da un sale neutro: manca del tutto la coppia coniugata debole.\nD) acido forte e base forte reagiscono fra loro neutralizzandosi e non coesistono in soluzione.\nE) sono due sali di acido forte e base forte: tutti gli ioni presenti sono spettatori."
+    },
+    {
+      "id": "u4-0029",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Meccanismo d'azione di un tampone",
+      "testo": "A un tampone acetico/acetato viene aggiunta una piccola quantità di HCl. Che cosa accade?",
+      "opzioni": [
+        "il pH non varia in alcun modo, perché il tampone impedisce ogni variazione",
+        "gli ioni acetato catturano i protoni aggiunti e il pH diminuisce di poco",
+        "l'acido acetico cattura i protoni aggiunti e il pH diminuisce di poco",
+        "il pH crolla come in acqua pura, perché l'acido aggiunto è un acido forte",
+        "il pH aumenta, perché aumenta la concentrazione totale di acido"
+      ],
+      "corretta": 1,
+      "spiegazione": "Gli ioni H₃O⁺ introdotti vengono consumati dalla componente basica del tampone: CH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O. Il rapporto base/acido diminuisce e il pH scende, ma di pochissimo, perché nell'equazione di Henderson-Hasselbalch quel rapporto entra attraverso il suo logaritmo.\n\nA) il tampone attenua la variazione, non la annulla: una soluzione a pH rigorosamente costante non esiste.\nC) l'acido acetico è già la forma protonata e non può accettare altri protoni: è la specie che si forma, non quella che reagisce.\nD) è ciò che accadrebbe in assenza del tampone; la presenza della base coniugata impedisce il crollo.\nE) l'aggiunta di un acido non può in alcun caso far salire il pH."
+    },
+    {
+      "id": "u4-0030",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Definizione di soluzione tampone",
+      "testo": "Una soluzione che si oppone alle variazioni di pH provocate dall'aggiunta di piccole quantità di acido o di base forte è detta soluzione ……",
+      "accettate": ["tampone", "tamponata", "tamponi"],
+      "spiegazione": "Una soluzione tampone contiene contemporaneamente un acido debole e la sua base coniugata, oppure una base debole e il suo acido coniugato. Le due specie consumano rispettivamente le basi e gli acidi aggiunti, mantenendo il pH quasi costante."
+    },
+    {
+      "id": "u4-0031",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Ruolo delle due componenti di un tampone",
+      "testo": "In un tampone acetico/acetato la specie che neutralizza gli ioni H₃O⁺ aggiunti è lo ione ……",
+      "accettate": ["acetato", "acetati", "CH3COO-", "CH3COO"],
+      "spiegazione": "La componente basica del tampone è quella che reagisce con gli acidi: CH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O. Simmetricamente, se si aggiunge una base forte è l'acido acetico a intervenire, cedendo un protone agli ioni OH⁻."
+    },
+    {
+      "id": "u4-0032",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Equazione di Henderson-Hasselbalch: tampone equimolare",
+      "testo": "Un tampone contiene acido acetico 0,10 M e acetato di sodio 0,10 M (pKa = 4,74). Il pH della soluzione vale:",
+      "opzioni": [
+        "4,74",
+        "5,74",
+        "3,74",
+        "7,00",
+        "9,26"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'equazione di Henderson-Hasselbalch dà pH = pKa + log([base coniugata]/[acido]). Con concentrazioni uguali il rapporto vale 1, il suo logaritmo è 0 e quindi pH = pKa = 4,74.\n\nB) si ottiene sommando 1 invece di 0, cioè supponendo un rapporto base/acido pari a 10.\nC) si ottiene sottraendo 1, cioè supponendo un rapporto pari a 0,1.\nD) 7,00 è il pH dell'acqua pura a 25 °C, ma un tampone acetico è acido.\nE) è 14 − 4,74: il pOH è stato scambiato con il pH."
+    },
+    {
+      "id": "u4-0033",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Equazione di Henderson-Hasselbalch: rapporto base/acido",
+      "testo": "In una soluzione tampone il rapporto fra la concentrazione della base coniugata e quella dell'acido debole vale 10. Il pH è uguale a:",
+      "opzioni": [
+        "pKa − 1",
+        "pKa + 1",
+        "pKa + 10",
+        "pKa × 10",
+        "pKa − 10"
+      ],
+      "corretta": 1,
+      "spiegazione": "pH = pKa + log 10 = pKa + 1. Un eccesso di dieci volte della base coniugata alza il pH di una sola unità rispetto al pKa: è il limite convenzionale dell'intervallo utile del tampone.\n\nA) corrisponde a un rapporto base/acido di 0,1, cioè al caso opposto, con l'acido in eccesso.\nC) il rapporto entra nell'equazione attraverso il proprio logaritmo: il valore 10 non va sommato tale e quale.\nD) il termine logaritmico si somma al pKa, non lo moltiplica.\nE) somma l'errore di segno all'uso del rapporto al posto del suo logaritmo."
+    },
+    {
+      "id": "u4-0034",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Nome dell'equazione dei tamponi",
+      "testo": "L'equazione che lega il pH di un tampone al pKa e al rapporto fra base coniugata e acido prende il nome da Henderson e ……",
+      "accettate": ["Hasselbalch"],
+      "spiegazione": "L'equazione si scrive pH = pKa + log([base coniugata]/[acido]) ed è la forma logaritmica dell'espressione della Ka. Vale con buona approssimazione finché le concentrazioni delle due specie sono confrontabili fra loro."
+    },
+    {
+      "id": "u4-0035",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Condizione di equimolarità in un tampone",
+      "testo": "In un tampone in cui le concentrazioni dell'acido debole e della sua base coniugata sono uguali, il pH coincide con il ……",
+      "accettate": ["pKa", "pK", "pKa dell'acido"],
+      "spiegazione": "Se [base] = [acido] il logaritmo del loro rapporto è zero e l'equazione di Henderson-Hasselbalch si riduce a pH = pKa. È anche la condizione in cui il potere tamponante risulta massimo."
+    },
+    {
+      "id": "u4-0036",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Condizione di massimo potere tamponante",
+      "testo": "Il potere tamponante di una soluzione è massimo quando:",
+      "opzioni": [
+        "il pH della soluzione è uguale al pKa dell'acido debole",
+        "il pH della soluzione è uguale a 7",
+        "la base coniugata è dieci volte più concentrata dell'acido",
+        "l'acido debole è stato completamente neutralizzato",
+        "il pH della soluzione è uguale al pKb della base coniugata"
+      ],
+      "corretta": 0,
+      "spiegazione": "Quando pH = pKa le concentrazioni di acido e base coniugata sono uguali: il sistema dispone della massima riserva sia per neutralizzare acidi sia per neutralizzare basi, e il rapporto fra le due specie varia poco a ogni aggiunta. In pratica un tampone è efficace nell'intervallo pKa ± 1.\n\nB) il valore 7 non ha alcun ruolo privilegiato: un tampone acetico lavora al meglio intorno a 4,7.\nC) con un rapporto 10 a 1 il tampone si trova al limite del proprio intervallo utile, dove la capacità è già molto ridotta.\nD) neutralizzato tutto l'acido resta solo la base coniugata, e il sistema non è più un tampone.\nE) il pKb è riferito alla base: la condizione di equimolarità si esprime tramite il pKa, e i due valori coincidono solo se valgono entrambi 7."
+    },
+    {
+      "id": "u4-0037",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Capacità tamponante",
+      "testo": "La quantità di acido o di base forte che un tampone può neutralizzare limitando la variazione di pH è detta capacità ……",
+      "accettate": ["tamponante", "tampone", "di tamponamento"],
+      "spiegazione": "La capacità tamponante cresce con la concentrazione complessiva delle due specie ed è massima quando il loro rapporto vale 1, cioè quando pH = pKa. Due tamponi possono avere lo stesso pH e capacità molto diverse: quello più diluito si esaurisce prima."
+    },
+    {
+      "id": "u4-0038",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Tamponi del sangue",
+      "testo": "Nel plasma il principale sistema tampone è:",
+      "opzioni": [
+        "H₂PO₄⁻ / HPO₄²⁻",
+        "NH₄⁺ / NH₃",
+        "CO₂ (H₂CO₃) / HCO₃⁻",
+        "proteina / proteinato",
+        "HSO₄⁻ / SO₄²⁻"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il sistema anidride carbonica/bicarbonato è quantitativamente il più importante del liquido extracellulare: il bicarbonato è presente in concentrazione elevata e il sistema è aperto, perché la CO₂ viene eliminata dal polmone e il bicarbonato regolato dal rene. Questo lo rende molto più efficiente di quanto il suo pKa apparente, circa 6,1, farebbe prevedere.\n\nA) il tampone fosfato ha un pKa più vicino al pH fisiologico, ma nel plasma la sua concentrazione è troppo bassa: conta soprattutto nel liquido intracellulare e nell'urina.\nB) la coppia ammonio/ammoniaca interviene nell'escrezione renale degli acidi, non nel tamponamento del plasma.\nD) le proteine sono tamponi importanti, l'emoglobina in particolare, ma agiscono soprattutto all'interno degli eritrociti.\nE) lo ione solfato non costituisce un sistema tampone di rilievo: HSO₄⁻ è un acido troppo forte per esistere a pH fisiologico."
+    },
+    {
+      "id": "u4-0039",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Tampone fosfato",
+      "testo": "Il sistema tampone nel quale intervengono le specie H₂PO₄⁻ e HPO₄²⁻ è detto tampone ……",
+      "accettate": ["fosfato", "fosfati", "fosfatico"],
+      "spiegazione": "La coppia diidrogenofosfato/idrogenofosfato corrisponde alla seconda dissociazione dell'acido fosforico, con pKa2 pari a circa 7,2: un valore molto vicino al pH fisiologico, che rende il sistema efficiente. Nel plasma la sua concentrazione è però bassa, per cui il suo ruolo è prevalentemente intracellulare e renale."
+    },
+    {
+      "id": "u4-0040",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Alterazioni dell'equilibrio acido-base",
+      "testo": "L'abbassamento del pH del sangue al di sotto dell'intervallo fisiologico prende il nome di ……",
+      "accettate": ["acidosi"],
+      "spiegazione": "Si parla di acidosi per pH arterioso inferiore a circa 7,35 e di alcalosi per valori superiori a circa 7,45. L'alterazione è detta respiratoria quando riguarda la CO₂ e metabolica quando riguarda il bicarbonato."
+    },
+    {
+      "id": "u4-0041",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Calcolo del numero di ossidazione in uno ione poliatomico",
+      "testo": "Nello ione permanganato MnO₄⁻ il numero di ossidazione del manganese è:",
+      "opzioni": [
+        "+2",
+        "+4",
+        "+6",
+        "+7",
+        "−1"
+      ],
+      "corretta": 3,
+      "spiegazione": "Ciascun ossigeno ha numero di ossidazione −2, per un totale di −8. La somma algebrica deve uguagliare la carica dello ione, cioè −1: da x − 8 = −1 si ricava x = +7, il valore massimo possibile per il manganese.\n\nA) +2 è il numero di ossidazione del manganese nello ione Mn²⁺, la forma ridotta in ambiente acido.\nB) +4 è il valore nel diossido di manganese MnO₂.\nC) +6 è il valore nello ione manganato MnO₄²⁻, che differisce per una unità di carica.\nE) −1 è la carica complessiva dello ione, non il numero di ossidazione di un singolo atomo."
+    },
+    {
+      "id": "u4-0042",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Definizione di ossidazione",
+      "testo": "In una reazione di ossido-riduzione la specie che si ossida:",
+      "opzioni": [
+        "acquista elettroni e il suo numero di ossidazione diminuisce",
+        "cede elettroni e il suo numero di ossidazione aumenta",
+        "cede elettroni e il suo numero di ossidazione diminuisce",
+        "acquista elettroni e si comporta da agente riducente",
+        "cede protoni e il suo numero di ossidazione aumenta"
+      ],
+      "corretta": 1,
+      "spiegazione": "Ossidarsi significa perdere elettroni; poiché il numero di ossidazione è una carica formale, la perdita di carica negativa lo fa aumentare. La specie che si ossida è l'agente riducente, perché fornisce elettroni all'altra.\n\nA) descrive la riduzione: l'acquisto di elettroni abbassa il numero di ossidazione.\nC) la prima metà è giusta, ma il verso della variazione è sbagliato: cedere cariche negative fa salire il numero di ossidazione.\nD) chi acquista elettroni è l'agente ossidante; i due ruoli sono scambiati.\nE) le redox sono definite dal trasferimento di elettroni: la cessione di un protone definisce un acido di Brønsted e non comporta di per sé variazione del numero di ossidazione."
+    },
+    {
+      "id": "u4-0043",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Regola di somma dei numeri di ossidazione",
+      "testo": "In una molecola elettricamente neutra la somma algebrica dei numeri di ossidazione di tutti gli atomi è uguale a ……",
+      "accettate": ["0", "zero"],
+      "spiegazione": "È la regola su cui si fonda l'assegnazione dei numeri di ossidazione: in una molecola neutra la somma è zero, in uno ione poliatomico è uguale alla carica dello ione. Da questa condizione si ricava per differenza il numero di ossidazione incognito di un atomo."
+    },
+    {
+      "id": "u4-0044",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Reazioni di dismutazione",
+      "testo": "La reazione in cui una stessa specie chimica si ossida e si riduce contemporaneamente è detta ……",
+      "accettate": ["dismutazione", "dismutazioni", "disproporzione", "disproporzionamento"],
+      "spiegazione": "Nella dismutazione una parte della specie aumenta il proprio numero di ossidazione e un'altra parte lo diminuisce. Un esempio è la decomposizione del perossido di idrogeno, 2 H₂O₂ → 2 H₂O + O₂, in cui l'ossigeno passa da −1 a −2 in un prodotto e da −1 a 0 nell'altro."
+    },
+    {
+      "id": "u4-0045",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Identificazione dell'agente ossidante",
+      "testo": "Nella reazione Zn + Cu²⁺ → Zn²⁺ + Cu, l'agente ossidante è:",
+      "opzioni": [
+        "Zn",
+        "Zn²⁺",
+        "Cu²⁺",
+        "Cu",
+        "nessuno: non si tratta di una reazione redox"
+      ],
+      "corretta": 2,
+      "spiegazione": "Lo ione rameico acquista due elettroni passando da +2 a 0: si riduce e, così facendo, ossida lo zinco. L'agente ossidante è per definizione la specie che si riduce.\n\nA) lo zinco metallico passa da 0 a +2, quindi si ossida ed è l'agente riducente. È l'errore più frequente, che scambia «si ossida» con «è l'ossidante».\nB) Zn²⁺ è un prodotto della reazione, non un reagente.\nD) il rame metallico è il prodotto della riduzione, non la specie che la subisce.\nE) i numeri di ossidazione di zinco e rame variano entrambi: la reazione è una redox a tutti gli effetti."
+    },
+    {
+      "id": "u4-0046",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Bilanciamento per semireazioni",
+      "testo": "In una reazione redox bilanciata il numero di elettroni ceduti dal riducente deve essere uguale al numero di elettroni acquistati dall'……",
+      "accettate": ["ossidante", "ossidanti", "agente ossidante"],
+      "spiegazione": "Gli elettroni non compaiono nell'equazione complessiva perché vengono trasferiti integralmente da una specie all'altra. Il bilanciamento per semireazioni consiste proprio nel moltiplicare le due semireazioni per i coefficienti che rendono uguali i due numeri di elettroni."
+    },
+    {
+      "id": "u4-0047",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Cella galvanica: elettrodi e polarità",
+      "testo": "In una cella galvanica in funzione:",
+      "opzioni": [
+        "l'ossidazione avviene all'anodo, che è il polo negativo",
+        "l'ossidazione avviene al catodo, che è il polo negativo",
+        "la riduzione avviene all'anodo, che è il polo positivo",
+        "l'ossidazione avviene all'anodo, che è il polo positivo",
+        "i due elettrodi hanno lo stesso segno, perché la reazione è spontanea"
+      ],
+      "corretta": 0,
+      "spiegazione": "In qualunque cella l'ossidazione avviene all'anodo e la riduzione al catodo. In una cella galvanica gli elettroni liberati all'anodo percorrono il circuito esterno fino al catodo: l'anodo risulta quindi il polo negativo e il catodo il polo positivo.\n\nB) l'associazione elettrodo-processo è invertita: al catodo avviene la riduzione.\nC) stesso scambio fra i due elettrodi, con in più un'attribuzione sbagliata del segno.\nD) il processo è attribuito all'elettrodo giusto, ma i segni sono invertiti: è l'errore di chi ricorda la convenzione valida per la cella elettrolitica.\nE) i due elettrodi hanno per definizione segno opposto: è la differenza di potenziale fra di essi a mettere in movimento gli elettroni."
+    },
+    {
+      "id": "u4-0048",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Definizione di catodo",
+      "testo": "In una cella galvanica l'elettrodo al quale avviene la riduzione è detto ……",
+      "accettate": ["catodo", "catodi"],
+      "spiegazione": "Riduzione al catodo e ossidazione all'anodo, in ogni tipo di cella. Nella cella galvanica il catodo è il polo positivo, perché riceve gli elettroni che provengono dall'anodo attraverso il circuito esterno."
+    },
+    {
+      "id": "u4-0049",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Elettrodo di riferimento dei potenziali standard",
+      "testo": "I potenziali standard di riduzione sono valori relativi, misurati rispetto all'elettrodo standard a ……, al quale si attribuisce per convenzione il valore 0,00 V.",
+      "accettate": ["idrogeno", "elettrodo a idrogeno", "idrogeno (SHE)"],
+      "spiegazione": "L'elettrodo standard a idrogeno è costituito da platino immerso in una soluzione a concentrazione unitaria di H⁺ e lambito da idrogeno gassoso a pressione standard. Il potenziale assoluto di un singolo elettrodo non è misurabile: si misura sempre una differenza rispetto a un riferimento, e questo è il riferimento convenzionale."
+    },
+    {
+      "id": "u4-0050",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Equazione di Nernst",
+      "testo": "Secondo l'equazione di Nernst, per la semireazione Cu²⁺ + 2 e⁻ → Cu un aumento della concentrazione di Cu²⁺ a temperatura costante:",
+      "opzioni": [
+        "fa diminuire il potenziale di riduzione",
+        "non modifica il potenziale, perché E° è una costante tabulata",
+        "fa aumentare il potenziale solo a temperature superiori a 25 °C",
+        "fa diminuire il potenziale, perché aumenta il quoziente di reazione",
+        "fa aumentare il potenziale di riduzione"
+      ],
+      "corretta": 4,
+      "spiegazione": "A 25 °C l'equazione di Nernst si scrive E = E° − (0,0592/n) log Q; per questa semireazione Q = 1/[Cu²⁺]. Aumentando [Cu²⁺] il quoziente diminuisce, il suo logaritmo diventa negativo e il termine sottratto fa crescere E. Il risultato è coerente con il principio dell'equilibrio mobile: più forma ossidata è disponibile, maggiore è la tendenza alla riduzione.\n\nA) il verso è sbagliato: aumentare la concentrazione della forma ossidata favorisce la riduzione.\nB) E° è costante, ma E dipende anche dalle concentrazioni, ed è esattamente ciò che l'equazione di Nernst esprime.\nC) la temperatura compare nell'equazione e ne modifica il coefficiente, ma la dipendenza dalle concentrazioni sussiste a qualunque temperatura.\nD) la conclusione parte da un quoziente scritto male: la specie ossidata compare al denominatore di Q, che quindi diminuisce."
+    },
+    {
+      "id": "u4-0051",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Relazione fra energia libera e differenza di potenziale",
+      "testo": "Nella relazione ΔG = −nFΔE, che lega la variazione di energia libera alla differenza di potenziale di una cella, la costante F è detta costante di ……",
+      "accettate": ["Faraday"],
+      "spiegazione": "La costante di Faraday è la carica di una mole di elettroni, circa 96 485 C/mol. Il segno meno esprime che a una differenza di potenziale positiva corrisponde un ΔG negativo, cioè una reazione spontanea capace di compiere lavoro elettrico."
+    },
+    {
+      "id": "u4-0052",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Reazioni redox non enzimatiche dell'ossigeno",
+      "testo": "La reazione fra lo ione Fe²⁺ e il perossido di idrogeno che porta alla formazione del radicale ossidrile è nota come reazione di ……",
+      "accettate": ["Fenton"],
+      "spiegazione": "Nella reazione di Fenton, Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH, lo ione ferroso si ossida e il perossido si riduce generando il radicale ossidrile, la specie reattiva dell'ossigeno più aggressiva. La reazione di Haber-Weiss è il processo complessivo in cui lo ione superossido rigenera Fe²⁺, così che il ferro agisce da catalizzatore ciclico."
+    }
+  ]
+}

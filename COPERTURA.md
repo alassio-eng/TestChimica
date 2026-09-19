@@ -2,19 +2,19 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**756 domande su 2200** a regime.
+**806 domande su 2200** a regime.
 
 
 ---
 
-## Chimica e propedeutica biochimica — 296/700
+## Chimica e propedeutica biochimica — 346/700
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Atomo, legami, stati della materia, termodinamica | 150/150 | 80M + 70C | 140 | 8 |
 | U2 | Miscele, soluzioni, proprietà colligative | 70/70 | 35M + 35C | 68 | 2 |
 | U3 | Cinetica ed equilibrio chimico | 70/70 | 34M + 36C | 10 | 2 |
-| U4 | Acidi, basi, tamponi, redox ed elettrochimica | 2/100 | 1M + 1C | 2 | 5 |
+| U4 | Acidi, basi, tamponi, redox ed elettrochimica | 52/100 | 26M + 26C | 52 | 5 |
 | U5 | Carbonio, idrocarburi, aromatici | 1/90 | 1M + 0C | 1 | 4 |
 | U6 | Gruppi funzionali e isomerie | 1/70 | 0M + 1C | 1 | 1 |
 | U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 2/150 | 1M + 1C | 2 | 9 |
@@ -254,10 +254,60 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U4 — Acidi, basi, tamponi, redox ed elettrochimica
 
-2 domande su 100 · 1 a risposta multipla e 1 a completamento · 2 argomenti distinti · file: chimica-u4-01.json
+52 domande su 100 · 26 a risposta multipla e 26 a completamento · 52 argomenti distinti · file: chimica-u4-01.json, chimica-u4-02.json
 
+- Acidi poliprotici: dissociazioni successive
+- Alterazioni dell'equilibrio acido-base
+- Autoprotolisi dell'acqua
+- Autoprotolisi dell'acqua: dipendenza di Kw dalla temperatura
+- Bilanciamento per semireazioni
+- Calcolo del numero di ossidazione in uno ione poliatomico
+- Capacità tamponante
+- Cella galvanica: elettrodi e polarità
+- Classificazione degli acidi per numero di protoni cedibili
+- Comportamento acido o basico dei sali in acqua
+- Composizione di una soluzione tampone
+- Condizione di equimolarità in un tampone
+- Condizione di massimo potere tamponante
+- Confronto fra le forze di due acidi deboli
+- Coppie acido-base coniugate
+- Costante di dissociazione basica
+- Definizione di acido secondo Brønsted e Lowry
+- Definizione di catodo
+- Definizione di ossidazione
+- Definizione di soluzione tampone
+- Effetto della diluizione sul pH di un acido forte
 - Elettrochimica: elettrodi di una cella galvanica
+- Elettrodo di riferimento dei potenziali standard
+- Equazione di Henderson-Hasselbalch: rapporto base/acido
+- Equazione di Henderson-Hasselbalch: tampone equimolare
+- Equazione di Nernst
+- Identificazione dell'agente ossidante
+- Idrolisi del catione di un sale
+- Indicatori di pH: meccanismo del viraggio
+- Intervallo di viraggio di un indicatore
+- Meccanismo d'azione di un tampone
+- Nome dell'equazione dei tamponi
+- Reazione fra un acido e una base
+- Reazioni di dismutazione
+- Reazioni redox non enzimatiche dell'ossigeno
+- Regola di somma dei numeri di ossidazione
+- Relazione fra Ka e Kb di una coppia coniugata
+- Relazione fra energia libera e differenza di potenziale
+- Relazione fra pH e pOH
+- Ruolo delle due componenti di un tampone
+- Significato del pKa
+- Solubilità e pH: acido urico e urati
 - Soluzioni tampone: equazione di Henderson-Hasselbalch
+- Somma di pH e pOH
+- Specie anfotere
+- Tampone fosfato
+- Tamponi del sangue
+- Teoria di Brønsted e Lowry: individuazione dell'acido e della base
+- Teoria di Lewis: definizione di acido
+- pH di una soluzione di acido debole
+- pH di una soluzione di acido forte
+- pH di una soluzione di base forte
 
 ### U5 — Carbonio, idrocarburi, aromatici
 

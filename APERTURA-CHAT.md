@@ -23,26 +23,25 @@ Obiettivo raggiunto (70/70): nessuna chat da aprire.
 
 ## U4 — Acidi, basi, tamponi, redox ed elettrochimica
 
-2/100 nel banco · mancano 98 domande in 2 file: `chimica-u4-02.json` … `chimica-u4-03.json`, id da `u4-0003` a `u4-0100`
+52/100 nel banco · mancano 48 domande in 1 file: `chimica-u4-03.json` … `chimica-u4-03.json`, id da `u4-0053` a `u4-0100`
 
 ```text
 Sei la chat che si occupa di una sola unità del banco domande di Chimica e propedeutica biochimica: la U4. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
 
 UNITÀ
 U4 — Acidi, basi, tamponi, redox ed elettrochimica
-Obiettivo: 100 domande in totale. Nel banco ci sono già 2 domande di questa unità, con id fino a u4-0002. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
-Mancano 98 domande, che consegnerai in 2 file successivi.
+Obiettivo: 100 domande in totale. Nel banco ci sono già 52 domande di questa unità, con id fino a u4-0052. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Mancano 48 domande, che consegnerai in 1 file.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
-1. chimica-u4-02.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u4-0003 a u4-0052
-2. chimica-u4-03.json — 48 domande (24 a risposta multipla e 24 a completamento), id da u4-0053 a u4-0100
+1. chimica-u4-03.json — 48 domande (24 a risposta multipla e 24 a completamento), id da u4-0053 a u4-0100
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u4", "domande": [ … ] }
 Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
 
 PRIMA DI SCRIVERE
-Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 98 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
+Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 48 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
 
 POI, UN FILE PER VOLTA
 Consegni il file, io lo valido e ti dico «prossimo». Non anticipare il file successivo e non riaprire quelli già consegnati. Se ti accorgi di un errore in un file già consegnato, dimmelo invece di rigenerarlo: correggere il testo di una domanda è innocuo, cambiarne l'id no.
