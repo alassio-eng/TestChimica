@@ -24,67 +24,125 @@ def stato(mid, cartella):
     d = os.path.join(BASE, cartella)
     idx = json.load(open(os.path.join(d, "index.json"), encoding="utf-8"))
     per_unita = {}
+
+    def voce(u):
+        return per_unita.setdefault(u, {"n": 0, "ids": set(), "prog": set()})
+
     for f in idx.get("lotti") or []:
         dati = json.load(open(os.path.join(d, f), encoding="utf-8"))
         for q in dati.get("domande") or []:
-            u = per_unita.setdefault(q["unita"], {"n": 0, "max_id": 0, "prog": 0})
+            u = voce(q["unita"])
             u["n"] += 1
             try:
-                u["max_id"] = max(u["max_id"], int(q["id"].split("-")[1]))
+                u["ids"].add(int(q["id"].split("-")[1]))
             except (IndexError, ValueError):
                 pass
         m = re.search(r"-(u\d+)-(\d{2})\.json$", f)
         if m:
-            u = per_unita.setdefault(m.group(1), {"n": 0, "max_id": 0, "prog": 0})
-            u["prog"] = max(u["prog"], int(m.group(2)))
+            voce(m.group(1))["prog"].add(int(m.group(2)))
     righe = []
     for u in idx.get("unita") or []:
-        s = per_unita.get(u["id"], {"n": 0, "max_id": 0, "prog": 0})
+        s = per_unita.get(u["id"], {"n": 0, "ids": set(), "prog": set()})
+        max_id = max(s["ids"], default=0)
+        max_prog = max(s["prog"], default=0)
         righe.append({
             "unita": u["id"],
             "nome": u["nome"],
             "quota": u.get("quota"),
             "obiettivo": u.get("obiettivo", 0),
             "presenti": s["n"],
-            "file": f"{mid}-{u['id']}-{s['prog'] + 1:02d}.json",
-            "primo_id": f"{u['id']}-{s['max_id'] + 1:04d}",
+            "ids": s["ids"],
+            "prog": s["prog"],
+            "file": f"{mid}-{u['id']}-{max_prog + 1:02d}.json",
+            "primo_id": f"{u['id']}-{max_id + 1:04d}",
         })
     return idx, righe
 
 
+def buchi(ids):
+    """Intervalli di id mancanti fra 1 e il massimo usato, come coppie (da, a)."""
+    if not ids:
+        return []
+    out, inizio = [], None
+    for n in range(1, max(ids) + 1):
+        if n not in ids and inizio is None:
+            inizio = n
+        elif n in ids and inizio is not None:
+            out.append((inizio, n - 1))
+            inizio = None
+    return out
+
+
 def piano(mid, r, per_lotto=50):
-    """I file che servono a portare l'unità all'obiettivo, con i loro id."""
-    mancano = max(0, r["obiettivo"] - r["presenti"])
-    prog = int(r["file"].rsplit("-", 1)[1][:2])
-    primo = int(r["primo_id"].split("-")[1])
-    passi, restano = [], mancano
+    """I file che servono a portare l'unità all'obiettivo, con i loro id.
+
+    Prima riempie i buchi: file saltati da una chat (per esempio un -01 mai
+    consegnato mentre il -02 sì) lasciano un intervallo di id vuoto, che va
+    coperto con il progressivo mancante e non con uno nuovo in coda. Solo dopo
+    prosegue oltre l'ultimo id usato."""
+    passi = []
+    liberi = sorted(set(range(1, max(r["prog"], default=0) + 1)) - r["prog"])
+
+    for da, a in buchi(r["ids"]):
+        n_blocchi = -(-(a - da + 1) // per_lotto)
+        for k in range(n_blocchi):
+            inizio = da + k * per_lotto
+            fine = min(a, inizio + per_lotto - 1)
+            prog = liberi.pop(0) if liberi else None
+            passi.append((prog, inizio, fine))
+
+    gia_pianificate = sum(f - i + 1 for _, i, f in passi)
+    restano = max(0, r["obiettivo"] - r["presenti"] - gia_pianificate)
+    prossimo = max(r["ids"], default=0) + 1
     while restano > 0:
         n = min(per_lotto, restano)
-        passi.append({
+        passi.append((None, prossimo, prossimo + n - 1))
+        prossimo += n
+        restano -= n
+
+    # progressivi: prima quelli liberi rimasti, poi in coda
+    coda = max(r["prog"] | {p for p, _, _ in passi if p}, default=0)
+    risultato = []
+    for prog, i, f in passi:
+        if prog is None:
+            prog = liberi.pop(0) if liberi else (coda := coda + 1)
+        n = f - i + 1
+        risultato.append({
             "file": f"{mid}-{r['unita']}-{prog:02d}.json",
             "n": n,
             "multipla": n // 2,
             "completamento": n - n // 2,
-            "da": f"{r['unita']}-{primo:04d}",
-            "a": f"{r['unita']}-{primo + n - 1:04d}",
+            "da": f"{r['unita']}-{i:04d}",
+            "a": f"{r['unita']}-{f:04d}",
         })
-        prog += 1
-        primo += n
-        restano -= n
-    return mancano, passi
+    risultato.sort(key=lambda p: p["file"])
+    mancano = sum(p["n"] for p in risultato)
+    return mancano, risultato
 
 
 def blocco_chat(mid, nome_materia, r):
     mancano, passi = piano(mid, r)
-    ultimo = int(r["primo_id"].split("-")[1]) - 1
     if r["presenti"] == 0:
         stato_txt = ("Nel banco non c'è ancora nessuna domanda di questa unità: "
                      "parti da zero.")
     else:
+        # intervalli effettivamente occupati: con un file saltato non sono contigui
+        occ, ids = [], sorted(r["ids"])
+        inizio = prec = ids[0]
+        for n in ids[1:] + [None]:
+            if n is None or n != prec + 1:
+                occ.append(f"{r['unita']}-{inizio:04d}" if inizio == prec
+                           else f"da {r['unita']}-{inizio:04d} a {r['unita']}-{prec:04d}")
+                inizio = n
+            prec = n
+        occupati = ", ".join(occ[:-1]) + (" e " if len(occ) > 1 else "") + occ[-1]
+        buco = (" Resta però libero un intervallo di id, lasciato da un file "
+                "mai consegnato: il piano qui sotto lo copre per primo."
+                if buchi(r["ids"]) else "")
         stato_txt = (f"Nel banco ci sono già {r['presenti']} domande di questa unità, "
-                     f"con id fino a {r['unita']}-{ultimo:04d}. Non riscriverle, non "
-                     f"rigenerare i file che le contengono e non riusare quegli id: "
-                     f"sono agganciati allo storico delle mie risposte sul dispositivo.")
+                     f"con id {occupati}. Non riscriverle, non rigenerare i file che le "
+                     f"contengono e non riusare quegli id: sono agganciati allo storico "
+                     f"delle mie risposte sul dispositivo.{buco}")
 
     righe = "\n".join(
         f"{i + 1}. {p['file']} — {p['n']} domande "
@@ -104,7 +162,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 {{ "lotto": "<nome del file senza .json>", "unita": "{r['unita']}", "domande": [ … ] }}
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle {mancano} domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.

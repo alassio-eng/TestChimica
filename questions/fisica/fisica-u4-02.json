@@ -1,0 +1,290 @@
+{
+  "lotto": "fisica-u4-02",
+  "unita": "u4",
+  "generato": "2026-09-20",
+  "domande": [
+    {
+      "id": "u4-0051",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Oscillatore armonico: forza di richiamo",
+      "testo": "Un corpo si comporta da oscillatore armonico quando la forza di richiamo che agisce su di esso è:",
+      "opzioni": [
+        "proporzionale allo spostamento e diretta in verso opposto",
+        "costante in modulo e sempre diretta verso la posizione di equilibrio",
+        "proporzionale alla velocità del corpo e opposta al moto",
+        "proporzionale al quadrato dello spostamento dall'equilibrio",
+        "inversamente proporzionale allo spostamento dall'equilibrio"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'oscillatore armonico è definito dalla legge di Hooke F = −kx: il modulo della forza cresce in proporzione allo spostamento e il segno meno indica che punta sempre verso la posizione di equilibrio. Solo questa dipendenza lineare produce un moto sinusoidale, con periodo indipendente dall'ampiezza.\n\nB) una forza di modulo costante diretta verso l'equilibrio dà un moto periodico ma non armonico: l'accelerazione sarebbe costante in modulo anziché proporzionale allo spostamento.\nC) una forza proporzionale alla velocità e opposta al moto è una resistenza viscosa: smorza l'oscillazione, non la genera.\nD) con una dipendenza dal quadrato dello spostamento la forza avrebbe lo stesso verso da entrambe le parti dell'equilibrio e il moto non sarebbe sinusoidale.\nE) una forza inversamente proporzionale allo spostamento diverrebbe enorme vicino all'equilibrio, dove invece la forza di richiamo deve annullarsi."
+    },
+    {
+      "id": "u4-0052",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Velocità di oscillazione e velocità di propagazione",
+      "testo": "Un'onda armonica si propaga lungo una corda tesa. La velocità con cui un singolo punto della corda si muove nella propria oscillazione:",
+      "opzioni": [
+        "coincide con la velocità con cui l'onda avanza lungo la corda",
+        "è nulla negli istanti di massimo spostamento e massima nel passaggio per l'equilibrio",
+        "è massima negli istanti di massimo spostamento dall'equilibrio",
+        "è costante in modulo durante tutta l'oscillazione",
+        "dipende solo dalla lunghezza d'onda, a parità di periodo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il punto della corda compie un moto armonico attorno alla propria posizione di equilibrio: la sua velocità è massima quando passa per l'equilibrio, dove lo spostamento è nullo, e si annulla agli estremi dell'oscillazione, dove il moto inverte il verso. Questa velocità oscillatoria è una grandezza distinta dalla velocità con cui la perturbazione avanza lungo la corda.\n\nA) le due velocità sono indipendenti: quella di propagazione dipende dalle proprietà della corda (tensione e densità), quella di oscillazione dall'ampiezza e dal periodo.\nC) negli istanti di massimo spostamento il punto è momentaneamente fermo e sta invertendo il moto: lì la velocità è nulla e l'accelerazione massima.\nD) una velocità costante in modulo implicherebbe accelerazione nulla, incompatibile con una forza di richiamo che varia con lo spostamento.\nE) a parità di periodo la velocità di oscillazione dipende dall'ampiezza; è semmai la velocità di propagazione a essere legata alla lunghezza d'onda."
+    },
+    {
+      "id": "u4-0053",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Moto delle particelle al passaggio dell'onda",
+      "testo": "Mentre un'onda meccanica attraversa un mezzo materiale, le particelle del mezzo:",
+      "opzioni": [
+        "vengono trascinate dall'onda e si spostano nella direzione di propagazione",
+        "avanzano di una lunghezza d'onda a ogni periodo",
+        "restano immobili, perché a spostarsi è soltanto l'energia",
+        "si allontanano in modo permanente dalla posizione iniziale di una quantità pari all'ampiezza",
+        "oscillano attorno alla propria posizione di equilibrio, senza spostamento netto"
+      ],
+      "corretta": 4,
+      "spiegazione": "In un'onda meccanica ogni particella oscilla attorno a una posizione di equilibrio fissa: ciò che avanza nel mezzo è la perturbazione, con l'energia e la quantità di moto associate. Terminato il passaggio dell'onda, ogni particella si ritrova dove si trovava prima.\n\nA) se le particelle fossero trascinate ci sarebbe trasporto netto di materia, che nelle onde non avviene; è proprio la caratteristica che distingue un'onda da una corrente.\nB) avanzare di una lunghezza d'onda per ogni periodo è ciò che fa la perturbazione, non la singola particella.\nC) le particelle non sono immobili: oscillano, e senza il loro moto non ci sarebbe propagazione nel mezzo.\nD) l'ampiezza è lo spostamento massimo raggiunto durante l'oscillazione, non uno spostamento definitivo."
+    },
+    {
+      "id": "u4-0054",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Che cosa fissa la frequenza di un'onda",
+      "testo": "La frequenza di un'onda meccanica che si propaga in un mezzo è fissata:",
+      "opzioni": [
+        "dalla densità del mezzo attraversato",
+        "dall'ampiezza della perturbazione",
+        "dalla distanza già percorsa dall'onda",
+        "dalla sorgente che genera l'onda",
+        "dalla temperatura del mezzo attraversato"
+      ],
+      "corretta": 3,
+      "spiegazione": "La frequenza dell'onda coincide con quella dell'oscillatore che la genera e resta la stessa anche quando l'onda cambia mezzo. Il mezzo determina la velocità di propagazione e quindi, di conseguenza, la lunghezza d'onda λ = v/f.\n\nA) la densità, insieme alle proprietà elastiche, stabilisce la velocità di propagazione: a frequenza imposta dalla sorgente, cambia λ, non f.\nB) l'ampiezza è legata all'energia trasportata e non ha alcun effetto sulla frequenza.\nC) propagandosi l'onda può attenuarsi, cioè ridurre la propria ampiezza, ma il ritmo delle oscillazioni non cambia.\nE) la temperatura modifica la velocità del suono in un gas, e con essa la lunghezza d'onda, non il numero di oscillazioni al secondo imposto dalla sorgente."
+    },
+    {
+      "id": "u4-0055",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Numero d'onda nell'equazione dell'onda armonica",
+      "testo": "Nell'equazione di un'onda armonica y(x, t) = A sin(kx − ωt), la costante k è legata alla lunghezza d'onda λ dalla relazione:",
+      "opzioni": [
+        "k = 1/λ",
+        "k = λ/(2π)",
+        "k = 2π/λ",
+        "k = 2π/T",
+        "k = v/λ"
+      ],
+      "corretta": 2,
+      "spiegazione": "La costante k, detta numero d'onda, esprime quanti radianti di fase corrispondono a un metro di propagazione: poiché lungo una lunghezza d'onda la fase avanza di 2π, si ha k = 2π/λ. Si misura in rad/m, cioè ha le dimensioni dell'inverso di una lunghezza.\n\nA) 1/λ è il numero d'onda usato in spettroscopia: manca il fattore 2π richiesto dall'argomento in radianti del seno.\nB) è il reciproco della relazione corretta e avrebbe le dimensioni di una lunghezza, non del suo inverso.\nD) 2π/T è la pulsazione ω, cioè la controparte temporale del numero d'onda.\nE) v/λ è la frequenza dell'onda."
+    },
+    {
+      "id": "u4-0056",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Velocità di propagazione dall'equazione dell'onda",
+      "testo": "Un'onda armonica è descritta, in unità SI, da y(x, t) = 0,02 sin(4x − 200t). La sua velocità di propagazione vale:",
+      "opzioni": [
+        "50 m/s",
+        "200 m/s",
+        "800 m/s",
+        "0,05 m/s",
+        "4 m/s"
+      ],
+      "corretta": 0,
+      "spiegazione": "Confrontando con la forma y = A sin(kx − ωt) si legge k = 4 rad/m e ω = 200 rad/s. La velocità di propagazione è v = ω/k = 200/4 = 50 m/s. Si ottiene lo stesso risultato passando per λ = 2π/k ≈ 1,57 m e f = ω/2π ≈ 31,8 Hz, con v = λf ≈ 50 m/s.\n\nB) 200 rad/s è la pulsazione, scambiata per la velocità.\nC) 800 si ottiene moltiplicando ω per k anziché dividerli.\nD) 0,05 m/s è il rapporto k/ω, cioè l'inverso di quello corretto.\nE) 4 rad/m è il numero d'onda, non una velocità."
+    },
+    {
+      "id": "u4-0057",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Velocità di un'onda su una corda tesa",
+      "testo": "Lungo una corda tesa si propaga un'onda trasversale. Se si aumenta la tensione della corda lasciando invariata la sua densità lineare, la velocità dell'onda:",
+      "opzioni": [
+        "diminuisce, perché la corda oppone maggiore resistenza al moto",
+        "resta invariata, perché dipende solo dalla frequenza della sorgente",
+        "resta invariata, perché dipende solo dall'ampiezza dell'onda",
+        "aumenta, perché cresce la forza di richiamo elastica",
+        "aumenta solo se aumenta anche la frequenza della sorgente"
+      ],
+      "corretta": 3,
+      "spiegazione": "La velocità di un'onda meccanica è fissata dalle proprietà del mezzo: cresce al crescere della sua rigidità elastica — per una corda, la tensione — e diminuisce al crescere dell'inerzia, cioè della densità lineare (v = √(T/μ)). Con una tensione maggiore la perturbazione si propaga più rapidamente.\n\nA) la tensione non agisce come un attrito: è la forza di richiamo che riporta la corda verso la posizione di equilibrio, e più è intensa più rapido è il ritorno.\nB) la frequenza è imposta dalla sorgente e non modifica la velocità di propagazione; se v cambia a f costante, a cambiare è λ.\nC) l'ampiezza è legata all'energia trasportata, non alla velocità di propagazione.\nE) la velocità non dipende dalla frequenza: aumentando f in un mezzo dato si accorcia soltanto la lunghezza d'onda."
+    },
+    {
+      "id": "u4-0058",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Interferenza e differenza di cammino",
+      "testo": "Due sorgenti identiche emettono in fase onde della stessa frequenza. In un punto in cui i cammini percorsi dalle due onde differiscono di mezza lunghezza d'onda si osserva:",
+      "opzioni": [
+        "interferenza costruttiva",
+        "un aumento della frequenza risultante",
+        "nessuna interferenza, perché le due onde percorrono cammini diversi",
+        "un'onda di lunghezza d'onda dimezzata",
+        "interferenza distruttiva"
+      ],
+      "corretta": 4,
+      "spiegazione": "A una differenza di cammino di mezza lunghezza d'onda corrisponde uno sfasamento di mezzo periodo, cioè di π: le due onde arrivano in opposizione di fase e i loro spostamenti si sottraggono; se le ampiezze sono uguali l'annullamento è completo. In generale l'interferenza è distruttiva quando la differenza di cammino è un numero dispari di mezze lunghezze d'onda.\n\nA) l'interferenza costruttiva richiede una differenza di cammino pari a un numero intero di lunghezze d'onda (0, λ, 2λ, …), non a metà di una.\nB) la sovrapposizione somma gli spostamenti istante per istante, ma non altera la frequenza, che resta quella delle sorgenti.\nC) il fatto che i cammini siano diversi non impedisce alle onde di incontrarsi: è proprio la differenza di cammino a stabilire il tipo di interferenza.\nD) la lunghezza d'onda è determinata da velocità e frequenza e non cambia per effetto della sovrapposizione."
+    },
+    {
+      "id": "u4-0059",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Legge dell'inverso del quadrato: calcolo",
+      "testo": "A 2 m da una sorgente sonora puntiforme che emette uniformemente, l'intensità vale 3,6·10⁻³ W/m². A 6 m dalla stessa sorgente l'intensità vale:",
+      "opzioni": [
+        "1,2·10⁻³ W/m²",
+        "4,0·10⁻⁴ W/m²",
+        "1,8·10⁻³ W/m²",
+        "3,2·10⁻² W/m²",
+        "6,0·10⁻⁴ W/m²"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'intensità di una sorgente puntiforme che emette uniformemente è inversamente proporzionale al quadrato della distanza. Passando da 2 m a 6 m la distanza triplica, quindi l'intensità si riduce di 3² = 9 volte: 3,6·10⁻³ / 9 = 4,0·10⁻⁴ W/m².\n\nA) si ottiene dividendo per il rapporto fra le distanze (3) invece che per il suo quadrato: è l'errore di trattare la legge come una proporzionalità inversa semplice.\nC) corrisponde a un dimezzamento, che non ha alcun legame con il triplicarsi della distanza.\nD) moltiplica per 9 anziché dividere: allontanandosi l'intensità non può crescere.\nE) divide per il valore numerico della distanza finale (6) invece che per il quadrato del rapporto fra le distanze."
+    },
+    {
+      "id": "u4-0060",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Unità di misura dell'intensità di un'onda",
+      "testo": "Nel Sistema Internazionale l'intensità di un'onda si misura in:",
+      "opzioni": [
+        "J/m²",
+        "W/m³",
+        "W/m²",
+        "N/m²",
+        "W·m²"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'intensità è la potenza trasportata dall'onda attraverso l'unità di superficie disposta perpendicolarmente alla direzione di propagazione: watt diviso metro quadrato.\n\nA) J/m² è un'energia per unità di superficie: manca la divisione per il tempo che trasforma l'energia in potenza.\nB) W/m³ è una potenza per unità di volume: l'intensità si riferisce a una superficie attraversata, non a un volume.\nD) N/m² è il pascal, unità di pressione.\nE) W·m² moltiplica per l'area invece di dividere per essa."
+    },
+    {
+      "id": "u4-0061",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Fronte d'onda",
+      "testo": "L'insieme dei punti del mezzo che a un dato istante oscillano tutti con la stessa fase costituisce un …… d'onda.",
+      "accettate": [
+        "fronte",
+        "fronte d'onda"
+      ],
+      "spiegazione": "Il fronte d'onda è la superficie che unisce i punti raggiunti dalla perturbazione nello stesso istante, e che quindi oscillano in fase. Per una sorgente puntiforme che emette uniformemente i fronti sono sfere concentriche; a grande distanza dalla sorgente una porzione limitata di fronte si approssima a un piano (onda piana). Da non confondere con il raggio, che è la linea perpendicolare al fronte lungo la quale l'onda si propaga, né con la lunghezza d'onda, che è la distanza fra due fronti in fase consecutivi."
+    },
+    {
+      "id": "u4-0062",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Posizione di equilibrio",
+      "testo": "Al passaggio di un'onda meccanica ogni particella del mezzo oscilla attorno alla propria posizione di ……",
+      "accettate": [
+        "equilibrio",
+        "riposo"
+      ],
+      "spiegazione": "Le particelle non accompagnano l'onda: si allontanano dalla posizione che occupavano prima della perturbazione e vi ritornano, oscillando attorno a essa. È la posizione di equilibrio (o di riposo), quella in cui la forza di richiamo è nulla. Chi risponde «ampiezza» indica il massimo scostamento da tale posizione, non la posizione stessa; chi risponde «propagazione» confonde il moto oscillatorio locale con l'avanzamento della perturbazione."
+    },
+    {
+      "id": "u4-0063",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Elongazione",
+      "testo": "In un moto armonico si chiama …… la posizione del punto oscillante rispetto all'equilibrio in un certo istante, mentre il suo valore massimo prende il nome di ampiezza.",
+      "accettate": [
+        "elongazione",
+        "spostamento"
+      ],
+      "spiegazione": "L'elongazione (o spostamento) è la grandezza che varia nel tempo secondo la legge y(t) = A sin(ωt): è positiva da una parte dell'equilibrio e negativa dall'altra, e si annulla ogni volta che il punto transita per l'equilibrio. L'ampiezza A è il suo valore massimo ed è costante. Rispondere «ampiezza» significa confondere la grandezza istantanea con il suo massimo; «periodo» e «pulsazione» descrivono la rapidità dell'oscillazione, non la posizione del punto."
+    },
+    {
+      "id": "u4-0064",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Numero d'onda",
+      "testo": "La grandezza k = 2π/λ che compare nell'equazione di un'onda armonica si chiama …… d'onda.",
+      "accettate": [
+        "numero",
+        "numero d'onda"
+      ],
+      "spiegazione": "Il numero d'onda k misura i radianti di fase corrispondenti a un metro di propagazione e si esprime in rad/m. È la controparte spaziale della pulsazione ω = 2π/T, che misura i radianti per secondo: dal loro rapporto si ricava la velocità di propagazione, v = ω/k. Non va confuso con la lunghezza d'onda λ, che è una distanza, né con la frequenza, che è un conteggio di oscillazioni al secondo."
+    },
+    {
+      "id": "u4-0065",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Pulsazione",
+      "testo": "La grandezza ω = 2π/T, che esprime la rapidità di un'oscillazione in radianti al secondo, si chiama ……",
+      "accettate": [
+        "pulsazione",
+        "frequenza angolare",
+        "velocità angolare"
+      ],
+      "spiegazione": "La pulsazione (detta anche frequenza angolare) è legata al periodo da ω = 2π/T e quindi alla frequenza da ω = 2πf: misura l'angolo di fase percorso in un secondo. Non coincide con la frequenza, dalla quale differisce per il fattore 2π, e non va confusa con il periodo, che è un tempo e si misura in secondi."
+    },
+    {
+      "id": "u4-0066",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Opposizione di fase",
+      "testo": "Due onde che giungono in un punto sfasate di mezzo periodo, con i massimi dell'una in corrispondenza dei minimi dell'altra, si dicono in …… di fase.",
+      "accettate": [
+        "opposizione"
+      ],
+      "spiegazione": "Uno sfasamento di mezzo periodo corrisponde a π radianti: gli spostamenti impressi dalle due onde hanno in ogni istante verso opposto e si sottraggono. È la condizione dell'interferenza distruttiva, che diventa annullamento completo quando le ampiezze sono uguali. Se invece lo sfasamento è nullo o pari a un multiplo intero di 2π le onde si dicono in fase e l'interferenza è costruttiva."
+    },
+    {
+      "id": "u4-0067",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Interferenza",
+      "testo": "Il fenomeno per cui due onde della stessa frequenza, sovrapponendosi in un punto, danno un'ampiezza risultante maggiore o minore di quelle delle singole onde si chiama ……",
+      "accettate": [
+        "interferenza"
+      ],
+      "spiegazione": "L'interferenza è l'effetto osservabile della sovrapposizione di onde con la stessa frequenza e una differenza di fase costante nel tempo: a seconda di tale differenza l'ampiezza risultante è maggiore (interferenza costruttiva) o minore (interferenza distruttiva) di quelle delle onde componenti. Il principio di sovrapposizione è la regola generale che consente di sommare gli spostamenti punto per punto; l'interferenza è ciò che si osserva quando quella somma viene applicata a onde coerenti."
+    },
+    {
+      "id": "u4-0068",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Unità di misura della potenza di un'onda",
+      "testo": "La potenza trasportata da un'onda si misura, nel Sistema Internazionale, in ……",
+      "accettate": [
+        "watt",
+        "w"
+      ],
+      "spiegazione": "La potenza è l'energia trasportata nell'unità di tempo, quindi si misura in watt: 1 W = 1 J/s. Rispondere «joule» indica l'energia complessiva, senza riferimento al tempo; rispondere «watt al metro quadrato» dà l'intensità, cioè la potenza che attraversa l'unità di superficie."
+    },
+    {
+      "id": "u4-0069",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Fronti d'onda sferici",
+      "testo": "Una sorgente puntiforme che emette uniformemente in tutte le direzioni genera fronti d'onda di forma ……",
+      "accettate": [
+        "sferica",
+        "sferiche",
+        "sfera",
+        "sfere",
+        "sferico"
+      ],
+      "spiegazione": "Se l'emissione è uguale in ogni direzione, i punti raggiunti dalla perturbazione nello stesso istante distano tutti ugualmente dalla sorgente: i fronti d'onda sono sfere concentriche il cui raggio cresce con la velocità di propagazione. Poiché la superficie di una sfera vale 4πr², la stessa potenza si distribuisce su un'area sempre maggiore: è l'origine geometrica della legge dell'inverso del quadrato, I = P/(4πr²). Fronti piani si hanno solo a grande distanza dalla sorgente, su porzioni limitate di fronte."
+    },
+    {
+      "id": "u4-0070",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Legge dell'inverso del quadrato: distanza",
+      "testo": "A 2 m da una sorgente sonora puntiforme l'intensità vale I. Per misurare un'intensità pari a I/4 occorre portarsi a una distanza di …… m dalla sorgente.",
+      "accettate": [
+        "4",
+        "quattro",
+        "4 m"
+      ],
+      "spiegazione": "L'intensità è inversamente proporzionale al quadrato della distanza: per ridurla a un quarto basta raddoppiare la distanza, perché 2² = 4. Da 2 m si passa quindi a 4 m. Rispondere 8 m significa applicare il fattore 4 direttamente alla distanza anziché al suo quadrato; rispondere 1 m corrisponde ad avvicinarsi, il che quadruplicherebbe l'intensità invece di ridurla."
+    }
+  ]
+}

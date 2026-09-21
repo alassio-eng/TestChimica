@@ -2,7 +2,7 @@
   "schema": 2,
   "materia": "biologia",
   "nome": "Biologia",
-  "aggiornato": "2026-09-17",
+  "aggiornato": "2026-09-21",
   "fonteQuote": "quote per unità ricavate da un appello ufficiale, non stimate",
   "formato": {
     "unita": {
@@ -65,6 +65,7 @@
     "biologia-u1-02.json",
     "biologia-u2-01.json",
     "biologia-u2-02.json",
-    "biologia-u3-03.json"
+    "biologia-u3-03.json",
+    "biologia-u4-01.json"
   ]
 }

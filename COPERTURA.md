@@ -2,7 +2,7 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**806 domande su 2200** a regime.
+**876 domande su 2200** a regime.
 
 
 ---
@@ -330,14 +330,14 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Fisica — 270/680
+## Fisica — 290/680
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Introduzione ai metodi della fisica | 80/70 | 40M + 40C | 76 | 4 |
 | U2 | Meccanica | 130/130 | 65M + 65C | 122 | 5 |
 | U3 | Meccanica dei fluidi | 60/110 | 30M + 30C | 59 | 5 |
-| U4 | Onde meccaniche | 0/70 | 0M + 0C | 0 | 4 |
+| U4 | Onde meccaniche | 20/70 | 10M + 10C | 20 | 4 |
 | U5 | Termodinamica | 0/100 | 0M + 0C | 0 | 5 |
 | U6 | Elettricità e magnetismo | 0/120 | 0M + 0C | 0 | 5 |
 | U7 | Fisica delle radiazioni | 0/80 | 0M + 0C | 0 | 3 |
@@ -614,21 +614,46 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Vasi comunicanti
 - Viscosità e temperatura
 
+### U4 — Onde meccaniche
+
+20 domande su 70 · 10 a risposta multipla e 10 a completamento · 20 argomenti distinti · file: fisica-u4-02.json
+
+- Che cosa fissa la frequenza di un'onda
+- Elongazione
+- Fronte d'onda
+- Fronti d'onda sferici
+- Interferenza
+- Interferenza e differenza di cammino
+- Legge dell'inverso del quadrato: calcolo
+- Legge dell'inverso del quadrato: distanza
+- Moto delle particelle al passaggio dell'onda
+- Numero d'onda
+- Numero d'onda nell'equazione dell'onda armonica
+- Opposizione di fase
+- Oscillatore armonico: forza di richiamo
+- Posizione di equilibrio
+- Pulsazione
+- Unità di misura dell'intensità di un'onda
+- Unità di misura della potenza di un'onda
+- Velocità di oscillazione e velocità di propagazione
+- Velocità di propagazione dall'equazione dell'onda
+- Velocità di un'onda su una corda tesa
+
 ### Ancora vuote
 
-U4, U5, U6, U7.
+U5, U6, U7.
 
 
 ---
 
-## Biologia — 190/820
+## Biologia — 240/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Le basi dell'organizzazione biologica e molecolare della vita | 80/80 | 40M + 40C | 80 | 3 |
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
 | U3 | Il flusso dell'informazione | 50/180 | 25M + 25C | 50 | 7 |
-| U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 0/110 | 0M + 0C | 0 | 4 |
+| U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 50/110 | 25M + 25C | 50 | 4 |
 | U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 0/200 | 0M + 0C | 0 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 0/100 | 0M + 0C | 0 | 4 |
 | U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 0/90 | 0M + 0C | 0 | 3 |
@@ -838,7 +863,62 @@ U4, U5, U6, U7.
 - microRNA
 - snRNA
 
+### U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
+
+50 domande su 110 · 25 a risposta multipla e 25 a completamento · 50 argomenti distinti · file: biologia-u4-01.json
+
+- Alberi genealogici: il probando
+- Alberi genealogici: unione consanguinea
+- Alleli letali e rapporti mendeliani atipici
+- Alleli multipli
+- Alterazioni di struttura: l'inversione
+- Aneuploidia
+- Anticipazione
+- Associazione e frequenza di ricombinazione
+- Caratteri poligenici
+- Cariotipo: la tecnica del bandeggio
+- Codominanza e sistema AB0
+- Definizione di penetranza
+- Dominanza incompleta
+- Epistasi
+- Ereditarietà autosomica dominante
+- Ereditarietà autosomica recessiva: calcolo del rischio
+- Ereditarietà autosomica recessiva: il portatore
+- Ereditarietà dominante legata al cromosoma X
+- Ereditarietà mitocondriale
+- Ereditarietà recessiva legata al cromosoma X
+- Eredità quantitativa
+- Espansione di sequenze trinucleotidiche ripetute
+- Espressività variabile
+- Il cariotipo umano normale
+- Il reincrocio di prova (testcross)
+- Imprinting genomico
+- Incrocio fra eterozigoti: rapporto genotipico
+- Inserzioni e delezioni: lo slittamento del modulo di lettura
+- Mappe genetiche: unità di distanza
+- Morfologia cromosomica: il cromosoma metacentrico
+- Mutazioni di sfasamento
+- Mutazioni puntiformi: la mutazione missenso
+- Mutazioni puntiformi: la mutazione nonsenso
+- Mutazioni puntiformi: la mutazione silente
+- Mutazioni somatiche e germinali
+- Non disgiunzione
+- Penetranza incompleta
+- Pleiotropia
+- Poliploidia ed euploidia
+- Prima legge di Mendel
+- Riparazione degli appaiamenti errati
+- Riparazione delle rotture a doppio filamento
+- Riparazione per escissione
+- Seconda legge di Mendel: assortimento indipendente
+- Sistema AB0: incroci
+- Sostituzioni nucleotidiche: transizioni e transversioni
+- Traslocazione robertsoniana
+- Trisomia del cromosoma 21
+- Zigosi: emizigosi
+- Zigosi: eterozigosi composta
+
 ### Ancora vuote
 
-U4, U5, U6, U7.
+U5, U6, U7.
 

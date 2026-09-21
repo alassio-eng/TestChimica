@@ -30,7 +30,7 @@ Sei la chat che si occupa di una sola unità del banco domande di Chimica e prop
 
 UNITÀ
 U4 — Acidi, basi, tamponi, redox ed elettrochimica
-Obiettivo: 100 domande in totale. Nel banco ci sono già 52 domande di questa unità, con id fino a u4-0052. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Obiettivo: 100 domande in totale. Nel banco ci sono già 52 domande di questa unità, con id da u4-0001 a u4-0052. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
 Mancano 48 domande, che consegnerai in 1 file.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
@@ -38,7 +38,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u4", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 48 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -69,7 +69,7 @@ Sei la chat che si occupa di una sola unità del banco domande di Chimica e prop
 
 UNITÀ
 U5 — Carbonio, idrocarburi, aromatici
-Obiettivo: 90 domande in totale. Nel banco ci sono già 1 domande di questa unità, con id fino a u5-0001. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Obiettivo: 90 domande in totale. Nel banco ci sono già 1 domande di questa unità, con id u5-0001. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
 Mancano 89 domande, che consegnerai in 2 file successivi.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
@@ -78,7 +78,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u5", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 89 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -109,7 +109,7 @@ Sei la chat che si occupa di una sola unità del banco domande di Chimica e prop
 
 UNITÀ
 U6 — Gruppi funzionali e isomerie
-Obiettivo: 70 domande in totale. Nel banco ci sono già 1 domande di questa unità, con id fino a u6-0001. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Obiettivo: 70 domande in totale. Nel banco ci sono già 1 domande di questa unità, con id u6-0001. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
 Mancano 69 domande, che consegnerai in 2 file successivi.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
@@ -118,7 +118,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u6", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 69 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -149,7 +149,7 @@ Sei la chat che si occupa di una sola unità del banco domande di Chimica e prop
 
 UNITÀ
 U7 — Amminoacidi, carboidrati, lipidi, acidi nucleici
-Obiettivo: 150 domande in totale. Nel banco ci sono già 2 domande di questa unità, con id fino a u7-0002. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Obiettivo: 150 domande in totale. Nel banco ci sono già 2 domande di questa unità, con id da u7-0001 a u7-0002. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
 Mancano 148 domande, che consegnerai in 3 file successivi.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
@@ -159,7 +159,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u7", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 148 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -196,22 +196,22 @@ Obiettivo raggiunto (130/130): nessuna chat da aprire.
 
 ## U3 — Meccanica dei fluidi
 
-60/110 nel banco · mancano 50 domande in 1 file: `fisica-u3-04.json` … `fisica-u3-04.json`, id da `u3-0111` a `u3-0160`
+60/110 nel banco · mancano 50 domande in 1 file: `fisica-u3-01.json` … `fisica-u3-01.json`, id da `u3-0001` a `u3-0050`
 
 ```text
 Sei la chat che si occupa di una sola unità del banco domande di Fisica: la U3. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
 
 UNITÀ
 U3 — Meccanica dei fluidi
-Obiettivo: 110 domande in totale. Nel banco ci sono già 60 domande di questa unità, con id fino a u3-0110. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Obiettivo: 110 domande in totale. Nel banco ci sono già 60 domande di questa unità, con id da u3-0051 a u3-0110. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo. Resta però libero un intervallo di id, lasciato da un file mai consegnato: il piano qui sotto lo copre per primo.
 Mancano 50 domande, che consegnerai in 1 file.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
-1. fisica-u3-04.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0111 a u3-0160
+1. fisica-u3-01.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0001 a u3-0050
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u3", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 50 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -235,26 +235,25 @@ Non toccare index.json e non rigenerarlo: alla registrazione dei file ci penso i
 
 ## U4 — Onde meccaniche
 
-0/70 nel banco · mancano 70 domande in 2 file: `fisica-u4-01.json` … `fisica-u4-02.json`, id da `u4-0001` a `u4-0070`
+20/70 nel banco · mancano 50 domande in 1 file: `fisica-u4-01.json` … `fisica-u4-01.json`, id da `u4-0001` a `u4-0050`
 
 ```text
 Sei la chat che si occupa di una sola unità del banco domande di Fisica: la U4. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
 
 UNITÀ
 U4 — Onde meccaniche
-Obiettivo: 70 domande in totale. Nel banco non c'è ancora nessuna domanda di questa unità: parti da zero.
-Mancano 70 domande, che consegnerai in 2 file successivi.
+Obiettivo: 70 domande in totale. Nel banco ci sono già 20 domande di questa unità, con id da u4-0051 a u4-0070. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo. Resta però libero un intervallo di id, lasciato da un file mai consegnato: il piano qui sotto lo copre per primo.
+Mancano 50 domande, che consegnerai in 1 file.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
 1. fisica-u4-01.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u4-0001 a u4-0050
-2. fisica-u4-02.json — 20 domande (10 a risposta multipla e 10 a completamento), id da u4-0051 a u4-0070
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u4", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
-Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 70 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
+Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 50 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
 
 POI, UN FILE PER VOLTA
 Consegni il file, io lo valido e ti dico «prossimo». Non anticipare il file successivo e non riaprire quelli già consegnati. Se ti accorgi di un errore in un file già consegnato, dimmelo invece di rigenerarlo: correggere il testo di una domanda è innocuo, cambiarne l'id no.
@@ -291,7 +290,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u5", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 100 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -332,7 +331,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u6", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 120 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -372,7 +371,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u7", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 80 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -409,24 +408,24 @@ Obiettivo raggiunto (60/60): nessuna chat da aprire.
 
 ## U3 — Il flusso dell'informazione
 
-50/180 nel banco · mancano 130 domande in 3 file: `biologia-u3-04.json` … `biologia-u3-06.json`, id da `u3-0151` a `u3-0280`
+50/180 nel banco · mancano 130 domande in 3 file: `biologia-u3-01.json` … `biologia-u3-04.json`, id da `u3-0001` a `u3-0180`
 
 ```text
 Sei la chat che si occupa di una sola unità del banco domande di Biologia: la U3. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
 
 UNITÀ
 U3 — Il flusso dell'informazione
-Obiettivo: 180 domande in totale. Nel banco ci sono già 50 domande di questa unità, con id fino a u3-0150. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Obiettivo: 180 domande in totale. Nel banco ci sono già 50 domande di questa unità, con id da u3-0101 a u3-0150. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo. Resta però libero un intervallo di id, lasciato da un file mai consegnato: il piano qui sotto lo copre per primo.
 Mancano 130 domande, che consegnerai in 3 file successivi.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
-1. biologia-u3-04.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0151 a u3-0200
-2. biologia-u3-05.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0201 a u3-0250
-3. biologia-u3-06.json — 30 domande (15 a risposta multipla e 15 a completamento), id da u3-0251 a u3-0280
+1. biologia-u3-01.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0001 a u3-0050
+2. biologia-u3-02.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0051 a u3-0100
+3. biologia-u3-04.json — 30 domande (15 a risposta multipla e 15 a completamento), id da u3-0151 a u3-0180
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u3", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 130 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -450,27 +449,26 @@ Non toccare index.json e non rigenerarlo: alla registrazione dei file ci penso i
 
 ## U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
 
-0/110 nel banco · mancano 110 domande in 3 file: `biologia-u4-01.json` … `biologia-u4-03.json`, id da `u4-0001` a `u4-0110`
+50/110 nel banco · mancano 60 domande in 2 file: `biologia-u4-02.json` … `biologia-u4-03.json`, id da `u4-0051` a `u4-0110`
 
 ```text
 Sei la chat che si occupa di una sola unità del banco domande di Biologia: la U4. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
 
 UNITÀ
 U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
-Obiettivo: 110 domande in totale. Nel banco non c'è ancora nessuna domanda di questa unità: parti da zero.
-Mancano 110 domande, che consegnerai in 3 file successivi.
+Obiettivo: 110 domande in totale. Nel banco ci sono già 50 domande di questa unità, con id da u4-0001 a u4-0050. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo.
+Mancano 60 domande, che consegnerai in 2 file successivi.
 
 PIANO DEI FILE — già calcolato, seguilo alla lettera
-1. biologia-u4-01.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u4-0001 a u4-0050
-2. biologia-u4-02.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u4-0051 a u4-0100
-3. biologia-u4-03.json — 10 domande (5 a risposta multipla e 5 a completamento), id da u4-0101 a u4-0110
+1. biologia-u4-02.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u4-0051 a u4-0100
+2. biologia-u4-03.json — 10 domande (5 a risposta multipla e 5 a completamento), id da u4-0101 a u4-0110
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u4", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
-Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 110 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
+Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 60 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
 
 POI, UN FILE PER VOLTA
 Consegni il file, io lo valido e ti dico «prossimo». Non anticipare il file successivo e non riaprire quelli già consegnati. Se ti accorgi di un errore in un file già consegnato, dimmelo invece di rigenerarlo: correggere il testo di una domanda è innocuo, cambiarne l'id no.
@@ -509,7 +507,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u5", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 200 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -549,7 +547,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u6", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 100 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
@@ -589,7 +587,7 @@ PIANO DEI FILE — già calcolato, seguilo alla lettera
 
 Ogni file è un JSON completo e valido con questa forma:
 { "lotto": "<nome del file senza .json>", "unita": "u7", "domande": [ … ] }
-Gli id sono progressivi e senza buchi, e proseguono da un file al successivo: non ricominciano da capo.
+Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
 
 PRIMA DI SCRIVERE
 Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 90 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
