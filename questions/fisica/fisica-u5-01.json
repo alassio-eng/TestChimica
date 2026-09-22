@@ -1,0 +1,734 @@
+{
+  "lotto": "fisica-u5-01",
+  "unita": "u5",
+  "generato": "2026-09-22",
+  "domande": [
+    {
+      "id": "u5-0001",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sistema e ambiente",
+      "testo": "In termodinamica, tutto ciò che sta all'esterno del sistema studiato e che può scambiare con esso energia o materia si chiama ……",
+      "accettate": [
+        "ambiente",
+        "ambiente esterno",
+        "ambienti"
+      ],
+      "spiegazione": "Sistema e ambiente insieme formano l'universo termodinamico. La linea che li separa è una scelta di chi studia il problema: può essere una parete reale, come quella di un recipiente, o una superficie immaginaria.\n\nGli scambi fra sistema e ambiente avvengono sotto forma di calore, di lavoro e, nei sistemi aperti, di materia."
+    },
+    {
+      "id": "u5-0002",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Sistemi aperti, chiusi e isolati",
+      "testo": "Una pentola con il coperchio a tenuta, posta sul fornello acceso, scambia energia con l'esterno ma non materia. Dal punto di vista termodinamico è un sistema:",
+      "opzioni": [
+        "aperto",
+        "isolato",
+        "chiuso",
+        "adiabatico",
+        "isotermo"
+      ],
+      "corretta": 2,
+      "spiegazione": "Un sistema chiuso scambia energia (calore e lavoro) con l'ambiente, ma non materia. La pentola riceve calore dal fornello, ma il coperchio a tenuta impedisce al vapore di uscire.\n\nA) Un sistema aperto scambia anche materia. Sarebbe il caso della pentola senza coperchio, da cui il vapore esce. Lo scambio di energia da solo non basta a rendere aperto un sistema.\nB) Un sistema isolato non scambia né materia né energia. Qui il calore del fornello entra nella pentola.\nD) Un sistema adiabatico non scambia calore con l'ambiente. La pentola invece lo riceve proprio dal fornello.\nE) Isotermo non indica un tipo di sistema, ma una trasformazione a temperatura costante. In più, qui la temperatura del contenuto aumenta."
+    },
+    {
+      "id": "u5-0003",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sistema isolato",
+      "testo": "Un sistema che non scambia con l'ambiente né energia né materia si dice ……",
+      "accettate": [
+        "isolato",
+        "isolati"
+      ],
+      "spiegazione": "È il caso limite dei sistemi termodinamici. Un thermos ideale ne è l'approssimazione più comune. Per un sistema isolato l'energia interna resta costante.\n\nL'universo nel suo insieme, cioè sistema più ambiente, è per definizione un sistema isolato: è per questo che il secondo principio si formula sull'entropia dell'universo."
+    },
+    {
+      "id": "u5-0004",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Conversione fra gradi Celsius e kelvin",
+      "testo": "Una temperatura corporea di 37 °C corrisponde, nella scala assoluta, a:",
+      "opzioni": [
+        "310,15 K",
+        "−236,15 K",
+        "37 K",
+        "98,6 K",
+        "236,15 K"
+      ],
+      "corretta": 0,
+      "spiegazione": "Si passa dalla scala Celsius a quella assoluta sommando 273,15: T = 37 + 273,15 = 310,15 K. Nei calcoli si arrotonda spesso a 310 K.\n\nB) Sottrae 273,15 invece di sommarlo. Una temperatura in kelvin non può essere negativa: 0 K è il minimo.\nC) Cambia l'unità senza traslare la scala. Il grado Celsius e il kelvin hanno la stessa ampiezza, ma lo zero delle due scale è diverso.\nD) 98,6 è il valore di 37 °C nella scala Fahrenheit. Qui è scritto con l'unità kelvin.\nE) Esegue la sottrazione al contrario, 273,15 − 37: il risultato è inferiore allo zero Celsius."
+    },
+    {
+      "id": "u5-0005",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Zero assoluto",
+      "testo": "La temperatura più bassa teoricamente raggiungibile, che corrisponde a 0 K e a −273,15 °C, si chiama zero ……",
+      "accettate": [
+        "assoluto"
+      ],
+      "spiegazione": "È l'origine della scala Kelvin, che per questo si chiama scala assoluta. Nella scala assoluta non esistono temperature negative.\n\nNelle leggi dei gas, nell'equazione pV = nRT e nel rendimento di Carnot la temperatura va sempre espressa in kelvin. Usare i gradi Celsius è l'errore di calcolo più frequente in termodinamica."
+    },
+    {
+      "id": "u5-0006",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Variazioni di temperatura in kelvin",
+      "testo": "La temperatura di un corpo aumenta di 20 °C. La stessa variazione, espressa in kelvin, vale:",
+      "opzioni": [
+        "293,15 K",
+        "36 K",
+        "68 K",
+        "253,15 K",
+        "20 K"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il grado Celsius e il kelvin hanno la stessa ampiezza: le due scale differiscono solo per la posizione dello zero. Una differenza di temperatura ha quindi lo stesso valore numerico nelle due scale, ΔT = 20 K.\n\nA) Somma 273,15 a una differenza. La traslazione di 273,15 si applica alle temperature, non alle variazioni: nella differenza fra due temperature si elide.\nB) Moltiplica per 1,8, il fattore che converte una variazione in gradi Celsius in una variazione in gradi Fahrenheit.\nC) 68 è il valore in gradi Fahrenheit della temperatura di 20 °C. Oltre all'unità sbagliata, tratta la variazione come una temperatura.\nD) Calcola 273,15 − 20: tratta la variazione come una temperatura e per giunta sbaglia il verso della conversione."
+    },
+    {
+      "id": "u5-0007",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Variabili di stato",
+      "testo": "Pressione, volume e temperatura, che insieme individuano lo stato di equilibrio di un gas, si chiamano variabili di ……",
+      "accettate": [
+        "stato",
+        "variabili di stato"
+      ],
+      "spiegazione": "Si chiamano anche variabili termodinamiche. Per un gas perfetto non sono indipendenti: l'equazione di stato pV = nRT le lega, quindi, fissata la quantità di gas, ne bastano due per determinare la terza.\n\nHanno un valore ben definito solo quando il sistema è in equilibrio. Durante una trasformazione rapida, come un'espansione brusca, pressione e temperatura non sono uniformi e lo stato non si può descrivere con un unico valore."
+    },
+    {
+      "id": "u5-0008",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Equazione di stato dei gas perfetti",
+      "testo": "Due moli di gas perfetto occupano un volume di 50 L alla temperatura di 27 °C. Assumendo R = 8,31 J/(mol·K), la pressione del gas vale circa:",
+      "opzioni": [
+        "9,0 × 10³ Pa",
+        "1,0 × 10⁵ Pa",
+        "5,0 × 10⁴ Pa",
+        "99,8 Pa",
+        "2,5 × 10² Pa"
+      ],
+      "corretta": 1,
+      "spiegazione": "Dall'equazione di stato, p = nRT/V. La temperatura va in kelvin, T = 27 + 273,15 ≈ 300 K, e il volume in metri cubi, V = 50 L = 0,050 m³. Si ottiene p = 2 × 8,31 × 300 / 0,050 ≈ 9,97 × 10⁴ Pa, cioè circa 1,0 × 10⁵ Pa, circa una atmosfera.\n\nA) Usa la temperatura in gradi Celsius, T = 27, invece che in kelvin.\nC) Dimentica il numero di moli: è la pressione di una sola mole nelle stesse condizioni.\nD) Inserisce il volume in litri, V = 50, senza convertirlo in metri cubi. L'errore è di un fattore mille.\nE) Moltiplica per il volume invece di dividere: calcola nRTV al posto di nRT/V."
+    },
+    {
+      "id": "u5-0009",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Gas perfetto",
+      "testo": "Il modello di gas in cui le molecole sono puntiformi e interagiscono solo negli urti, e che obbedisce all'equazione pV = nRT, si chiama gas ……",
+      "accettate": [
+        "perfetto",
+        "ideale",
+        "perfetti",
+        "ideali"
+      ],
+      "spiegazione": "Nel gas perfetto si trascurano il volume proprio delle molecole e le forze di attrazione fra di esse. Ne segue che l'energia interna dipende solo dalla temperatura.\n\nI gas reali si avvicinano a questo comportamento a bassa pressione e ad alta temperatura, cioè quando le molecole sono lontane fra loro e veloci."
+    },
+    {
+      "id": "u5-0010",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Legge di Boyle",
+      "testo": "Una certa quantità di gas perfetto viene compressa a temperatura costante fino a dimezzarne il volume. La pressione:",
+      "opzioni": [
+        "si dimezza",
+        "resta costante",
+        "quadruplica",
+        "raddoppia",
+        "aumenta, ma di quanto dipende dal valore della temperatura"
+      ],
+      "corretta": 3,
+      "spiegazione": "A temperatura costante vale la legge di Boyle, pV = costante: pressione e volume sono inversamente proporzionali. Dimezzando il volume la pressione raddoppia.\n\nA) Tratta pressione e volume come direttamente proporzionali, mentre a temperatura costante il loro prodotto resta costante.\nB) Confonde la trasformazione isoterma, che avviene a temperatura costante, con l'isobara, che avviene a pressione costante.\nC) Introduce una dipendenza dal quadrato del volume che nella legge di Boyle non c'è.\nE) Il rapporto fra le pressioni vale V₁/V₂ e non dipende dal valore della temperatura, purché questa resti costante."
+    },
+    {
+      "id": "u5-0011",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Calore",
+      "testo": "L'energia che passa da un corpo a un altro a causa della loro differenza di temperatura si chiama ……",
+      "accettate": [
+        "calore"
+      ],
+      "spiegazione": "Il calore è energia in transito, non una proprietà posseduta da un corpo. Non ha senso dire che un corpo «contiene calore»: contiene energia interna. Si misura in joule, come ogni forma di energia.\n\nIl passaggio spontaneo avviene sempre dal corpo a temperatura più alta a quello a temperatura più bassa, fino all'equilibrio termico."
+    },
+    {
+      "id": "u5-0012",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Caloria e joule",
+      "testo": "Una caloria equivale a circa:",
+      "opzioni": [
+        "0,239 J",
+        "4,186 J",
+        "4186 J",
+        "1000 J",
+        "4,186 × 10⁻³ J"
+      ],
+      "corretta": 1,
+      "spiegazione": "La caloria è definita come il calore necessario per innalzare di 1 °C la temperatura di 1 g d'acqua, e corrisponde a circa 4,186 J. Le definizioni in uso differiscono di pochissimo: la caloria termochimica vale esattamente 4,184 J, quella della tabella internazionale 4,1868 J.\n\nA) È il fattore inverso: 1 J ≈ 0,239 cal. Il joule è un'unità più piccola della caloria, non il contrario.\nC) È il valore della chilocaloria, la «caloria» delle etichette alimentari, che corrisponde a 1000 cal.\nD) Confonde il prefisso «chilo» della chilocaloria con il fattore di conversione fra calorie e joule.\nE) Divide per mille invece di lasciare invariato: tratta la caloria come un millesimo del valore corretto."
+    },
+    {
+      "id": "u5-0013",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Calore specifico",
+      "testo": "La quantità di calore necessaria per innalzare di un kelvin la temperatura dell'unità di massa di una sostanza si chiama calore ……",
+      "accettate": [
+        "specifico",
+        "specifici"
+      ],
+      "spiegazione": "Si indica con c e si misura in J/(kg·K). È una proprietà della sostanza, non del singolo corpo. Per l'acqua vale circa 4186 J/(kg·K), uno dei valori più alti fra le sostanze comuni.\n\nIl calore scambiato senza cambiamenti di stato si calcola come Q = m c ΔT."
+    },
+    {
+      "id": "u5-0014",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Calore sensibile: Q = m c ΔT",
+      "testo": "Quanto calore serve per scaldare 2 kg d'acqua da 20 °C a 70 °C? (calore specifico dell'acqua c = 4186 J/(kg·K))",
+      "opzioni": [
+        "5,9 × 10⁵ J",
+        "2,1 × 10⁵ J",
+        "2,9 × 10⁶ J",
+        "4,2 × 10⁵ J",
+        "100 cal"
+      ],
+      "corretta": 3,
+      "spiegazione": "Q = m c ΔT = 2 × 4186 × (70 − 20) = 418 600 J, cioè circa 4,2 × 10⁵ J. La variazione di temperatura ha lo stesso valore in gradi Celsius e in kelvin, quindi non serve alcuna conversione.\n\nA) Usa la temperatura finale, 70 °C, al posto della variazione di temperatura.\nB) Dimentica la massa: è il calore che servirebbe per 1 kg d'acqua.\nC) Converte in kelvin la temperatura finale (343,15 K) e la usa come se fosse la variazione.\nE) 418 600 J corrispondono a 100 kcal, non a 100 cal. Confonde la caloria con la chilocaloria, sbagliando di un fattore mille."
+    },
+    {
+      "id": "u5-0015",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Capacità termica",
+      "testo": "Il rapporto fra il calore fornito a un corpo e l'aumento di temperatura che ne consegue, C = Q/ΔT, si chiama capacità ……",
+      "accettate": [
+        "termica",
+        "termiche"
+      ],
+      "spiegazione": "Si misura in J/K e dipende sia dalla sostanza sia dalla quantità: per un corpo omogeneo vale C = m c. Due oggetti dello stesso materiale hanno lo stesso calore specifico ma capacità termiche diverse, se le masse sono diverse.\n\nUn corpo con grande capacità termica cambia poco temperatura anche scambiando molto calore: è il caso dei mari, che attenuano le escursioni termiche delle coste."
+    },
+    {
+      "id": "u5-0016",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Capacità termica e calore specifico",
+      "testo": "Un grosso blocco di ferro e un chiodo dello stesso ferro:",
+      "opzioni": [
+        "hanno lo stesso calore specifico ma capacità termiche diverse",
+        "hanno la stessa capacità termica ma calori specifici diversi",
+        "hanno la stessa capacità termica e lo stesso calore specifico",
+        "hanno calori specifici diversi e capacità termiche diverse",
+        "hanno capacità termiche uguali solo se sono alla stessa temperatura"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il calore specifico è una proprietà della sostanza, quindi è uguale per il blocco e per il chiodo. La capacità termica vale C = m c e dipende dalla massa: il blocco, molto più pesante, ha capacità termica molto maggiore.\n\nB) Inverte i due concetti: il calore specifico dipende solo dalla sostanza, la capacità termica anche dalla massa.\nC) La capacità termica dipende dalla massa, e le due masse sono molto diverse.\nD) Il calore specifico non dipende dalla massa: per lo stesso materiale è lo stesso valore.\nE) La capacità termica dipende da massa e sostanza, non dalla temperatura di partenza. A questo livello si considera costante."
+    },
+    {
+      "id": "u5-0017",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Calore latente",
+      "testo": "Il calore che l'unità di massa di una sostanza assorbe o cede durante un cambiamento di stato, a temperatura costante, si chiama calore ……",
+      "accettate": [
+        "latente",
+        "latenti"
+      ],
+      "spiegazione": "Si indica con L e si misura in J/kg: il calore scambiato vale Q = m L. È «latente» perché non produce variazioni di temperatura. Serve a vincere le forze di attrazione fra le molecole, oppure viene restituito quando queste si riformano.\n\nOgni cambiamento di stato ha il proprio calore latente. Per l'acqua quello di evaporazione è circa sette volte quello di fusione."
+    },
+    {
+      "id": "u5-0018",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Calore latente di fusione: Q = m L",
+      "testo": "Quanto calore serve per fondere completamente 0,5 kg di ghiaccio che si trova già a 0 °C? (calore latente di fusione del ghiaccio L = 3,34 × 10⁵ J/kg)",
+      "opzioni": [
+        "6,68 × 10⁵ J",
+        "3,34 × 10⁵ J",
+        "0 J",
+        "1,67 × 10⁸ J",
+        "1,67 × 10⁵ J"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il ghiaccio è già alla temperatura di fusione, quindi tutto il calore serve al cambiamento di stato: Q = m L = 0,5 × 3,34 × 10⁵ = 1,67 × 10⁵ J. Durante la fusione la temperatura resta a 0 °C.\n\nA) Divide il calore latente per la massa invece di moltiplicare.\nB) Dimentica la massa: è il calore necessario per fondere 1 kg di ghiaccio.\nC) Poiché la temperatura non cambia, ritiene che non serva calore. È l'errore concettuale tipico sui passaggi di stato: il calore c'è, ma va nel cambiamento di stato invece che nell'aumento di temperatura.\nD) Inserisce la massa in grammi, 500, in una formula in cui il calore latente è espresso per chilogrammo."
+    },
+    {
+      "id": "u5-0019",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Temperatura di fusione",
+      "testo": "La temperatura alla quale, a una data pressione, una sostanza solida passa allo stato liquido si chiama temperatura di ……",
+      "accettate": [
+        "fusione"
+      ],
+      "spiegazione": "Per l'acqua pura a pressione atmosferica vale 0 °C. Coincide con la temperatura di solidificazione: lo stesso punto, raggiunto nei due versi.\n\nFinché solido e liquido coesistono, la temperatura resta costante anche se si continua a fornire calore. Tutta l'energia assorbita va nel calore latente di fusione."
+    },
+    {
+      "id": "u5-0020",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Temperatura durante un cambiamento di stato",
+      "testo": "Mentre l'acqua bolle in una pentola aperta, a pressione atmosferica, il calore fornito dal fornello:",
+      "opzioni": [
+        "fa salire la temperatura dell'acqua oltre i 100 °C, finché non è tutta evaporata",
+        "fa aumentare l'energia cinetica media delle molecole e quindi la temperatura",
+        "vince le attrazioni fra le molecole, mentre la temperatura resta costante",
+        "viene disperso interamente nell'ambiente, perché l'acqua non va oltre i 100 °C",
+        "fa diminuire la temperatura del liquido, perché l'evaporazione lo raffredda"
+      ],
+      "corretta": 2,
+      "spiegazione": "Durante l'ebollizione il calore fornito è calore latente. Aumenta l'energia potenziale delle molecole, che si allontanano passando allo stato di vapore, ma non la loro energia cinetica media. La temperatura resta quindi a 100 °C finché c'è acqua liquida.\n\nA) A pressione atmosferica l'acqua liquida non supera i 100 °C durante l'ebollizione. Il calore in più fa evaporare altra acqua.\nB) L'energia cinetica media delle molecole è legata alla temperatura, che durante l'ebollizione non cambia.\nD) Il calore non si disperde tutto. Viene assorbito dall'acqua e trasformato in vapore: senza calore l'ebollizione si ferma.\nE) L'evaporazione sottrae calore al liquido, ma il fornello lo reintegra. Il risultato è una temperatura costante, non in calo."
+    },
+    {
+      "id": "u5-0021",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Conduzione termica",
+      "testo": "Il meccanismo di trasmissione del calore per contatto, senza spostamento di materia, tipico dei solidi, si chiama ……",
+      "accettate": [
+        "conduzione",
+        "conduzione termica"
+      ],
+      "spiegazione": "Nella conduzione l'energia passa da una particella a quella vicina attraverso gli urti e le vibrazioni, mentre il materiale resta fermo. I metalli sono buoni conduttori, mentre l'aria ferma e i materiali porosi sono cattivi conduttori, cioè isolanti.\n\nIl calore trasmesso nell'unità di tempo cresce con la superficie e con la differenza di temperatura, e diminuisce con lo spessore attraversato."
+    },
+    {
+      "id": "u5-0022",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Irraggiamento",
+      "testo": "Il calore del Sole raggiunge la Terra attraversando lo spazio vuoto per:",
+      "opzioni": [
+        "conduzione",
+        "convezione",
+        "conduzione e convezione insieme",
+        "conduzione attraverso l'atmosfera terrestre",
+        "irraggiamento"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'irraggiamento trasmette energia con onde elettromagnetiche, che si propagano anche nel vuoto. È l'unico dei tre meccanismi che non richiede un mezzo materiale.\n\nA) La conduzione richiede contatto fra particelle di materia, che nello spazio vuoto mancano.\nB) La convezione richiede un fluido in movimento, che nel vuoto non c'è.\nC) Entrambi i meccanismi richiedono materia, quindi nessuno dei due opera nel vuoto.\nD) L'atmosfera viene attraversata solo nell'ultimo tratto. Il trasporto dal Sole alla Terra, nel vuoto, avviene per irraggiamento."
+    },
+    {
+      "id": "u5-0023",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Convezione",
+      "testo": "Il trasporto di calore dovuto al movimento di un fluido, come l'aria calda che sale e quella fredda che scende, si chiama ……",
+      "accettate": [
+        "convezione",
+        "convezione termica"
+      ],
+      "spiegazione": "Il fluido scaldato si dilata, diventa meno denso e sale per la spinta di Archimede, mentre il fluido più freddo e più denso scende a prenderne il posto. Si formano così le correnti convettive.\n\nAvviene solo nei fluidi. Nel corpo umano un meccanismo analogo è svolto dal sangue, che trasporta calore dai tessuti profondi alla cute."
+    },
+    {
+      "id": "u5-0024",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Legge della conduzione",
+      "testo": "Attraverso una parete piana, a parità di materiale, superficie e differenza di temperatura fra le due facce, si raddoppia lo spessore. Il calore trasmesso per conduzione nell'unità di tempo:",
+      "opzioni": [
+        "raddoppia",
+        "si riduce a un quarto",
+        "si dimezza",
+        "resta invariato",
+        "quadruplica"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il calore trasmesso per conduzione nell'unità di tempo vale Q/Δt = k A ΔT / d, dove k è la conducibilità termica, A la superficie e d lo spessore. È inversamente proporzionale allo spessore: raddoppiando d si dimezza.\n\nA) Tratta lo spessore come se stesse al numeratore. Una parete più spessa isola di più, non di meno.\nB) Introduce una dipendenza dal quadrato dello spessore che nella legge della conduzione non c'è.\nD) Ritiene che contino solo il materiale e la differenza di temperatura. Lo spessore compare invece nella formula.\nE) Somma due errori: mette lo spessore al numeratore e lo eleva al quadrato."
+    },
+    {
+      "id": "u5-0025",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Irraggiamento",
+      "testo": "La trasmissione di energia termica mediante onde elettromagnetiche, possibile anche nel vuoto, si chiama ……",
+      "accettate": [
+        "irraggiamento",
+        "radiazione",
+        "radiazione termica",
+        "irradiazione"
+      ],
+      "spiegazione": "Tutti i corpi a temperatura superiore allo zero assoluto emettono radiazione. Alle temperature ordinarie è radiazione infrarossa, ed è quella rilevata dai termometri a infrarossi e dalle termocamere.\n\nLa potenza emessa cresce molto rapidamente con la temperatura. Il corpo umano a riposo perde per irraggiamento una parte importante del proprio calore."
+    },
+    {
+      "id": "u5-0026",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Primo principio della termodinamica",
+      "testo": "La relazione ΔU = Q − W, che estende ai sistemi termodinamici la conservazione dell'energia, esprime il …… principio della termodinamica",
+      "accettate": [
+        "primo",
+        "1"
+      ],
+      "spiegazione": "Q è il calore assorbito dal sistema e W il lavoro compiuto dal sistema sull'ambiente. La variazione di energia interna è quello che resta dell'energia entrata come calore dopo aver compiuto lavoro.\n\nAlcuni testi usano la convenzione ΔU = Q + W, con W lavoro compiuto sul sistema. La fisica non cambia, cambia solo il segno attribuito al lavoro: in un esercizio conviene dichiarare subito quale convenzione si usa."
+    },
+    {
+      "id": "u5-0027",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Applicazione del primo principio",
+      "testo": "Un gas assorbe 500 J di calore e, espandendosi, compie un lavoro di 200 J sull'ambiente. La sua energia interna:",
+      "opzioni": [
+        "aumenta di 700 J",
+        "aumenta di 300 J",
+        "diminuisce di 300 J",
+        "aumenta di 500 J",
+        "diminuisce di 700 J"
+      ],
+      "corretta": 1,
+      "spiegazione": "Con la convenzione ΔU = Q − W, dove Q è il calore assorbito e W il lavoro compiuto dal gas, si ha ΔU = 500 − 200 = +300 J. Dei 500 J entrati, 200 escono come lavoro e 300 restano come energia interna.\n\nA) Somma il lavoro al calore. Il lavoro compiuto dal gas è energia che esce dal sistema e va sottratto.\nC) Inverte i segni di entrambi i termini, calcolando W − Q.\nD) Ignora il lavoro, come se il gas non si espandesse.\nE) Tratta come uscenti sia il calore sia il lavoro. Il calore invece è assorbito, cioè entra nel sistema."
+    },
+    {
+      "id": "u5-0028",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Energia interna",
+      "testo": "La somma delle energie cinetiche e potenziali di tutte le particelle che compongono un sistema si chiama energia ……",
+      "accettate": [
+        "interna",
+        "interne"
+      ],
+      "spiegazione": "Si indica con U ed è una funzione di stato: la sua variazione dipende solo dallo stato iniziale e da quello finale, non dal percorso seguito.\n\nIn un gas perfetto le molecole non interagiscono, quindi l'energia potenziale fra molecole è nulla e l'energia interna dipende solo dalla temperatura. Se la temperatura non cambia, non cambia neppure U."
+    },
+    {
+      "id": "u5-0029",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Funzioni di stato e grandezze di processo",
+      "testo": "Un gas passa dallo stesso stato iniziale A allo stesso stato finale B seguendo due trasformazioni diverse. Quale fra queste grandezze ha lo stesso valore lungo i due percorsi?",
+      "opzioni": [
+        "Il calore scambiato",
+        "Il lavoro compiuto",
+        "La somma fra calore scambiato e lavoro compiuto",
+        "La variazione di energia interna",
+        "Il rapporto fra il lavoro compiuto e il calore scambiato"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'energia interna è una funzione di stato: la sua variazione dipende solo da A e da B, qualunque sia il percorso.\n\nA) Il calore è una grandezza di processo: a parità di stati iniziale e finale, il suo valore cambia con il percorso.\nB) Il lavoro è l'area sotto la curva nel piano pressione-volume: percorsi diversi racchiudono aree diverse.\nC) È costante la differenza Q − W, che è proprio ΔU. La somma vale invece ΔU + 2W, e dipende dal percorso come W.\nE) È il rapporto fra due grandezze che dipendono entrambe dal percorso, quindi in generale cambia anche lui."
+    },
+    {
+      "id": "u5-0030",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Lavoro nel piano pressione-volume",
+      "testo": "In un diagramma pressione-volume, il lavoro compiuto da un gas in una trasformazione è rappresentato dall'…… sottesa alla curva",
+      "accettate": [
+        "area",
+        "aree",
+        "superficie"
+      ],
+      "spiegazione": "Il lavoro di un gas vale W = p ΔV a pressione costante. In generale è l'area compresa fra la curva della trasformazione e l'asse dei volumi. È positivo in un'espansione e negativo in una compressione.\n\nPer questo il lavoro dipende dal percorso: due trasformazioni fra gli stessi stati possono sottendere aree diverse. In un ciclo, il lavoro netto è l'area racchiusa dal ciclo."
+    },
+    {
+      "id": "u5-0031",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Variazione di energia interna del gas perfetto",
+      "testo": "La variazione di energia interna di n moli di gas perfetto che passano da uno stato A a uno stato B vale, qualunque sia la trasformazione seguita (C_V e C_P sono i calori specifici molari):",
+      "opzioni": [
+        "n C_V ΔT",
+        "n C_P ΔT",
+        "n R ΔT",
+        "p ΔV",
+        "n C_V ΔP"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nel gas perfetto l'energia interna dipende solo dalla temperatura. Lungo un'isocora il lavoro è nullo, quindi ΔU = Q = n C_V ΔT. Poiché U è una funzione di stato, lo stesso risultato vale per qualunque trasformazione con la stessa ΔT.\n\nB) È il calore scambiato in una trasformazione isobara, che comprende anche il lavoro di espansione. Non è la variazione di energia interna.\nC) È il lavoro compiuto dal gas in un'isobara, uguale a p ΔV. Non è l'energia interna.\nD) È il lavoro di una trasformazione a pressione costante, non la variazione di energia interna.\nE) Moltiplica un calore molare per una variazione di pressione, che non dà un'energia. L'energia interna dipende dalla temperatura, non dalla pressione."
+    },
+    {
+      "id": "u5-0032",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione isobara",
+      "testo": "La trasformazione di un gas che avviene a pressione costante si dice ……",
+      "accettate": [
+        "isobara",
+        "isobare",
+        "isobarica",
+        "isobariche"
+      ],
+      "spiegazione": "In un'isobara il volume è direttamente proporzionale alla temperatura assoluta (V/T costante) e il lavoro vale W = p ΔV. Nel piano pressione-volume è un segmento orizzontale.\n\nIl calore scambiato vale n C_P ΔT, più di quanto servirebbe a volume costante, perché una parte dell'energia fornita esce come lavoro di espansione."
+    },
+    {
+      "id": "u5-0033",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Lavoro in una trasformazione isobara",
+      "testo": "Un gas si espande alla pressione costante di 2,0 × 10⁵ Pa, passando da un volume di 3,0 L a uno di 8,0 L. Il lavoro compiuto dal gas vale:",
+      "opzioni": [
+        "1,0 × 10³ J",
+        "1,0 × 10⁶ J",
+        "1,6 × 10³ J",
+        "−1,0 × 10³ J",
+        "6,0 × 10² J"
+      ],
+      "corretta": 0,
+      "spiegazione": "A pressione costante W = p ΔV. Il volume va convertito in metri cubi: ΔV = 5,0 L = 5,0 × 10⁻³ m³. Quindi W = 2,0 × 10⁵ × 5,0 × 10⁻³ = 1,0 × 10³ J, positivo perché il gas si espande.\n\nB) Usa la variazione di volume in litri senza convertirla: l'errore è di un fattore mille.\nC) Moltiplica la pressione per il volume finale invece che per la variazione di volume.\nD) Il modulo è giusto ma il segno no: in un'espansione il lavoro compiuto dal gas è positivo.\nE) Moltiplica la pressione per il volume iniziale invece che per la variazione di volume."
+    },
+    {
+      "id": "u5-0034",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione isocora",
+      "testo": "La trasformazione di un gas che avviene a volume costante si dice ……",
+      "accettate": [
+        "isocora",
+        "isocore",
+        "isocorica",
+        "isocoriche",
+        "isometrica",
+        "isometriche",
+        "isovolumica",
+        "isovolumetrica"
+      ],
+      "spiegazione": "In un'isocora la pressione è direttamente proporzionale alla temperatura assoluta (p/T costante, seconda legge di Gay-Lussac). Nel piano pressione-volume è un segmento verticale.\n\nIl volume non cambia, quindi il lavoro è nullo e, per il primo principio, tutto il calore scambiato diventa variazione di energia interna: ΔU = Q."
+    },
+    {
+      "id": "u5-0035",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Primo principio nella trasformazione isocora",
+      "testo": "In una trasformazione isocora di un gas perfetto:",
+      "opzioni": [
+        "l'energia interna non varia e il calore scambiato è uguale al lavoro compiuto",
+        "il calore scambiato è nullo e il lavoro è uguale all'opposto di ΔU",
+        "il lavoro vale p ΔV e il calore scambiato vale n C_P ΔT",
+        "lavoro e calore sono entrambi nulli e l'energia interna resta costante",
+        "il lavoro è nullo e il calore scambiato è uguale alla variazione di energia interna"
+      ],
+      "corretta": 4,
+      "spiegazione": "A volume costante il gas non si espande e non viene compresso, quindi W = 0. Il primo principio si riduce a ΔU = Q: tutto il calore scambiato va in energia interna.\n\nA) Descrive l'isoterma, in cui la temperatura, e quindi l'energia interna del gas perfetto, resta costante.\nB) Descrive l'adiabatica, in cui non c'è scambio di calore.\nC) Descrive l'isobara, a pressione costante.\nD) È nullo solo il lavoro. Il calore può essere scambiato, e fa variare temperatura ed energia interna."
+    },
+    {
+      "id": "u5-0036",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione isoterma",
+      "testo": "La trasformazione di un gas che avviene a temperatura costante si dice ……",
+      "accettate": [
+        "isoterma",
+        "isoterme",
+        "isotermica",
+        "isotermiche"
+      ],
+      "spiegazione": "In un'isoterma vale la legge di Boyle, pV = costante. Nel piano pressione-volume la curva è un ramo di iperbole equilatera.\n\nPer un gas perfetto l'energia interna non cambia (ΔU = 0), quindi il calore assorbito è uguale al lavoro compiuto: Q = W."
+    },
+    {
+      "id": "u5-0037",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Legge dell'isocora (Gay-Lussac)",
+      "testo": "Un gas perfetto è chiuso in un recipiente rigido a 27 °C e alla pressione di 1,0 × 10⁵ Pa. Viene riscaldato fino a 327 °C. La pressione diventa:",
+      "opzioni": [
+        "1,2 × 10⁶ Pa",
+        "1,0 × 10⁵ Pa",
+        "5,0 × 10⁴ Pa",
+        "2,0 × 10⁵ Pa",
+        "2,2 × 10⁶ Pa"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il recipiente è rigido, quindi la trasformazione è isocora e p/T resta costante, con T in kelvin: T₁ ≈ 300 K e T₂ ≈ 600 K. La temperatura assoluta raddoppia e con essa la pressione: p₂ = 1,0 × 10⁵ × 600/300 = 2,0 × 10⁵ Pa.\n\nA) Usa le temperature in gradi Celsius: 327/27 ≈ 12,1.\nB) Ritiene che la pressione resti costante. In un recipiente rigido è il volume a restare costante, mentre la pressione cresce con la temperatura.\nC) Tratta pressione e temperatura come inversamente proporzionali, applicando per analogia la legge di Boyle.\nE) Mescola le scale: la temperatura finale in kelvin (600 K) e quella iniziale in gradi Celsius (27)."
+    },
+    {
+      "id": "u5-0038",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Primo principio nella trasformazione isoterma",
+      "testo": "Un gas perfetto si espande a temperatura costante compiendo un lavoro di 800 J. Il calore scambiato dal gas vale:",
+      "opzioni": [
+        "0 J, perché la temperatura resta costante",
+        "800 J, ceduti dal gas all'ambiente",
+        "800 J, assorbiti dal gas",
+        "1600 J, assorbiti dal gas",
+        "non è determinabile senza il numero di moli"
+      ],
+      "corretta": 2,
+      "spiegazione": "In un'isoterma l'energia interna del gas perfetto non cambia, quindi ΔU = 0 e Q = W. Il gas compie 800 J di lavoro e deve assorbire dall'ambiente altrettanto calore per mantenere costante la temperatura.\n\nA) Confonde «temperatura costante» con «nessuno scambio di calore», che definisce invece l'adiabatica. Il calore serve proprio a compensare il lavoro.\nB) Il valore è giusto ma il verso no: in un'espansione isoterma il gas assorbe calore. Lo cederebbe in una compressione.\nD) Somma al lavoro una variazione di energia interna di 800 J, che in un'isoterma di un gas perfetto è nulla.\nE) Il numero di moli servirebbe per calcolare il lavoro dai volumi. Qui il lavoro è già dato e ΔU = 0, quindi Q segue direttamente."
+    },
+    {
+      "id": "u5-0039",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Enunciato di Kelvin-Planck",
+      "testo": "L'enunciato del secondo principio secondo cui è impossibile una trasformazione il cui unico risultato sia convertire interamente in lavoro il calore prelevato da un'unica sorgente porta il nome di ……",
+      "accettate": [
+        "kelvin-planck",
+        "kelvin planck",
+        "kelvin e planck",
+        "planck-kelvin",
+        "planck kelvin",
+        "kelvin"
+      ],
+      "spiegazione": "Ne segue che una macchina termica deve cedere parte del calore assorbito a una sorgente più fredda. Il suo rendimento è quindi sempre minore di 1.\n\nÈ equivalente all'enunciato di Clausius: si dimostra che, se l'uno fosse violato, lo sarebbe anche l'altro."
+    },
+    {
+      "id": "u5-0040",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Enunciato di Clausius",
+      "testo": "Secondo l'enunciato di Clausius del secondo principio della termodinamica:",
+      "opzioni": [
+        "è impossibile, in qualunque modo e con qualunque dispositivo, far passare calore da un corpo più freddo a uno più caldo",
+        "è impossibile un processo il cui unico risultato sia il passaggio di calore da un corpo più freddo a uno più caldo",
+        "il calore passa spontaneamente dal corpo con più energia interna a quello che ne ha di meno",
+        "in un sistema isolato l'energia totale si conserva, qualunque trasformazione vi avvenga",
+        "il calore passa spontaneamente dal corpo di massa maggiore a quello di massa minore"
+      ],
+      "corretta": 1,
+      "spiegazione": "La parola chiave è «unico risultato». Il calore può passare da un corpo freddo a uno caldo, come accade nel frigorifero, ma solo spendendo lavoro dall'esterno. Spontaneamente il calore passa sempre dal corpo più caldo a quello più freddo.\n\nA) Il frigorifero e la pompa di calore lo fanno ogni giorno. L'enunciato vieta solo che ciò avvenga senza altri effetti, cioè senza lavoro fornito dall'esterno.\nC) Il verso del flusso di calore è deciso dalla temperatura, non dall'energia interna. Un lago freddo ha molta più energia interna di una moneta calda, eppure il calore passa dalla moneta al lago.\nD) È la conservazione dell'energia, cioè il contenuto del primo principio, non del secondo.\nE) La massa non decide il verso del flusso di calore: conta solo la differenza di temperatura."
+    },
+    {
+      "id": "u5-0041",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Macchina termica",
+      "testo": "Il dispositivo che, lavorando ciclicamente, trasforma in lavoro una parte del calore assorbito da una sorgente calda e cede il resto a una sorgente fredda si chiama macchina ……",
+      "accettate": [
+        "termica",
+        "termiche"
+      ],
+      "spiegazione": "In ogni ciclo l'energia interna della sostanza di lavoro torna al valore iniziale. Per il primo principio il lavoro prodotto è quindi W = Q_ass − Q_ced.\n\nIl motore di un'automobile e le turbine delle centrali termoelettriche sono macchine termiche. Il frigorifero è una macchina termica che funziona al contrario, assorbendo lavoro."
+    },
+    {
+      "id": "u5-0042",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Rendimento di una macchina termica",
+      "testo": "In ogni ciclo una macchina termica assorbe 2000 J dalla sorgente calda e ne cede 1500 J alla sorgente fredda. Il suo rendimento è:",
+      "opzioni": [
+        "75%",
+        "33%",
+        "57%",
+        "25%",
+        "43%"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il lavoro prodotto in un ciclo è W = 2000 − 1500 = 500 J. Il rendimento è il rapporto fra lavoro e calore assorbito: η = 500/2000 = 0,25, cioè il 25%. In modo equivalente, η = 1 − Q_ced/Q_ass = 1 − 1500/2000.\n\nA) È il rapporto fra calore ceduto e calore assorbito, Q_ced/Q_ass: la frazione di energia persa, non quella utilizzata.\nB) Divide il lavoro per il calore ceduto invece che per quello assorbito: 500/1500.\nC) Divide il calore assorbito per la somma dei calori scambiati: 2000/3500. È un rapporto privo di significato.\nE) Divide il calore ceduto per la somma dei calori scambiati: 1500/3500. Neanche questo rapporto ha significato fisico."
+    },
+    {
+      "id": "u5-0043",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Rendimento",
+      "testo": "Il rapporto fra il lavoro prodotto da una macchina termica in un ciclo e il calore assorbito dalla sorgente calda si chiama ……",
+      "accettate": [
+        "rendimento",
+        "rendimenti",
+        "rendimento termico",
+        "efficienza"
+      ],
+      "spiegazione": "Si indica con η ed è un numero puro, compreso fra 0 e 1: η = W/Q_ass = 1 − Q_ced/Q_ass. Spesso si esprime in percentuale.\n\nPer il secondo principio non può mai valere 1. Fra due temperature date, il massimo è quello della macchina di Carnot."
+    },
+    {
+      "id": "u5-0044",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Rendimento della macchina di Carnot",
+      "testo": "Una macchina di Carnot lavora fra una sorgente calda a 327 °C e una sorgente fredda a 27 °C. Il suo rendimento è:",
+      "opzioni": [
+        "92%",
+        "50%",
+        "8%",
+        "100%",
+        "95%"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il rendimento di Carnot vale η = 1 − T_f/T_c, con le temperature in kelvin: T_c ≈ 600 K e T_f ≈ 300 K. Quindi η = 1 − 300/600 = 0,50, cioè il 50%.\n\nA) Usa le temperature in gradi Celsius: 1 − 27/327 ≈ 0,917. È l'errore segnalato esplicitamente negli appelli.\nC) Calcola solo il rapporto T_f/T_c in gradi Celsius, 27/327 ≈ 0,08, senza sottrarlo da 1.\nD) Divide la differenza di temperatura per la temperatura fredda invece che per quella calda: 300/300. Un rendimento pari a 1 è escluso dal secondo principio.\nE) Mescola le scale: la temperatura fredda in gradi Celsius e quella calda in kelvin, 1 − 27/600 ≈ 0,955."
+    },
+    {
+      "id": "u5-0045",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Ciclo di Carnot",
+      "testo": "Il ciclo reversibile che, fra due sorgenti a temperature date, ha il massimo rendimento possibile porta il nome di ……",
+      "accettate": [
+        "carnot",
+        "ciclo di carnot"
+      ],
+      "spiegazione": "Il suo rendimento vale η = 1 − T_f/T_c, con le temperature in kelvin. Dipende solo dalle temperature delle due sorgenti, non dalla sostanza che compie il ciclo.\n\nÈ un limite teorico. Qualunque macchina reale, che funziona in modo irreversibile, ha fra le stesse temperature un rendimento inferiore."
+    },
+    {
+      "id": "u5-0046",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Carnot come limite massimo",
+      "testo": "Un inventore dichiara di aver costruito un motore che lavora fra 400 K e 300 K con un rendimento del 30%. La dichiarazione:",
+      "opzioni": [
+        "è possibile, perché il rendimento dichiarato è inferiore al 100%",
+        "è possibile, purché il motore funzioni in modo reversibile",
+        "è impossibile, perché supera il rendimento di Carnot fra le stesse temperature",
+        "è possibile, perché il limite di Carnot fra queste temperature è il 75%",
+        "è impossibile, perché nessun motore reale può superare il 25% di rendimento"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il rendimento massimo fra 400 K e 300 K è quello di Carnot: η = 1 − 300/400 = 0,25. Un rendimento del 30% supererebbe il limite teorico, quindi violerebbe il secondo principio.\n\nA) Stare sotto il 100% è necessario ma non basta. Il vero limite, fra due temperature date, è il rendimento di Carnot.\nB) Anche un motore reversibile, fra queste temperature, arriva al massimo al 25%.\nD) Calcola T_f/T_c = 300/400 = 0,75 e lo scambia per il rendimento, che è invece 1 − 0,75.\nE) Il limite del 25% vale solo fra 400 K e 300 K. Motori che lavorano fra temperature più distanti superano ampiamente quel valore."
+    },
+    {
+      "id": "u5-0047",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sorgente termica",
+      "testo": "Un corpo con capacità termica così grande da poter cedere o assorbire calore senza che la sua temperatura cambi, usato come riferimento nello studio delle macchine termiche, si chiama ……",
+      "accettate": [
+        "sorgente",
+        "sorgenti",
+        "sorgente termica",
+        "sorgente di calore",
+        "serbatoio termico",
+        "serbatoio di calore",
+        "termostato"
+      ],
+      "spiegazione": "È un'idealizzazione. L'oceano e l'atmosfera, rispetto a un motore, si comportano in pratica come sorgenti: gli scambi di calore del motore non ne cambiano in modo apprezzabile la temperatura.\n\nUna macchina termica richiede almeno due sorgenti a temperature diverse: per l'enunciato di Kelvin-Planck non si può produrre lavoro ciclicamente con una sola sorgente."
+    },
+    {
+      "id": "u5-0048",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Conseguenze dell'enunciato di Kelvin-Planck",
+      "testo": "Quale conseguenza discende direttamente dall'enunciato di Kelvin-Planck del secondo principio?",
+      "opzioni": [
+        "nessuna macchina termica ciclica può avere rendimento pari a 1",
+        "nessuna macchina termica può avere rendimento superiore al 50%",
+        "il lavoro non può mai essere trasformato integralmente in calore",
+        "l'energia di un sistema isolato si conserva in ogni trasformazione",
+        "solo una macchina reversibile può avere rendimento pari a 1"
+      ],
+      "corretta": 0,
+      "spiegazione": "Un rendimento pari a 1 significherebbe trasformare in lavoro tutto il calore assorbito, senza cederne alla sorgente fredda. È proprio ciò che l'enunciato di Kelvin-Planck esclude.\n\nB) Non esiste un limite universale del 50%. Il limite dipende dalle temperature delle sorgenti e può superare questo valore.\nC) Inverte il verso: il lavoro si trasforma integralmente in calore, come avviene con l'attrito. È la trasformazione inversa, ciclica, che è limitata.\nD) È il contenuto del primo principio, non del secondo.\nE) Neanche la macchina reversibile di Carnot raggiunge 1: il suo rendimento vale 1 − T_f/T_c, che è minore di 1 per qualunque temperatura fredda sopra lo zero assoluto."
+    },
+    {
+      "id": "u5-0049",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Ciclo termodinamico",
+      "testo": "Una successione di trasformazioni al termine della quale il sistema ritorna nel suo stato iniziale si chiama ……",
+      "accettate": [
+        "ciclo",
+        "cicli",
+        "ciclo termodinamico",
+        "trasformazione ciclica",
+        "trasformazioni cicliche"
+      ],
+      "spiegazione": "Alla fine di un ciclo tutte le funzioni di stato riprendono il valore iniziale. In particolare ΔU = 0, e il lavoro netto è uguale al calore netto scambiato.\n\nNel piano pressione-volume un ciclo è una curva chiusa. Il lavoro netto è l'area che racchiude: positivo se il ciclo è percorso in senso orario, come nelle macchine termiche."
+    },
+    {
+      "id": "u5-0050",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Fattori che influenzano il rendimento di Carnot",
+      "testo": "Per aumentare il rendimento di una macchina di Carnot si può:",
+      "opzioni": [
+        "alzare la temperatura della sorgente fredda",
+        "abbassare la temperatura della sorgente calda",
+        "aumentare la quantità di gas che compie il ciclo",
+        "ridurre la durata di ogni ciclo",
+        "abbassare la temperatura della sorgente fredda"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il rendimento vale η = 1 − T_f/T_c. Abbassando T_f il rapporto diminuisce e il rendimento cresce. Lo stesso effetto si ottiene alzando la temperatura della sorgente calda.\n\nA) Alzando T_f il rapporto T_f/T_c aumenta e il rendimento diminuisce.\nB) Abbassando T_c il rapporto T_f/T_c aumenta e il rendimento diminuisce.\nC) Il rendimento di Carnot dipende solo dalle temperature delle sorgenti, non dalla quantità né dal tipo di sostanza. Più gas dà più lavoro per ciclo, ma con lo stesso rendimento.\nD) Cicli più rapidi aumentano la potenza, cioè il lavoro per unità di tempo, non il rendimento. Nella pratica rendono anzi il processo meno reversibile."
+    }
+  ]
+}

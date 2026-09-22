@@ -1,0 +1,735 @@
+{
+  "lotto": "chimica-u5-02",
+  "unita": "u5",
+  "generato": "2026-09-22",
+  "domande": [
+    {
+      "id": "u5-0002",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Ibridazione del carbonio",
+      "testo": "Nel propino, CH≡C–CH₃, quale ibridazione hanno, nell'ordine, C1, C2 e C3?",
+      "opzioni": [
+        "sp², sp², sp³",
+        "sp, sp, sp³",
+        "sp, sp, sp²",
+        "sp³, sp³, sp³",
+        "sp, sp², sp³"
+      ],
+      "corretta": 1,
+      "spiegazione": "C1 e C2 sono uniti dal triplo legame. Ciascuno forma due legami σ (C1 con H e con C2; C2 con C1 e con C3) e due legami π con i due orbitali p non ibridati: sono ibridati sp, con geometria lineare (180°). C3 forma quattro legami σ semplici ed è sp³, tetraedrico.\n\nA) sp² è l'ibridazione dei carboni di un doppio legame, che usano un solo orbitale p per il legame π. Il triplo legame richiede due orbitali p non ibridati, quindi sp.\nC) C3 è un metile legato solo con legami semplici: senza legami π è sp³. L'ibridazione sp² richiede un doppio legame.\nD) Considera i quattro legami di ogni carbonio come se determinassero l'ibridazione. L'ibridazione dipende dal numero di legami σ: gli orbitali p impegnati nei legami π non vengono ibridati.\nE) Attribuisce a C2 un'ibridazione intermedia, come se il legame con C3 la modificasse. C2 partecipa al triplo legame esattamente come C1: due legami σ e due π, quindi sp."
+    },
+    {
+      "id": "u5-0003",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Ibridazione del carbonio",
+      "testo": "Quale fra i seguenti composti contiene esclusivamente atomi di carbonio ibridati sp²?",
+      "opzioni": [
+        "etino",
+        "toluene",
+        "benzene",
+        "cicloesano",
+        "propene"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel benzene ciascuno dei sei carboni forma tre legami σ (due con i carboni adiacenti, uno con H) e mette a disposizione un orbitale p per il sistema π delocalizzato: tutti i carboni sono sp², l'anello è planare con angoli di 120°.\n\nA) Nell'etino, HC≡CH, i due carboni sono impegnati in un triplo legame e sono ibridati sp, non sp².\nB) I sei carboni dell'anello sono sp², ma il gruppo metilico –CH₃ ha quattro legami semplici ed è sp³.\nD) Essere ciclico non significa essere insaturo: il cicloesano ha solo legami semplici e tutti i suoi carboni sono sp³.\nE) In CH₂=CH–CH₃ i due carboni del doppio legame sono sp², ma il metile terminale è sp³."
+    },
+    {
+      "id": "u5-0004",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Formula molecolare da nome IUPAC",
+      "testo": "Qual è la formula molecolare del 3-etil-2-metilesano?",
+      "opzioni": [
+        "C₉H₂₀",
+        "C₆H₁₄",
+        "C₉H₂₂",
+        "C₈H₁₈",
+        "C₉H₁₈"
+      ],
+      "corretta": 0,
+      "spiegazione": "La catena principale (esano) ha 6 carboni, l'etile ne aggiunge 2 e il metile 1: in tutto 9. Il composto è un alcano aciclico e segue la formula CₙH₂ₙ₊₂, quindi C₉H₂₀. Verifica diretta: l'esano C₆H₁₄ perde i 2 H sostituiti (restano 12), a cui si sommano i 5 H dell'etile e i 3 H del metile: 12 + 5 + 3 = 20.\n\nB) È la formula del solo esano: ignora i carboni dei sostituenti, che fanno parte della molecola.\nC) Somma gli idrogeni dei sostituenti senza togliere quelli della catena che essi rimpiazzano. Un idrocarburo con 9 carboni non può avere più di 2·9 + 2 = 20 idrogeni.\nD) Conta l'etile come un solo carbonio. L'etile, –CH₂CH₃, ne contiene due.\nE) CₙH₂ₙ è la formula degli alcheni e dei cicloalcani monociclici. Il nome termina in -ano e non contiene il prefisso ciclo-: il composto è un alcano aciclico, CₙH₂ₙ₊₂."
+    },
+    {
+      "id": "u5-0005",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Nomenclatura IUPAC: scelta della catena principale",
+      "testo": "Il nome «2-etilbutano» descrive un composto reale ma non rispetta le regole IUPAC. Qual è il nome IUPAC corretto di quel composto?",
+      "opzioni": [
+        "3-metilpentano",
+        "3-etilbutano",
+        "esano",
+        "2-metilpentano",
+        "2-etilbutano"
+      ],
+      "corretta": 0,
+      "spiegazione": "La struttura è CH₃–CH(CH₂CH₃)–CH₂–CH₃. La catena più lunga passa per l'etile e conta 5 carboni: CH₃CH₂–CH(CH₃)–CH₂CH₃. Il metile rimasto sta sul carbonio centrale, C3, da qualunque estremo si numeri: 3-metilpentano.\n\nB) Oltre a mantenere la catena sbagliata, numera dall'estremità che dà il locante più alto. Su una catena di 4 carboni quel sostituente starebbe in posizione 2, non 3.\nC) L'esano ha la stessa formula C₆H₁₄ ma è lineare: è un isomero di struttura del composto dato, che è ramificato.\nD) È un altro composto, (CH₃)₂CH–CH₂CH₂CH₃, con la ramificazione sul secondo carbonio. Ha la stessa formula C₆H₁₄: è un isomero di struttura del composto dato, non lo stesso composto.\nE) Il nome non è accettabile: la regola della catena più lunga impone di includere l'etile nella catena principale, che diventa di 5 carboni. Un etile in posizione 2 segnala sempre una catena principale scelta male."
+    },
+    {
+      "id": "u5-0006",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Ibridazione del carbonio",
+      "testo": "Gli atomi di carbonio impegnati in un triplo legame hanno ibridazione ……",
+      "accettate": [
+        "sp",
+        "ibridazione sp"
+      ],
+      "spiegazione": "sp. Ciascun carbonio del triplo legame forma due legami σ con due orbitali ibridi sp, disposti a 180° (geometria lineare), e due legami π con i due orbitali p non ibridati rimasti. Non è sp², tipica del doppio legame (un solo π), né sp³, tipica dei carboni con soli legami semplici."
+    },
+    {
+      "id": "u5-0007",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Classificazione degli idrocarburi",
+      "testo": "Un idrocarburo che contiene solo legami semplici fra atomi di carbonio, ciclico o aciclico che sia, si dice ……",
+      "accettate": [
+        "saturo",
+        "saturi"
+      ],
+      "spiegazione": "Saturo: ogni carbonio forma quattro legami σ e lega il numero massimo di atomi. Sono saturi alcani e cicloalcani; alcheni, alchini e aromatici, che contengono legami multipli, sono insaturi."
+    },
+    {
+      "id": "u5-0008",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Idrocarburi ciclici ed eterociclici",
+      "testo": "Un composto ciclico nel cui anello è presente almeno un atomo diverso dal carbonio (per esempio N, O o S) si dice ……",
+      "accettate": [
+        "eterociclico",
+        "eterociclica",
+        "eterociclici",
+        "eterocicliche"
+      ],
+      "spiegazione": "Eterociclico: l'anello contiene uno o più eteroatomi. Se l'anello è formato solo da atomi di carbonio il composto è carbociclico. Esempi in programma sono la pirimidina e la purina, con atomi di azoto nell'anello."
+    },
+    {
+      "id": "u5-0009",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Geometria del carbonio sp³",
+      "testo": "I quattro orbitali ibridi sp³ del carbonio formano fra loro angoli di circa 109,5° e conferiscono al carbonio una geometria ……",
+      "accettate": [
+        "tetraedrica",
+        "tetraedrico",
+        "tetraedro"
+      ],
+      "spiegazione": "Tetraedrica: i quattro orbitali sp³ puntano verso i vertici di un tetraedro regolare, la disposizione che minimizza la repulsione fra le coppie di legame. La geometria trigonale planare (120°) è del carbonio sp², quella lineare (180°) del carbonio sp."
+    },
+    {
+      "id": "u5-0010",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Carbonio chirale",
+      "testo": "Quale fra i seguenti composti contiene un atomo di carbonio chirale?",
+      "opzioni": [
+        "1-bromobutano",
+        "3-bromopentano",
+        "2-bromo-2-metilpropano",
+        "2-bromopropano",
+        "2-bromobutano"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il C2 del 2-bromobutano, CH₃–CHBr–CH₂–CH₃, è legato a quattro gruppi diversi: H, Br, CH₃ e CH₂CH₃. È un centro chirale e il composto esiste come coppia di enantiomeri.\n\nA) Il C1 porta due H e gli altri carboni hanno almeno due sostituenti uguali: nessun centro chirale.\nB) Il C3 porta H, Br e due gruppi etile identici, uno per lato. È la trappola tipica: i due «bracci» sembrano diversi solo se non si seguono per intero.\nC) Il C2 porta Br e tre gruppi CH₃ identici: non è chirale.\nD) Il C2 porta H, Br e due gruppi CH₃ identici: con due sostituenti uguali il carbonio non è chirale."
+    },
+    {
+      "id": "u5-0011",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Proprietà degli enantiomeri",
+      "testo": "In un ambiente achirale, due enantiomeri puri differiscono per:",
+      "opzioni": [
+        "il valore assoluto del potere ottico rotatorio specifico",
+        "il segno del potere ottico rotatorio specifico",
+        "la sequenza con cui gli atomi sono legati",
+        "la formula molecolare",
+        "il punto di fusione e il punto di ebollizione"
+      ],
+      "corretta": 1,
+      "spiegazione": "In ambiente achirale gli enantiomeri hanno proprietà fisiche e chimiche identiche. L'unica differenza misurabile è il verso in cui ruotano il piano della luce polarizzata: stesso valore assoluto del potere rotatorio specifico, segno opposto (+ destrogiro, − levogiro). Si comportano in modo diverso solo verso altre molecole chirali, per esempio gli enzimi.\n\nA) Il valore assoluto è identico, cambia solo il segno. Se ruotassero di angoli diversi, una miscela equimolare non sarebbe otticamente inattiva.\nC) Una diversa sequenza di legami definisce gli isomeri di struttura. Negli enantiomeri la connettività è la stessa: cambia solo la disposizione nello spazio.\nD) Tutti gli isomeri, enantiomeri compresi, hanno per definizione la stessa formula molecolare.\nE) Punti di fusione ed ebollizione, densità e solubilità sono identici negli enantiomeri. Differiscono invece fra diastereoisomeri."
+    },
+    {
+      "id": "u5-0012",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Miscela racemica",
+      "testo": "Una miscela racemica:",
+      "opzioni": [
+        "contiene i due enantiomeri in un rapporto qualsiasi, purché siano presenti entrambi",
+        "è otticamente inattiva perché le sue molecole non possiedono centri chirali",
+        "è otticamente attiva perché tutte le molecole che la compongono sono chirali",
+        "è otticamente inattiva perché contiene due diastereoisomeri in quantità equimolari",
+        "è otticamente inattiva perché contiene i due enantiomeri in quantità equimolari"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nella miscela racemica i due enantiomeri sono presenti al 50%. Le loro rotazioni, uguali in valore assoluto e di segno opposto, si annullano: la rotazione osservata è zero, anche se ogni singola molecola è chirale.\n\nA) Con un rapporto diverso da 1:1 prevale un enantiomero e la miscela ruota la luce polarizzata. Il racemo richiede quantità esattamente uguali.\nB) Confonde l'inattività della miscela con l'achiralità delle molecole. Le molecole di un racemo sono chirali: è la compensazione fra i due enantiomeri ad annullare la rotazione.\nC) Le molecole sono chirali, ma i contributi dei due enantiomeri si compensano esattamente: la miscela nel suo insieme non ruota la luce polarizzata.\nD) I diastereoisomeri hanno poteri rotatori diversi, non uguali e opposti: una loro miscela 1:1 in generale ruota la luce polarizzata. Il racemo è per definizione una miscela di enantiomeri."
+    },
+    {
+      "id": "u5-0013",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Isomeria cis-trans",
+      "testo": "Quale fra i seguenti alcheni presenta isomeria cis-trans?",
+      "opzioni": [
+        "2-metilbut-2-ene",
+        "but-1-ene",
+        "propene",
+        "2-metilpropene",
+        "but-2-ene"
+      ],
+      "corretta": 4,
+      "spiegazione": "In CH₃–CH=CH–CH₃ ciascun carbonio del doppio legame porta due sostituenti diversi (H e CH₃). La rotazione impedita attorno al doppio legame dà due configurazioni distinte: cis (metili dallo stesso lato) e trans (metili da lati opposti).\n\nA) In (CH₃)₂C=CH–CH₃ il C2 porta due metili identici: l'isomeria cis-trans non esiste, anche se l'altro carbonio ha sostituenti diversi.\nB) In CH₂=CH–CH₂CH₃ il C1 porta due idrogeni: basta un carbonio del doppio legame con due sostituenti uguali per escludere l'isomeria cis-trans.\nC) In CH₂=CH–CH₃ il C1 porta due idrogeni: nessuna isomeria cis-trans.\nD) In (CH₃)₂C=CH₂ entrambi i carboni del doppio legame portano due sostituenti uguali."
+    },
+    {
+      "id": "u5-0014",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Classificazione degli stereoisomeri",
+      "testo": "Il cis-but-2-ene e il trans-but-2-ene sono fra loro:",
+      "opzioni": [
+        "tautomeri",
+        "conformeri",
+        "enantiomeri",
+        "diastereoisomeri",
+        "isomeri di struttura"
+      ],
+      "corretta": 3,
+      "spiegazione": "Hanno la stessa connettività e differiscono solo per la disposizione nello spazio: sono stereoisomeri. Non sono l'uno l'immagine speculare dell'altro, quindi sono diastereoisomeri (l'isomeria cis-trans è una forma di diastereoisomeria). Infatti hanno proprietà fisiche diverse, per esempio il punto di ebollizione.\n\nA) I tautomeri si interconvertono per spostamento di un atomo di idrogeno e di un doppio legame, come nella tautomeria cheto-enolica. Fra cis- e trans-but-2-ene nessun atomo cambia posizione nella sequenza.\nB) I conformeri si interconvertono per rotazione attorno a legami semplici. La rotazione attorno al doppio legame è impedita: cis e trans non si interconvertono a temperatura ambiente e sono composti distinti.\nC) Gli enantiomeri sono immagini speculari non sovrapponibili. Entrambi gli isomeri del but-2-ene sono sovrapponibili alla propria immagine speculare, cioè achirali: non possono essere enantiomeri.\nE) Gli isomeri di struttura differiscono per la sequenza dei legami. Qui la sequenza è identica (doppio legame fra C2 e C3, metili sugli stessi carboni): cambia solo la disposizione nello spazio."
+    },
+    {
+      "id": "u5-0015",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Centro chirale",
+      "testo": "Un atomo di carbonio legato a quattro sostituenti tutti diversi costituisce un centro ……",
+      "accettate": [
+        "chirale",
+        "chirali",
+        "stereogenico",
+        "stereogeno",
+        "asimmetrico"
+      ],
+      "spiegazione": "Centro chirale (detto anche stereogenico, o carbonio asimmetrico): scambiando due sostituenti si ottiene la configurazione speculare. Una molecola con un solo centro chirale è chirale ed esiste come coppia di enantiomeri."
+    },
+    {
+      "id": "u5-0016",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Enantiomeri",
+      "testo": "Due stereoisomeri che sono l'uno l'immagine speculare non sovrapponibile dell'altro si chiamano ……",
+      "accettate": [
+        "enantiomeri",
+        "enantiomero",
+        "antipodi ottici"
+      ],
+      "spiegazione": "Enantiomeri. Non diastereoisomeri, che sono gli stereoisomeri non speculari; non epimeri, che sono diastereoisomeri che differiscono per la configurazione di un solo centro chirale."
+    },
+    {
+      "id": "u5-0017",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Miscela racemica",
+      "testo": "Una miscela equimolare di due enantiomeri, che non ruota il piano della luce polarizzata, si dice miscela ……",
+      "accettate": [
+        "racemica",
+        "racema",
+        "racemo",
+        "racemato"
+      ],
+      "spiegazione": "Racemica (o racemo): le rotazioni dei due enantiomeri, uguali e opposte, si annullano. Una miscela non equimolare dei due enantiomeri ruota invece la luce nel verso dell'enantiomero in eccesso."
+    },
+    {
+      "id": "u5-0018",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Diastereoisomeri",
+      "testo": "Gli stereoisomeri che non sono l'uno l'immagine speculare dell'altro si chiamano ……",
+      "accettate": [
+        "diastereoisomeri",
+        "diastereoisomero",
+        "diastereomeri",
+        "diastereomero"
+      ],
+      "spiegazione": "Diastereoisomeri. A differenza degli enantiomeri hanno proprietà fisiche diverse (punti di fusione e di ebollizione, solubilità). Sono diastereoisomeri gli isomeri cis-trans e gli epimeri."
+    },
+    {
+      "id": "u5-0019",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Alogenazione radicalica degli alcani",
+      "testo": "Nella clorurazione del metano in presenza di luce, lo stadio di iniziazione consiste nella:",
+      "opzioni": [
+        "combinazione di due atomi di cloro che riforma Cl₂",
+        "rottura eterolitica di Cl₂ in Cl⁺ e Cl⁻",
+        "rottura omolitica di un legame C–H del metano",
+        "rottura omolitica di Cl₂ in due atomi di cloro",
+        "reazione di Cl· con CH₄ che forma HCl e ·CH₃"
+      ],
+      "corretta": 3,
+      "spiegazione": "La luce fornisce l'energia per rompere il legame Cl–Cl, il più debole fra quelli presenti (circa 240 kJ/mol, contro circa 440 kJ/mol del legame C–H del metano). La rottura è omolitica: ciascun atomo di cloro trattiene un elettrone e si formano due radicali Cl·, che avviano la reazione a catena.\n\nA) È uno dei passaggi di terminazione: due radicali si combinano e la catena si interrompe.\nB) La rottura eterolitica genera ioni. La clorurazione fotochimica degli alcani è una reazione radicalica, innescata da una rottura omolitica.\nC) Il legame C–H è molto più forte del legame Cl–Cl: la luce rompe il legame più debole. Il radicale metile si forma dopo, nella propagazione.\nE) È un passaggio della propagazione: consuma un radicale e ne genera un altro. Presuppone che i radicali Cl· siano già stati prodotti dall'iniziazione."
+    },
+    {
+      "id": "u5-0020",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Rottura omolitica",
+      "testo": "La rottura di un legame covalente in cui ciascuno dei due atomi trattiene uno degli elettroni di legame si dice ……",
+      "accettate": [
+        "omolitica",
+        "omolitico",
+        "omolisi"
+      ],
+      "spiegazione": "Omolitica: si formano due radicali. Nella rottura eterolitica, invece, la coppia di elettroni di legame resta su uno solo dei due atomi e si formano due ioni di carica opposta."
+    },
+    {
+      "id": "u5-0021",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Radicali",
+      "testo": "Una specie chimica che possiede un elettrone spaiato si chiama ……",
+      "accettate": [
+        "radicale",
+        "radicali",
+        "radicale libero",
+        "radicali liberi"
+      ],
+      "spiegazione": "Radicale: è molto reattivo perché tende ad appaiare l'elettrone singolo. Un radicale non è necessariamente uno ione: Cl·, ·CH₃ e ·OH sono neutri."
+    },
+    {
+      "id": "u5-0022",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Stabilità dei carbocationi",
+      "testo": "Quale fra i seguenti carbocationi è il più stabile?",
+      "opzioni": [
+        "CH₃CH₂CH₂⁺",
+        "CH₃⁺",
+        "(CH₃)₃C⁺",
+        "(CH₃)₂CH⁺",
+        "CH₃CH₂⁺"
+      ],
+      "corretta": 2,
+      "spiegazione": "È un carbocatione terziario: il carbonio positivo è legato a tre gruppi alchilici, che con il loro effetto induttivo elettron-donatore (+I) disperdono in parte la carica positiva. Ordine di stabilità: terziario > secondario > primario > metile.\n\nA) È primario come l'etile: una catena più lunga non cambia la classe del carbocatione, che dipende da quanti carboni sono legati al carbonio positivo.\nB) Il catione metile non ha gruppi alchilici che ne stabilizzino la carica: è il meno stabile. Invertire l'ordine è un errore frequente, per confusione con i carbanioni, per i quali l'ordine di stabilità è opposto.\nD) È secondario: con due gruppi alchilici è più stabile di un primario, ma meno di un terziario.\nE) È primario: un solo gruppo alchilico legato al carbonio positivo."
+    },
+    {
+      "id": "u5-0023",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Effetto induttivo",
+      "testo": "I gruppi alchilici legati al carbonio di un carbocatione lo stabilizzano perché:",
+      "opzioni": [
+        "esercitano un effetto induttivo elettron-donatore (+I)",
+        "rendono ibridato sp³ il carbonio che porta la carica",
+        "esercitano un effetto induttivo elettron-attrattore (−I)",
+        "aumentano la carica positiva presente sul carbonio",
+        "delocalizzano la carica per risonanza con i loro doppi legami"
+      ],
+      "corretta": 0,
+      "spiegazione": "I gruppi alchilici spingono densità elettronica, lungo i legami σ, verso il carbonio positivo e ne disperdono la carica: più gruppi alchilici, più stabile il carbocatione. (Vi contribuisce anche l'iperconiugazione, che il programma non richiede.)\n\nB) Il carbonio di un carbocatione è sp², planare, con un orbitale p vuoto. I gruppi alchilici non ne cambiano l'ibridazione.\nC) Un gruppo elettron-attrattore sottrarrebbe altra densità elettronica a un carbonio già carente, destabilizzandolo. I gruppi −I, come gli alogeni, destabilizzano i carbocationi.\nD) Concentrare la carica destabilizza: la stabilità aumenta quando la carica viene dispersa, non accentuata.\nE) I gruppi alchilici sono saturi: non hanno legami π con cui delocalizzare la carica. La stabilizzazione per risonanza riguarda i carbocationi adiacenti a doppi legami o ad anelli aromatici."
+    },
+    {
+      "id": "u5-0024",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Nucleofili ed elettrofili",
+      "testo": "Quale fra le seguenti specie NON può comportarsi da nucleofilo?",
+      "opzioni": [
+        "OH⁻",
+        "H₂O",
+        "NH₃",
+        "Cl⁻",
+        "(CH₃)₃C⁺"
+      ],
+      "corretta": 4,
+      "spiegazione": "Un nucleofilo cede una coppia di elettroni a un centro povero di elettroni. Il carbocatione terz-butile ha un orbitale p vuoto e nessuna coppia da cedere: è un elettrofilo.\n\nA) Lo ione idrossido ha coppie solitarie e carica negativa: è un buon nucleofilo.\nB) Una specie neutra può essere nucleofila se ha coppie di elettroni non condivise: l'ossigeno dell'acqua ne ha due. È un nucleofilo debole, ma lo è.\nC) L'azoto dell'ammoniaca ha una coppia solitaria disponibile: è un nucleofilo neutro.\nD) Lo ione cloruro ha coppie solitarie e carica negativa: può agire da nucleofilo (e, nelle reazioni inverse, è un buon gruppo uscente)."
+    },
+    {
+      "id": "u5-0025",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Meccanismo SN2",
+      "testo": "Una reazione di sostituzione nucleofila con meccanismo SN2:",
+      "opzioni": [
+        "ha una velocità che dipende soltanto dalla concentrazione dell'alogenuro alchilico",
+        "porta a una miscela racemica quando il carbonio attaccato è un centro chirale",
+        "è la via preferita dagli alogenuri alchilici terziari rispetto a quelli primari",
+        "passa attraverso un carbocatione intermedio che viene poi attaccato dal nucleofilo",
+        "avviene in un unico stadio e ha velocità proporzionale sia al substrato sia al nucleofilo"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nella SN2 il nucleofilo attacca il carbonio dal lato opposto al gruppo uscente mentre il legame con quest'ultimo si rompe: un solo stadio, bimolecolare. La legge cinetica è v = k[substrato][nucleofilo]; se il carbonio è un centro chirale, la configurazione si inverte.\n\nA) È la legge cinetica della SN1, v = k[substrato], in cui lo stadio lento è la formazione del carbocatione. Nella SN2 il nucleofilo partecipa allo stadio unico e compare nella legge cinetica.\nB) La racemizzazione è tipica della SN1: il carbocatione planare può essere attaccato da entrambe le facce. Nella SN2 l'attacco avviene solo dal lato opposto al gruppo uscente e si ha inversione di configurazione.\nC) È l'ordine opposto. Nella SN2 il nucleofilo deve avvicinarsi al carbonio, e l'ingombro dei tre gruppi alchilici dei terziari lo impedisce. La reattività SN2 è metile > primario > secondario; i terziari in pratica non reagiscono per SN2.\nD) Descrive la SN1, che avviene in due stadi con formazione di un carbocatione. La SN2 non ha intermedi, solo uno stato di transizione."
+    },
+    {
+      "id": "u5-0026",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Meccanismo SN1",
+      "testo": "Quale fra i seguenti alogenuri alchilici reagisce più facilmente con meccanismo SN1?",
+      "opzioni": [
+        "1-bromobutano",
+        "2-bromobutano",
+        "1-bromo-2,2-dimetilpropano",
+        "2-bromo-2-metilpropano",
+        "bromometano"
+      ],
+      "corretta": 3,
+      "spiegazione": "È un alogenuro terziario, (CH₃)₃C–Br. Lo stadio che determina la velocità della SN1 è la formazione del carbocatione, e il carbocatione terziario è il più stabile: la SN1 è favorita negli alogenuri terziari.\n\nA) È primario: il carbocatione primario è troppo instabile e la sostituzione avviene per SN2.\nB) È secondario: il carbocatione secondario è meno stabile del terziario e i secondari possono reagire per entrambe le vie. Non è quello che reagisce più facilmente per SN1.\nC) La molecola è molto ramificata, ma il bromo è legato a un carbonio primario (–CH₂Br): conta la classe del carbonio che porta l'alogeno, non la ramificazione della molecola.\nE) Formerebbe il catione metile, il più instabile: il bromometano reagisce per SN2."
+    },
+    {
+      "id": "u5-0027",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Nucleofili ed elettrofili",
+      "testo": "Nelle reazioni di sostituzione degli alogenuri alchilici, la specie ricca di elettroni che attacca il carbonio legato all'alogeno e ne prende il posto si chiama ……",
+      "accettate": [
+        "nucleofilo",
+        "nucleofili",
+        "nucleofila",
+        "nucleofile",
+        "reagente nucleofilo",
+        "specie nucleofila"
+      ],
+      "spiegazione": "Nucleofilo: cede una coppia di elettroni a un centro povero di elettroni per formare un nuovo legame. L'elettrofilo è il suo opposto: accetta una coppia di elettroni. L'alogeno che si stacca è il gruppo uscente."
+    },
+    {
+      "id": "u5-0028",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Carbocationi",
+      "testo": "Una specie in cui un atomo di carbonio porta una carica positiva, ha solo sei elettroni di valenza e un orbitale p vuoto si chiama ……",
+      "accettate": [
+        "carbocatione",
+        "carbocationi",
+        "ione carbenio"
+      ],
+      "spiegazione": "Carbocatione: il carbonio è sp², planare, con l'orbitale p vuoto perpendicolare al piano. È un elettrofilo. Il carbanione, con carica negativa e una coppia solitaria, è l'opposto."
+    },
+    {
+      "id": "u5-0029",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Meccanismo SN2",
+      "testo": "Nel meccanismo SN2 il nucleofilo attacca dal lato opposto al gruppo uscente: se il carbonio attaccato è un centro chirale, la sua configurazione va incontro a ……",
+      "accettate": [
+        "inversione",
+        "inversione di configurazione",
+        "inversione di walden"
+      ],
+      "spiegazione": "Inversione (di Walden): i tre sostituenti che restano si «ribaltano» come un ombrello rovesciato dal vento. Nella SN1, che passa per un carbocatione planare, si tende invece alla racemizzazione."
+    },
+    {
+      "id": "u5-0030",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Gruppo uscente",
+      "testo": "Nella sostituzione nucleofila, l'atomo o gruppo che si stacca dal substrato portando con sé la coppia di elettroni di legame si chiama gruppo ……",
+      "accettate": [
+        "uscente",
+        "uscenti",
+        "gruppo uscente",
+        "leaving group"
+      ],
+      "spiegazione": "Gruppo uscente: negli alogenuri alchilici è lo ione alogenuro (Cl⁻, Br⁻, I⁻). Si stacca per rottura eterolitica del legame C–X, trattenendo entrambi gli elettroni."
+    },
+    {
+      "id": "u5-0031",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Proprietà fisiche degli alcani",
+      "testo": "Quale fra i seguenti idrocarburi ha il punto di ebollizione più alto?",
+      "opzioni": [
+        "2,2-dimetilbutano",
+        "pentano",
+        "esano",
+        "butano",
+        "2-metilpentano"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le molecole degli alcani, apolari, sono tenute insieme solo da forze di London, che crescono con la massa molecolare e con la superficie di contatto fra le molecole. Fra gli isomeri C₆H₁₄ proposti l'esano, lineare, ha la superficie di contatto maggiore: bolle a circa 69 °C, contro circa 60 °C del 2-metilpentano e circa 50 °C del 2,2-dimetilbutano.\n\nA) È il più ramificato e compatto degli isomeri C₆H₁₄ proposti: stessa massa dell'esano ma forze di London più deboli, ebollizione a circa 50 °C. L'errore è pensare che la ramificazione aumenti le interazioni fra le molecole.\nB) Ha un carbonio in meno dell'esano: forze di London più deboli, ebollizione a circa 36 °C.\nD) Con quattro carboni ha massa molare molto minore: bolle a circa −0,5 °C ed è un gas a temperatura ambiente.\nE) Ha la stessa formula dell'esano, ma la ramificazione riduce la superficie di contatto fra le molecole e abbassa il punto di ebollizione (circa 60 °C)."
+    },
+    {
+      "id": "u5-0032",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Proprietà fisiche degli alcani",
+      "testo": "Gli alcani sono praticamente insolubili in acqua perché:",
+      "opzioni": [
+        "sono più densi dell'acqua e quindi si separano sul fondo del recipiente",
+        "hanno una massa molare troppo elevata perché l'acqua possa solvatarli",
+        "sono apolari e non possono formare legami idrogeno con le molecole d'acqua",
+        "formano con l'acqua legami idrogeno più deboli di quelli fra le molecole d'acqua",
+        "hanno legami C–H fortemente polari che l'acqua non riesce a solvatare"
+      ],
+      "corretta": 2,
+      "spiegazione": "Carbonio e idrogeno hanno elettronegatività simile (2,55 e 2,20), quindi i legami C–H sono quasi apolari e la molecola è apolare. Sciogliersi in acqua richiederebbe di rompere legami idrogeno fra molecole d'acqua senza sostituirli con interazioni di forza paragonabile: il simile scioglie il simile.\n\nA) Gli alcani liquidi sono meno densi dell'acqua e galleggiano. In ogni caso la densità non determina la solubilità.\nB) Anche il metano, con massa molare di 16 g/mol, è pochissimo solubile in acqua. L'insolubilità dipende dalla polarità, non dalla massa.\nD) Gli alcani non formano affatto legami idrogeno: servono atomi di N, O o F, e il C–H non si comporta né da donatore né da accettore di legame idrogeno.\nE) I legami C–H sono quasi apolari (differenza di elettronegatività di circa 0,35). Se fossero fortemente polari, gli alcani sarebbero solubili in acqua."
+    },
+    {
+      "id": "u5-0033",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Tensione d'anello nei cicloalcani",
+      "testo": "Quale fra i seguenti cicloalcani presenta la maggiore tensione d'anello?",
+      "opzioni": [
+        "cicloeptano",
+        "ciclopropano",
+        "cicloesano",
+        "ciclopentano",
+        "ciclobutano"
+      ],
+      "corretta": 1,
+      "spiegazione": "I tre carboni sp³ del ciclopropano formano un triangolo con angoli C–C–C di 60°, lontanissimi dai 109,5° del tetraedro: la sovrapposizione degli orbitali è scarsa e i legami C–C sono deboli. Inoltre tutti gli idrogeni adiacenti sono eclissati. È il cicloalcano con la tensione d'anello più alta.\n\nA) Un anello più grande non è più teso: l'errore è associare la tensione alla dimensione dell'anello. Il cicloeptano ha una tensione modesta, molto inferiore a quella del ciclopropano.\nC) Nella conformazione a sedia gli angoli sono di circa 109,5° e tutti i legami sono sfalsati: è praticamente privo di tensione.\nD) Gli angoli di un pentagono regolare (108°) sono vicini a 109,5°: la tensione è modesta.\nE) Anche il ciclobutano è molto teso (angoli di circa 90°, attenuati dal ripiegamento dell'anello), ma meno del ciclopropano."
+    },
+    {
+      "id": "u5-0034",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Serie omologa degli alcani",
+      "testo": "Una serie di composti in cui ciascun termine differisce dal precedente per un gruppo –CH₂– costituisce una serie ……",
+      "accettate": [
+        "omologa",
+        "omologhe",
+        "omologo",
+        "omologhi"
+      ],
+      "spiegazione": "Omologa: metano, etano, propano, butano… formano la serie omologa degli alcani, CₙH₂ₙ₊₂. I termini di una serie omologa hanno proprietà chimiche simili e proprietà fisiche (per esempio il punto di ebollizione) che variano con regolarità al crescere della catena."
+    },
+    {
+      "id": "u5-0035",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Ossidazione degli alcani",
+      "testo": "La combustione completa di un alcano in eccesso di ossigeno produce anidride carbonica e ……",
+      "accettate": [
+        "acqua",
+        "h2o",
+        "vapore acqueo",
+        "vapore d acqua"
+      ],
+      "spiegazione": "Acqua. Per il metano: CH₄ + 2 O₂ → CO₂ + 2 H₂O, reazione fortemente esotermica. Con ossigeno insufficiente la combustione è incompleta e si forma anche monossido di carbonio (CO), tossico."
+    },
+    {
+      "id": "u5-0036",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Conformazioni del cicloesano",
+      "testo": "La conformazione del cicloesano con angoli di circa 109,5° e tutti i legami C–H sfalsati, praticamente priva di tensione, è detta a ……",
+      "accettate": [
+        "sedia"
+      ],
+      "spiegazione": "A sedia: è la conformazione più stabile del cicloesano. La conformazione a barca è meno stabile perché vi compaiono legami eclissati e un'interazione sfavorevole fra gli idrogeni dei due carboni alle estremità della «barca»."
+    },
+    {
+      "id": "u5-0037",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Addizione elettrofila: regola di Markovnikov",
+      "testo": "Il prodotto principale dell'addizione di HBr al propene, in assenza di perossidi, è:",
+      "opzioni": [
+        "2-bromopropene",
+        "1-bromopropano",
+        "propano",
+        "2-bromopropano",
+        "1,2-dibromopropano"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'H⁺ si lega al C1, il carbonio che porta più idrogeni, e si forma il carbocatione secondario sul C2, più stabile del primario. Il bromuro si lega quindi al C2: CH₃–CHBr–CH₃ (regola di Markovnikov).\n\nA) Conserva il doppio legame, come in una sostituzione. Nell'addizione il legame π si consuma e il prodotto è saturo.\nB) È il prodotto anti-Markovnikov: richiederebbe la formazione del carbocatione primario sul C1, meno stabile del secondario.\nC) È il prodotto dell'addizione di H₂, non di HBr.\nE) È il prodotto dell'addizione di Br₂, non di HBr: con HBr si addizionano un H e un Br."
+    },
+    {
+      "id": "u5-0038",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Struttura del doppio legame C=C",
+      "testo": "Il doppio legame C=C di un alchene è formato da:",
+      "opzioni": [
+        "due legami σ equivalenti",
+        "due legami π equivalenti",
+        "un legame σ e un legame π",
+        "un legame π formato da due orbitali ibridi sp²",
+        "un legame σ e due legami π"
+      ],
+      "corretta": 2,
+      "spiegazione": "Ciascun carbonio è sp². Due orbitali ibridi sp², uno per carbonio, si sovrappongono frontalmente e formano il legame σ; i due orbitali p non ibridati, perpendicolari al piano della molecola, si sovrappongono lateralmente e formano il legame π.\n\nA) Fra due atomi può esistere un solo legame σ, lungo l'asse internucleare: ogni legame in più è di tipo π.\nB) Un legame π non può esistere senza il σ che tiene uniti i due atomi lungo l'asse. I due legami non sono equivalenti: il π è più debole e più reattivo.\nD) Gli orbitali ibridi sp² formano legami σ; il legame π nasce dalla sovrapposizione laterale degli orbitali p non ibridati. Inoltre manca il legame σ.\nE) È la composizione del triplo legame degli alchini, i cui carboni sono sp."
+    },
+    {
+      "id": "u5-0039",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Addizione elettrofila: meccanismo",
+      "testo": "Nel primo stadio dell'addizione elettrofila di HCl a un alchene si forma:",
+      "opzioni": [
+        "direttamente il prodotto finale, in un solo stadio",
+        "un legame C–Cl, prima dell'addizione dell'idrogeno",
+        "un radicale",
+        "un carbocatione",
+        "un carbanione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Gli elettroni π del doppio legame attaccano l'H⁺ dell'acido, che è l'elettrofilo: si forma un legame C–H e l'altro carbonio resta con carica positiva. Nel secondo stadio lo ione Cl⁻ attacca il carbocatione.\n\nA) L'addizione elettrofila di HX avviene in due stadi. È proprio il carbocatione intermedio a spiegare la regola di Markovnikov.\nB) Cl⁻ è un nucleofilo e può attaccare solo un centro povero di elettroni. Il doppio legame è ricco di elettroni: il primo attacco lo subisce dall'elettrofilo H⁺.\nC) HCl si scinde in modo eterolitico (H⁺ e Cl⁻) e gli intermedi sono ionici. I radicali si formano per rottura omolitica.\nE) Il doppio legame cede i suoi elettroni all'H⁺: il carbonio che resta perde densità elettronica e diventa positivo, non negativo."
+    },
+    {
+      "id": "u5-0040",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Dieni coniugati",
+      "testo": "Quale fra i seguenti composti è un diene coniugato?",
+      "opzioni": [
+        "buta-1,3-diene",
+        "penta-1,4-diene",
+        "propa-1,2-diene",
+        "esa-1,5-diene",
+        "cicloesa-1,4-diene"
+      ],
+      "corretta": 0,
+      "spiegazione": "In CH₂=CH–CH=CH₂ i due doppi legami sono separati da un solo legame semplice: i quattro orbitali p sono adiacenti e paralleli e gli elettroni π si delocalizzano su tutti e quattro i carboni. È la definizione di sistema coniugato.\n\nB) I doppi legami C1=C2 e C4=C5 sono separati da un CH₂ sp³ che interrompe la continuità degli orbitali p: è un diene isolato.\nC) I due doppi legami condividono lo stesso carbonio (C=C=C): è un diene cumulato. Il carbonio centrale è sp e i due legami π sono perpendicolari fra loro, quindi non coniugati.\nD) I doppi legami sono separati da due carboni sp³: è un diene isolato.\nE) Nell'anello i doppi legami C1=C2 e C4=C5 sono separati dai carboni sp³ C3 e C6: diene isolato. Coniugato sarebbe il cicloesa-1,3-diene."
+    },
+    {
+      "id": "u5-0041",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Addizione elettrofila: regola di Markovnikov",
+      "testo": "Secondo la regola di ……, nell'addizione di HX a un alchene asimmetrico l'idrogeno si lega al carbonio del doppio legame che porta già più idrogeni.",
+      "accettate": [
+        "markovnikov",
+        "markovnikoff",
+        "markownikoff",
+        "markownikov"
+      ],
+      "spiegazione": "Markovnikov. La regola riflette la stabilità dei carbocationi: legando l'H⁺ al carbonio più idrogenato, la carica positiva resta sul carbonio più sostituito, che forma il carbocatione più stabile."
+    },
+    {
+      "id": "u5-0042",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Addizione elettrofila: idratazione",
+      "testo": "L'addizione di acqua a un alchene in ambiente acido, con formazione di un alcol, si chiama ……",
+      "accettate": [
+        "idratazione",
+        "idratazione acido-catalizzata",
+        "idratazione acido catalizzata"
+      ],
+      "spiegazione": "Idratazione: segue la regola di Markovnikov, per cui dal propene si ottiene 2-propanolo. Non è un'idrolisi, che è la scissione di un legame per azione dell'acqua, né un'idrogenazione, che è l'addizione di H₂."
+    },
+    {
+      "id": "u5-0043",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Struttura del doppio legame C=C",
+      "testo": "Il legame π impedisce la libera …… attorno all'asse del doppio legame C=C: per questo esiste l'isomeria cis-trans.",
+      "accettate": [
+        "rotazione"
+      ],
+      "spiegazione": "Rotazione: far ruotare un carbonio rispetto all'altro allontanerebbe gli orbitali p e romperebbe il legame π. Attorno ai legami semplici, invece, la rotazione è libera e dà solo conformazioni diverse dello stesso composto."
+    },
+    {
+      "id": "u5-0044",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Regola di Hückel",
+      "testo": "Secondo la regola di Hückel, un composto ciclico, planare e completamente coniugato è aromatico se il numero dei suoi elettroni π è:",
+      "opzioni": [
+        "4n + 2, con n intero ≥ 0",
+        "4n + 2, con n uguale al numero di atomi dell'anello",
+        "sempre uguale a 6",
+        "uguale al numero di atomi di carbonio dell'anello",
+        "4n, con n intero ≥ 1"
+      ],
+      "corretta": 0,
+      "spiegazione": "La regola di Hückel richiede 4n + 2 elettroni π (2, 6, 10, …) in un sistema ciclico, planare e completamente coniugato. Il benzene ne ha 6 (n = 1).\n\nB) n non è il numero di atomi ma un intero qualsiasi. Con n = 6 il benzene dovrebbe avere 26 elettroni π, mentre ne ha 6.\nC) 6 è il caso del benzene e degli eterocicli aromatici a sei termini, ma la regola ammette anche 2, 10, 14… elettroni π: il naftalene, per esempio, ne ha 10.\nD) Coincide nel benzene (6 carboni, 6 elettroni π) ma non in generale: il cicloottatetraene ha 8 carboni e 8 elettroni π e non è aromatico.\nE) Con 4n elettroni π (4, 8, …) il sistema non è aromatico ed è anzi particolarmente instabile, come il ciclobutadiene con 4 elettroni π."
+    },
+    {
+      "id": "u5-0045",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Composti aromatici eterociclici",
+      "testo": "Quale fra i seguenti composti è aromatico?",
+      "opzioni": [
+        "cicloottatetraene",
+        "pirimidina",
+        "ciclobutadiene",
+        "cicloesa-1,3-diene",
+        "cicloesene"
+      ],
+      "corretta": 1,
+      "spiegazione": "La pirimidina è un anello planare a sei termini con due atomi di azoto (posizioni 1 e 3). Tutti gli atomi dell'anello sono sp² e ciascuno contribuisce con un elettrone al sistema π: 6 elettroni π, regola di Hückel soddisfatta (n = 1). Le coppie solitarie degli azoti stanno in orbitali sp² nel piano dell'anello e non fanno parte del sistema π.\n\nA) Ha 8 elettroni π (4n, con n = 2) e non è planare: non soddisfa la regola di Hückel e si comporta come un polialchene.\nC) È ciclico e coniugato ma ha 4 elettroni π (4n): non è aromatico ed è molto instabile.\nD) I carboni C5 e C6 sono sp³ e interrompono la coniugazione: l'anello non è completamente coniugato.\nE) Ha un solo doppio legame e quattro carboni sp³: nell'anello non c'è un sistema π continuo."
+    },
+    {
+      "id": "u5-0046",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Sostituzione elettrofila aromatica",
+      "testo": "Con gli elettrofili il benzene, a differenza degli alcheni, dà prevalentemente:",
+      "opzioni": [
+        "nessun prodotto, perché l'anello aromatico non reagisce con gli elettrofili",
+        "prodotti di sostituzione, che mantengono intatto il sistema aromatico",
+        "prodotti di addizione, che saturano uno dei doppi legami dell'anello",
+        "prodotti di sostituzione nucleofila, in cui un anione prende il posto di un H",
+        "prodotti di sostituzione radicalica, come nella clorurazione del metano"
+      ],
+      "corretta": 1,
+      "spiegazione": "Un'addizione distruggerebbe il sistema di 6 elettroni π delocalizzati e la stabilità che ne deriva. Nella sostituzione elettrofila aromatica l'elettrofilo si lega all'anello e un H⁺ viene espulso: l'aromaticità si ripristina.\n\nA) La stabilità aromatica rende il benzene meno reattivo degli alcheni, non inerte: con elettrofili forti e catalizzatori dà nitrazione, alogenazione, solfonazione, alchilazione.\nC) È la reattività degli alcheni. Nel benzene gli elettroni π non sono localizzati in tre doppi legami ma delocalizzati, e l'addizione farebbe perdere la stabilità aromatica.\nD) L'anello aromatico è ricco di elettroni: reagisce con gli elettrofili, non con i nucleofili. L'idrogeno lascia l'anello come H⁺, non come ione idruro.\nE) La sostituzione sull'anello aromatico con gli elettrofili ha intermedi ionici. La sostituzione radicalica innescata dalla luce è la reazione tipica degli alcani."
+    },
+    {
+      "id": "u5-0047",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Struttura del benzene",
+      "testo": "Nel benzene i sei elettroni π non sono localizzati in tre doppi legami ma sono …… su tutto l'anello.",
+      "accettate": [
+        "delocalizzati",
+        "delocalizzato",
+        "delocalizzate"
+      ],
+      "spiegazione": "Delocalizzati: i sei orbitali p paralleli formano un'unica nube π sopra e sotto il piano dell'anello. Per questo tutti i legami C–C del benzene hanno la stessa lunghezza, intermedia fra quella di un legame semplice e quella di un doppio legame."
+    },
+    {
+      "id": "u5-0048",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Nomenclatura dei derivati del benzene",
+      "testo": "In un benzene disostituito, due sostituenti legati ad atomi di carbonio adiacenti (posizioni 1,2) si trovano in posizione ……",
+      "accettate": [
+        "orto"
+      ],
+      "spiegazione": "Orto (1,2). Le posizioni 1,3 sono dette meta, le posizioni 1,4 para."
+    },
+    {
+      "id": "u5-0049",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Nomenclatura dei derivati del benzene",
+      "testo": "Il metilbenzene, C₆H₅–CH₃, è noto con il nome comune di ……",
+      "accettate": [
+        "toluene",
+        "toluolo"
+      ],
+      "spiegazione": "Toluene. Da non confondere con il fenolo (C₆H₅–OH) né con lo xilene, che è un dimetilbenzene."
+    },
+    {
+      "id": "u5-0050",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sostituzione elettrofila aromatica",
+      "testo": "La sostituzione elettrofila aromatica che introduce nell'anello benzenico un gruppo –NO₂ si chiama ……",
+      "accettate": [
+        "nitrazione"
+      ],
+      "spiegazione": "Nitrazione: si usa una miscela di acido nitrico e acido solforico concentrati, che genera l'elettrofilo NO₂⁺ (ione nitronio). L'introduzione di un alogeno si chiama alogenazione, quella di –SO₃H solfonazione."
+    },
+    {
+      "id": "u5-0051",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sostituenti attivanti e disattivanti",
+      "testo": "Un sostituente che rende l'anello benzenico più reattivo del benzene verso gli elettrofili si dice ……",
+      "accettate": [
+        "attivante",
+        "attivanti",
+        "gruppo attivante",
+        "sostituente attivante"
+      ],
+      "spiegazione": "Attivante: cede densità elettronica all'anello (per esempio –OH, –NH₂, –CH₃) e lo rende più nucleofilo. I sostituenti che sottraggono densità elettronica, come –NO₂ o –COOH, sono disattivanti."
+    }
+  ]
+}

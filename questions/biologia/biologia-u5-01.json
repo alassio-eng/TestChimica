@@ -1,0 +1,726 @@
+{
+  "lotto": "biologia-u5-01",
+  "unita": "u5",
+  "generato": "2026-09-22",
+  "domande": [
+    {
+      "id": "u5-0001",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Il modello a mosaico fluido",
+      "testo": "Secondo il modello a mosaico fluido della membrana plasmatica:",
+      "opzioni": [
+        "le proteine formano due strati continui che rivestono entrambe le facce del doppio strato",
+        "i fosfolipidi passano spontaneamente e di frequente da un foglietto all'altro",
+        "le proteine sono immerse nel doppio strato lipidico e vi si spostano lateralmente",
+        "le proteine integrali ruotano continuamente da una faccia all'altra della membrana",
+        "il doppio strato lipidico è rigido e solo le proteine si muovono al suo interno"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel modello proposto da Singer e Nicolson nel 1972 la membrana è un doppio strato fosfolipidico fluido in cui le proteine sono inserite, a tutto spessore (integrali) o su una delle due facce (periferiche), come tessere di un mosaico. Lipidi e proteine diffondono lateralmente nel piano del proprio foglietto, se non sono ancorati al citoscheletro o ad altre strutture.\n\nA) È il vecchio modello «a sandwich» di Davson e Danielli, superato proprio dal mosaico fluido: le proteine non formano strati continui ma sono inserite nel doppio strato.\nB) Il passaggio trasversale spontaneo (flip-flop) è rarissimo, perché la testa polare dovrebbe attraversare il nucleo idrofobico; avviene in modo apprezzabile solo se catalizzato da flippasi, floppasi o scramblasi.\nD) Le proteine non si capovolgono attraverso la membrana: il loro orientamento, fissato al momento dell'inserzione nel reticolo, resta stabile ed è la base dell'asimmetria di membrana.\nE) È il contrario: il doppio strato è fluido, e sono anzi molte proteine ad avere mobilità limitata perché ancorate al citoscheletro o alla matrice."
+    },
+    {
+      "id": "u5-0002",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Il glicocalice",
+      "testo": "Lo strato di catene oligosaccaridiche legate a glicoproteine, glicolipidi e proteoglicani che riveste la faccia esterna della membrana plasmatica si chiama ……",
+      "accettate": [
+        "glicocalice",
+        "glicocalici",
+        "glicocalix",
+        "glycocalyx"
+      ],
+      "spiegazione": "Il glicocalice è rivolto sempre verso l'esterno, perché la glicosilazione di proteine e lipidi avviene nel lume del reticolo e del Golgi, che è topologicamente equivalente all'ambiente extracellulare. Protegge la superficie cellulare da danni meccanici e chimici e partecipa al riconoscimento fra cellule, come nel caso degli antigeni dei gruppi sanguigni AB0, che sono oligosaccaridi di superficie."
+    },
+    {
+      "id": "u5-0003",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Asimmetria della membrana plasmatica",
+      "testo": "Quale affermazione sull'asimmetria della membrana plasmatica è corretta?",
+      "opzioni": [
+        "I glicolipidi si trovano soltanto nel foglietto rivolto verso l'esterno della cellula",
+        "Nelle cellule sane la fosfatidilserina è concentrata nel foglietto esterno",
+        "La sfingomielina è concentrata nel foglietto rivolto verso il citosol",
+        "Riguarda i lipidi, mentre le proteine sono orientate a caso nel doppio strato",
+        "Si mantiene perché nessuna proteina può spostare lipidi da un foglietto all'altro"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le catene zuccherine dei glicolipidi vengono aggiunte nel lume del Golgi, e quel versante del doppio strato diventa, dopo la fusione della vescicola, il foglietto esterno della membrana plasmatica. Per questo i glicolipidi stanno solo nel foglietto non citosolico, dove contribuiscono al glicocalice.\n\nB) È invertito: nelle cellule sane la fosfatidilserina sta nel foglietto citosolico. La sua comparsa sul foglietto esterno è un segnale di apoptosi riconosciuto dai macrofagi.\nC) Sfingomielina e fosfatidilcolina, i fosfolipidi con colina, sono arricchiti nel foglietto esterno; nel citosolico prevalgono fosfatidilserina e fosfatidiletanolammina.\nD) Anche le proteine sono asimmetriche: ogni copia di una data proteina ha lo stesso orientamento, deciso al momento dell'inserzione nella membrana del reticolo.\nE) Esistono proteine dedicate proprio a questo, le flippasi e le floppasi che consumano ATP e le scramblasi che non lo consumano: l'asimmetria è mantenuta attivamente, non solo perché il flip-flop spontaneo è lento."
+    },
+    {
+      "id": "u5-0004",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Enzimi del trasferimento trasversale dei fosfolipidi",
+      "testo": "Gli enzimi che, consumando ATP, trasferiscono fosfatidilserina e fosfatidiletanolammina dal foglietto esterno a quello citosolico della membrana plasmatica si chiamano ……",
+      "accettate": [
+        "flippasi",
+        "flippase",
+        "flippasi atp-dipendenti"
+      ],
+      "spiegazione": "Le flippasi spostano specifici fosfolipidi verso il foglietto citosolico, le floppasi nel verso opposto; entrambe consumano ATP e generano asimmetria. Le scramblasi, invece, spostano i fosfolipidi in entrambi i versi senza consumare energia e tendono ad annullarla: la loro attivazione nell'apoptosi porta la fosfatidilserina all'esterno."
+    },
+    {
+      "id": "u5-0005",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "La pompa sodio-potassio",
+      "testo": "Per ogni molecola di ATP idrolizzata, la Na⁺/K⁺-ATPasi della membrana plasmatica:",
+      "opzioni": [
+        "porta fuori dalla cellula 2 Na⁺ e dentro 3 K⁺",
+        "porta dentro la cellula 3 Na⁺ e fuori 2 K⁺",
+        "porta dentro la cellula 2 Na⁺ e fuori 3 K⁺",
+        "porta fuori dalla cellula 3 Na⁺ e dentro 2 K⁺",
+        "porta fuori 3 Na⁺ e dentro 3 K⁺, senza spostare carica netta"
+      ],
+      "corretta": 3,
+      "spiegazione": "La pompa lavora contro i gradienti di entrambi gli ioni: espelle tre ioni sodio e ne importa due di potassio a ogni ciclo. Poiché esce una carica positiva netta per ciclo, la pompa è elettrogenica e contribuisce direttamente, anche se in piccola parte, al potenziale di membrana negativo all'interno. È una ATPasi di tipo P, che si fosforila su un residuo di aspartato durante il ciclo.\n\nA) Il verso è giusto ma la stechiometria è invertita: gli ioni sodio espulsi sono tre, quelli di potassio importati due.\nB) È il verso opposto: il sodio è più concentrato all'esterno e la pompa lo espelle, mantenendo basso il Na⁺ citosolico.\nC) Sono invertiti sia il verso sia la stechiometria.\nE) Lo scambio non è uno a uno: tre cariche escono e due entrano, e proprio questo sbilancio rende la pompa elettrogenica."
+    },
+    {
+      "id": "u5-0006",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Canali e trasportatori",
+      "testo": "Che cosa distingue una proteina trasportatrice (carrier) da una proteina canale?",
+      "opzioni": [
+        "Il canale idrolizza sempre ATP, mentre il trasportatore non lo fa mai",
+        "Il trasportatore lega il soluto e cambia conformazione per trasferirlo",
+        "Il trasportatore ha una velocità di trasporto molto maggiore del canale",
+        "Solo il canale si satura quando il soluto è molto concentrato",
+        "Il canale lascia passare soltanto acqua, il trasportatore soltanto ioni"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il trasportatore ha un sito di legame specifico, accessibile alternativamente da un lato e dall'altro della membrana: lega il soluto, cambia conformazione e lo rilascia sul versante opposto. Per questo è più lento di un canale e si satura, come un enzima, quando il soluto è molto concentrato. Il canale forma invece un poro idrofilo attraverso cui gli ioni passano per diffusione, selezionati per dimensione e carica.\n\nA) I canali mediano solo trasporto passivo, secondo gradiente. Fra i trasportatori, invece, ce ne sono di passivi e di attivi, come le pompe che idrolizzano ATP.\nC) È il contrario: un canale aperto lascia passare ioni a velocità di ordini di grandezza superiori a quelle di un trasportatore, che deve cambiare conformazione a ogni ciclo.\nD) La saturazione è la proprietà tipica del trasportatore, che ha un numero finito di siti di legame; il flusso attraverso un canale aperto cresce con il gradiente senza saturarsi allo stesso modo.\nE) Esistono canali per l'acqua (acquaporine) ma la grande maggioranza dei canali è per ioni; i trasportatori spostano anche zuccheri, amminoacidi, nucleotidi e molte altre molecole."
+    },
+    {
+      "id": "u5-0007",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "I trasportatori ABC",
+      "testo": "Quale affermazione sui trasportatori ABC è corretta?",
+      "opzioni": [
+        "Sfruttano il gradiente del sodio invece dell'idrolisi di ATP",
+        "Si fosforilano su un aspartato durante il ciclo, come la pompa Na⁺/K⁺",
+        "Sono canali passivi che non legano né idrolizzano nucleotidi",
+        "Trasportano esclusivamente ioni inorganici",
+        "Vi appartiene la glicoproteina P, che espelle farmaci antitumorali dalla cellula"
+      ],
+      "corretta": 4,
+      "spiegazione": "I trasportatori ABC (ATP-Binding Cassette) hanno due domini che legano e idrolizzano ATP e usano questa energia per spostare piccole molecole attraverso la membrana. La glicoproteina P, codificata dal gene MDR1, pompa all'esterno molti farmaci idrofobici: la sua sovraespressione nelle cellule tumorali è una causa di resistenza multipla alla chemioterapia.\n\nA) Chi sfrutta il gradiente del sodio sono i trasportatori attivi secondari, come i simporti Na⁺/glucosio; gli ABC sono attivi primari e idrolizzano direttamente ATP.\nB) La fosforilazione di un aspartato è la caratteristica delle pompe di tipo P, come la Na⁺/K⁺-ATPasi e la Ca²⁺-ATPasi; gli ABC idrolizzano ATP senza formare questo intermedio fosforilato.\nC) Il nome stesso indica le cassette che legano ATP. CFTR, la proteina della fibrosi cistica, è un ABC che funziona da canale per il cloruro, ma la sua apertura dipende comunque dal legame e dall'idrolisi di ATP.\nD) I loro substrati sono molto vari: farmaci, lipidi, peptidi, zuccheri; l'esempio della glicoproteina P riguarda proprio molecole organiche."
+    },
+    {
+      "id": "u5-0008",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Tonicità delle soluzioni",
+      "testo": "Una soluzione nella quale una cellula animale perde acqua per osmosi e si raggrinzisce si dice ……",
+      "accettate": [
+        "ipertonica",
+        "ipertonico"
+      ],
+      "spiegazione": "In una soluzione ipertonica la concentrazione di soluti che non attraversano la membrana è maggiore all'esterno che nel citosol: l'acqua esce seguendo il proprio gradiente e la cellula si raggrinzisce (nei globuli rossi si parla di crenazione). In una soluzione ipotonica accade il contrario, la cellula si rigonfia e può andare incontro a lisi; in una isotonica il volume resta stabile."
+    },
+    {
+      "id": "u5-0009",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Canali per l'acqua",
+      "testo": "Le proteine canale che aumentano in modo selettivo la permeabilità della membrana all'acqua si chiamano ……",
+      "accettate": [
+        "acquaporine",
+        "acquaporina",
+        "aquaporine",
+        "aquaporina",
+        "aqp"
+      ],
+      "spiegazione": "L'acqua attraversa lentamente anche il doppio strato lipidico, ma nelle cellule che la devono spostare rapidamente, come quelle del tubulo renale, il flusso passa soprattutto per le acquaporine. Il canale lascia passare le molecole d'acqua in fila ma esclude gli ioni, compreso H⁺. Sono canali passivi: il verso del flusso è deciso dal gradiente osmotico."
+    },
+    {
+      "id": "u5-0010",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Vie di smistamento e topologia dei compartimenti",
+      "testo": "Quale delle seguenti proteine, codificate nel nucleo, raggiunge la propria destinazione passando per il lume del reticolo endoplasmatico?",
+      "opzioni": [
+        "Una proteina della matrice mitocondriale",
+        "Un'idrolasi acida dei lisosomi",
+        "La catalasi dei perossisomi",
+        "Un fattore di trascrizione",
+        "Un enzima della glicolisi"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le proteine lisosomiali seguono la via secretoria: entrano nel reticolo durante la traduzione, passano per il Golgi, dove ricevono il marcatore mannosio-6-fosfato, e raggiungono i lisosomi con vescicole. Il lume di reticolo, Golgi, endosomi e lisosomi è topologicamente equivalente all'esterno della cellula, e le proteine vi passano per via vescicolare senza mai tornare nel citosol.\n\nA) Viene tradotta su ribosomi liberi del citosol e importata dopo la sintesi attraverso TOM e TIM, senza passare per il reticolo.\nC) Le proteine della matrice perossisomiale sono sintetizzate nel citosol e importate dopo la traduzione, grazie a un segnale riconosciuto da recettori citosolici.\nD) Viene sintetizzato nel citosol ed entra nel nucleo attraverso i pori, riconosciuto dalle importine per il suo segnale di localizzazione nucleare.\nE) Privo di segnali di indirizzamento, resta nel citosol dove è stato tradotto: è la destinazione predefinita."
+    },
+    {
+      "id": "u5-0011",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Traslocazione nel reticolo durante la sintesi",
+      "testo": "L'ingresso nel reticolo endoplasmatico di una catena polipeptidica mentre è ancora in corso la sua sintesi sul ribosoma si definisce traslocazione ……",
+      "accettate": [
+        "cotraduzionale",
+        "co-traduzionale"
+      ],
+      "spiegazione": "Nella traslocazione cotraduzionale la SRP riconosce la sequenza segnale appena emerge dal ribosoma e porta l'intero complesso sulla membrana del reticolo, dove la catena entra nel traslocone man mano che viene sintetizzata. L'import in mitocondri, perossisomi e nucleo è invece post-traduzionale: avviene su proteine già completate nel citosol."
+    },
+    {
+      "id": "u5-0012",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Il gradiente di Ran",
+      "testo": "Nel trasporto nucleare, Ran-GTP è concentrata nel nucleo e scarsa nel citosol perché:",
+      "opzioni": [
+        "RanGAP si trova nel nucleo, mentre RanGEF è citosolica",
+        "il GTP non riesce a uscire dal nucleo attraverso i pori",
+        "le importine idrolizzano nel nucleo il GTP legato a Ran",
+        "le ripetizioni FG delle nucleoporine trattengono Ran-GTP nel nucleo",
+        "RanGEF è legata alla cromatina, mentre RanGAP si trova nel citosol"
+      ],
+      "corretta": 4,
+      "spiegazione": "RanGEF (nell'uomo RCC1), legata alla cromatina, sostituisce nel nucleo il GDP di Ran con GTP; RanGAP, citosolica, stimola l'idrolisi del GTP legato a Ran. La separazione dei due regolatori mantiene Ran-GTP alta nel nucleo e Ran-GDP prevalente nel citosol, ed è questo gradiente a stabilire la direzione del trasporto di importine ed esportine.\n\nA) La localizzazione è invertita: con RanGAP nel nucleo, Ran vi sarebbe mantenuta nella forma legata a GDP e il gradiente si capovolgerebbe.\nB) I nucleotidi liberi attraversano i pori senza difficoltà; il gradiente non riguarda il GTP libero ma la forma, legata a GTP o a GDP, della proteina Ran.\nC) Le importine non idrolizzano GTP: l'idrolisi è stimolata da RanGAP nel citosol.\nD) Le ripetizioni FG formano la barriera selettiva del poro e interagiscono con i recettori di trasporto, ma non stabiliscono la direzione del trasporto, che dipende dal sistema Ran."
+    },
+    {
+      "id": "u5-0013",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Segnali di importazione nucleare",
+      "testo": "Le brevi sequenze ricche di lisina e arginina che indirizzano una proteina al nucleo si chiamano segnali di ……",
+      "accettate": [
+        "localizzazione nucleare",
+        "nls",
+        "importazione nucleare"
+      ],
+      "spiegazione": "I segnali di localizzazione nucleare (NLS) sono riconosciuti dalle importine nel citosol. Possono trovarsi in qualsiasi punto della catena, purché esposti, e a differenza della sequenza segnale per il reticolo non vengono rimossi dopo il trasporto: una proteina che torna nel citosol a ogni divisione, quando l'involucro si disgrega, deve poter essere reimportata."
+    },
+    {
+      "id": "u5-0014",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Il ciclo delle importine",
+      "testo": "Nel nucleo, il legame di Ran-GTP a un'importina che trasporta un carico:",
+      "opzioni": [
+        "provoca il rilascio del carico nel nucleoplasma",
+        "rafforza il legame fra l'importina e il carico",
+        "idrolizza il GTP e fornisce l'energia per il passaggio nel poro",
+        "trattiene definitivamente l'importina nel nucleo",
+        "taglia via dal carico il segnale di localizzazione nucleare"
+      ],
+      "corretta": 0,
+      "spiegazione": "Ran-GTP e il carico competono per l'importina: il legame di Ran-GTP ne cambia la conformazione e le fa rilasciare il carico. Il complesso importina–Ran-GTP torna nel citosol, dove RanGAP stimola l'idrolisi del GTP e Ran-GDP si stacca, rendendo l'importina di nuovo disponibile.\n\nB) È il comportamento delle esportine, che legano il carico solo insieme a Ran-GTP e lo rilasciano nel citosol quando il GTP viene idrolizzato. Per le importine l'effetto è opposto.\nC) L'idrolisi del GTP avviene nel citosol, stimolata da RanGAP. Il passaggio nel poro non dipende da un'idrolisi diretta: l'energia che rende il trasporto direzionale viene dal mantenimento del gradiente di Ran.\nD) L'importina viene riciclata: torna nel citosol legata a Ran-GTP.\nE) I segnali di localizzazione nucleare non vengono rimossi, e né Ran né le importine hanno attività proteasica."
+    },
+    {
+      "id": "u5-0015",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Le proteine del poro nucleare",
+      "testo": "Le proteine che costituiscono il complesso del poro nucleare si chiamano ……",
+      "accettate": [
+        "nucleoporine",
+        "nucleoporina",
+        "nup"
+      ],
+      "spiegazione": "Il complesso del poro è formato da circa trenta nucleoporine diverse, ciascuna presente in più copie. Alcune formano l'impalcatura che ancora il poro all'involucro; altre portano lunghi tratti non strutturati ricchi di ripetizioni fenilalanina-glicina (FG), che riempiono il canale e costituiscono una barriera attraversabile solo dalle molecole piccole o dai recettori di trasporto che interagiscono con esse."
+    },
+    {
+      "id": "u5-0016",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Regolazione dell'importazione nucleare",
+      "testo": "In una cellula non stimolata il fattore di trascrizione NF-κB resta nel citosol perché:",
+      "opzioni": [
+        "è privo di un segnale di localizzazione nucleare",
+        "è ancorato alla membrana del reticolo endoplasmatico, come SREBP",
+        "è legato a IκB, che ne maschera il segnale di localizzazione nucleare",
+        "è legato alle chaperon Hsp90, come il recettore dei glucocorticoidi",
+        "è troppo grande per attraversare il poro nucleare"
+      ],
+      "corretta": 2,
+      "spiegazione": "Legato a IκB, NF-κB non viene riconosciuto dalle importine. Uno stimolo appropriato attiva la chinasi IKK, che fosforila IκB; IκB fosforilata viene poliubiquitinata e degradata dal proteasoma, il segnale di localizzazione nucleare si scopre e NF-κB entra nel nucleo. La regolazione agisce quindi sull'accessibilità del segnale, non sulla sua presenza.\n\nA) Il segnale c'è, altrimenti NF-κB non potrebbe entrare nel nucleo dopo lo stimolo; è semplicemente nascosto finché IκB resta legata.\nB) Il meccanismo dell'ancoraggio alla membrana e del taglio proteolitico nel Golgi appartiene a SREBP; NF-κB è una proteina solubile citosolica.\nD) Il legame con Hsp90 e il distacco al legame dell'ormone descrivono il recettore dei glucocorticoidi; per NF-κB l'inibitore è IκB.\nE) Le dimensioni limitano solo la diffusione libera: complessi molto più grandi di NF-κB, come le subunità ribosomiali, attraversano il poro con l'aiuto dei recettori di trasporto."
+    },
+    {
+      "id": "u5-0017",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Il nucleolo",
+      "testo": "Il nucleolo si organizza attorno ai tratti cromosomici che contengono i geni ripetuti degli rRNA, detti regioni …… del nucleolo.",
+      "accettate": [
+        "organizzatrici",
+        "organizzatrice",
+        "nor"
+      ],
+      "spiegazione": "Nell'uomo le regioni organizzatrici del nucleolo (NOR) si trovano sui bracci corti dei cinque cromosomi acrocentrici: 13, 14, 15, 21 e 22. Nel nucleolo l'RNA polimerasi I trascrive il precursore degli rRNA 28S, 18S e 5,8S, che viene maturato e assemblato con le proteine ribosomiali; l'rRNA 5S è trascritto dalla polimerasi III fuori dal nucleolo. Il nucleolo non ha membrana: è un condensato."
+    },
+    {
+      "id": "u5-0018",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Importazione nella matrice mitocondriale",
+      "testo": "Una proteina codificata nel nucleo e destinata alla matrice mitocondriale attraversa, nell'ordine:",
+      "opzioni": [
+        "il complesso TIM23 della membrana esterna e poi TOM della membrana interna",
+        "il complesso SAM della membrana esterna e poi OXA della membrana interna",
+        "il traslocone Sec61 e poi il complesso TIM22",
+        "il complesso TOM della membrana esterna e poi TIM23 della membrana interna",
+        "il complesso TOM della membrana esterna e poi TIM22 della membrana interna"
+      ],
+      "corretta": 3,
+      "spiegazione": "La presequenza N-terminale, anfipatica e con cariche positive, è riconosciuta dai recettori di TOM, che la fa passare attraverso la membrana esterna; nei punti di contatto fra le due membrane la catena entra in TIM23, spinta dal potenziale di membrana interno, e raggiunge la matrice, dove la peptidasi della matrice rimuove la presequenza.\n\nA) La localizzazione è invertita: TOM (Translocase of the Outer Membrane) sta nella membrana esterna, TIM (Translocase of the Inner Membrane) nell'interna.\nB) SAM inserisce nella membrana esterna le proteine a barile β, dopo il loro passaggio in TOM; OXA inserisce nella membrana interna proteine provenienti dalla matrice, comprese quelle codificate dal DNA mitocondriale.\nC) Sec61 è il traslocone del reticolo endoplasmatico e non ha ruolo nell'import mitocondriale.\nE) TIM22 inserisce nella membrana interna proteine con più segmenti transmembrana, come il trasportatore ADP/ATP, e non le trasferisce nella matrice."
+    },
+    {
+      "id": "u5-0019",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Il bilancio della glicolisi",
+      "testo": "Il bilancio netto della glicolisi, per ogni molecola di glucosio, è:",
+      "opzioni": [
+        "2 piruvato, 4 ATP e 2 NADH",
+        "2 acetil-CoA, 2 ATP e 2 NADH",
+        "2 piruvato, 2 ATP e 2 FADH₂",
+        "2 piruvato, 2 ATP e 2 NADH",
+        "1 piruvato, 2 ATP e 1 NADH"
+      ],
+      "corretta": 3,
+      "spiegazione": "La glicolisi, che avviene nel citosol, spende 2 ATP nella fase di investimento e ne produce 4 in quella di resa, con un guadagno netto di 2; le due ossidazioni della gliceraldeide-3-fosfato riducono 2 NAD⁺ a NADH. Il glucosio, a 6 atomi di carbonio, viene scisso in due molecole di piruvato a 3 atomi.\n\nA) Quattro è la produzione lorda di ATP: sottraendo i 2 consumati nella fase iniziale il netto è 2.\nB) L'acetil-CoA si forma dopo, nella matrice mitocondriale, per decarbossilazione ossidativa del piruvato; non è un prodotto della glicolisi.\nC) La glicolisi riduce NAD⁺, non FAD. FADH₂ si forma nel ciclo di Krebs, dalla succinato deidrogenasi.\nE) Il glucosio ha sei atomi di carbonio e ne vengono prodotte due molecole di piruvato, ciascuna a tre atomi."
+    },
+    {
+      "id": "u5-0020",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Localizzazione del ciclo di Krebs",
+      "testo": "Nelle cellule eucariotiche gli enzimi del ciclo di Krebs si trovano:",
+      "opzioni": [
+        "nel citosol, insieme agli enzimi della glicolisi",
+        "nella matrice, salvo uno inserito nella membrana interna",
+        "nello spazio intermembrana, dove si accumulano i protoni",
+        "nella membrana esterna, accanto al complesso TOM",
+        "tutti inseriti nella membrana interna, come la catena respiratoria"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il ciclo degli acidi tricarbossilici avviene nella matrice mitocondriale. L'unico enzima che fa eccezione è la succinato deidrogenasi, integrata nella membrana interna, dove costituisce il complesso II della catena respiratoria: il FADH₂ che produce cede gli elettroni direttamente al trasporto elettronico.\n\nA) Nel citosol si svolge la glicolisi; il ciclo di Krebs è mitocondriale nelle cellule eucariotiche.\nC) Nello spazio intermembrana si accumulano i protoni pompati dalla catena respiratoria, ma non vi si svolge il ciclo di Krebs.\nD) La membrana esterna, permeabile alle piccole molecole grazie alle porine, non ospita gli enzimi del ciclo.\nE) Solo la succinato deidrogenasi è di membrana; gli altri enzimi del ciclo sono solubili nella matrice."
+    },
+    {
+      "id": "u5-0021",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "La sintesi di ATP",
+      "testo": "L'ATP sintasi mitocondriale produce ATP sfruttando:",
+      "opzioni": [
+        "il flusso di protoni dalla matrice allo spazio intermembrana",
+        "il passaggio diretto di elettroni dal NADH all'ADP",
+        "l'idrolisi del GTP prodotto nel ciclo di Krebs",
+        "il gradiente di sodio generato dalla pompa Na⁺/K⁺",
+        "il flusso di protoni dallo spazio intermembrana alla matrice"
+      ],
+      "corretta": 4,
+      "spiegazione": "La catena di trasporto degli elettroni pompa protoni dalla matrice allo spazio intermembrana, generando un gradiente elettrochimico, la forza protonmotrice. I protoni rientrano nella matrice attraverso il settore di membrana dell'ATP sintasi e il loro flusso ne fa ruotare una parte; la rotazione induce nella testa catalitica, rivolta verso la matrice, i cambi di conformazione che legano ADP e fosfato inorganico in ATP.\n\nA) È il verso in cui i protoni vengono pompati dalla catena respiratoria, contro gradiente; l'ATP sintasi usa il flusso di ritorno, secondo gradiente.\nB) Gli elettroni del NADH percorrono la catena fino all'ossigeno; l'energia viene conservata nel gradiente protonico, non trasferita direttamente all'ADP.\nC) Il GTP (o ATP) del ciclo di Krebs nasce da una fosforilazione a livello del substrato, indipendente dall'ATP sintasi.\nD) Il gradiente di sodio della membrana plasmatica alimenta i trasportatori attivi secondari; l'ATP sintasi mitocondriale è accoppiata ai protoni."
+    },
+    {
+      "id": "u5-0022",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Morfologia della membrana mitocondriale interna",
+      "testo": "Le invaginazioni della membrana mitocondriale interna, che ne aumentano la superficie, si chiamano ……",
+      "accettate": [
+        "creste",
+        "cresta",
+        "creste mitocondriali",
+        "cristae"
+      ],
+      "spiegazione": "Nelle creste sono concentrati i complessi della catena respiratoria e l'ATP sintasi: per questo la membrana interna, molto ripiegata, ha una superficie molto maggiore della membrana esterna, e le creste sono particolarmente numerose nelle cellule con alta richiesta energetica, come quelle muscolari cardiache."
+    },
+    {
+      "id": "u5-0023",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "L'accettore finale della catena respiratoria",
+      "testo": "Nella catena di trasporto degli elettroni mitocondriale, l'accettore finale degli elettroni è l'……",
+      "accettate": [
+        "ossigeno",
+        "o2",
+        "ossigeno molecolare"
+      ],
+      "spiegazione": "Il complesso IV (citocromo c ossidasi) trasferisce gli elettroni all'ossigeno molecolare, che si riduce ad acqua. Senza ossigeno la catena si ferma, il gradiente protonico non viene più mantenuto e la produzione mitocondriale di ATP cessa: è la ragione per cui la respirazione cellulare è detta aerobica."
+    },
+    {
+      "id": "u5-0024",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Dinamiche della rete mitocondriale",
+      "testo": "Il processo con cui la rete mitocondriale si divide in organelli più piccoli, eseguito dalla GTPasi Drp1 che si avvolge ad anello attorno al mitocondrio, si chiama ……",
+      "accettate": [
+        "fissione",
+        "fissione mitocondriale"
+      ],
+      "spiegazione": "Fissione e fusione sono continue e in equilibrio. La fissione, mediata da Drp1, separa porzioni del reticolo mitocondriale, per esempio per distribuirle alle cellule figlie o per isolare un tratto danneggiato da avviare alla mitofagia. La fusione è mediata dalle mitofusine sulla membrana esterna e da OPA1 sulla membrana interna."
+    },
+    {
+      "id": "u5-0025",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Importazione nei perossisomi",
+      "testo": "Le proteine della matrice dei perossisomi vengono importate:",
+      "opzioni": [
+        "dopo la traduzione, anche già ripiegate, grazie a recettori citosolici",
+        "durante la traduzione, attraverso il traslocone del reticolo",
+        "dopo la traduzione, ma solo se mantenute completamente srotolate",
+        "in vescicole provenienti dal trans-Golgi",
+        "grazie al mannosio-6-fosfato aggiunto nel Golgi"
+      ],
+      "corretta": 0,
+      "spiegazione": "La più comune sequenza di indirizzamento, PTS1, è un breve tripeptide all'estremità C-terminale, riconosciuto nel citosol dal recettore Pex5, una perossina; il recettore accompagna la proteina alla membrana del perossisoma e viene poi riciclato. Una peculiarità di questo trasporto è che possono entrare proteine completamente ripiegate e persino complessi oligomerici.\n\nB) È il meccanismo delle proteine della via secretoria. Alcune proteine della membrana perossisomiale passano per il reticolo, ma quelle della matrice sono importate dal citosol dopo la traduzione.\nC) Lo srotolamento è necessario per l'import nei mitocondri, non per quello nei perossisomi, che accetta proteine ripiegate.\nD) Il trans-Golgi smista verso membrana plasmatica, lisosomi e granuli di secrezione; le proteine della matrice perossisomiale non transitano dal Golgi.\nE) Il mannosio-6-fosfato è il segnale delle idrolasi lisosomiali."
+    },
+    {
+      "id": "u5-0026",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Funzione detossificante dei perossisomi",
+      "testo": "L'enzima perossisomiale che decompone il perossido di idrogeno in acqua e ossigeno è la ……",
+      "accettate": [
+        "catalasi"
+      ],
+      "spiegazione": "Le ossidasi perossisomiali ossidano i loro substrati usando ossigeno e producono perossido di idrogeno. La catalasi lo decompone oppure lo usa per ossidare altre molecole, fra cui sostanze tossiche come l'etanolo nel fegato. Il perossisoma contiene così l'agente ossidante che esso stesso genera."
+    },
+    {
+      "id": "u5-0027",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Patologie perossisomiali",
+      "testo": "La malattia ereditaria in cui mutazioni dei geni delle perossine impediscono l'importazione delle proteine nei perossisomi, che risultano vuoti o assenti, è la sindrome di ……",
+      "accettate": [
+        "zellweger",
+        "zelweger"
+      ],
+      "spiegazione": "Nella sindrome di Zellweger gli enzimi perossisomiali vengono sintetizzati normalmente ma restano nel citosol, dove vengono degradati. Si accumulano gli acidi grassi a catena molto lunga, che normalmente vanno incontro a β-ossidazione nei perossisomi, e manca la sintesi dei plasmalogeni, lipidi abbondanti nella mielina. Ne derivano gravi anomalie del cervello, del fegato e dei reni, con morte di norma entro il primo anno di vita."
+    },
+    {
+      "id": "u5-0028",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Indirizzamento al reticolo endoplasmatico",
+      "testo": "Nell'indirizzamento cotraduzionale al reticolo endoplasmatico, la SRP (particella di riconoscimento del segnale):",
+      "opzioni": [
+        "rimuove la sequenza segnale dopo l'ingresso nel lume",
+        "forma il canale attraverso cui la catena attraversa la membrana",
+        "lega la sequenza segnale e rallenta la traduzione",
+        "aggiunge l'oligosaccaride preformato alla catena nascente",
+        "assiste il ripiegamento della proteina nel lume del reticolo"
+      ],
+      "corretta": 2,
+      "spiegazione": "La SRP riconosce la sequenza segnale idrofobica appena questa emerge dal ribosoma e rallenta l'allungamento della catena. Il complesso viene portato al recettore della SRP sulla membrana del reticolo; il ribosoma passa al traslocone, la SRP si stacca e la traduzione riprende con la catena che entra nel lume.\n\nA) Il taglio è compiuto dalla peptidasi del segnale, un enzima della membrana del reticolo con il sito attivo rivolto verso il lume.\nB) Il canale è il traslocone (complesso Sec61); la SRP è una ribonucleoproteina citosolica che si stacca quando il ribosoma aggancia il traslocone.\nD) L'N-glicosilazione cotraduzionale è catalizzata dall'oligosaccariltransferasi, sul versante del lume.\nE) Il ripiegamento nel lume è assistito da chaperon come BiP, calnexina e calreticulina; la SRP resta sul versante citosolico."
+    },
+    {
+      "id": "u5-0029",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Il controllo di qualità del reticolo",
+      "testo": "Nel controllo di qualità del reticolo endoplasmatico, la calnexina lega le glicoproteine che:",
+      "opzioni": [
+        "hanno un unico glucosio sul loro oligosaccaride N-legato",
+        "portano mannosio-6-fosfato sull'oligosaccaride",
+        "hanno perso tutti i residui di glucosio dell'oligosaccaride",
+        "sono state poliubiquitinate nel lume del reticolo",
+        "espongono la sequenza KDEL all'estremità C-terminale"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'oligosaccaride trasferito alle proteine porta tre glucosi terminali; due vengono rimossi rapidamente, e la proteina con un solo glucosio è trattenuta da calnexina o calreticulina, che le danno tempo di ripiegarsi. Quando anche l'ultimo glucosio è tolto la proteina si stacca; se è ancora mal ripiegata, un enzima la riglucosila e il ciclo riprende. Le proteine che non si ripiegano vengono infine avviate all'ERAD.\n\nB) Il mannosio-6-fosfato è aggiunto nel cis-Golgi alle sole idrolasi lisosomiali ed è riconosciuto dai recettori del trans-Golgi, non dalla calnexina.\nC) Senza glucosio la proteina non viene più legata: è proprio la rimozione dell'ultimo glucosio a staccarla dalla calnexina.\nD) L'ubiquitinazione delle proteine destinate all'ERAD avviene sul versante citosolico, dopo la retrotraslocazione, e non è il segnale riconosciuto dalla calnexina.\nE) KDEL è il segnale di recupero delle proteine residenti solubili del reticolo, riconosciuto dal recettore KDEL nel cis-Golgi."
+    },
+    {
+      "id": "u5-0030",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Fibrosi cistica e ERAD",
+      "testo": "Nella fibrosi cistica, la proteina CFTR con la mutazione più frequente (ΔF508):",
+      "opzioni": [
+        "non viene trascritta perché la mutazione colpisce il promotore",
+        "raggiunge la membrana plasmatica, dove è priva di qualunque attività",
+        "si ripiega male ed è degradata tramite ERAD",
+        "è una pompa per il sodio che rimane bloccata nel Golgi",
+        "viene secreta all'esterno invece di inserirsi nella membrana"
+      ],
+      "corretta": 2,
+      "spiegazione": "La delezione di un singolo amminoacido, la fenilalanina 508, compromette il ripiegamento di CFTR. Il controllo di qualità del reticolo la riconosce come difettosa e la avvia all'ERAD: viene retrotraslocata nel citosol, ubiquitinata e degradata dal proteasoma. Il difetto principale è quindi di traffico: poca proteina raggiunge la membrana plasmatica, dove dovrebbe funzionare da canale per il cloruro.\n\nA) ΔF508 è una delezione nella sequenza codificante, che elimina un amminoacido; il gene viene trascritto e la proteina tradotta.\nB) La maggior parte della proteina mutata non arriva alla membrana perché viene fermata e degradata prima; il problema non è una proteina inattiva in sede.\nD) CFTR non è una pompa per il sodio ma un canale per il cloruro, e la proteina mutata è trattenuta nel reticolo, a monte del Golgi.\nE) Le proteine mal ripiegate non superano il controllo di qualità del reticolo e non vengono secrete."
+    },
+    {
+      "id": "u5-0031",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Rimozione della sequenza segnale",
+      "testo": "L'enzima che, nel lume del reticolo endoplasmatico, taglia via la sequenza segnale N-terminale dalla catena nascente è la ……",
+      "accettate": [
+        "peptidasi del segnale",
+        "peptidasi segnale",
+        "signal peptidasi",
+        "signal peptidase"
+      ],
+      "spiegazione": "La peptidasi del segnale è associata al traslocone con il sito attivo rivolto verso il lume. Il taglio distingue la sequenza segnale del reticolo da altri segnali di indirizzamento, come quelli nucleari o il PTS1 perossisomiale, che restano parte della proteina matura."
+    },
+    {
+      "id": "u5-0032",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Il canale del reticolo endoplasmatico",
+      "testo": "Il complesso proteico della membrana del reticolo endoplasmatico che forma il canale attraverso cui la catena nascente entra nel lume si chiama ……",
+      "accettate": [
+        "traslocone",
+        "translocone",
+        "sec61",
+        "complesso sec61"
+      ],
+      "spiegazione": "Il traslocone ha un poro acquoso che si apre verso il lume quando vi si inserisce la sequenza segnale, e che può aprirsi anche lateralmente verso il doppio strato: così i segmenti idrofobici delle proteine transmembrana escono dal canale e vengono inseriti nella membrana."
+    },
+    {
+      "id": "u5-0033",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Secrezione costitutiva e regolata",
+      "testo": "La secrezione in cui il prodotto si accumula in vescicole che si fondono con la membrana plasmatica solo in risposta a un segnale extracellulare si chiama secrezione ……",
+      "accettate": [
+        "regolata",
+        "regolato"
+      ],
+      "spiegazione": "Nella secrezione regolata le proteine vengono concentrate nel trans-Golgi in granuli di secrezione che restano nel citoplasma finché un segnale, spesso un aumento del Ca²⁺ citosolico, ne innesca l'esocitosi: è il caso di ormoni, enzimi digestivi e neurotrasmettitori. La secrezione costitutiva è invece continua, presente in tutte le cellule, e rinnova anche lipidi e proteine della membrana plasmatica."
+    },
+    {
+      "id": "u5-0034",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Proteine di rivestimento",
+      "testo": "Le vescicole che trasportano proteine dal reticolo endoplasmatico all'apparato di Golgi sono rivestite da:",
+      "opzioni": [
+        "COPI",
+        "COPII",
+        "clatrina",
+        "caveolina",
+        "dinamina"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il rivestimento COPII si assembla sulle regioni di uscita del reticolo, reclutato dalla GTPasi Sar1, e seleziona il carico da trasportare in avanti verso il Golgi.\n\nA) COPI riveste le vescicole del trasporto retrogrado, dal Golgi al reticolo, e fra le cisterne del Golgi: è il rivestimento con cui il recettore KDEL riporta indietro le proteine residenti.\nC) La clatrina riveste le vescicole che si formano dalla membrana plasmatica nell'endocitosi e dal trans-Golgi verso gli endosomi.\nD) La caveolina struttura le caveole, invaginazioni della membrana plasmatica, e non partecipa al trasporto fra reticolo e Golgi.\nE) La dinamina è una GTPasi che strozza il collo delle vescicole rivestite di clatrina per staccarle; non è una proteina di rivestimento."
+    },
+    {
+      "id": "u5-0035",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Ruolo di NSF e SNAP",
+      "testo": "Dopo la fusione di una vescicola con la membrana bersaglio, NSF con le SNAP:",
+      "opzioni": [
+        "attracca la vescicola alla membrana riconoscendo le proteine Rab",
+        "forma il poro di fusione fra i due doppi strati",
+        "seleziona il carico da includere nella vescicola in formazione",
+        "separa i complessi SNARE usando l'energia dell'idrolisi di ATP",
+        "stacca la vescicola dalla membrana di partenza"
+      ],
+      "corretta": 3,
+      "spiegazione": "Dopo la fusione, v-SNARE e t-SNARE restano avvolte in un complesso molto stabile sulla stessa membrana. Le SNAP legano il complesso e reclutano NSF, un'ATPasi che lo smonta; le SNARE tornano così libere e riutilizzabili per altri eventi di fusione.\n\nA) L'attracco a distanza è mediato da Rab e dai loro effettori, le proteine di aggancio; NSF interviene dopo la fusione.\nB) La forza che avvicina le membrane e porta alla fusione viene dall'avvolgimento delle SNARE stesse, non da NSF.\nC) La selezione del carico è compiuta dalle proteine adattatrici del rivestimento, durante la gemmazione.\nE) Il distacco delle vescicole rivestite di clatrina è compiuto dalla dinamina, che idrolizza GTP."
+    },
+    {
+      "id": "u5-0036",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Le proteine della fusione",
+      "testo": "Le proteine della membrana della vescicola e della membrana bersaglio che, avvolgendosi in un fascio di α-eliche, portano alla fusione dei due doppi strati si chiamano ……",
+      "accettate": [
+        "snare",
+        "snares",
+        "proteine snare"
+      ],
+      "spiegazione": "Le v-SNARE della vescicola si appaiano con le t-SNARE della membrana bersaglio: l'avvolgimento delle loro eliche, come una cerniera che si chiude, avvicina le due membrane fino a espellerne l'acqua e fonderle. La combinazione di SNARE e Rab presenti su un compartimento contribuisce alla specificità del riconoscimento fra vescicola e bersaglio."
+    },
+    {
+      "id": "u5-0037",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Endocitosi delle LDL",
+      "testo": "Dopo l'endocitosi mediata da recettore delle lipoproteine LDL:",
+      "opzioni": [
+        "recettore e LDL vengono entrambi degradati nei lisosomi",
+        "recettore e ligando tornano insieme alla membrana plasmatica",
+        "le LDL vengono trasferite per transcitosi sul lato opposto della cellula",
+        "il colesterolo viene liberato già nelle vescicole rivestite di clatrina",
+        "il recettore torna alla membrana, mentre le LDL proseguono verso i lisosomi"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nell'endosoma precoce il pH acido fa staccare le LDL dal loro recettore. Il recettore viene riciclato verso la membrana plasmatica; le LDL proseguono verso endosomi tardivi e lisosomi, dove gli esteri del colesterolo vengono idrolizzati e il colesterolo libero passa nel citosol.\n\nA) È il destino del recettore dell'EGF con il suo ligando: la degradazione riduce il numero di recettori in superficie e attenua il segnale. Il recettore delle LDL, invece, viene riusato molte volte.\nB) È il caso della transferrina: dopo il rilascio del ferro nell'endosoma, l'apotransferrina resta legata al recettore e torna con esso in superficie. Le LDL si staccano e non vengono riciclate.\nC) La transcitosi è propria delle cellule polarizzate e di ligandi come le immunoglobuline; le LDL vengono degradate per liberarne il colesterolo.\nD) Le vescicole rivestite non contengono gli enzimi idrolitici: il colesterolo viene liberato nei lisosomi."
+    },
+    {
+      "id": "u5-0038",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Malattie da accumulo lisosomiale",
+      "testo": "Nella malattia delle cellule I (mucolipidosi II), le idrolasi acide dei lisosomi:",
+      "opzioni": [
+        "si accumulano nel reticolo endoplasmatico perché ripiegate male",
+        "raggiungono i lisosomi, ma sono prive di attività catalitica",
+        "vengono degradate dal proteasoma nel citosol",
+        "si accumulano nel nucleo per un difetto di esportazione",
+        "vengono secrete all'esterno perché prive del mannosio-6-fosfato"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il difetto riguarda la fosfotransferasi del cis-Golgi che avvia la formazione del mannosio-6-fosfato. Senza il segnale le idrolasi non vengono riconosciute dai recettori del trans-Golgi, entrano nella via di secrezione costitutiva e finiscono fuori dalla cellula, dove se ne misurano livelli elevati; i lisosomi, privi degli enzimi, si riempiono di materiale non degradato, le inclusioni che danno il nome alla malattia.\n\nA) Le idrolasi si ripiegano normalmente e superano il controllo di qualità del reticolo; il problema è la marcatura successiva, nel Golgi.\nB) Descrive le malattie da accumulo in cui è difettoso un singolo enzima; nelle cellule I gli enzimi sono attivi ma indirizzati nel posto sbagliato, e il difetto li riguarda quasi tutti.\nC) Le idrolasi sono nel lume della via secretoria e non vengono retrotraslocate: in assenza del segnale proseguono verso l'esterno.\nD) Le idrolasi lisosomiali non entrano mai nel nucleo: seguono la via reticolo–Golgi."
+    },
+    {
+      "id": "u5-0039",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Endocitosi in fase fluida",
+      "testo": "L'endocitosi in fase fluida, con cui la cellula internalizza in modo non selettivo piccoli volumi di liquido extracellulare con i soluti disciolti, è detta anche ……",
+      "accettate": [
+        "pinocitosi",
+        "pinocitosi non selettiva"
+      ],
+      "spiegazione": "Nella pinocitosi il materiale entra in proporzione alla sua concentrazione nel liquido extracellulare, senza recettori specifici. L'endocitosi mediata da recettori concentra invece il ligando nelle fossette rivestite di clatrina e lo internalizza con efficienza molto maggiore anche se è poco concentrato; la fagocitosi, infine, internalizza particelle di grandi dimensioni."
+    },
+    {
+      "id": "u5-0040",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Endosomi tardivi",
+      "testo": "Gli endosomi tardivi che contengono al loro interno numerose vescicole intraluminali, nelle quali vengono segregate proteine di membrana destinate alla degradazione, si chiamano corpi ……",
+      "accettate": [
+        "multivescicolari",
+        "multivescicolare",
+        "multivesicolari",
+        "multivesicolare"
+      ],
+      "spiegazione": "Le proteine di membrana marcate con ubiquitina, come il recettore dell'EGF dopo il legame del ligando, vengono sequestrate in vescicole che gemmano verso l'interno dell'endosoma. Quando il corpo multivescicolare si fonde con un lisosoma, queste vescicole e le proteine che contengono vengono digerite per intero: è così che anche la porzione citosolica di un recettore raggiunge le idrolasi."
+    },
+    {
+      "id": "u5-0041",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Transcitosi",
+      "testo": "Il trasporto di una macromolecola da un versante all'altro di una cellula epiteliale polarizzata, mediante endocitosi su un lato ed esocitosi sul lato opposto, si chiama ……",
+      "accettate": [
+        "transcitosi",
+        "trancitosi"
+      ],
+      "spiegazione": "L'esempio classico è quello delle immunoglobuline: le IgA dimeriche vengono internalizzate sul versante basolaterale dell'epitelio, legate al recettore per le immunoglobuline polimeriche, e rilasciate su quello apicale nelle secrezioni. Il passaggio avviene attraverso gli endosomi, senza che il carico raggiunga i lisosomi."
+    },
+    {
+      "id": "u5-0042",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Tipi di autofagia",
+      "testo": "Nella macroautofagia il materiale citoplasmatico da degradare viene:",
+      "opzioni": [
+        "introdotto direttamente nel lisosoma per invaginazione della sua membrana",
+        "legato a Hsc70 e traslocato singolarmente attraverso LAMP-2A",
+        "poliubiquitinato e degradato dal proteasoma senza passaggi di membrana",
+        "racchiuso in un autofagosoma a doppia membrana, che poi si fonde con un lisosoma",
+        "espulso dalla cellula per esocitosi"
+      ],
+      "corretta": 3,
+      "spiegazione": "Nella macroautofagia una membrana a forma di coppa, il fagoforo, si estende attorno a una porzione di citoplasma o a un organello e si chiude formando l'autofagosoma, delimitato da due membrane. La fusione con un lisosoma genera l'autolisosoma, dove il contenuto viene degradato e i suoi componenti riciclati.\n\nA) Descrive la microautofagia, in cui è la membrana lisosomiale stessa a inglobare piccole porzioni di citoplasma.\nB) Descrive l'autofagia mediata da chaperon, che riguarda singole proteine solubili portatrici di un motivo riconosciuto dalla chaperon Hsc70.\nC) Descrive la via ubiquitina-proteasoma, che degrada singole proteine nel citosol e non è una forma di autofagia.\nE) L'autofagia è una via di degradazione intracellulare attraverso i lisosomi, non di eliminazione verso l'esterno."
+    },
+    {
+      "id": "u5-0043",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Autofagia selettiva dei mitocondri",
+      "testo": "L'eliminazione selettiva per via autofagica dei mitocondri danneggiati o in eccesso si chiama ……",
+      "accettate": [
+        "mitofagia"
+      ],
+      "spiegazione": "Nei mitocondri danneggiati, che perdono il potenziale di membrana, la chinasi PINK1 si accumula sulla membrana esterna e recluta l'ubiquitina ligasi parkina: le proteine ubiquitinate della membrana esterna segnalano l'organello al macchinario autofagico. Mutazioni di PINK1 e parkina causano forme ereditarie di malattia di Parkinson."
+    },
+    {
+      "id": "u5-0044",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Instabilità dinamica dei microtubuli",
+      "testo": "Un microtubulo va incontro a rapida depolimerizzazione (catastrofe) quando:",
+      "opzioni": [
+        "la β-tubulina all'estremità più è ancora legata a GTP",
+        "l'α-tubulina idrolizza il GTP a cui è legata",
+        "perde il cappuccio di tubuline-GTP all'estremità più",
+        "l'estremità meno è ancorata al complesso γ-TuRC",
+        "la concentrazione di tubulina libera nel citosol è molto alta"
+      ],
+      "corretta": 2,
+      "spiegazione": "I dimeri di tubulina si aggiungono con GTP legato alla β-tubulina, che viene idrolizzato poco dopo l'incorporazione. Finché la polimerizzazione è più veloce dell'idrolisi, l'estremità più conserva un cappuccio di subunità legate a GTP che la stabilizza. Se il cappuccio si perde, le subunità con GDP, di conformazione meno adatta al polimero, si staccano rapidamente e il microtubulo si accorcia.\n\nA) È la condizione opposta: il GTP all'estremità mantiene il microtubulo stabile e in crescita.\nB) Il GTP legato all'α-tubulina è intrappolato fra le due subunità e non viene idrolizzato; quello che conta per la stabilità è il nucleotide della β-tubulina.\nD) L'ancoraggio al γ-TuRC stabilizza l'estremità meno, che nella cellula è di norma quella nel centrosoma: protegge il microtubulo, non ne causa la catastrofe.\nE) Un'alta concentrazione di tubulina libera accelera l'aggiunta di subunità con GTP e favorisce la crescita, rendendo meno probabile la catastrofe."
+    },
+    {
+      "id": "u5-0045",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Chinesine e dineine",
+      "testo": "Chinesine convenzionali e dineine citoplasmatiche differiscono perché:",
+      "opzioni": [
+        "le prime si muovono verso l'estremità più, le seconde verso l'estremità meno",
+        "le prime si muovono verso l'estremità meno, le seconde verso l'estremità più",
+        "le prime si muovono sui filamenti di actina, le seconde sui microtubuli",
+        "solo le dineine ricavano energia dall'idrolisi di ATP",
+        "solo le chinesine appartengono alle proteine MAP motrici"
+      ],
+      "corretta": 0,
+      "spiegazione": "Entrambe sono proteine motrici associate ai microtubuli, che idrolizzano ATP. La chinesina convenzionale si sposta verso l'estremità più, di norma verso la periferia della cellula; la dineina citoplasmatica verso l'estremità meno, cioè verso il centrosoma. Il riferimento alla chinesina «convenzionale» serve perché alcune chinesine si muovono verso l'estremità meno.\n\nB) I versi sono invertiti: il trasporto delle vescicole verso il centro della cellula è compito della dineina.\nC) Sull'actina si muovono le miosine; chinesine e dineine sono entrambe motori dei microtubuli.\nD) Anche le chinesine sono ATPasi: tutti i motori del citoscheletro trasformano in movimento l'energia dell'idrolisi di ATP.\nE) Le MAP motrici sono proprio chinesine e dineine; fra le MAP non motrici ci sono proteine stabilizzanti come tau e MAP2."
+    },
+    {
+      "id": "u5-0046",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Nucleazione dell'actina",
+      "testo": "Il complesso Arp2/3:",
+      "opzioni": [
+        "nuclea filamenti di actina lineari e privi di ramificazioni",
+        "forma ramificazioni su filamenti di actina già esistenti",
+        "nuclea i microtubuli a partire dal centrosoma",
+        "idrolizza l'ATP legato ai monomeri di actina nel filamento",
+        "sequestra i monomeri di actina e impedisce che polimerizzino"
+      ],
+      "corretta": 1,
+      "spiegazione": "Arp2/3, attivato da proteine che rispondono a segnali della famiglia Rho, si lega al fianco di un filamento preesistente e da lì fa partire un nuovo filamento con un angolo di circa 70°. Si genera così la rete ramificata che spinge in avanti la membrana nel lamellipodio delle cellule in migrazione.\n\nA) I filamenti lineari e lunghi, come quelli delle fibre da stress e dei filopodi, sono nucleati dalle formine.\nC) La nucleazione dei microtubuli nel centrosoma è compito del complesso ad anello della γ-tubulina, il γ-TuRC.\nD) L'ATP legato è idrolizzato dall'actina stessa dopo l'incorporazione nel filamento; il processo è analogo a quello del GTP nella tubulina.\nE) Il sequestro dei monomeri è la funzione della timosina; Arp2/3 promuove la polimerizzazione."
+    },
+    {
+      "id": "u5-0047",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Centro di organizzazione dei microtubuli",
+      "testo": "Il principale centro di organizzazione dei microtubuli delle cellule animali, formato da una coppia di centrioli circondata da materiale pericentriolare, si chiama ……",
+      "accettate": [
+        "centrosoma",
+        "centrosomi"
+      ],
+      "spiegazione": "Nel materiale pericentriolare si trovano numerosi complessi γ-TuRC, da cui i microtubuli vengono nucleati con l'estremità meno ancorata al centrosoma e l'estremità più rivolta verso la periferia. I centrioli, formati da nove triplette di microtubuli, non sono essi stessi il sito di nucleazione, ma organizzano il materiale che li circonda."
+    },
+    {
+      "id": "u5-0048",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Proteine di collegamento del citoscheletro muscolare",
+      "testo": "La proteina che collega i filamenti di actina della fibra muscolare al complesso di glicoproteine della membrana plasmatica, e la cui assenza causa la distrofia muscolare di Duchenne, si chiama ……",
+      "accettate": [
+        "distrofina"
+      ],
+      "spiegazione": "La distrofina lega l'actina sotto la membrana e il complesso del distroglicano, che a sua volta si lega alla laminina della lamina basale: il collegamento trasmette le forze della contrazione all'esterno della fibra. Senza distrofina la membrana si danneggia a ogni contrazione e le fibre degenerano. Il gene è sul cromosoma X: per questo la malattia colpisce quasi solo i maschi."
+    },
+    {
+      "id": "u5-0049",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "La lamina nucleare",
+      "testo": "I filamenti intermedi che formano la lamina nucleare, sul versante interno dell'involucro nucleare, sono costituiti da proteine chiamate ……",
+      "accettate": [
+        "lamine",
+        "lamina",
+        "lamin"
+      ],
+      "spiegazione": "Le lamine (A, B e C nei mammiferi) formano una rete che sostiene meccanicamente l'involucro nucleare e ancora la cromatina alla periferia del nucleo. Sono i soli filamenti intermedi nucleari; tutti gli altri tipi sono citoplasmatici. Mutazioni del gene della lamina A causano malattie chiamate laminopatie, fra cui la progeria di Hutchinson-Gilford."
+    },
+    {
+      "id": "u5-0050",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "I filamenti intermedi degli epiteli",
+      "testo": "I filamenti intermedi delle cellule epiteliali sono costituiti da proteine chiamate ……",
+      "accettate": [
+        "cheratine",
+        "cheratina",
+        "citocheratine",
+        "citocheratina"
+      ],
+      "spiegazione": "Le cheratine formano la famiglia più numerosa di filamenti intermedi. I filamenti di cheratina attraversano la cellula e sono ancorati a desmosomi ed emidesmosomi, così da distribuire le sollecitazioni meccaniche su tutto il tessuto: mutazioni delle cheratine dell'epidermide rendono la pelle fragile e soggetta a vesciche per traumi minimi."
+    }
+  ]
+}

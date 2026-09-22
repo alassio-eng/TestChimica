@@ -7,22 +7,22 @@ nell'interfaccia web di GitHub.
 
 ## Nuovi
 
-- `questions/biologia/biologia-u4-01.json`
-- `questions/fisica/fisica-u4-02.json`
+- `questions/biologia/biologia-u5-01.json`
+- `questions/chimica/chimica-u5-02.json`
+- `questions/fisica/fisica-u5-01.json`
 
 ## Modificati
 
 - `APERTURA-CHAT.md`
 - `COPERTURA.md`
 - `questions/biologia/index.json`
+- `questions/chimica/index.json`
 - `questions/fisica/index.json`
 - `questions/index.json`
-- `tools/prossimo.py`
 
 Nessun file è stato rimosso.
 
 Dopo il caricamento, in «Dati e backup → Cerca nuove domande» devi vedere:
-chimica **346**, fisica **290**, biologia **240** domande.
+chimica **396**, fisica **340**, biologia **290** domande.
 
-Questo file è solo una nota per te: **non serve caricarlo**. Se l'hai già
-caricato la volta scorsa puoi cancellarlo dal repository, l'app lo ignora.
+Questo file è solo una nota per te: **non serve caricarlo**.

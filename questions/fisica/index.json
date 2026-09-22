@@ -2,7 +2,7 @@
   "schema": 2,
   "materia": "fisica",
   "nome": "Fisica",
-  "aggiornato": "2026-09-21",
+  "aggiornato": "2026-09-22",
   "fonteQuote": "quote per unità ricavate da un appello ufficiale, non stimate",
   "formato": {
     "unita": {
@@ -69,6 +69,7 @@
     "fisica-u2-03.json",
     "fisica-u3-02.json",
     "fisica-u3-03.json",
-    "fisica-u4-02.json"
+    "fisica-u4-02.json",
+    "fisica-u5-01.json"
   ]
 }

@@ -2,12 +2,12 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**876 domande su 2200** a regime.
+**1026 domande su 2200** a regime.
 
 
 ---
 
-## Chimica e propedeutica biochimica — 346/700
+## Chimica e propedeutica biochimica — 396/700
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -15,7 +15,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U2 | Miscele, soluzioni, proprietà colligative | 70/70 | 35M + 35C | 68 | 2 |
 | U3 | Cinetica ed equilibrio chimico | 70/70 | 34M + 36C | 10 | 2 |
 | U4 | Acidi, basi, tamponi, redox ed elettrochimica | 52/100 | 26M + 26C | 52 | 5 |
-| U5 | Carbonio, idrocarburi, aromatici | 1/90 | 1M + 0C | 1 | 4 |
+| U5 | Carbonio, idrocarburi, aromatici | 51/90 | 26M + 25C | 41 | 4 |
 | U6 | Gruppi funzionali e isomerie | 1/70 | 0M + 1C | 1 | 1 |
 | U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 2/150 | 1M + 1C | 2 | 9 |
 
@@ -311,9 +311,49 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U5 — Carbonio, idrocarburi, aromatici
 
-1 domande su 90 · 1 a risposta multipla e 0 a completamento · 1 argomenti distinti · file: chimica-u5-01.json
+51 domande su 90 · 26 a risposta multipla e 25 a completamento · 41 argomenti distinti · file: chimica-u5-01.json, chimica-u5-02.json
 
+- Ibridazione del carbonio (3 domande)
+- Addizione elettrofila: regola di Markovnikov (2 domande)
+- Meccanismo SN2 (2 domande)
+- Miscela racemica (2 domande)
+- Nomenclatura dei derivati del benzene (2 domande)
+- Nucleofili ed elettrofili (2 domande)
+- Proprietà fisiche degli alcani (2 domande)
+- Sostituzione elettrofila aromatica (2 domande)
+- Struttura del doppio legame C=C (2 domande)
+- Addizione elettrofila: idratazione
+- Addizione elettrofila: meccanismo
+- Alogenazione radicalica degli alcani
+- Carbocationi
+- Carbonio chirale
+- Centro chirale
+- Classificazione degli idrocarburi
+- Classificazione degli stereoisomeri
+- Composti aromatici eterociclici
+- Conformazioni del cicloesano
+- Diastereoisomeri
+- Dieni coniugati
+- Effetto induttivo
+- Enantiomeri
+- Formula molecolare da nome IUPAC
+- Geometria del carbonio sp³
+- Gruppo uscente
 - Idrocarburi aromatici: struttura e reattività del benzene
+- Idrocarburi ciclici ed eterociclici
+- Isomeria cis-trans
+- Meccanismo SN1
+- Nomenclatura IUPAC: scelta della catena principale
+- Ossidazione degli alcani
+- Proprietà degli enantiomeri
+- Radicali
+- Regola di Hückel
+- Rottura omolitica
+- Serie omologa degli alcani
+- Sostituenti attivanti e disattivanti
+- Stabilità dei carbocationi
+- Struttura del benzene
+- Tensione d'anello nei cicloalcani
 
 ### U6 — Gruppi funzionali e isomerie
 
@@ -330,7 +370,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Fisica — 290/680
+## Fisica — 340/680
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -338,7 +378,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U2 | Meccanica | 130/130 | 65M + 65C | 122 | 5 |
 | U3 | Meccanica dei fluidi | 60/110 | 30M + 30C | 59 | 5 |
 | U4 | Onde meccaniche | 20/70 | 10M + 10C | 20 | 4 |
-| U5 | Termodinamica | 0/100 | 0M + 0C | 0 | 5 |
+| U5 | Termodinamica | 50/100 | 25M + 25C | 49 | 5 |
 | U6 | Elettricità e magnetismo | 0/120 | 0M + 0C | 0 | 5 |
 | U7 | Fisica delle radiazioni | 0/80 | 0M + 0C | 0 | 3 |
 
@@ -639,14 +679,68 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Velocità di propagazione dall'equazione dell'onda
 - Velocità di un'onda su una corda tesa
 
+### U5 — Termodinamica
+
+50 domande su 100 · 25 a risposta multipla e 25 a completamento · 49 argomenti distinti · file: fisica-u5-01.json
+
+- Irraggiamento (2 domande)
+- Applicazione del primo principio
+- Calore
+- Calore latente
+- Calore latente di fusione: Q = m L
+- Calore sensibile: Q = m c ΔT
+- Calore specifico
+- Caloria e joule
+- Capacità termica
+- Capacità termica e calore specifico
+- Carnot come limite massimo
+- Ciclo di Carnot
+- Ciclo termodinamico
+- Conduzione termica
+- Conseguenze dell'enunciato di Kelvin-Planck
+- Conversione fra gradi Celsius e kelvin
+- Convezione
+- Energia interna
+- Enunciato di Clausius
+- Enunciato di Kelvin-Planck
+- Equazione di stato dei gas perfetti
+- Fattori che influenzano il rendimento di Carnot
+- Funzioni di stato e grandezze di processo
+- Gas perfetto
+- Lavoro in una trasformazione isobara
+- Lavoro nel piano pressione-volume
+- Legge dell'isocora (Gay-Lussac)
+- Legge della conduzione
+- Legge di Boyle
+- Macchina termica
+- Primo principio della termodinamica
+- Primo principio nella trasformazione isocora
+- Primo principio nella trasformazione isoterma
+- Rendimento
+- Rendimento della macchina di Carnot
+- Rendimento di una macchina termica
+- Sistema e ambiente
+- Sistema isolato
+- Sistemi aperti, chiusi e isolati
+- Sorgente termica
+- Temperatura di fusione
+- Temperatura durante un cambiamento di stato
+- Trasformazione isobara
+- Trasformazione isocora
+- Trasformazione isoterma
+- Variabili di stato
+- Variazione di energia interna del gas perfetto
+- Variazioni di temperatura in kelvin
+- Zero assoluto
+
 ### Ancora vuote
 
-U5, U6, U7.
+U6, U7.
 
 
 ---
 
-## Biologia — 240/820
+## Biologia — 290/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -654,7 +748,7 @@ U5, U6, U7.
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
 | U3 | Il flusso dell'informazione | 50/180 | 25M + 25C | 50 | 7 |
 | U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 50/110 | 25M + 25C | 50 | 4 |
-| U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 0/200 | 0M + 0C | 0 | 8 |
+| U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 50/200 | 25M + 25C | 50 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 0/100 | 0M + 0C | 0 | 4 |
 | U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 0/90 | 0M + 0C | 0 | 3 |
 
@@ -918,7 +1012,62 @@ U5, U6, U7.
 - Zigosi: emizigosi
 - Zigosi: eterozigosi composta
 
+### U5 — Le strutture cellulari: biogenesi, morfologia e funzioni
+
+50 domande su 200 · 25 a risposta multipla e 25 a completamento · 50 argomenti distinti · file: biologia-u5-01.json
+
+- Asimmetria della membrana plasmatica
+- Autofagia selettiva dei mitocondri
+- Canali e trasportatori
+- Canali per l'acqua
+- Centro di organizzazione dei microtubuli
+- Chinesine e dineine
+- Dinamiche della rete mitocondriale
+- Endocitosi delle LDL
+- Endocitosi in fase fluida
+- Endosomi tardivi
+- Enzimi del trasferimento trasversale dei fosfolipidi
+- Fibrosi cistica e ERAD
+- Funzione detossificante dei perossisomi
+- I filamenti intermedi degli epiteli
+- I trasportatori ABC
+- Il bilancio della glicolisi
+- Il canale del reticolo endoplasmatico
+- Il ciclo delle importine
+- Il controllo di qualità del reticolo
+- Il glicocalice
+- Il gradiente di Ran
+- Il modello a mosaico fluido
+- Il nucleolo
+- Importazione nei perossisomi
+- Importazione nella matrice mitocondriale
+- Indirizzamento al reticolo endoplasmatico
+- Instabilità dinamica dei microtubuli
+- L'accettore finale della catena respiratoria
+- La lamina nucleare
+- La pompa sodio-potassio
+- La sintesi di ATP
+- Le proteine del poro nucleare
+- Le proteine della fusione
+- Localizzazione del ciclo di Krebs
+- Malattie da accumulo lisosomiale
+- Morfologia della membrana mitocondriale interna
+- Nucleazione dell'actina
+- Patologie perossisomiali
+- Proteine di collegamento del citoscheletro muscolare
+- Proteine di rivestimento
+- Regolazione dell'importazione nucleare
+- Rimozione della sequenza segnale
+- Ruolo di NSF e SNAP
+- Secrezione costitutiva e regolata
+- Segnali di importazione nucleare
+- Tipi di autofagia
+- Tonicità delle soluzioni
+- Transcitosi
+- Traslocazione nel reticolo durante la sintesi
+- Vie di smistamento e topologia dei compartimenti
+
 ### Ancora vuote
 
-U5, U6, U7.
+U6, U7.
 
