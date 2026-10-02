@@ -2,12 +2,12 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**1026 domande su 2200** a regime.
+**1315 domande su 2200** a regime.
 
 
 ---
 
-## Chimica e propedeutica biochimica — 396/700
+## Chimica e propedeutica biochimica — 465/700
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -16,7 +16,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U3 | Cinetica ed equilibrio chimico | 70/70 | 34M + 36C | 10 | 2 |
 | U4 | Acidi, basi, tamponi, redox ed elettrochimica | 52/100 | 26M + 26C | 52 | 5 |
 | U5 | Carbonio, idrocarburi, aromatici | 51/90 | 26M + 25C | 41 | 4 |
-| U6 | Gruppi funzionali e isomerie | 1/70 | 0M + 1C | 1 | 1 |
+| U6 | Gruppi funzionali e isomerie | 70/70 | 34M + 36C | 52 | 1 |
 | U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 2/150 | 1M + 1C | 2 | 9 |
 
 ### U1 — Atomo, legami, stati della materia, termodinamica
@@ -357,9 +357,60 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U6 — Gruppi funzionali e isomerie
 
-1 domande su 70 · 0 a risposta multipla e 1 a completamento · 1 argomenti distinti · file: chimica-u6-01.json
+70 domande su 70 · 34 a risposta multipla e 36 a completamento · 52 argomenti distinti · file: chimica-u6-01.json, chimica-u6-02.json, chimica-u6-03.json
 
+- Isomeria di gruppo funzionale (3 domande)
+- Acidità degli acidi carbossilici (2 domande)
+- Acidità del fenolo (2 domande)
+- Addizione nucleofila al carbonile (2 domande)
+- Classificazione degli alcoli (2 domande)
+- Classificazione delle ammine (2 domande)
+- Condensazione aldolica (2 domande)
+- Condensazione di Claisen (2 domande)
+- Disidratazione degli alcoli (2 domande)
+- Emiacetali ed emichetali (2 domande)
+- Esterificazione di Fischer (2 domande)
+- Immine (basi di Schiff) (2 domande)
+- Nomenclatura di aldeidi e chetoni (2 domande)
+- Ossidazione degli alcoli (2 domande)
+- Riconoscimento dei gruppi funzionali (2 domande)
+- Sostituzione nucleofila acilica (2 domande)
+- Tautomeria cheto-enolica (2 domande)
+- Acetali e chetali
+- Acidità degli idrogeni in alfa
+- Alchilazione delle ammine
 - Alcoli: reazioni di ossidazione
+- Ammine di rilevanza biologica
+- Basicità delle ammine
+- Basicità di ammine e ammidi
+- Chinoni e idrochinoni
+- Chinoni e ubichinone
+- Decarbossilazione
+- Decarbossilazione dei chetoacidi
+- Derivati degli acidi carbossilici
+- Eteri e tioeteri
+- Eteri ed epossidi
+- Formazione di sali di ammonio
+- Idrolisi degli esteri
+- Idrolisi delle ammidi
+- Lattoni
+- Nitrosammine
+- Nomenclatura degli acidi carbossilici
+- Nomenclatura degli alcoli
+- Ossidazione dei tioli
+- Ossidazione di aldeidi e chetoni
+- Proprietà fisiche degli acidi carbossilici
+- Proprietà fisiche degli alcoli
+- Proprietà fisiche delle ammine
+- Proprietà fisiche di alcoli ed eteri
+- Proprietà fisiche di aldeidi e chetoni
+- Reattività dei derivati degli acidi carbossilici
+- Riduzione di aldeidi e chetoni
+- Salificazione
+- Sostituzione nucleofila degli alcoli
+- Tautomeria cheto-enolica nelle basi azotate
+- Tioesteri
+- Transesterificazione
 
 ### U7 — Amminoacidi, carboidrati, lipidi, acidi nucleici
 
@@ -370,7 +421,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Fisica — 340/680
+## Fisica — 460/680
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -379,7 +430,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U3 | Meccanica dei fluidi | 60/110 | 30M + 30C | 59 | 5 |
 | U4 | Onde meccaniche | 20/70 | 10M + 10C | 20 | 4 |
 | U5 | Termodinamica | 50/100 | 25M + 25C | 49 | 5 |
-| U6 | Elettricità e magnetismo | 0/120 | 0M + 0C | 0 | 5 |
+| U6 | Elettricità e magnetismo | 120/120 | 60M + 60C | 120 | 5 |
 | U7 | Fisica delle radiazioni | 0/80 | 0M + 0C | 0 | 3 |
 
 ### U1 — Introduzione ai metodi della fisica
@@ -733,14 +784,139 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Variazioni di temperatura in kelvin
 - Zero assoluto
 
+### U6 — Elettricità e magnetismo
+
+120 domande su 120 · 60 a risposta multipla e 60 a completamento · 120 argomenti distinti · file: fisica-u6-01.json, fisica-u6-02.json, fisica-u6-03.json
+
+- Armature del condensatore
+- Attrazione di un corpo neutro
+- Bussola
+- Calcolo dell'intensità di corrente
+- Campo di una carica puntiforme
+- Campo e potenziale di due cariche opposte
+- Campo elettrico
+- Campo elettrico uniforme
+- Campo magnetico di un filo: dipendenza da corrente e distanza
+- Campo radiale
+- Campo uniforme e differenza di potenziale
+- Capacità del condensatore piano
+- Capacità del condensatore piano con dielettrico
+- Capacità del condensatore piano: calcolo
+- Capacità elettrica
+- Caratteristica di un conduttore ohmico
+- Carica che entra perpendicolarmente in un campo uniforme
+- Carica di prova
+- Carica di un condensatore
+- Carica elementare
+- Carica per induzione con messa a terra
+- Chilowattora
+- Circuito aperto
+- Collegamento in parallelo
+- Collegamento in serie
+- Condensatore
+- Condensatori in parallelo
+- Condensatori in serie
+- Condensatori in serie e in parallelo
+- Condensatori uguali in serie
+- Condizioni per la corrente indotta
+- Conduttore in equilibrio elettrostatico
+- Conduttore ohmico
+- Conduttori
+- Conservazione dell'energia: carica accelerata da una ddp
+- Conservazione della carica
+- Corrente indotta
+- Corrente nei rami di un parallelo
+- Costante dielettrica relativa
+- Dielettrico
+- Dielettrico in un condensatore collegato al generatore
+- Dielettrico in un condensatore isolato
+- Effetto Joule
+- Effetto del dielettrico sulla forza di Coulomb
+- Elettrizzazione per contatto
+- Elettrizzazione per contatto e per induzione
+- Elettrizzazione per strofinio
+- Elettronvolt
+- Elettroscopio
+- Energia acquistata in elettronvolt
+- Energia di un condensatore in funzione della carica
+- Energia elettrica in chilowattora
+- Energia immagazzinata in un condensatore
+- Energia potenziale di due cariche
+- Esperimento di Oersted
+- Fem indotta da una spira che ruota
+- Flusso del campo magnetico
+- Forza di Lorentz
+- Forza di Lorentz con velocità parallela al campo
+- Forza di Lorentz: calcolo
+- Forza elettrica conservativa
+- Forza elettromotrice indotta
+- Forza magnetica su un filo percorso da corrente
+- Forza su un filo inclinato rispetto al campo
+- Gabbia di Faraday
+- Generatore
+- Induzione elettromagnetica
+- Induzione elettrostatica
+- Intensità di corrente
+- Isolanti
+- Lavoro della forza elettrica fra due punti
+- Lavoro della forza magnetica
+- Lavoro lungo una superficie equipotenziale
+- Legge di Coulomb e principio di azione e reazione
+- Legge di Coulomb: calcolo della forza
+- Legge di Coulomb: dipendenza da cariche e distanza
+- Legge di Faraday-Neumann
+- Legge di Faraday-Neumann con più spire
+- Legge di Faraday-Neumann: calcolo della fem indotta
+- Legge di Lenz
+- Legge di Lenz: verso della corrente indotta
+- Linee di campo del filo rettilineo
+- Linee di forza del campo elettrico
+- Messa a terra
+- Moto circolare in un campo magnetico
+- Moto di cariche in un campo elettrico uniforme
+- Polarizzazione dei dielettrici
+- Poli magnetici
+- Potenza dissipata per effetto Joule
+- Potenziale di una carica puntiforme
+- Potenziale elettrico
+- Prima legge di Ohm
+- Protone ed elettrone accelerati dalla stessa ddp
+- Punto di campo nullo fra due cariche
+- Quantizzazione della carica
+- Raggio dell'orbita e rapporto massa/carica
+- Regola della mano destra
+- Resistenze in parallelo
+- Resistenze in serie e in parallelo
+- Resistività
+- Resistività e temperatura
+- Resistori in parallelo: grandezze comuni
+- Resistori uguali in parallelo
+- Ripartizione della ddp in serie
+- Seconda legge di Ohm
+- Sezione del conduttore
+- Sovrapposizione: due cariche opposte
+- Sovrapposizione: due cariche uguali
+- Superfici equipotenziali di una carica puntiforme
+- Superficie equipotenziale
+- Unità di misura del campo magnetico
+- Unità di misura del flusso magnetico
+- Unità di misura del potenziale
+- Unità di misura dell'intensità di corrente
+- Unità di misura della capacità
+- Unità di misura della carica
+- Unità di misura della resistenza
+- Verso convenzionale della corrente
+- Verso del campo rispetto al potenziale
+- Verso della forza di Lorentz su una carica negativa
+
 ### Ancora vuote
 
-U6, U7.
+U7.
 
 
 ---
 
-## Biologia — 290/820
+## Biologia — 390/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -749,7 +925,7 @@ U6, U7.
 | U3 | Il flusso dell'informazione | 50/180 | 25M + 25C | 50 | 7 |
 | U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 50/110 | 25M + 25C | 50 | 4 |
 | U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 50/200 | 25M + 25C | 50 | 8 |
-| U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 0/100 | 0M + 0C | 0 | 4 |
+| U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
 | U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 0/90 | 0M + 0C | 0 | 3 |
 
 ### U1 — Le basi dell'organizzazione biologica e molecolare della vita
@@ -1067,7 +1243,66 @@ U6, U7.
 - Traslocazione nel reticolo durante la sintesi
 - Vie di smistamento e topologia dei compartimenti
 
+### U6 — La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale
+
+100 domande su 100 · 50 a risposta multipla e 50 a completamento · 54 argomenti distinti · file: biologia-u6-01.json, biologia-u6-02.json
+
+- Tipi di segnalazione (5 domande)
+- Giunzioni comunicanti (4 domande)
+- Giunzioni occludenti (4 domande)
+- Via Ras-MAP chinasi (4 domande)
+- Adesioni focali e meccanotrasduzione (3 domande)
+- Caderine (3 domande)
+- Degradazione della matrice extracellulare (3 domande)
+- Elementi della trasduzione del segnale (3 domande)
+- Giunzioni aderenti (3 domande)
+- Integrine: segnalazione bidirezionale (3 domande)
+- Matrice extracellulare: la lamina basale (3 domande)
+- Oncogeni e trasduzione del segnale (3 domande)
+- Proteine G trimeriche (3 domande)
+- Recettori accoppiati a canali ionici (3 domande)
+- Segnalazione del recettore per l'insulina (3 domande)
+- Desensitizzazione recettoriale (2 domande)
+- Desmosomi (2 domande)
+- Desmosomi ed emidesmosomi (2 domande)
+- L'esempio della visione (2 domande)
+- La fibronectina (2 domande)
+- Molecole di adesione cellulare (CAM) (2 domande)
+- Proteine G monomeriche (2 domande)
+- Proteine G monomeriche: GEF (2 domande)
+- Recettori di membrana e intracellulari (2 domande)
+- Recettori intracellulari: ormoni lipidici (2 domande)
+- Segnalazione dei fosfoinositidi (2 domande)
+- Amplificazione del segnale
+- Desensitizzazione: l'esempio della visione
+- Emidesmosomi
+- Integrine: connessione col citoscheletro
+- Integrine: struttura
+- Matrice extracellulare: acido ialuronico
+- Matrice extracellulare: glicosamminoglicani
+- Matrice extracellulare: il collagene
+- Matrice extracellulare: proteoglicani
+- Ossido nitrico
+- Proteine G monomeriche: GAP
+- Proteine G trimeriche: Gq
+- Proteine G trimeriche: Gs
+- Proteine G trimeriche: ciclo di attivazione
+- Recettori accoppiati a proteine G
+- Recettori accoppiati a proteine G: struttura
+- Recettori tirosin-chinasici e Ras
+- Recettori tirosin-chinasici: attivazione
+- Recettori tirosin-chinasici: domini di aggancio
+- Riconoscimento cellulare
+- Secondi messaggeri
+- Secondi messaggeri: DAG e PKC
+- Secondi messaggeri: IP3 e calcio
+- Secondi messaggeri: cAMP e PKA
+- Secondi messaggeri: il cAMP
+- Secondi messaggeri: il calcio
+- Segnalazione dei fosfoinositidi: Akt
+- Segnalazione del recettore per l'EGF
+
 ### Ancora vuote
 
-U6, U7.
+U7.
 

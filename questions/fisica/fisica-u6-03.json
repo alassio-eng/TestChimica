@@ -1,0 +1,300 @@
+{
+  "lotto": "fisica-u6-03",
+  "unita": "u6",
+  "generato": "2026-10-02",
+  "domande": [
+    {
+      "id": "u6-0101",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Isolanti",
+      "testo": "I materiali in cui le cariche elettriche restano legate ad atomi e molecole e non possono spostarsi liberamente, come il vetro e la plastica, si chiamano ……",
+      "accettate": [
+        "isolanti",
+        "isolante",
+        "dielettrici",
+        "dielettrico"
+      ],
+      "spiegazione": "Negli isolanti, detti anche dielettrici, non ci sono elettroni liberi: una carica depositata in un punto resta localizzata lì. Per questo si elettrizzano facilmente per strofinio e mantengono la carica.\n\nIn un campo elettrico un isolante non conduce, ma si polarizza: le sue molecole si deformano o si orientano."
+    },
+    {
+      "id": "u6-0102",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Legge di Coulomb e principio di azione e reazione",
+      "testo": "Una carica di 4 μC e una di 1 μC si attraggono. Il modulo della forza che la carica maggiore esercita sulla minore, rispetto a quello della forza che la minore esercita sulla maggiore, è:",
+      "opzioni": [
+        "uguale",
+        "quattro volte maggiore",
+        "quattro volte minore",
+        "doppio",
+        "sedici volte maggiore"
+      ],
+      "corretta": 0,
+      "spiegazione": "La legge di Coulomb, F = k q₁q₂/r², contiene il prodotto delle due cariche: la forza ha lo stesso modulo per entrambe. È un caso del terzo principio della dinamica: le due forze sono uguali in modulo, opposte in verso e applicate a corpi diversi.\n\nB) Attribuisce alla carica più grande una forza più grande. Il prodotto q₁q₂ è lo stesso per le due forze.\nC) Inverte lo stesso errore: anche la carica minore esercita una forza uguale al prodotto q₁q₂ diviso r².\nD) Usa la radice del rapporto fra le cariche. Le due forze sono uguali per il principio di azione e reazione.\nE) Eleva al quadrato il rapporto fra le cariche, confondendolo con la dipendenza dal quadrato della distanza."
+    },
+    {
+      "id": "u6-0103",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Quantizzazione della carica",
+      "testo": "Poiché la carica di qualunque corpo è un multiplo intero della carica elementare, si dice che la carica elettrica è ……",
+      "accettate": [
+        "quantizzata",
+        "quantizzate",
+        "quantizzato",
+        "discreta"
+      ],
+      "spiegazione": "Un corpo non può avere carica 1,5e: guadagna o perde elettroni interi. Su scala macroscopica la quantizzazione non si nota, perché anche una carica di 1 nC corrisponde a miliardi di cariche elementari.\n\nLa misura della carica elementare si deve all'esperimento di Millikan con le gocce d'olio."
+    },
+    {
+      "id": "u6-0104",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Punto di campo nullo fra due cariche",
+      "testo": "Una carica +Q e una carica +4Q si trovano a distanza d. Il punto del segmento che le unisce in cui il campo elettrico è nullo si trova:",
+      "opzioni": [
+        "a metà strada fra le due cariche",
+        "a d/3 dalla carica +4Q",
+        "a d/3 dalla carica +Q",
+        "a d/5 dalla carica +Q",
+        "in nessun punto del segmento"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel punto cercato i due campi hanno versi opposti e devono avere lo stesso modulo. A distanza x da +Q: kQ/x² = 4kQ/(d − x)², quindi d − x = 2x e x = d/3. Il punto è più vicino alla carica minore, il cui campo è più debole.\n\nA) Il punto medio annulla il campo solo per cariche uguali. Qui la carica +4Q prevale e il campo nel punto medio è diretto verso +Q.\nB) Inverte le distanze: il punto di equilibrio è più vicino alla carica più piccola, non a quella più grande.\nD) Usa una dipendenza dalla distanza come 1/r invece di 1/r²: Q/x = 4Q/(d − x) dà x = d/5.\nE) Per cariche dello stesso segno i campi fra di esse hanno versi opposti, quindi un punto di campo nullo esiste. Non esisterebbe sul segmento per cariche di segno opposto."
+    },
+    {
+      "id": "u6-0105",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Campo e potenziale di due cariche opposte",
+      "testo": "Una carica +Q e una carica −Q si trovano a distanza d. Nel punto medio del segmento che le unisce (con V = 0 all'infinito):",
+      "opzioni": [
+        "il campo è nullo, ma il potenziale no",
+        "sono nulli sia il campo sia il potenziale",
+        "sono diversi da zero sia il campo sia il potenziale",
+        "il potenziale vale 4kQ/d e il campo è nullo",
+        "il potenziale è nullo, ma il campo no"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il potenziale è uno scalare e si sommano i contributi con il loro segno: kQ/(d/2) − kQ/(d/2) = 0. Il campo è un vettore: i due contributi puntano entrambi verso −Q e si sommano, dando 8kQ/d².\n\nA) È la situazione di due cariche uguali, +Q e +Q: i campi si annullano, i potenziali si sommano.\nB) Un potenziale nullo non implica un campo nullo: il campo dipende da come varia il potenziale da un punto all'altro, non dal suo valore.\nC) I potenziali delle due cariche hanno segno opposto e, alla stessa distanza, si annullano.\nD) È il risultato per due cariche uguali +Q: somma i potenziali senza segno e annulla i campi."
+    },
+    {
+      "id": "u6-0106",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Energia acquistata in elettronvolt",
+      "testo": "Una particella alfa (carica 2e), inizialmente ferma, è accelerata da una differenza di potenziale di 1000 V. L'energia cinetica che acquista è:",
+      "opzioni": [
+        "1,0 keV",
+        "2,0 keV",
+        "4,0 keV",
+        "0,50 keV",
+        "2,0 × 10³ J"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'energia acquistata è qΔV. Con q = 2e e ΔV = 1000 V, E_c = 2 × 1000 eV = 2000 eV = 2,0 keV, cioè circa 3,2 × 10⁻¹⁶ J. In elettronvolt basta moltiplicare la carica, in unità di e, per la ddp in volt.\n\nA) Usa la carica di un protone, e, invece di quella della particella alfa, 2e.\nC) Moltiplica per 4, il rapporto fra le masse della particella alfa e del protone. L'energia acquistata non dipende dalla massa.\nD) Divide per la carica invece di moltiplicare.\nE) Il numero 2000 è giusto, ma è in elettronvolt: tratta l'elettronvolt come se fosse un joule."
+    },
+    {
+      "id": "u6-0107",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Verso del campo rispetto al potenziale",
+      "testo": "Le linee del campo elettrico sono dirette dalle zone a potenziale più alto verso le zone a potenziale più ……",
+      "accettate": [
+        "basso",
+        "bassi",
+        "minore",
+        "inferiore"
+      ],
+      "spiegazione": "Una carica positiva, spinta dal campo, si muove verso potenziali decrescenti e perde energia potenziale, come un sasso che cade verso quote più basse. Una carica negativa, lasciata libera, si muove invece verso potenziali crescenti.\n\nPer la stessa ragione la corrente convenzionale, nel circuito esterno al generatore, va dal polo positivo a quello negativo."
+    },
+    {
+      "id": "u6-0108",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Elettroscopio",
+      "testo": "Lo strumento formato da due sottili foglie metalliche, appese a un'asta conduttrice, che divergono quando gli si avvicina o gli si fa toccare un corpo carico si chiama ……",
+      "accettate": [
+        "elettroscopio",
+        "elettroscopi",
+        "elettroscopio a foglie"
+      ],
+      "spiegazione": "Le foglie si caricano con cariche dello stesso segno e si respingono. Basta avvicinare un corpo carico, senza toccarlo: per induzione elettrostatica la carica di segno opposto si raccoglie sulla sferetta in alto e quella dello stesso segno scende sulle foglie.\n\nL'elettroscopio rivela la presenza di carica e ne dà una stima grossolana, ma non ne misura il segno da solo."
+    },
+    {
+      "id": "u6-0109",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Elettrizzazione per contatto e per induzione",
+      "testo": "Si tocca con una bacchetta carica negativamente una sfera metallica neutra e isolata, poi si allontana la bacchetta. La sfera:",
+      "opzioni": [
+        "resta carica positivamente",
+        "torna neutra appena si allontana la bacchetta",
+        "ha la carica negativa distribuita in tutto il volume",
+        "resta carica negativamente",
+        "resta neutra, ma positiva sul lato vicino e negativa su quello lontano"
+      ],
+      "corretta": 3,
+      "spiegazione": "Al contatto una parte degli elettroni in eccesso passa dalla bacchetta alla sfera: è l'elettrizzazione per contatto, che dà alla sfera carica dello stesso segno del corpo che la tocca. Allontanata la bacchetta, la carica acquistata rimane, distribuita sulla superficie della sfera.\n\nA) Una carica di segno opposto si ottiene per induzione con messa a terra, senza contatto. Con il contatto la sfera acquista carica dello stesso segno.\nB) Vale per la sola induzione, senza contatto. Qui elettroni sono passati davvero alla sfera e vi restano.\nC) Il segno è giusto, ma in un conduttore la carica in eccesso si dispone sulla superficie esterna, non nel volume.\nE) Descrive la polarizzazione per induzione, quando la bacchetta è vicina senza toccare. Dopo il contatto la sfera ha carica netta."
+    },
+    {
+      "id": "u6-0110",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Circuito aperto",
+      "testo": "Un circuito interrotto in un punto, in cui la corrente non può circolare, si dice ……",
+      "accettate": [
+        "aperto",
+        "aperti",
+        "interrotto"
+      ],
+      "spiegazione": "In un circuito aperto la corrente è nulla anche se il generatore mantiene la sua ddp ai capi: manca il percorso chiuso che le cariche devono seguire. Un interruttore apre o chiude il circuito.\n\nFra i due capi di un interruttore aperto si misura l'intera ddp del generatore, perché sui resistori, senza corrente, la caduta di tensione RI è nulla."
+    },
+    {
+      "id": "u6-0111",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Sezione del conduttore",
+      "testo": "Per la seconda legge di Ohm la resistenza di un filo è direttamente proporzionale alla sua lunghezza e inversamente proporzionale all'area della sua ……",
+      "accettate": [
+        "sezione",
+        "sezioni",
+        "sezione trasversale"
+      ],
+      "spiegazione": "R = ρL/S. Un filo più spesso offre alle cariche più «corsie» in parallelo e ha resistenza minore. Se la sezione è circolare, S = πr²: raddoppiando il raggio o il diametro la sezione quadruplica e la resistenza si riduce a un quarto.\n\nLo stesso ruolo ha il raggio del vaso nella legge di Poiseuille, dove però la resistenza idraulica dipende dalla quarta potenza del raggio."
+    },
+    {
+      "id": "u6-0112",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Corrente nei rami di un parallelo",
+      "testo": "Due resistori da 2,0 Ω e 6,0 Ω sono collegati in parallelo e sono attraversati in totale da una corrente di 4,0 A. La corrente nel resistore da 2,0 Ω è:",
+      "opzioni": [
+        "1,0 A",
+        "2,0 A",
+        "4,0 A",
+        "3,0 A",
+        "12 A"
+      ],
+      "corretta": 3,
+      "spiegazione": "La resistenza equivalente vale 2,0 × 6,0 / 8,0 = 1,5 Ω, quindi la ddp comune ai due rami è ΔV = 1,5 × 4,0 = 6,0 V. Nel resistore da 2,0 Ω passa I = 6,0/2,0 = 3,0 A, nell'altro 1,0 A. Più corrente passa nel ramo con resistenza minore.\n\nA) È la corrente nel resistore da 6,0 Ω: attribuisce più corrente al ramo con resistenza maggiore.\nB) Divide la corrente in parti uguali, come se le resistenze fossero uguali.\nC) Attribuisce a ogni ramo l'intera corrente. È nel collegamento in serie che la corrente è la stessa in ogni elemento.\nE) Moltiplica la corrente totale per il rapporto R₂/R₁ = 3: la corrente nel ramo non può superare quella totale."
+    },
+    {
+      "id": "u6-0113",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Condensatori in parallelo",
+      "testo": "Due condensatori collegati in parallelo hanno ai capi la stessa ……",
+      "accettate": [
+        "differenza di potenziale",
+        "ddp",
+        "d d p",
+        "tensione",
+        "tensione elettrica"
+      ],
+      "spiegazione": "In parallelo le armature corrispondenti sono collegate fra loro, quindi si trovano allo stesso potenziale. Ogni condensatore porta una carica Q = CΔV proporzionale alla propria capacità, e la capacità equivalente è la somma: C_eq = C₁ + C₂ + …\n\nPer i condensatori in serie, invece, è uguale la carica, mentre la ddp si ripartisce."
+    },
+    {
+      "id": "u6-0114",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Energia di un condensatore in funzione della carica",
+      "testo": "Un condensatore da 2,0 μF porta sulle armature una carica di 4,0 μC. L'energia immagazzinata è:",
+      "opzioni": [
+        "8,0 × 10⁻⁶ J",
+        "4,0 × 10⁻⁶ J",
+        "4,0 × 10⁻¹² J",
+        "2,0 J",
+        "1,0 J"
+      ],
+      "corretta": 1,
+      "spiegazione": "U = Q²/(2C) = (4,0 × 10⁻⁶)² / (2 × 2,0 × 10⁻⁶) = 16 × 10⁻¹² / 4,0 × 10⁻⁶ = 4,0 × 10⁻⁶ J. In alternativa ΔV = Q/C = 2,0 V e U = ½QΔV = ½ × 4,0 × 10⁻⁶ × 2,0 = 4,0 × 10⁻⁶ J.\n\nA) Dimentica il fattore 2 al denominatore: calcola Q²/C.\nC) Calcola ½QC: moltiplica per la capacità invece di dividere.\nD) Calcola Q/C, che è la ddp fra le armature in volt, non l'energia.\nE) Calcola ½Q/C: divide per la capacità senza elevare al quadrato la carica."
+    },
+    {
+      "id": "u6-0115",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Condensatori uguali in serie",
+      "testo": "Tre condensatori uguali da 9,0 μF sono collegati in serie. La capacità equivalente è:",
+      "opzioni": [
+        "3,0 μF",
+        "27 μF",
+        "0,33 μF",
+        "9,0 μF",
+        "4,5 μF"
+      ],
+      "corretta": 0,
+      "spiegazione": "In serie si sommano i reciproci: 1/C_eq = 3/9,0, quindi C_eq = 9,0/3 = 3,0 μF. La capacità equivalente in serie è minore della più piccola delle capacità.\n\nB) Applica la regola del parallelo, sommando le capacità.\nC) Calcola 1/C_eq = 3/9,0 ≈ 0,33 μF⁻¹ e dimentica di invertirlo.\nD) Pensa che condensatori uguali in serie diano la capacità del singolo.\nE) Applica la regola di due condensatori uguali, C/2, senza tenere conto che sono tre."
+    },
+    {
+      "id": "u6-0116",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Bussola",
+      "testo": "Un piccolo ago magnetizzato, libero di ruotare, che si orienta lungo le linee del campo magnetico terrestre, è il componente essenziale della ……",
+      "accettate": [
+        "bussola",
+        "bussole"
+      ],
+      "spiegazione": "L'ago si dispone con il suo polo nord verso il nord geografico, che corrisponde a un polo sud magnetico della Terra. Vicino a una corrente o a una calamita si orienta lungo le linee del campo locale.\n\nÈ proprio una bussola che, nell'esperimento di Oersted, rivelò il campo magnetico prodotto dalla corrente in un filo."
+    },
+    {
+      "id": "u6-0117",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Poli magnetici",
+      "testo": "Le due estremità di una calamita, da cui escono ed entrano le linee del campo magnetico, si chiamano ……",
+      "accettate": [
+        "poli",
+        "polo",
+        "poli magnetici"
+      ],
+      "spiegazione": "Si chiamano polo nord e polo sud: poli dello stesso nome si respingono, poli di nome opposto si attraggono. All'esterno della calamita le linee di campo vanno dal polo nord al polo sud.\n\nA differenza delle cariche elettriche, i poli non si separano: spezzando una calamita si ottengono due calamite, ciascuna con un nord e un sud."
+    },
+    {
+      "id": "u6-0118",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Forza su un filo inclinato rispetto al campo",
+      "testo": "Un filo rettilineo lungo 0,20 m, percorso da 5,0 A, forma un angolo di 30° con le linee di un campo magnetico uniforme di 0,40 T. Il modulo della forza sul filo è:",
+      "opzioni": [
+        "0,40 N",
+        "0,35 N",
+        "0 N",
+        "12 N",
+        "0,20 N"
+      ],
+      "corretta": 4,
+      "spiegazione": "F = I L B sen θ = 5,0 × 0,20 × 0,40 × sen 30° = 0,40 × 0,50 = 0,20 N. Conta solo la componente del filo perpendicolare al campo.\n\nA) Tratta il filo come perpendicolare al campo, con sen θ = 1.\nB) Usa il coseno dell'angolo invece del seno: 0,40 × cos 30° ≈ 0,35.\nC) Ritiene che la forza esista solo con filo perpendicolare al campo. È nulla solo con filo parallelo.\nD) Moltiplica per l'angolo in gradi, 30, invece che per il suo seno."
+    },
+    {
+      "id": "u6-0119",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Fem indotta da una spira che ruota",
+      "testo": "Una spira di area 0,020 m² è perpendicolare alle linee di un campo magnetico uniforme di 0,50 T. In 0,10 s viene ruotata fino a disporsi parallela alle linee del campo. Il modulo della fem media indotta è:",
+      "opzioni": [
+        "0 V",
+        "1,0 × 10⁻³ V",
+        "0,10 V",
+        "0,20 V",
+        "5,0 V"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il flusso iniziale è massimo, Φ = BS = 0,50 × 0,020 = 0,010 Wb, perché il campo è perpendicolare alla spira. Quello finale è nullo, perché le linee scorrono parallele alla spira. |ε| = |ΔΦ|/Δt = 0,010/0,10 = 0,10 V.\n\nA) Il campo è costante, ma il flusso cambia perché cambia l'orientazione della spira.\nB) Moltiplica la variazione di flusso per il tempo invece di dividerla.\nD) Raddoppia la variazione di flusso, come in una rotazione di 180° che inverte la spira. Qui la spira ruota di 90°: il flusso passa dal massimo a zero.\nE) Dimentica l'area della spira e divide il campo per il tempo."
+    },
+    {
+      "id": "u6-0120",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Corrente indotta",
+      "testo": "La corrente che circola in un circuito chiuso a causa della variazione del flusso magnetico concatenato, senza alcun generatore, si chiama corrente ……",
+      "accettate": [
+        "indotta",
+        "indotte"
+      ],
+      "spiegazione": "La corrente indotta vale I = ε/R, dove ε è la fem indotta e R la resistenza del circuito. Il suo verso, per la legge di Lenz, è tale da opporsi alla variazione di flusso che l'ha prodotta.\n\nSu questo principio funzionano i generatori delle centrali elettriche, in cui bobine che ruotano in un campo magnetico producono corrente."
+    }
+  ]
+}

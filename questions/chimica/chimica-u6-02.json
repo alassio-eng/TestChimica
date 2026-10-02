@@ -1,0 +1,725 @@
+{
+  "lotto": "chimica-u6-02",
+  "unita": "u6",
+  "generato": "2026-10-02",
+  "domande": [
+    {
+      "id": "u6-0002",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Classificazione degli alcoli",
+      "testo": "Quale dei seguenti composti è un alcol terziario?",
+      "opzioni": [
+        "1-butanolo",
+        "2-metil-2-propanolo",
+        "2-butanolo",
+        "alcol benzilico",
+        "2-metil-1-propanolo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Un alcol è terziario quando il carbonio che porta l'–OH è legato ad altri tre atomi di carbonio. Nel 2-metil-2-propanolo, (CH3)3C–OH, il C2 porta l'ossidrile ed è legato ai tre metili.\n\nA) l'–OH è su un carbonio terminale legato a un solo altro carbonio: alcol primario.\nC) il C2 che porta l'–OH è legato a due carboni (C1 e C3): alcol secondario.\nD) C6H5–CH2OH: il carbonio che porta l'–OH è legato a un solo carbonio (quello dell'anello), quindi è un alcol primario. Non è nemmeno un fenolo, perché l'–OH non è legato direttamente all'anello.\nE) la ramificazione è sul C2, ma l'–OH sta sul C1, legato a un solo carbonio: alcol primario. Errore tipico: classificare in base alla ramificazione della catena invece che al carbonio che porta l'ossidrile."
+    },
+    {
+      "id": "u6-0003",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Classificazione degli alcoli",
+      "testo": "Un alcol in cui il carbonio legato all'–OH è legato ad altri due atomi di carbonio si definisce alcol ……",
+      "accettate": [
+        "secondario",
+        "secondari"
+      ],
+      "spiegazione": "La classificazione primario/secondario/terziario degli alcoli conta i carboni legati al carbonio che porta l'–OH: uno → primario, due → secondario, tre → terziario. Esempio: 2-propanolo. «Terziario» è l'errore di chi conta tutti i sostituenti del carbonio, H compresi, o confonde con la classificazione delle ammine, che conta invece i gruppi sull'azoto."
+    },
+    {
+      "id": "u6-0004",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Proprietà fisiche di alcoli ed eteri",
+      "testo": "Etanolo e dimetiletere hanno la stessa formula molecolare C2H6O, ma l'etanolo bolle a circa 78 °C e il dimetiletere a circa −24 °C. La causa principale della differenza è che:",
+      "opzioni": [
+        "la massa molare dell'etanolo è maggiore",
+        "i legami covalenti C–O dell'etanolo sono più difficili da rompere",
+        "l'etanolo forma legami idrogeno con l'acqua, l'etere no",
+        "solo le molecole di etanolo formano legami idrogeno fra di loro",
+        "il dimetiletere è una molecola apolare"
+      ],
+      "corretta": 3,
+      "spiegazione": "Per ebollizione si vincono le forze intermolecolari. L'etanolo ha un idrogeno legato all'ossigeno e forma legami idrogeno fra molecole; il dimetiletere non ha idrogeni legati a O, può solo accettare legami idrogeno, quindi fra molecole di etere restano solo interazioni dipolo-dipolo e di van der Waals, molto più deboli.\n\nA) i due composti sono isomeri: stessa formula molecolare, quindi stessa massa molare (46 g/mol).\nB) nell'ebollizione non si rompono legami covalenti ma interazioni fra molecole; è la confusione fra forze intramolecolari e intermolecolari.\nC) riguarda la solubilità, non l'ebollizione della sostanza pura; inoltre anche l'etere accetta legami idrogeno dall'acqua (il dimetiletere è apprezzabilmente solubile).\nE) il dimetiletere è polare (geometria angolare attorno all'ossigeno, momento dipolare non nullo); la differenza non dipende dalla polarità ma dalla presenza dell'–OH."
+    },
+    {
+      "id": "u6-0005",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Disidratazione degli alcoli",
+      "testo": "La disidratazione intramolecolare di un alcol, condotta a caldo con acido solforico concentrato, produce:",
+      "opzioni": [
+        "un alcano",
+        "un etere",
+        "un alchene",
+        "un'aldeide",
+        "un chetone"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nella disidratazione intramolecolare l'alcol perde un –OH e un H dal carbonio adiacente (eliminazione): fra i due carboni si forma un doppio legame C=C.\n\nA) per passare dall'alcol all'alcano serve una riduzione con sostituzione dell'–OH con H; la perdita di acqua introduce invece un'insaturazione.\nB) l'etere si ottiene per disidratazione intermolecolare (due molecole di alcol perdono una molecola d'acqua), favorita a temperatura più bassa; il testo specifica «intramolecolare».\nD) l'aldeide si ottiene per ossidazione di un alcol primario, non per perdita di acqua; è confusione fra disidratazione e ossidazione (deidrogenazione).\nE) il chetone deriva dall'ossidazione di un alcol secondario: anche qui disidratazione e ossidazione confuse."
+    },
+    {
+      "id": "u6-0006",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Disidratazione degli alcoli",
+      "testo": "La reazione con cui un alcol, in ambiente acido e a caldo, perde una molecola d'acqua formando un alchene si chiama ……",
+      "accettate": [
+        "disidratazione",
+        "eliminazione",
+        "beta-eliminazione",
+        "beta eliminazione",
+        "disidratazione intramolecolare"
+      ],
+      "spiegazione": "È la disidratazione, un caso di reazione di eliminazione: l'–OH, protonato dall'acido, lascia la molecola come acqua e un H si stacca dal carbonio adiacente. «Idratazione» è la reazione inversa (addizione di acqua all'alchene); «ossidazione» confonde la perdita di acqua con la perdita di idrogeni."
+    },
+    {
+      "id": "u6-0007",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Ossidazione degli alcoli",
+      "testo": "L'ossidazione del 2-propanolo con un ossidante forte, come il dicromato in ambiente acido, produce:",
+      "opzioni": [
+        "propanone",
+        "nessun prodotto: gli alcoli secondari non si ossidano",
+        "propene",
+        "propanale",
+        "acido propanoico"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il 2-propanolo è un alcol secondario: il carbonio che porta l'–OH ha un solo idrogeno. L'ossidazione lo trasforma in carbonile legato a due carboni, cioè un chetone: propanone (acetone). Il chetone non si ossida oltre senza rompere legami C–C.\n\nB) a non ossidarsi in queste condizioni sono gli alcoli terziari, privi di H sul carbonio che porta l'–OH; il secondario si ossida a chetone.\nC) è il prodotto della disidratazione, non dell'ossidazione.\nD) l'aldeide si forma dagli alcoli primari (1-propanolo); è l'errore di chi non distingue primari e secondari.\nE) l'acido carbossilico è il prodotto di ossidazione spinta di un alcol primario passando per l'aldeide; da un secondario non si arriva all'acido."
+    },
+    {
+      "id": "u6-0008",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Ossidazione degli alcoli",
+      "testo": "Per ossidazione blanda un alcol primario si trasforma in un'……, che per ulteriore ossidazione dà un acido carbossilico.",
+      "accettate": [
+        "aldeide",
+        "aldeidi"
+      ],
+      "spiegazione": "Alcol primario → aldeide → acido carbossilico: ogni passaggio è un'ossidazione. Il chetone non è la risposta: si ottiene dagli alcoli secondari. Neppure l'estere: è un derivato dell'acido, non un intermedio di ossidazione."
+    },
+    {
+      "id": "u6-0009",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Ossidazione dei tioli",
+      "testo": "L'ossidazione di due tioli R–SH porta alla formazione di un ……, R–S–S–R.",
+      "accettate": [
+        "disolfuro",
+        "disolfuri",
+        "ponte disolfuro",
+        "legame disolfuro"
+      ],
+      "spiegazione": "Due gruppi –SH, perdendo due idrogeni (due elettroni e due protoni), si uniscono con un legame S–S: il disolfuro. È la reazione con cui il glutatione ridotto (GSH) diventa glutatione ossidato (GSSG). «Tioetere» (R–S–R) è sbagliato: è l'analogo solforato di un etere, senza legame S–S. «Solfuro», senza il «di», indica lo stesso R–S–R."
+    },
+    {
+      "id": "u6-0010",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Acidità del fenolo",
+      "testo": "Il fenolo (pKa ≈ 10) è un acido molto più forte dell'etanolo (pKa ≈ 16). La ragione principale è che:",
+      "opzioni": [
+        "l'anello aromatico cede elettroni all'ossigeno e stabilizza l'anione",
+        "nel fenolo un gruppo carbossilico è legato all'anello",
+        "lo ione etossido è stabilizzato per risonanza, il fenossido no",
+        "l'idrogeno del gruppo –OH partecipa al sestetto aromatico",
+        "la carica negativa dello ione fenossido è delocalizzata per risonanza sull'anello"
+      ],
+      "corretta": 4,
+      "spiegazione": "La forza di un acido dipende dalla stabilità della sua base coniugata. Nello ione fenossido la carica negativa dell'ossigeno è delocalizzata per risonanza sulle posizioni orto e para dell'anello: l'anione è più stabile e la dissociazione più favorita. Nell'etossido la carica resta localizzata sull'ossigeno.\n\nA) un gruppo che cede elettroni a un anione lo destabilizzerebbe; l'anello stabilizza il fenossido perché accoglie per risonanza parte della carica dell'ossigeno.\nB) il fenolo è C6H5–OH: nessun carbossile. È la confusione con l'acido benzoico, C6H5–COOH.\nC) è l'esatto inverso: l'etossido non ha sistemi π su cui delocalizzare la carica, il fenossido sì.\nD) il sestetto aromatico è formato dagli elettroni π dell'anello; l'idrogeno ossidrilico non vi partecipa. Il coniugamento coinvolge un doppietto dell'ossigeno, non l'H."
+    },
+    {
+      "id": "u6-0011",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Acidità del fenolo",
+      "testo": "In una soluzione di NaOH il fenolo cede il protone e si trasforma nello ione ……",
+      "accettate": [
+        "fenossido",
+        "fenato",
+        "fenolato",
+        "fenossi",
+        "fenossile"
+      ],
+      "spiegazione": "La base coniugata del fenolo è lo ione fenossido (detto anche fenato o fenolato), C6H5O−. Il fenolo, con pKa ≈ 10, è deprotonato da NaOH; gli alcoli comuni (pKa ≈ 16) no, apprezzabilmente. «Benzoato» è lo ione dell'acido benzoico, non del fenolo; «alcossido» è la base coniugata degli alcoli."
+    },
+    {
+      "id": "u6-0012",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Eteri ed epossidi",
+      "testo": "Gli epossidi sono molto più reattivi degli eteri aciclici verso i nucleofili. La ragione principale è che:",
+      "opzioni": [
+        "l'ossigeno epossidico porta una carica positiva permanente",
+        "l'anello a tre termini è in forte tensione angolare, che si libera all'apertura",
+        "contengono un gruppo carbonilico C=O",
+        "sono eteri ciclici a sei termini, quindi più polarizzati",
+        "il legame C–O degli epossidi è di natura ionica"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nell'epossido gli angoli dell'anello C–C–O sono circa 60°, molto lontani dai 109,5° dell'ibridazione sp3: l'anello è teso. L'attacco nucleofilo apre l'anello e libera questa tensione, perciò avviene facilmente. Per questo gli epossidi che si formano dal metabolismo di alcuni idrocarburi aromatici reagiscono con le basi del DNA.\n\nA) l'epossido è una molecola neutra; l'ossigeno ha due doppietti liberi come in ogni etere.\nC) negli epossidi l'ossigeno ha solo legami semplici con due carboni; il carbonile è proprio di aldeidi e chetoni.\nD) gli epossidi sono anelli a tre termini (due C e un O); un anello a sei termini è quasi privo di tensione e poco reattivo, come il tetraidropirano.\nE) il legame C–O è covalente polare, come negli altri eteri; la reattività deriva dalla tensione d'anello, non da un diverso tipo di legame."
+    },
+    {
+      "id": "u6-0013",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Classificazione delle ammine",
+      "testo": "Quale delle seguenti è un'ammina secondaria?",
+      "opzioni": [
+        "(CH3)3C–NH2, terz-butilammina",
+        "CH3CH2–NH2, etilammina",
+        "(CH3)4N+, ione tetrametilammonio",
+        "(CH3)2NH, dimetilammina",
+        "(CH3)3N, trimetilammina"
+      ],
+      "corretta": 3,
+      "spiegazione": "Le ammine si classificano in base al numero di gruppi alchilici o arilici legati all'azoto: uno → primaria, due → secondaria, tre → terziaria. Nella dimetilammina l'azoto porta due metili e un idrogeno.\n\nA) l'azoto porta un solo gruppo alchilico: è un'ammina primaria, anche se il carbonio legato all'azoto è terziario. È l'errore di classificare le ammine come gli alcoli, guardando il carbonio invece dell'azoto.\nB) un solo gruppo alchilico sull'azoto: ammina primaria.\nC) l'azoto porta quattro gruppi e una carica positiva: è un sale di ammonio quaternario, non un'ammina secondaria.\nE) l'azoto porta tre gruppi metilici: ammina terziaria."
+    },
+    {
+      "id": "u6-0014",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Classificazione delle ammine",
+      "testo": "Un azoto legato a quattro gruppi alchilici, con carica positiva permanente, forma uno ione ammonio ……",
+      "accettate": [
+        "quaternario",
+        "quaternari"
+      ],
+      "spiegazione": "Con quattro gruppi alchilici l'azoto non ha più il doppietto libero e porta una carica positiva indipendente dal pH: è uno ione ammonio quaternario, come nella colina. «Terziario» è sbagliato: un'ammina terziaria ha tre gruppi e il doppietto libero, ed è neutra."
+    },
+    {
+      "id": "u6-0015",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Basicità di ammine e ammidi",
+      "testo": "Quale fra le seguenti specie è la base più debole in acqua?",
+      "opzioni": [
+        "ammoniaca",
+        "metilammina",
+        "acetammide",
+        "anilina",
+        "dimetilammina"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nelle ammidi il doppietto dell'azoto è delocalizzato per risonanza sul carbonile (carattere parziale di doppio legame C–N): non è disponibile per legare un protone, e in acqua le ammidi sono in pratica neutre. È lo stesso motivo per cui il legame peptidico non è basico.\n\nA) base debole ma con doppietto libero localizzato (pKa dell'NH4+ ≈ 9,25): molto più basica di un'ammide.\nB) ammina alifatica primaria: il metile cede elettroni per effetto induttivo e la rende più basica dell'ammoniaca.\nD) è una base debole (pKa dello ione anilinio ≈ 4,6) perché il doppietto è in parte delocalizzato sull'anello, ma resta molto più basica di un'ammide. È il distrattore di chi ricorda la bassa basicità delle ammine aromatiche e si ferma lì.\nE) ammina alifatica secondaria, fra le più basiche dell'elenco grazie all'effetto induttivo dei due metili."
+    },
+    {
+      "id": "u6-0016",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Formazione di sali di ammonio",
+      "testo": "Reagendo con HCl, un'ammina forma un sale di …… solubile in acqua: per questo molti farmaci amminici si somministrano come cloridrati.",
+      "accettate": [
+        "ammonio",
+        "alchilammonio",
+        "ammonio sostituito",
+        "ammonio protonato"
+      ],
+      "spiegazione": "Il doppietto dell'azoto accetta il protone dell'acido: R–NH2 + HCl → R–NH3+ Cl−, un sale di (alchil)ammonio. Il sale è ionico e quindi molto più solubile in acqua dell'ammina libera. «Ammide» è sbagliato: le ammidi si formano da acidi carbossilici e ammine con un legame covalente C–N, non per protonazione."
+    },
+    {
+      "id": "u6-0017",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Nitrosammine",
+      "testo": "Le nitrosammine, composti potenzialmente cancerogeni, si formano tipicamente dalla reazione fra:",
+      "opzioni": [
+        "ammine primarie e acido nitroso, che danno nitrosammine stabili",
+        "ammoniaca e nitrati in ambiente basico, per riduzione dell'azoto",
+        "ammine secondarie e acido nitroso, formato dai nitriti in ambiente acido",
+        "ammine secondarie e acido nitrico, formato dai nitrati in ambiente acido",
+        "ammine terziarie e perossido di idrogeno, che ossida l'azoto"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'acido nitroso (HNO2), che si genera dai nitriti in ambiente acido come quello gastrico, nitrosa l'azoto delle ammine secondarie e dà N-nitrosammine R2N–N=O. Per questo i nitriti usati come conservanti nelle carni lavorate sono oggetto di attenzione.\n\nA) con l'acido nitroso le ammine primarie formano sali di diazonio, che negli alifatici si decompongono rapidamente; non danno nitrosammine stabili.\nB) per avere una nitrosammina servono un'ammina secondaria e una fonte di NO+ (acido nitroso in ambiente acido); l'ammoniaca non ha i due gruppi alchilici.\nD) nitroso (HNO2, dai nitriti) e nitrico (HNO3, dai nitrati) sono confusi spesso; il gruppo N=O delle nitrosammine viene dall'acido nitroso.\nE) l'ossidazione delle ammine terziarie con perossidi dà N-ossidi, non nitrosammine."
+    },
+    {
+      "id": "u6-0018",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Ammine di rilevanza biologica",
+      "testo": "La colina, (CH3)3N+–CH2–CH2–OH, è il precursore del neurotrasmettitore ……",
+      "accettate": [
+        "acetilcolina"
+      ],
+      "spiegazione": "L'esterificazione dell'–OH della colina con un gruppo acetile (dall'acetil-CoA) dà l'acetilcolina, neurotrasmettitore della giunzione neuromuscolare. La colina è anche componente della fosfatidilcolina (lecitina), che però è un fosfolipide di membrana, non un neurotrasmettitore. Lo stesso vale per la sfingomielina."
+    },
+    {
+      "id": "u6-0019",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Nomenclatura di aldeidi e chetoni",
+      "testo": "Nella nomenclatura IUPAC il suffisso che identifica un chetone, come in propanone, è ……",
+      "accettate": [
+        "-one",
+        "one"
+      ],
+      "spiegazione": "I chetoni prendono il suffisso -one (propanone, butanone). Le aldeidi prendono -ale (propanale), gli alcoli -olo (propanolo). Confondere -one con -ale è l'errore più frequente."
+    },
+    {
+      "id": "u6-0020",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Proprietà fisiche di aldeidi e chetoni",
+      "testo": "Rispetto all'alcol con lo stesso numero di atomi di carbonio, un'aldeide ha punto di ebollizione:",
+      "opzioni": [
+        "più basso, perché le aldeidi sono molecole del tutto apolari",
+        "più alto, perché il carbonile C=O è più polare del gruppo O–H",
+        "più alto, perché l'ossigeno carbonilico forma legami idrogeno fra aldeidi",
+        "uguale, perché le masse molari dei due composti sono uguali",
+        "più basso, perché fra molecole di aldeide non si formano legami idrogeno"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il gruppo carbonilico è polare, ma l'aldeide non ha idrogeni legati all'ossigeno: fra le sue molecole agiscono interazioni dipolo-dipolo, non legami idrogeno. L'alcol corrispondente forma legami idrogeno e bolle più in alto (propanale ≈ 48 °C, 1-propanolo ≈ 97 °C).\n\nA) la direzione è giusta ma il motivo no: le aldeidi sono polari, ed è per questo che bollono più in alto degli alcani di massa simile.\nB) la polarità del carbonile è reale, ma il legame idrogeno dell'alcol pesa di più delle interazioni dipolo-dipolo dell'aldeide; la direzione è invertita.\nC) l'ossigeno carbonilico può accettare legami idrogeno, ma nelle aldeidi manca l'H donatore legato a O o N: fra molecole di aldeide non c'è legame idrogeno.\nD) le masse sono simili (58 e 60 g/mol), ma il punto di ebollizione dipende dalle forze intermolecolari, che sono diverse."
+    },
+    {
+      "id": "u6-0021",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Ossidazione di aldeidi e chetoni",
+      "testo": "Quale dei seguenti composti viene ossidato ad acido carbossilico anche da ossidanti blandi?",
+      "opzioni": [
+        "dietiletere",
+        "propanale",
+        "2-propanolo",
+        "2-metil-2-propanolo",
+        "propanone"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le aldeidi hanno un idrogeno legato al carbonio carbonilico e si ossidano facilmente ad acidi carbossilici, anche con ossidanti blandi: il propanale dà acido propanoico. Su questa facilità di ossidazione si basano i saggi per gli zuccheri riducenti.\n\nA) gli eteri sono poco reattivi verso gli ossidanti comuni; non danno acidi carbossilici.\nC) è un alcol secondario: ossidandosi dà un chetone (propanone), non un acido carbossilico.\nD) alcol terziario: senza H sul carbonio che porta l'–OH, non si ossida in condizioni normali.\nE) i chetoni non hanno H sul carbonio carbonilico: non si ossidano senza rompere legami C–C, cosa che gli ossidanti blandi non fanno."
+    },
+    {
+      "id": "u6-0022",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Riduzione di aldeidi e chetoni",
+      "testo": "La riduzione di un'aldeide, ad esempio con NaBH4, produce un alcol ……",
+      "accettate": [
+        "primario",
+        "primari"
+      ],
+      "spiegazione": "La riduzione aggiunge un idrogeno al carbonio carbonilico e uno all'ossigeno: R–CHO → R–CH2OH. Il carbonio che porta l'–OH resta legato a un solo carbonio, quindi l'alcol è primario. Dalla riduzione di un chetone si ottiene invece un alcol secondario; nessuna riduzione di un carbonile dà un alcol terziario."
+    },
+    {
+      "id": "u6-0023",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Addizione nucleofila al carbonile",
+      "testo": "Nell'addizione nucleofila al gruppo carbonilico di aldeidi e chetoni, il nucleofilo si lega:",
+      "opzioni": [
+        "al carbonio in alfa, che è il più povero di elettroni della molecola",
+        "all'ossigeno carbonilico, che porta una parziale carica positiva",
+        "all'idrogeno aldeidico, che si stacca come protone",
+        "al carbonio carbonilico, che porta una parziale carica positiva",
+        "al doppio legame dopo un primo attacco di un elettrofilo, come negli alcheni"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'ossigeno è più elettronegativo del carbonio e polarizza il doppio legame C=O: il carbonio carbonilico ha una parziale carica positiva (δ+) ed è il sito elettrofilo. Il nucleofilo vi si lega, il carbonio passa da sp2 a sp3 e l'ossigeno diventa un alcossido, poi protonato.\n\nA) il carbonio α è il sito in cui si forma l'enolato (acidità degli H in α); non è il bersaglio dell'attacco nucleofilo.\nB) la polarità è invertita: l'ossigeno è il polo negativo (δ−) e attrae elettrofili e protoni, non nucleofili.\nC) l'H aldeidico non è acido e non viene ceduto come protone; l'attacco avviene sul carbonio.\nE) è il meccanismo dell'addizione elettrofila agli alcheni, dove il C=C è ricco di elettroni e apolare; il carbonile reagisce in modo opposto."
+    },
+    {
+      "id": "u6-0024",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Emiacetali ed emichetali",
+      "testo": "Il prodotto dell'addizione di una molecola di alcol al carbonile di un'aldeide è:",
+      "opzioni": [
+        "un emiacetale",
+        "un acetale",
+        "un etere",
+        "un emichetale",
+        "un estere"
+      ],
+      "corretta": 0,
+      "spiegazione": "Un alcol si addiziona al C=O dell'aldeide e si forma un carbonio che porta un –OH e un –OR: un emiacetale. È la reazione che, avvenendo dentro la stessa molecola, porta alla forma ciclica degli aldosi come il glucosio.\n\nB) l'acetale richiede una seconda molecola di alcol, che sostituisce l'–OH dell'emiacetale con perdita di acqua; con una sola molecola ci si ferma all'emiacetale.\nC) nell'etere l'ossigeno è legato a due carboni e manca il gruppo –OH sul carbonio adiacente; l'addizione al carbonile non porta a un etere semplice.\nD) l'emichetale si forma da un chetone, non da un'aldeide (es. la ciclizzazione del fruttosio).\nE) l'estere si forma da un acido carbossilico (o da un suo derivato) e un alcol, non da un'aldeide."
+    },
+    {
+      "id": "u6-0025",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Acetali e chetali",
+      "testo": "Un carbonio legato a due gruppi –OR, ottenuto da un'aldeide e due molecole di alcol con perdita di una molecola d'acqua, costituisce un ……",
+      "accettate": [
+        "acetale",
+        "acetali"
+      ],
+      "spiegazione": "Aldeide + alcol → emiacetale (un –OH e un –OR); emiacetale + secondo alcol → acetale (due –OR) + H2O. Se il punto di partenza è un chetone si parla di chetale. «Emiacetale» è il prodotto intermedio, con un solo –OR; «etere» non porta due –OR sullo stesso carbonio. Nel legame glicosidico il carbonio anomerico è un acetale."
+    },
+    {
+      "id": "u6-0026",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Immine (basi di Schiff)",
+      "testo": "Un'aldeide reagisce con un'ammina primaria, con eliminazione di acqua, formando:",
+      "opzioni": [
+        "un'ammina terziaria per alchilazione dell'azoto",
+        "un'enammina",
+        "un'immina",
+        "un sale di ammonio",
+        "un'ammide"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'ammina primaria si addiziona al carbonile; l'intermedio perde una molecola d'acqua e si forma un doppio legame C=N: un'immina (base di Schiff). Il gruppo amminico della lisina forma basi di Schiff con aldeidi biologiche.\n\nA) l'alchilazione richiede un alogenuro alchilico come elettrofilo e una sostituzione nucleofila, non un'addizione a un carbonile.\nB) le enammine si formano da aldeidi o chetoni con ammine secondarie, che non hanno due H sull'azoto per formare il C=N.\nD) il sale di ammonio si forma quando l'ammina reagisce con un acido; con un'aldeide l'ammina agisce da nucleofilo, non da base.\nE) l'ammide si forma da un acido carbossilico (o un suo derivato) e un'ammina, e contiene un C=O legato all'azoto; dall'aldeide non si ottiene un'ammide."
+    },
+    {
+      "id": "u6-0027",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Immine (basi di Schiff)",
+      "testo": "Le immine che si formano fra un composto carbonilico e un'ammina primaria sono dette anche basi di ……",
+      "accettate": [
+        "schiff"
+      ],
+      "spiegazione": "Le immine R2C=N–R' sono chiamate basi di Schiff, dal chimico Hugo Schiff. Si formano per addizione nucleofila dell'ammina al carbonile seguita da perdita di acqua. In biochimica compaiono nel legame fra piridossal fosfato e lisina e nelle prime fasi della reazione di Maillard."
+    },
+    {
+      "id": "u6-0028",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Acidità degli idrogeni in alfa",
+      "testo": "Gli idrogeni sul carbonio adiacente al carbonile sono debolmente acidi perché la loro base coniugata, lo ione ……, è stabilizzata per risonanza.",
+      "accettate": [
+        "enolato",
+        "enolati"
+      ],
+      "spiegazione": "Togliendo un H in α si ottiene un anione la cui carica negativa è delocalizzata fra il carbonio α e l'ossigeno carbonilico: lo ione enolato. È il nucleofilo della condensazione aldolica e di quella di Claisen. L'«enolo» è la forma neutra (tautomero), non l'anione; il «carbossilato» è la base coniugata di un acido carbossilico."
+    },
+    {
+      "id": "u6-0029",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Condensazione aldolica",
+      "testo": "Nella condensazione aldolica fra due molecole di etanale (acetaldeide), il prodotto di addizione che si forma prima della disidratazione è:",
+      "opzioni": [
+        "2-idrossibutanale",
+        "acetato di etile",
+        "2-butenale",
+        "3-idrossibutanale",
+        "acido 3-idrossibutanoico"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'enolato di una molecola di etanale (–CH2–CHO) attacca il carbonile della seconda molecola; si forma CH3–CH(OH)–CH2–CHO, il 3-idrossibutanale (un aldolo). L'–OH si trova sul carbonio β rispetto al gruppo aldeidico.\n\nA) l'–OH sarebbe in α al carbonile; nell'aldolo il nuovo legame C–C si forma fra il carbonio α di una molecola e il carbonile dell'altra, e l'ossidrile finisce in β.\nB) un estere si forma da acido e alcol; è la confusione con l'esterificazione o con la condensazione di Claisen, che parte da esteri.\nC) è il prodotto che si ottiene dopo la disidratazione dell'aldolo (aldeide α,β-insatura); il testo chiede il prodotto di addizione iniziale.\nE) un acido carbossilico richiederebbe un'ossidazione del gruppo aldeidico, che nell'aldolica non avviene."
+    },
+    {
+      "id": "u6-0030",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Tautomeria cheto-enolica",
+      "testo": "La tautomeria cheto-enolica consiste in:",
+      "opzioni": [
+        "l'interconversione fra due enantiomeri di un composto chirale",
+        "un equilibrio fra due isomeri, con spostamento di un H e di un doppio legame",
+        "la rotazione attorno a un legame semplice C–C, che genera conformeri",
+        "la risonanza fra due strutture limite dello stesso composto",
+        "l'addizione di una molecola d'acqua al carbonile, con formazione di un diolo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nella tautomeria cheto-enolica un idrogeno si sposta dal carbonio α all'ossigeno e il doppio legame si sposta da C=O a C=C: la forma chetonica e la forma enolica sono due composti diversi (isomeri costituzionali) in equilibrio fra loro. Di solito l'equilibrio è spostato verso la forma chetonica.\n\nA) gli enantiomeri hanno la stessa connettività e differiscono per la disposizione spaziale; i tautomeri hanno connettività diversa.\nC) i conformeri si interconvertono per rotazione senza rompere legami; nella tautomeria si rompe e si forma un legame con l'idrogeno.\nD) è la confusione più comune: le strutture di risonanza differiscono solo per la posizione degli elettroni e non esistono separatamente; i tautomeri differiscono per la posizione di un atomo (H) e sono specie reali e distinte.\nE) è l'idratazione del carbonile (formazione di un diolo geminale), una reazione di addizione; nella tautomeria non si aggiungono molecole."
+    },
+    {
+      "id": "u6-0031",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Tautomeria cheto-enolica",
+      "testo": "Dopo l'idrolisi del fosfato del fosfoenolpiruvato, l'enolpiruvato si converte spontaneamente nella forma ……, più stabile: è uno dei motivi per cui il PEP ha un potenziale di trasferimento del fosfato molto alto.",
+      "accettate": [
+        "chetonica",
+        "cheto",
+        "chetonico",
+        "piruvato"
+      ],
+      "spiegazione": "Il PEP è un enolo «bloccato» dal fosfato. Una volta tolto il fosfato, l'enolpiruvato tautomerizza alla forma chetonica (piruvato), molto più stabile; questo spostamento contribuisce al ΔG° fortemente negativo dell'idrolisi del PEP. «Enolica» è il contrario: è la forma da cui si parte."
+    },
+    {
+      "id": "u6-0032",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Chinoni e ubichinone",
+      "testo": "Nella catena respiratoria l'ubichinone (coenzima Q) trasporta elettroni passando dalla forma chinonica ossidata alla forma ridotta ……",
+      "accettate": [
+        "idrochinonica",
+        "idrochinone",
+        "ubichinolo",
+        "chinolo",
+        "idrochinonico"
+      ],
+      "spiegazione": "Il chinone accetta due elettroni e due protoni e diventa idrochinone (un difenolo); per il coenzima Q la forma ridotta si chiama ubichinolo (QH2). «Semichinone» indica l'intermedio radicalico, che ha acquistato un solo elettrone, non la forma ridotta completa."
+    },
+    {
+      "id": "u6-0033",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Nomenclatura degli acidi carbossilici",
+      "testo": "Il nome IUPAC dell'acido acetico, CH3COOH, è acido ……",
+      "accettate": [
+        "etanoico"
+      ],
+      "spiegazione": "Gli acidi carbossilici prendono il nome dell'alcano con lo stesso numero di carboni, carbonio carbossilico compreso, più il suffisso -oico: due carboni → acido etanoico. «Metanoico» è l'acido formico (un carbonio): l'errore nasce dal non contare il carbonio del –COOH."
+    },
+    {
+      "id": "u6-0034",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Proprietà fisiche degli acidi carbossilici",
+      "testo": "L'acido acetico (60 g/mol) bolle a circa 118 °C, il 1-propanolo (60 g/mol) a circa 97 °C. La causa principale della differenza è che l'acido acetico:",
+      "opzioni": [
+        "è completamente dissociato in ioni allo stato liquido",
+        "ha massa molare molto più alta dell'alcol",
+        "contiene legami covalenti più forti, da rompere nell'ebollizione",
+        "forma dimeri stabilizzati da due legami idrogeno",
+        "forma legami idrogeno C=O···C=O fra due gruppi carbonilici"
+      ],
+      "corretta": 3,
+      "spiegazione": "Due molecole di acido carbossilico si associano con due legami idrogeno, fra l'O–H di una e il C=O dell'altra, formando un dimero ciclico. Le interazioni fra molecole risultano più forti di quelle dell'alcol, che forma un solo tipo di legame idrogeno O–H···O.\n\nA) l'acido acetico è un acido debole; anche in acqua è dissociato solo in piccola parte, e puro è sostanzialmente indissociato.\nB) il testo indica la stessa massa molare (60 g/mol): non è questa la causa.\nC) nell'ebollizione si vincono le forze intermolecolari, non i legami covalenti.\nE) un carbonile può accettare un legame idrogeno ma non donarlo; senza H legato a O o N non c'è legame idrogeno fra due C=O."
+    },
+    {
+      "id": "u6-0035",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Acidità degli acidi carbossilici",
+      "testo": "Quale dei seguenti acidi è il più forte?",
+      "opzioni": [
+        "acido propanoico",
+        "acido cloroacetico",
+        "acido dicloroacetico",
+        "acido acetico",
+        "acido tricloroacetico"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il cloro è elettronegativo ed esercita un effetto induttivo elettron-attrattore: sottrae densità elettronica al carbossilato e lo stabilizza. Più atomi di cloro ci sono vicino al carbossile, più l'acido è forte. Il tricloroacetico (pKa ≈ 0,7) è il più forte dell'elenco.\n\nA) il gruppo etile è debolmente elettron-donatore e destabilizza leggermente il carbossilato (pKa ≈ 4,87): l'idea che una catena più lunga renda l'acido più forte è sbagliata.\nB) un solo cloro: pKa ≈ 2,9, più acido dell'acetico ma meno dei derivati di- e triclorurati.\nC) con due atomi di cloro l'effetto induttivo è minore (pKa ≈ 1,3): forte, ma meno del tricloroacetico.\nD) senza sostituenti elettron-attrattori: pKa ≈ 4,76."
+    },
+    {
+      "id": "u6-0036",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Acidità degli acidi carbossilici",
+      "testo": "Gli acidi carbossilici sono più acidi degli alcoli perché la carica negativa dello ione carbossilato è delocalizzata per …… sui due atomi di ossigeno.",
+      "accettate": [
+        "risonanza",
+        "mesomeria"
+      ],
+      "spiegazione": "Nel carbossilato R–COO− le due strutture limite equivalenti distribuiscono la carica negativa su entrambi gli ossigeni: i due legami C–O hanno la stessa lunghezza e l'anione è stabilizzato per risonanza. Nell'alcossido R–O− la carica resta su un solo ossigeno. «Effetto induttivo» spiega le differenze fra acidi carbossilici diversi (es. cloroacetico), non il confronto generale con gli alcoli."
+    },
+    {
+      "id": "u6-0037",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Salificazione",
+      "testo": "La reazione di un acido carbossilico con una base forte, con formazione del sale del corrispondente anione carbossilato, si chiama ……",
+      "accettate": [
+        "salificazione",
+        "neutralizzazione"
+      ],
+      "spiegazione": "R–COOH + NaOH → R–COO− Na+ + H2O: è una salificazione (reazione acido-base di neutralizzazione). Il sale è ionico e più solubile in acqua dell'acido. «Saponificazione» è sbagliato: è l'idrolisi basica di un estere, che produce anch'essa un carbossilato ma parte da un estere, non da un acido."
+    },
+    {
+      "id": "u6-0038",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Reattività dei derivati degli acidi carbossilici",
+      "testo": "Quale sequenza ordina correttamente i derivati degli acidi carbossilici per reattività decrescente verso la sostituzione nucleofila acilica?",
+      "opzioni": [
+        "anidride > tioestere > estere > ammide",
+        "tioestere > anidride > ammide > estere",
+        "estere > anidride > ammide > tioestere",
+        "anidride > estere > tioestere > ammide",
+        "ammide > estere > tioestere > anidride"
+      ],
+      "corretta": 0,
+      "spiegazione": "La reattività dipende dalla capacità del gruppo uscente di staccarsi e da quanto il gruppo legato all'acile stabilizza il carbonile per risonanza. Il carbossilato delle anidridi è un buon gruppo uscente. Lo zolfo dei tioesteri delocalizza poco il suo doppietto sul carbonile. L'ossigeno degli esteri lo delocalizza di più, l'azoto delle ammide moltissimo. Per questo l'acetil-CoA (tioestere) è un buon donatore di acili e il legame peptidico (ammide) è molto stabile.\n\nB) le anidridi superano i tioesteri e le ammidi sono meno reattive degli esteri.\nC) le anidridi sono più reattive degli esteri e i tioesteri non sono i meno reattivi.\nD) scambia esteri e tioesteri: i tioesteri sono più reattivi degli esteri, ed è proprio il motivo del ruolo dell'acetil-CoA.\nE) è la sequenza esattamente invertita: le ammidi sono i derivati meno reattivi."
+    },
+    {
+      "id": "u6-0039",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Tioesteri",
+      "testo": "Nell'acetil-CoA il gruppo acetile è legato al gruppo –SH del coenzima A tramite un legame ……",
+      "accettate": [
+        "tioestere",
+        "tioesterico",
+        "tioesteri"
+      ],
+      "spiegazione": "Il carbossile dell'acetato è condensato con il tiolo del coenzima A: CH3–CO–S–CoA è un tioestere. È un legame ad alta energia di idrolisi, che rende l'acetile facilmente trasferibile. «Estere» è impreciso: negli esteri c'è un ossigeno al posto dello zolfo. «Tioetere» indica R–S–R, senza carbonile."
+    },
+    {
+      "id": "u6-0040",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Sostituzione nucleofila acilica",
+      "testo": "La sostituzione nucleofila acilica sui derivati degli acidi carbossilici procede attraverso:",
+      "opzioni": [
+        "un radicale acilico formato per rottura omolitica del legame C–O",
+        "un'addizione al carbonile senza perdita di alcun gruppo uscente",
+        "un carbocatione planare, come nella sostituzione SN1",
+        "un unico stadio concertato con inversione di configurazione, come nella SN2",
+        "un intermedio tetraedrico, seguito dall'espulsione del gruppo uscente"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il nucleofilo si addiziona al carbonio carbonilico (sp2 → sp3) formando un intermedio tetraedrico; poi il doppio legame C=O si riforma e il gruppo uscente viene espulso. Il risultato netto è la sostituzione di un gruppo legato all'acile con un altro (addizione-eliminazione).\n\nA) le reazioni radicaliche partono da rotture omolitiche; la sostituzione acilica è polare (eterolitica), con un nucleofilo e un elettrofilo.\nB) è l'addizione nucleofila di aldeidi e chetoni, che non hanno un gruppo uscente; nei derivati acilici il gruppo uscente viene espulso e il carbonile si riforma.\nC) è il meccanismo SN1 degli alogenuri alchilici su carbonio sp3; sul carbonio acilico non si forma un carbocatione.\nD) è il meccanismo SN2 sul carbonio sp3; nella sostituzione acilica gli stadi sono due e c'è un intermedio."
+    },
+    {
+      "id": "u6-0041",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Esterificazione di Fischer",
+      "testo": "L'esterificazione di Fischer fra acido acetico ed etanolo:",
+      "opzioni": [
+        "libera acqua il cui ossigeno proviene dall'alcol, non dall'acido",
+        "è irreversibile e viene catalizzata da una base forte come NaOH",
+        "richiede una base forte, che rende l'acido più elettrofilo deprotonandolo",
+        "produce acetato di metile e acqua, con resa praticamente completa",
+        "è un equilibrio catalizzato da acido, spostabile verso l'estere usando alcol in eccesso"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'esterificazione di Fischer (acido + alcol → estere + acqua) è reversibile e richiede un acido forte come catalizzatore, che protona il carbonile e lo rende più elettrofilo. Essendo un equilibrio, la resa in estere aumenta con un eccesso di uno dei reagenti o allontanando l'acqua (principio di Le Châtelier).\n\nA) con l'ossigeno marcato si dimostra il contrario: l'ossigeno dell'acqua viene dal gruppo –OH dell'acido, mentre l'ossigeno dell'alcol resta nell'estere.\nB) è irreversibile e basica la saponificazione, cioè la reazione inversa (idrolisi dell'estere); la base trasformerebbe l'acido in carbossilato, che non reagisce con l'alcol.\nC) deprotonando l'acido si forma il carbossilato, carico negativamente e meno elettrofilo; il catalizzatore è un acido.\nD) con l'etanolo si ottiene acetato di etile; inoltre la resa è limitata dall'equilibrio."
+    },
+    {
+      "id": "u6-0042",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Esterificazione di Fischer",
+      "testo": "L'estere che si forma dall'acido acetico e dall'etanolo si chiama acetato di ……",
+      "accettate": [
+        "etile"
+      ],
+      "spiegazione": "Nel nome degli esteri la prima parte deriva dall'acido (acetato, o etanoato) e la seconda dal gruppo alchilico dell'alcol (etile): CH3COOCH2CH3, acetato di etile. «Metile» è l'errore di chi assegna all'alcol il nome del gruppo acetile o conta male i carboni."
+    },
+    {
+      "id": "u6-0043",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Idrolisi degli esteri",
+      "testo": "L'idrolisi basica di un estere, resa irreversibile dalla formazione dello ione carbossilato, si chiama ……",
+      "accettate": [
+        "saponificazione"
+      ],
+      "spiegazione": "Estere + OH− → carbossilato + alcol. Il carbossilato, carico negativamente, non viene attaccato dall'alcol, e la reazione non torna indietro. Il nome viene dalla preparazione dei saponi per idrolisi basica dei trigliceridi. «Esterificazione» è la reazione inversa; la «transesterificazione» scambia il gruppo alcolico di un estere con quello di un altro alcol."
+    },
+    {
+      "id": "u6-0044",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Condensazione di Claisen",
+      "testo": "La condensazione di Claisen fra due molecole di acetato di etile produce, oltre a etanolo:",
+      "opzioni": [
+        "acido acetoacetico libero, per idrolisi dell'estere",
+        "un β-chetoestere, l'acetoacetato di etile",
+        "un β-idrossiestere, il 3-idrossibutanoato di etile",
+        "un estere α,β-insaturo, il 2-butenoato di etile",
+        "anidride acetica, per unione dei due gruppi acile"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'enolato di un estere attacca il carbonile di un secondo estere (sostituzione nucleofila acilica) ed espelle un alcossido: si forma un β-chetoestere, CH3–CO–CH2–COOCH2CH3. In biochimica la stessa reazione fra due acetil-CoA (tioesteri) dà acetoacetil-CoA.\n\nA) nella Claisen il gruppo estere del prodotto resta intatto; l'acido libero si otterrebbe solo con un'idrolisi successiva.\nC) un ossidrile in β è tipico del prodotto aldolico (addizione al carbonile di un'aldeide); nella Claisen il gruppo alcossido viene espulso e il carbonio resta carbonilico.\nD) è il prodotto di una disidratazione dopo un'addizione aldolica, non di una Claisen.\nE) l'anidride non si forma da due esteri; nella Claisen si forma un legame C–C, non un legame C–O–C fra due acili."
+    },
+    {
+      "id": "u6-0045",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Lattoni",
+      "testo": "Un estere ciclico, formato per esterificazione intramolecolare di un idrossiacido, si chiama ……",
+      "accettate": [
+        "lattone",
+        "lattoni"
+      ],
+      "spiegazione": "Quando l'–OH e il –COOH appartengono alla stessa molecola, l'esterificazione chiude un anello: si forma un lattone (es. γ-butirrolattone). L'analogo ciclico di un'ammide è un «lattame»: è la confusione da evitare. «Lattato» è il sale dell'acido lattico."
+    },
+    {
+      "id": "u6-0046",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Decarbossilazione dei chetoacidi",
+      "testo": "Quale dei seguenti composti perde CO2 più facilmente per semplice riscaldamento, senza enzimi?",
+      "opzioni": [
+        "acido acetoacetico",
+        "acido propanoico",
+        "acido acetico",
+        "acido piruvico",
+        "acido lattico"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'acido acetoacetico (CH3–CO–CH2–COOH) è un β-chetoacido: il carbonile in β permette la decarbossilazione attraverso uno stato di transizione ciclico, con formazione di un enolo che tautomerizza ad acetone. È la via per cui, in chetosi, si forma acetone dall'acetoacetato.\n\nB) come l'acetico, non ha un carbonile in β e non perde CO2 facilmente.\nC) acido semplice, privo di gruppi che stabilizzino l'intermedio: non decarbossila per semplice riscaldamento.\nD) è un α-chetoacido: il carbonile è adiacente al carbossile, non in β, e la decarbossilazione non è spontanea. In vivo richiede enzimi e tiamina pirofosfato. Confondere α- e β-chetoacidi è l'errore tipico.\nE) è un α-idrossiacido, senza carbonile chetonico che favorisca la perdita di CO2."
+    },
+    {
+      "id": "u6-0047",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Idrolisi delle ammidi",
+      "testo": "L'idrolisi di un'ammide N-sostituita, R–CO–NH–R', produce un acido carbossilico e un'……",
+      "accettate": [
+        "ammina",
+        "ammine"
+      ],
+      "spiegazione": "Si rompe il legame C–N: il gruppo acilico diventa un acido carbossilico (o il suo anione) e l'azoto, con il suo sostituente, si libera come ammina R'–NH2 (o come ione ammonio in ambiente acido). È la reazione che scinde il legame peptidico. «Alcol» è il prodotto dell'idrolisi degli esteri, non delle ammidi."
+    },
+    {
+      "id": "u6-0048",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Isomeria di gruppo funzionale",
+      "testo": "Quale dei seguenti composti è un isomero di funzione dell'etanolo, C2H6O?",
+      "opzioni": [
+        "dimetiletere",
+        "etanale",
+        "ossido di etilene",
+        "metanolo",
+        "1,2-etandiolo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Gli isomeri di funzione hanno la stessa formula molecolare ma gruppi funzionali diversi. Il dimetiletere, CH3–O–CH3, ha formula C2H6O come l'etanolo, ma è un etere invece che un alcol.\n\nB) CH3CHO ha formula C2H4O: due idrogeni in meno, quindi non è un isomero.\nC) l'epossietano ha formula C2H4O: è un etere ciclico, ma ha due idrogeni in meno dell'etanolo.\nD) CH3OH, CH4O: un carbonio in meno. Appartiene alla stessa classe (alcoli), non è un isomero.\nE) HOCH2–CH2OH ha formula C2H6O2: un ossigeno in più."
+    },
+    {
+      "id": "u6-0049",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Isomeria di gruppo funzionale",
+      "testo": "Propanale e propanone hanno entrambi formula C3H6O. Sono fra loro:",
+      "opzioni": [
+        "forme limite di risonanza dello stesso composto",
+        "conformeri, che si interconvertono per rotazione attorno al C–C",
+        "isomeri di struttura con gruppo funzionale diverso",
+        "tautomeri, in equilibrio fra loro tramite la forma enolica",
+        "enantiomeri, perché immagini speculari non sovrapponibili"
+      ],
+      "corretta": 2,
+      "spiegazione": "Hanno la stessa formula molecolare ma una connettività diversa: nel propanale il carbonile è terminale (aldeide), nel propanone è sul carbonio centrale (chetone). Sono isomeri costituzionali, in particolare di gruppo funzionale.\n\nA) le forme limite differiscono solo per la distribuzione degli elettroni, non per la posizione di atomi; propanale e propanone sono composti distinti e isolabili.\nB) i conformeri sono la stessa molecola in disposizioni diverse ottenute per rotazione; qui i legami sono diversi.\nD) i tautomeri si interconvertono spontaneamente per spostamento di un H; il tautomero del propanone è il propen-2-olo, non il propanale. Propanale e propanone non sono in equilibrio fra loro.\nE) gli enantiomeri hanno la stessa connettività; nessuno dei due composti, inoltre, è chirale."
+    },
+    {
+      "id": "u6-0050",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Isomeria di gruppo funzionale",
+      "testo": "Composti con la stessa formula molecolare ma gruppi funzionali diversi, come l'acido propanoico e l'acetato di metile (C3H6O2), sono isomeri di ……",
+      "accettate": [
+        "funzione",
+        "gruppo funzionale",
+        "funzionale"
+      ],
+      "spiegazione": "Acido propanoico (CH3CH2COOH) e acetato di metile (CH3COOCH3) hanno la stessa formula C3H6O2 ma appartengono a classi diverse: sono isomeri di funzione. «Posizione» indica lo stesso gruppo in posizioni diverse della catena (1- e 2-propanolo); «catena» indica scheletri carboniosi diversi con lo stesso gruppo funzionale."
+    },
+    {
+      "id": "u6-0051",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Riconoscimento dei gruppi funzionali",
+      "testo": "Il gruppo funzionale –SH, presente nei tioli come la cisteina e il glutatione, si chiama gruppo ……",
+      "accettate": [
+        "tiolico",
+        "sulfidrilico",
+        "solfidrilico",
+        "mercapto",
+        "mercaptanico",
+        "tiolo",
+        "sulfidrile",
+        "solfidrile"
+      ],
+      "spiegazione": "–SH è il gruppo tiolico (o sulfidrilico, mercapto): l'analogo solforato dell'ossidrile –OH. «Ossidrilico» è il gruppo –OH degli alcoli; «tioetere» indica il gruppo –S– fra due carboni, come nella metionina."
+    }
+  ]
+}

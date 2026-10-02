@@ -138,7 +138,10 @@ def valida_materia(base, voce, errori, avvisi):
                 if len(opz[c]) == max(len(o) for o in opz):
                     piu_lunga += 1
                 sp = q.get("spiegazione", "")
-                citate = set(re.findall(r"(?<![A-Za-z0-9(\[])([A-E])\)", sp))
+                # una citazione di distrattore apre un capoverso o segue uno
+                # spazio: pretenderlo evita i falsi positivi di «V_B)» e
+                # «(circa 60 °C)», dove la lettera fa parte di un simbolo.
+                citate = set(re.findall(r"(?:^|(?<=[\s«\"'(\[]))([A-E])\)", sp))
                 distr = {LETTERE[k] for k in range(len(opz))} - {LETTERE[c]}
                 if LETTERE[c] in citate:
                     errori.append(f"{dove}: la spiegazione cita la lettera della risposta corretta")

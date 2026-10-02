@@ -1,0 +1,747 @@
+{
+  "lotto": "biologia-u6-02",
+  "unita": "u6",
+  "generato": "2026-10-02",
+  "domande": [
+    {
+      "id": "u6-0051",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Matrice extracellulare: acido ialuronico",
+      "testo": "L'acido ialuronico si distingue dagli altri glicosamminoglicani perché:",
+      "opzioni": [
+        "è privo di cariche negative e quindi non trattiene l'acqua",
+        "è sintetizzato nel reticolo endoplasmatico e secreto per esocitosi",
+        "è il componente principale della rete della lamina basale",
+        "non è solfatato e non è legato in modo covalente a una proteina",
+        "è formato da monosaccaridi riuniti in catene molto ramificate"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'acido ialuronico è un glicosamminoglicano molto lungo, privo di gruppi solfato e non legato covalentemente a una proteina core. Viene sintetizzato da enzimi della membrana plasmatica ed estruso direttamente all'esterno. Trattiene grandi quantità d'acqua e occupa spazio nella matrice, per esempio nei tessuti embrionali e nel liquido sinoviale.\n\nA) Le cariche negative ci sono: derivano dai gruppi carbossilici dell'acido glucuronico, e l'acido ialuronico trattiene moltissima acqua.\nB) È proprio l'eccezione: viene sintetizzato sulla membrana plasmatica, non lungo la via secretoria.\nC) La rete della lamina basale è formata soprattutto da collagene di tipo IV e laminina.\nE) Come tutti i glicosamminoglicani è una catena non ramificata di unità disaccaridiche ripetute."
+    },
+    {
+      "id": "u6-0052",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Matrice extracellulare: la lamina basale",
+      "testo": "Il collagene che non forma fibrille ma una rete, ed è un componente caratteristico della lamina basale, è il collagene di tipo ……",
+      "accettate": [
+        "iv",
+        "4",
+        "quarto"
+      ],
+      "spiegazione": "Il collagene di tipo IV conserva domini non elicoidali che gli permettono di associarsi in una rete bidimensionale, anziché in fibrille. Insieme alla laminina forma lo scheletro della lamina basale.\n\nI collageni fibrillari più comuni sono invece di tipo I (pelle, osso, tendini), II (cartilagine) e III."
+    },
+    {
+      "id": "u6-0053",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Matrice extracellulare: la lamina basale",
+      "testo": "La principale glicoproteina adesiva della lamina basale, formata da tre catene polipeptidiche disposte a croce, si chiama ……",
+      "accettate": [
+        "laminina",
+        "laminine"
+      ],
+      "spiegazione": "La laminina è un eterotrimero di catene α, β e γ. Si autoassembla in una rete che si collega a quella del collagene di tipo IV e lega le integrine delle cellule epiteliali, fra cui l'integrina degli emidesmosomi.\n\nNon confonderla con le lamìne, proteine dei filamenti intermedi della lamina nucleare."
+    },
+    {
+      "id": "u6-0054",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Degradazione della matrice extracellulare",
+      "testo": "Le proteine prodotte dai tessuti che inibiscono le metalloproteasi della matrice sono indicate con la sigla ……",
+      "accettate": [
+        "timp",
+        "timps",
+        "inibitori tissutali delle metalloproteasi",
+        "inibitori tissutali delle metalloproteinasi",
+        "inibitori tissutali delle metalloproteasi della matrice",
+        "inibitori tissutali delle metalloproteinasi della matrice"
+      ],
+      "spiegazione": "TIMP sta per Tissue Inhibitors of MetalloProteinases. Il bilancio fra metalloproteasi attive e loro inibitori determina quanto la matrice viene rimodellata. Lo spostamento del bilancio verso la degradazione favorisce la migrazione e l'invasione cellulare."
+    },
+    {
+      "id": "u6-0055",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Degradazione della matrice extracellulare",
+      "testo": "Una degradazione eccessiva della matrice extracellulare da parte delle metalloproteasi favorisce:",
+      "opzioni": [
+        "l'accumulo di collagene nei tessuti, cioè la fibrosi",
+        "la formazione di giunzioni occludenti più strette fra le cellule",
+        "l'aumento dell'adesione delle cellule epiteliali alla lamina basale",
+        "la sintesi di nuova fibronectina da parte dei fibroblasti",
+        "l'invasione dei tessuti circostanti da parte delle cellule tumorali"
+      ],
+      "corretta": 4,
+      "spiegazione": "Per invadere i tessuti e raggiungere i vasi le cellule tumorali devono aprirsi un varco nella matrice e nella lamina basale. Molti tumori aumentano la produzione di metalloproteasi o riducono quella dei loro inibitori.\n\nA) La fibrosi deriva dal prevalere della deposizione di matrice sulla sua degradazione, cioè dalla situazione opposta.\nB) Le metalloproteasi agiscono sulla matrice extracellulare e non promuovono la formazione di giunzioni fra cellule.\nC) Degradare la lamina basale riduce i punti di ancoraggio, non li aumenta.\nD) La degradazione della matrice non equivale alla sintesi dei suoi componenti, che è un processo distinto."
+    },
+    {
+      "id": "u6-0056",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Integrine: segnalazione bidirezionale",
+      "testo": "Il legame di un'integrina alla matrice può generare segnali all'interno della cellula perché:",
+      "opzioni": [
+        "le integrine raggruppate reclutano e attivano chinasi citosoliche",
+        "la coda citosolica dell'integrina ha attività tirosin-chinasica intrinseca",
+        "l'integrina attiva direttamente una proteina G trimerica in membrana",
+        "l'integrina si stacca dalla membrana e agisce nel nucleo sui geni",
+        "l'integrina contiene un dominio ciclasico che produce cAMP"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le integrine non hanno attività enzimatica propria. Quando si raggruppano legando la matrice, le loro code citosoliche reclutano proteine adattatrici e chinasi citosoliche, fra cui una tirosin-chinasi specifica delle adesioni focali, che avviano vie di segnalazione (segnalazione outside-in).\n\nB) È l'errore più comune: le integrine non sono recettori tirosin-chinasici, le chinasi coinvolte sono proteine distinte reclutate dal recettore.\nC) L'attivazione diretta di proteine G trimeriche è propria dei recettori a sette passaggi transmembrana.\nD) Le integrine restano in membrana; sono i segnali a valle che possono raggiungere il nucleo.\nE) Le integrine non hanno domini enzimatici, tanto meno ciclasici."
+    },
+    {
+      "id": "u6-0057",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Integrine: segnalazione bidirezionale",
+      "testo": "Poiché il legame del ligando genera segnali verso l'interno della cellula e, viceversa, segnali intracellulari modificano l'affinità del recettore, la segnalazione delle integrine si definisce ……",
+      "accettate": [
+        "bidirezionale",
+        "bidirezionali"
+      ],
+      "spiegazione": "Le due direzioni hanno nomi propri: outside-in quando il legame della matrice attiva segnali nel citosol, inside-out quando proteine intracellulari come la talina portano l'integrina nella conformazione ad alta affinità.\n\nÈ una proprietà che distingue le integrine dalla maggior parte dei recettori, che trasmettono il segnale solo dall'esterno verso l'interno."
+    },
+    {
+      "id": "u6-0058",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "La fibronectina",
+      "testo": "L'assemblaggio della fibronectina in fibrille sulla superficie delle cellule richiede:",
+      "opzioni": [
+        "il taglio proteolitico da parte delle metalloproteasi della matrice",
+        "la polimerizzazione spontanea nel plasma, senza intervento cellulare",
+        "il legame alle integrine e la tensione del citoscheletro di actina",
+        "il legame alle caderine e la tensione generata dai filamenti intermedi",
+        "la glicosilazione della molecola nel lume dell'apparato di Golgi"
+      ],
+      "corretta": 2,
+      "spiegazione": "La fibronectina solubile, per esempio quella plasmatica, non forma fibrille da sola. Le cellule la legano con le integrine e la stirano grazie alla tensione dell'actina: lo stiramento espone siti di legame nascosti che permettono alle molecole di associarsi fra loro. È un esempio di come la tensione meccanica governi l'organizzazione della matrice.\n\nA) Le metalloproteasi degradano la matrice; l'assemblaggio delle fibrille non passa per un taglio proteolitico.\nB) La fibronectina plasmatica circola in forma solubile proprio perché, senza le cellule, non polimerizza.\nD) Le caderine mediano adesioni fra cellule e non legano la fibronectina.\nE) La fibronectina è glicosilata lungo la via secretoria, ma l'assemblaggio in fibrille avviene fuori dalla cellula."
+    },
+    {
+      "id": "u6-0059",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Adesioni focali e meccanotrasduzione",
+      "testo": "La tirosin-chinasi citosolica reclutata e attivata nelle adesioni focali dopo il legame delle integrine alla matrice è indicata con la sigla ……",
+      "accettate": [
+        "fak",
+        "focal adhesion kinase",
+        "chinasi delle adesioni focali",
+        "chinasi di adesione focale",
+        "chinasi dell adesione focale"
+      ],
+      "spiegazione": "FAK (Focal Adhesion Kinase) si associa alle code delle integrine raggruppate, si autofosforila su tirosina e diventa un sito di aggancio per altre proteine di segnalazione, fra cui chinasi della famiglia Src. Da qui partono segnali che regolano sopravvivenza, proliferazione e migrazione in funzione dell'adesione alla matrice."
+    },
+    {
+      "id": "u6-0060",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Adesioni focali e meccanotrasduzione",
+      "testo": "La conversione di uno stimolo meccanico, come la tensione trasmessa dalla matrice attraverso le integrine, in una risposta biochimica della cellula si chiama ……",
+      "accettate": [
+        "meccanotrasduzione",
+        "mecanotrasduzione"
+      ],
+      "spiegazione": "Nella meccanotrasduzione la forza trasmessa attraverso integrine, adesioni focali e actina modifica la conformazione di proteine sensibili alla tensione, esponendo siti di legame o di fosforilazione. Le cellule possono così percepire la rigidità della matrice su cui poggiano e modificare forma, migrazione ed espressione genica."
+    },
+    {
+      "id": "u6-0061",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Caderine",
+      "testo": "Nelle cellule di un carcinoma la perdita dell'E-caderina favorisce:",
+      "opzioni": [
+        "l'aumento dell'adesione reciproca fra le cellule epiteliali",
+        "la formazione di nuove giunzioni comunicanti fra le cellule",
+        "il blocco della migrazione delle cellule tumorali",
+        "il distacco delle cellule e la loro capacità di invadere",
+        "un ancoraggio più forte alla lamina basale tramite caderine"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'E-caderina tiene unite le cellule epiteliali nelle giunzioni aderenti. Se viene persa, le cellule si staccano più facilmente le une dalle altre e possono migrare: è uno dei passaggi che permettono a un tumore epiteliale di diventare invasivo.\n\nA) L'effetto è opposto: meno caderine significa meno adesione fra cellule.\nB) Le giunzioni comunicanti sono formate da connessine; la perdita di caderine non ne promuove la formazione.\nC) La perdita di adesione fra cellule facilita la migrazione, non la impedisce.\nE) Le caderine non mediano l'ancoraggio alla lamina basale, compito delle integrine."
+    },
+    {
+      "id": "u6-0062",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Molecole di adesione cellulare (CAM)",
+      "testo": "Le selectine:",
+      "opzioni": [
+        "legano molecole identiche sulla cellula vicina senza bisogno di calcio",
+        "legano carboidrati di altre cellule in modo calcio-dipendente",
+        "ancorano la cellula alla fibronectina della matrice extracellulare",
+        "formano canali che collegano i citoplasmi di cellule adiacenti",
+        "collegano i filamenti intermedi di due cellule adiacenti fra loro"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le selectine sono proteine di adesione che riconoscono specifici oligosaccaridi esposti da un'altra cellula; il legame richiede Ca2+. Mediano adesioni transitorie, come il rotolamento dei leucociti sull'endotelio dei vasi infiammati, prima che le integrine ne determinino l'arresto.\n\nA) Questa è una caratteristica delle CAM della superfamiglia delle immunoglobuline, come N-CAM.\nC) L'ancoraggio alla fibronectina è mediato dalle integrine.\nD) I canali fra citoplasmi sono quelli delle giunzioni comunicanti, formati da connessine.\nE) Questo collegamento è proprio dei desmosomi."
+    },
+    {
+      "id": "u6-0063",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Riconoscimento cellulare",
+      "testo": "Il legame fra due molecole di adesione dello stesso tipo, esposte da due cellule diverse, si definisce ……",
+      "accettate": [
+        "omofilico",
+        "omofilica",
+        "omofilo",
+        "omofila",
+        "legame omofilico",
+        "adesione omofilica"
+      ],
+      "spiegazione": "Le caderine classiche formano soprattutto legami omofilici: una E-caderina lega una E-caderina, una N-caderina una N-caderina. È uno dei meccanismi con cui cellule dello stesso tipo si riconoscono e si separano da altre durante la formazione dei tessuti.\n\nIl legame fra molecole diverse, come selectina-carboidrato o integrina-fibronectina, si dice eterofilico."
+    },
+    {
+      "id": "u6-0064",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Giunzioni occludenti",
+      "testo": "Le giunzioni occludenti di un epitelio impediscono soprattutto:",
+      "opzioni": [
+        "il passaggio di soluti attraverso le cellule, per via transcellulare",
+        "la comunicazione diretta fra i citoplasmi di cellule vicine",
+        "il passaggio di soluti fra le cellule, per via paracellulare",
+        "il distacco delle cellule dalla lamina basale sottostante",
+        "la deformazione del tessuto sotto uno stress meccanico"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le giunzioni occludenti sigillano lo spazio fra cellule adiacenti: i soluti non possono passare fra le cellule e devono attraversarle, per via transcellulare, tramite trasportatori e canali regolati. La tenuta varia da un epitelio all'altro in base alle claudine espresse.\n\nA) La via transcellulare è proprio quella che resta disponibile, attraverso trasportatori e canali.\nB) La comunicazione fra citoplasmi è mediata dalle giunzioni comunicanti; le occludenti non la bloccano.\nD) L'ancoraggio alla lamina basale è compito degli emidesmosomi e delle adesioni focali.\nE) La resistenza allo stress meccanico è affidata soprattutto a desmosomi e filamenti intermedi."
+    },
+    {
+      "id": "u6-0065",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Giunzioni occludenti",
+      "testo": "Nelle cellule epiteliali le giunzioni occludenti occupano la posizione più …… del complesso giunzionale, al confine fra i due domini della membrana.",
+      "accettate": [
+        "apicale"
+      ],
+      "spiegazione": "Dall'alto verso il basso il complesso giunzionale degli epiteli comprende giunzioni occludenti, giunzioni aderenti (zonula adherens) e desmosomi. La posizione apicale delle giunzioni occludenti è coerente con la loro funzione di confine fra dominio apicale e basolaterale."
+    },
+    {
+      "id": "u6-0066",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Giunzioni aderenti",
+      "testo": "Nelle giunzioni aderenti la proteina citosolica che lega direttamente la coda della caderina e a sua volta si associa all'α-catenina è la ……",
+      "accettate": [
+        "beta-catenina",
+        "beta catenina",
+        "betacatenina",
+        "catenina beta"
+      ],
+      "spiegazione": "La catena di collegamento è caderina, β-catenina, α-catenina, actina. L'α-catenina non lega direttamente la caderina: lo fa tramite la β-catenina.\n\nNei desmosomi un ruolo analogo è svolto dalla placoglobina, nota anche come γ-catenina."
+    },
+    {
+      "id": "u6-0067",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Desmosomi",
+      "testo": "Nei desmosomi le caderine desmosomiali (desmogleine e desmocolline) si collegano ai filamenti intermedi tramite:",
+      "opzioni": [
+        "catenine α e β, come nelle giunzioni aderenti",
+        "talina e vinculina, come accade nelle adesioni focali",
+        "la plectina, come negli emidesmosomi",
+        "connessine organizzate in connessoni",
+        "proteine di placca come placoglobina e desmoplachina"
+      ],
+      "corretta": 4,
+      "spiegazione": "Sul versante citosolico dei desmosomi si forma una placca densa: placoglobina e placofilina legano le code delle caderine desmosomiali, la desmoplachina lega i filamenti intermedi. Il risultato è una rete di filamenti intermedi continua fra le cellule del tessuto.\n\nA) Le catenine α e β collegano le caderine classiche all'actina nelle giunzioni aderenti.\nB) Talina e vinculina collegano le integrine all'actina nelle adesioni focali.\nC) La plectina collega l'integrina degli emidesmosomi ai filamenti intermedi, non le caderine desmosomiali.\nD) Le connessine formano i canali delle giunzioni comunicanti e non hanno funzione di ancoraggio."
+    },
+    {
+      "id": "u6-0068",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Emidesmosomi",
+      "testo": "Negli emidesmosomi la proteina di collegamento che unisce l'integrina ai filamenti intermedi di cheratina è la ……",
+      "accettate": [
+        "plectina"
+      ],
+      "spiegazione": "La plectina è una grande proteina di collegamento del citoscheletro, capace di unire i filamenti intermedi sia a proteine di membrana come l'integrina α6β4 sia ad altri elementi del citoscheletro.\n\nNei desmosomi lo stesso ruolo di ancoraggio dei filamenti intermedi è svolto dalla desmoplachina."
+    },
+    {
+      "id": "u6-0069",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Desmosomi ed emidesmosomi",
+      "testo": "Desmosomi ed emidesmosomi sono particolarmente abbondanti:",
+      "opzioni": [
+        "nei neuroni, dove trasmettono l'impulso fra cellule adiacenti",
+        "negli eritrociti, che ne hanno bisogno per attraversare i capillari",
+        "nell'endotelio cerebrale, dove formano la barriera ematoencefalica",
+        "nel connettivo lasso, dove ancorano i fibroblasti fra loro",
+        "negli epiteli soggetti a stress meccanico, come l'epidermide"
+      ],
+      "corretta": 4,
+      "spiegazione": "Desmosomi ed emidesmosomi ancorano i filamenti intermedi, i più resistenti alla trazione fra gli elementi del citoscheletro: per questo abbondano nei tessuti sottoposti a sollecitazioni meccaniche, come l'epidermide e il muscolo cardiaco. Difetti genetici o autoimmuni di queste giunzioni causano malattie bollose della cute.\n\nA) La trasmissione elettrica diretta fra cellule passa per le giunzioni comunicanti.\nB) Gli eritrociti circolano isolati e non formano giunzioni con altre cellule.\nC) La barriera ematoencefalica dipende soprattutto dalle giunzioni occludenti.\nD) Nel connettivo le cellule sono disperse nella matrice e si ancorano soprattutto a essa, con le integrine."
+    },
+    {
+      "id": "u6-0070",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Giunzioni comunicanti",
+      "testo": "Ciascuno dei due emicanali che formano una giunzione comunicante, costituito da sei connessine, si chiama ……",
+      "accettate": [
+        "connessone",
+        "connessoni"
+      ],
+      "spiegazione": "Ogni cellula contribuisce con un connessone; l'allineamento di due connessoni di cellule adiacenti forma il canale completo. I connessoni possono essere formati da connessine uguali o diverse e possono chiudersi, per esempio quando il Ca2+ citosolico sale molto, isolando una cellula danneggiata."
+    },
+    {
+      "id": "u6-0071",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Giunzioni comunicanti",
+      "testo": "Nel muscolo cardiaco le giunzioni comunicanti servono a:",
+      "opzioni": [
+        "ancorare fra loro i filamenti intermedi di cellule adiacenti",
+        "propagare rapidamente la depolarizzazione fra cellule adiacenti",
+        "sigillare lo spazio intercellulare impedendo il passaggio di ioni",
+        "trasferire mitocondri da una cellula all'altra durante lo sforzo",
+        "trasmettere il segnale tramite il rilascio di un neurotrasmettitore"
+      ],
+      "corretta": 1,
+      "spiegazione": "Attraverso le giunzioni comunicanti gli ioni passano direttamente da una cellula muscolare cardiaca alla successiva: la depolarizzazione si propaga in modo rapido e coordinato e il miocardio si contrae come un'unità funzionale.\n\nA) L'ancoraggio dei filamenti intermedi è compito dei desmosomi, presenti anch'essi nei dischi intercalari.\nC) Sigillare lo spazio fra le cellule è la funzione delle giunzioni occludenti.\nD) Il canale lascia passare solo piccole molecole, non organelli.\nE) Questo descrive una sinapsi chimica; le giunzioni comunicanti formano sinapsi elettriche, senza neurotrasmettitore."
+    },
+    {
+      "id": "u6-0072",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Tipi di segnalazione",
+      "testo": "Quale fra i seguenti è un esempio di segnalazione endocrina?",
+      "opzioni": [
+        "L'insulina secreta dal pancreas che agisce sul muscolo scheletrico",
+        "L'acetilcolina rilasciata alla giunzione neuromuscolare",
+        "L'istamina rilasciata dai mastociti che agisce sui vasi vicini",
+        "L'interleuchina 2 che stimola il linfocita T che l'ha prodotta",
+        "Delta esposto da una cellula che attiva Notch sulla cellula adiacente"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'insulina viene rilasciata nel sangue dalle cellule β delle isole pancreatiche e raggiunge bersagli lontani come muscolo, fegato e tessuto adiposo: è il caso tipico della segnalazione endocrina.\n\nB) È segnalazione sinaptica: il neurotrasmettitore agisce su una sola cellula, a distanza minima.\nC) È segnalazione paracrina: l'effetto è locale, sulle cellule circostanti.\nD) È segnalazione autocrina: la cellula risponde al segnale che ha secreto.\nE) È segnalazione da contatto: segnale e recettore sono entrambi legati alla membrana."
+    },
+    {
+      "id": "u6-0073",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Tipi di segnalazione",
+      "testo": "La segnalazione in cui un neurone rilascia un neurotrasmettitore in uno spazio ristretto, a ridosso di una sola cellula bersaglio, si chiama segnalazione ……",
+      "accettate": [
+        "sinaptica"
+      ],
+      "spiegazione": "Nella segnalazione sinaptica il neurotrasmettitore percorre una distanza minima, la fessura sinaptica, e agisce solo sulla cellula postsinaptica. Il segnale è preciso nello spazio e rapidissimo, anche se il neurone può raggiungere cellule molto lontane dal corpo cellulare tramite il suo assone.\n\nNella segnalazione endocrina, al contrario, il segnale si diffonde attraverso il sangue a tutto l'organismo."
+    },
+    {
+      "id": "u6-0074",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Recettori di membrana e intracellulari",
+      "testo": "Perché una molecola segnale possa legarsi a un recettore intracellulare deve, di norma, essere:",
+      "opzioni": [
+        "abbastanza piccola e idrofobica da attraversare la membrana",
+        "una proteina di grandi dimensioni secreta per esocitosi",
+        "fortemente carica, per potersi legare al DNA nel nucleo",
+        "idrosolubile, per diffondere nel citosol dopo l'endocitosi",
+        "un gas che agisce soltanto su recettori accoppiati a proteine G"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il doppio strato lipidico è permeabile alle molecole piccole e idrofobiche, come gli ormoni steroidei. Le molecole idrosolubili o di grandi dimensioni non lo attraversano e devono agire su recettori esposti sulla superficie cellulare.\n\nB) Una proteina non attraversa il doppio strato e agisce su recettori di membrana.\nC) Una molecola fortemente carica non attraversa il doppio strato; inoltre è il recettore, non l'ormone, a legare il DNA.\nD) Le molecole idrosolubili agiscono su recettori di superficie; l'endocitosi non serve a portarle ai recettori intracellulari.\nE) Il gas di segnalazione tipico, l'NO, agisce su un enzima citosolico, non su recettori di membrana."
+    },
+    {
+      "id": "u6-0075",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Recettori intracellulari: ormoni lipidici",
+      "testo": "Gli ormoni tiroidei, pur non essendo steroidi, agiscono come questi legandosi a un recettore ……",
+      "accettate": [
+        "intracellulare",
+        "intracellulari",
+        "nucleare",
+        "nucleari"
+      ],
+      "spiegazione": "I recettori degli ormoni tiroidei appartengono alla stessa superfamiglia dei recettori degli ormoni steroidei: si trovano nel nucleo, legano il DNA e agiscono come fattori di trascrizione.\n\nGli ormoni tiroidei derivano dall'amminoacido tirosina, eppure non agiscono su recettori di membrana come le altre ammine (per esempio l'adrenalina)."
+    },
+    {
+      "id": "u6-0076",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Elementi della trasduzione del segnale",
+      "testo": "In una via di trasduzione, la proteina che riconosce la molecola segnale extracellulare e genera un segnale all'interno della cellula è:",
+      "opzioni": [
+        "il secondo messaggero",
+        "la proteina effettrice",
+        "il fattore di trascrizione",
+        "il recettore",
+        "la proteina adattatrice"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il recettore è l'elemento che riconosce in modo specifico la molecola segnale. Con il legame cambia conformazione e avvia gli eventi intracellulari: attivazione di proteine G, di chinasi o apertura di canali.\n\nA) Il secondo messaggero è prodotto all'interno della cellula a valle del recettore e non riconosce il segnale extracellulare.\nB) La proteina effettrice è alla fine della via ed esegue la risposta.\nC) Il fattore di trascrizione è un possibile bersaglio finale della via, nel nucleo.\nE) La proteina adattatrice collega fra loro componenti della via a valle del recettore, senza legare il segnale extracellulare."
+    },
+    {
+      "id": "u6-0077",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Elementi della trasduzione del segnale",
+      "testo": "Le proteine che, alla fine di una via di trasduzione, eseguono la risposta della cellula (per esempio un enzima metabolico, un canale ionico o una proteina del citoscheletro) si chiamano proteine ……",
+      "accettate": [
+        "effettrici",
+        "effettrice",
+        "effettori",
+        "effettore"
+      ],
+      "spiegazione": "Lo schema generale di una via di segnalazione comprende la molecola segnale, il recettore, proteine intracellulari di trasduzione e amplificazione (proteine G, chinasi, secondi messaggeri) e le proteine effettrici, che modificano il comportamento della cellula.\n\nIl termine «effettore» è usato anche per gli enzimi regolati direttamente dalle proteine G, come l'adenilato ciclasi e la fosfolipasi C."
+    },
+    {
+      "id": "u6-0078",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Recettori accoppiati a canali ionici",
+      "testo": "Nei recettori accoppiati a canali ionici il legame del neurotrasmettitore:",
+      "opzioni": [
+        "attiva una proteina G che poi apre un canale distinto",
+        "attiva una chinasi che fosforila il canale e lo apre",
+        "produce cAMP, che diffonde fino al canale e lo apre",
+        "apre direttamente il canale, che fa parte del recettore stesso",
+        "provoca l'endocitosi del recettore e lo spegnimento del segnale"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il recettore e il canale sono la stessa molecola: il legame del ligando provoca un cambio di conformazione che apre il poro. Per questo la risposta è rapidissima, nell'ordine dei millisecondi.\n\nA) Questo è il meccanismo indiretto dei recettori accoppiati a proteine G, più lento.\nB) La fosforilazione può modulare i canali, ma nei recettori-canale l'apertura dipende dal solo legame del ligando.\nC) La produzione di un secondo messaggero richiede passaggi intermedi assenti in questi recettori.\nE) L'endocitosi è un meccanismo di attenuazione del segnale, non di trasduzione."
+    },
+    {
+      "id": "u6-0079",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Recettori accoppiati a canali ionici",
+      "testo": "Il recettore nicotinico dell'acetilcolina, una volta aperto, lascia entrare nella cellula muscolare soprattutto ioni ……",
+      "accettate": [
+        "sodio",
+        "na",
+        "ione sodio",
+        "ioni sodio"
+      ],
+      "spiegazione": "Il recettore nicotinico è un canale cationico poco selettivo, ma nelle condizioni di riposo la forza che spinge il Na+ verso l'interno è nettamente maggiore di quella che spinge il K+ verso l'esterno. L'ingresso netto di Na+ depolarizza la membrana della fibra muscolare."
+    },
+    {
+      "id": "u6-0080",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Proteine G trimeriche",
+      "testo": "La subunità αi di una proteina G trimerica attivata:",
+      "opzioni": [
+        "stimola l'adenilato ciclasi e aumenta il cAMP",
+        "attiva la fosfolipasi C e aumenta l'IP3",
+        "attiva la fosfodiesterasi del cGMP",
+        "fosforila il recettore e lo desensitizza",
+        "inibisce l'adenilato ciclasi e riduce il cAMP"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le subunità α si distinguono per il bersaglio: αs stimola l'adenilato ciclasi, αi la inibisce, αq attiva la fosfolipasi C. Lo stesso enzima può così essere regolato in senso opposto da recettori diversi.\n\nA) È l'effetto della subunità αs.\nB) È l'effetto della subunità αq.\nC) È l'effetto della transducina nei fotorecettori.\nD) La fosforilazione del recettore attivato è opera delle chinasi GRK; le subunità α non sono chinasi."
+    },
+    {
+      "id": "u6-0081",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Proteine G trimeriche",
+      "testo": "Dopo la dissociazione della proteina G trimerica, il dimero βγ:",
+      "opzioni": [
+        "lega il GTP e ne catalizza l'idrolisi al posto della subunità α",
+        "può regolare direttamente propri bersagli, come alcuni canali per il K+",
+        "resta inattivo e serve soltanto ad ancorare la subunità α",
+        "attraversa la membrana e lega il ligando sul versante extracellulare",
+        "trasloca nel nucleo, dove agisce da fattore di trascrizione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il dimero βγ non è un semplice accessorio della subunità α: una volta liberato regola direttamente alcuni bersagli. L'esempio classico è l'apertura di canali per il K+ nel cuore dopo l'attivazione dei recettori muscarinici dell'acetilcolina, che rallenta la frequenza.\n\nA) Il legame e l'idrolisi del GTP sono funzioni della subunità α.\nC) βγ ha effettivamente un ruolo nell'ancoraggio e nel legame di α al recettore, ma una volta liberato ha anche bersagli propri.\nD) Le proteine G sono sul versante citosolico della membrana; il ligando è riconosciuto dal recettore.\nE) Il dimero βγ agisce sulla membrana e nel citosol, non come fattore di trascrizione."
+    },
+    {
+      "id": "u6-0082",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Proteine G trimeriche",
+      "testo": "La subunità α di una proteina G trimerica si spegne da sola idrolizzando il GTP legato, grazie alla sua attività ……",
+      "accettate": [
+        "gtpasica",
+        "gtpasi",
+        "gtp-asica",
+        "gtpasica intrinseca"
+      ],
+      "spiegazione": "L'attività GTPasica intrinseca fa della subunità α un timer: resta attiva finché non ha idrolizzato il GTP, poi torna legata al GDP e si riassocia a βγ. Proteine regolatrici possono accelerare questa idrolisi e accorciare la durata del segnale."
+    },
+    {
+      "id": "u6-0083",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Recettori accoppiati a proteine G",
+      "testo": "In contrapposizione ai recettori ionotropici, i recettori per i neurotrasmettitori accoppiati a proteine G vengono detti recettori ……",
+      "accettate": [
+        "metabotropici",
+        "metabotropi",
+        "metabotropico",
+        "metabotropo"
+      ],
+      "spiegazione": "I recettori metabotropici agiscono tramite proteine G e secondi messaggeri: la risposta è più lenta e più duratura di quella dei recettori ionotropici, che sono essi stessi canali. Lo stesso neurotrasmettitore può avere entrambi i tipi di recettore: l'acetilcolina agisce sui nicotinici (ionotropici) e sui muscarinici (metabotropici)."
+    },
+    {
+      "id": "u6-0084",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Proteine G monomeriche",
+      "testo": "Le GTPasi monomeriche funzionano da interruttori molecolari perché:",
+      "opzioni": [
+        "sono attive legate al GDP e inattive legate al GTP",
+        "sono attive legate al GTP e inattive legate al GDP",
+        "sono attive fosforilate su tirosina e inattive defosforilate",
+        "sono attive come trimeri e inattive come monomeri",
+        "sono attive legate al cAMP e inattive in sua assenza"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il legame del GTP stabilizza una conformazione in cui la GTPasi interagisce con i propri effettori; dopo l'idrolisi a GDP la conformazione cambia e l'interazione si perde. I GEF accendono l'interruttore, le GAP lo spengono.\n\nA) È lo stato invertito: con il GDP la proteina è inattiva.\nC) Lo stato delle GTPasi dipende dal nucleotide legato, non dalla loro fosforilazione.\nD) Sono monomeriche per definizione: la dissociazione in subunità riguarda le proteine G trimeriche.\nE) Il cAMP regola la proteina chinasi A, non le GTPasi."
+    },
+    {
+      "id": "u6-0085",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Proteine G monomeriche: GEF",
+      "testo": "Le proteine che favoriscono il rilascio del GDP da una GTPasi monomerica, permettendone il legame del GTP e quindi l'attivazione, sono indicate con la sigla ……",
+      "accettate": [
+        "gef",
+        "gefs",
+        "guanine nucleotide exchange factor",
+        "guanine nucleotide exchange factors",
+        "fattori di scambio del nucleotide guaninico",
+        "fattore di scambio del nucleotide guaninico"
+      ],
+      "spiegazione": "GEF sta per Guanine nucleotide Exchange Factor. L'esempio del programma è Sos, che attiva Ras a valle dei recettori tirosin-chinasici. Anche il recettore accoppiato a proteine G, nei confronti della proteina G trimerica, si comporta come un GEF.\n\nLe GAP svolgono la funzione opposta: accelerano l'idrolisi del GTP e spengono la GTPasi."
+    },
+    {
+      "id": "u6-0086",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Secondi messaggeri: DAG e PKC",
+      "testo": "Il diacilglicerolo prodotto dalla fosfolipasi C:",
+      "opzioni": [
+        "diffonde nel citosol e libera il Ca2+ dal reticolo endoplasmatico",
+        "si lega alle subunità regolatrici della proteina chinasi A",
+        "viene convertito in cAMP dall'adenilato ciclasi di membrana",
+        "resta in membrana e, con il Ca2+, attiva la proteina chinasi C",
+        "entra nel nucleo e agisce come un fattore di trascrizione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il diacilglicerolo è lipidico e resta nel foglietto interno della membrana plasmatica. Lì recluta la proteina chinasi C, che per attivarsi richiede anche il Ca2+ liberato grazie all'IP3: i due rami della via convergono.\n\nA) Questo è il ruolo dell'IP3, l'altro prodotto della fosfolipasi C, che è idrosolubile.\nB) Le subunità regolatrici della PKA legano il cAMP.\nC) L'adenilato ciclasi usa come substrato l'ATP, non il diacilglicerolo.\nE) Il diacilglicerolo agisce in membrana, attivando una chinasi."
+    },
+    {
+      "id": "u6-0087",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Secondi messaggeri: il calcio",
+      "testo": "La piccola proteina citosolica che lega quattro ioni Ca2+ e, cambiando conformazione, regola numerosi enzimi bersaglio si chiama ……",
+      "accettate": [
+        "calmodulina"
+      ],
+      "spiegazione": "La calmodulina è il principale sensore intracellulare del Ca2+. Quando la concentrazione di calcio sale, lega fino a quattro ioni, cambia conformazione e attiva bersagli come le chinasi dipendenti da Ca2+/calmodulina e alcune pompe del calcio."
+    },
+    {
+      "id": "u6-0088",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Secondi messaggeri: il cAMP",
+      "testo": "Il segnale del cAMP si spegne perché il cAMP viene idrolizzato ad AMP da enzimi chiamati ……",
+      "accettate": [
+        "fosfodiesterasi",
+        "fosfodiesterasi del camp",
+        "pde"
+      ],
+      "spiegazione": "Le fosfodiesterasi rompono il legame fosfodiestere ciclico del cAMP (o del cGMP) e lo trasformano in un nucleotide inattivo come secondo messaggero. La concentrazione del secondo messaggero dipende quindi dal bilancio fra la sintesi da parte delle ciclasi e la degradazione da parte delle fosfodiesterasi.\n\nNei bastoncelli è una fosfodiesterasi specifica del cGMP a essere attivata dalla transducina."
+    },
+    {
+      "id": "u6-0089",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Secondi messaggeri",
+      "testo": "Quale fra le seguenti molecole NON è un secondo messaggero?",
+      "opzioni": [
+        "Il cAMP",
+        "L'IP3",
+        "L'adrenalina",
+        "Il diacilglicerolo",
+        "Lo ione Ca2+"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'adrenalina è un primo messaggero: si lega dall'esterno a recettori adrenergici di membrana. I secondi messaggeri sono invece molecole prodotte o liberate all'interno della cellula a valle del recettore.\n\nA) È il secondo messaggero prodotto dall'adenilato ciclasi.\nB) È prodotto dalla fosfolipasi C e libera Ca2+ dal reticolo endoplasmatico.\nD) È prodotto dalla fosfolipasi C e attiva la proteina chinasi C.\nE) Liberato nel citosol da depositi intracellulari o dall'esterno, agisce come secondo messaggero."
+    },
+    {
+      "id": "u6-0090",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "L'esempio della visione",
+      "testo": "Al buio, nei bastoncelli:",
+      "opzioni": [
+        "il cGMP è basso, i canali cationici sono chiusi e la cellula è iperpolarizzata",
+        "il cGMP è alto, i canali cationici sono chiusi e la cellula è iperpolarizzata",
+        "il cGMP è alto, i canali cationici sono aperti e la cellula è depolarizzata",
+        "il cAMP è alto, i canali per il K+ sono aperti e la cellula è depolarizzata",
+        "il cGMP è basso, i canali cationici sono aperti e la cellula è depolarizzata"
+      ],
+      "corretta": 2,
+      "spiegazione": "Al buio la fosfodiesterasi è inattiva e il cGMP resta elevato: tiene aperti canali cationici, l'ingresso di Na+ e Ca2+ mantiene la cellula relativamente depolarizzata e il bastoncello rilascia neurotrasmettitore. La luce provoca l'effetto opposto.\n\nA) È la condizione dopo l'illuminazione, non al buio.\nB) Il cGMP alto tiene i canali aperti, non chiusi: le tre condizioni non sono coerenti fra loro.\nD) Il nucleotide che controlla i canali dei bastoncelli è il cGMP, e i canali sono cationici, non selettivi per il K+.\nE) Con il cGMP basso i canali dipendenti dal cGMP si chiudono."
+    },
+    {
+      "id": "u6-0091",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "L'esempio della visione",
+      "testo": "Nella rodopsina il cromoforo legato all'opsina, che cambia configurazione assorbendo un fotone, è il ……",
+      "accettate": [
+        "retinale",
+        "11-cis-retinale",
+        "11-cis retinale",
+        "11 cis retinale",
+        "cis-retinale",
+        "retinal"
+      ],
+      "spiegazione": "L'assorbimento della luce converte l'11-cis-retinale in tutto-trans-retinale. Il cambio di forma del cromoforo modifica la conformazione dell'opsina, che diventa attiva e attiva la transducina.\n\nIl retinale deriva dalla vitamina A: per questo una carenza di vitamina A compromette la visione in condizioni di scarsa luminosità."
+    },
+    {
+      "id": "u6-0092",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Desensitizzazione recettoriale",
+      "testo": "La desensitizzazione di un recettore accoppiato a proteine G consiste:",
+      "opzioni": [
+        "nell'aumento della risposta dopo esposizioni ripetute al ligando",
+        "nel calo della risposta a un'esposizione prolungata al ligando",
+        "nella degradazione del ligando da parte di enzimi extracellulari",
+        "nella mutazione del recettore che lo rende insensibile al ligando",
+        "nella perdita del recettore dovuta a un errore di traduzione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Durante una stimolazione prolungata la cellula riduce la propria risposta anche se il ligando è ancora presente: il recettore viene fosforilato e legato dall'arrestina, poi eventualmente internalizzato e, nei casi più prolungati, degradato. È un meccanismo di adattamento reversibile.\n\nA) È l'effetto opposto, una sensibilizzazione.\nC) La rimozione del ligando spegne il segnale, ma è un fenomeno diverso dall'adattamento del recettore.\nD) La desensitizzazione è una regolazione fisiologica e reversibile, non una mutazione.\nE) Un errore di traduzione non è un meccanismo di regolazione del segnale."
+    },
+    {
+      "id": "u6-0093",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Recettori tirosin-chinasici e Ras",
+      "testo": "L'adattatore Grb2 collega il recettore tirosin-chinasico attivato al GEF Sos tramite:",
+      "opzioni": [
+        "un dominio SH2 per il recettore e domini SH3 per Sos",
+        "un dominio SH3 per il recettore e un dominio SH2 per Sos",
+        "un dominio PH per il recettore e un dominio SH2 per Sos",
+        "un dominio chinasico che fosforila Sos su residui di tirosina",
+        "un dominio GTPasico che trasferisce il proprio GTP a Ras"
+      ],
+      "corretta": 0,
+      "spiegazione": "Grb2 lega con il proprio dominio SH2 una fosfotirosina del recettore attivato e con i due domini SH3 le sequenze ricche di prolina di Sos. Così Sos viene portato in membrana, vicino a Ras.\n\nB) I ruoli sono invertiti: le fosfotirosine del recettore sono riconosciute dal dominio SH2.\nC) I domini PH legano fosfoinositidi, non fosfotirosine.\nD) Grb2 è un adattatore privo di attività enzimatica.\nE) Grb2 non lega GTP; lo scambio GDP-GTP su Ras è catalizzato da Sos."
+    },
+    {
+      "id": "u6-0094",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Via Ras-MAP chinasi",
+      "testo": "Le chinasi della via Ras-MAP chinasi che, una volta attivate da MEK, entrano nel nucleo e fosforilano fattori di trascrizione sono indicate con la sigla ……",
+      "accettate": [
+        "erk",
+        "erk1",
+        "erk2",
+        "erk1 2",
+        "mapk",
+        "map chinasi",
+        "map-chinasi",
+        "map kinasi"
+      ],
+      "spiegazione": "ERK (Extracellular signal-Regulated Kinase) è la MAP chinasi di questa via. Attivata da MEK, entra in parte nel nucleo e fosforila fattori di trascrizione che inducono geni precoci, necessari all'avvio della proliferazione."
+    },
+    {
+      "id": "u6-0095",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Via Ras-MAP chinasi",
+      "testo": "Ras attivata trasmette il segnale a valle:",
+      "opzioni": [
+        "fosforilando direttamente MEK su residui di serina",
+        "entrando nel nucleo e attivando la trascrizione dei geni bersaglio",
+        "reclutando Raf in membrana e favorendone l'attivazione",
+        "attivando l'adenilato ciclasi e aumentando il cAMP nel citosol",
+        "fosforilando il recettore tirosin-chinasico su residui di tirosina"
+      ],
+      "corretta": 2,
+      "spiegazione": "Ras-GTP, ancorata alla membrana, lega Raf e la porta in membrana, dove viene attivata. Raf è la prima chinasi della cascata: Ras non è una chinasi.\n\nA) Ras non ha attività chinasica: è Raf a fosforilare MEK.\nB) Ras agisce in membrana; a raggiungere il nucleo è ERK, alla fine della cascata.\nD) Questo è il meccanismo della subunità αs delle proteine G trimeriche.\nE) Il recettore si autofosforila; Ras è a valle e non è una chinasi."
+    },
+    {
+      "id": "u6-0096",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Oncogeni e trasduzione del segnale",
+      "testo": "Un recettore tirosin-chinasico diventa oncogenico quando:",
+      "opzioni": [
+        "perde il dominio chinasico e non può più trasmettere il segnale",
+        "non riesce più a dimerizzare dopo il legame del ligando",
+        "viene endocitato e degradato più rapidamente del normale",
+        "lega il fattore di crescita con un'affinità più bassa del normale",
+        "è attivo in modo costitutivo, anche senza fattore di crescita"
+      ],
+      "corretta": 4,
+      "spiegazione": "Gli oncogeni derivano da mutazioni con guadagno di funzione: il recettore segnala anche senza ligando, per una mutazione o per una forte iperespressione. Un esempio è l'amplificazione del gene HER2 in una quota dei carcinomi della mammella.\n\nA) Un recettore che non segnala più è una perdita di funzione, non un oncogene.\nB) Senza dimerizzazione il recettore non si attiva: il segnale proliferativo diminuisce.\nC) Una degradazione più rapida riduce il numero di recettori e quindi il segnale.\nD) Un'affinità minore riduce l'attivazione del recettore, non la rende costitutiva."
+    },
+    {
+      "id": "u6-0097",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Oncogeni e trasduzione del segnale",
+      "testo": "La forma normale di un gene della via di segnalazione che, se mutato o iperespresso, diventa un oncogene si chiama ……",
+      "accettate": [
+        "proto-oncogene",
+        "protooncogene",
+        "proto oncogene",
+        "protoncogene",
+        "proto-oncogeni",
+        "protooncogeni",
+        "proto oncogeni"
+      ],
+      "spiegazione": "Molti proto-oncogeni codificano componenti delle vie di segnalazione della proliferazione: fattori di crescita, recettori tirosin-chinasici, Ras, Raf, fattori di trascrizione. La mutazione che li trasforma in oncogeni li rende attivi in modo costitutivo e basta in una sola copia (effetto dominante)."
+    },
+    {
+      "id": "u6-0098",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Segnalazione del recettore per l'EGF",
+      "testo": "Dopo il legame dell'EGF, il complesso recettore-ligando viene in gran parte:",
+      "opzioni": [
+        "endocitato e degradato nei lisosomi, attenuando il segnale",
+        "endocitato e riciclato in membrana come il recettore della transferrina",
+        "trasportato nel nucleo, dove agisce da fattore di trascrizione",
+        "rilasciato nella matrice dopo un taglio proteolitico",
+        "trattenuto in membrana senza essere mai internalizzato"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il recettore per l'EGF attivato viene ubiquitinato, internalizzato per endocitosi mediata da recettori e indirizzato, attraverso i corpi multivescicolari, ai lisosomi. La riduzione dei recettori in superficie limita la durata della stimolazione proliferativa.\n\nB) Il riciclo in membrana è tipico del recettore della transferrina e delle LDL, non del recettore per l'EGF.\nC) Il recettore per l'EGF agisce attivando vie citosoliche, non da fattore di trascrizione.\nD) Il destino prevalente del recettore attivato è l'endocitosi.\nE) Il recettore attivato viene internalizzato rapidamente: è uno dei principali meccanismi di attenuazione del segnale."
+    },
+    {
+      "id": "u6-0099",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Segnalazione del recettore per l'insulina",
+      "testo": "Nel muscolo scheletrico e nel tessuto adiposo l'insulina aumenta la captazione del glucosio facendo traslocare in membrana il trasportatore ……",
+      "accettate": [
+        "glut4",
+        "glut-4",
+        "glut 4"
+      ],
+      "spiegazione": "In assenza di insulina GLUT4 è trattenuto in vescicole intracellulari. La via del recettore insulinico, attraverso IRS, PI 3-chinasi e Akt, provoca la fusione di queste vescicole con la membrana plasmatica e aumenta il numero di trasportatori in superficie.\n\nIn altri tessuti, come fegato e cervello, la captazione del glucosio avviene tramite trasportatori GLUT che non dipendono dall'insulina."
+    },
+    {
+      "id": "u6-0100",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Segnalazione dei fosfoinositidi",
+      "testo": "La fosfatasi che rimuove il fosfato in posizione 3 del PIP3, spegnendo la via PI 3-chinasi/Akt, si chiama ……",
+      "accettate": [
+        "pten"
+      ],
+      "spiegazione": "PTEN riconverte il PIP3 in PIP2 e si oppone quindi all'attività della PI 3-chinasi. Poiché la via PI 3-chinasi/Akt promuove sopravvivenza e crescita, PTEN si comporta da oncosoppressore: la sua perdita è frequente in molti tumori."
+    }
+  ]
+}

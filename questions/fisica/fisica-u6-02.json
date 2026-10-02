@@ -1,0 +1,718 @@
+{
+  "lotto": "fisica-u6-02",
+  "unita": "u6",
+  "generato": "2026-10-02",
+  "domande": [
+    {
+      "id": "u6-0051",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Carica elementare",
+      "testo": "La più piccola quantità di carica che si osserva libera in natura, uguale in modulo alla carica dell'elettrone e del protone, si chiama carica ……",
+      "accettate": [
+        "elementare"
+      ],
+      "spiegazione": "Vale e ≈ 1,602 × 10⁻¹⁹ C. L'elettrone ha carica −e, il protone +e: le due cariche hanno lo stesso modulo nonostante le masse molto diverse.\n\nLa carica di qualunque corpo è un multiplo intero di e, cioè è quantizzata. Un corpo con carica −1 nC ha circa 6,2 × 10⁹ elettroni in eccesso."
+    },
+    {
+      "id": "u6-0052",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Legge di Coulomb: calcolo della forza",
+      "testo": "Due cariche puntiformi di 1,0 μC ciascuna si trovano nel vuoto a 3,0 cm l'una dall'altra. Il modulo della forza fra di esse è (k = 9,0 × 10⁹ N·m²/C²):",
+      "opzioni": [
+        "0,30 N",
+        "0,10 N",
+        "1,0 × 10¹³ N",
+        "10 N",
+        "9,0 × 10⁻³ N"
+      ],
+      "corretta": 3,
+      "spiegazione": "F = k q₁q₂/r², con le grandezze nel SI: q₁ = q₂ = 1,0 × 10⁻⁶ C, r = 3,0 × 10⁻² m. F = 9,0 × 10⁹ × 1,0 × 10⁻¹² / (9,0 × 10⁻⁴) = 9,0 × 10⁻³ / 9,0 × 10⁻⁴ = 10 N.\n\nA) Divide per r invece che per r²: 9,0 × 10⁻³ / 0,030.\nB) Sbaglia la conversione della distanza, usando 0,30 m invece di 0,030 m: l'errore, elevato al quadrato, diventa un fattore cento.\nC) Usa le cariche in microcoulomb senza convertirle: q₁q₂ = 1 invece di 10⁻¹².\nE) Calcola k q₁q₂ e dimentica di dividere per il quadrato della distanza."
+    },
+    {
+      "id": "u6-0053",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Conduttori",
+      "testo": "I materiali in cui le cariche elettriche possono spostarsi liberamente al loro interno, come i metalli, si chiamano ……",
+      "accettate": [
+        "conduttori",
+        "conduttore",
+        "conduttori elettrici"
+      ],
+      "spiegazione": "Nei metalli gli elettroni più esterni non sono legati ai singoli atomi e si muovono in tutto il reticolo: sono gli elettroni di conduzione. Anche le soluzioni elettrolitiche, come i liquidi biologici, conducono, ma grazie agli ioni.\n\nIl comportamento opposto è quello degli isolanti, come vetro e plastica, in cui le cariche restano legate ai propri atomi o molecole."
+    },
+    {
+      "id": "u6-0054",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Sovrapposizione: due cariche uguali",
+      "testo": "Due cariche puntiformi uguali, +Q e +Q, si trovano a distanza d. Nel punto medio del segmento che le unisce il campo elettrico:",
+      "opzioni": [
+        "è nullo",
+        "vale 8kQ/d²",
+        "vale 4kQ/d²",
+        "vale 2kQ/d²",
+        "è perpendicolare al segmento che unisce le cariche"
+      ],
+      "corretta": 0,
+      "spiegazione": "Per il principio di sovrapposizione il campo totale è la somma vettoriale dei campi delle due cariche. Nel punto medio i due campi hanno lo stesso modulo, kQ/(d/2)² = 4kQ/d², e versi opposti: ciascuno punta lontano dalla propria carica. La somma è zero.\n\nB) Somma i moduli dei due campi senza tenere conto che hanno versi opposti.\nC) È il modulo del campo di una sola carica: trascura il contributo dell'altra.\nD) Somma i moduli e usa la distanza d invece di d/2.\nE) Sull'asse del segmento, lontano dal punto medio, il campo è diretto lungo l'asse. Nel punto medio però i due contributi si annullano e il campo è nullo."
+    },
+    {
+      "id": "u6-0055",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Sovrapposizione: due cariche opposte",
+      "testo": "Una carica +Q e una carica −Q si trovano a distanza d. Nel punto medio del segmento che le unisce il campo elettrico:",
+      "opzioni": [
+        "è nullo, perché le due cariche sono opposte",
+        "vale 8kQ/d² ed è diretto verso la carica positiva",
+        "vale 4kQ/d² ed è diretto verso la carica negativa",
+        "vale 2kQ/d² ed è diretto verso la carica negativa",
+        "vale 8kQ/d² ed è diretto verso la carica negativa"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nel punto medio ciascuna carica genera un campo di modulo kQ/(d/2)² = 4kQ/d². Il campo di +Q punta lontano da +Q, quello di −Q punta verso −Q: hanno lo stesso verso, verso la carica negativa, e si sommano. Il totale è 8kQ/d².\n\nA) Confonde la somma delle cariche, che è nulla, con la somma dei campi. Nel punto medio i due campi hanno lo stesso verso e si sommano.\nB) Il modulo è giusto, il verso no: il campo esce dalle cariche positive ed entra in quelle negative.\nC) È il campo di una sola carica: trascura il contributo dell'altra.\nD) Somma i due contributi ma usa la distanza d invece di d/2."
+    },
+    {
+      "id": "u6-0056",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Elettrizzazione per strofinio",
+      "testo": "Il processo con cui due corpi neutri, sfregati l'uno contro l'altro, si caricano con cariche uguali e opposte si chiama elettrizzazione per ……",
+      "accettate": [
+        "strofinio",
+        "strofinamento",
+        "sfregamento"
+      ],
+      "spiegazione": "Con lo strofinio alcuni elettroni passano da un materiale all'altro: quello che li acquista si carica negativamente, quello che li cede positivamente. È un esempio della conservazione della carica: la carica totale resta nulla.\n\nGli altri due modi di elettrizzare un corpo sono il contatto con un corpo già carico e l'induzione."
+    },
+    {
+      "id": "u6-0057",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Elettrizzazione per contatto",
+      "testo": "Due sfere metalliche identiche portano cariche di +6,0 μC e −2,0 μC. Vengono messe a contatto e poi separate. Ciascuna sfera porta:",
+      "opzioni": [
+        "+4,0 μC",
+        "+3,0 μC sull'una e −1,0 μC sull'altra",
+        "+2,0 μC",
+        "0, perché le cariche opposte si neutralizzano",
+        "+4,0 μC su una sfera e nessuna carica sull'altra"
+      ],
+      "corretta": 2,
+      "spiegazione": "Durante il contatto le due sfere formano un unico conduttore, con carica totale +6,0 − 2,0 = +4,0 μC. Essendo identiche, se la dividono in parti uguali: +2,0 μC ciascuna.\n\nA) Somma i moduli delle cariche, 6,0 + 2,0 = 8,0 μC, e li divide per due: ignora il segno della carica negativa.\nB) Dimezza ciascuna carica separatamente. Con il contatto le cariche si ridistribuiscono fra le due sfere.\nD) La neutralizzazione riguarda solo la parte negativa: resta un eccesso di +4,0 μC da ripartire.\nE) La carica netta è giusta, ma due conduttori identici a contatto se la dividono in parti uguali."
+    },
+    {
+      "id": "u6-0058",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Campo radiale",
+      "testo": "Il campo elettrico di una carica puntiforme isolata, le cui linee di forza sono semirette uscenti dalla carica (se positiva) o entranti (se negativa), si dice ……",
+      "accettate": [
+        "radiale",
+        "radiali",
+        "centrale"
+      ],
+      "spiegazione": "Il campo ha in ogni punto la direzione della retta che congiunge il punto alla carica, e modulo E = kQ/r². Non è uniforme: le linee si diradano allontanandosi dalla carica, segno che il campo si indebolisce.\n\nLe superfici equipotenziali sono sfere centrate nella carica, perpendicolari in ogni punto alle linee radiali."
+    },
+    {
+      "id": "u6-0059",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Carica che entra perpendicolarmente in un campo uniforme",
+      "testo": "Un elettrone entra con velocità orizzontale fra le armature di un condensatore piano, dove il campo elettrico è verticale e uniforme. Fra le armature l'elettrone descrive:",
+      "opzioni": [
+        "un arco di parabola, deviando verso l'armatura negativa",
+        "un arco di parabola, deviando verso l'armatura positiva",
+        "un arco di circonferenza",
+        "un moto rettilineo uniforme, perché il campo è perpendicolare alla velocità",
+        "un moto rettilineo accelerato lungo la direzione iniziale"
+      ],
+      "corretta": 1,
+      "spiegazione": "La forza elettrica è costante e verticale, F = eE, come la forza peso nel lancio orizzontale di un sasso: il moto orizzontale resta uniforme, quello verticale è uniformemente accelerato e la traiettoria è parabolica. L'elettrone ha carica negativa, quindi è attirato dall'armatura positiva.\n\nA) La forma è giusta, il verso no: la carica negativa è respinta dall'armatura negativa e attirata da quella positiva.\nC) La traiettoria circolare si ha con il campo magnetico, la cui forza è sempre perpendicolare alla velocità. La forza elettrica in un campo uniforme ha direzione fissa.\nD) Trasferisce al campo elettrico una proprietà della forza magnetica. La forza elettrica agisce anche su una carica che si muove perpendicolarmente al campo, e la devia.\nE) La forza è verticale, perpendicolare alla velocità iniziale: devia la carica invece di accelerarla nella direzione del moto."
+    },
+    {
+      "id": "u6-0060",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Unità di misura del potenziale",
+      "testo": "Nel Sistema Internazionale l'unità di misura del potenziale elettrico e della differenza di potenziale, pari a 1 J/C, è il ……",
+      "accettate": [
+        "volt",
+        "v"
+      ],
+      "spiegazione": "Fra due punti c'è una ddp di 1 V se la forza elettrica compie un lavoro di 1 J su una carica di 1 C che si sposta dall'uno all'altro.\n\nDal volt deriva anche l'unità del campo elettrico, V/m, equivalente a N/C. Il volt è anche l'unità della forza elettromotrice di un generatore."
+    },
+    {
+      "id": "u6-0061",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Energia potenziale di due cariche",
+      "testo": "Una carica positiva e una carica negativa vengono allontanate l'una dall'altra. L'energia potenziale elettrica del sistema:",
+      "opzioni": [
+        "diminuisce, perché le cariche sono più lontane",
+        "aumenta, avvicinandosi a zero",
+        "resta costante, perché le cariche non cambiano",
+        "diminuisce, diventando sempre più negativa",
+        "aumenta, fino a diventare positiva a grande distanza"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per due cariche puntiformi U = k q₁q₂/r, con U = 0 a distanza infinita. Con cariche di segno opposto U è negativa: allontanandole r cresce, U diventa meno negativa e tende a zero. Aumenta perché per separare due cariche che si attraggono bisogna compiere lavoro dall'esterno.\n\nA) Ragiona sul modulo, che diminuisce, dimenticando il segno. U è negativa e, avvicinandosi a zero, aumenta.\nC) L'energia potenziale dipende anche dalla distanza, U = k q₁q₂/r, non solo dalle cariche.\nD) Accade il contrario: U diventa più negativa quando cariche opposte si avvicinano, perché è la forza elettrica a compiere lavoro.\nE) U = k q₁q₂/r ha il segno del prodotto delle cariche, negativo qui per ogni distanza. Tende a zero senza mai cambiare segno."
+    },
+    {
+      "id": "u6-0062",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Forza elettrica conservativa",
+      "testo": "Il lavoro compiuto dalla forza elettrica su una carica dipende solo dalla posizione iniziale e da quella finale, non dal percorso: per questo la forza elettrica si dice ……",
+      "accettate": [
+        "conservativa",
+        "conservative",
+        "conservativo"
+      ],
+      "spiegazione": "È questa proprietà che permette di definire un'energia potenziale elettrica e quindi il potenziale. Come la forza peso, la forza elettrostatica compie lavoro nullo su qualunque percorso chiuso.\n\nNon sono conservative, per esempio, la forza di attrito e la resistenza di un fluido: il loro lavoro dipende dal percorso."
+    },
+    {
+      "id": "u6-0063",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Protone ed elettrone accelerati dalla stessa ddp",
+      "testo": "Un protone e un elettrone, inizialmente fermi, sono accelerati dalla stessa differenza di potenziale (ciascuno nel verso in cui è spinto dal campo). Al termine:",
+      "opzioni": [
+        "hanno la stessa velocità, perché hanno carica di uguale modulo",
+        "il protone ha più energia cinetica, perché ha massa maggiore",
+        "l'elettrone ha più energia cinetica, perché è più leggero",
+        "hanno la stessa energia cinetica e la stessa quantità di moto",
+        "hanno la stessa energia cinetica, ma l'elettrone è molto più veloce"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'energia cinetica acquistata è qΔV, e le due particelle hanno carica dello stesso modulo: la loro energia cinetica è uguale. Da E_c = ½mv² segue che, a parità di energia, la velocità è inversamente proporzionale alla radice della massa: l'elettrone, circa 1836 volte più leggero, è circa 43 volte più veloce.\n\nA) A parità di carica è uguale l'energia acquistata, non la velocità: la velocità dipende anche dalla massa.\nB) L'energia acquistata è qΔV e non dipende dalla massa.\nC) L'energia acquistata è qΔV e non dipende dalla massa. È la velocità, non l'energia, a essere maggiore per l'elettrone.\nD) A parità di energia la quantità di moto vale √(2mE): è maggiore per il protone, che ha massa più grande."
+    },
+    {
+      "id": "u6-0064",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Superfici equipotenziali di una carica puntiforme",
+      "testo": "Le superfici equipotenziali del campo generato da una carica puntiforme isolata sono superfici ……, concentriche alla carica.",
+      "accettate": [
+        "sferiche",
+        "sfere",
+        "sferica"
+      ],
+      "spiegazione": "Il potenziale di una carica puntiforme vale V = kQ/r e dipende solo dalla distanza dalla carica. I punti alla stessa distanza dalla carica formano una sfera centrata in essa.\n\nLe sfere sono perpendicolari in ogni punto alle linee di forza radiali, come deve essere per qualunque superficie equipotenziale. Le equipotenziali sono piani paralleli solo nel caso di un campo uniforme."
+    },
+    {
+      "id": "u6-0065",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Lavoro della forza elettrica fra due punti",
+      "testo": "Una carica di +3,0 μC si sposta da un punto A, a potenziale 120 V, a un punto B, a potenziale 20 V. Il lavoro compiuto dalla forza elettrica vale:",
+      "opzioni": [
+        "3,0 × 10⁻⁴ J",
+        "−3,0 × 10⁻⁴ J",
+        "4,2 × 10⁻⁴ J",
+        "3,6 × 10⁻⁴ J",
+        "3,0 × 10² J"
+      ],
+      "corretta": 0,
+      "spiegazione": "W = q(V_A − V_B) = 3,0 × 10⁻⁶ × (120 − 20) = 3,0 × 10⁻⁶ × 100 = 3,0 × 10⁻⁴ J. È positivo: una carica positiva che va verso potenziali più bassi si muove nel verso della forza elettrica e perde energia potenziale.\n\nB) Calcola q(V_B − V_A): inverte l'ordine dei potenziali e quindi il segno del lavoro.\nC) Somma i due potenziali, 120 + 20, invece di farne la differenza.\nD) Usa il solo potenziale del punto di partenza, 120 V, invece della differenza di potenziale.\nE) Usa la carica in microcoulomb senza convertirla in coulomb."
+    },
+    {
+      "id": "u6-0066",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Messa a terra",
+      "testo": "Collegare un conduttore al terreno con un filo conduttore, in modo che possa scambiare cariche con la Terra, si dice metterlo a ……",
+      "accettate": [
+        "terra"
+      ],
+      "spiegazione": "La Terra si comporta come un conduttore enorme, capace di cedere o assorbire cariche senza che il suo potenziale cambi in modo apprezzabile. Per convenzione le si attribuisce potenziale zero.\n\nUn conduttore carico collegato a terra si scarica. Se invece è sotto l'influenza di un corpo carico vicino, attraverso la terra acquista carica di segno opposto a quella del corpo: è il principio della carica per induzione."
+    },
+    {
+      "id": "u6-0067",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Attrazione di un corpo neutro",
+      "testo": "Una bacchetta di plastica strofinata attira piccoli pezzi di carta neutri. Il motivo è che:",
+      "opzioni": [
+        "la bacchetta cede carica alla carta prima ancora di toccarla",
+        "la carta è un conduttore e si carica per induzione con i suoi elettroni liberi",
+        "la forza elettrica agisce su un corpo neutro anche senza separazione di carica",
+        "la carta si polarizza e la carica di segno opposto si trova più vicina alla bacchetta",
+        "lo strofinio dà alla carta una carica opposta a quella della bacchetta"
+      ],
+      "corretta": 3,
+      "spiegazione": "La carta è un isolante: nel campo della bacchetta le sue molecole si polarizzano. Sul lato vicino alla bacchetta si accumula carica di segno opposto, su quello lontano carica dello stesso segno. La forza decresce con la distanza, quindi l'attrazione sulla parte vicina prevale sulla repulsione della parte lontana.\n\nA) Senza contatto non c'è passaggio di carica: la carta resta complessivamente neutra.\nB) La carta è un isolante, senza elettroni liberi. Il fenomeno è la polarizzazione delle sue molecole.\nC) Su un corpo neutro e non polarizzato la forza totale sarebbe nulla. È la separazione di carica indotta dal campo a produrre l'attrazione.\nE) Strofinata è solo la bacchetta: la carta resta neutra."
+    },
+    {
+      "id": "u6-0068",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Gabbia di Faraday",
+      "testo": "Un involucro conduttore che annulla al suo interno il campo elettrico prodotto da cariche esterne, schermandone il contenuto, si chiama gabbia di ……",
+      "accettate": [
+        "faraday"
+      ],
+      "spiegazione": "Le cariche libere del conduttore si dispongono sulla superficie esterna in modo da annullare il campo all'interno: è la stessa proprietà per cui il campo è nullo dentro un conduttore in equilibrio. Lo schermo funziona anche se l'involucro è una rete metallica, purché le maglie siano piccole.\n\nPer questo l'abitacolo metallico di un'automobile o di un aereo protegge chi sta dentro dalle scariche elettriche atmosferiche."
+    },
+    {
+      "id": "u6-0069",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Carica per induzione con messa a terra",
+      "testo": "Si avvicina una bacchetta carica negativamente a una sfera metallica neutra e isolata, senza toccarla. Si collega la sfera a terra, poi si interrompe il collegamento e infine si allontana la bacchetta. La sfera resta:",
+      "opzioni": [
+        "carica negativamente, con parte della carica della bacchetta",
+        "neutra, perché la bacchetta non l'ha mai toccata",
+        "carica positivamente",
+        "polarizzata: negativa sul lato lontano e positiva su quello vicino, ma neutra",
+        "carica positivamente solo finché la bacchetta resta vicina"
+      ],
+      "corretta": 2,
+      "spiegazione": "La bacchetta negativa respinge gli elettroni della sfera. Con il collegamento a terra una parte di essi fugge verso la terra. Interrotto il collegamento, la sfera ha un difetto di elettroni e, quando si allontana la bacchetta, resta carica positivamente, con segno opposto a quello del corpo induttore.\n\nA) La bacchetta non ha mai toccato la sfera, quindi non le ha ceduto cariche. Con la messa a terra la sfera ha perso elettroni, non ne ha acquistati.\nB) Sarebbe vero senza messa a terra. Il collegamento a terra ha permesso agli elettroni di uscire dalla sfera.\nD) Descrive la sfera durante l'induzione, prima della messa a terra. Alla fine la sfera ha perso elettroni e non è più neutra.\nE) La carica positiva rimane anche dopo aver allontanato la bacchetta: gli elettroni andati a terra non possono più tornare, perché il collegamento è interrotto."
+    },
+    {
+      "id": "u6-0070",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Unità di misura dell'intensità di corrente",
+      "testo": "Nel Sistema Internazionale l'unità di misura dell'intensità di corrente, che è una grandezza fondamentale, è l'……",
+      "accettate": [
+        "ampere"
+      ],
+      "spiegazione": "1 A = 1 C/s: in un filo percorso da 1 A attraversa ogni sezione 1 C di carica al secondo. L'ampere è una delle sette unità fondamentali del SI, mentre il coulomb è derivato da essa (1 C = 1 A·s).\n\nNei circuiti biomedici e nei sensori si usano spesso il mA e il μA."
+    },
+    {
+      "id": "u6-0071",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Resistenze in serie e in parallelo",
+      "testo": "Un resistore da 4,0 Ω è collegato in serie al parallelo di due resistori da 6,0 Ω e 12 Ω. La resistenza equivalente del circuito è:",
+      "opzioni": [
+        "22 Ω",
+        "2,0 Ω",
+        "8,0 Ω",
+        "13 Ω",
+        "4,25 Ω"
+      ],
+      "corretta": 2,
+      "spiegazione": "Prima il parallelo: R_p = 6,0 × 12 / (6,0 + 12) = 72/18 = 4,0 Ω. Poi la serie con il resistore da 4,0 Ω: R_eq = 4,0 + 4,0 = 8,0 Ω.\n\nA) Somma tutte e tre le resistenze, come se fossero tutte in serie.\nB) Tratta tutte e tre le resistenze come in parallelo: 1/R = 1/4,0 + 1/6,0 + 1/12 = 6/12.\nD) Sostituisce al parallelo la media aritmetica delle due resistenze, 9,0 Ω, e poi somma 4,0 Ω.\nE) Somma i reciproci del parallelo, 1/6,0 + 1/12 = 0,25, dimentica di invertire il risultato e lo somma a 4,0 Ω."
+    },
+    {
+      "id": "u6-0072",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Generatore",
+      "testo": "Il dispositivo che mantiene una differenza di potenziale costante fra i suoi poli, fornendo energia alle cariche che circolano in un circuito, si chiama ……",
+      "accettate": [
+        "generatore",
+        "generatore elettrico",
+        "generatore di tensione",
+        "generatori"
+      ],
+      "spiegazione": "Un generatore trasforma un'altra forma di energia, chimica in una pila o meccanica in una dinamo, in energia elettrica. La ddp che mantiene ai suoi capi a circuito aperto si chiama forza elettromotrice.\n\nNel generatore ideale la ddp ai capi resta uguale alla forza elettromotrice qualunque sia la corrente erogata. Uno reale ha una resistenza interna, che qui non si considera."
+    },
+    {
+      "id": "u6-0073",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Ripartizione della ddp in serie",
+      "testo": "Due resistori da 2,0 kΩ e 3,0 kΩ sono collegati in serie a un generatore ideale da 10 V. La differenza di potenziale ai capi del resistore da 3,0 kΩ è:",
+      "opzioni": [
+        "6,0 V",
+        "4,0 V",
+        "5,0 V",
+        "10 V",
+        "15 V"
+      ],
+      "corretta": 0,
+      "spiegazione": "La resistenza equivalente è 5,0 kΩ e la corrente, uguale nei due resistori, vale I = 10/5000 = 2,0 mA. Ai capi del resistore da 3,0 kΩ: ΔV = RI = 3000 × 2,0 × 10⁻³ = 6,0 V. Il resto, 4,0 V, cade sull'altro resistore.\n\nB) È la ddp ai capi del resistore da 2,0 kΩ, non di quello da 3,0 kΩ.\nC) Divide la tensione in parti uguali. In serie si ripartisce in proporzione alle resistenze.\nD) Attribuisce a ogni resistore in serie l'intera ddp del generatore. È il parallelo ad avere la stessa ddp su ogni ramo.\nE) Calcola la corrente con il solo resistore da 2,0 kΩ, 10/2000 = 5,0 mA, e la moltiplica per 3,0 kΩ."
+    },
+    {
+      "id": "u6-0074",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Collegamento in parallelo",
+      "testo": "Due o più resistori collegati agli stessi due punti di un circuito, in modo da avere ai capi la stessa differenza di potenziale, si dicono collegati in ……",
+      "accettate": [
+        "parallelo",
+        "derivazione"
+      ],
+      "spiegazione": "In parallelo la ddp è la stessa su tutti i rami, mentre la corrente totale si divide fra i rami: passa più corrente dove la resistenza è minore. La resistenza equivalente si ottiene da 1/R_eq = 1/R₁ + 1/R₂ + … ed è minore della più piccola.\n\nGli impianti domestici sono collegati in parallelo: ogni apparecchio riceve la stessa tensione di rete e funziona indipendentemente dagli altri."
+    },
+    {
+      "id": "u6-0075",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Energia elettrica in chilowattora",
+      "testo": "Un forno elettrico da 2,0 kW resta acceso per 30 minuti. L'energia consumata è:",
+      "opzioni": [
+        "60 kWh",
+        "1,0 kW",
+        "3,6 × 10³ J",
+        "3,6 × 10⁶ J",
+        "6,0 × 10⁴ J"
+      ],
+      "corretta": 3,
+      "spiegazione": "E = P Δt = 2,0 kW × 0,50 h = 1,0 kWh. Poiché 1 kWh = 1000 W × 3600 s = 3,6 × 10⁶ J, l'energia vale 3,6 × 10⁶ J. Con i soli secondi: 2000 W × 1800 s = 3,6 × 10⁶ J.\n\nA) Moltiplica la potenza per i minuti, 2,0 × 30, come se fossero ore.\nB) Il valore numerico in kWh è giusto, ma il kW è un'unità di potenza, non di energia.\nC) Converte il wattora invece del chilowattora: 1 Wh = 3600 J, mentre qui l'energia è 1,0 kWh.\nE) Usa i minuti come se fossero secondi: 2000 W × 30 s."
+    },
+    {
+      "id": "u6-0076",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Conduttore ohmico",
+      "testo": "Un conduttore in cui, a temperatura costante, l'intensità di corrente è direttamente proporzionale alla differenza di potenziale applicata si dice ……",
+      "accettate": [
+        "ohmico",
+        "ohmici",
+        "ohmica"
+      ],
+      "spiegazione": "Per un conduttore ohmico vale la prima legge di Ohm, ΔV = R I, con R costante: il grafico della corrente in funzione della ddp è una retta per l'origine. I metalli a temperatura costante sono buone approssimazioni.\n\nNon sono ohmici, per esempio, i diodi e i tubi a gas: in essi la corrente non è proporzionale alla ddp."
+    },
+    {
+      "id": "u6-0077",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Caratteristica di un conduttore ohmico",
+      "testo": "Per un conduttore ohmico, nel grafico dell'intensità di corrente I in funzione della differenza di potenziale ΔV, la pendenza della retta è uguale a:",
+      "opzioni": [
+        "R",
+        "la potenza dissipata",
+        "R²",
+        "la resistività del materiale",
+        "1/R"
+      ],
+      "corretta": 4,
+      "spiegazione": "Dalla prima legge di Ohm, I = ΔV/R = (1/R) ΔV: in un grafico con I sulle ordinate e ΔV sulle ascisse la pendenza è 1/R. Una retta più ripida indica una resistenza minore.\n\nA) È la pendenza del grafico con gli assi scambiati, ΔV in funzione di I.\nB) La potenza è il prodotto ΔV·I, non il rapporto fra le due grandezze, e cambia lungo la retta.\nC) Nella legge di Ohm la resistenza non compare al quadrato. R² non ha nessun legame con la pendenza.\nD) La resistività dipende solo dal materiale, mentre la pendenza dipende anche da lunghezza e sezione del conduttore, attraverso R = ρL/S."
+    },
+    {
+      "id": "u6-0078",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Chilowattora",
+      "testo": "L'unità di energia pari a quella consumata in un'ora da un apparecchio di potenza 1 kW, usata nelle bollette elettriche, è il ……",
+      "accettate": [
+        "chilowattora",
+        "kilowattora",
+        "chilowatt ora",
+        "kilowatt ora",
+        "chilowattore",
+        "kwh"
+      ],
+      "spiegazione": "1 kWh = 1000 W × 3600 s = 3,6 × 10⁶ J. Non appartiene al SI, ma è comodo per i consumi domestici.\n\nÈ un'unità di energia, non di potenza: un apparecchio da 1 kW consuma 1 kWh in un'ora, 2 kWh in due ore."
+    },
+    {
+      "id": "u6-0079",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Resistività e temperatura",
+      "testo": "Il filamento di una lampadina a incandescenza è di tungsteno. Quando la lampadina si accende e il filamento si scalda, la sua resistenza:",
+      "opzioni": [
+        "diminuisce, perché il calore libera più elettroni di conduzione",
+        "aumenta, perché la resistività dei metalli cresce con la temperatura",
+        "resta costante, perché dipende solo dalla geometria del filamento",
+        "resta costante, perché la legge di Ohm vale per ogni conduttore",
+        "diminuisce, perché il filamento si dilata e la sezione aumenta"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nei metalli l'agitazione termica degli ioni del reticolo aumenta con la temperatura e ostacola il moto degli elettroni di conduzione: la resistività cresce. Nel filamento, che passa da temperatura ambiente a oltre 2000 °C, la resistenza a caldo è molte volte maggiore di quella a freddo.\n\nA) È il comportamento dei semiconduttori. Nei metalli gli elettroni liberi sono già moltissimi e il calore aumenta soprattutto gli urti.\nC) La resistenza dipende dalla geometria e dalla resistività, R = ρL/S, e la resistività dipende dalla temperatura.\nD) La legge di Ohm, con R costante, vale a temperatura costante. Il filamento cambia moltissimo temperatura.\nE) La dilatazione termica cambia le dimensioni di pochissimo, ed è un effetto trascurabile rispetto all'aumento della resistività."
+    },
+    {
+      "id": "u6-0080",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Verso convenzionale della corrente",
+      "testo": "Per convenzione, il verso della corrente elettrica è quello in cui si muoverebbero le cariche ……",
+      "accettate": [
+        "positive",
+        "positiva"
+      ],
+      "spiegazione": "La convenzione risale a prima della scoperta dell'elettrone. Nel circuito esterno al generatore la corrente va dal polo positivo, a potenziale maggiore, al polo negativo.\n\nNei metalli si muovono in realtà gli elettroni, negativi, nel verso opposto. Nelle soluzioni elettrolitiche si muovono ioni di entrambi i segni, in versi opposti."
+    },
+    {
+      "id": "u6-0081",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Resistori uguali in parallelo",
+      "testo": "Cinque resistori uguali da 100 Ω ciascuno sono collegati in parallelo. La resistenza equivalente è:",
+      "opzioni": [
+        "500 Ω",
+        "0,050 Ω",
+        "100 Ω",
+        "50 Ω",
+        "20 Ω"
+      ],
+      "corretta": 4,
+      "spiegazione": "Per n resistori uguali in parallelo 1/R_eq = n/R, quindi R_eq = R/n = 100/5 = 20 Ω.\n\nA) Applica la regola della serie: R_eq = nR.\nB) Calcola correttamente 1/R_eq = 5/100 = 0,050 Ω⁻¹ ma dimentica di invertirlo.\nC) Pensa che resistori uguali in parallelo diano la stessa resistenza del singolo. La resistenza in parallelo diminuisce con il numero di rami.\nD) Applica la regola dei due resistori uguali, R/2, senza tenere conto che sono cinque."
+    },
+    {
+      "id": "u6-0082",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Condensatore",
+      "testo": "Il dispositivo formato da due conduttori affacciati e separati da un isolante, usato per accumulare carica ed energia elettrica, si chiama ……",
+      "accettate": [
+        "condensatore",
+        "condensatori"
+      ],
+      "spiegazione": "Quando si applica una ddp, i due conduttori acquistano cariche uguali e opposte, +Q e −Q. La carica accumulata è proporzionale alla ddp: Q = CΔV.\n\nL'energia è immagazzinata nel campo elettrico fra i due conduttori. Il defibrillatore usa un condensatore carico per erogare in pochi millisecondi un impulso di centinaia di joule."
+    },
+    {
+      "id": "u6-0083",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Capacità del condensatore piano: calcolo",
+      "testo": "Un condensatore piano nel vuoto ha armature di area 200 cm² distanti 1,0 mm. La sua capacità è circa (ε₀ = 8,85 × 10⁻¹² F/m):",
+      "opzioni": [
+        "1,8 × 10⁻¹³ F",
+        "1,8 × 10⁻⁶ F",
+        "4,4 × 10⁻¹³ F",
+        "1,8 × 10⁻¹⁰ F",
+        "20 F"
+      ],
+      "corretta": 3,
+      "spiegazione": "C = ε₀ S/d, con S = 200 cm² = 2,0 × 10⁻² m² e d = 1,0 × 10⁻³ m. C = 8,85 × 10⁻¹² × 2,0 × 10⁻² / 1,0 × 10⁻³ = 1,77 × 10⁻¹⁰ F, cioè circa 177 pF.\n\nA) Usa la distanza in millimetri senza convertirla in metri.\nB) Usa l'area in centimetri quadrati senza convertirla in metri quadrati.\nC) Inverte il rapporto geometrico: calcola ε₀ d/S.\nE) Dimentica ε₀ e calcola solo S/d."
+    },
+    {
+      "id": "u6-0084",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Armature del condensatore",
+      "testo": "Ciascuno dei due conduttori affacciati che formano un condensatore si chiama ……",
+      "accettate": [
+        "armatura",
+        "armature",
+        "piastra",
+        "piastre",
+        "piatto",
+        "piatti"
+      ],
+      "spiegazione": "Le due armature portano cariche uguali e opposte. Nel condensatore piano sono lastre parallele e, lontano dai bordi, il campo fra di esse è uniforme, diretto dall'armatura positiva a quella negativa e perpendicolare alle armature.\n\nAll'esterno del condensatore piano ideale il campo è nullo: i campi delle due armature si annullano."
+    },
+    {
+      "id": "u6-0085",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Carica di un condensatore",
+      "testo": "Un condensatore da 5,0 μF è collegato a un generatore ideale da 12 V. La carica su ciascuna armatura è:",
+      "opzioni": [
+        "60 C",
+        "6,0 × 10⁻⁵ C",
+        "2,4 × 10⁶ C",
+        "4,2 × 10⁻⁷ C",
+        "3,6 × 10⁻⁴ C"
+      ],
+      "corretta": 1,
+      "spiegazione": "Q = CΔV = 5,0 × 10⁻⁶ × 12 = 6,0 × 10⁻⁵ C, cioè 60 μC. Una armatura porta +60 μC, l'altra −60 μC.\n\nA) Usa la capacità in microfarad senza convertirla in farad.\nC) Divide la ddp per la capacità, ΔV/C, invece di moltiplicarle.\nD) Divide la capacità per la ddp, C/ΔV, invece di moltiplicarle.\nE) Calcola ½CΔV², che è l'energia immagazzinata in joule, non la carica."
+    },
+    {
+      "id": "u6-0086",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Condensatori in serie",
+      "testo": "Due condensatori collegati in serie a un generatore portano sulle armature la stessa ……",
+      "accettate": [
+        "carica",
+        "carica elettrica",
+        "quantita di carica"
+      ],
+      "spiegazione": "Nel collegamento in serie l'armatura negativa del primo condensatore e quella positiva del secondo formano un conduttore isolato, inizialmente neutro: per induzione si caricano con cariche uguali e opposte. Tutti i condensatori in serie hanno quindi la stessa carica Q.\n\nLa ddp totale si ripartisce in modo inversamente proporzionale alle capacità, e la capacità equivalente si ricava da 1/C_eq = 1/C₁ + 1/C₂ + …"
+    },
+    {
+      "id": "u6-0087",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Dielettrico in un condensatore collegato al generatore",
+      "testo": "Un condensatore piano resta collegato a un generatore ideale mentre fra le armature si inserisce un dielettrico con costante relativa εr = 2. La carica sulle armature:",
+      "opzioni": [
+        "raddoppia",
+        "resta costante",
+        "si dimezza",
+        "quadruplica",
+        "si annulla, perché il dielettrico è un isolante"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il generatore mantiene costante la ddp. Il dielettrico raddoppia la capacità, quindi Q = CΔV raddoppia: il generatore fornisce la carica in più.\n\nB) La carica resta costante se il condensatore è isolato. Collegato al generatore, a restare costante è la ddp.\nC) Divide per εr invece di moltiplicare: il dielettrico aumenta la capacità, non la riduce.\nD) Eleva al quadrato εr. La capacità, e con essa la carica a ddp costante, cresce di un fattore εr.\nE) Il dielettrico non mette in contatto le armature e non le scarica: si polarizza, e la capacità aumenta."
+    },
+    {
+      "id": "u6-0088",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Costante dielettrica relativa",
+      "testo": "Il numero puro εr, che indica di quante volte la capacità di un condensatore aumenta quando fra le armature si inserisce un isolante, si chiama costante …… relativa.",
+      "accettate": [
+        "dielettrica"
+      ],
+      "spiegazione": "Vale 1 per il vuoto, circa 1 per l'aria e circa 80 per l'acqua a temperatura ambiente. Lo stesso fattore riduce il campo e la forza fra cariche immerse nel materiale.\n\nIl prodotto ε = ε₀εr è la costante dielettrica assoluta del materiale, che sostituisce ε₀ nelle formule scritte per il vuoto."
+    },
+    {
+      "id": "u6-0089",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Unità di misura del campo magnetico",
+      "testo": "Nel Sistema Internazionale l'unità di misura del campo magnetico B è il ……",
+      "accettate": [
+        "tesla"
+      ],
+      "spiegazione": "Dalla forza di Lorentz, 1 T = 1 N/(A·m): un filo lungo 1 m, percorso da 1 A e perpendicolare a un campo di 1 T, subisce una forza di 1 N.\n\nÈ un'unità grande: il campo magnetico terrestre vale qualche decina di microtesla, mentre gli scanner per risonanza magnetica usano campi di 1,5 o 3 T."
+    },
+    {
+      "id": "u6-0090",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Verso della forza di Lorentz su una carica negativa",
+      "testo": "Un elettrone si muove verso est in un campo magnetico uniforme diretto verso nord, su un piano orizzontale. La forza magnetica sull'elettrone è diretta:",
+      "opzioni": [
+        "verso l'alto",
+        "verso nord",
+        "verso il basso",
+        "verso ovest",
+        "verso sud"
+      ],
+      "corretta": 2,
+      "spiegazione": "F = q v × B. Con v verso est e B verso nord, la regola della mano destra dà per v × B il verso verticale verso l'alto: è il verso della forza su una carica positiva. L'elettrone ha carica negativa, quindi la forza è diretta verso il basso.\n\nA) È il verso della forza su una carica positiva: per l'elettrone il verso va invertito.\nB) La forza magnetica è perpendicolare al campo, quindi non può essere diretta lungo B.\nD) La forza magnetica è perpendicolare alla velocità: non frena la carica lungo la sua direzione di moto.\nE) La forza è perpendicolare al campo, quindi non può avere la sua stessa direzione, in nessuno dei due versi."
+    },
+    {
+      "id": "u6-0091",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Linee di campo del filo rettilineo",
+      "testo": "Le linee del campo magnetico generato da un filo rettilineo percorso da corrente sono ……, centrate sul filo e giacenti in piani perpendicolari a esso.",
+      "accettate": [
+        "circonferenze",
+        "circonferenza",
+        "cerchi",
+        "circolari",
+        "circonferenze concentriche",
+        "cerchi concentrici"
+      ],
+      "spiegazione": "È quanto mostra l'esperimento di Oersted: un ago magnetico attorno al filo si dispone tangente a queste circonferenze. Il verso si ricava con la regola della mano destra, pollice nel verso della corrente.\n\nA differenza delle linee del campo elettrostatico, le linee del campo magnetico non hanno inizio né fine: sono sempre chiuse."
+    },
+    {
+      "id": "u6-0092",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Raggio dell'orbita e rapporto massa/carica",
+      "testo": "Un protone e una particella alfa (carica 2e, massa circa 4 volte quella del protone) entrano con la stessa velocità, perpendicolare al campo, nello stesso campo magnetico uniforme. Il raggio dell'orbita della particella alfa, rispetto a quello del protone, è:",
+      "opzioni": [
+        "doppio",
+        "uguale",
+        "quadruplo",
+        "la metà",
+        "otto volte maggiore"
+      ],
+      "corretta": 0,
+      "spiegazione": "r = mv/(qB): a parità di v e B il raggio è proporzionale al rapporto m/q. Per la particella alfa m/q vale 4/2 = 2 volte quello del protone, quindi il raggio è doppio.\n\nB) Il raggio dipende dal rapporto fra massa e carica, che è diverso per le due particelle.\nC) Tiene conto della massa maggiore ma dimentica che anche la carica è doppia.\nD) Inverte il rapporto: calcola q/m invece di m/q.\nE) Moltiplica massa e carica invece di farne il rapporto: 4 × 2."
+    },
+    {
+      "id": "u6-0093",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Regola della mano destra",
+      "testo": "Per trovare il verso della forza magnetica su una carica positiva in moto, o il verso delle linee di campo attorno a un filo percorso da corrente, si usa la regola della mano ……",
+      "accettate": [
+        "destra"
+      ],
+      "spiegazione": "Per il filo: pollice nel verso della corrente, le dita piegate indicano il verso delle linee di campo. Per la forza: le dita lungo v, piegate verso B, e il pollice indica il verso di v × B.\n\nPer una carica negativa la forza ha il verso opposto a quello dato dalla regola."
+    },
+    {
+      "id": "u6-0094",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Campo magnetico di un filo: dipendenza da corrente e distanza",
+      "testo": "A distanza r da un filo rettilineo percorso dalla corrente I il campo magnetico ha intensità B. Se la corrente raddoppia e anche la distanza raddoppia, il campo diventa:",
+      "opzioni": [
+        "B/2",
+        "2B",
+        "B",
+        "4B",
+        "B/4"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il campo di un filo rettilineo è direttamente proporzionale alla corrente e inversamente proporzionale alla distanza dal filo. Raddoppiando entrambe, i due fattori 2 si compensano e il campo resta B.\n\nA) Tratta il campo come inversamente proporzionale al quadrato della distanza, come il campo elettrico di una carica puntiforme: 2/4.\nB) Considera solo il raddoppio della corrente e trascura la distanza.\nD) Moltiplica i due fattori invece di dividerli: tratta il campo come crescente con la distanza.\nE) Considera solo l'aumento della distanza e lo eleva al quadrato, trascurando la corrente."
+    },
+    {
+      "id": "u6-0095",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Forza di Lorentz: calcolo",
+      "testo": "Un protone (q = 1,6 × 10⁻¹⁹ C) si muove a 2,0 × 10⁶ m/s perpendicolarmente a un campo magnetico uniforme di 0,50 T. Il modulo della forza magnetica è:",
+      "opzioni": [
+        "3,2 × 10⁻¹³ N",
+        "6,4 × 10⁻¹³ N",
+        "0 N",
+        "8,0 × 10⁻²⁰ N",
+        "1,6 × 10⁻¹³ N"
+      ],
+      "corretta": 4,
+      "spiegazione": "F = qvB sen 90° = 1,6 × 10⁻¹⁹ × 2,0 × 10⁶ × 0,50 = 1,6 × 10⁻¹³ N.\n\nA) Calcola qv e dimentica di moltiplicare per il campo.\nB) Divide per il campo invece di moltiplicare: qv/B.\nC) Confonde la forza con il lavoro: è il lavoro della forza magnetica a essere nullo, non la forza, quando v è perpendicolare a B.\nD) Dimentica la velocità: calcola qB."
+    },
+    {
+      "id": "u6-0096",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Induzione elettromagnetica",
+      "testo": "Il fenomeno per cui una variazione del flusso magnetico concatenato con un circuito genera in esso una forza elettromotrice si chiama induzione ……",
+      "accettate": [
+        "elettromagnetica"
+      ],
+      "spiegazione": "Scoperta da Faraday nel 1831, è alla base dei generatori elettrici delle centrali, delle dinamo e dei trasformatori. Non conta il valore del flusso, ma la sua variazione nel tempo.\n\nNon va confusa con l'induzione elettrostatica, che è la separazione di cariche in un conduttore vicino a un corpo carico."
+    },
+    {
+      "id": "u6-0097",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Legge di Faraday-Neumann con più spire",
+      "testo": "Una bobina di 200 spire è attraversata da un campo magnetico il cui flusso, attraverso ogni spira, passa da 0 a 4,0 × 10⁻³ Wb in 0,10 s. Il modulo della forza elettromotrice media indotta nella bobina è:",
+      "opzioni": [
+        "0,040 V",
+        "8,0 V",
+        "0,080 V",
+        "2,0 × 10⁻⁴ V",
+        "4,0 × 10⁻⁴ V"
+      ],
+      "corretta": 1,
+      "spiegazione": "Con N spire la fem si somma su tutte: |ε| = N |ΔΦ|/Δt = 200 × 4,0 × 10⁻³ / 0,10 = 8,0 V.\n\nA) Dimentica il numero di spire: è la fem indotta in una sola spira.\nC) Moltiplica per l'intervallo di tempo invece di dividere: N ΔΦ Δt.\nD) Divide per il numero di spire invece di moltiplicare.\nE) Moltiplica la variazione di flusso per il tempo e dimentica il numero di spire."
+    },
+    {
+      "id": "u6-0098",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Forza elettromotrice indotta",
+      "testo": "La tensione che compare in un circuito a causa della variazione del flusso magnetico concatenato, anche in assenza di generatori, si chiama forza …… indotta.",
+      "accettate": [
+        "elettromotrice"
+      ],
+      "spiegazione": "Si indica con ε o fem e si misura in volt, come una ddp, anche se si chiama «forza». Se il circuito è chiuso, la fem indotta fa circolare una corrente indotta I = ε/R.\n\nPer la legge di Faraday-Neumann-Lenz vale ε = −ΔΦ/Δt: è tanto maggiore quanto più rapidamente varia il flusso."
+    },
+    {
+      "id": "u6-0099",
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Condizioni per la corrente indotta",
+      "testo": "In quale dei seguenti casi in una spira conduttrice chiusa NON circola corrente indotta?",
+      "opzioni": [
+        "l'intensità del campo che attraversa la spira cresce nel tempo",
+        "la spira ruota attorno a un suo diametro perpendicolare al campo",
+        "la spira viene schiacciata in un campo costante, riducendone l'area",
+        "la spira è ferma in un campo magnetico intenso e costante",
+        "una calamita viene allontanata dalla spira"
+      ],
+      "corretta": 3,
+      "spiegazione": "La corrente indotta nasce solo dalla variazione del flusso magnetico. Una spira ferma in un campo costante è attraversata da un flusso costante, per quanto grande: la fem indotta è nulla.\n\nA) Se cresce B, a parità di area e di orientazione cresce il flusso: si induce una corrente.\nB) La rotazione cambia l'angolo fra campo e normale alla spira e quindi il flusso Φ = BS cos θ.\nC) Riducendo l'area attraversata dal campo si riduce il flusso, e la variazione induce una corrente.\nE) Allontanando la calamita il campo sulla spira diminuisce e con esso il flusso."
+    },
+    {
+      "id": "u6-0100",
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Legge di Faraday-Neumann",
+      "testo": "La legge che lega la forza elettromotrice indotta alla rapidità di variazione del flusso magnetico, ε = −ΔΦ/Δt, porta i nomi di Faraday, …… e Lenz.",
+      "accettate": [
+        "neumann"
+      ],
+      "spiegazione": "Faraday scoprì il fenomeno, Neumann ne diede la formulazione matematica e Lenz stabilì il verso della corrente indotta, espresso dal segno meno.\n\nIl valore della fem dipende dalla variazione del flusso e dal tempo in cui avviene, non dal valore del flusso: un flusso grande e costante non induce nulla."
+    }
+  ]
+}
