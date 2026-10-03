@@ -1,0 +1,715 @@
+{
+  "lotto": "chimica-u7-04",
+  "unita": "u7",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u7-0103",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Amminoacidi: codici a una lettera",
+      "testo": "Il codice a una lettera E indica:",
+      "opzioni": [
+        "la glicina",
+        "l'acido glutammico",
+        "l'acido aspartico",
+        "la glutammina",
+        "l'asparagina"
+      ],
+      "corretta": 1,
+      "spiegazione": "E è il codice dell'acido glutammico (glutammato). Le coppie acido/ammide hanno codici che non seguono l'iniziale: D acido aspartico, N asparagina, E acido glutammico, Q glutammina.\n\nA) Il codice della glicina è G.\nC) Il codice dell'acido aspartico è D. Aspartato e glutammato si confondono perché sono entrambi amminoacidi acidi.\nD) Il codice della glutammina è Q. Errore: confondere l'ammide con l'acido corrispondente.\nE) Il codice dell'asparagina è N."
+    },
+    {
+      "id": "u7-0104",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Classificazione: catene laterali eterocicliche",
+      "testo": "Quale amminoacido ha nella catena laterale un anello imidazolico?",
+      "opzioni": [
+        "Istidina",
+        "Arginina",
+        "Triptofano",
+        "Fenilalanina",
+        "Prolina"
+      ],
+      "corretta": 0,
+      "spiegazione": "La catena laterale dell'istidina contiene un anello imidazolico, a cinque atomi con due azoti. Con pKa intorno a 6 può acquistare o cedere un protone vicino al pH fisiologico.\n\nB) L'arginina contiene un gruppo guanidinico, non un anello.\nC) Il triptofano contiene un anello indolico (benzene fuso con un pirrolo), non imidazolico.\nD) La fenilalanina contiene un anello benzenico, senza azoto.\nE) Nella prolina l'anello è pirrolidinico, saturo, e comprende l'azoto del gruppo amminico α."
+    },
+    {
+      "id": "u7-0105",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Classificazione: amminoacidi polari con ossidrile",
+      "testo": "La serina, la treonina e la tirosina hanno nella catena laterale un gruppo ……, che le rende polari.",
+      "accettate": [
+        "ossidrilico",
+        "ossidrile",
+        "idrossilico",
+        "idrossile",
+        "oh",
+        "ossidrili",
+        "ossidrilici"
+      ],
+      "spiegazione": "Serina e treonina portano un ossidrile alcolico, la tirosina un ossidrile fenolico. L'ossidrile forma legami idrogeno con l'acqua e rende polare la catena laterale."
+    },
+    {
+      "id": "u7-0106",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Stereochimica: proiezione di Fischer",
+      "testo": "Nella proiezione di Fischer di un L-amminoacido, con il carbossile in alto e la catena laterale in basso, il gruppo amminico si trova a ……",
+      "accettate": [
+        "sinistra"
+      ],
+      "spiegazione": "Nella convenzione di Fischer la catena principale è verticale, con il carbonio più ossidato (il carbossile) in alto. In un L-amminoacido il gruppo amminico del carbonio α è a sinistra, come l'ossidrile della L-gliceraldeide; in un D-amminoacido è a destra."
+    },
+    {
+      "id": "u7-0107",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Proprietà acido-base: forma a pH acido",
+      "testo": "A pH 1 la glicina si trova prevalentemente come:",
+      "opzioni": [
+        "catione, con carica netta +2",
+        "molecola senza cariche, con carica netta 0",
+        "catione, con carica netta +1",
+        "anione, con carica netta −1",
+        "zwitterione, con carica netta 0"
+      ],
+      "corretta": 2,
+      "spiegazione": "La glicina ha pKa ≈ 2,3 per il carbossile e ≈ 9,6 per il gruppo amminico. A pH 1, inferiore a entrambi i pKa, i due gruppi sono protonati: –COOH neutro e –NH₃⁺ positivo. La carica netta è +1.\n\nA) La glicina ha un solo gruppo basico: la carica massima è +1.\nB) A pH 1 il gruppo amminico è protonato e carico positivamente; la forma senza cariche non prevale a nessun pH.\nD) La forma anionica prevale sopra il pKa del gruppo amminico, a pH basico.\nE) Lo zwitterione prevale fra i due pKa, cioè circa fra pH 2,3 e 9,6; a pH 1 il carbossile è ancora protonato."
+    },
+    {
+      "id": "u7-0108",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Proprietà acido-base: zwitterione",
+      "testo": "Una specie che porta contemporaneamente una carica positiva e una negativa, con carica netta zero, come un amminoacido a pH neutro, si chiama ……",
+      "accettate": [
+        "zwitterione",
+        "zwitterioni",
+        "ione dipolare",
+        "ione anfotero",
+        "sale interno"
+      ],
+      "spiegazione": "Nello zwitterione (o ione dipolare) il carbossile è deprotonato (–COO⁻) e il gruppo amminico è protonato (–NH₃⁺): la molecola ha due cariche opposte e carica netta zero. È la forma prevalente degli amminoacidi in soluzione acquosa a pH vicino alla neutralità."
+    },
+    {
+      "id": "u7-0109",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Proprietà acido-base: punto isoelettrico di un amminoacido acido",
+      "testo": "L'acido aspartico ha pKa 2,1 (α-carbossile), 3,9 (carbossile della catena laterale) e 9,8 (α-amminico). Il suo punto isoelettrico è circa:",
+      "opzioni": [
+        "5,3",
+        "6,85",
+        "9,8",
+        "5,95",
+        "3,0"
+      ],
+      "corretta": 4,
+      "spiegazione": "Partendo dalla forma completamente protonata, con carica +1, sopra pH 2,1 la carica è 0, sopra 3,9 diventa −1, sopra 9,8 diventa −2. La specie neutra esiste fra i pKa 2,1 e 3,9: pI = (2,1 + 3,9)/2 = 3,0.\n\nA) È la media dei tre pKa: il punto isoelettrico si calcola solo con i due pKa che delimitano la specie con carica zero.\nB) È la media dei due pKa più alti, (3,9 + 9,8)/2: è la regola degli amminoacidi basici, applicata a un amminoacido acido.\nC) È il pKa del gruppo amminico: a questo pH la carica netta media è circa −1,5, non zero.\nD) È la media dei pKa del carbossile α e del gruppo amminico, (2,1 + 9,8)/2: ignora il carbossile della catena laterale."
+    },
+    {
+      "id": "u7-0110",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Amminoacidi essenziali",
+      "testo": "Gli amminoacidi che l'organismo umano non è in grado di sintetizzare e che devono essere assunti con la dieta sono detti ……",
+      "accettate": [
+        "essenziali",
+        "essenziale"
+      ],
+      "spiegazione": "Gli amminoacidi essenziali per l'uomo adulto sono isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano e valina; la maggior parte delle classificazioni aggiunge l'istidina. Gli altri sono non essenziali, perché l'organismo li sintetizza."
+    },
+    {
+      "id": "u7-0111",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Legame peptidico: estremità della catena",
+      "testo": "In una catena polipeptidica, l'estremità che porta il gruppo α-amminico libero si chiama estremità ……",
+      "accettate": [
+        "n-terminale",
+        "n terminale",
+        "amminoterminale",
+        "ammino-terminale",
+        "ammino terminale",
+        "aminoterminale",
+        "amino-terminale"
+      ],
+      "spiegazione": "Ogni legame peptidico impegna il carbossile di un residuo e il gruppo amminico del successivo: restano liberi solo il gruppo α-amminico del primo residuo (estremità N-terminale) e il carbossile dell'ultimo (estremità C-terminale). La sequenza si scrive dall'N-terminale al C-terminale."
+    },
+    {
+      "id": "u7-0112",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Caratteristiche del legame peptidico: lunghezza",
+      "testo": "La lunghezza del legame C–N peptidico è:",
+      "opzioni": [
+        "maggiore di quella di un legame singolo C–N, per l'ingombro del carbonile",
+        "intermedia fra quella di un legame singolo C–N e quella di un doppio legame C=N",
+        "variabile, perché il legame ruota liberamente",
+        "uguale a quella di un legame singolo C–N, come in un'ammina",
+        "uguale a quella di un doppio legame C=N, come in un'immina"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per risonanza il legame C–N peptidico ha un parziale carattere di doppio legame: è più corto di un legame singolo C–N e più lungo di un doppio legame C=N. I valori riportati nei testi sono circa 1,32 Å per il legame peptidico, circa 1,47 Å per il singolo e circa 1,27 Å per il doppio.\n\nA) La risonanza accorcia il legame, non lo allunga.\nC) La rotazione attorno al legame C–N peptidico è impedita proprio per il suo parziale carattere di doppio legame.\nD) Ignora la risonanza, che accorcia il legame dandogli parziale carattere di doppio legame.\nE) Il carattere di doppio legame è solo parziale: il legame resta più lungo di un vero doppio legame."
+    },
+    {
+      "id": "u7-0113",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Struttura secondaria: foglietto β",
+      "testo": "Tratti di catena polipeptidica in conformazione estesa, affiancati e uniti da legami idrogeno fra i C=O e gli N–H dello scheletro, formano un foglietto ……",
+      "accettate": [
+        "beta",
+        "beta pieghettato",
+        "pieghettato"
+      ],
+      "spiegazione": "Il foglietto β, detto anche foglietto pieghettato, è con l'α-elica uno dei due elementi principali di struttura secondaria. I filamenti affiancati possono essere paralleli o antiparalleli."
+    },
+    {
+      "id": "u7-0114",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Denaturazione e livelli strutturali",
+      "testo": "Quale livello strutturale di una proteina NON viene alterato dalla denaturazione termica?",
+      "opzioni": [
+        "nessuno: la denaturazione idrolizza anche i legami peptidici",
+        "la struttura terziaria",
+        "la struttura secondaria",
+        "la struttura primaria",
+        "la struttura quaternaria"
+      ],
+      "corretta": 3,
+      "spiegazione": "La denaturazione rompe le interazioni deboli che mantengono la conformazione nativa (legami idrogeno, interazioni idrofobiche, interazioni ioniche) e altera le strutture secondaria, terziaria e quaternaria. I legami peptidici sono covalenti e non vengono rotti: la sequenza resta intatta.\n\nA) La denaturazione non è un'idrolisi: i legami peptidici restano intatti e con loro la struttura primaria.\nB) Il ripiegamento tridimensionale dipende da interazioni deboli, che vengono perse con la denaturazione.\nC) α-eliche e foglietti β dipendono da legami idrogeno, che il riscaldamento rompe.\nE) L'associazione fra subunità dipende in gran parte da interazioni non covalenti: con la denaturazione le subunità possono separarsi."
+    },
+    {
+      "id": "u7-0115",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Interazioni idrofobiche",
+      "testo": "Nelle proteine globulari solubili in acqua le catene laterali apolari tendono a disporsi all'interno della molecola per effetto delle:",
+      "opzioni": [
+        "legami peptidici fra le catene laterali apolari",
+        "interazioni ioniche fra le catene laterali apolari",
+        "ponti disolfuro fra le catene laterali apolari",
+        "legami idrogeno fra le catene laterali apolari",
+        "interazioni idrofobiche"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le catene laterali apolari, esposte all'acqua, costringono le molecole d'acqua circostanti a una disposizione più ordinata. Raggruppandole all'interno della proteina, l'acqua viene liberata e l'entropia del sistema aumenta: è l'effetto idrofobico, una delle principali forze del ripiegamento.\n\nA) I legami peptidici uniscono i gruppi dello scheletro, non le catene laterali.\nB) Le catene laterali apolari non sono cariche: non danno interazioni ioniche.\nC) I ponti disolfuro si formano solo fra cisteine, non fra catene laterali apolari in generale.\nD) Le catene laterali apolari non hanno idrogeni legati a O o N: non formano legami idrogeno."
+    },
+    {
+      "id": "u7-0116",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Interazioni ioniche nelle proteine",
+      "testo": "L'interazione elettrostatica fra la catena laterale positiva di una lisina e quella negativa di un glutammato è detta ponte ……",
+      "accettate": [
+        "salino",
+        "ionico"
+      ],
+      "spiegazione": "Il ponte salino è un'interazione ionica fra catene laterali di carica opposta: positive quelle di lisina e arginina, negative quelle di aspartato e glutammato a pH fisiologico. Contribuisce a stabilizzare la struttura terziaria e quaternaria."
+    },
+    {
+      "id": "u7-0117",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Classificazione dei monosaccaridi: pentosi",
+      "testo": "Un monosaccaride con cinque atomi di carbonio, come il ribosio, si chiama ……",
+      "accettate": [
+        "pentoso",
+        "pentosi",
+        "aldopentoso",
+        "aldopentosi"
+      ],
+      "spiegazione": "I monosaccaridi si classificano per numero di atomi di carbonio: triosi (3), tetrosi (4), pentosi (5), esosi (6). Il ribosio è un aldopentoso, componente dell'RNA e dei nucleotidi come l'ATP."
+    },
+    {
+      "id": "u7-0118",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Isomeria dei monosaccaridi: enantiomeri",
+      "testo": "Rispetto al D-glucosio, l'L-glucosio è:",
+      "opzioni": [
+        "il suo epimero al C5, perché D e L dipendono solo dal C5",
+        "un suo diastereoisomero non speculare",
+        "il suo anomero, con il C1 invertito",
+        "lo stesso composto, che ruota la luce polarizzata verso sinistra",
+        "il suo enantiomero, con tutti i centri chirali invertiti"
+      ],
+      "corretta": 4,
+      "spiegazione": "D- e L-glucosio sono immagini speculari non sovrapponibili: tutti e quattro i centri chirali hanno configurazione opposta. La lettera D o L si legge sul centro chirale più lontano dal carbonile, ma passare da D a L inverte l'intera molecola.\n\nA) Invertire solo il C5 darebbe un altro zucchero, l'L-idosio, non l'L-glucosio: il C5 serve a leggere la serie, ma l'enantiomero ha tutti i centri invertiti.\nB) I diastereoisomeri non sono immagini speculari; D- e L-glucosio lo sono.\nC) Gli anomeri sono le forme α e β dello stesso zucchero ciclico: entrambi appartengono alla serie D.\nD) D e L indicano la configurazione, non il verso di rotazione; inoltre i due enantiomeri sono composti diversi."
+    },
+    {
+      "id": "u7-0119",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Ciclizzazione: forma piranosica",
+      "testo": "Un monosaccaride ciclico con un anello a sei atomi, cinque carboni e un ossigeno, si dice in forma ……",
+      "accettate": [
+        "piranosica",
+        "piranosico",
+        "piranosio",
+        "piranoso",
+        "piranosi",
+        "piranosiche"
+      ],
+      "spiegazione": "L'anello a sei atomi, cinque carboni e un ossigeno, ricorda il pirano: la forma si dice piranosica. È la forma ciclica prevalente del glucosio; l'anello a cinque atomi si dice furanosico."
+    },
+    {
+      "id": "u7-0120",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Ciclizzazione: origine dell'ossigeno dell'anello",
+      "testo": "Nella ciclizzazione del D-glucosio a glucopiranosio, l'atomo di ossigeno che entra nell'anello proviene da:",
+      "opzioni": [
+        "l'ossidrile in C6",
+        "l'ossidrile in C5",
+        "l'ossidrile in C4",
+        "il gruppo aldeidico in C1",
+        "una molecola d'acqua che si addiziona al C1"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'ossigeno dell'ossidrile in C5 attacca il carbonio carbonilico in C1 e diventa l'ossigeno dell'anello. L'ossigeno del gruppo aldeidico resta sul C1 come ossidrile anomerico.\n\nA) Il C6 resta fuori dall'anello come gruppo CH₂OH.\nC) La reazione con l'ossidrile in C4 darebbe l'anello a cinque atomi, la forma furanosica.\nD) L'ossigeno aldeidico non entra nell'anello: diventa l'ossidrile del carbonio anomerico.\nE) La ciclizzazione è una reazione intramolecolare: non coinvolge l'acqua."
+    },
+    {
+      "id": "u7-0121",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Tautomeria dei monosaccaridi",
+      "testo": "In ambiente basico D-glucosio, D-mannosio e D-fruttosio si interconvertono per tautomeria attraverso un intermedio comune, l'……",
+      "accettate": [
+        "enediolo",
+        "endiolo",
+        "enediolico",
+        "intermedio enediolico"
+      ],
+      "spiegazione": "In ambiente basico l'idrogeno in C2 del glucosio può essere rimosso: si forma un enediolo, con un doppio legame C1=C2 e due ossidrili. Da questo intermedio si possono riformare il glucosio, il suo epimero al C2 (mannosio) o il chetoso corrispondente (fruttosio)."
+    },
+    {
+      "id": "u7-0122",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Riduzione dei monosaccaridi",
+      "testo": "La riduzione del gruppo carbonilico del D-fruttosio produce:",
+      "opzioni": [
+        "glicerolo e diidrossiacetone",
+        "solo sorbitolo, come dalla riduzione del glucosio",
+        "acido gluconico",
+        "una miscela di sorbitolo e mannitolo",
+        "solo mannitolo, perché il C2 conserva la sua configurazione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il C2 chetonico del fruttosio non è un centro chirale. Ridotto ad alcol diventa un nuovo centro chirale, che può assumere entrambe le configurazioni: si ottengono D-glucitolo (sorbitolo) e D-mannitolo, epimeri al C2.\n\nA) La riduzione non spezza la catena di carbonio.\nB) Dal glucosio si ottiene solo sorbitolo perché il C2 è già chirale. Nel fruttosio il C2 diventa chirale con la riduzione e può assumere entrambe le configurazioni.\nC) È un prodotto di ossidazione, non di riduzione, e deriva dal glucosio.\nE) Il C2 del fruttosio non ha una configurazione da conservare: è un carbonile, non un centro chirale."
+    },
+    {
+      "id": "u7-0123",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Glicazione delle proteine: emoglobina glicata",
+      "testo": "La frazione di emoglobina modificata in modo non enzimatico dal glucosio, usata per valutare la glicemia media delle settimane precedenti, si chiama emoglobina ……",
+      "accettate": [
+        "glicata",
+        "glicosilata",
+        "a1c",
+        "hba1c"
+      ],
+      "spiegazione": "Il glucosio reagisce con il gruppo amminico N-terminale della catena β dell'emoglobina formando, attraverso la base di Schiff, un prodotto di Amadori stabile: l'emoglobina glicata (HbA1c). Poiché gli eritrociti vivono circa 120 giorni, la sua percentuale riflette la glicemia media dei due-tre mesi precedenti. Il termine «glicosilata» è d'uso comune ma improprio, perché la glicosilazione è enzimatica."
+    },
+    {
+      "id": "u7-0124",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Disaccaridi: saccarosio",
+      "testo": "Nel saccarosio il legame glicosidico unisce:",
+      "opzioni": [
+        "il C1 del glucosio e il C6 del fruttosio",
+        "il C1 del glucosio e il C2 del fruttosio",
+        "il C1 del glucosio e il C4 del fruttosio",
+        "il C2 del glucosio e il C1 del fruttosio",
+        "il C1 del fruttosio e il C4 del glucosio"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel saccarosio il legame α1→β2 unisce i due carboni anomerici: il C1 del glucosio e il C2 del fruttosio. Per questo nessuno dei due residui ha il carbonio anomerico libero e il saccarosio non è riducente.\n\nA) Il C6 del fruttosio non partecipa al legame.\nC) Applica lo schema 1→4 tipico di maltosio e lattosio; nel saccarosio è coinvolto il carbonio anomerico del fruttosio, il C2.\nD) Inverte i carboni: il carbonio anomerico del glucosio è il C1, quello del fruttosio il C2.\nE) Il carbonio anomerico del fruttosio è il C2, non il C1."
+    },
+    {
+      "id": "u7-0125",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Legame glicosidico: idrolisi",
+      "testo": "La rottura di un legame glicosidico per reazione con una molecola d'acqua si chiama ……",
+      "accettate": [
+        "idrolisi"
+      ],
+      "spiegazione": "Il legame glicosidico si forma per condensazione, con eliminazione di acqua, e si rompe per idrolisi, con consumo di acqua. Nella digestione l'idrolisi è catalizzata da enzimi; in laboratorio si ottiene anche in ambiente acido."
+    },
+    {
+      "id": "u7-0126",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Amminozuccheri",
+      "testo": "Gli zuccheri in cui un ossidrile è sostituito da un gruppo amminico, come la glucosammina e la galattosammina, si chiamano ……",
+      "accettate": [
+        "amminozuccheri",
+        "amminozucchero",
+        "aminozuccheri",
+        "aminozucchero",
+        "ammino zuccheri",
+        "ammino zucchero"
+      ],
+      "spiegazione": "Negli amminozuccheri un ossidrile, di norma quello in C2, è sostituito da un gruppo amminico, spesso acetilato. Sono componenti dei glicosamminoglicani e degli oligosaccaridi legati a proteine e lipidi."
+    },
+    {
+      "id": "u7-0127",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Eteropolisaccaridi: glicosamminoglicani",
+      "testo": "L'acido ialuronico è:",
+      "opzioni": [
+        "un glicerofosfolipide della matrice extracellulare",
+        "un omopolisaccaride di riserva formato da glucosio",
+        "un oligosaccaride legato alle proteine di membrana",
+        "un glicosamminoglicano formato da unità disaccaridiche ripetute",
+        "un omopolisaccaride strutturale formato solo da glucosammina"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'acido ialuronico è un eteropolisaccaride lineare: un glicosamminoglicano formato dalla ripetizione di un disaccaride di acido glucuronico e N-acetilglucosammina. È molto idratato e si trova nella matrice extracellulare, nel liquido sinoviale e nell'umor vitreo.\n\nA) Non contiene glicerolo né acidi grassi: è un polisaccaride.\nB) Descrive amido e glicogeno; l'acido ialuronico contiene due monosaccaridi diversi e ha funzione strutturale.\nC) È un polimero molto lungo, di migliaia di unità, e a differenza degli altri glicosamminoglicani non è legato covalentemente a proteine.\nE) Contiene due unità diverse, acido glucuronico e N-acetilglucosammina: è un eteropolisaccaride."
+    },
+    {
+      "id": "u7-0128",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Omopolisaccaridi: glicogeno",
+      "testo": "Rispetto all'amilopectina, il glicogeno:",
+      "opzioni": [
+        "è meno ramificato e quindi più compatto",
+        "è lineare, con soli legami α(1→4)",
+        "è formato da galattosio invece che da glucosio",
+        "è più ramificato, con punti di ramificazione α(1→6) più frequenti",
+        "ha legami β(1→4), come la cellulosa"
+      ],
+      "corretta": 3,
+      "spiegazione": "Glicogeno e amilopectina hanno la stessa chimica: catene di glucosio unite da legami α(1→4) e ramificazioni α(1→6). Nel glicogeno le ramificazioni sono più frequenti, quindi la molecola è più ramificata e ha più estremità da cui liberare glucosio.\n\nA) È il contrario: il glicogeno è più ramificato dell'amilopectina.\nB) Descrive l'amilosio, la componente lineare dell'amido.\nC) Il glicogeno è un omopolisaccaride di D-glucosio.\nE) Nel glicogeno i legami sono α, non β."
+    },
+    {
+      "id": "u7-0129",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Acidi grassi: caratteristiche generali",
+      "testo": "Gli acidi grassi naturali presentano in genere:",
+      "opzioni": [
+        "doppi legami coniugati, alternati a legami singoli",
+        "un numero dispari di atomi di carbonio e una catena non ramificata",
+        "un numero pari di atomi di carbonio e una catena ramificata",
+        "un numero pari di atomi di carbonio e una catena non ramificata",
+        "doppi legami prevalentemente in configurazione trans"
+      ],
+      "corretta": 3,
+      "spiegazione": "Gli acidi grassi naturali sono acidi monocarbossilici a catena lineare, con un numero pari di atomi di carbonio, di solito fra 12 e 24: sono sintetizzati aggiungendo due carboni alla volta.\n\nA) Nei polinsaturi naturali i doppi legami non sono coniugati: sono separati da un gruppo CH₂.\nB) Gli acidi grassi a numero dispari di carboni esistono, ma sono minoritari.\nC) Le catene degli acidi grassi naturali sono di norma lineari.\nE) Nei naturali prevalgono i doppi legami cis; i trans derivano soprattutto da processi industriali."
+    },
+    {
+      "id": "u7-0130",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Acidi grassi polinsaturi: posizione dei doppi legami",
+      "testo": "Nei polinsaturi naturali i doppi legami non sono coniugati, ma separati l'uno dall'altro da un gruppo ……",
+      "accettate": [
+        "metilenico",
+        "metilene",
+        "ch2",
+        "metilenici"
+      ],
+      "spiegazione": "Nell'acido linoleico, per esempio, i doppi legami sono fra C9–C10 e C12–C13: fra di loro c'è un gruppo metilenico (–CH₂–), il C11. È proprio questo CH₂ bis-allilico il punto più vulnerabile alla perossidazione lipidica."
+    },
+    {
+      "id": "u7-0131",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Proprietà dei saponi: micelle",
+      "testo": "Un sapone sciolto in acqua al di sopra di una concentrazione minima forma:",
+      "opzioni": [
+        "micelle, con le code idrocarburiche rivolte verso l'interno",
+        "doppi strati chiusi, come quelli dei fosfolipidi",
+        "legami covalenti fra i gruppi carbossilato e l'acqua",
+        "micelle, con i gruppi carbossilato rivolti verso l'interno",
+        "una soluzione di molecole isolate a qualunque concentrazione"
+      ],
+      "corretta": 0,
+      "spiegazione": "I saponi, sali degli acidi grassi, hanno una testa carbossilato carica e una sola coda idrocarburica. In acqua si raggruppano in micelle sferiche, con le code all'interno, lontano dall'acqua, e le teste cariche all'esterno. Le micelle inglobano i grassi nel loro interno apolare: è il meccanismo detergente.\n\nB) I doppi strati sono tipici dei lipidi con due code, come i glicerofosfolipidi; i saponi, con una sola coda, formano micelle.\nC) Il carbossilato interagisce con l'acqua tramite interazioni ione-dipolo e legami idrogeno, non con legami covalenti.\nD) Inverte la disposizione: verso l'acqua sono rivolte le teste cariche, non le code.\nE) Al di sopra di una concentrazione minima, detta concentrazione micellare critica, le molecole si associano in micelle."
+    },
+    {
+      "id": "u7-0132",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Trigliceridi: funzione",
+      "testo": "Nel tessuto adiposo i triacilgliceroli svolgono principalmente la funzione di riserva di ……",
+      "accettate": [
+        "energia",
+        "energetica",
+        "energia metabolica"
+      ],
+      "spiegazione": "I triacilgliceroli sono la principale riserva di energia dell'organismo: le catene degli acidi grassi, molto ridotte, liberano molta energia quando vengono ossidate. Svolgono anche funzioni di isolamento termico e di protezione meccanica degli organi."
+    },
+    {
+      "id": "u7-0133",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Trigliceridi: efficienza come riserva",
+      "testo": "Rispetto al glicogeno, i triacilgliceroli sono una riserva di energia più efficiente perché:",
+      "opzioni": [
+        "sono solubili in acqua e si mobilitano più rapidamente",
+        "sono più ridotti, ma si accumulano legati a molta acqua",
+        "sono più ridotti e si accumulano in forma anidra",
+        "contengono legami fosfoanidridici come l'ATP",
+        "sono più ossidati e cedono quindi più elettroni"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le catene degli acidi grassi sono quasi solo C–H e C–C, molto ridotte: la loro ossidazione completa libera circa 37 kJ/g, contro circa 17 kJ/g dei carboidrati. Inoltre i trigliceridi, apolari, si accumulano senza acqua, mentre il glicogeno è fortemente idratato.\n\nA) I trigliceridi sono insolubili in acqua; il glicogeno si mobilita più rapidamente.\nB) La prima parte è giusta, la seconda descrive il glicogeno: i trigliceridi si accumulano in forma anidra.\nD) I trigliceridi non contengono fosfato: sono esteri di glicerolo e acidi grassi.\nE) Inverte la relazione: è un composto più ridotto a poter cedere più elettroni ossidandosi."
+    },
+    {
+      "id": "u7-0134",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Glicerofosfolipidi: acido fosfatidico",
+      "testo": "Il glicerofosfolipide più semplice, formato da glicerolo, due acidi grassi e un fosfato non esterificato con altri gruppi, è l'acido ……",
+      "accettate": [
+        "fosfatidico"
+      ],
+      "spiegazione": "Nell'acido fosfatidico il glicerolo porta due acidi grassi in C1 e C2 e un fosfato in C3. Gli altri glicerofosfolipidi derivano dall'esterificazione di questo fosfato con colina, etanolammina, serina o inositolo."
+    },
+    {
+      "id": "u7-0135",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Sfingolipidi: ceramide",
+      "testo": "L'ammide formata dalla sfingosina e da un acido grasso, struttura di base di tutti gli sfingolipidi, si chiama ……",
+      "accettate": [
+        "ceramide",
+        "ceramidi"
+      ],
+      "spiegazione": "Nella ceramide un acido grasso è legato al gruppo amminico della sfingosina con un legame ammidico. Legando fosfocolina all'ossidrile in C1 si ottiene la sfingomielina; legando zuccheri si ottengono cerebrosidi e gangliosidi."
+    },
+    {
+      "id": "u7-0136",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Colesterolo nelle membrane",
+      "testo": "Nelle membrane biologiche il colesterolo:",
+      "opzioni": [
+        "si trova solo nel citosol, disciolto in forma libera",
+        "si inserisce fra i fosfolipidi con l'ossidrile rivolto verso la fase acquosa",
+        "si inserisce fra i fosfolipidi con l'ossidrile rivolto verso il centro del doppio strato",
+        "forma da solo un doppio strato che sostituisce i fosfolipidi",
+        "è legato covalentemente alle teste polari dei fosfolipidi"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il colesterolo si dispone fra le code dei fosfolipidi, con gli anelli rigidi nella parte apolare e l'unico ossidrile verso le teste polari e l'acqua. Così modula la fluidità della membrana.\n\nA) È quasi insolubile in acqua: nelle cellule si trova soprattutto nelle membrane.\nC) L'ossidrile è polare e si orienta verso l'acqua, non verso il centro apolare della membrana.\nD) Il colesterolo non forma doppi strati da solo: si inserisce in quelli formati dai fosfolipidi.\nE) Il colesterolo interagisce con i fosfolipidi in modo non covalente."
+    },
+    {
+      "id": "u7-0137",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Basi azotate: appaiamento",
+      "testo": "Fra le basi complementari della doppia elica di DNA si formano:",
+      "opzioni": [
+        "due legami idrogeno in entrambe le coppie",
+        "tre legami idrogeno fra A e G e due fra T e C",
+        "due legami idrogeno fra A e T e tre fra G e C",
+        "tre legami idrogeno fra A e T e due fra G e C",
+        "legami covalenti fra la purina e la pirimidina"
+      ],
+      "corretta": 2,
+      "spiegazione": "La coppia A–T è unita da due legami idrogeno, la coppia G–C da tre. Per questo un DNA ricco di G–C è più stabile e richiede una temperatura più alta per separare i filamenti.\n\nA) La coppia G–C forma tre legami idrogeno, non due.\nB) Appaia una purina con una purina e una pirimidina con una pirimidina: nella doppia elica una purina si appaia sempre con una pirimidina.\nD) Inverte i numeri: è la coppia G–C ad averne tre.\nE) Le basi complementari sono unite da legami idrogeno, non covalenti: per questo i filamenti possono separarsi."
+    },
+    {
+      "id": "u7-0138",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Nucleosidi: nomenclatura",
+      "testo": "Il nucleoside formato da guanina e ribosio si chiama ……",
+      "accettate": [
+        "guanosina"
+      ],
+      "spiegazione": "I nucleosidi delle purine terminano in -osina (adenosina, guanosina), quelli delle pirimidine in -idina (citidina, uridina, timidina). Con il deossiribosio si aggiunge il prefisso deossi- (deossiguanosina)."
+    },
+    {
+      "id": "u7-0139",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Nucleotidi: ribonucleotidi e deossiribonucleotidi",
+      "testo": "Il dAMP differisce dall'AMP per:",
+      "opzioni": [
+        "l'assenza dell'ossidrile in 2' dello zucchero",
+        "il legame N-glicosidico in configurazione α anziché β",
+        "l'assenza dell'ossidrile in 3' dello zucchero",
+        "la presenza di due gruppi fosfato invece di uno",
+        "la base, che nel dAMP è una deossiadenina"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il prefisso d sta per deossi: nel dAMP lo zucchero è il 2-deossiribosio, privo dell'ossidrile in 2'. Base (adenina) e numero di fosfati (uno) sono gli stessi dell'AMP.\n\nB) In entrambi il legame N-glicosidico è β: la differenza è nello zucchero.\nC) Il deossiribosio manca dell'ossidrile in 2'. L'ossidrile in 3' è presente ed è necessario per formare il legame fosfodiestere.\nD) Confonde il prefisso d (deossi) con di: due fosfati caratterizzano l'ADP.\nE) La base è la stessa adenina: il prefisso deossi- riguarda lo zucchero."
+    },
+    {
+      "id": "u7-0140",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "ATP: legami fosfoanidridici",
+      "testo": "Nell'ATP il legame che unisce due gruppi fosfato, formato per condensazione di due molecole di acido fosforico, è un legame ……",
+      "accettate": [
+        "fosfoanidridico",
+        "fosfoanidridici",
+        "anidridico",
+        "fosfoanidride",
+        "anidride fosforica",
+        "fosfoanidrico"
+      ],
+      "spiegazione": "La condensazione fra due gruppi fosfato, con eliminazione di acqua, forma un'anidride: il legame P–O–P è detto fosfoanidridico. L'ATP ne contiene due (fra α e β e fra β e γ), la cui idrolisi è fortemente esoergonica. Il fosfato α è legato al ribosio con un legame fosfoestere."
+    },
+    {
+      "id": "u7-0141",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Dinucleotidi: NAD⁺ e FAD",
+      "testo": "NAD⁺ e FAD sono definiti dinucleotidi perché:",
+      "opzioni": [
+        "sono formati da due nucleotidi uniti da un legame fosfodiestere 3'–5'",
+        "contengono due gruppi fosfato legati allo stesso ribosio",
+        "sono formati da due nucleotidi uniti attraverso i rispettivi gruppi fosfato",
+        "contengono due basi azotate appaiate con legami idrogeno",
+        "contengono due molecole di ribosio unite da un legame glicosidico"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il NAD⁺ è formato da un nucleotide della nicotinammide e da uno dell'adenina, uniti da un legame fosfoanidridico fra i due fosfati (ponte pirofosfato). Il FAD unisce allo stesso modo FMN e AMP. Nella parte flavinica lo zucchero è il ribitolo, non il ribosio, ma per convenzione l'FMN è considerato un nucleotide.\n\nA) Il legame 3'–5' è quello degli acidi nucleici; nei dinucleotidi coenzimatici i nucleotidi sono uniti fosfato con fosfato.\nB) I due fosfati non sono sullo stesso zucchero: appartengono ciascuno a uno dei due nucleotidi e sono legati fra loro.\nD) Le due basi non sono appaiate: il legame fra i due nucleotidi è covalente, attraverso i fosfati.\nE) Gli zuccheri non sono legati direttamente fra loro: il collegamento passa per i gruppi fosfato."
+    },
+    {
+      "id": "u7-0142",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Legame fosfodiestere: scheletro",
+      "testo": "L'alternanza di zuccheri e gruppi fosfato uniti da legami fosfodiestere costituisce lo …… covalente di un filamento di acido nucleico.",
+      "accettate": [
+        "scheletro",
+        "scheletri"
+      ],
+      "spiegazione": "Lo scheletro zucchero-fosfato è identico in tutto il filamento: l'informazione sta nella sequenza delle basi, legate al C1' di ciascuno zucchero. I fosfati, carichi negativamente a pH fisiologico, si trovano sulla superficie esterna della doppia elica."
+    },
+    {
+      "id": "u7-0143",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Struttura del DNA: doppia elica",
+      "testo": "Nella doppia elica di DNA, le basi azotate:",
+      "opzioni": [
+        "sono rivolte verso l'interno e impilate le une sulle altre",
+        "sono legate covalentemente alle basi del filamento opposto",
+        "sono legate ai gruppi fosfato dello scheletro",
+        "si appaiano purina con purina e pirimidina con pirimidina",
+        "sono rivolte verso l'esterno, a contatto con l'acqua"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le basi, relativamente idrofobiche, sono all'interno della doppia elica, appaiate con legami idrogeno e impilate. Lo scheletro zucchero-fosfato, polare e carico, è all'esterno, a contatto con l'acqua.\n\nB) Le basi complementari sono unite da legami idrogeno, non covalenti.\nC) Ogni base è legata al C1' del proprio zucchero, non ai fosfati.\nD) Ogni coppia è formata da una purina e da una pirimidina: è ciò che mantiene costante il diametro dell'elica.\nE) Inverte la disposizione: all'esterno c'è lo scheletro zucchero-fosfato."
+    },
+    {
+      "id": "u7-0144",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Struttura del DNA: regole di Chargaff",
+      "testo": "L'osservazione che nel DNA a doppio filamento la quantità di adenina è uguale a quella di timina, e quella di guanina a quella di citosina, porta il nome di regola di ……",
+      "accettate": [
+        "chargaff"
+      ],
+      "spiegazione": "Le regole di Chargaff (A = T e G = C, quindi purine = pirimidine) sono una conseguenza dell'appaiamento complementare. Valgono per il DNA a doppio filamento; non valgono per acidi nucleici a singolo filamento."
+    },
+    {
+      "id": "u7-0145",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "RNA: struttura",
+      "testo": "Una molecola di RNA a singolo filamento:",
+      "opzioni": [
+        "rispetta sempre le uguaglianze A = U e G = C",
+        "non può formare alcun appaiamento fra le proprie basi",
+        "può ripiegarsi su sé stessa formando tratti a doppia elica fra basi complementari",
+        "ha i nucleotidi uniti da legami fosfodiestere 2'–5'",
+        "contiene timina e deossiribosio come il DNA"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'RNA è in genere a singolo filamento, ma tratti con sequenze complementari dello stesso filamento possono appaiarsi, adenina con uracile e guanina con citosina, e formare regioni a doppia elica, come le strutture a forcina.\n\nA) Queste uguaglianze derivano dall'appaiamento di due filamenti complementari: in un singolo filamento le quantità delle basi non sono vincolate.\nB) Le basi dell'RNA si appaiano con basi complementari, anche dello stesso filamento.\nD) Anche nell'RNA i legami fosfodiestere sono 3'–5'.\nE) L'RNA contiene uracile e ribosio."
+    },
+    {
+      "id": "u7-0146",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Radicale idrossilico: reazione di Fenton",
+      "testo": "Nella reazione di Fenton il radicale idrossilico si forma per reazione fra:",
+      "opzioni": [
+        "anione superossido e Fe³⁺",
+        "ossigeno molecolare e Fe²⁺",
+        "perossido di idrogeno e Fe³⁺",
+        "acqua e Fe²⁺",
+        "perossido di idrogeno e Fe²⁺"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nella reazione di Fenton lo ione ferroso riduce il perossido di idrogeno: Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH. Il ferro si ossida a Fe³⁺ e si forma il radicale idrossilico.\n\nA) Il superossido riduce Fe³⁺ a Fe²⁺ liberando O₂: è il passaggio che, nel ciclo di Haber-Weiss, rigenera il Fe²⁺. Il radicale idrossilico si forma nel passaggio successivo, con H₂O₂.\nB) Il reagente ossidante della reazione di Fenton è il perossido di idrogeno, non l'O₂.\nC) Fe³⁺ è il prodotto della reazione: è lo ione ferroso, Fe²⁺, che cede l'elettrone al perossido.\nD) L'acqua non viene ridotta dal Fe²⁺ a radicale idrossilico: serve il perossido di idrogeno."
+    },
+    {
+      "id": "u7-0147",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Radicale idrossilico e DNA",
+      "testo": "Il radicale idrossilico, oltre a modificare le basi, può spezzare il filamento di DNA strappando atomi di idrogeno al pentoso dello scheletro, cioè al ……",
+      "accettate": [
+        "deossiribosio",
+        "2-deossiribosio",
+        "desossiribosio",
+        "2 deossiribosio"
+      ],
+      "spiegazione": "Il radicale idrossilico danneggia il DNA in due modi: modifica le basi (il prodotto più studiato è l'8-ossoguanina) e strappa idrogeni dal 2-deossiribosio, provocando la rottura del filamento."
+    },
+    {
+      "id": "u7-0148",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Tioli antiossidanti: glutatione",
+      "testo": "Il glutatione svolge la sua azione antiossidante grazie al gruppo:",
+      "opzioni": [
+        "tiolico della cisteina",
+        "carbossilico γ del glutammato",
+        "ossidrilico della serina",
+        "amminico della glicina",
+        "disolfuro, già presente nella forma ridotta"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il glutatione (γ-glutamil-cisteinil-glicina) agisce con il gruppo –SH della cisteina: cede elettroni alle specie ossidanti e due molecole ossidate si uniscono con un ponte disolfuro (GSSG).\n\nB) Il carbossile γ del glutammato è impegnato nel legame con la cisteina: è una particolarità strutturale, non il gruppo reattivo.\nC) Il glutatione non contiene serina: è formato da glutammato, cisteina e glicina.\nD) Il gruppo amminico della glicina è impegnato nel legame peptidico con la cisteina.\nE) Il ponte disolfuro si forma quando il glutatione si ossida (GSSG): la forma ridotta attiva ha un –SH libero."
+    },
+    {
+      "id": "u7-0149",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Antiossidanti con doppi legami coniugati: carotenoidi",
+      "testo": "Il β-carotene, precursore della vitamina A, deve la capacità di neutralizzare specie reattive dell'ossigeno al lungo sistema di doppi legami ……",
+      "accettate": [
+        "coniugati",
+        "coniugato",
+        "coniugate"
+      ],
+      "spiegazione": "Nei carotenoidi i doppi legami si alternano regolarmente a legami singoli: sono coniugati, e gli elettroni π sono delocalizzati lungo tutta la catena. Questo sistema assorbe l'energia dell'ossigeno singoletto e reagisce con i radicali. È anche responsabile del colore arancione."
+    },
+    {
+      "id": "u7-0150",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Deaminazione della citosina",
+      "testo": "La reazione con cui la citosina perde il gruppo amminico per azione dell'acqua, trasformandosi in uracile, è una ……",
+      "accettate": [
+        "deaminazione",
+        "deamminazione",
+        "desaminazione",
+        "deaminazione idrolitica",
+        "deamminazione idrolitica"
+      ],
+      "spiegazione": "Nella deaminazione idrolitica il gruppo amminico in C4 della citosina è sostituito da un ossigeno carbonilico e viene liberata ammoniaca: si forma uracile. Avviene spontaneamente nel DNA ed è una delle lesioni più frequenti, perché l'uracile si appaia con l'adenina."
+    }
+  ]
+}

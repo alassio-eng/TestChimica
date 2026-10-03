@@ -1,0 +1,580 @@
+{
+  "lotto": "biologia-u7-02",
+  "unita": "u7",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u7-0051",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Punto di controllo G2/M",
+      "testo": "Il punto di controllo di G2/M impedisce l'ingresso in mitosi se:",
+      "opzioni": [
+        "il centrosoma si è già duplicato durante la fase S",
+        "mancano i fattori di crescita nel mezzo extracellulare",
+        "la cellula non è passata attraverso la fase G0",
+        "i cromosomi non sono ancora tutti agganciati al fuso",
+        "il DNA non è stato replicato completamente o è danneggiato"
+      ],
+      "corretta": 4,
+      "spiegazione": "Prima di avviare la mitosi la cellula verifica che la replicazione sia terminata e che il DNA sia integro. Se non lo è, le vie di risposta al danno mantengono inattiva ciclina B-Cdk1, in particolare impedendo a Cdc25 di rimuovere i fosfati inibitori: la cellula resta in G2 finché il problema non è risolto.\n\nA) La duplicazione del centrosoma in fase S è normale e necessaria: senza due centrosomi non si formerebbe un fuso bipolare.\nB) La dipendenza dai fattori di crescita riguarda G1, prima del punto di restrizione: superato quel punto la cellula completa il ciclo anche senza di essi.\nC) G0 è uno stato di uscita dal ciclo, non una tappa obbligata: una cellula che prolifera di continuo passa da G1 a S senza entrare in G0.\nD) È la condizione sorvegliata dal punto di controllo del fuso, che agisce più avanti, alla transizione metafase-anafase."
+    },
+    {
+      "id": "u7-0052",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Degradazione delle cicline",
+      "testo": "Prima di essere distrutte dal proteasoma, le cicline vengono marcate con catene di una piccola proteina, la ……",
+      "accettate": [
+        "ubiquitina",
+        "ubiquitine",
+        "poliubiquitina"
+      ],
+      "spiegazione": "La marcatura è opera di ubiquitina ligasi specifiche: l'APC/C per le cicline mitotiche, altre ligasi per le cicline di G1/S. La catena di ubiquitine è il segnale riconosciuto dal proteasoma.\n\nLa degradazione è irreversibile: per questo rende il ciclo unidirezionale, a differenza delle fosforilazioni, che possono essere rimosse."
+    },
+    {
+      "id": "u7-0053",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Cicline e CDK per fase",
+      "testo": "Quale delle seguenti associazioni fra fase del ciclo e complesso ciclina-CDK è corretta?",
+      "opzioni": [
+        "G2/M: ciclina A-Cdk4",
+        "G1/S: ciclina E-Cdk2",
+        "G1: ciclina B-Cdk1",
+        "M: ciclina D-Cdk4",
+        "S: ciclina E-Cdk4"
+      ],
+      "corretta": 1,
+      "spiegazione": "Alla transizione G1/S agisce ciclina E-Cdk2, che completa l'iperfosforilazione di Rb e contribuisce ad avviare la replicazione. Le altre coppie principali sono ciclina D-Cdk4/6 in G1, ciclina A-Cdk2 in fase S e ciclina B-Cdk1 all'ingresso in mitosi.\n\nA) La ciclina A si associa a Cdk2 e a Cdk1; Cdk4 è il partner della ciclina D.\nC) Ciclina B-Cdk1 è il complesso della transizione G2/M; in G1 la ciclina B è assente perché è stata degradata all'uscita dalla mitosi.\nD) Ciclina D-Cdk4 agisce in G1, in risposta ai fattori di crescita.\nE) La ciclina E si associa a Cdk2, non a Cdk4, che lavora con la ciclina D."
+    },
+    {
+      "id": "u7-0054",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Fase G2",
+      "testo": "La fase del ciclo cellulare compresa fra il termine della replicazione del DNA e l'inizio della mitosi si chiama fase ……",
+      "accettate": [
+        "g2",
+        "g 2",
+        "g due",
+        "gap 2"
+      ],
+      "spiegazione": "In G2 la cellula continua a crescere, accumula ciclina B e verifica che la replicazione sia completa e che il DNA non sia danneggiato. In una cellula in G2 ogni cromosoma è formato da due cromatidi fratelli.\n\nLa G deriva dall'inglese gap, intervallo: G1 e G2 sono gli intervalli fra la mitosi e la fase S e fra la fase S e la mitosi."
+    },
+    {
+      "id": "u7-0055",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Esperimenti di fusione cellulare",
+      "testo": "Una cellula in fase S viene fusa con una cellula in G1. Nella cellula ibrida, il nucleo che era in G1:",
+      "opzioni": [
+        "entra direttamente in mitosi senza replicare il DNA",
+        "resta in G1 finché l'altro nucleo non ha finito la fase S",
+        "comincia a replicare il DNA prima del tempo",
+        "impedisce la replicazione nel nucleo che era in fase S",
+        "avvia l'apoptosi per l'incompatibilità fra le due fasi"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il citoplasma della cellula in fase S contiene i fattori attivi che avviano la replicazione, cioè i complessi ciclina-CDK di fase S, e il nucleo in G1 è già pronto a rispondervi. Questi esperimenti hanno mostrato per primi che la progressione del ciclo è comandata da fattori citoplasmatici diffusibili.\n\nA) L'ingresso in mitosi richiede l'attività di ciclina B-Cdk1, assente in una cellula in fase S.\nB) È la previsione di chi immagina il ciclo comandato solo dall'interno del nucleo; l'esperimento mostra il contrario.\nD) Il nucleo in G1 non contiene inibitori dominanti della replicazione: è il segnale di fase S a prevalere.\nE) La fusione non scatena la morte cellulare: il nucleo in G1 risponde ai segnali presenti e anticipa l'ingresso in S."
+    },
+    {
+      "id": "u7-0056",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Chinasi dipendenti da ciclina",
+      "testo": "Le chinasi che sono attive solo quando legano una ciclina, motore della progressione del ciclo cellulare, sono indicate con la sigla ……",
+      "accettate": [
+        "cdk",
+        "cdks",
+        "chinasi dipendenti da ciclina",
+        "chinasi ciclina-dipendenti",
+        "chinasi ciclina dipendenti"
+      ],
+      "spiegazione": "Le CDK fosforilano serine e treonine di proteine bersaglio. Da sole sono inattive; la loro attività dipende dal legame con la ciclina, da fosforilazioni attivanti e inibitorie e dal legame con gli inibitori.\n\nA differenza delle cicline, le CDK sono presenti a livelli pressoché costanti per tutto il ciclo."
+    },
+    {
+      "id": "u7-0057",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Stato di Rb in fase S",
+      "testo": "Al momento dell'ingresso in fase S la proteina Rb si trova:",
+      "opzioni": [
+        "acetilata ed esportata in modo stabile nel citosol",
+        "ipofosforilata e legata a E2F",
+        "degradata nel proteasoma dopo l'ubiquitinazione",
+        "iperfosforilata e legata saldamente a E2F",
+        "iperfosforilata e staccata da E2F"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ciclina D-Cdk4/6 e poi ciclina E-Cdk2 fosforilano Rb su numerosi residui: l'iperfosforilazione la stacca da E2F, che attiva i geni della fase S. Rb resta fosforilata per il resto del ciclo e viene defosforilata da una fosfatasi all'uscita dalla mitosi, tornando attiva come freno nel G1 successivo.\n\nA) La regolazione di Rb avviene per fosforilazione e la proteina agisce nel nucleo.\nB) È lo stato di Rb in G1 precoce, prima del punto di restrizione: con E2F bloccato la cellula non potrebbe entrare in fase S.\nC) Rb non viene distrutta: è regolata per fosforilazione e defosforilazione e torna a funzionare nel ciclo successivo.\nD) La fosforilazione ha proprio l'effetto di staccare Rb da E2F: le due condizioni non possono coesistere."
+    },
+    {
+      "id": "u7-0058",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Ciclina E",
+      "testo": "La ciclina la cui sintesi è indotta da E2F e che, legata a Cdk2, completa l'iperfosforilazione di Rb è la ……",
+      "accettate": [
+        "ciclina e",
+        "e"
+      ],
+      "spiegazione": "Ciclina E-Cdk2 fosforila Rb sui siti lasciati liberi da ciclina D-Cdk4/6 e libera altro E2F, che a sua volta produce altra ciclina E: è la retroazione positiva che rende netto il superamento del punto di restrizione. Il complesso partecipa anche all'avvio della replicazione.\n\nUna volta iniziata la fase S, la ciclina E viene degradata e il suo ruolo passa alla ciclina A."
+    },
+    {
+      "id": "u7-0059",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "p53 e apoptosi",
+      "testo": "Se il danno al DNA è troppo esteso per essere riparato, p53 tende a indurre:",
+      "opzioni": [
+        "l'apoptosi, attivando geni proapoptotici come BAX",
+        "l'ingresso immediato in mitosi per diluire le lesioni",
+        "la sintesi di BCL2, che blocca la via mitocondriale",
+        "la necrosi, rendendo permeabile la membrana plasmatica",
+        "l'inibizione di BAX, per preservare la cellula danneggiata"
+      ],
+      "corretta": 0,
+      "spiegazione": "Quando il danno è limitato, p53 arresta il ciclo, principalmente attraverso p21, e dà tempo alla riparazione. Se il danno è grave o persistente, p53 attiva la trascrizione di membri proapoptotici della famiglia BCL2, come BAX, PUMA e NOXA, che portano alla permeabilizzazione della membrana mitocondriale esterna: la cellula viene eliminata invece di proliferare con un genoma alterato.\n\nB) È l'opposto della funzione di p53: proliferare con il DNA danneggiato trasmetterebbe le lesioni alle cellule figlie.\nC) BCL2 è antiapoptotica: indurla proteggerebbe la cellula danneggiata, mentre p53 fa pendere la bilancia verso i membri proapoptotici.\nD) La necrosi non è un programma attivato da p53: p53 induce una morte regolata, l'apoptosi.\nE) BAX è proprio uno dei geni che p53 attiva per indurre l'apoptosi, non uno di quelli che reprime."
+    },
+    {
+      "id": "u7-0060",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Senescenza",
+      "testo": "Lo stato di arresto permanente della proliferazione, alternativo all'apoptosi, in cui una cellula resta vitale ma non si divide più, si chiama ……",
+      "accettate": [
+        "senescenza",
+        "senescenza cellulare"
+      ],
+      "spiegazione": "La senescenza può essere indotta da danno persistente al DNA, per esempio attraverso p53 e p21, e dall'accorciamento critico dei telomeri, nel qual caso si parla di senescenza replicativa. Si distingue dalla quiescenza in G0 perché non è reversibile con i fattori di crescita.\n\nCome l'apoptosi, è un meccanismo che impedisce a una cellula danneggiata di proliferare."
+    },
+    {
+      "id": "u7-0061",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "L'inibitore p16",
+      "testo": "L'inibitore p16 blocca la progressione in G1 perché:",
+      "opzioni": [
+        "si lega a E2F occupando il posto di Rb",
+        "fosforila Rb e la mantiene così legata a E2F",
+        "indirizza la ciclina E alla degradazione nel proteasoma",
+        "impedisce alla ciclina D di associarsi con Cdk4 e Cdk6",
+        "reprime la trascrizione del gene che codifica p53"
+      ],
+      "corretta": 3,
+      "spiegazione": "p16 appartiene alla famiglia di inibitori specifici per Cdk4 e Cdk6: legandosi alle chinasi impedisce la formazione del complesso con la ciclina D. Rb resta ipofosforilata, E2F resta bloccato e la cellula non supera il punto di restrizione. La perdita di p16 è frequente nei tumori.\n\nA) Il legame con E2F è il ruolo di Rb; p16 agisce più a monte, sulle CDK che fosforilano Rb.\nB) Inverte l'effetto della fosforilazione, che stacca Rb da E2F; inoltre p16 non è una chinasi.\nC) p16 non è un'ubiquitina ligasi e non agisce sulla ciclina E: il suo bersaglio sono Cdk4 e Cdk6.\nE) p16 inibisce direttamente delle chinasi; non regola la trascrizione di p53."
+    },
+    {
+      "id": "u7-0062",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Definizione del punto di restrizione",
+      "testo": "Il momento della fase G1 oltre il quale la cellula non ha più bisogno dei fattori di crescita per completare il ciclo si chiama punto di ……",
+      "accettate": [
+        "restrizione"
+      ],
+      "spiegazione": "Il punto di restrizione separa la parte di G1 dipendente dai mitogeni da quella autonoma. Il passaggio coincide con l'iperfosforilazione di Rb e la liberazione di E2F.\n\nNon va confuso con i punti di controllo legati al danno: superato il punto di restrizione, un danno al DNA può ancora arrestare la cellula attraverso p53."
+    },
+    {
+      "id": "u7-0063",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Deprivazione di siero",
+      "testo": "A una cellula in coltura viene tolto il siero, e con esso i fattori di crescita, a metà della fase G1, prima del punto di restrizione. Che cosa accade?",
+      "opzioni": [
+        "Entra in fase S e si arresta a metà della replicazione",
+        "Va incontro a necrosi per l'arresto del ciclo cellulare",
+        "Supera G1 ma si arresta in G2 in attesa del siero",
+        "Non entra in fase S ed esce dal ciclo in G0",
+        "Completa comunque il ciclo e si divide normalmente"
+      ],
+      "corretta": 3,
+      "spiegazione": "Prima del punto di restrizione la sintesi della ciclina D dipende dalla presenza continua dei mitogeni; tolto il siero, i livelli di ciclina D crollano, Rb resta ipofosforilata e la cellula esce dal ciclo in G0. Se il siero fosse stato tolto dopo il punto di restrizione, la cellula avrebbe completato il ciclo.\n\nA) Senza ciclina D, Rb non viene fosforilata ed E2F resta inibito: la cellula non entra affatto in fase S.\nB) Uscire dal ciclo non significa morire: in G0 la cellula resta vitale e metabolicamente attiva.\nC) La dipendenza dai mitogeni riguarda solo G1: una cellula entrata in S non si ferma in G2 per mancanza di siero.\nE) È ciò che accade se il siero viene tolto dopo il punto di restrizione, non prima."
+    },
+    {
+      "id": "u7-0064",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Retinoblastoma ereditario",
+      "testo": "Un bambino con la forma ereditaria del retinoblastoma nasce con:",
+      "opzioni": [
+        "un oncogene RB attivato, che agisce in modo dominante nella cellula",
+        "entrambi gli alleli di RB mutati in tutte le cellule del corpo",
+        "un allele di RB mutato in tutte le cellule; basta una mutazione dell'altro",
+        "un allele di RB mutato, presente solo nelle cellule della retina",
+        "due alleli di RB normali e una mutazione ereditata del gene p53"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nella forma ereditaria un allele mutato è presente fin dal concepimento in tutte le cellule; perché si formi il tumore basta che in una cellula della retina venga colpito l'altro allele. Per questo la malattia compare presto, è spesso bilaterale e si trasmette nelle famiglie come un carattere dominante, anche se a livello cellulare l'inattivazione deve colpire entrambi gli alleli.\n\nA) RB è un oncosoppressore, non un oncogene: il tumore nasce dalla perdita della sua funzione, non da un guadagno.\nB) Nella forma ereditaria si nasce con un solo allele mutato; il secondo viene perso per mutazione somatica in una cellula della retina.\nD) Una mutazione ereditata è presente in tutte le cellule dell'organismo, non solo in quelle di un tessuto.\nE) Il retinoblastoma ereditario è dovuto a una mutazione germinale di RB; le mutazioni germinali di p53 causano una diversa predisposizione ai tumori."
+    },
+    {
+      "id": "u7-0065",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Proto-oncogeni",
+      "testo": "Un gene normale che promuove la proliferazione cellulare e che, per mutazione o iperespressione, può trasformarsi in oncogene si chiama ……",
+      "accettate": [
+        "proto-oncogene",
+        "protooncogene",
+        "proto oncogene",
+        "proto-oncogeni",
+        "protooncogeni",
+        "proto oncogeni"
+      ],
+      "spiegazione": "I proto-oncogeni codificano componenti delle vie che stimolano la divisione: fattori di crescita, loro recettori, trasduttori come Ras, fattori di trascrizione come Myc, regolatori del ciclo come la ciclina D. Sono geni necessari alla cellula normale, non geni del cancro in sé.\n\nLa distinzione con gli oncosoppressori è funzionale: i primi spingono la proliferazione, i secondi la frenano."
+    },
+    {
+      "id": "u7-0066",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Retrovirus oncogeni",
+      "testo": "I retrovirus oncogeni acuti, come il virus del sarcoma di Rous, trasformano rapidamente le cellule perché:",
+      "opzioni": [
+        "uccidono per lisi le cellule e stimolano la rigenerazione",
+        "producono una proteina che porta alla degradazione di p53",
+        "portano nel genoma una forma alterata di un proto-oncogene cellulare",
+        "introducono mutazioni casuali con la loro trascrittasi inversa",
+        "si integrano sempre all'interno del gene RB inattivandolo"
+      ],
+      "corretta": 2,
+      "spiegazione": "Questi virus hanno incorporato nel loro genoma, in un passato evolutivo, un gene cellulare normale e lo trasportano in forma mutata o non regolata: il gene src del virus del sarcoma di Rous fu il primo oncogene identificato, e la scoperta della sua controparte cellulare portò al concetto di proto-oncogene.\n\nA) La trasformazione è una proliferazione delle cellule infettate, non una conseguenza della loro morte.\nB) È il meccanismo della proteina E6 dei papillomavirus, virus a DNA, non dei retrovirus oncogeni acuti.\nD) La trascrittasi inversa copia il genoma virale e non muta il DNA della cellula ospite: la trasformazione rapida dipende dall'oncogene virale.\nE) L'integrazione retrovirale non avviene in un sito fisso; questi virus trasformano grazie all'oncogene che trasportano."
+    },
+    {
+      "id": "u7-0067",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Papillomavirus e p53",
+      "testo": "La proteina E6 dei papillomavirus umani ad alto rischio promuove la degradazione dell'oncosoppressore ……",
+      "accettate": [
+        "p53",
+        "tp53",
+        "p 53"
+      ],
+      "spiegazione": "E6 recluta un'ubiquitina ligasi cellulare e indirizza p53 al proteasoma: la cellula infettata perde la capacità di arrestarsi o di andare in apoptosi in risposta al danno. Insieme all'inattivazione di Rb da parte di E7, spinge la cellula a proliferare senza i controlli normali.\n\nÈ il meccanismo alla base del ruolo dei papillomavirus ad alto rischio nel carcinoma della cervice uterina."
+    },
+    {
+      "id": "u7-0068",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Anafase A",
+      "testo": "Durante l'anafase A i cromatidi separati si avvicinano ai poli soprattutto perché:",
+      "opzioni": [
+        "i microtubuli interpolari si allungano e spingono i cromatidi",
+        "i microtubuli del cinetocore si accorciano per depolimerizzazione",
+        "l'anello contrattile spinge i cromatidi verso le estremità della cellula",
+        "la dineina della corteccia trascina direttamente i cromatidi",
+        "i microtubuli del cinetocore si allungano dal polo verso l'equatore"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nell'anafase A i microtubuli agganciati ai cinetocori perdono subunità, sia all'estremità più legata al cinetocore sia verso il polo, e il cinetocore resta agganciato al microtubulo che si accorcia: il cromatidio viene così portato verso il polo.\n\nA) Lo scorrimento e l'allungamento dei microtubuli interpolari allontanano i poli fra loro: è l'anafase B, non l'avvicinamento dei cromatidi ai poli.\nC) L'anello contrattile strozza la cellula durante la citodieresi e non muove i cromosomi.\nD) La dineina corticale agisce sui microtubuli astrali e tira i poli verso la membrana, non i cromatidi.\nE) Allungandosi i microtubuli spingerebbero i cromatidi lontano dai poli, non verso di essi."
+    },
+    {
+      "id": "u7-0069",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Microtubuli astrali",
+      "testo": "I microtubuli del fuso che si irradiano dai poli verso la corteccia cellulare, all'esterno del fuso, si chiamano microtubuli ……",
+      "accettate": [
+        "astrali",
+        "astrale"
+      ],
+      "spiegazione": "Il nome viene dall'aster, la raggiera di microtubuli attorno a ciascun centrosoma. Interagendo con la corteccia, per esempio attraverso la dineina corticale, posizionano e orientano il fuso, e con esso il futuro piano di divisione.\n\nGli altri due tipi sono i microtubuli del cinetocore, che si legano ai cromosomi, e quelli interpolari, che si sovrappongono all'equatore."
+    },
+    {
+      "id": "u7-0070",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Dinamica dei microtubuli in mitosi",
+      "testo": "All'ingresso in mitosi il citoscheletro di microtubuli si riorganizza. Rispetto all'interfase, i microtubuli diventano:",
+      "opzioni": [
+        "più numerosi, più corti e molto più dinamici",
+        "meno numerosi, più lunghi e più stabili",
+        "invariati, ma ancorati alla lamina nucleare",
+        "meno numerosi, più corti e privi di estremità meno",
+        "più numerosi, più lunghi e stabili per tutta la mitosi"
+      ],
+      "corretta": 0,
+      "spiegazione": "All'ingresso in mitosi la rete interfasica, fatta di pochi microtubuli lunghi e relativamente stabili, viene sostituita da molti microtubuli corti che si allungano e si accorciano rapidamente. Questa instabilità permette di esplorare lo spazio e catturare i cinetocori.\n\nB) Descrive all'incirca la situazione interfasica, l'opposto di ciò che avviene in mitosi.\nC) In mitosi la lamina si smonta e i microtubuli si riorganizzano profondamente.\nD) Ogni microtubulo ha un'estremità più e una meno: nel fuso le estremità meno sono raccolte verso i poli.\nE) Microtubuli stabili non potrebbero esplorare lo spazio e catturare i cinetocori, né accorciarsi per muovere i cromosomi."
+    },
+    {
+      "id": "u7-0071",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Il centromero",
+      "testo": "La regione del cromosoma, caratterizzata da DNA ripetuto e dalla variante istonica CENP-A, sulla quale si assembla il cinetocore, si chiama ……",
+      "accettate": [
+        "centromero",
+        "centromeri",
+        "regione centromerica"
+      ],
+      "spiegazione": "Il centromero è il punto di costrizione primaria del cromosoma metafasico e il sito su cui si costruisce il cinetocore. È anche la sede in cui la coesina resta protetta fino all'anafase.\n\nCentromero e cinetocore non coincidono: il primo è la regione cromatinica, il secondo la struttura proteica che vi si assembla e che si lega ai microtubuli."
+    },
+    {
+      "id": "u7-0072",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Biorientamento dei cromosomi",
+      "testo": "In metafase un cromosoma mitotico è agganciato correttamente al fuso quando:",
+      "opzioni": [
+        "i due cinetocori fratelli sono legati allo stesso polo del fuso",
+        "i cinetocori dei due cromatidi fratelli sono legati a poli opposti",
+        "il cromosoma è legato al polo tramite i soli microtubuli astrali",
+        "un solo cinetocore è agganciato e l'altro resta libero",
+        "i cinetocori di due cromosomi omologhi sono legati a poli opposti"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'aggancio dei cinetocori fratelli a poli opposti, detto biorientamento, mette il cromosoma sotto tensione. La tensione stabilizza gli agganci corretti; quelli sbagliati non la generano e vengono staccati e ripetuti. Solo così, all'anafase, i due cromatidi finiscono in cellule diverse.\n\nA) Con entrambi i cinetocori legati allo stesso polo i due cromatidi finirebbero nella stessa cellula figlia: è un aggancio errato che la cellula corregge.\nC) I microtubuli astrali si dirigono verso la corteccia, non verso i cromosomi: l'aggancio avviene tramite i microtubuli del cinetocore.\nD) Un cinetocore libero mantiene attivo il punto di controllo del fuso e impedisce l'anafase.\nE) Descrive la metafase I della meiosi; in mitosi gli omologhi non si appaiano e ciascun cromosoma si orienta da solo."
+    },
+    {
+      "id": "u7-0073",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Piastra metafasica",
+      "testo": "L'insieme dei cromosomi allineati sul piano equatoriale del fuso, a metà strada fra i due poli, durante la metafase forma la piastra ……",
+      "accettate": [
+        "metafasica",
+        "equatoriale"
+      ],
+      "spiegazione": "I cromosomi raggiungono la piastra perché le forze esercitate dai due poli sui cinetocori fratelli si bilanciano. In metafase i cromosomi non sono fermi: oscillano attorno alla posizione equatoriale.\n\nLa piastra è una disposizione dei cromosomi, non una struttura: non va confusa con la piastra cellulare della citodieresi nelle piante."
+    },
+    {
+      "id": "u7-0074",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Il centrosoma",
+      "testo": "Nella cellula animale il principale centro organizzatore dei microtubuli, che si duplica una volta per ciclo e forma i due poli del fuso, è il ……",
+      "accettate": [
+        "centrosoma",
+        "centrosomi"
+      ],
+      "spiegazione": "Il centrosoma è costituito da una coppia di centrioli circondata da materiale pericentriolare, in cui si trovano i complessi della γ-tubulina che nucleano i microtubuli. Si duplica a partire dalla transizione G1/S; all'ingresso in mitosi i due centrosomi si separano e diventano i poli del fuso.\n\nUna duplicazione anomala, con più di due centrosomi, può portare a fusi multipolari e a errori di segregazione."
+    },
+    {
+      "id": "u7-0075",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "La securina",
+      "testo": "La securina è:",
+      "opzioni": [
+        "la proteasi che taglia la coesina all'inizio dell'anafase",
+        "una proteina del cinetocore che si lega ai microtubuli",
+        "un inibitore della separasi, degradato all'inizio dell'anafase",
+        "un attivatore dell'APC/C che ne determina la specificità",
+        "una subunità della coesina che lega i cromatidi fratelli"
+      ],
+      "corretta": 2,
+      "spiegazione": "La securina si lega alla separasi e la tiene inattiva fino all'anafase. Quando tutti i cinetocori sono agganciati l'APC/C la ubiquitina, il proteasoma la degrada e la separasi, libera, taglia la coesina.\n\nA) Quella è la separasi; la securina è il suo inibitore.\nB) L'aggancio ai microtubuli è mediato dal complesso NDC80.\nD) Il ruolo di attivatore dell'APC/C in mitosi spetta a Cdc20; la securina è un substrato dell'APC/C.\nE) La securina non fa parte della coesina: ne regola il taglio inibendo la separasi."
+    },
+    {
+      "id": "u7-0076",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Telofase",
+      "testo": "La fase finale della mitosi, in cui attorno ai due gruppi di cromosomi si riformano gli involucri nucleari e i cromosomi si decondensano, si chiama ……",
+      "accettate": [
+        "telofase"
+      ],
+      "spiegazione": "In telofase la caduta dell'attività di Cdk1, conseguente alla degradazione della ciclina B, permette la defosforilazione di lamine e altre proteine: la lamina si riassembla, l'involucro si ricostituisce, i nucleoli ricompaiono. Nel frattempo procede la citodieresi.\n\nLa citodieresi è un processo distinto dalla mitosi in senso stretto, anche se in genere si sovrappone alla telofase."
+    },
+    {
+      "id": "u7-0077",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Degradazione della ciclina B",
+      "testo": "All'uscita dalla mitosi la degradazione della ciclina B è necessaria perché:",
+      "opzioni": [
+        "libera E2F dal legame con Rb per il ciclo successivo",
+        "permette la condensazione dei cromosomi in vista della telofase",
+        "attiva Wee1, che a sua volta avvia la citodieresi",
+        "libera la separasi tagliando direttamente la coesina",
+        "spegne Cdk1 e permette la defosforilazione dei suoi substrati"
+      ],
+      "corretta": 4,
+      "spiegazione": "Finché Cdk1 è attiva, lamine, condensina e altre proteine restano fosforilate nello stato mitotico. La degradazione della ciclina B, mediata dall'APC/C, spegne la chinasi; le fosfatasi rimuovono i fosfati e la cellula può riformare il nucleo, decondensare i cromosomi e completare la citodieresi.\n\nA) Il rilascio di E2F dipende dalla fosforilazione di Rb in G1, non dalla degradazione della ciclina B.\nB) È il contrario: all'uscita dalla mitosi i cromosomi si decondensano, mentre la condensazione richiede l'attività di Cdk1.\nC) Wee1 è una chinasi che inibisce Cdk1 prima della mitosi e non avvia la citodieresi.\nD) La ciclina B non è una proteasi e non agisce sulla coesina: il taglio è operato dalla separasi."
+    },
+    {
+      "id": "u7-0078",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Citodieresi",
+      "testo": "La divisione del citoplasma che segue la divisione del nucleo e separa le due cellule figlie si chiama ……",
+      "accettate": [
+        "citodieresi",
+        "citocinesi"
+      ],
+      "spiegazione": "Nelle cellule animali la citodieresi avviene per strozzamento, grazie all'anello contrattile di actina e miosina II che si assembla nella posizione indicata dal fuso. Nelle cellule vegetali avviene invece per formazione della piastra cellulare.\n\nMitosi e citodieresi sono eventi distinti: in alcune cellule la mitosi avviene senza citodieresi e dà origine a cellule con più nuclei."
+    },
+    {
+      "id": "u7-0079",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Meiosi I e mitosi",
+      "testo": "Quale affermazione distingue correttamente la prima divisione meiotica dalla mitosi?",
+      "opzioni": [
+        "La meiosi I non è preceduta dalla replicazione del DNA, la mitosi sì",
+        "Nella mitosi si forma il fuso, nella meiosi I la segregazione ne fa a meno",
+        "Dopo la meiosi I le figlie restano diploidi, dopo la mitosi diventano aploidi",
+        "Nella meiosi I si separano i cromatidi fratelli, nella mitosi gli omologhi",
+        "Nella meiosi I si separano gli omologhi, nella mitosi i cromatidi fratelli"
+      ],
+      "corretta": 4,
+      "spiegazione": "In meiosi I gli omologhi appaiati in bivalenti si orientano verso poli opposti e si separano, mentre i cromatidi fratelli restano uniti al centromero fino alla meiosi II. In mitosi gli omologhi non si appaiano e a separarsi sono i cromatidi fratelli.\n\nA) Anche la meiosi è preceduta da una fase S: ciò che manca è una replicazione fra la prima e la seconda divisione.\nB) Anche in meiosi i cromosomi sono segregati da un fuso di microtubuli.\nC) È il contrario: la mitosi conserva il numero dei cromosomi, la meiosi I lo dimezza.\nD) Inverte i due processi: in mitosi gli omologhi non si appaiano e non vengono separati come coppie."
+    },
+    {
+      "id": "u7-0080",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Divisione riduzionale",
+      "testo": "Poiché dimezza il numero dei cromosomi, la prima divisione meiotica è detta divisione ……",
+      "accettate": [
+        "riduzionale",
+        "riduttiva"
+      ],
+      "spiegazione": "La seconda divisione meiotica è detta invece equazionale: separa i cromatidi fratelli come una mitosi e non cambia il numero dei cromosomi delle cellule che la compiono.\n\nNella specie umana, dopo la prima divisione ogni cellula ha 23 cromosomi, ciascuno ancora formato da due cromatidi."
+    },
+    {
+      "id": "u7-0081",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Prodotti della gametogenesi",
+      "testo": "Al termine della meiosi, da uno spermatocita primario e da un ovocita primario si ottengono rispettivamente:",
+      "opzioni": [
+        "due spermatidi; una cellula uovo e un globulo polare",
+        "quattro spermatidi; una cellula uovo e i globuli polari",
+        "uno spermatozoo; quattro cellule uovo",
+        "quattro spermatidi; due cellule uovo",
+        "quattro spermatidi; quattro cellule uovo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nella spermatogenesi le due divisioni sono simmetriche e producono quattro spermatidi, che maturano in spermatozoi. Nell'ovogenesi le divisioni sono asimmetriche: quasi tutto il citoplasma resta in una sola cellula, mentre gli altri prodotti della meiosi sono i globuli polari, piccoli e destinati a degenerare.\n\nA) Dimentica la seconda divisione nella spermatogenesi: i prodotti sono quattro.\nC) Inverte i due processi: la spermatogenesi è quella che produce quattro gameti funzionali.\nD) Le divisioni dell'ovogenesi producono una sola cellula uovo; gli altri prodotti sono globuli polari, non gameti funzionali.\nE) Ignora l'asimmetria delle divisioni dell'ovogenesi, che concentrano il citoplasma in una sola cellula."
+    },
+    {
+      "id": "u7-0082",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Non-disgiunzione",
+      "testo": "La mancata separazione di una coppia di omologhi o di due cromatidi fratelli durante la divisione, causa principale di aneuploidia, si chiama ……",
+      "accettate": [
+        "non-disgiunzione",
+        "non disgiunzione",
+        "nondisgiunzione",
+        "mancata disgiunzione"
+      ],
+      "spiegazione": "Può avvenire nella prima divisione meiotica, quando gli omologhi migrano allo stesso polo, nella seconda, quando non si separano i cromatidi fratelli, oppure in mitosi. Nell'uomo la maggior parte delle trisomie compatibili con la vita, come la trisomia 21, deriva da non-disgiunzioni nella meiosi materna, la cui frequenza cresce con l'età materna.\n\nIl risultato sono gameti con un cromosoma in più o in meno, cioè n+1 o n−1."
+    },
+    {
+      "id": "u7-0083",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Assortimento indipendente",
+      "testo": "Senza contare il crossing over, quante combinazioni diverse di cromosomi materni e paterni può contenere un gamete umano per il solo assortimento indipendente delle 23 coppie?",
+      "opzioni": [
+        "2 elevato alla 46, circa 70 mila miliardi",
+        "23, una combinazione per ciascuna coppia",
+        "23 elevato alla seconda, cioè 529",
+        "2 elevato alla 23, circa 8,4 milioni",
+        "2 moltiplicato per 23, cioè 46"
+      ],
+      "corretta": 3,
+      "spiegazione": "In metafase I ogni coppia di omologhi si orienta sul fuso in modo indipendente dalle altre: per ciascuna delle 23 coppie il gamete può ricevere il cromosoma materno o quello paterno. Le combinazioni sono quindi 2 moltiplicato per sé stesso 23 volte, cioè 8.388.608. Il crossing over aumenta ulteriormente la variabilità.\n\nA) Conta 46 cromosomi indipendenti, ma a orientarsi in modo indipendente sono le 23 coppie: i due omologhi di una coppia vanno sempre a poli opposti.\nB) Ignora che per ogni coppia ci sono due possibilità e che queste si combinano fra le diverse coppie.\nC) Scambia base ed esponente: le alternative sono due per ogni coppia, e le coppie sono 23.\nE) Somma le possibilità invece di moltiplicarle: le scelte per le diverse coppie sono indipendenti e si combinano fra loro."
+    },
+    {
+      "id": "u7-0084",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Potenzialità delle cellule staminali",
+      "testo": "Una cellula staminale capace di dare origine a tutti i tipi cellulari dell'embrione, ma non agli annessi extraembrionali come la placenta, è detta ……",
+      "accettate": [
+        "pluripotente",
+        "pluripotenti"
+      ],
+      "spiegazione": "Sono pluripotenti, per esempio, le cellule della massa cellulare interna della blastocisti. Le cellule totipotenti, come lo zigote e le prime cellule dello sviluppo, generano anche gli annessi; le multipotenti, come le staminali emopoietiche, generano solo i tipi cellulari di un tessuto o di una linea.\n\nLa potenzialità si riduce man mano che lo sviluppo procede."
+    },
+    {
+      "id": "u7-0085",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Famiglia BCL2: membri antiapoptotici",
+      "testo": "Quale delle seguenti proteine della famiglia BCL2 ha azione antiapoptotica?",
+      "opzioni": [
+        "BCL-XL",
+        "BID",
+        "BAK",
+        "BAX",
+        "BAD"
+      ],
+      "corretta": 0,
+      "spiegazione": "BCL-XL, come BCL2, si oppone all'apoptosi impedendo l'attivazione di BAX e BAK e quindi la permeabilizzazione della membrana mitocondriale esterna. La famiglia BCL2 comprende membri antiapoptotici e membri proapoptotici: l'esito dipende dall'equilibrio fra le due parti.\n\nB) BID è un membro proapoptotico: una volta tagliato dalla caspasi 8 attiva BAX e BAK.\nC) Anche BAK è un effettore proapoptotico, con funzione analoga a BAX.\nD) BAX è un effettore proapoptotico: oligomerizza nella membrana mitocondriale esterna e la rende permeabile.\nE) BAD è proapoptotico: lega e neutralizza i membri antiapoptotici come BCL2 e BCL-XL."
+    },
+    {
+      "id": "u7-0086",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Le caspasi",
+      "testo": "Le proteasi che eseguono l'apoptosi, con una cisteina nel sito attivo e capaci di tagliare le proteine dopo un residuo di acido aspartico, si chiamano ……",
+      "accettate": [
+        "caspasi",
+        "caspase",
+        "caspases"
+      ],
+      "spiegazione": "Sono sintetizzate come procaspasi inattive e attivate per taglio. Le iniziatrici, come la 8 e la 9, vengono attivate su piattaforme di assemblaggio come il DISC e l'apoptosoma; le esecutrici, come la 3 e la 7, sono attivate dalle iniziatrici e tagliano i substrati che smantellano la cellula.\n\nL'attivazione a cascata amplifica il segnale e rende il processo rapido e difficilmente reversibile."
+    },
+    {
+      "id": "u7-0087",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Riconoscimento delle cellule apoptotiche",
+      "testo": "I fagociti riconoscono ed eliminano una cellula apoptotica soprattutto perché:",
+      "opzioni": [
+        "sul suo foglietto esterno compare la fosfatidilserina",
+        "la sua membrana si rompe e libera il contenuto citoplasmatico",
+        "perde il glicocalice e diventa adesiva per ogni cellula vicina",
+        "espelle il nucleo, che viene riconosciuto come materiale estraneo",
+        "espone sulla superficie il citocromo c liberato dai mitocondri"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nella cellula sana la fosfatidilserina sta quasi solo nel foglietto interno della membrana plasmatica. Nell'apoptosi questa asimmetria si perde e la fosfatidilserina esposta all'esterno funziona da segnale per i fagociti, che inglobano la cellula prima che il suo contenuto si riversi all'esterno.\n\nB) È il quadro della necrosi; nell'apoptosi la membrana resta integra fino alla fagocitosi.\nC) Il segnale di riconoscimento è specifico, la fosfatidilserina esposta, non una perdita generica del glicocalice.\nD) Il nucleo non viene espulso: la cromatina si condensa e si frammenta all'interno dei corpi apoptotici.\nE) Il citocromo c liberato agisce nel citosol, dove forma l'apoptosoma con Apaf1; non viene esposto sulla superficie."
+    },
+    {
+      "id": "u7-0088",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Corpi apoptotici",
+      "testo": "I frammenti delimitati da membrana in cui si suddivide una cellula in apoptosi, poi inglobati dai fagociti, si chiamano corpi ……",
+      "accettate": [
+        "apoptotici",
+        "apoptotico"
+      ],
+      "spiegazione": "I corpi apoptotici contengono citoplasma, organelli e frammenti di cromatina condensata, tutti racchiusi da membrana. È la ragione per cui l'apoptosi non provoca infiammazione: il contenuto cellulare non si riversa nello spazio extracellulare.\n\nLa loro formazione è preceduta dalla comparsa di estroflessioni della membrana, il blebbing."
+    },
+    {
+      "id": "u7-0089",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Collegamento fra via estrinseca e intrinseca",
+      "testo": "La proteina BID collega la via apoptotica estrinseca a quella intrinseca perché:",
+      "opzioni": [
+        "si lega al citocromo c e assembla con esso l'apoptosoma",
+        "inattiva BCL2 per fosforilazione nella membrana mitocondriale",
+        "una volta tagliata dalla caspasi 9, attiva i recettori di morte",
+        "una volta tagliata dalla caspasi 8, attiva BAX e BAK sui mitocondri",
+        "funziona da recettore di morte sulla membrana mitocondriale"
+      ],
+      "corretta": 3,
+      "spiegazione": "La caspasi 8, attivata nel DISC, taglia BID; il frammento risultante raggiunge i mitocondri e attiva BAX e BAK, che permeabilizzano la membrana esterna. In questo modo un segnale partito da un recettore di morte recluta anche la via mitocondriale e ne viene amplificato.\n\nA) L'apoptosoma si forma da Apaf1 e citocromo c; BID agisce a monte, sulla permeabilizzazione mitocondriale.\nB) BID non è una chinasi; agisce attivando gli effettori BAX e BAK.\nC) Inverte la direzione: BID viene tagliata dalla caspasi 8 della via estrinseca e agisce sui mitocondri, non sui recettori di morte.\nE) I recettori di morte si trovano sulla membrana plasmatica; BID è una proteina citosolica della famiglia BCL2."
+    },
+    {
+      "id": "u7-0090",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "L'apoptosoma",
+      "testo": "La piattaforma a forma di ruota, formata da Apaf1 e citocromo c, che recluta e attiva la caspasi 9 nella via intrinseca, si chiama ……",
+      "accettate": [
+        "apoptosoma",
+        "apoptosomi"
+      ],
+      "spiegazione": "L'apoptosoma si assembla quando il citocromo c, liberato dallo spazio intermembrana dopo la permeabilizzazione della membrana mitocondriale esterna, si lega ad Apaf1. La caspasi 9 attivata sulla piattaforma attiva a sua volta le caspasi esecutrici.\n\nÈ l'equivalente, nella via intrinseca, del DISC della via estrinseca: una piattaforma che attiva le caspasi iniziatrici avvicinandole."
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "lotto": "fisica-u7-02",
+  "unita": "u7",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u7-0051",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Propagazione nel vuoto",
+      "testo": "A differenza delle onde meccaniche, le onde elettromagnetiche non hanno bisogno di un mezzo materiale e si propagano anche nel ……",
+      "accettate": [
+        "vuoto"
+      ],
+      "spiegazione": "Un'onda elettromagnetica è l'oscillazione di un campo elettrico e di un campo magnetico, che esistono anche in assenza di materia: per questo la luce del Sole attraversa lo spazio vuoto.\n\nIl suono invece è una perturbazione di un mezzo materiale e nel vuoto non si propaga."
+    },
+    {
+      "id": "u7-0052",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Lunghezza d'onda di un'onda radio",
+      "testo": "Un'onda radio FM ha frequenza 100 MHz. La sua lunghezza d'onda nel vuoto è (c = 3,0 × 10⁸ m/s):",
+      "opzioni": [
+        "0,33 m",
+        "300 m",
+        "3 mm",
+        "3 m",
+        "3 × 10¹⁶ m"
+      ],
+      "corretta": 3,
+      "spiegazione": "100 MHz = 100 × 10⁶ Hz = 1,0 × 10⁸ Hz, quindi λ = c/f = (3,0 × 10⁸)/(1,0 × 10⁸) = 3 m.\n\nA) È f/c: rapporto capovolto.\nB) Converte 100 MHz come 10⁶ Hz, dimenticando il fattore 100.\nC) Confonde il prefisso mega (10⁶) con giga (10⁹): sarebbe la lunghezza d'onda di un'onda di 100 GHz.\nE) È il prodotto c·f invece del rapporto."
+    },
+    {
+      "id": "u7-0053",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Frequenza",
+      "testo": "Il numero di oscillazioni complete compiute in un secondo dal campo elettrico di un'onda elettromagnetica si chiama ……",
+      "accettate": [
+        "frequenza"
+      ],
+      "spiegazione": "La frequenza si misura in hertz (1 Hz = 1 oscillazione al secondo) ed è l'inverso del periodo.\n\nÈ fissata dalla sorgente e non cambia quando l'onda passa da un mezzo a un altro: cambiano la velocità e la lunghezza d'onda."
+    },
+    {
+      "id": "u7-0054",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Orientazione dei campi E e B",
+      "testo": "Un'onda elettromagnetica si propaga lungo l'asse x e il suo campo elettrico oscilla lungo l'asse y. Il campo magnetico oscilla lungo:",
+      "opzioni": [
+        "l'asse y",
+        "l'asse x",
+        "l'asse z",
+        "una direzione qualunque nel piano yz",
+        "una direzione qualunque nel piano xy"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il campo magnetico è perpendicolare sia al campo elettrico (asse y) sia alla direzione di propagazione (asse x): l'unica direzione perpendicolare a entrambe è l'asse z.\n\nA) E e B sono perpendicolari fra loro, non paralleli.\nB) L'onda è trasversale: nessuno dei due campi oscilla lungo la direzione di propagazione.\nD) B sta nel piano yz, ma non in una direzione qualunque: deve essere anche perpendicolare a E, quindi solo lungo z.\nE) Il piano xy contiene la direzione di propagazione e quella di E, cioè proprio le due direzioni a cui B deve essere perpendicolare."
+    },
+    {
+      "id": "u7-0055",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Microonde e luce visibile",
+      "testo": "Un forno a microonde usa radiazione di frequenza circa 2,45 GHz. Rispetto alla luce visibile, questa radiazione ha:",
+      "opzioni": [
+        "frequenza minore e lunghezza d'onda maggiore",
+        "frequenza maggiore e lunghezza d'onda minore",
+        "frequenza minore e lunghezza d'onda minore",
+        "frequenza maggiore e lunghezza d'onda maggiore",
+        "la stessa lunghezza d'onda e velocità minore"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le microonde stanno prima del visibile nello spettro ordinato per frequenza: 2,45 GHz è circa 2 × 10⁵ volte meno della frequenza della luce visibile (dell'ordine di 5 × 10¹⁴ Hz). Poiché nel vuoto λ = c/f con c uguale per tutte, a frequenza minore corrisponde lunghezza d'onda maggiore: circa 12 cm contro qualche centinaio di nanometri.\n\nB) Rovescia la posizione delle microonde nello spettro: hanno frequenza minore del visibile.\nC) Frequenza e lunghezza d'onda sono inversamente proporzionali: non possono essere entrambe minori.\nD) Per lo stesso motivo non possono essere entrambe maggiori.\nE) Nel vuoto tutte le onde elettromagnetiche hanno la stessa velocità, e le lunghezze d'onda sono diversissime."
+    },
+    {
+      "id": "u7-0056",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Microonde",
+      "testo": "La regione dello spettro elettromagnetico compresa fra le onde radio e l'infrarosso è quella delle ……",
+      "accettate": [
+        "microonde",
+        "microonda"
+      ],
+      "spiegazione": "Le microonde hanno lunghezze d'onda dell'ordine dei millimetri-centimetri. Sono usate nei forni a microonde, nei radar e nella telefonia mobile.\n\nSono radiazioni non ionizzanti: il loro effetto principale sui tessuti è il riscaldamento."
+    },
+    {
+      "id": "u7-0057",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Regioni ad alta frequenza",
+      "testo": "Quale fra le seguenti regioni dello spettro ha frequenza compresa fra quella dell'ultravioletto e quella dei raggi gamma?",
+      "opzioni": [
+        "infrarosso",
+        "luce visibile",
+        "raggi X",
+        "microonde",
+        "onde radio"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nell'ordine per frequenza crescente, dopo l'ultravioletto vengono i raggi X e poi i raggi gamma: i raggi X sono quindi compresi fra i due.\n\nA) L'infrarosso ha frequenza minore del visibile, quindi anche dell'ultravioletto.\nB) Il visibile sta subito sotto l'ultravioletto, non sopra.\nD) Le microonde stanno fra onde radio e infrarosso, all'estremo a bassa frequenza.\nE) Le onde radio hanno la frequenza più bassa di tutto lo spettro."
+    },
+    {
+      "id": "u7-0058",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Quantizzazione dell'energia",
+      "testo": "Il fatto che la radiazione elettromagnetica emetta e assorba energia solo in quantità discrete, multiple di hf, si chiama …… dell'energia",
+      "accettate": [
+        "quantizzazione"
+      ],
+      "spiegazione": "L'energia scambiata fra radiazione e materia non varia con continuità: è sempre un multiplo intero del quanto hf, cioè dell'energia di un fotone.\n\nPer una data frequenza l'energia trasportata può quindi crescere solo aumentando il numero di fotoni."
+    },
+    {
+      "id": "u7-0059",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Rapporto fra frequenze di fotoni",
+      "testo": "Un fotone di raggi X ha energia 10 keV, un fotone di luce visibile circa 2 eV. Il rapporto f_X/f_vis fra le loro frequenze è circa:",
+      "opzioni": [
+        "5 × 10³",
+        "5",
+        "2 × 10⁻⁴",
+        "5 × 10⁶",
+        "1"
+      ],
+      "corretta": 0,
+      "spiegazione": "Poiché E = hf, le frequenze stanno nello stesso rapporto delle energie: 10 keV = 10⁴ eV, quindi f_X/f_vis = 10⁴/2 = 5 × 10³.\n\nB) Divide 10 per 2 senza convertire i keV in eV.\nC) È il rapporto rovesciato, f_vis/f_X.\nD) Tratta il prefisso kilo come se valesse 10⁶.\nE) Confonde la frequenza con la velocità, che nel vuoto è la stessa per tutti i fotoni."
+    },
+    {
+      "id": "u7-0060",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Energia e lunghezza d'onda del fotone",
+      "testo": "Poiché E = hc/λ, l'energia di un fotone è inversamente proporzionale alla sua ……",
+      "accettate": [
+        "lunghezza d'onda",
+        "lunghezza donda",
+        "lambda"
+      ],
+      "spiegazione": "L'energia è direttamente proporzionale alla frequenza (E = hf) e, poiché f = c/λ, inversamente proporzionale alla lunghezza d'onda.\n\nPer questo i raggi gamma, a λ cortissima, hanno i fotoni più energetici, e le onde radio, a λ lunghissima, i meno energetici."
+    },
+    {
+      "id": "u7-0061",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Energia del fotone: E = hc/λ in joule",
+      "testo": "Un fotone ha lunghezza d'onda 663 nm. La sua energia è (h = 6,63 × 10⁻³⁴ J·s, c = 3,0 × 10⁸ m/s):",
+      "opzioni": [
+        "3,0 × 10⁻²⁸ J",
+        "1,0 × 10⁻²⁷ J",
+        "1,3 × 10⁻³¹ J",
+        "4,5 × 10¹⁴ J",
+        "3,0 × 10⁻¹⁹ J"
+      ],
+      "corretta": 4,
+      "spiegazione": "λ = 663 nm = 6,63 × 10⁻⁷ m. E = hc/λ = (6,63 × 10⁻³⁴ × 3,0 × 10⁸)/(6,63 × 10⁻⁷) = 3,0 × 10⁻¹⁹ J, circa 1,9 eV: luce rossa.\n\nA) Inserisce λ in nanometri senza convertirla in metri: il risultato è più piccolo di un fattore 10⁹.\nB) È h/λ: dimentica la velocità della luce.\nC) È il prodotto hc·λ invece del rapporto.\nD) È c/λ, cioè la frequenza in hertz: manca la moltiplicazione per h."
+    },
+    {
+      "id": "u7-0062",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Spessore emivalente e coefficiente di assorbimento",
+      "testo": "Per una certa radiazione, un materiale ha coefficiente di assorbimento μ = 0,693 cm⁻¹. Il suo spessore emivalente è (ln 2 ≈ 0,693):",
+      "opzioni": [
+        "0,693 cm",
+        "0,48 cm",
+        "1,44 cm",
+        "1,0 cm",
+        "0,35 cm"
+      ],
+      "corretta": 3,
+      "spiegazione": "Imponendo I = I₀/2 nella legge I = I₀·e^(−μx) si ottiene x½ = ln 2/μ = 0,693/0,693 cm⁻¹ = 1,0 cm.\n\nA) Identifica lo spessore emivalente con μ: sono grandezze diverse, una lunghezza e un inverso di lunghezza.\nB) È μ·ln 2: moltiplica invece di dividere, e il risultato sarebbe in cm⁻¹.\nC) È 1/μ: manca il fattore ln 2.\nE) È μ/2: «dimezzare» μ non dà lo spessore che dimezza l'intensità, e il risultato sarebbe ancora in cm⁻¹."
+    },
+    {
+      "id": "u7-0063",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Trasmittanza",
+      "testo": "Il rapporto I/I₀ fra l'intensità della radiazione che emerge da un campione e quella che vi incide si chiama ……",
+      "accettate": [
+        "trasmittanza",
+        "fattore di trasmissione"
+      ],
+      "spiegazione": "La trasmittanza T = I/I₀ è un numero fra 0 e 1, spesso espresso in percentuale.\n\nÈ legata all'assorbanza da A = −log₁₀ T: una trasmittanza del 10% corrisponde ad A = 1, una dell'1% ad A = 2."
+    },
+    {
+      "id": "u7-0064",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Trasmittanza e spessore",
+      "testo": "Una soluzione in una cuvetta trasmette il 10% della luce incidente. Raddoppiando lo spessore attraversato, a parità di concentrazione, la luce trasmessa diventa:",
+      "opzioni": [
+        "5%",
+        "1%",
+        "20%",
+        "0,1%",
+        "10%"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il secondo spessore identico trasmette a sua volta il 10% di ciò che lo raggiunge: 10% del 10% = 1%. Nello stesso modo, l'assorbanza A = εlc raddoppia passando da 1 a 2, e T = 10⁻ᴬ = 10⁻² = 1%.\n\nA) Tratta l'attenuazione come lineare: dimezza la trasmittanza invece di moltiplicarla per 0,1.\nC) Raddoppia la trasmittanza: più materiale attraversato significa meno luce trasmessa, non di più.\nD) Corrisponde a tre spessori, cioè a un fattore 0,1 applicato tre volte.\nE) Considera la trasmittanza indipendente dallo spessore, mentre dipende da esso in modo esponenziale."
+    },
+    {
+      "id": "u7-0065",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Positrone",
+      "testo": "Nel decadimento β⁺ un protone del nucleo si trasforma in un neutrone ed è emessa una particella con la massa dell'elettrone e carica positiva, detta ……",
+      "accettate": [
+        "positrone",
+        "positroni",
+        "antielettrone",
+        "elettrone positivo"
+      ],
+      "spiegazione": "Il positrone è l'antiparticella dell'elettrone: stessa massa, carica +e. Insieme al positrone viene emesso un neutrino.\n\nNel decadimento β⁺ il numero atomico Z diminuisce di 1 e il numero di massa A resta invariato."
+    },
+    {
+      "id": "u7-0066",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Nucleo figlio del decadimento β⁻",
+      "testo": "Il carbonio-14 (Z = 6) decade β⁻. Il nucleo figlio è:",
+      "opzioni": [
+        "boro-14 (Z = 5)",
+        "carbonio-13 (Z = 6)",
+        "azoto-14 (Z = 7)",
+        "azoto-15 (Z = 7)",
+        "berillio-10 (Z = 4)"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel decadimento β⁻ un neutrone diventa protone: Z aumenta di 1 (da 6 a 7, cioè azoto) e A resta 14. Il nucleo figlio è l'azoto-14.\n\nA) Sbaglia il segno di Z: è l'esito che avrebbe un decadimento β⁺.\nB) Tratta il decadimento come emissione di un neutrone: Z invariato e A − 1.\nD) Z è giusto, ma A non cambia nel decadimento β: non può passare da 14 a 15.\nE) È l'esito di un decadimento α (A − 4, Z − 2)."
+    },
+    {
+      "id": "u7-0067",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Particelle beta meno",
+      "testo": "Le particelle β⁻ emesse da un nucleo radioattivo sono ……",
+      "accettate": [
+        "elettroni",
+        "elettrone"
+      ],
+      "spiegazione": "Le particelle β⁻ sono elettroni prodotti nel nucleo dalla trasformazione di un neutrone in protone; non provengono dagli orbitali atomici.\n\nSono più penetranti delle particelle α e meno dei raggi γ."
+    },
+    {
+      "id": "u7-0068",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Frazione residua dopo n emivite",
+      "testo": "Dopo un tempo pari a 3 emivite, la frazione di nuclei radioattivi non ancora decaduti in un campione è:",
+      "opzioni": [
+        "1/3",
+        "1/6",
+        "1/9",
+        "7/8",
+        "1/8"
+      ],
+      "corretta": 4,
+      "spiegazione": "A ogni emivita il numero di nuclei si dimezza: dopo n emivite resta N₀/2ⁿ. Con n = 3 la frazione residua è 1/2³ = 1/8.\n\nA) Divide per il numero di emivite invece di dimezzare a ogni emivita.\nB) Moltiplica 2 per 3 invece di elevarlo alla terza.\nC) Eleva al quadrato il numero di emivite: 1/3² invece di 1/2³.\nD) È la frazione di nuclei già decaduti, non di quelli rimasti."
+    },
+    {
+      "id": "u7-0069",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Isotopi radioattivi",
+      "testo": "Gli isotopi i cui nuclei sono instabili e decadono spontaneamente si dicono isotopi ……",
+      "accettate": [
+        "radioattivi",
+        "radioattivo"
+      ],
+      "spiegazione": "Gli isotopi radioattivi, o radioisotopi, decadono emettendo radiazione α, β o γ con un'emivita caratteristica.\n\nIn medicina nucleare si usano come traccianti: per esempio il tecnezio-99m, emettitore γ, e il fluoro-18, emettitore β⁺ usato nella PET."
+    },
+    {
+      "id": "u7-0070",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Penetrazione delle radiazioni α, β e γ",
+      "testo": "In ordine dalla meno penetrante alla più penetrante nella materia, le radiazioni sono:",
+      "opzioni": [
+        "γ, β, α",
+        "α, β, γ",
+        "β, α, γ",
+        "α, γ, β",
+        "β, γ, α"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le particelle α, pesanti e con carica +2e, cedono rapidamente energia e sono fermate da un foglio di carta o dallo strato superficiale della pelle. Le β, più leggere e con carica unitaria, penetrano qualche millimetro nei tessuti. I γ, privi di carica e di massa, sono i più penetranti e vengono solo attenuati, secondo una legge esponenziale.\n\nA) È l'ordine inverso: confonde la penetrazione con il potere ionizzante, che è massimo per le α.\nC) Scambia α e β: le α, con massa e carica maggiori, sono le meno penetranti.\nD) Scambia β e γ: i γ, senza carica, sono i più penetranti.\nE) Mette le α in fondo e i γ in mezzo: entrambe le posizioni sono sbagliate."
+    },
+    {
+      "id": "u7-0071",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Nucleo figlio",
+      "testo": "Il nucleo che si forma in seguito a un decadimento radioattivo si chiama nucleo ……",
+      "accettate": [
+        "figlio",
+        "figlia"
+      ],
+      "spiegazione": "Il nucleo che decade si chiama nucleo padre (o genitore), quello prodotto nucleo figlio.\n\nIl nucleo figlio può essere a sua volta instabile e decadere ancora, dando luogo a una catena di decadimenti."
+    },
+    {
+      "id": "u7-0072",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Ione",
+      "testo": "Un atomo che, colpito da radiazione ionizzante, perde uno o più elettroni diventa uno …… positivo",
+      "accettate": [
+        "ione",
+        "ioni"
+      ],
+      "spiegazione": "La ionizzazione strappa elettroni a un atomo neutro, lasciandolo con un eccesso di carica positiva: si forma uno ione positivo, mentre l'elettrone liberato può a sua volta ionizzare altri atomi.\n\nÈ questa la ragione per cui la radiazione ionizzante può rompere legami chimici nelle molecole biologiche."
+    },
+    {
+      "id": "u7-0073",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Soglia di ionizzazione: calcolo",
+      "testo": "Quale dei seguenti fotoni ha energia sufficiente a ionizzare un atomo di idrogeno, la cui energia di ionizzazione è 13,6 eV? (hc ≈ 1240 eV·nm)",
+      "opzioni": [
+        "λ = 1000 nm",
+        "λ = 500 nm",
+        "λ = 200 nm",
+        "λ = 120 nm",
+        "λ = 10 nm"
+      ],
+      "corretta": 4,
+      "spiegazione": "Con E = hc/λ: a 10 nm l'energia è 1240/10 = 124 eV, ben oltre 13,6 eV. La lunghezza d'onda limite per ionizzare l'idrogeno è 1240/13,6 ≈ 91 nm: servono fotoni con λ più corta.\n\nA) 1240/1000 ≈ 1,2 eV: è infrarosso, molto sotto la soglia. Chi sceglie la λ maggiore pensa che a lunghezza d'onda grande corrisponda energia grande.\nB) 1240/500 ≈ 2,5 eV: luce visibile, sotto la soglia.\nC) 1240/200 = 6,2 eV: ancora sotto 13,6 eV.\nD) 1240/120 ≈ 10,3 eV: è vicina alla soglia ma ancora inferiore; non basta avvicinarsi."
+    },
+    {
+      "id": "u7-0074",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Bersaglio biologico delle radiazioni ionizzanti",
+      "testo": "La radiazione ionizzante è pericolosa per le cellule soprattutto perché può danneggiare la molecola che contiene l'informazione genetica, il ……",
+      "accettate": [
+        "dna",
+        "acido desossiribonucleico"
+      ],
+      "spiegazione": "Ionizzando direttamente il DNA, o producendo radicali che lo attaccano, la radiazione può causare rotture e mutazioni.\n\nLe radiazioni non ionizzanti, come le microonde, non hanno fotoni abbastanza energetici per rompere direttamente legami chimici: il loro effetto principale è il riscaldamento."
+    },
+    {
+      "id": "u7-0075",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Normale alla superficie",
+      "testo": "Nelle leggi della riflessione e della rifrazione, gli angoli si misurano rispetto alla retta perpendicolare alla superficie di separazione nel punto di incidenza, detta ……",
+      "accettate": [
+        "normale",
+        "retta normale",
+        "perpendicolare"
+      ],
+      "spiegazione": "Gli angoli di incidenza, di riflessione e di rifrazione si misurano tutti rispetto alla normale, non rispetto alla superficie: un raggio radente alla superficie ha angolo di incidenza di 90°.\n\nUn raggio che incide lungo la normale (angolo 0°) non viene deviato, anche se nel nuovo mezzo cambia velocità."
+    },
+    {
+      "id": "u7-0076",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Legge di Snell: calcolo",
+      "testo": "Un raggio di luce passa dall'aria (n = 1,0) a un vetro con n = 1,5. Il seno dell'angolo di incidenza vale 0,6. Il seno dell'angolo di rifrazione vale:",
+      "opzioni": [
+        "0,9",
+        "0,4",
+        "0,6",
+        "0,27",
+        "0,67"
+      ],
+      "corretta": 1,
+      "spiegazione": "Dalla legge di Snell n₁ sen θ₁ = n₂ sen θ₂: sen θ₂ = (1,0 × 0,6)/1,5 = 0,4. L'angolo di rifrazione è minore di quello di incidenza: il raggio si avvicina alla normale.\n\nA) Moltiplica per l'indice del vetro invece di dividere: il raggio si allontanerebbe dalla normale entrando in un mezzo più rifrangente.\nC) Ignora la rifrazione: l'angolo resterebbe uguale solo se i due indici fossero uguali.\nD) Divide due volte per 1,5 (0,6/1,5²).\nE) È n₁/n₂ = 1/1,5: dimentica di moltiplicare per il seno dell'angolo di incidenza."
+    },
+    {
+      "id": "u7-0077",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Immagine virtuale",
+      "testo": "Un'immagine formata dall'incontro dei prolungamenti dei raggi luminosi, e che quindi non si può raccogliere su uno schermo, si dice ……",
+      "accettate": [
+        "virtuale"
+      ],
+      "spiegazione": "L'immagine virtuale si vede guardando attraverso la lente, ma in quel punto non arriva luce: i raggi divergono e sono i loro prolungamenti all'indietro a incontrarsi.\n\nUna lente convergente dà un'immagine virtuale quando l'oggetto è fra la lente e il fuoco."
+    },
+    {
+      "id": "u7-0078",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Oggetto nel centro di curvatura (p = 2f)",
+      "testo": "Un oggetto è posto a 20 cm da una lente convergente sottile di distanza focale 10 cm. L'immagine si forma:",
+      "opzioni": [
+        "a 10 cm dalla lente, reale e rimpicciolita",
+        "all'infinito, perché l'oggetto è nel fuoco",
+        "a 6,7 cm dalla lente, reale e rimpicciolita",
+        "a 20 cm dalla lente, reale, capovolta e grande come l'oggetto",
+        "a 20 cm dalla lente, virtuale, diritta e grande come l'oggetto"
+      ],
+      "corretta": 3,
+      "spiegazione": "Dalla legge dei punti coniugati 1/q = 1/f − 1/p = 1/10 − 1/20 = 1/20, quindi q = 20 cm. Il valore positivo indica un'immagine reale e capovolta; l'ingrandimento q/p = 1 dice che ha le stesse dimensioni dell'oggetto. È il caso p = 2f, che dà q = 2f.\n\nA) Sottrae le distanze (20 − 10) invece dei loro reciproci.\nB) Il fuoco è a 10 cm: a 20 cm l'oggetto è nel punto 2f, non nel fuoco.\nC) Somma i reciproci invece di sottrarli: 1/10 + 1/20 = 3/20 dà circa 6,7 cm.\nE) La distanza è giusta, ma con q positivo l'immagine è reale e capovolta; virtuale e diritta solo con l'oggetto fra lente e fuoco."
+    },
+    {
+      "id": "u7-0079",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Asse ottico",
+      "testo": "La retta che passa per il centro di una lente sottile ed è perpendicolare al piano della lente si chiama asse ……",
+      "accettate": [
+        "ottico",
+        "principale"
+      ],
+      "spiegazione": "I fuochi della lente stanno sull'asse ottico, a distanza f dal centro, uno per parte.\n\nI raggi che incidono paralleli all'asse ottico convergono nel fuoco dalla parte opposta della lente."
+    },
+    {
+      "id": "u7-0080",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Raggio per il centro ottico",
+      "testo": "Nella costruzione grafica dell'immagine, un raggio che passa per il centro ottico di una lente sottile:",
+      "opzioni": [
+        "prosegue senza essere deviato",
+        "emerge parallelo all'asse ottico",
+        "passa per il fuoco dopo la lente",
+        "viene deviato allontanandosi dall'asse ottico",
+        "viene riflesso all'indietro verso l'oggetto"
+      ],
+      "corretta": 0,
+      "spiegazione": "Al centro di una lente sottile le due facce sono praticamente parallele e lo spessore è trascurabile: il raggio che vi passa prosegue senza deviazione. È uno dei tre raggi notevoli usati per costruire l'immagine.\n\nB) È il comportamento del raggio che passa per il fuoco prima della lente.\nC) È il comportamento del raggio che incide parallelo all'asse ottico.\nD) Una lente convergente fa convergere i raggi verso l'asse, e comunque il raggio centrale non viene deviato.\nE) La lente rifrange la luce, non la riflette: una piccola parte viene riflessa dalle superfici, ma non è ciò che si usa nella costruzione dell'immagine."
+    }
+  ]
+}

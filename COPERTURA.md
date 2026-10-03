@@ -2,12 +2,12 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**1742 domande su 2200** a regime.
+**2060 domande su 2200** a regime.
 
 
 ---
 
-## Chimica e propedeutica biochimica — 552/700
+## Chimica e propedeutica biochimica — 700/700
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -17,7 +17,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U4 | Acidi, basi, tamponi, redox ed elettrochimica | 100/100 | 50M + 50C | 97 | 5 |
 | U5 | Carbonio, idrocarburi, aromatici | 90/90 | 45M + 45C | 67 | 4 |
 | U6 | Gruppi funzionali e isomerie | 70/70 | 34M + 36C | 52 | 1 |
-| U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 2/150 | 1M + 1C | 2 | 9 |
+| U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 150/150 | 75M + 75C | 136 | 9 |
 
 ### U1 — Atomo, legami, stati della materia, termodinamica
 
@@ -485,14 +485,148 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U7 — Amminoacidi, carboidrati, lipidi, acidi nucleici
 
-2 domande su 150 · 1 a risposta multipla e 1 a completamento · 2 argomenti distinti · file: chimica-u7-01.json
+150 domande su 150 · 75 a risposta multipla e 75 a completamento · 136 argomenti distinti · file: chimica-u7-01.json, chimica-u7-02.json, chimica-u7-03.json, chimica-u7-04.json
 
+- Deaminazione della citosina (3 domande)
+- Amminoacidi essenziali (2 domande)
+- Amminoacidi: codici a una lettera (2 domande)
+- Amminozuccheri (2 domande)
+- Epimeri (2 domande)
+- Formazione del legame peptidico (2 domande)
+- Legame fosfodiestere (2 domande)
+- Omopolisaccaridi: glicogeno (2 domande)
+- Riduzione dei monosaccaridi (2 domande)
+- Struttura del DNA: regole di Chargaff (2 domande)
+- Struttura secondaria: foglietto β (2 domande)
+- Tioli antiossidanti: glutatione (2 domande)
+- Zuccheri riducenti (2 domande)
+- ATP
+- ATP: energia libera di idrolisi
+- ATP: legami fosfoanidridici
+- Acidi grassi insaturi
+- Acidi grassi polinsaturi: posizione dei doppi legami
+- Acidi grassi: caratteristiche generali
+- Acidi grassi: configurazione dei doppi legami
+- Acidi grassi: nomenclatura
+- Acidi grassi: notazione Δ
+- Acidi grassi: punto di fusione
+- Acidi grassi: struttura e nomenclatura
 - Acidi nucleici: legame fra nucleotidi
+- Amminoacidi essenziali e non essenziali
+- Amminoacidi: sigle a tre lettere
+- Anomeri
+- Antiossidanti con doppi legami coniugati: carotenoidi
+- Antiossidanti con doppi legami coniugati: tocoferolo
+- Basi azotate pirimidiniche
+- Basi azotate puriniche
+- Basi azotate puriniche e pirimidiniche
+- Basi azotate: appaiamento
+- Caratteristiche del legame peptidico
+- Caratteristiche del legame peptidico: configurazione
+- Caratteristiche del legame peptidico: lunghezza
+- Caratteristiche del legame peptidico: rotazione
+- Ciclizzazione dei monosaccaridi
+- Ciclizzazione: forma furanosica
+- Ciclizzazione: forma piranosica
+- Ciclizzazione: forma prevalente del glucosio
+- Ciclizzazione: origine dell'ossigeno dell'anello
+- Classificazione dei monosaccaridi
+- Classificazione dei monosaccaridi: aldosi
+- Classificazione dei monosaccaridi: pentosi
+- Classificazione dei monosaccaridi: triosi
+- Classificazione: amminoacidi acidi
+- Classificazione: amminoacidi aromatici
+- Classificazione: amminoacidi con catena laterale carica
+- Classificazione: amminoacidi polari con ossidrile
+- Classificazione: amminoacidi solforati
+- Classificazione: catene laterali alifatiche ramificate
+- Classificazione: catene laterali eterocicliche
+- Classificazione: la prolina
+- Colesterolo e derivati
+- Colesterolo nelle membrane
+- Colesterolo: struttura
+- Denaturazione e livelli strutturali
+- Derivati del colesterolo: acidi biliari
+- Differenze fra RNA e DNA
+- Differenze fra RNA e DNA: stabilità
+- Dinucleotidi: NAD⁺ e FAD
+- Disaccaridi: lattosio
+- Disaccaridi: maltosio
+- Disaccaridi: saccarosio
+- Eteropolisaccaridi: glicosamminoglicani
+- FAD/FADH₂
+- Glicazione delle proteine: emoglobina glicata
+- Glicerofosfolipidi
+- Glicerofosfolipidi: acido fosfatidico
+- Glicerofosfolipidi: doppio strato
+- Glicerofosfolipidi: proprietà
+- Glicolipidi
+- Glutatione ossidato
+- Interazioni deboli nelle proteine
+- Interazioni idrofobiche
+- Interazioni ioniche nelle proteine
+- Isomeria dei monosaccaridi: enantiomeri
+- Legame N-glicosidico nei nucleosidi
+- Legame fosfodiestere: estremità del filamento
+- Legame fosfodiestere: scheletro
+- Legame glicosidico
+- Legame glicosidico e disaccaridi
+- Legame glicosidico: idrolisi
+- Legame peptidico: estremità della catena
+- Modificazioni ossidative delle proteine
+- Mutarotazione
+- NAD⁺/NADH
+- NAD⁺: sito redox
+- Nucleosidi
+- Nucleosidi: nomenclatura
+- Nucleotidi: nomenclatura
+- Nucleotidi: ribonucleotidi e deossiribonucleotidi
+- Omopolisaccaridi: amido
+- Omopolisaccaridi: cellulosa
+- Ossidazione dei monosaccaridi
+- Ponti disolfuro
+- Proprietà acido-base: forma a pH acido
+- Proprietà acido-base: forma prevalente
+- Proprietà acido-base: punto isoelettrico
+- Proprietà acido-base: punto isoelettrico di un amminoacido acido
+- Proprietà acido-base: punto isoelettrico di un amminoacido basico
+- Proprietà acido-base: zwitterione
+- Proprietà dei saponi: micelle
 - Proteine: natura del legame peptidico
+- RNA: struttura
+- Radicale idrossilico e DNA
+- Radicale idrossilico e lipidi
+- Radicale idrossilico: reazione di Fenton
+- Reazione di Maillard
+- Reazione di Maillard e prodotti di Amadori
+- Reazioni degli acidi grassi: idrogenazione
+- Reazioni dei lipidi: saponificazione
+- Serie D e L dei monosaccaridi
+- Sfingolipidi
+- Sfingolipidi: ceramide
+- Stereochimica degli amminoacidi: convenzione di Fischer
+- Stereochimica degli amminoacidi: riferimento D/L
+- Stereochimica: la glicina
+- Stereochimica: proiezione di Fischer
+- Stereoisomeri dei monosaccaridi
+- Struttura del DNA
+- Struttura del DNA: appaiamento
+- Struttura del DNA: doppia elica
+- Struttura generale degli amminoacidi
+- Struttura generale degli α-amminoacidi
+- Struttura primaria delle proteine
+- Struttura quaternaria
+- Struttura secondaria: α-elica
+- Struttura terziaria delle proteine
+- Tautomeria dei monosaccaridi
+- Trigliceridi
+- Trigliceridi: efficienza come riserva
+- Trigliceridi: funzione
+- Trigliceridi: oli e grassi
 
 ---
 
-## Fisica — 560/680
+## Fisica — 640/680
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -502,7 +636,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U4 | Onde meccaniche | 70/70 | 35M + 35C | 64 | 4 |
 | U5 | Termodinamica | 100/100 | 50M + 50C | 99 | 5 |
 | U6 | Elettricità e magnetismo | 120/120 | 60M + 60C | 120 | 5 |
-| U7 | Fisica delle radiazioni | 0/80 | 0M + 0C | 0 | 3 |
+| U7 | Fisica delle radiazioni | 80/80 | 40M + 40C | 79 | 3 |
 
 ### U1 — Introduzione ai metodi della fisica
 
@@ -1074,14 +1208,93 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Verso del campo rispetto al potenziale
 - Verso della forza di Lorentz su una carica negativa
 
-### Ancora vuote
+### U7 — Fisica delle radiazioni
 
-U7.
+80 domande su 80 · 40 a risposta multipla e 40 a completamento · 79 argomenti distinti · file: fisica-u7-01.json, fisica-u7-02.json
 
+- Spessore emivalente (2 domande)
+- Asse ottico
+- Assorbanza: A = εlc
+- Attività
+- Becquerel
+- Bersaglio biologico delle radiazioni ionizzanti
+- Coefficiente di assorbimento
+- Colori e lunghezza d'onda
+- Costante di Planck
+- Costante di decadimento
+- Decadimento alfa
+- Decadimento beta meno
+- Decadimento gamma
+- Distanza focale
+- Emivita
+- Emivita e costante di decadimento
+- Emivita: calcolo dell'attività residua
+- Energia del fotone e lunghezza d'onda
+- Energia del fotone in elettronvolt
+- Energia del fotone: E = hc/λ in joule
+- Energia del fotone: E = hf
+- Energia di ionizzazione
+- Energia e lunghezza d'onda del fotone
+- Esempi di radiazioni ionizzanti
+- Fotone
+- Frazione residua dopo n emivite
+- Frequenza
+- Fuoco di una lente convergente
+- Immagine reale
+- Immagine virtuale
+- Indice di rifrazione
+- Infrarosso
+- Ingrandimento lineare
+- Intensità di un'onda elettromagnetica
+- Intensità e ampiezza
+- Intensità e numero di fotoni
+- Intensità ed energia del fotone nella ionizzazione
+- Ione
+- Isotopi
+- Isotopi radioattivi
+- Legge dei punti coniugati
+- Legge del decadimento radioattivo
+- Legge della riflessione
+- Legge di Lambert-Beer: andamento
+- Legge di Snell: calcolo
+- Lente d'ingrandimento
+- Lunghezza d'onda di un'onda radio
+- Lunghezze d'onda delle regioni dello spettro
+- Microonde
+- Microonde e luce visibile
+- Normale alla superficie
+- Nucleo figlio
+- Nucleo figlio del decadimento β⁻
+- Nucleo instabile
+- Oggetto nel centro di curvatura (p = 2f)
+- Onde elettromagnetiche trasversali
+- Ordine delle regioni dello spettro
+- Orientazione dei campi E e B
+- Particelle alfa
+- Particelle beta meno
+- Passaggio da un mezzo all'altro
+- Penetrazione delle radiazioni α, β e γ
+- Positrone
+- Propagazione nel vuoto
+- Quantizzazione dell'energia
+- Radiazione ionizzante
+- Raggi gamma
+- Raggio per il centro ottico
+- Rapporto fra frequenze di fotoni
+- Regioni ad alta frequenza
+- Relazione c = λf
+- Rifrazione: deviazione del raggio
+- Soglia di ionizzazione: calcolo
+- Spessore emivalente e coefficiente di assorbimento
+- Trasmittanza
+- Trasmittanza e spessore
+- Ultravioletto
+- Velocità della luce in un mezzo
+- Velocità della luce nel vuoto
 
 ---
 
-## Biologia — 630/820
+## Biologia — 720/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
@@ -1091,7 +1304,7 @@ U7.
 | U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 110/110 | 55M + 55C | 110 | 4 |
 | U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 200/200 | 100M + 100C | 200 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
-| U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 0/90 | 0M + 0C | 0 | 3 |
+| U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 90/90 | 45M + 45C | 90 | 3 |
 
 ### U1 — Le basi dell'organizzazione biologica e molecolare della vita
 
@@ -1707,7 +1920,97 @@ U7.
 - Segnalazione dei fosfoinositidi: Akt
 - Segnalazione del recettore per l'EGF
 
-### Ancora vuote
+### U7 — Il controllo della proliferazione e della sopravvivenza cellulare
 
-U7.
+90 domande su 90 · 45 a risposta multipla e 45 a completamento · 90 argomenti distinti · file: biologia-u7-01.json, biologia-u7-02.json
 
+- APC/C
+- Anafase A
+- Assortimento indipendente
+- BAX e BAK
+- Biorientamento dei cromosomi
+- Bivalenti
+- Caspasi esecutrici
+- Cellule staminali
+- Chinasi dipendenti da ciclina
+- Ciclina D-Cdk4/6
+- Ciclina E
+- Cicline
+- Cicline e CDK per fase
+- Citodieresi
+- Citodieresi nelle cellule animali
+- Classificazione dei geni del cancro
+- Coesione dei cromatidi fratelli
+- Collegamento fra via estrinseca e intrinseca
+- Condensazione dei cromosomi
+- Corpi apoptotici
+- Definizione del punto di restrizione
+- Degradazione della ciclina B
+- Degradazione delle cicline
+- Deprivazione di siero
+- Dinamica dei microtubuli in mitosi
+- Disassemblaggio della lamina nucleare
+- Divisione riduzionale
+- E2F
+- Esperimenti di fusione cellulare
+- Famiglia BCL2: membri antiapoptotici
+- Fase G2
+- Fasi della mitosi
+- Fattori di crescita e punto di restrizione
+- Il DISC
+- Il centromero
+- Il centrosoma
+- Il chiasma
+- Il cinetocore
+- Il citocromo c nella via intrinseca
+- Il complesso NDC80
+- Il complesso sinaptonemale
+- Il crossing over
+- Il punto di restrizione
+- Il ruolo di p53
+- Inibitori dei complessi ciclina-CDK
+- Interfase
+- L'apoptosoma
+- L'inibitore p16
+- La fase S
+- La securina
+- Le caspasi
+- MOMP
+- MPF
+- Meiosi I e mitosi
+- Microtubuli astrali
+- Mitosi asimmetrica
+- Motori dei microtubuli astrali
+- Necrosi e apoptosi
+- Non-disgiunzione
+- Non-disgiunzione meiotica
+- Oncogene
+- Oscillazione dell'attività delle CDK
+- Ovogenesi
+- Papillomavirus e p53
+- Piastra metafasica
+- Potenzialità delle cellule staminali
+- Prodotti della gametogenesi
+- Proto-oncogeni
+- Proto-oncogeni e dominanza
+- Punti di controllo
+- Punto di controllo G2/M
+- Punto di controllo del fuso
+- Quiescenza
+- Rb ipofosforilata
+- Regolazione di ciclina B-Cdk1 in G2
+- Regolazione di p53
+- Retinoblastoma ereditario
+- Retrovirus oncogeni
+- Riconoscimento delle cellule apoptotiche
+- Riduzione del numero cromosomico
+- Senescenza
+- Separazione dei cromatidi fratelli
+- Sequenza delle fasi della mitosi
+- Stato di Rb in fase S
+- Telofase
+- Tipi di microtubuli del fuso
+- Via estrinseca
+- Virus oncogeni
+- p53 e apoptosi
+- p53 e arresto in G1

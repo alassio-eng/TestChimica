@@ -2,50 +2,57 @@
 
 Contiene **solo** i file cambiati rispetto a quanto è pubblicato adesso su
 `alassio-eng/TestChimica`. Scompatta mantenendo i percorsi e sovrascrivi.
-Il delta precedente risulta caricato: qui non c'è nulla che lo ripeta.
+Il delta precedente (unità 3) risulta già caricato.
 
-## Dei cinque file che mi hai passato ne ho integrati tre
+## Unità 7 completata in tutte e tre le materie
 
-| file | esito |
-|---|---|
-| `biologia-u3-04.json` | **nuovo**, integrato: 30 domande, id `u3-0151` … `u3-0180` |
-| `chimica-u3-02.json` | **sostituito**: la nuova versione corregge un difetto vero |
-| `chimica-u3-03.json` | **sostituito**: stessa correzione |
-| `fisica-u3-03.json` | identico a quello già nel banco, scartato |
-| `fisica-u3-02.json` | **scartato**: è la versione precedente alla correzione del ciclo |
+| file | domande | id |
+|---|---|---|
+| `questions/chimica/chimica-u7-02.json` | 50 | `u7-0003` … `u7-0052` |
+| `questions/chimica/chimica-u7-03.json` | 50 | `u7-0053` … `u7-0102` |
+| `questions/chimica/chimica-u7-04.json` | 48 | `u7-0103` … `u7-0150` |
+| `questions/fisica/fisica-u7-01.json` | 50 | `u7-0001` … `u7-0050` |
+| `questions/fisica/fisica-u7-02.json` | 30 | `u7-0051` … `u7-0080` |
+| `questions/biologia/biologia-u7-01.json` | 50 | `u7-0001` … `u7-0050` |
+| `questions/biologia/biologia-u7-02.json` | 40 | `u7-0051` … `u7-0090` |
 
-### Perché ho sostituito i due file di chimica
+**Con questo caricamento chimica è completa: 700 domande su 700.**
 
-Nelle versioni finora pubblicate tutte e 34 le spiegazioni dei quesiti a
-risposta multipla commentavano i distrattori con formule posizionali del tipo
-«la prima opzione…» invece di citarli per lettera. Era un difetto noto, che
-il validatore segnalava da sempre con 34 avvisi: non l'avevo corretto perché
-le formulazioni erano troppo irregolari per una conversione meccanica sicura.
-Le versioni nuove lo risolvono: tutte le spiegazioni ora citano `A)`, `B)` e
-così via. Gli id, i testi dei quesiti, le opzioni e le risposte corrette sono
-rimasti identici; cambiano solo le spiegazioni e qualche voce delle risposte
-accettate.
+Due correzioni rispetto ai file ricevuti:
 
-### Perché ho scartato fisica-u3-02
+- `fisica-u7-01`: la posizione della risposta corretta avanzava ciclicamente
+  per 6 quesiti di fila (B, C, D, E, A, B). Opzioni permutate e lettere delle
+  spiegazioni rimappate; id, testi e risposte corrette invariati.
+- `chimica-u7-03`, quesito `u7-0076`: tolta dalle risposte accettate la voce
+  «di maillard», equivalente a «maillard» dopo la normalizzazione.
 
-La versione che mi hai passato è quella **precedente** alla correzione fatta
-ieri: in essa la posizione della risposta corretta avanza ciclicamente
-A, B, C, D, E per tutti e 25 i quesiti, il che rende il lotto indovinabile
-senza sapere la materia. Caricarla avrebbe annullato la correzione. Il
-contenuto è per il resto identico: stessi id, stesse domande, stesse risposte
-corrette, cambia solo l'ordine in cui le opzioni compaiono.
+## Stato del banco dopo il caricamento
 
-## Stato dopo il caricamento
+| materia | domande | obiettivo | copertura |
+|---|---|---|---|
+| Chimica | 700 | 700 | **100%** |
+| Fisica | 640 | 680 | 93% |
+| Biologia | 720 | 820 | 88% |
+| **Totale** | **2060** | **2200** | 94% |
 
-Banco a 1742 domande: chimica 552, fisica 560, biologia 630.
-Biologia U3 passa da 50 a 80 su 180.
+Restano 150 domande in tre file, tutti buchi di id:
+`fisica-u3-01` (`u3-0001` … `u3-0050`),
+`biologia-u3-01` (`u3-0001` … `u3-0050`),
+`biologia-u3-02` (`u3-0051` … `u3-0100`).
+
 Nessun file del guscio è cambiato: `VERSIONE` in `sw.js` resta `v10`.
 
 ## File elencati
 
 - `APERTURA-CHAT.md`
 - `COPERTURA.md`
-- `questions/biologia/biologia-u3-04.json`  *(nuovo)*
+- `questions/biologia/biologia-u7-01.json`  *(nuovo)*
+- `questions/biologia/biologia-u7-02.json`  *(nuovo)*
 - `questions/biologia/index.json`
-- `questions/chimica/chimica-u3-02.json`
-- `questions/chimica/chimica-u3-03.json`
+- `questions/chimica/chimica-u7-02.json`  *(nuovo)*
+- `questions/chimica/chimica-u7-03.json`  *(nuovo)*
+- `questions/chimica/chimica-u7-04.json`  *(nuovo)*
+- `questions/chimica/index.json`
+- `questions/fisica/fisica-u7-01.json`  *(nuovo)*
+- `questions/fisica/fisica-u7-02.json`  *(nuovo)*
+- `questions/fisica/index.json`

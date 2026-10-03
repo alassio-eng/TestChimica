@@ -1,0 +1,718 @@
+{
+  "lotto": "fisica-u7-01",
+  "unita": "u7",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u7-0001",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Onde elettromagnetiche trasversali",
+      "testo": "Un'onda elettromagnetica è formata da un campo elettrico e da un campo magnetico che oscillano perpendicolari fra loro e alla direzione di propagazione: si tratta quindi di un'onda ……",
+      "accettate": [
+        "trasversale",
+        "trasversali"
+      ],
+      "spiegazione": "I vettori E e B oscillano in direzioni perpendicolari a quella in cui l'onda avanza: è la definizione di onda trasversale.\n\nA differenza del suono nei fluidi, che è un'onda longitudinale e richiede un mezzo materiale, le onde elettromagnetiche si propagano anche nel vuoto."
+    },
+    {
+      "id": "u7-0002",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Relazione c = λf",
+      "testo": "Nel vuoto, un'onda elettromagnetica di frequenza 6,0 × 10¹⁴ Hz ha lunghezza d'onda (c = 3,0 × 10⁸ m/s):",
+      "opzioni": [
+        "5,0 × 10⁻⁷ m",
+        "2,0 × 10⁶ m",
+        "5,0 × 10⁻⁶ m",
+        "1,8 × 10²³ m",
+        "2,0 × 10⁻⁷ m"
+      ],
+      "corretta": 0,
+      "spiegazione": "Da c = λf si ricava λ = c/f = (3,0 × 10⁸)/(6,0 × 10¹⁴) = 0,50 × 10⁻⁶ m = 5,0 × 10⁻⁷ m, cioè 500 nm: è luce visibile.\n\nE) Inverte il rapporto delle mantisse (6/3 = 2 invece di 3/6 = 0,5) pur tenendo l'esponente corretto.\nB) È f/c: la formula è capovolta, e il risultato avrebbe le dimensioni di m⁻¹, non di una lunghezza.\nC) Errore di una potenza di dieci: 0,50 × 10⁻⁶ va riscritto come 5,0 × 10⁻⁷, non come 5,0 × 10⁻⁶.\nD) È il prodotto c·f invece del rapporto: le dimensioni sarebbero m/s², non metri."
+    },
+    {
+      "id": "u7-0003",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Velocità della luce nel vuoto",
+      "testo": "Nel vuoto tutte le onde elettromagnetiche, qualunque sia la loro frequenza, si propagano con la stessa ……",
+      "accettate": [
+        "velocita",
+        "celerita"
+      ],
+      "spiegazione": "Nel vuoto la velocità è c ≈ 3,00 × 10⁸ m/s (per definizione esattamente 299 792 458 m/s) per tutte le frequenze: onde radio e raggi gamma viaggiano alla stessa velocità e differiscono per frequenza e lunghezza d'onda, legate da c = λf.\n\nIn un mezzo materiale la velocità scende a v = c/n, dove n è l'indice di rifrazione."
+    },
+    {
+      "id": "u7-0004",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Passaggio da un mezzo all'altro",
+      "testo": "Quando un'onda luminosa passa dall'aria al vetro (n ≈ 1,5):",
+      "opzioni": [
+        "la frequenza resta invariata, la lunghezza d'onda diminuisce",
+        "la frequenza diminuisce, la lunghezza d'onda resta invariata",
+        "frequenza e lunghezza d'onda restano invariate, cambia solo la velocità",
+        "la velocità aumenta, la frequenza resta invariata",
+        "la frequenza aumenta, la lunghezza d'onda resta invariata"
+      ],
+      "corretta": 0,
+      "spiegazione": "La frequenza è fissata dalla sorgente e non cambia attraversando la superficie di separazione. Nel vetro la velocità scende a v = c/n ≈ 2,0 × 10⁸ m/s e, poiché λ = v/f, la lunghezza d'onda si riduce dello stesso fattore 1,5.\n\nC) Se la velocità cambia e la frequenza no, λ = v/f deve cambiare: non possono restare invariate entrambe.\nB) La frequenza non cambia nel passaggio; è la lunghezza d'onda che si adatta alla nuova velocità.\nD) Nel vetro la luce rallenta. L'idea che in un mezzo più denso l'onda vada più veloce viene dal suono nei solidi e non vale per la luce.\nE) La frequenza non cambia, e se cambiasse con v diminuita anche λ dovrebbe variare."
+    },
+    {
+      "id": "u7-0005",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Intensità di un'onda elettromagnetica",
+      "testo": "L'energia trasportata da un'onda elettromagnetica nell'unità di tempo attraverso l'unità di superficie perpendicolare alla direzione di propagazione si chiama …… dell'onda",
+      "accettate": [
+        "intensita",
+        "irradianza"
+      ],
+      "spiegazione": "L'intensità si misura in W/m² ed è proporzionale al quadrato dell'ampiezza dell'onda.\n\nPer una sorgente puntiforme che emette in modo uniforme in tutte le direzioni, l'intensità decresce come l'inverso del quadrato della distanza, come per le onde meccaniche."
+    },
+    {
+      "id": "u7-0006",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Intensità e ampiezza",
+      "testo": "Se l'ampiezza del campo elettrico di un'onda elettromagnetica raddoppia, a parità di frequenza, l'intensità dell'onda:",
+      "opzioni": [
+        "aumenta di √2 volte",
+        "raddoppia",
+        "resta invariata, perché dipende solo dalla frequenza",
+        "aumenta di otto volte",
+        "quadruplica"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'intensità è proporzionale al quadrato dell'ampiezza: I ∝ E₀². Raddoppiando E₀, l'intensità diventa 2² = 4 volte maggiore.\n\nB) Tratta la relazione come lineare, dimenticando il quadrato.\nA) Rovescia la relazione: è l'ampiezza a essere proporzionale alla radice dell'intensità, non il contrario.\nC) Confonde l'intensità dell'onda con l'energia del singolo fotone, che dipende dalla frequenza; l'intensità dipende dall'ampiezza.\nD) Usa il cubo invece del quadrato."
+    },
+    {
+      "id": "u7-0007",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Ordine delle regioni dello spettro",
+      "testo": "Quale sequenza ordina le regioni dello spettro elettromagnetico per frequenza crescente?",
+      "opzioni": [
+        "raggi gamma, raggi X, ultravioletto, visibile, infrarosso, microonde, onde radio",
+        "onde radio, microonde, infrarosso, visibile, ultravioletto, raggi X, raggi gamma",
+        "onde radio, microonde, infrarosso, visibile, ultravioletto, raggi gamma, raggi X",
+        "onde radio, microonde, ultravioletto, visibile, infrarosso, raggi X, raggi gamma",
+        "onde radio, infrarosso, microonde, visibile, ultravioletto, raggi X, raggi gamma"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per frequenza crescente, e quindi lunghezza d'onda decrescente: onde radio, microonde, infrarosso, visibile, ultravioletto, raggi X, raggi gamma. Gli intervalli dei raggi X e gamma in parte si sovrappongono (si distinguono anche per l'origine: elettronica per gli X, nucleare per i gamma), ma nell'ordinamento convenzionale i gamma stanno in cima.\n\nA) È l'ordine inverso: frequenza decrescente, cioè lunghezza d'onda crescente.\nE) Scambia microonde e infrarosso: l'infrarosso ha frequenza maggiore delle microonde.\nC) Scambia raggi X e raggi gamma.\nD) Scambia infrarosso e ultravioletto attorno al visibile."
+    },
+    {
+      "id": "u7-0008",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Ultravioletto",
+      "testo": "La regione dello spettro elettromagnetico con frequenza immediatamente superiore a quella della luce visibile è l'……",
+      "accettate": [
+        "ultravioletto",
+        "ultravioletti",
+        "ultravioletta",
+        "radiazione ultravioletta",
+        "raggi ultravioletti",
+        "uv"
+      ],
+      "spiegazione": "Subito oltre il violetto, che è l'estremo del visibile a frequenza più alta (lunghezza d'onda attorno a 400 nm), comincia l'ultravioletto.\n\nIl prefisso «ultra» indica proprio che la frequenza è oltre quella del violetto."
+    },
+    {
+      "id": "u7-0009",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Lunghezze d'onda delle regioni dello spettro",
+      "testo": "Quale fra le seguenti radiazioni ha la lunghezza d'onda maggiore?",
+      "opzioni": [
+        "luce verde",
+        "raggi X",
+        "infrarosso",
+        "microonde",
+        "ultravioletto"
+      ],
+      "corretta": 3,
+      "spiegazione": "In ordine di lunghezza d'onda decrescente: microonde, infrarosso, luce verde, ultravioletto, raggi X. Le microonde, con lunghezze d'onda dell'ordine dei millimetri-centimetri, sono le più lunghe fra quelle proposte.\n\nB) I raggi X hanno lunghezza d'onda fra le più corte dello spettro: confonde l'energia elevata con una lunghezza d'onda grande.\nE) L'ultravioletto ha lunghezza d'onda più corta del visibile.\nA) La luce verde (circa 500–550 nm) sta a metà del visibile, molto più corta delle microonde.\nC) L'infrarosso ha lunghezza d'onda maggiore del visibile, ma minore delle microonde: è la regione vicina, non la più lunga."
+    },
+    {
+      "id": "u7-0010",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Infrarosso",
+      "testo": "La radiazione elettromagnetica con lunghezza d'onda appena superiore a quella del rosso visibile si chiama ……",
+      "accettate": [
+        "infrarosso",
+        "infrarossi",
+        "infrarossa",
+        "radiazione infrarossa",
+        "raggi infrarossi",
+        "ir"
+      ],
+      "spiegazione": "Oltre il rosso, all'incirca sopra i 700 nm, comincia l'infrarosso: «infra» indica una frequenza inferiore a quella del rosso.\n\nI corpi a temperatura ambiente, compreso il corpo umano, emettono per irraggiamento soprattutto nell'infrarosso."
+    },
+    {
+      "id": "u7-0011",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Colori e lunghezza d'onda",
+      "testo": "Fra i colori della luce visibile, quello con lunghezza d'onda minore è:",
+      "opzioni": [
+        "violetto",
+        "rosso",
+        "giallo",
+        "arancione",
+        "verde"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nel visibile la lunghezza d'onda cresce dal violetto (circa 400 nm) al rosso (circa 700 nm), nell'ordine violetto, blu, verde, giallo, arancione, rosso. Il violetto ha quindi la lunghezza d'onda minore e la frequenza maggiore.\n\nB) Il rosso è all'estremo opposto: lunghezza d'onda maggiore. È l'errore di chi associa il rosso al «caldo» e quindi all'energia più alta.\nE) Il verde ha lunghezza d'onda intermedia.\nC) Il giallo ha lunghezza d'onda intermedia, più vicina al rosso che al violetto.\nD) L'arancione sta subito prima del rosso: lunghezza d'onda fra le maggiori del visibile."
+    },
+    {
+      "id": "u7-0012",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Raggi gamma",
+      "testo": "Nello spettro elettromagnetico la regione di frequenza più alta, e quindi di lunghezza d'onda più corta, è quella dei raggi ……",
+      "accettate": [
+        "gamma"
+      ],
+      "spiegazione": "I raggi gamma sono all'estremo dello spettro con i fotoni di energia più alta. Vengono emessi dai nuclei che passano da uno stato eccitato a uno di energia minore, per esempio dopo un decadimento α o β.\n\nIn parte si sovrappongono ai raggi X per energia, e se ne distinguono per l'origine nucleare."
+    },
+    {
+      "id": "u7-0013",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Fotone",
+      "testo": "Il quanto di energia associato alla radiazione elettromagnetica si chiama ……",
+      "accettate": [
+        "fotone",
+        "fotoni",
+        "quanto di luce"
+      ],
+      "spiegazione": "La radiazione elettromagnetica scambia energia con la materia solo in pacchetti discreti, i fotoni, ciascuno di energia E = hf.\n\nL'energia del singolo fotone dipende solo dalla frequenza; l'intensità del fascio dipende da quanti fotoni passano nell'unità di tempo."
+    },
+    {
+      "id": "u7-0014",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Energia del fotone: E = hf",
+      "testo": "L'energia di un fotone di frequenza 5,0 × 10¹⁴ Hz è circa (h = 6,63 × 10⁻³⁴ J·s):",
+      "opzioni": [
+        "2,0 × 10⁻²⁵ J",
+        "3,3 × 10⁻²⁰ J",
+        "3,3 × 10⁻¹⁹ J",
+        "7,5 × 10⁴⁷ J",
+        "1,3 × 10⁻⁴⁸ J"
+      ],
+      "corretta": 2,
+      "spiegazione": "E = hf = 6,63 × 10⁻³⁴ × 5,0 × 10¹⁴ = 33,2 × 10⁻²⁰ J ≈ 3,3 × 10⁻¹⁹ J, circa 2 eV: l'ordine di grandezza tipico dei fotoni visibili.\n\nE) È h/f: divide invece di moltiplicare.\nD) È f/h: formula capovolta.\nA) È h·c: usa la velocità della luce al posto della frequenza.\nB) Errore nell'esponente: 33,2 × 10⁻²⁰ si riscrive 3,32 × 10⁻¹⁹, non 3,3 × 10⁻²⁰."
+    },
+    {
+      "id": "u7-0015",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Energia del fotone e lunghezza d'onda",
+      "testo": "Due fotoni hanno lunghezza d'onda λ₁ = 400 nm e λ₂ = 800 nm. Il rapporto E₁/E₂ fra le loro energie vale:",
+      "opzioni": [
+        "1/2",
+        "1",
+        "1/4",
+        "2",
+        "4"
+      ],
+      "corretta": 3,
+      "spiegazione": "Poiché E = hc/λ, l'energia è inversamente proporzionale alla lunghezza d'onda: E₁/E₂ = λ₂/λ₁ = 800/400 = 2.\n\nA) Tratta l'energia come direttamente proporzionale a λ: è la frequenza, non la lunghezza d'onda, a essere proporzionale all'energia.\nE) Eleva al quadrato il rapporto: la dipendenza da λ è inversa ma lineare.\nC) Proporzionalità diretta e quadratica insieme: due errori.\nB) Confonde la velocità, uguale per tutti i fotoni nel vuoto, con l'energia, che dipende da λ."
+    },
+    {
+      "id": "u7-0016",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Intensità e numero di fotoni",
+      "testo": "Si raddoppia l'intensità di un fascio di luce monocromatica senza cambiarne la frequenza. Per i fotoni che attraversano ogni secondo una data superficie:",
+      "opzioni": [
+        "il loro numero resta uguale, si dimezza la loro lunghezza d'onda",
+        "raddoppia il loro numero, l'energia di ciascuno resta uguale",
+        "raddoppiano sia l'energia di ciascun fotone sia il loro numero",
+        "raddoppia la frequenza dei fotoni, si dimezza la loro lunghezza d'onda",
+        "raddoppia l'energia di ciascun fotone, il loro numero resta uguale"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'energia di ogni fotone è hf e la frequenza non cambia, quindi l'energia del singolo fotone resta la stessa. L'intensità è il prodotto fra il numero di fotoni che arrivano per unità di tempo e di superficie e l'energia hf di ciascuno: per raddoppiarla deve raddoppiare il numero di fotoni.\n\nE) L'energia del fotone dipende solo dalla frequenza, che per ipotesi non cambia.\nC) Se raddoppiassero entrambi l'intensità quadruplicherebbe; e comunque l'energia del singolo fotone non può cambiare a frequenza fissa.\nD) La frequenza è invariata per ipotesi, e con essa la lunghezza d'onda λ = c/f.\nA) La lunghezza d'onda non cambia, e a numero di fotoni costante l'intensità non potrebbe raddoppiare."
+    },
+    {
+      "id": "u7-0017",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Costante di Planck",
+      "testo": "Nella relazione E = h·f, che lega l'energia del fotone alla frequenza della radiazione, h è la costante di ……",
+      "accettate": [
+        "planck"
+      ],
+      "spiegazione": "La costante di Planck vale h ≈ 6,63 × 10⁻³⁴ J·s (dal 2019 il suo valore è fissato per definizione: 6,62607015 × 10⁻³⁴ J·s).\n\nCombinata con c = λf dà la forma equivalente E = hc/λ: l'energia del fotone cresce con la frequenza e diminuisce con la lunghezza d'onda."
+    },
+    {
+      "id": "u7-0018",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Energia del fotone in elettronvolt",
+      "testo": "Usando hc ≈ 1240 eV·nm, l'energia di un fotone di lunghezza d'onda 620 nm è:",
+      "opzioni": [
+        "7,7 × 10⁵ eV",
+        "0,50 eV",
+        "2,0 × 10⁹ eV",
+        "3,2 × 10⁻¹⁹ eV",
+        "2,0 eV"
+      ],
+      "corretta": 4,
+      "spiegazione": "E = hc/λ = 1240 eV·nm / 620 nm = 2,0 eV, pari a 2,0 × 1,60 × 10⁻¹⁹ J ≈ 3,2 × 10⁻¹⁹ J. È luce visibile arancione-rossa.\n\nB) È λ/(hc): rapporto capovolto.\nA) È il prodotto hc·λ invece del rapporto.\nC) Mescola le unità: inserisce λ in metri (6,2 × 10⁻⁷ m) con hc espresso in eV·nm.\nD) È il valore corretto in joule, ma con l'unità sbagliata: 3,2 × 10⁻¹⁹ J, non eV."
+    },
+    {
+      "id": "u7-0019",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Legge di Lambert-Beer: andamento",
+      "testo": "Secondo la legge di Lambert-Beer, l'intensità di un fascio monocromatico che attraversa un mezzo assorbente omogeneo diminuisce in modo …… con lo spessore attraversato",
+      "accettate": [
+        "esponenziale",
+        "esponenzialmente"
+      ],
+      "spiegazione": "La legge si scrive I = I₀·e^(−μx): strati di uguale spessore riducono l'intensità della stessa frazione, non della stessa quantità.\n\nPer questo l'intensità non si annulla mai esattamente a uno spessore finito, ma diventa via via più piccola."
+    },
+    {
+      "id": "u7-0020",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Spessore emivalente",
+      "testo": "In un materiale, uno strato spesso 2 mm riduce a metà l'intensità di un fascio monocromatico. Lo spessore che riduce l'intensità a 1/8 del valore iniziale è:",
+      "opzioni": [
+        "0,25 mm",
+        "6 mm",
+        "8 mm",
+        "16 mm",
+        "4 mm"
+      ],
+      "corretta": 1,
+      "spiegazione": "Ogni strato di 2 mm dimezza l'intensità. Poiché 1/8 = (1/2)³, servono tre dimezzamenti successivi, cioè 3 × 2 mm = 6 mm.\n\nA) Divide lo spessore per 8, come se uno strato più sottile attenuasse di più.\nD) Tratta l'attenuazione come lineare (8 × 2 mm): ridurre a 1/8 non richiede otto strati, ma tre.\nE) Due strati riducono l'intensità a 1/4, non a 1/8.\nC) Quattro strati riducono l'intensità a 1/16."
+    },
+    {
+      "id": "u7-0021",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Assorbanza: A = εlc",
+      "testo": "Per una soluzione vale la legge di Lambert-Beer nella forma A = ε·l·c. Se si raddoppia la concentrazione e si dimezza lo spessore attraversato, l'assorbanza:",
+      "opzioni": [
+        "quadruplica",
+        "raddoppia",
+        "resta invariata",
+        "si dimezza",
+        "si riduce a un quarto"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'assorbanza è proporzionale sia alla concentrazione c sia allo spessore l: raddoppiando c e dimezzando l il prodotto l·c non cambia, e con esso l'assorbanza.\n\nB) Considera solo il raddoppio della concentrazione e trascura il dimezzamento dello spessore.\nA) Tratta entrambe le variazioni come aumenti: 2 × 2.\nD) Considera solo il dimezzamento dello spessore.\nE) Tratta entrambe le variazioni come riduzioni: ½ × ½."
+    },
+    {
+      "id": "u7-0022",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Spessore emivalente",
+      "testo": "Nella legge di Lambert-Beer, lo spessore di materiale che riduce a metà l'intensità del fascio si chiama spessore ……",
+      "accettate": [
+        "emivalente",
+        "semivalente",
+        "di dimezzamento"
+      ],
+      "spiegazione": "Dalla legge I = I₀·e^(−μx), imponendo I = I₀/2 si ottiene x½ = ln 2/μ.\n\nÈ l'analogo spaziale dell'emivita: ogni spessore emivalente aggiunto dimezza di nuovo l'intensità."
+    },
+    {
+      "id": "u7-0023",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Coefficiente di assorbimento",
+      "testo": "Nella legge di Lambert-Beer scritta come I = I₀·e^(−μx), con x spessore attraversato, il coefficiente di assorbimento μ:",
+      "opzioni": [
+        "si misura in m⁻¹ e dipende dal materiale e dall'energia della radiazione",
+        "si misura in m⁻¹ e dipende solo dallo spessore attraversato",
+        "si misura in metri ed è lo spessore che dimezza l'intensità",
+        "è adimensionale e dipende solo dal materiale attraversato",
+        "si misura in W/m² ed è l'intensità assorbita per unità di spessore"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'esponente μx deve essere un numero puro: poiché x è una lunghezza, μ si misura in m⁻¹ (o cm⁻¹). Il suo valore dipende dal materiale e dall'energia (cioè dalla lunghezza d'onda) della radiazione: per questo osso e tessuti molli attenuano i raggi X in modo diverso, ed è il principio della radiografia.\n\nD) μ non è adimensionale: lo è il prodotto μx.\nC) Descrive lo spessore emivalente x½ = ln 2/μ, che è una lunghezza ma non coincide con μ.\nB) μ è una proprietà del materiale, non dello spessore: lo spessore è x.\nE) W/m² è l'unità dell'intensità, non del coefficiente di assorbimento."
+    },
+    {
+      "id": "u7-0024",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Isotopi",
+      "testo": "Atomi dello stesso elemento, con lo stesso numero di protoni ma un diverso numero di neutroni, si chiamano ……",
+      "accettate": [
+        "isotopi",
+        "isotopo"
+      ],
+      "spiegazione": "Gli isotopi hanno lo stesso numero atomico Z e diverso numero di massa A; hanno lo stesso comportamento chimico ma proprietà nucleari diverse.\n\nAlcuni isotopi sono stabili, altri sono radioattivi: il carbonio-12 è stabile, il carbonio-14 decade."
+    },
+    {
+      "id": "u7-0025",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Decadimento alfa",
+      "testo": "Un nucleo con numero di massa A e numero atomico Z subisce un decadimento α. Il nucleo figlio ha numero di massa e numero atomico:",
+      "opzioni": [
+        "A − 4 e Z + 2",
+        "A − 2 e Z − 2",
+        "A − 4 e Z − 2",
+        "A e Z − 2",
+        "A − 4 e Z − 4"
+      ],
+      "corretta": 2,
+      "spiegazione": "La particella α è un nucleo di elio-4, con 2 protoni e 2 neutroni. Il nucleo che la emette perde quindi 4 nucleoni (A − 4) e 2 protoni (Z − 2).\n\nB) Sottrae al numero di massa solo i 2 protoni, dimenticando i 2 neutroni.\nA) Sbaglia il segno: emettendo due protoni il numero atomico diminuisce.\nD) Tiene conto della carica persa ma non della massa: A deve diminuire di 4.\nE) Sottrae 4 anche a Z, confondendo il numero di nucleoni con il numero di protoni."
+    },
+    {
+      "id": "u7-0026",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Attività",
+      "testo": "Il numero di decadimenti che avvengono in un campione radioattivo nell'unità di tempo si chiama ……",
+      "accettate": [
+        "attivita",
+        "attivita radioattiva"
+      ],
+      "spiegazione": "L'attività è A = λN, dove λ è la costante di decadimento e N il numero di nuclei non ancora decaduti. Nel Sistema Internazionale si misura in becquerel (1 Bq = 1 decadimento al secondo).\n\nPoiché è proporzionale a N, l'attività si dimezza a ogni emivita, come il numero di nuclei."
+    },
+    {
+      "id": "u7-0027",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Emivita: calcolo dell'attività residua",
+      "testo": "Un campione radioattivo ha attività iniziale 800 Bq ed emivita 6 ore. Dopo 24 ore la sua attività è:",
+      "opzioni": [
+        "200 Bq",
+        "50 Bq",
+        "33 Bq",
+        "25 Bq",
+        "100 Bq"
+      ],
+      "corretta": 1,
+      "spiegazione": "In 24 ore trascorrono 24/6 = 4 emivite. A ogni emivita l'attività si dimezza: 800 → 400 → 200 → 100 → 50 Bq, cioè 800/2⁴ = 50 Bq.\n\nA) Divide l'attività per il numero di emivite (800/4), come se il decadimento fosse lineare.\nC) Divide l'attività per il numero di ore trascorse (800/24): l'emivita non entra così nel calcolo.\nE) Conta tre dimezzamenti invece di quattro.\nD) Conta cinque dimezzamenti invece di quattro."
+    },
+    {
+      "id": "u7-0028",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Emivita",
+      "testo": "Il tempo necessario perché si dimezzi il numero di nuclei radioattivi presenti in un campione si chiama ……",
+      "accettate": [
+        "emivita",
+        "tempo di dimezzamento",
+        "periodo di dimezzamento",
+        "semivita"
+      ],
+      "spiegazione": "L'emivita T½ è legata alla costante di decadimento da T½ = ln 2/λ e non dipende dalla quantità iniziale di nuclei: qualunque sia N₀, dopo un'emivita ne resta la metà.\n\nPer esempio il tecnezio-99m, molto usato in medicina nucleare, ha un'emivita di circa 6 ore."
+    },
+    {
+      "id": "u7-0029",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Becquerel",
+      "testo": "Nel Sistema Internazionale l'attività di un campione radioattivo si misura in ……",
+      "accettate": [
+        "becquerel",
+        "bq"
+      ],
+      "spiegazione": "1 Bq corrisponde a un decadimento al secondo. È un'unità molto piccola: le attività dei campioni usati in medicina si esprimono di solito in MBq.\n\nL'unità storica è il curie: 1 Ci = 3,7 × 10¹⁰ Bq."
+    },
+    {
+      "id": "u7-0030",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Decadimento beta meno",
+      "testo": "Nel decadimento β⁻:",
+      "opzioni": [
+        "un elettrone degli orbitali viene espulso, Z e A non cambiano",
+        "un neutrone si trasforma in un protone, Z aumenta di 1 e A non cambia",
+        "il nucleo emette un elettrone, Z diminuisce di 1 e A non cambia",
+        "un neutrone si trasforma in un protone, Z aumenta di 1 e A diminuisce di 1",
+        "un protone si trasforma in un neutrone, Z diminuisce di 1 e A non cambia"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel nucleo un neutrone si trasforma in un protone con emissione di un elettrone e di un antineutrino. Il numero dei protoni aumenta di uno (Z + 1); il numero totale di nucleoni resta lo stesso, perché un nucleone ha solo cambiato natura (A invariato).\n\nE) Descrive il decadimento β⁺, in cui un protone diventa neutrone ed è emesso un positrone.\nD) A non cambia: neutrone e protone sono entrambi nucleoni, e il loro numero totale resta lo stesso.\nA) L'elettrone β nasce nel nucleo, non proviene dagli orbitali: l'espulsione di un elettrone orbitale è una ionizzazione, non un decadimento.\nC) Il nucleo emette effettivamente un elettrone, ma Z aumenta: l'errore di segno nasce dal pensare che «perdere una carica negativa» riduca Z."
+    },
+    {
+      "id": "u7-0031",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Particelle alfa",
+      "testo": "La radiazione α è costituita da nuclei di ……",
+      "accettate": [
+        "elio",
+        "elio-4",
+        "elio 4"
+      ],
+      "spiegazione": "Una particella α è un nucleo di elio-4: 2 protoni e 2 neutroni, carica +2e.\n\nÈ pesante e molto ionizzante, quindi cede rapidamente la sua energia e penetra poco nella materia: nell'aria percorre pochi centimetri."
+    },
+    {
+      "id": "u7-0032",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Decadimento gamma",
+      "testo": "Nel decadimento γ:",
+      "opzioni": [
+        "Z diminuisce di 1 e A non cambia: il nucleo emette un positrone",
+        "A diminuisce di 1 e Z non cambia: il nucleo emette un neutrone",
+        "Z e A non cambiano: il nucleo perde energia emettendo un fotone",
+        "Z aumenta di 1 e A non cambia: il nucleo emette un elettrone",
+        "A diminuisce di 4 e Z di 2: il nucleo emette un nucleo di elio"
+      ],
+      "corretta": 2,
+      "spiegazione": "La radiazione γ è un fotone emesso da un nucleo che passa da uno stato eccitato a uno di energia minore, spesso subito dopo un decadimento α o β. Non cambia la composizione del nucleo: Z e A restano gli stessi, cambia solo il suo contenuto di energia.\n\nA) Descrive il decadimento β⁺.\nE) Descrive il decadimento α.\nD) Descrive il decadimento β⁻.\nB) Descrive l'emissione di un neutrone, che non è il decadimento γ."
+    },
+    {
+      "id": "u7-0033",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Nucleo instabile",
+      "testo": "Un nucleo che tende a trasformarsi spontaneamente in un altro, emettendo radiazione, si dice ……",
+      "accettate": [
+        "instabile",
+        "radioattivo"
+      ],
+      "spiegazione": "Un nucleo è instabile quando il rapporto fra neutroni e protoni, o il suo contenuto di energia, non gli consente di restare indefinitamente nella configurazione in cui si trova: prima o poi decade, emettendo radiazione α, β o γ.\n\nI nuclei stabili non decadono. «Instabile» e «radioattivo», riferiti al nucleo, indicano qui la stessa proprietà."
+    },
+    {
+      "id": "u7-0034",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Legge del decadimento radioattivo",
+      "testo": "In un campione radioattivo, il numero di nuclei che decadono nell'unità di tempo:",
+      "opzioni": [
+        "è inversamente proporzionale al numero di nuclei presenti",
+        "è costante nel tempo, finché il campione non si esaurisce",
+        "è proporzionale al tempo trascorso dall'inizio dell'osservazione",
+        "dipende dalla temperatura e dalla pressione del campione",
+        "è proporzionale al numero di nuclei non ancora decaduti"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ogni nucleo ha la stessa probabilità λ di decadere nell'unità di tempo, quindi il numero di decadimenti al secondo è λN, proporzionale al numero N di nuclei ancora presenti. Ne segue la legge esponenziale N = N₀·e^(−λt).\n\nB) Un ritmo costante darebbe una diminuzione lineare, che si esaurirebbe a un istante preciso: non è ciò che si osserva.\nC) Il ritmo di decadimento diminuisce col passare del tempo, non aumenta.\nD) Confonde il decadimento nucleare con una reazione chimica: in pratica non dipende né dalla temperatura né dalla pressione.\nA) Rovescia la proporzionalità: meno nuclei ci sono, meno decadimenti si osservano."
+    },
+    {
+      "id": "u7-0035",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Costante di decadimento",
+      "testo": "Nella legge N = N₀·e^(−λt), la costante λ si chiama costante di ……",
+      "accettate": [
+        "decadimento",
+        "decadimento radioattivo",
+        "disintegrazione"
+      ],
+      "spiegazione": "La costante di decadimento λ si misura in s⁻¹ e rappresenta la probabilità che un nucleo decada nell'unità di tempo; è caratteristica di ciascun radionuclide.\n\nÈ legata all'emivita da T½ = ln 2/λ: più λ è grande, più rapido è il decadimento."
+    },
+    {
+      "id": "u7-0036",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Emivita e costante di decadimento",
+      "testo": "Un radionuclide ha costante di decadimento λ = 0,0693 s⁻¹. La sua emivita è circa (ln 2 ≈ 0,693):",
+      "opzioni": [
+        "0,10 s",
+        "14,4 s",
+        "0,048 s",
+        "1,0 s",
+        "10 s"
+      ],
+      "corretta": 4,
+      "spiegazione": "T½ = ln 2/λ = 0,693/0,0693 s⁻¹ = 10 s.\n\nC) È λ·ln 2: moltiplica invece di dividere.\nB) È 1/λ, cioè la vita media τ, non l'emivita: le due grandezze differiscono per il fattore ln 2.\nA) È λ/ln 2: rapporto capovolto.\nD) Errore di virgola nel rapporto 0,693/0,0693."
+    },
+    {
+      "id": "u7-0037",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Radiazione ionizzante",
+      "testo": "Una radiazione i cui fotoni hanno energia sufficiente a strappare elettroni agli atomi si dice ……",
+      "accettate": [
+        "ionizzante",
+        "ionizzanti"
+      ],
+      "spiegazione": "Strappando elettroni agli atomi la radiazione ionizzante può rompere legami chimici e danneggiare molecole biologiche come il DNA.\n\nSono ionizzanti i raggi X e i raggi gamma; non lo sono onde radio, microonde e infrarosso."
+    },
+    {
+      "id": "u7-0038",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Esempi di radiazioni ionizzanti",
+      "testo": "Quale fra le seguenti radiazioni elettromagnetiche è ionizzante?",
+      "opzioni": [
+        "raggi X",
+        "infrarosso",
+        "microonde",
+        "onde radio",
+        "luce visibile"
+      ],
+      "corretta": 0,
+      "spiegazione": "I fotoni dei raggi X hanno energie tipicamente nell'ordine dei keV, molto superiori alle energie di ionizzazione degli atomi (da pochi eV a qualche decina di eV): possono quindi ionizzare.\n\nC) I fotoni delle microonde hanno energie di gran lunga inferiori a quelle di ionizzazione: le microonde scaldano, non ionizzano.\nB) L'infrarosso è non ionizzante: i suoi fotoni hanno energia minore di quelli visibili.\nD) Le onde radio hanno i fotoni di energia più bassa dello spettro.\nE) I fotoni visibili hanno energia fra circa 1,8 e 3,1 eV, inferiore anche all'energia di ionizzazione più bassa fra gli elementi (cesio, circa 3,9 eV)."
+    },
+    {
+      "id": "u7-0039",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Energia di ionizzazione",
+      "testo": "Il criterio che distingue le radiazioni ionizzanti da quelle non ionizzanti è il confronto fra l'energia del fotone e l'energia di …… degli atomi",
+      "accettate": [
+        "ionizzazione"
+      ],
+      "spiegazione": "L'energia di ionizzazione è l'energia minima necessaria per strappare un elettrone a un atomo; per l'idrogeno vale 13,6 eV.\n\nSe l'energia del singolo fotone, hf, la supera, la radiazione è ionizzante. Il confine non cade a un valore unico, perché le energie di ionizzazione variano da atomo ad atomo."
+    },
+    {
+      "id": "u7-0040",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Intensità ed energia del fotone nella ionizzazione",
+      "testo": "Un fascio di microonde, anche se molto intenso, non ionizza gli atomi che attraversa perché:",
+      "opzioni": [
+        "la sua frequenza è maggiore di quella delle radiazioni ionizzanti",
+        "la sua intensità non supera la soglia di ionizzazione degli atomi",
+        "le microonde si propagano più lentamente dei raggi X",
+        "ogni suo fotone ha energia inferiore all'energia di ionizzazione",
+        "la sua lunghezza d'onda è troppo corta per interagire con gli atomi"
+      ],
+      "corretta": 3,
+      "spiegazione": "La ionizzazione dipende dall'energia del singolo fotone, hf, non dall'intensità del fascio. Aumentare l'intensità aumenta il numero di fotoni, ma ciascuno resta al di sotto dell'energia di ionizzazione.\n\nB) Confonde intensità ed energia del fotone: non esiste una «soglia di intensità» per la ionizzazione.\nE) La lunghezza d'onda delle microonde è lunga (millimetri-centimetri), non corta; ed è proprio la λ lunga a dare fotoni poco energetici.\nC) Nel vuoto tutte le onde elettromagnetiche hanno la stessa velocità c.\nA) La frequenza delle microonde è minore, non maggiore, di quella di raggi X e gamma."
+    },
+    {
+      "id": "u7-0041",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Indice di rifrazione",
+      "testo": "Il rapporto fra la velocità della luce nel vuoto e la velocità della luce in un mezzo si chiama indice di …… del mezzo",
+      "accettate": [
+        "rifrazione"
+      ],
+      "spiegazione": "L'indice di rifrazione n = c/v è un numero puro, sempre maggiore o uguale a 1: vale 1 nel vuoto, circa 1,0003 nell'aria, 1,33 nell'acqua, circa 1,5 nel vetro comune.\n\nPiù n è grande, più la luce nel mezzo è lenta."
+    },
+    {
+      "id": "u7-0042",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Velocità della luce in un mezzo",
+      "testo": "La velocità della luce in un vetro con indice di rifrazione n = 1,5 è (c = 3,0 × 10⁸ m/s):",
+      "opzioni": [
+        "3,0 × 10⁸ m/s",
+        "1,5 × 10⁸ m/s",
+        "5,0 × 10⁻⁹ m/s",
+        "2,0 × 10⁸ m/s",
+        "4,5 × 10⁸ m/s"
+      ],
+      "corretta": 3,
+      "spiegazione": "Da n = c/v si ricava v = c/n = 3,0 × 10⁸ / 1,5 = 2,0 × 10⁸ m/s.\n\nE) È c·n: moltiplica invece di dividere, e darebbe una velocità maggiore di c.\nA) È la velocità nel vuoto: trascura che nel mezzo la luce rallenta.\nB) Sottrae n da c (3,0 − 1,5) invece di dividere.\nC) È n/c, cioè l'inverso della velocità: l'unità corretta sarebbe s/m."
+    },
+    {
+      "id": "u7-0043",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Legge della riflessione",
+      "testo": "Secondo la legge della riflessione, l'angolo di riflessione è …… all'angolo di incidenza",
+      "accettate": [
+        "uguale",
+        "eguale",
+        "pari",
+        "identico"
+      ],
+      "spiegazione": "Entrambi gli angoli si misurano rispetto alla normale alla superficie nel punto di incidenza, non rispetto alla superficie stessa.\n\nRaggio incidente, raggio riflesso e normale giacciono nello stesso piano."
+    },
+    {
+      "id": "u7-0044",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Rifrazione: deviazione del raggio",
+      "testo": "Un raggio di luce passa dall'aria all'acqua con angolo di incidenza diverso da zero. Il raggio rifratto:",
+      "opzioni": [
+        "si allontana dalla normale, perché in acqua la luce è più lenta",
+        "si allontana dalla normale, perché in acqua la luce è più veloce",
+        "si avvicina alla normale, perché in acqua la luce è più lenta",
+        "prosegue senza deviare, perché la frequenza della luce non cambia",
+        "si avvicina alla normale, perché in acqua la luce è più veloce"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'acqua (n ≈ 1,33) ha indice di rifrazione maggiore dell'aria e la luce vi è più lenta. Dalla legge di Snell, n₁ sen θ₁ = n₂ sen θ₂, con n₂ > n₁ risulta θ₂ < θ₁: il raggio rifratto si avvicina alla normale.\n\nA) Il rallentamento è corretto, ma porta il raggio verso la normale, non lontano da essa.\nB) La luce in acqua non è più veloce, e l'allontanamento dalla normale avviene nel passaggio inverso, dall'acqua all'aria.\nD) La frequenza effettivamente non cambia, ma la deviazione dipende dal cambio di velocità: senza deviazione passa solo il raggio a incidenza normale.\nE) Il raggio si avvicina davvero alla normale, ma la motivazione è falsa: in acqua la luce è più lenta (v = c/1,33)."
+    },
+    {
+      "id": "u7-0045",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Fuoco di una lente convergente",
+      "testo": "In una lente convergente, il punto in cui si incontrano dopo la lente i raggi che vi incidono paralleli all'asse ottico si chiama ……",
+      "accettate": [
+        "fuoco",
+        "fuochi",
+        "fuoco della lente",
+        "punto focale"
+      ],
+      "spiegazione": "Una lente sottile ha due fuochi, simmetrici rispetto alla lente; la loro distanza dal centro della lente è la distanza focale f.\n\nVale anche il percorso inverso: un raggio che passa per il fuoco emerge dalla lente parallelo all'asse ottico."
+    },
+    {
+      "id": "u7-0046",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Legge dei punti coniugati",
+      "testo": "Un oggetto è posto a 30 cm da una lente convergente sottile di distanza focale 10 cm. L'immagine si forma a:",
+      "opzioni": [
+        "15 cm dalla lente, virtuale e diritta",
+        "40 cm dalla lente, reale e capovolta",
+        "7,5 cm dalla lente, reale e capovolta",
+        "15 cm dalla lente, reale e capovolta",
+        "20 cm dalla lente, reale e capovolta"
+      ],
+      "corretta": 3,
+      "spiegazione": "Dalla legge dei punti coniugati 1/p + 1/q = 1/f: 1/q = 1/10 − 1/30 = 2/30, quindi q = 15 cm. Il valore positivo indica un'immagine reale, dalla parte opposta della lente, capovolta; l'ingrandimento q/p = 0,5 dice che è rimpicciolita. Un oggetto oltre 2f dà sempre un'immagine fra f e 2f.\n\nA) La distanza è giusta, ma un'immagine virtuale e diritta si ha solo con l'oggetto fra la lente e il fuoco (p < f).\nC) Somma i reciproci invece di sottrarli: 1/10 + 1/30 = 4/30 dà 7,5 cm.\nE) Sottrae le distanze (30 − 10) invece dei loro reciproci.\nB) Somma le distanze (30 + 10): la legge lega i reciproci, non le distanze."
+    },
+    {
+      "id": "u7-0047",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Immagine reale",
+      "testo": "Un'immagine che si può raccogliere su uno schermo, perché formata dall'incontro effettivo dei raggi luminosi, si dice ……",
+      "accettate": [
+        "reale"
+      ],
+      "spiegazione": "Un'immagine reale si forma dove i raggi rifratti si incontrano davvero; un'immagine virtuale si forma invece dove si incontrano i prolungamenti dei raggi, e non si può proiettare su uno schermo.\n\nUna lente convergente dà un'immagine reale quando l'oggetto è oltre il fuoco."
+    },
+    {
+      "id": "u7-0048",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Lente d'ingrandimento",
+      "testo": "Un oggetto posto fra una lente convergente e il suo fuoco ha un'immagine:",
+      "opzioni": [
+        "virtuale, capovolta e rimpicciolita",
+        "all'infinito: i raggi emergono paralleli",
+        "reale, capovolta e rimpicciolita",
+        "reale, capovolta e ingrandita",
+        "virtuale, diritta e ingrandita"
+      ],
+      "corretta": 4,
+      "spiegazione": "Con p < f la legge dei punti coniugati dà 1/q = 1/f − 1/p < 0: q è negativo, l'immagine è virtuale, dalla stessa parte dell'oggetto, diritta e ingrandita. È il funzionamento della lente d'ingrandimento.\n\nD) È l'immagine di un oggetto posto fra f e 2f.\nC) È l'immagine di un oggetto posto oltre 2f.\nA) Con una sola lente convergente un'immagine virtuale è sempre diritta, e qui è ingrandita.\nB) È il caso dell'oggetto esattamente nel fuoco, non fra la lente e il fuoco."
+    },
+    {
+      "id": "u7-0049",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Distanza focale",
+      "testo": "La distanza fra il centro di una lente sottile e il suo fuoco si chiama distanza ……",
+      "accettate": [
+        "focale"
+      ],
+      "spiegazione": "La distanza focale f compare nella legge dei punti coniugati 1/p + 1/q = 1/f; per una lente convergente è positiva.\n\nPiù f è piccola, più la lente fa convergere fortemente i raggi."
+    },
+    {
+      "id": "u7-0050",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Ingrandimento lineare",
+      "testo": "Il rapporto fra l'altezza dell'immagine e l'altezza dell'oggetto si chiama …… lineare",
+      "accettate": [
+        "ingrandimento"
+      ],
+      "spiegazione": "Per una lente sottile l'ingrandimento lineare è, in valore assoluto, uguale al rapporto q/p fra la distanza dell'immagine e quella dell'oggetto.\n\nSe è maggiore di 1 l'immagine è ingrandita, se è minore di 1 è rimpicciolita."
+    }
+  ]
+}
