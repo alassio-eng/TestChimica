@@ -1,0 +1,700 @@
+{
+  "lotto": "fisica-u3-01",
+  "unita": "u3",
+  "generato": "2026-09-09",
+  "domande": [
+    {
+      "id": "u3-0001",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Definizione e calcolo della pressione",
+      "testo": "Una forza di 50 N agisce perpendicolarmente su una superficie piana di 0,25 m². La pressione esercitata vale:",
+      "opzioni": [
+        "200 Pa",
+        "12,5 Pa",
+        "0,005 Pa",
+        "50 Pa",
+        "2000 Pa"
+      ],
+      "corretta": 0,
+      "spiegazione": "La pressione è il rapporto fra la componente perpendicolare della forza e l'area: p = F/S = 50/0,25 = 200 Pa.\n\nB) 12,5 Pa è il prodotto F·S invece del rapporto.\nC) 0,005 Pa è S/F, cioè il rapporto rovesciato.\nD) 50 Pa ripete il valore della forza, come se la superficie fosse di 1 m².\nE) 2000 Pa si ottiene usando 0,025 m², cioè sbagliando di un fattore dieci la conversione dell'area."
+    },
+    {
+      "id": "u3-0002",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Densità",
+      "testo": "Il rapporto fra la massa di un corpo e il volume che esso occupa si chiama ……",
+      "accettate": [
+        "densità",
+        "densità assoluta",
+        "massa volumica"
+      ],
+      "spiegazione": "La densità si misura in kg/m³ nel SI, ma in pratica si usa spesso il g/cm³: 1 g/cm³ = 1000 kg/m³, che è all'incirca la densità dell'acqua.\n\nÈ una grandezza intensiva: non dipende dalla quantità di materia considerata, ma solo dalla sostanza e dalle condizioni di temperatura e pressione."
+    },
+    {
+      "id": "u3-0003",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Calcolo della densità",
+      "testo": "Un corpo di massa 2 kg occupa un volume di 500 cm³. La sua densità vale:",
+      "opzioni": [
+        "0,004 g/cm³",
+        "4 g/cm³",
+        "0,25 g/cm³",
+        "1000 kg/m³",
+        "4 kg/m³"
+      ],
+      "corretta": 1,
+      "spiegazione": "Conviene portare la massa in grammi: 2 kg = 2000 g, quindi ρ = 2000/500 = 4 g/cm³, cioè 4000 kg/m³.\n\nA) 0,004 g/cm³ si ottiene dividendo i chilogrammi per i centimetri cubi senza convertire la massa.\nC) 0,25 g/cm³ è il rapporto rovesciato, volume diviso massa.\nD) 1000 kg/m³ è la densità dell'acqua, non quella calcolata.\nE) 4 kg/m³ si ottiene convertendo 500 cm³ in 0,5 m³ invece che in 5 × 10⁻⁴ m³."
+    },
+    {
+      "id": "u3-0004",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Unità di misura della pressione",
+      "testo": "Nel Sistema Internazionale l'unità di misura della pressione è il ……",
+      "accettate": [
+        "pascal",
+        "pa"
+      ],
+      "spiegazione": "1 Pa = 1 N/m². È un'unità piccola: la pressione atmosferica normale vale circa 1,013 × 10⁵ Pa.\n\nIn ambito medico si usa ancora il millimetro di mercurio: 1 mmHg ≈ 133 Pa, e 760 mmHg corrispondono a una atmosfera."
+    },
+    {
+      "id": "u3-0005",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Legge di Stevino",
+      "testo": "In un liquido in equilibrio, la pressione idrostatica:",
+      "opzioni": [
+        "dipende dalla quantità totale di liquido contenuta nel recipiente",
+        "è la stessa in tutti i punti del liquido",
+        "cresce con la profondità, quale che sia la forma del recipiente",
+        "diminuisce all'aumentare della profondità",
+        "dipende dall'area del fondo del recipiente"
+      ],
+      "corretta": 2,
+      "spiegazione": "La legge di Stevino dà p = p₀ + ρ g h: la pressione cresce linearmente con la profondità e dipende solo da questa, oltre che dalla densità del liquido e dalla pressione esercitata sulla superficie libera.\n\nA) È il paradosso idrostatico: due recipienti di forma molto diversa, riempiti alla stessa altezza, hanno la stessa pressione sul fondo pur contenendo quantità di liquido diverse.\nB) La pressione è la stessa solo per punti alla stessa profondità.\nD) La pressione aumenta scendendo, perché cresce il peso della colonna sovrastante.\nE) L'area del fondo determina la forza totale, non la pressione."
+    },
+    {
+      "id": "u3-0006",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Legge di Stevino",
+      "testo": "La legge che lega la pressione in un liquido in quiete alla profondità si chiama legge di ……",
+      "accettate": [
+        "stevino",
+        "stevin"
+      ],
+      "spiegazione": "Si scrive p = p₀ + ρ g h, dove p₀ è la pressione sulla superficie libera, di norma quella atmosferica, e h la profondità del punto considerato.\n\nÈ la ragione per cui la pressione del sangue misurata al braccio differisce da quella misurata alla caviglia in un soggetto in piedi: cambia l'altezza della colonna di sangue."
+    },
+    {
+      "id": "u3-0007",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Calcolo della pressione idrostatica",
+      "testo": "Alla profondità di 5 m in acqua (densità 1000 kg/m³, g = 9,8 m/s²), la pressione dovuta al solo liquido vale:",
+      "opzioni": [
+        "4900 Pa",
+        "490 000 Pa",
+        "5000 Pa",
+        "49 000 Pa",
+        "9800 Pa"
+      ],
+      "corretta": 3,
+      "spiegazione": "Vale p = ρ g h = 1000 × 9,8 × 5 = 49 000 Pa, cioè circa mezza atmosfera.\n\nA) 4900 Pa corrisponde a una profondità di 0,5 m.\nB) 490 000 Pa corrisponde a 50 m di profondità.\nC) 5000 Pa si ottiene da ρ·h, cioè omettendo g.\nE) 9800 Pa corrisponde a 1 m di profondità: è il valore di ρ·g."
+    },
+    {
+      "id": "u3-0008",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Principio di Pascal",
+      "testo": "Il principio secondo cui una variazione di pressione applicata a un fluido incomprimibile si trasmette inalterata in ogni suo punto si chiama principio di ……",
+      "accettate": [
+        "pascal"
+      ],
+      "spiegazione": "È il principio su cui si basano il torchio idraulico e i freni idraulici: applicando una forza piccola su un pistone di sezione piccola si ottiene una forza grande sul pistone di sezione grande, perché la pressione trasmessa è la stessa.\n\nIl guadagno in forza si paga in spostamento: il pistone grande si sposta tanto meno quanto più è ampia la sua sezione, e il lavoro compiuto resta lo stesso."
+    },
+    {
+      "id": "u3-0009",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Paradosso idrostatico",
+      "testo": "Due recipienti di forma molto diversa contengono acqua fino alla stessa altezza. La pressione sul fondo:",
+      "opzioni": [
+        "è la stessa nei due recipienti",
+        "è maggiore nel recipiente che contiene più acqua",
+        "è maggiore nel recipiente con il fondo più ampio",
+        "è maggiore nel recipiente più stretto",
+        "non può essere confrontata senza conoscere i volumi"
+      ],
+      "corretta": 0,
+      "spiegazione": "Per la legge di Stevino la pressione dipende solo dalla profondità, dalla densità del liquido e dalla pressione atmosferica: a parità di altezza del liquido è la stessa, quale che sia la forma del recipiente. È il cosiddetto paradosso idrostatico.\n\nB) La quantità di liquido determina la forza totale sul fondo, non la pressione: forza e area crescono insieme.\nC) Un fondo più ampio riceve una forza maggiore distribuita su un'area maggiore, e il rapporto non cambia.\nD) La sezione stretta non concentra la pressione: anche in questo caso conta solo l'altezza.\nE) I volumi non servono: basta conoscere l'altezza del liquido e la sua densità."
+    },
+    {
+      "id": "u3-0010",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Spinta di Archimede",
+      "testo": "La forza diretta verso l'alto che un fluido esercita su un corpo in esso immerso si chiama spinta di ……",
+      "accettate": [
+        "archimede"
+      ],
+      "spiegazione": "La spinta è uguale al peso del fluido spostato: S = ρ(fluido) · V(immerso) · g. Dipende dal volume immerso e dalla densità del fluido, non dalla densità né dal materiale del corpo.\n\nIl corpo galleggia se la spinta a immersione totale supera il peso, cioè se la sua densità media è minore di quella del fluido."
+    },
+    {
+      "id": "u3-0011",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Calcolo della spinta di Archimede",
+      "testo": "Un corpo di volume 200 cm³ è completamente immerso in acqua (densità 1000 kg/m³, g = 9,8 m/s²). La spinta di Archimede vale:",
+      "opzioni": [
+        "0,02 N",
+        "0,2 N",
+        "19,6 N",
+        "196 N",
+        "1,96 N"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il volume immerso è 200 cm³ = 2 × 10⁻⁴ m³, quindi S = ρ V g = 1000 × 2 × 10⁻⁴ × 9,8 = 1,96 N.\n\nA) 0,02 N corrisponde a un volume cento volte minore.\nB) 0,2 N è la massa dell'acqua spostata espressa in chilogrammi: manca la moltiplicazione per g.\nC) 19,6 N corrisponde a un volume di 2 × 10⁻³ m³, cioè a un errore di un fattore dieci nella conversione.\nD) 196 N corrisponde a un volume cento volte maggiore."
+    },
+    {
+      "id": "u3-0012",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Condizione di galleggiamento",
+      "testo": "Un corpo immerso in un fluido galleggia quando la sua densità media è …… di quella del fluido",
+      "accettate": [
+        "minore",
+        "inferiore",
+        "più piccola"
+      ],
+      "spiegazione": "Se la densità del corpo è minore di quella del fluido, il peso del fluido spostato a immersione totale supera il peso del corpo: il corpo risale finché la parte immersa sposta un volume di fluido il cui peso eguaglia il suo.\n\nAll'equilibrio la frazione di volume immersa è pari al rapporto fra le due densità: un corpo di densità 0,8 g/cm³ galleggia in acqua immerso per l'80% del proprio volume."
+    },
+    {
+      "id": "u3-0013",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Frazione immersa di un corpo galleggiante",
+      "testo": "Un blocco omogeneo di densità 0,6 g/cm³ galleggia in acqua. La percentuale del suo volume che risulta immersa è:",
+      "opzioni": [
+        "40%",
+        "60%",
+        "100%",
+        "6%",
+        "dipende dalla forma del blocco"
+      ],
+      "corretta": 1,
+      "spiegazione": "All'equilibrio il peso eguaglia la spinta: ρ(corpo)·V·g = ρ(acqua)·V(immerso)·g, quindi V(immerso)/V = 0,6/1 = 0,60, cioè il 60%.\n\nA) 40% è la frazione emersa, cioè il complemento della risposta cercata.\nC) 100% corrisponderebbe a un corpo che affonda o che ha densità pari a quella dell'acqua.\nD) 6% nasce da un errore di un fattore dieci nel rapporto fra le densità.\nE) La forma non influisce sulla frazione immersa: conta soltanto il rapporto fra le densità."
+    },
+    {
+      "id": "u3-0014",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Esperimento di Torricelli",
+      "testo": "La prima misura della pressione atmosferica, ottenuta con un tubo capovolto pieno di mercurio, si deve a ……",
+      "accettate": [
+        "torricelli"
+      ],
+      "spiegazione": "La colonna di mercurio si stabilizza a circa 760 mm sul livello della bacinella: il peso della colonna, per unità di area, eguaglia la pressione atmosferica. Sopra il mercurio resta il vuoto detto barometrico.\n\nCon l'acqua, circa 13,6 volte meno densa del mercurio, sarebbe servita una colonna di oltre 10 m: è questo che rende il mercurio adatto allo strumento."
+    },
+    {
+      "id": "u3-0015",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Barometro di Torricelli",
+      "testo": "Nell'esperimento di Torricelli l'altezza della colonna di mercurio:",
+      "opzioni": [
+        "aumenta se si usa un tubo di sezione maggiore",
+        "dipende dalla quantità di mercurio versata nella bacinella",
+        "dipende dalla pressione atmosferica e non dalla sezione del tubo",
+        "resta la stessa a qualunque altitudine",
+        "diminuisce inclinando il tubo rispetto alla verticale"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'equilibrio si scrive p(atm) = ρ g h: l'altezza dipende solo dalla pressione atmosferica e dalla densità del mercurio. La sezione del tubo si semplifica, perché compare sia nel peso della colonna sia nell'area su cui la pressione agisce.\n\nA) Un tubo più largo contiene più mercurio, ma anche l'area su cui la pressione agisce è maggiore: l'altezza non cambia.\nB) Il mercurio della bacinella serve solo a chiudere il tubo, e la sua quantità è irrilevante.\nD) In quota la pressione atmosferica diminuisce e la colonna si abbassa: è il principio dell'altimetro.\nE) Inclinando il tubo aumenta la lunghezza della colonna, ma l'altezza verticale, che è ciò che conta nella legge di Stevino, resta la stessa."
+    },
+    {
+      "id": "u3-0016",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Pressione atmosferica normale",
+      "testo": "La pressione atmosferica normale corrisponde a una colonna di mercurio alta …… millimetri",
+      "accettate": [
+        "760",
+        "settecentosessanta"
+      ],
+      "spiegazione": "760 mmHg corrispondono a 1 atm, cioè a 1,013 × 10⁵ Pa. Il valore è convenzionale e si riferisce al livello del mare.\n\nDa qui l'uso clinico del mmHg: una pressione arteriosa di 120 mmHg significa 120 mmHg al di sopra della pressione atmosferica, cioè una pressione relativa."
+    },
+    {
+      "id": "u3-0017",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Pressione relativa e manometro",
+      "testo": "Un manometro collegato a un recipiente contenente gas segna zero. Ciò significa che:",
+      "opzioni": [
+        "nel recipiente è stato fatto il vuoto assoluto",
+        "il gas nel recipiente ha densità nulla",
+        "la pressione assoluta nel recipiente è nulla",
+        "lo strumento è necessariamente guasto",
+        "la pressione nel recipiente è uguale a quella atmosferica"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il manometro misura la pressione relativa, cioè la differenza rispetto alla pressione atmosferica: una lettura nulla significa che le due pressioni coincidono, non che il recipiente sia vuoto.\n\nA) Il vuoto assoluto darebbe una lettura negativa, pari all'opposto della pressione atmosferica.\nB) La densità del gas non è ciò che lo strumento misura.\nC) La pressione assoluta è la somma di quella atmosferica e di quella relativa, quindi qui vale circa 1 atm.\nD) Una lettura nulla è del tutto normale e non indica alcun guasto."
+    },
+    {
+      "id": "u3-0018",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Portata",
+      "testo": "Il volume di fluido che attraversa una sezione di un condotto nell'unità di tempo si chiama ……",
+      "accettate": [
+        "portata",
+        "portata volumetrica"
+      ],
+      "spiegazione": "La portata si calcola come Q = S v, prodotto dell'area della sezione per la velocità media del fluido, e si misura in m³/s.\n\nNell'apparato circolatorio la portata del cuore è la gittata cardiaca, dell'ordine di 5 litri al minuto a riposo."
+    },
+    {
+      "id": "u3-0019",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Calcolo della portata",
+      "testo": "In un condotto di sezione 2 cm² un liquido scorre con velocità media di 1,5 m/s. La portata vale:",
+      "opzioni": [
+        "3 × 10⁻⁴ m³/s",
+        "3 × 10⁻³ m³/s",
+        "3 m³/s",
+        "1,3 × 10⁻⁴ m³/s",
+        "7,5 × 10³ m³/s"
+      ],
+      "corretta": 0,
+      "spiegazione": "La sezione va convertita: 2 cm² = 2 × 10⁻⁴ m². Quindi Q = S v = 2 × 10⁻⁴ × 1,5 = 3 × 10⁻⁴ m³/s, cioè 300 cm³/s.\n\nB) 3 × 10⁻³ m³/s deriva da un errore di un fattore dieci nella conversione della sezione.\nC) 3 m³/s si ottiene moltiplicando la sezione in centimetri quadrati per la velocità in metri al secondo, senza convertire nulla.\nD) 1,3 × 10⁻⁴ m³/s è S/v, cioè la divisione al posto del prodotto.\nE) 7,5 × 10³ m³/s è v/S, il rapporto rovesciato."
+    },
+    {
+      "id": "u3-0020",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Equazione di continuità",
+      "testo": "L'equazione secondo cui, in un condotto percorso da un fluido incomprimibile in moto stazionario, il prodotto della sezione per la velocità resta costante si chiama equazione di ……",
+      "accettate": [
+        "continuità"
+      ],
+      "spiegazione": "Si scrive S₁v₁ = S₂v₂ ed esprime la conservazione della massa: tutto il fluido che entra da una sezione deve uscire dall'altra, perché non si accumula e non è comprimibile.\n\nNe segue che dove il condotto si restringe la velocità aumenta, in proporzione inversa all'area della sezione."
+    },
+    {
+      "id": "u3-0021",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Equazione di continuità: applicazione",
+      "testo": "Un condotto passa da una sezione di 4 cm² a una di 1 cm². Se nel tratto largo la velocità del fluido è 2 m/s, nel tratto stretto vale:",
+      "opzioni": [
+        "0,5 m/s",
+        "2 m/s",
+        "4 m/s",
+        "32 m/s",
+        "8 m/s"
+      ],
+      "corretta": 4,
+      "spiegazione": "Dall'equazione di continuità S₁v₁ = S₂v₂ segue v₂ = (4 × 2)/1 = 8 m/s: riducendo la sezione a un quarto, la velocità quadruplica.\n\nA) 0,5 m/s applica la proporzionalità diretta invece di quella inversa.\nB) 2 m/s lascia la velocità invariata, cosa possibile solo se la sezione non cambia.\nC) 4 m/s corrisponde a un dimezzamento della sezione, non a una riduzione a un quarto.\nD) 32 m/s si ottiene elevando al quadrato il rapporto fra le sezioni, come se fosse un rapporto fra raggi: le sezioni compaiono alla prima potenza."
+    },
+    {
+      "id": "u3-0022",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Teorema di Bernoulli",
+      "testo": "Il teorema che lega fra loro pressione, velocità e quota lungo un tubo di flusso di un fluido ideale si chiama teorema di ……",
+      "accettate": [
+        "bernoulli"
+      ],
+      "spiegazione": "Si scrive p + ½ρv² + ρgh = costante ed è la conservazione dell'energia meccanica applicata all'unità di volume di fluido: i tre termini sono rispettivamente la pressione, l'energia cinetica e l'energia potenziale per unità di volume.\n\nVale per fluidi ideali, cioè incomprimibili e privi di viscosità, in moto stazionario."
+    },
+    {
+      "id": "u3-0023",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Teorema di Bernoulli",
+      "testo": "In un condotto orizzontale percorso da un fluido ideale, nel tratto in cui la sezione è minore:",
+      "opzioni": [
+        "la pressione è maggiore, perché il fluido è più compresso",
+        "la pressione è minore, perché la velocità è maggiore",
+        "la pressione è la stessa del tratto largo",
+        "la velocità è minore e la pressione maggiore",
+        "la portata è maggiore che nel tratto largo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel tratto stretto la continuità impone una velocità maggiore; poiché il condotto è orizzontale, il termine di quota non cambia e in Bernoulli l'aumento di ½ρv² deve essere compensato da una diminuzione di p.\n\nA) L'idea che il restringimento «comprima» il fluido aumentandone la pressione è l'errore più comune: il fluido è incomprimibile e ciò che aumenta è la velocità.\nC) La pressione non può restare la stessa se la velocità cambia.\nD) La velocità nel tratto stretto è maggiore, non minore.\nE) La portata è la stessa in ogni sezione: è esattamente ciò che afferma l'equazione di continuità."
+    },
+    {
+      "id": "u3-0024",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Moto stazionario",
+      "testo": "Il moto di un fluido in cui la velocità in ciascun punto non varia nel tempo si dice ……",
+      "accettate": [
+        "stazionario",
+        "stazionaria"
+      ],
+      "spiegazione": "Nel moto stazionario ogni particella che passa per un dato punto vi transita con la stessa velocità di quelle che l'hanno preceduta: le linee di flusso restano fisse nel tempo.\n\nÈ l'ipotesi sotto la quale valgono l'equazione di continuità e il teorema di Bernoulli nella forma studiata."
+    },
+    {
+      "id": "u3-0025",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Bernoulli applicato all'aneurisma",
+      "testo": "In corrispondenza di un aneurisma, cioè di una dilatazione locale del vaso, rispetto a un tratto di calibro normale il sangue ha:",
+      "opzioni": [
+        "velocità maggiore e pressione minore",
+        "velocità maggiore e pressione maggiore",
+        "velocità minore e pressione maggiore",
+        "velocità minore e pressione minore",
+        "velocità e pressione entrambe invariate"
+      ],
+      "corretta": 2,
+      "spiegazione": "La sezione aumenta, quindi per la continuità la velocità diminuisce; per Bernoulli, a quota costante, alla diminuzione di ½ρv² corrisponde un aumento della pressione. È un meccanismo che tende ad allargare ulteriormente la dilatazione, aggravandola.\n\nA) È la situazione della stenosi, cioè del restringimento, non della dilatazione.\nB) Velocità e pressione non possono crescere insieme a quota costante: la somma dei due termini è fissata.\nD) La velocità in effetti diminuisce, ma la pressione non può diminuire con essa.\nE) Sezione diversa significa necessariamente velocità diversa, a portata costante."
+    },
+    {
+      "id": "u3-0026",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Moto laminare",
+      "testo": "Il regime di moto ordinato, in cui gli strati di fluido scorrono paralleli gli uni sugli altri senza mescolarsi, si dice ……",
+      "accettate": [
+        "laminare"
+      ],
+      "spiegazione": "Nel moto laminare in un condotto cilindrico il profilo delle velocità è parabolico: la velocità è massima sull'asse e si annulla a contatto con la parete, dove il fluido aderisce.\n\nÈ il regime in cui vale la legge di Poiseuille, ed è quello del sangue nella maggior parte dell'albero circolatorio."
+    },
+    {
+      "id": "u3-0027",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Profilo delle velocità nel moto laminare",
+      "testo": "Nel moto laminare di un fluido viscoso in un condotto cilindrico, la velocità del fluido:",
+      "opzioni": [
+        "è massima sull'asse e nulla a contatto con le pareti",
+        "è la stessa in tutti i punti della sezione",
+        "è massima presso le pareti e nulla sull'asse",
+        "cresce linearmente dall'asse verso la parete",
+        "è nulla ovunque tranne che presso le pareti"
+      ],
+      "corretta": 0,
+      "spiegazione": "La viscosità fa aderire alla parete lo strato di fluido a contatto con essa; gli strati successivi scorrono tanto più rapidamente quanto più sono lontani dalla parete. Il profilo che ne risulta è parabolico, con il massimo sull'asse.\n\nB) Un profilo piatto descriverebbe un fluido ideale, privo di viscosità.\nC) È il profilo rovesciato: proprio presso le pareti la velocità si annulla.\nD) L'andamento è parabolico e decrescente verso la parete, non lineare e crescente.\nE) Il fluido si muove in tutta la sezione, ed è fermo solo a contatto con la parete."
+    },
+    {
+      "id": "u3-0028",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Viscosità",
+      "testo": "La grandezza che misura l'attrito interno di un fluido, cioè la resistenza allo scorrimento reciproco dei suoi strati, si chiama ……",
+      "accettate": [
+        "viscosità",
+        "viscosità dinamica",
+        "coefficiente di viscosità"
+      ],
+      "spiegazione": "Il coefficiente di viscosità dinamica si indica con η e si misura in Pa·s. È elevato nei liquidi densi come il miele e basso nell'acqua.\n\nNei liquidi la viscosità diminuisce all'aumentare della temperatura; nei gas, al contrario, aumenta."
+    },
+    {
+      "id": "u3-0029",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Regime turbolento",
+      "testo": "Il passaggio dal moto laminare al moto turbolento in un condotto è favorito da:",
+      "opzioni": [
+        "una diminuzione della velocità del fluido",
+        "un aumento della velocità del fluido",
+        "un aumento della viscosità del fluido",
+        "una riduzione del calibro del condotto a parità di velocità",
+        "una diminuzione della densità del fluido"
+      ],
+      "corretta": 1,
+      "spiegazione": "La turbolenza compare quando le forze d'inerzia prevalgono su quelle viscose: cresce con la velocità, con la densità e con il calibro del condotto, e diminuisce con la viscosità. L'aumento della velocità è il fattore più immediato.\n\nA) Rallentare il fluido stabilizza il moto e favorisce il regime laminare.\nC) Una viscosità maggiore smorza le perturbazioni e mantiene il moto laminare.\nD) Un condotto più stretto, a parità di velocità, rende il moto più stabile, non meno.\nE) Una densità minore riduce le forze d'inerzia e favorisce il regime laminare."
+    },
+    {
+      "id": "u3-0030",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Moto turbolento",
+      "testo": "Il regime di moto disordinato, con formazione di vortici e mescolamento degli strati di fluido, si dice ……",
+      "accettate": [
+        "turbolento",
+        "turbolenta"
+      ],
+      "spiegazione": "Nel moto turbolento la resistenza al flusso cresce molto più rapidamente che nel regime laminare, e la relazione fra portata e differenza di pressione non è più lineare.\n\nLa turbolenza è rumorosa: i soffi cardiaci e il rumore che si ascolta misurando la pressione arteriosa con il bracciale nascono da un flusso reso turbolento da un restringimento."
+    },
+    {
+      "id": "u3-0031",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Legge di Poiseuille",
+      "testo": "In regime laminare, dimezzando il raggio di un condotto e lasciando invariate tutte le altre condizioni, la portata:",
+      "opzioni": [
+        "si dimezza",
+        "si riduce a un quarto",
+        "si riduce a un ottavo",
+        "si riduce a un sedicesimo",
+        "raddoppia"
+      ],
+      "corretta": 3,
+      "spiegazione": "La legge di Poiseuille dà Q = π R⁴ Δp / (8 η L): la portata è proporzionale alla quarta potenza del raggio, quindi dimezzando R si ottiene (1/2)⁴ = 1/16 della portata iniziale.\n\nA) La proporzionalità diretta con il raggio varrebbe se l'esponente fosse 1.\nB) Un quarto si otterrebbe con una dipendenza dal quadrato del raggio, cioè dall'area della sezione.\nC) Un ottavo corrisponderebbe a un esponente 3.\nE) La portata non può crescere restringendo il condotto.\n\nÈ la ragione per cui una piccola vasocostrizione modifica in modo così marcato il flusso sanguigno."
+    },
+    {
+      "id": "u3-0032",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Legge di Poiseuille",
+      "testo": "La legge che lega la portata di un fluido viscoso in regime laminare alla quarta potenza del raggio del condotto si chiama legge di ……",
+      "accettate": [
+        "poiseuille",
+        "hagen poiseuille"
+      ],
+      "spiegazione": "Si scrive Q = π R⁴ Δp / (8 η L): la portata cresce con la differenza di pressione e con la quarta potenza del raggio, e diminuisce con la viscosità e con la lunghezza del condotto.\n\nLa dipendenza dalla quarta potenza è la ragione per cui il calibro dei vasi è il parametro che l'organismo regola per controllare la distribuzione del flusso."
+    },
+    {
+      "id": "u3-0033",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Resistenze idrauliche in parallelo",
+      "testo": "Due condotti identici, ciascuno di resistenza idraulica R, sono collegati in parallelo fra gli stessi due punti. La resistenza equivalente vale:",
+      "opzioni": [
+        "2R",
+        "R",
+        "4R",
+        "R/4",
+        "R/2"
+      ],
+      "corretta": 4,
+      "spiegazione": "In parallelo si sommano gli inversi: 1/R(eq) = 1/R + 1/R = 2/R, da cui R(eq) = R/2. Aggiungere un percorso alternativo offre al fluido più strada e riduce la resistenza complessiva.\n\nA) 2R è la resistenza equivalente del collegamento in serie.\nB) R sarebbe il valore di un solo condotto.\nC) 4R non corrisponde ad alcun collegamento fra due sole resistenze uguali.\nD) R/4 si otterrebbe con quattro condotti uguali in parallelo."
+    },
+    {
+      "id": "u3-0034",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Dipendenza dal raggio nella legge di Poiseuille",
+      "testo": "Nella legge di Poiseuille la portata è proporzionale al raggio del condotto elevato alla ……",
+      "accettate": [
+        "quarta",
+        "quarta potenza",
+        "4"
+      ],
+      "spiegazione": "Raddoppiare il raggio moltiplica la portata per 2⁴ = 16, a parità di differenza di pressione, di viscosità e di lunghezza.\n\nLa resistenza idraulica, che è il rapporto fra differenza di pressione e portata, vale invece 8ηL/(πR⁴): cresce con la lunghezza del condotto e crolla all'aumentare del raggio."
+    },
+    {
+      "id": "u3-0035",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Resistenze idrauliche in serie",
+      "testo": "Due tratti di condotto di resistenza idraulica R₁ = 2 e R₂ = 3, espresse nelle stesse unità, sono percorsi in serie dallo stesso fluido. La resistenza equivalente vale:",
+      "opzioni": [
+        "1,2",
+        "0,83",
+        "6",
+        "5",
+        "2,5"
+      ],
+      "corretta": 3,
+      "spiegazione": "In serie le resistenze si sommano, perché il fluido attraversa l'una dopo l'altra e le cadute di pressione si sommano: R(eq) = 2 + 3 = 5.\n\nA) 1,2 è la resistenza equivalente del collegamento in parallelo, cioè (2 × 3)/(2 + 3).\nB) 0,83 è la somma degli inversi, 1/2 + 1/3, cioè un passaggio intermedio del calcolo in parallelo lasciato non invertito.\nC) 6 è il prodotto delle due resistenze.\nE) 2,5 è la loro media aritmetica."
+    },
+    {
+      "id": "u3-0036",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Tensione superficiale",
+      "testo": "La forza per unità di lunghezza che fa comportare la superficie libera di un liquido come una membrana elastica si chiama tensione ……",
+      "accettate": [
+        "superficiale"
+      ],
+      "spiegazione": "Nasce dallo squilibrio delle forze di coesione: una molecola all'interno del liquido è attratta in tutte le direzioni, una in superficie solo verso l'interno e lateralmente. Il liquido tende perciò a minimizzare l'area della propria superficie, e le gocce libere assumono forma sferica.\n\nSi misura in N/m e diminuisce all'aumentare della temperatura o per aggiunta di sostanze tensioattive."
+    },
+    {
+      "id": "u3-0037",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Origine della tensione superficiale",
+      "testo": "La tensione superficiale di un liquido è dovuta al fatto che:",
+      "opzioni": [
+        "la pressione atmosferica schiaccia la superficie del liquido",
+        "le molecole in superficie sono più numerose che all'interno",
+        "le molecole della superficie subiscono forze di coesione non bilanciate",
+        "la superficie del liquido è sempre elettricamente carica",
+        "la densità del liquido è maggiore in superficie che in profondità"
+      ],
+      "corretta": 2,
+      "spiegazione": "Una molecola all'interno del liquido è circondata da altre molecole in ogni direzione e la risultante delle attrazioni è nulla; una molecola di superficie non ha vicine al di sopra, quindi subisce una risultante diretta verso l'interno. Il sistema tende così a ridurre al minimo l'area della superficie.\n\nA) Il fenomeno si osserva anche nel vuoto: la pressione atmosferica non c'entra.\nB) Le molecole di superficie sono al contrario una piccolissima frazione del totale.\nD) Non è richiesta alcuna carica elettrica: bastano le forze di coesione fra molecole neutre.\nE) In un liquido in equilibrio termico la densità è praticamente uniforme."
+    },
+    {
+      "id": "u3-0038",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Forze di coesione",
+      "testo": "Le forze attrattive che si esercitano fra le molecole di uno stesso liquido si chiamano forze di ……",
+      "accettate": [
+        "coesione"
+      ],
+      "spiegazione": "Le forze di coesione tengono unito il liquido e sono all'origine della tensione superficiale.\n\nSi distinguono dalle forze di adesione, che agiscono invece fra le molecole del liquido e quelle di una superficie solida a contatto: è il rapporto fra le due a decidere se un liquido bagna o non bagna una parete."
+    },
+    {
+      "id": "u3-0039",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Capillarità",
+      "testo": "In un tubo capillare di vetro immerso in acqua il livello del liquido sale sopra quello esterno perché:",
+      "opzioni": [
+        "la pressione atmosferica è minore dentro il capillare",
+        "l'acqua nel capillare è meno densa",
+        "il tubo è troppo stretto perché l'acqua possa scendere",
+        "le forze di adesione al vetro prevalgono su quelle di coesione",
+        "la spinta di Archimede sospinge il liquido verso l'alto"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'acqua bagna il vetro perché l'attrazione fra le sue molecole e il vetro supera quella fra le molecole d'acqua: il liquido si arrampica lungo la parete formando un menisco concavo, e la tensione superficiale solleva la colonna finché il suo peso equilibra la forza di risalita. L'altezza raggiunta è tanto maggiore quanto più stretto è il capillare.\n\nA) La pressione atmosferica agisce ugualmente dentro e fuori dal capillare.\nB) La densità dell'acqua è la stessa dentro e fuori dal tubo.\nC) La strettezza del tubo è la condizione del fenomeno, non la sua causa: con il mercurio, nello stesso tubo, il livello si abbassa.\nE) La spinta di Archimede riguarda i corpi immersi in un fluido, non il liquido stesso."
+    },
+    {
+      "id": "u3-0040",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Forze di adesione",
+      "testo": "Le forze attrattive che si esercitano fra le molecole di un liquido e quelle della parete solida con cui è a contatto si chiamano forze di ……",
+      "accettate": [
+        "adesione"
+      ],
+      "spiegazione": "Se le forze di adesione prevalgono su quelle di coesione il liquido bagna la parete, il menisco è concavo e nel capillare il livello sale: è il caso dell'acqua nel vetro.\n\nSe prevalgono le forze di coesione il liquido non bagna, il menisco è convesso e il livello nel capillare si abbassa: è il caso del mercurio nel vetro."
+    },
+    {
+      "id": "u3-0041",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Legge di Laplace",
+      "testo": "Secondo la legge di Laplace, in una bolla o in una vescicola sferica la differenza di pressione fra interno ed esterno:",
+      "opzioni": [
+        "è tanto maggiore quanto minore è il raggio",
+        "è tanto maggiore quanto maggiore è il raggio",
+        "non dipende dal raggio della sfera",
+        "è nulla se la tensione superficiale è diversa da zero",
+        "dipende solo dalla densità del liquido"
+      ],
+      "corretta": 0,
+      "spiegazione": "La legge di Laplace lega la sovrapressione alla tensione superficiale e all'inverso del raggio: quanto più la superficie è curva, cioè quanto più piccolo è il raggio, tanto maggiore è la pressione necessaria a mantenerla.\n\nB) La dipendenza è inversa, non diretta: due bolle collegate non si equilibrano, la piccola si svuota nella grande.\nC) Il raggio compare esplicitamente nella legge.\nD) La differenza di pressione si annulla per superficie piana, cioè per raggio infinito, non per tensione superficiale non nulla.\nE) La densità non compare: contano la tensione superficiale e la curvatura.\n\nÈ il motivo per cui gli alveoli polmonari più piccoli tenderebbero a collassare in quelli più grandi, e per cui è indispensabile il surfattante, che abbassa la tensione superficiale."
+    },
+    {
+      "id": "u3-0042",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Capillarità",
+      "testo": "Il fenomeno per cui un liquido sale o scende spontaneamente in un tubo di diametro molto piccolo si chiama ……",
+      "accettate": [
+        "capillarità"
+      ],
+      "spiegazione": "L'altezza raggiunta è inversamente proporzionale al raggio del capillare: più il tubo è sottile, più il liquido sale.\n\nÈ il meccanismo che permette la risalita della linfa nei vasi delle piante e che governa il comportamento dei liquidi negli interstizi dei tessuti."
+    },
+    {
+      "id": "u3-0043",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Fluidi reali e caduta di pressione",
+      "testo": "In un condotto orizzontale di sezione costante percorso da un fluido reale a portata costante, la pressione:",
+      "opzioni": [
+        "aumenta lungo il condotto",
+        "resta costante, come previsto da Bernoulli",
+        "aumenta o diminuisce a seconda della velocità",
+        "diminuisce progressivamente lungo il condotto",
+        "resta costante solo se il fluido è viscoso"
+      ],
+      "corretta": 3,
+      "spiegazione": "In un fluido reale la viscosità dissipa energia meccanica: per mantenere la portata occorre una differenza di pressione fra i due estremi, e la pressione cala progressivamente nel verso del moto. È esattamente ciò che esprime la legge di Poiseuille, dove Δp è il motore del flusso.\n\nA) Un aumento richiederebbe un apporto di energia lungo il percorso.\nB) Bernoulli vale per i fluidi ideali, cioè privi di viscosità: qui non è applicabile.\nC) A sezione costante la velocità non cambia, e non è la velocità a determinare la caduta di pressione.\nE) È la viscosità la causa stessa della caduta di pressione: senza di essa la pressione resterebbe costante."
+    },
+    {
+      "id": "u3-0044",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Legge di Laplace",
+      "testo": "La legge che lega la differenza di pressione attraverso una superficie curva alla tensione superficiale e al raggio di curvatura si chiama legge di ……",
+      "accettate": [
+        "laplace"
+      ],
+      "spiegazione": "La sovrapressione è direttamente proporzionale alla tensione superficiale e inversamente proporzionale al raggio di curvatura: una superficie piana, con raggio infinito, non comporta alcuna differenza di pressione.\n\nNella forma applicata ai vasi sanguigni, la legge spiega perché la tensione della parete cresce con il raggio del vaso: è il motivo per cui un aneurisma, una volta formato, tende ad allargarsi."
+    },
+    {
+      "id": "u3-0045",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Stati di aggregazione e proprietà dei fluidi",
+      "testo": "Rispetto a un solido, un fluido si distingue perché:",
+      "opzioni": [
+        "ha sempre densità minore",
+        "non può esercitare alcuna pressione",
+        "non oppone resistenza permanente a uno sforzo di taglio",
+        "ha un volume proprio ma non una forma propria, come i liquidi",
+        "non è soggetto alla forza di gravità"
+      ],
+      "corretta": 2,
+      "spiegazione": "La caratteristica che definisce un fluido, liquido o gas che sia, è di non sostenere sforzi di taglio: sottoposto a uno sforzo tangenziale scorre indefinitamente, invece di deformarsi di una quantità finita e fermarsi come fa un solido elastico.\n\nA) Esistono liquidi molto più densi di molti solidi: il mercurio è più denso dell'alluminio.\nB) I fluidi esercitano pressione in tutte le direzioni: è l'oggetto stesso dell'idrostatica.\nD) Avere volume proprio ma non forma propria descrive i soli liquidi, mentre i gas, che pure sono fluidi, non hanno neppure volume proprio.\nE) I fluidi hanno peso, ed è proprio il peso della colonna sovrastante a generare la pressione idrostatica."
+    },
+    {
+      "id": "u3-0046",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Fluido incomprimibile",
+      "testo": "Un fluido la cui densità resta praticamente costante anche quando la pressione varia si dice ……",
+      "accettate": [
+        "incomprimibile",
+        "incompressibile"
+      ],
+      "spiegazione": "I liquidi si comportano con ottima approssimazione da fluidi incomprimibili; i gas no, perché il loro volume varia sensibilmente con la pressione.\n\nL'incomprimibilità è l'ipotesi su cui poggiano il principio di Pascal e l'equazione di continuità nella forma S₁v₁ = S₂v₂."
+    },
+    {
+      "id": "u3-0047",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Spinta di Archimede: da che cosa dipende",
+      "testo": "La spinta di Archimede che agisce su un corpo completamente immerso in un fluido dipende:",
+      "opzioni": [
+        "dalla densità del corpo e dal suo peso",
+        "dal volume del corpo e dalla densità del fluido",
+        "dalla profondità a cui il corpo si trova",
+        "dalla forma del corpo e dalla sua superficie",
+        "dalla sola massa del corpo immerso"
+      ],
+      "corretta": 1,
+      "spiegazione": "La spinta è pari al peso del fluido spostato: S = ρ(fluido) · V(immerso) · g. Contano quindi il volume immerso e la densità del fluido, mentre il materiale di cui il corpo è fatto non interviene.\n\nA) La densità del corpo decide se esso galleggia o affonda, ma non il valore della spinta.\nC) Per un fluido incomprimibile la spinta è la stessa a ogni profondità: la pressione aumenta, ma aumenta ugualmente sopra e sotto il corpo.\nD) Due corpi di forma diversa e uguale volume ricevono la stessa spinta.\nE) La massa da considerare è quella del fluido spostato, non quella del corpo."
+    },
+    {
+      "id": "u3-0048",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Menisco",
+      "testo": "La superficie curva che un liquido assume all'interno di un tubo stretto si chiama ……",
+      "accettate": [
+        "menisco"
+      ],
+      "spiegazione": "Il menisco è concavo quando il liquido bagna la parete, come l'acqua nel vetro, e convesso quando non la bagna, come il mercurio.\n\nNella lettura di una buretta o di un cilindro graduato il volume si legge in corrispondenza del punto più basso del menisco concavo, con l'occhio all'altezza della superficie."
+    },
+    {
+      "id": "u3-0049",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Torchio idraulico",
+      "testo": "In un torchio idraulico il pistone piccolo ha sezione 5 cm² e quello grande 100 cm². Applicando una forza di 20 N sul pistone piccolo, sul pistone grande si ottiene una forza di:",
+      "opzioni": [
+        "20 N",
+        "100 N",
+        "1 N",
+        "4000 N",
+        "400 N"
+      ],
+      "corretta": 4,
+      "spiegazione": "Per il principio di Pascal la pressione è la stessa sui due pistoni: F₁/S₁ = F₂/S₂, quindi F₂ = 20 × (100/5) = 400 N. Il guadagno di forza è pari al rapporto fra le sezioni.\n\nA) 20 N ignorerebbe l'amplificazione, cioè il funzionamento stesso del torchio.\nB) 100 N usa il valore della sezione grande come se fosse una forza.\nC) 1 N applica il rapporto fra le sezioni al contrario, riducendo la forza invece di amplificarla.\nD) 4000 N si ottiene moltiplicando per 200, cioè sbagliando di un fattore dieci il rapporto fra le sezioni.\n\nIl lavoro non viene amplificato: il pistone grande si sposta di un tratto venti volte minore di quello piccolo."
+    },
+    {
+      "id": "u3-0050",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Resistenza idraulica",
+      "testo": "Collegando in parallelo un secondo condotto fra due punti, la resistenza idraulica complessiva del tratto diventa …… di quella del singolo condotto",
+      "accettate": [
+        "minore",
+        "inferiore",
+        "più piccola"
+      ],
+      "spiegazione": "In parallelo si sommano gli inversi delle resistenze, quindi la resistenza equivalente è minore della più piccola fra quelle collegate: al fluido si offrono più vie in alternativa, e a parità di differenza di pressione la portata totale aumenta.\n\nIn serie, invece, le resistenze si sommano e la resistenza complessiva è sempre maggiore di ciascuna."
+    }
+  ]
+}

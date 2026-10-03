@@ -2,7 +2,7 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**2060 domande su 2200** a regime.
+**2160 domande su 2200** a regime.
 
 
 ---
@@ -626,13 +626,13 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Fisica — 640/680
+## Fisica — 690/680
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Introduzione ai metodi della fisica | 80/70 | 40M + 40C | 76 | 4 |
 | U2 | Meccanica | 130/130 | 65M + 65C | 122 | 5 |
-| U3 | Meccanica dei fluidi | 60/110 | 30M + 30C | 59 | 5 |
+| U3 | Meccanica dei fluidi | 110/110 | 55M + 55C | 101 | 5 |
 | U4 | Onde meccaniche | 70/70 | 35M + 35C | 64 | 4 |
 | U5 | Termodinamica | 100/100 | 50M + 50C | 99 | 5 |
 | U6 | Elettricità e magnetismo | 120/120 | 60M + 60C | 120 | 5 |
@@ -848,16 +848,31 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U3 — Meccanica dei fluidi
 
-60 domande su 110 · 30 a risposta multipla e 30 a completamento · 59 argomenti distinti · file: fisica-u3-02.json, fisica-u3-03.json
+110 domande su 110 · 55 a risposta multipla e 55 a completamento · 101 argomenti distinti · file: fisica-u3-01.json, fisica-u3-02.json, fisica-u3-03.json
 
+- Capillarità (2 domande)
+- Legge di Laplace (2 domande)
+- Legge di Poiseuille (2 domande)
+- Legge di Stevino (2 domande)
+- Paradosso idrostatico (2 domande)
+- Profilo delle velocità nel moto laminare (2 domande)
+- Teorema di Bernoulli (2 domande)
+- Unità di misura della pressione (2 domande)
 - Unità di misura della viscosità (2 domande)
 - Barometro con un liquido diverso dal mercurio
+- Barometro di Torricelli
+- Bernoulli applicato all'aneurisma
 - Bernoulli applicato alla stenosi
 - Bernoulli: termine di quota in un condotto a sezione costante
+- Calcolo della densità
 - Calcolo della massa a partire dalla densità
+- Calcolo della portata
 - Calcolo della pressione esercitata da un corpo appoggiato
+- Calcolo della pressione idrostatica
+- Calcolo della spinta di Archimede
 - Condizione di aderenza alla parete
 - Condizione di affondamento
+- Condizione di galleggiamento
 - Conservazione della portata
 - Continuità: dipendenza della velocità dal raggio
 - Conversione delle unità di densità
@@ -866,12 +881,23 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Criterio per distinguere moto laminare e turbolento
 - Definizione del pascal
 - Definizione di fluido ideale
+- Definizione e calcolo della pressione
+- Densità
 - Densità relativa
+- Dipendenza dal raggio nella legge di Poiseuille
 - Enunciato del principio di Archimede
 - Enunciato del principio di Pascal
+- Equazione di continuità
 - Equazione di continuità e velocità del sangue nei capillari
+- Equazione di continuità: applicazione
 - Equilibrio indifferente di un corpo immerso
+- Esperimento di Torricelli
+- Fluidi reali e caduta di pressione
+- Fluido incomprimibile
 - Forma del menisco nei liquidi che bagnano
+- Forze di adesione
+- Forze di coesione
+- Frazione immersa di un corpo galleggiante
 - Galleggiamento: carico massimo sostenibile
 - Gradiente di velocità
 - Il torr come unità di pressione
@@ -879,35 +905,51 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Legge di Poiseuille: dipendenza dalla viscosità
 - Legge di Stevino: differenza di pressione fra due quote
 - Linee di flusso
+- Menisco
+- Moto laminare
+- Moto stazionario
+- Moto turbolento
 - Natura scalare della pressione
 - Numero di Reynolds
-- Paradosso idrostatico
+- Origine della tensione superficiale
 - Peso apparente e spinta di Archimede
+- Portata
 - Portata di massa
 - Pressione assoluta e pressione relativa
 - Pressione assoluta in profondità
+- Pressione atmosferica normale
 - Pressione relativa
-- Profilo delle velocità nel moto laminare
+- Pressione relativa e manometro
+- Principio di Pascal
+- Regime turbolento
 - Relazione fra velocità e pressione in un condotto orizzontale
+- Resistenza idraulica
 - Resistenza idraulica di un condotto
+- Resistenze idrauliche in parallelo
+- Resistenze idrauliche in serie
 - Significato fisico del teorema di Bernoulli
 - Spazio sovrastante la colonna nell'esperimento di Torricelli
+- Spinta di Archimede
+- Spinta di Archimede: da che cosa dipende
 - Stati di aggregazione compresi fra i fluidi
+- Stati di aggregazione e proprietà dei fluidi
 - Strumento di misura della pressione arteriosa
 - Strumento di misura della pressione atmosferica
 - Superfici isobare in un liquido in quiete
+- Tensione superficiale
 - Tensione superficiale e surfactante polmonare
 - Teorema di Bernoulli: calcolo della differenza di pressione
 - Termini dell'equazione di Bernoulli
 - Terminologia: dilatazione di un vaso
 - Terminologia: restringimento di un vaso
+- Torchio idraulico
 - Torchio idraulico: spostamenti dei pistoni
 - Tubo di flusso
 - Unità di misura della portata
-- Unità di misura della pressione
 - Unità di misura della tensione superficiale
 - Unità pratiche di pressione: il bar
 - Vasi comunicanti
+- Viscosità
 - Viscosità e temperatura
 
 ### U4 — Onde meccaniche
@@ -1294,13 +1336,13 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Biologia — 720/820
+## Biologia — 770/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Le basi dell'organizzazione biologica e molecolare della vita | 80/80 | 40M + 40C | 80 | 3 |
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
-| U3 | Il flusso dell'informazione | 80/180 | 40M + 40C | 80 | 7 |
+| U3 | Il flusso dell'informazione | 130/180 | 65M + 65C | 130 | 7 |
 | U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 110/110 | 55M + 55C | 110 | 4 |
 | U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 200/200 | 100M + 100C | 200 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
@@ -1458,86 +1500,136 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U3 — Il flusso dell'informazione
 
-80 domande su 180 · 40 a risposta multipla e 40 a completamento · 80 argomenti distinti · file: biologia-u3-03.json, biologia-u3-04.json
+130 domande su 180 · 65 a risposta multipla e 65 a completamento · 130 argomenti distinti · file: biologia-u3-01.json, biologia-u3-03.json, biologia-u3-04.json
 
 - Allungamento della trascrizione
 - Aminoacil-tRNA
+- Anatomia del gene procariotico ed eucariotico
 - Antiparallelismo
 - Associazione delle subunità ribosomiali
+- Attività peptidil-transferasica
 - Bolla di replicazione
 - Bolla di trascrizione
+- Capping del pre-mRNA
+- Chaperon molecolari
 - Chaperonine
+- Chimica dello splicing
 - Chimica dello splicing: transesterificazioni
 - Codice genetico
 - Codone
 - Codone AUG
+- Codoni e anticodoni
 - Complementarità delle basi
 - Complesso d'inizio della replicazione
 - Conseguenze dell'inattivazione della primasi
 - Controllo di qualità dei trascritti
 - Controllo negativo e positivo
+- Controllo post-traduzionale
 - Controllo post-trascrizionale
 - Controllo traduzionale
+- Correzione degli errori delle DNA polimerasi
 - Cromosoma circolare ed estremità
+- DNA ligasi
 - Dal numero di nucleotidi al numero di amminoacidi
 - Definizione di gene
+- Degenerazione del codice genetico
+- Degradazione dell'mRNA
+- Degradazione proteasomica
 - Destino delle proteine non recuperabili
 - Deubiquitinasi
 - Dimensione del codone
 - Direzione dei frammenti di Okazaki
+- Direzione della traduzione
 - Direzione di lettura dello stampo
 - Distribuzione dei filamenti parentali
+- Editing dell'RNA
 - Editing per deaminazione
+- Elementi regolativi in cis
 - Emivita dell'mRNA
 - Energia della traduzione
 - Esiti del silenziamento mediato da RISC
 - Espressione genica
 - Espressione genica differenziale
+- Fattori di trascrizione generali
 - Fattori di trascrizione specifici
+- Fattori di trascrizione specifici: recettori steroidei
 - Fattori generali: terminologia
 - Fattori richiesti dalle RNA polimerasi eucariotiche
 - Fedeltà della replicazione
 - Fedeltà della traduzione
 - Filamento codificante
+- Filamento continuo e discontinuo
 - Filamento in ritardo
+- Filamento stampo della trascrizione
+- Formazione degli aminoacil-tRNA
+- Frammenti di Okazaki
+- Geni policistronici
 - Giunzioni esone-esone
 - Indipendenza da posizione e orientamento dell'enhancer
+- Innesco della replicazione
+- Introni ed esoni
+- Le tre RNA polimerasi eucariotiche
 - Legame fosfodiestere
 - Legame peptidico
+- Livelli di controllo dell'espressione genica
+- Maturazione degli rRNA
+- Maturazione dei tRNA
 - Maturazione dell'RNA
 - Natura enzimatica della telomerasi
 - Operone lac senza lattosio né glucosio
+- Operone lac: l'induttore
+- Operone lac: l'operatore
 - Operone lac: la permeasi
 - Operone lac: massima espressione
+- Operone lac: repressione da catabolita
+- Operone lac: ruolo dell'operatore
 - Operoni inducibili
 - Origine dell'informazione per il ripiegamento
 - Polarità della catena polipeptidica
+- Poliadenilazione
 - Poliubiquitinazione
+- Problema della replicazione delle estremità
 - Prodotti dello splicing
 - Prodotto della polimerizzazione
 - Promotore
 - Promotore prossimale
+- Promotori distali: enhancer
+- Proprietà del codice genetico
 - Proteina attivatrice dell'operone lac
+- Proteine chaperon
 - Proteine simili all'ubiquitina
 - Punto di ramificazione
+- RNA interference
 - RNA non codificanti
 - Replicazione e trascrizione a confronto
+- Replicazione semiconservativa
 - Ruolo della DNA ligasi
 - Sede della maturazione degli rRNA
 - Sede della maturazione dell'mRNA
+- Senescenza replicativa
 - Sequenze consenso degli introni
+- Siti del ribosoma
 - Siti del ribosoma: sito E
 - Sito di inizio della trascrizione
 - Sostituzioni in terza posizione
+- Spliceosoma
 - Splicing
+- Splicing alternativo
+- Srotolamento del DNA alla forcella
 - Stabilità dell'mRNA e resa proteica
+- TATA box
 - TBP
+- Telomerasi
 - Telomerasi e proliferazione illimitata
 - Telomero
+- Terminazione della traduzione
 - Terminazione e riciclo del ribosoma
+- Topoisomerasi e superavvolgimenti
 - Traduzione nei procarioti e negli eucarioti
 - Trascritto primario
+- Ubiquitina
 - mRNA monocistronico
+- miRNA
 - microRNA
 - snRNA
 
