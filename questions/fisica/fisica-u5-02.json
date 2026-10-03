@@ -1,0 +1,737 @@
+{
+  "lotto": "fisica-u5-02",
+  "unita": "u5",
+  "generato": "2026-10-02",
+  "domande": [
+    {
+      "id": "u5-0051",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Equilibrio termico",
+      "testo": "Due corpi posti a contatto smettono di scambiarsi calore quando raggiungono la stessa temperatura: si dice allora che sono in equilibrio ……",
+      "accettate": [
+        "termico",
+        "termici",
+        "equilibrio termico"
+      ],
+      "spiegazione": "L'equilibrio termico è la condizione in cui cessa il flusso netto di calore fra due corpi. Non significa che i due corpi contengano la stessa energia interna, ma solo che hanno la stessa temperatura.\n\nÈ la condizione su cui si basa la misura della temperatura: il termometro va lasciato a contatto con il corpo finché raggiunge l'equilibrio termico con esso, e a quel punto indica la temperatura del corpo."
+    },
+    {
+      "id": "u5-0052",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Principio zero della termodinamica",
+      "testo": "Se il corpo A è in equilibrio termico con B e B è in equilibrio termico con C, allora anche A e C sono in equilibrio termico fra loro. Questa affermazione:",
+      "opzioni": [
+        "è una formulazione equivalente del primo principio",
+        "costituisce il principio zero della termodinamica",
+        "è una conseguenza del secondo principio",
+        "vale solo se i tre corpi hanno la stessa capacità termica",
+        "vale solo se i tre corpi sono allo stato solido"
+      ],
+      "corretta": 1,
+      "spiegazione": "È proprio l'enunciato del principio zero. Da esso segue che la temperatura è una proprietà ben definita dei corpi e che si può misurare con un corpo di riferimento, cioè con un termometro.\n\nA) Il primo principio riguarda la conservazione dell'energia, cioè il legame fra calore, lavoro ed energia interna.\nC) Il secondo principio riguarda il verso delle trasformazioni spontanee, non la transitività dell'equilibrio termico.\nD) L'equilibrio termico richiede l'uguaglianza delle temperature, non delle capacità termiche.\nE) Il principio zero vale per qualunque stato di aggregazione: è il motivo per cui un termometro funziona sia in un liquido sia in un gas."
+    },
+    {
+      "id": "u5-0053",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Grandezze di processo",
+      "testo": "Il calore e il lavoro non sono funzioni di stato, perché il loro valore dipende dalla trasformazione seguita: si dicono quindi grandezze di ……",
+      "accettate": [
+        "processo",
+        "processi",
+        "percorso",
+        "trasformazione"
+      ],
+      "spiegazione": "Le funzioni di stato, come pressione, volume, temperatura, energia interna ed entropia, hanno un valore associato allo stato del sistema. Calore e lavoro, invece, hanno senso solo riferiti a una trasformazione: non si può dire quanto calore «contiene» un sistema in un certo stato.\n\nÈ per questo che si scrive ΔU, ma si scrivono Q e W senza il simbolo di variazione."
+    },
+    {
+      "id": "u5-0054",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Legge generale dei gas perfetti",
+      "testo": "Un gas perfetto occupa 2,0 L alla pressione di 1,0 × 10⁵ Pa e alla temperatura di 300 K. Viene portato alla pressione di 2,0 × 10⁵ Pa e alla temperatura di 600 K. Il nuovo volume è:",
+      "opzioni": [
+        "1,0 L",
+        "4,0 L",
+        "8,0 L",
+        "0,5 L",
+        "2,0 L"
+      ],
+      "corretta": 4,
+      "spiegazione": "Dall'equazione di stato segue che pV/T resta costante: V₂ = V₁ × (p₁/p₂) × (T₂/T₁) = 2,0 × (1/2) × (600/300) = 2,0 L. Il raddoppio della pressione dimezzerebbe il volume, il raddoppio della temperatura assoluta lo raddoppierebbe: i due effetti si compensano.\n\nA) Considera solo il raddoppio della pressione e trascura l'aumento di temperatura.\nB) Considera solo il raddoppio della temperatura e trascura l'aumento di pressione.\nC) Moltiplica per entrambi i rapporti invece di dividere per quello delle pressioni.\nD) Divide per entrambi i rapporti: tratta anche la temperatura come se facesse contrarre il gas."
+    },
+    {
+      "id": "u5-0055",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Volume molare",
+      "testo": "A 0 °C e alla pressione di 1 atm una mole di qualunque gas perfetto occupa un volume di circa 22,4 ……",
+      "accettate": [
+        "litri",
+        "litro",
+        "l",
+        "dm3",
+        "decimetri cubi",
+        "decimetri cubici"
+      ],
+      "spiegazione": "È il volume molare in condizioni normali, che si ricava da V = RT/p con T = 273,15 K e p = 101 325 Pa: il calcolo dà 22,414 L. Non dipende dal tipo di gas, purché il comportamento sia quello del gas perfetto.\n\nAttenzione a non confonderlo con il volume molare a 25 °C e 1 bar, che vale circa 24,8 L: il valore 22,4 L vale solo a 0 °C e 1 atm."
+    },
+    {
+      "id": "u5-0056",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Costante di Boltzmann",
+      "testo": "La costante di Boltzmann k si ottiene:",
+      "opzioni": [
+        "moltiplicando la costante dei gas R per il numero di Avogadro",
+        "dividendo il numero di Avogadro per la costante dei gas R",
+        "dividendo la costante dei gas R per il numero di Avogadro",
+        "dividendo la costante dei gas R per il numero di moli del gas",
+        "moltiplicando la costante dei gas R per la temperatura assoluta"
+      ],
+      "corretta": 2,
+      "spiegazione": "La costante di Boltzmann è la costante dei gas riferita a una singola particella invece che a una mole: k = R/N_A = 8,31/6,022 × 10²³ ≈ 1,38 × 10⁻²³ J/K.\n\nA) Il prodotto darebbe un valore enorme, dell'ordine di 10²⁴ J/K. Il passaggio dalla mole alla singola particella è una divisione.\nB) Il rapporto è rovesciato e il risultato non ha nemmeno le unità di misura di k, che sono J/K.\nD) k è una costante universale, uguale per qualunque sistema: non può dipendere dalla quantità di gas considerata.\nE) Il prodotto RT è un'energia per mole, non una costante: dipende dalla temperatura."
+    },
+    {
+      "id": "u5-0057",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Numero di Avogadro",
+      "testo": "Il numero di particelle contenute in una mole di sostanza, pari a circa 6,022 × 10²³, si chiama numero di ……",
+      "accettate": [
+        "avogadro",
+        "costante di avogadro"
+      ],
+      "spiegazione": "La mole è definita in modo che una mole contenga esattamente 6,02214076 × 10²³ entità: dal 2019 questo valore è fissato per definizione.\n\nNell'equazione di stato pV = nRT il numero di moli n è il numero di particelle diviso il numero di Avogadro. Da qui segue la forma equivalente pV = NkT, con N numero di particelle e k costante di Boltzmann."
+    },
+    {
+      "id": "u5-0058",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Scala Fahrenheit",
+      "testo": "Una temperatura di 20 °C corrisponde, nella scala Fahrenheit, a:",
+      "opzioni": [
+        "68 °F",
+        "36 °F",
+        "52 °F",
+        "−6,7 °F",
+        "293 °F"
+      ],
+      "corretta": 0,
+      "spiegazione": "La conversione è T_F = 1,8 × T_C + 32 = 1,8 × 20 + 32 = 36 + 32 = 68 °F. I due punti di riferimento sono 32 °F per il ghiaccio fondente e 212 °F per l'acqua in ebollizione.\n\nB) Moltiplica per 1,8 ma dimentica di aggiungere 32.\nC) Aggiunge 32 senza moltiplicare per 1,8: tratta la conversione come una semplice traslazione, come accade fra Celsius e kelvin.\nD) Applica la formula inversa, (20 − 32)/1,8, che serve a passare da gradi Fahrenheit a gradi Celsius.\nE) È il valore in kelvin, 293,15 K, con l'unità sbagliata."
+    },
+    {
+      "id": "u5-0059",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Legge isobara dei gas",
+      "testo": "La legge secondo cui, a pressione costante, il volume di un gas perfetto è direttamente proporzionale alla sua temperatura assoluta porta il nome di ……",
+      "accettate": [
+        "gay-lussac",
+        "gay lussac",
+        "gaylussac",
+        "prima legge di gay-lussac",
+        "prima legge di gay lussac",
+        "charles",
+        "legge di charles",
+        "charles gay lussac"
+      ],
+      "spiegazione": "La denominazione non è uniforme: molti testi italiani la chiamano prima legge di Gay-Lussac, mentre la tradizione anglosassone la chiama legge di Charles. Si scrive V/T = costante, con T in kelvin.\n\nLa legge che a volume costante lega pressione e temperatura assoluta (p/T = costante) è invece la seconda legge di Gay-Lussac. Conviene ricordarle per la grandezza che resta costante, più che per il nome."
+    },
+    {
+      "id": "u5-0060",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Gas reale e gas perfetto",
+      "testo": "Quale fra queste affermazioni descrive un gas reale e non il modello di gas perfetto?",
+      "opzioni": [
+        "le molecole sono considerate puntiformi",
+        "gli urti fra le molecole sono perfettamente elastici",
+        "fra le molecole non agiscono forze di interazione",
+        "le molecole hanno un volume proprio e si attraggono fra loro",
+        "obbedisce esattamente a pV = nRT a qualunque pressione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Nel gas reale le molecole occupano un volume non trascurabile ed esercitano forze di attrazione reciproche: sono proprio i due effetti che il modello di gas perfetto trascura. Diventano importanti ad alta pressione e a bassa temperatura.\n\nA) È una delle ipotesi del gas perfetto: il volume proprio delle molecole si trascura.\nB) È un'altra ipotesi del modello di gas perfetto.\nC) È l'ipotesi del gas perfetto che rende l'energia interna dipendente solo dalla temperatura.\nE) È la definizione operativa del gas perfetto. Un gas reale la segue solo in modo approssimato."
+    },
+    {
+      "id": "u5-0061",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Calorimetro",
+      "testo": "Lo strumento a pareti isolanti con cui si misurano le quantità di calore scambiate, rilevando la temperatura di equilibrio di una miscela, si chiama ……",
+      "accettate": [
+        "calorimetro",
+        "calorimetri"
+      ],
+      "spiegazione": "Il calorimetro è un recipiente isolato termicamente dall'esterno: il calore ceduto dal corpo più caldo è uguale a quello assorbito dal più freddo, perché non ci sono dispersioni.\n\nIn un calorimetro reale anche il recipiente assorbe calore. Si tiene conto di questo con l'equivalente in acqua del calorimetro, cioè la massa d'acqua che avrebbe la stessa capacità termica."
+    },
+    {
+      "id": "u5-0062",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Temperatura di equilibrio",
+      "testo": "In un calorimetro ideale si mescolano 2,0 kg d'acqua a 20 °C e 1,0 kg d'acqua a 50 °C. La temperatura finale di equilibrio è:",
+      "opzioni": [
+        "35 °C",
+        "40 °C",
+        "70 °C",
+        "30 °C",
+        "non è determinabile senza il calore specifico dell'acqua"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il calore ceduto dalla massa calda è uguale a quello assorbito dalla massa fredda: m₁c(T − 20) = m₂c(50 − T). Il calore specifico si semplifica e si ottiene la media pesata sulle masse: T = (2,0 × 20 + 1,0 × 50)/3,0 = 90/3,0 = 30 °C. Il risultato è più vicino alla temperatura della massa maggiore.\n\nA) Calcola la media aritmetica delle due temperature, come se le masse fossero uguali.\nB) Scambia le masse nella media pesata, avvicinando il risultato alla massa minore.\nC) Somma le due temperature: una temperatura di equilibrio non può essere superiore alla più alta delle due iniziali.\nE) Essendo la stessa sostanza su entrambi i lati del bilancio, il calore specifico si semplifica e non serve conoscerlo."
+    },
+    {
+      "id": "u5-0063",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Calore latente di vaporizzazione",
+      "testo": "Il calore che l'unità di massa di un liquido deve assorbire, a temperatura costante, per trasformarsi in vapore si chiama calore latente di ……",
+      "accettate": [
+        "vaporizzazione",
+        "evaporazione",
+        "vaporizzazioni",
+        "ebollizione"
+      ],
+      "spiegazione": "Per l'acqua vale circa 2,26 × 10⁶ J/kg a 100 °C, contro i 3,34 × 10⁵ J/kg del calore latente di fusione: evaporare richiede circa sette volte l'energia necessaria a fondere la stessa massa di ghiaccio.\n\nIl valore dipende dalla temperatura a cui avviene il passaggio: alla temperatura corporea di 37 °C è circa 2,4 × 10⁶ J/kg."
+    },
+    {
+      "id": "u5-0064",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Sudorazione e calore latente",
+      "testo": "La sudorazione raffredda il corpo perché:",
+      "opzioni": [
+        "l'evaporazione del sudore assorbe calore latente dalla pelle",
+        "il sudore è più freddo del corpo e abbassa la temperatura della pelle",
+        "il velo di sudore riflette la radiazione termica in arrivo",
+        "l'acqua ha un calore specifico elevato e assorbe molto calore senza evaporare",
+        "il sudore cede calore all'aria per conduzione, molto efficiente nei gas"
+      ],
+      "corretta": 0,
+      "spiegazione": "Per evaporare, l'acqua del sudore deve assorbire il proprio calore latente di vaporizzazione, circa 2,4 × 10⁶ J/kg alla temperatura corporea. Quel calore viene prelevato dalla pelle, che si raffredda.\n\nB) Il sudore esce alla temperatura corporea. Il raffreddamento è dovuto al passaggio di stato, non a una differenza di temperatura iniziale.\nC) La riflessione della radiazione non spiega il raffreddamento: la sudorazione funziona anche al buio e al chiuso.\nD) Il calore specifico spiegherebbe solo il riscaldamento del sudore di pochi gradi, che è un effetto molto minore. Se il sudore non evapora, come in ambienti molto umidi, il raffreddamento viene meno.\nE) L'aria è un cattivo conduttore di calore, non un buon conduttore. La via efficace è il calore latente."
+    },
+    {
+      "id": "u5-0065",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Condensazione",
+      "testo": "Il passaggio di una sostanza dallo stato di vapore allo stato liquido si chiama ……",
+      "accettate": [
+        "condensazione",
+        "condensazioni",
+        "liquefazione"
+      ],
+      "spiegazione": "È il processo inverso della vaporizzazione e libera la stessa quantità di calore latente che la vaporizzazione assorbe. Per questo il vapore a 100 °C provoca ustioni più gravi dell'acqua liquida alla stessa temperatura: condensando sulla pelle cede 2,26 × 10⁶ J per ogni chilogrammo.\n\nIl passaggio diretto da gas a solido, senza stato liquido intermedio, si chiama invece brinamento."
+    },
+    {
+      "id": "u5-0066",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Curva di riscaldamento",
+      "testo": "Si fornisce calore a velocità costante a un blocco di ghiaccio a −20 °C, fino a trasformarlo tutto in vapore. Nel grafico della temperatura in funzione del tempo:",
+      "opzioni": [
+        "la temperatura cresce in modo uniforme dall'inizio alla fine",
+        "compare un solo tratto orizzontale, in corrispondenza dei 100 °C",
+        "la temperatura cresce a gradini, uno per ogni grado centigrado",
+        "compaiono due tratti orizzontali, uno a −20 °C e uno a 0 °C",
+        "compaiono due tratti orizzontali, uno a 0 °C e uno a 100 °C"
+      ],
+      "corretta": 4,
+      "spiegazione": "I tratti orizzontali corrispondono ai due cambiamenti di stato, fusione ed ebollizione: il calore fornito è latente e la temperatura resta costante. Fra di essi e ai due estremi la temperatura cresce, con pendenze diverse perché i calori specifici di ghiaccio, acqua e vapore sono diversi.\n\nA) Ignora i cambiamenti di stato, durante i quali la temperatura non cambia pur continuando a fornire calore.\nB) Anche la fusione a 0 °C richiede calore latente e dà un tratto orizzontale.\nC) Il riscaldamento di una fase è continuo, non a gradini.\nD) A −20 °C non avviene alcun cambiamento di stato: è solo la temperatura iniziale. Il secondo tratto orizzontale è a 100 °C."
+    },
+    {
+      "id": "u5-0067",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sublimazione",
+      "testo": "Il passaggio diretto di una sostanza dallo stato solido allo stato di vapore, senza passare per lo stato liquido, si chiama ……",
+      "accettate": [
+        "sublimazione",
+        "sublimazioni"
+      ],
+      "spiegazione": "Avviene per il ghiaccio secco, cioè l'anidride carbonica solida, e per la naftalina. Anche il ghiaccio d'acqua sublima lentamente a pressione ambiente, per esempio nei cibi congelati che si disidratano.\n\nRichiede calore latente come gli altri passaggi di stato. Il processo inverso, da vapore a solido, è il brinamento."
+    },
+    {
+      "id": "u5-0068",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Confronto fra i calori molari C_P e C_V",
+      "testo": "Per un gas perfetto il calore molare a pressione costante C_P è maggiore di quello a volume costante C_V perché:",
+      "opzioni": [
+        "a pressione costante il gas si scalda più rapidamente, a parità di calore",
+        "a volume costante il gas non assorbe calore, perché nulla si muove",
+        "a pressione costante una parte del calore fornito esce come lavoro di espansione",
+        "a pressione costante la temperatura del gas non cambia, come nell'isoterma",
+        "a volume costante una parte del calore si trasforma in lavoro di compressione"
+      ],
+      "corretta": 2,
+      "spiegazione": "A pressione costante il gas, scaldandosi, si dilata e compie lavoro sull'ambiente. Per ottenere lo stesso aumento di temperatura serve quindi più calore che a volume costante, dove tutto il calore va in energia interna. La differenza vale esattamente R per mole.\n\nA) La rapidità del riscaldamento dipende dalla potenza fornita, non dal calore molare, che misura l'energia necessaria per un dato aumento di temperatura.\nB) A volume costante il gas assorbe calore: è nullo il lavoro, non il calore.\nD) A pressione costante la temperatura cambia. Resta costante nell'isoterma, che è una trasformazione diversa.\nE) È esattamente il contrario: a volume costante il lavoro è nullo, perché il gas non si dilata né viene compresso."
+    },
+    {
+      "id": "u5-0069",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Relazione di Mayer",
+      "testo": "Per un gas perfetto la differenza fra il calore molare a pressione costante e quello a volume costante è uguale a R: la relazione C_P − C_V = R porta il nome di ……",
+      "accettate": [
+        "mayer",
+        "relazione di mayer"
+      ],
+      "spiegazione": "Il termine R è il lavoro di espansione compiuto da una mole di gas per ogni kelvin di aumento di temperatura a pressione costante: deriva da W = p ΔV = R ΔT per una mole.\n\nPer un gas monoatomico C_V = 3/2 R e C_P = 5/2 R; per un gas biatomico, alle temperature ordinarie, C_V = 5/2 R e C_P = 7/2 R. In entrambi i casi la differenza è R."
+    },
+    {
+      "id": "u5-0070",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Calore a volume costante di un gas monoatomico",
+      "testo": "Per un gas perfetto monoatomico C_V = 3/2 R. Il calore necessario per aumentare di 50 K la temperatura di 2,0 mol di questo gas, mantenendo il volume costante, vale circa (R = 8,31 J/(mol·K)):",
+      "opzioni": [
+        "2,1 × 10³ J",
+        "1,2 × 10³ J",
+        "6,2 × 10² J",
+        "8,3 × 10² J",
+        "1,5 × 10² J"
+      ],
+      "corretta": 1,
+      "spiegazione": "A volume costante Q = n C_V ΔT = 2,0 × (3/2 × 8,31) × 50 = 2,0 × 12,47 × 50 ≈ 1,25 × 10³ J, cioè circa 1,2 × 10³ J.\n\nA) Usa C_P = 5/2 R al posto di C_V: è il calore che servirebbe a pressione costante.\nC) Dimentica il numero di moli: è il calore per una sola mole.\nD) Usa R al posto di 3/2 R, cioè dimentica il fattore 3/2.\nE) Moltiplica 3/2 per le moli e per ΔT, ma dimentica la costante R."
+    },
+    {
+      "id": "u5-0071",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Conducibilità termica",
+      "testo": "La grandezza che misura l'attitudine di un materiale a trasmettere calore per conduzione, e che nella legge della conduzione si indica con k, si chiama …… termica",
+      "accettate": [
+        "conducibilità",
+        "conduttività",
+        "conducibilita termica",
+        "conduttivita termica"
+      ],
+      "spiegazione": "Si misura in W/(m·K). I metalli hanno valori alti, di decine o centinaia di unità; l'aria ferma vale circa 0,025 W/(m·K), fra i più bassi.\n\nÈ il motivo per cui, alla stessa temperatura, un corrimano metallico sembra più freddo di uno di legno: sottrae calore alla mano molto più rapidamente, pur essendo alla stessa temperatura."
+    },
+    {
+      "id": "u5-0072",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Materiali isolanti",
+      "testo": "Un piumino tiene caldo perché:",
+      "opzioni": [
+        "trattiene aria ferma, che ha conducibilità termica molto bassa",
+        "è un materiale che produce calore",
+        "riflette il calore grazie alla struttura delle fibre",
+        "ha un calore specifico molto elevato",
+        "blocca l'irraggiamento, che è l'unica via di dispersione del calore corporeo"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'isolamento è dovuto all'aria immobilizzata fra le piume: l'aria ferma conduce molto male il calore e, bloccata, non può nemmeno trasportarlo per convezione. Il materiale serve soprattutto a trattenerla.\n\nB) Nessun tessuto produce calore. Il calore è prodotto dal metabolismo; il piumino riduce soltanto le perdite.\nC) Qualche effetto di riflessione dell'infrarosso esiste nei teli metallizzati, ma non spiega il funzionamento del piumino, che resta efficace anche al buio e a contatto.\nD) Un calore specifico elevato significa che il materiale accumula energia scaldandosi, non che riduce il flusso di calore verso l'esterno.\nE) L'irraggiamento non è l'unica via: il corpo perde calore anche per conduzione, convezione ed evaporazione."
+    },
+    {
+      "id": "u5-0073",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Vasodilatazione cutanea",
+      "testo": "Quando la temperatura ambiente aumenta, l'organismo favorisce la dispersione del calore aumentando il flusso di sangue nei vasi della pelle: questo fenomeno si chiama ……",
+      "accettate": [
+        "vasodilatazione",
+        "vasodilatazione cutanea",
+        "vasodilatazioni"
+      ],
+      "spiegazione": "Il sangue trasporta per convezione il calore dai tessuti profondi alla cute, dove viene ceduto all'ambiente per irraggiamento, conduzione, convezione ed evaporazione del sudore.\n\nAl freddo avviene il contrario: la vasocostrizione riduce il flusso cutaneo, abbassa la temperatura della pelle e quindi le perdite verso l'esterno."
+    },
+    {
+      "id": "u5-0074",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Irraggiamento e temperatura",
+      "testo": "A parità di superficie e di caratteristiche del corpo, la potenza che un corpo emette per irraggiamento:",
+      "opzioni": [
+        "è direttamente proporzionale alla temperatura assoluta",
+        "non dipende dalla temperatura, ma solo dal materiale",
+        "è inversamente proporzionale alla temperatura assoluta",
+        "cresce con la quarta potenza della temperatura assoluta",
+        "dipende dalla temperatura in gradi Celsius e si annulla a 0 °C"
+      ],
+      "corretta": 3,
+      "spiegazione": "La potenza irraggiata è proporzionale a T⁴, con T in kelvin: raddoppiando la temperatura assoluta diventa sedici volte maggiore. È il motivo per cui l'irraggiamento è trascurabile a bassa temperatura e dominante in un forno o in una fiamma.\n\nA) La dipendenza è molto più rapida di quella lineare.\nB) Il materiale influisce attraverso l'emissività, ma la temperatura resta il fattore determinante.\nC) Un corpo più caldo irraggia di più, non di meno.\nE) A 0 °C un corpo continua a irraggiare. L'emissione si annullerebbe solo allo zero assoluto, cioè a −273,15 °C."
+    },
+    {
+      "id": "u5-0075",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Termoregolazione",
+      "testo": "L'insieme dei meccanismi con cui l'organismo mantiene costante la propria temperatura interna, bilanciando il calore prodotto e quello disperso, si chiama ……",
+      "accettate": [
+        "termoregolazione",
+        "termoregolazioni",
+        "omeostasi termica"
+      ],
+      "spiegazione": "Nell'uomo la temperatura interna è mantenuta intorno ai 37 °C. Il calore prodotto dal metabolismo viene ceduto all'ambiente per irraggiamento, conduzione, convezione ed evaporazione; i meccanismi di regolazione agiscono su queste vie.\n\nAl caldo prevalgono vasodilatazione e sudorazione, al freddo vasocostrizione e brivido, che aumenta la produzione di calore con contrazioni muscolari involontarie."
+    },
+    {
+      "id": "u5-0076",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione adiabatica",
+      "testo": "La trasformazione durante la quale il sistema non scambia calore con l'ambiente si dice ……",
+      "accettate": [
+        "adiabatica",
+        "adiabatiche",
+        "adiabatico"
+      ],
+      "spiegazione": "Si realizza isolando termicamente il sistema oppure compiendo la trasformazione così rapidamente che il calore non ha tempo di fluire. Poiché Q = 0, il primo principio dà ΔU = −W.\n\nNel piano pressione-volume la curva adiabatica è più ripida dell'isoterma che passa per lo stesso punto."
+    },
+    {
+      "id": "u5-0077",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Primo principio nella trasformazione adiabatica",
+      "testo": "In una trasformazione adiabatica di un gas perfetto:",
+      "opzioni": [
+        "il calore assorbito dal gas è uguale al lavoro che il gas compie",
+        "il lavoro compiuto dal gas è uguale all'opposto della variazione di energia interna",
+        "il lavoro compiuto dal gas è nullo, perché il volume resta costante",
+        "l'energia interna del gas resta costante lungo tutta la trasformazione",
+        "il calore scambiato dal gas vale n C_V ΔT, come nell'isocora"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nell'adiabatica Q = 0, quindi il primo principio ΔU = Q − W diventa ΔU = −W. Se il gas si espande compie lavoro positivo e la sua energia interna, con la temperatura, diminuisce.\n\nA) Descrive l'isoterma, in cui ΔU = 0 e quindi Q = W.\nC) Descrive l'isocora. Nell'adiabatica il volume cambia e il lavoro non è nullo.\nD) L'energia interna resta costante nell'isoterma. Nell'adiabatica varia, perché il gas scambia lavoro senza scambiare calore.\nE) Nell'adiabatica il calore scambiato è nullo per definizione. La quantità n C_V ΔT è la variazione di energia interna, che nell'isocora coincide con il calore."
+    },
+    {
+      "id": "u5-0078",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Compressione adiabatica",
+      "testo": "Un gas viene compresso rapidamente in un recipiente a pareti isolanti. La sua temperatura:",
+      "opzioni": [
+        "resta costante, perché non c'è scambio di calore con l'esterno",
+        "diminuisce, perché il volume si riduce",
+        "resta costante, perché la compressione è troppo rapida per scaldare il gas",
+        "aumenta solo se il gas assorbe calore dall'esterno",
+        "aumenta, perché il lavoro fatto sul gas ne accresce l'energia interna"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il recipiente è isolato e la compressione è rapida, quindi Q ≈ 0 e ΔU = −W. Il lavoro è compiuto sul gas, cioè W è negativo, quindi l'energia interna e con essa la temperatura aumentano. È il principio della pompa da bicicletta che si scalda e dell'accensione nei motori diesel.\n\nA) Confonde adiabatica con isoterma: senza scambio di calore la temperatura cambia proprio a causa del lavoro.\nB) La riduzione di volume a temperatura costante aumenterebbe la pressione, non ridurrebbe la temperatura.\nC) La rapidità impedisce lo scambio di calore, non il trasferimento di lavoro, che è immediato.\nD) Le pareti isolanti impediscono l'assorbimento di calore, e l'aumento di temperatura avviene comunque."
+    },
+    {
+      "id": "u5-0079",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Temperatura in un'adiabatica reversibile",
+      "testo": "Una certa quantità di gas perfetto compie una trasformazione adiabatica reversibile. La temperatura del gas:",
+      "opzioni": [
+        "resta costante",
+        "aumenta sempre",
+        "può solo aumentare o diminuire",
+        "diminuisce sempre",
+        "può aumentare, diminuire o restare costante"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nell'adiabatica Q = 0, quindi ΔU = −W. Perché ci sia una trasformazione il volume deve cambiare, quindi il lavoro è diverso da zero e con esso varia l'energia interna: la temperatura aumenta in una compressione e diminuisce in un'espansione, ma non può restare costante.\n\nA) Sarebbe il caso dell'isoterma. Un'adiabatica e un'isoterma coincidono solo nel caso banale in cui non avvenga nulla.\nB) Aumenta nelle compressioni; nelle espansioni adiabatiche il gas si raffredda.\nD) Diminuisce nelle espansioni; nelle compressioni adiabatiche il gas si scalda.\nE) Il caso della temperatura costante è escluso: con Q = 0 e volume che cambia, l'energia interna varia necessariamente."
+    },
+    {
+      "id": "u5-0080",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione reversibile",
+      "testo": "La trasformazione ideale che può essere ripercorsa in senso inverso, riportando sia il sistema sia l'ambiente nelle condizioni iniziali, si dice ……",
+      "accettate": [
+        "reversibile",
+        "reversibili"
+      ],
+      "spiegazione": "Richiede l'assenza di attriti e di dissipazioni e il passaggio per stati di equilibrio successivi, quindi è un limite ideale: nessuna trasformazione reale è reversibile.\n\nÈ però utilissima come riferimento. Il rendimento massimo di una macchina termica e il calcolo delle variazioni di entropia si ottengono immaginando trasformazioni reversibili fra gli stessi stati."
+    },
+    {
+      "id": "u5-0081",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Processi irreversibili",
+      "testo": "Quale fra i seguenti processi è irreversibile?",
+      "opzioni": [
+        "l'espansione infinitamente lenta di un gas ideale senza attrito",
+        "la compressione quasistatica di un gas in un cilindro senza attrito",
+        "l'oscillazione di un pendolo ideale in assenza di attrito",
+        "un ciclo di Carnot ideale",
+        "il passaggio spontaneo di calore da un corpo caldo a uno freddo"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il flusso spontaneo di calore avviene in un solo verso: il processo inverso non si verifica mai da sé, e per ottenerlo serve lavoro dall'esterno. È l'esempio tipico di processo irreversibile, con aumento dell'entropia complessiva.\n\nA) Avvenendo per stati di equilibrio e senza dissipazioni, è il modello di trasformazione reversibile.\nB) Anche questa, condotta per stati di equilibrio e senza attriti, è reversibile.\nC) Senza attrito il moto è periodico e l'energia meccanica si conserva: il processo può essere percorso all'indietro.\nD) Il ciclo di Carnot è, per costruzione, formato da trasformazioni reversibili."
+    },
+    {
+      "id": "u5-0082",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione quasistatica",
+      "testo": "La trasformazione condotta così lentamente che il sistema passa attraverso una successione di stati di equilibrio si dice ……",
+      "accettate": [
+        "quasistatica",
+        "quasi statica",
+        "quasi-statica",
+        "quasistatiche",
+        "quasistatico"
+      ],
+      "spiegazione": "Solo in una trasformazione di questo tipo le variabili di stato hanno in ogni istante un valore ben definito, e la trasformazione si può rappresentare come una curva nel piano pressione-volume.\n\nÈ condizione necessaria ma non sufficiente per la reversibilità: una compressione lentissima con attrito fra pistone e cilindro è quasistatica, ma resta irreversibile per via della dissipazione."
+    },
+    {
+      "id": "u5-0083",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Adiabatica e isoterma nel piano pressione-volume",
+      "testo": "Partendo dallo stesso stato iniziale, nel piano pressione-volume la curva di un'espansione adiabatica, confrontata con quella di un'espansione isoterma, è:",
+      "opzioni": [
+        "meno ripida, perché il gas non scambia calore con l'ambiente",
+        "identica, perché in entrambi i casi il gas obbedisce a pV = nRT",
+        "più ripida, perché nell'adiabatica il gas si raffredda espandendosi",
+        "una retta orizzontale, perché la pressione non cambia",
+        "una retta verticale, perché il volume non cambia"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nell'isoterma la temperatura è mantenuta costante dal calore assorbito; nell'adiabatica, senza apporto di calore, il gas si raffredda mentre si espande, quindi la pressione cala più rapidamente. La curva adiabatica scende più ripidamente.\n\nA) Il mancato scambio di calore comporta un raffreddamento, che fa calare la pressione più rapidamente, non più lentamente.\nB) L'equazione di stato vale in entrambi i casi, ma lungo l'isoterma T è costante e lungo l'adiabatica no: le due curve sono diverse.\nD) Una retta orizzontale nel piano pressione-volume rappresenta una trasformazione isobara, in cui la pressione è costante.\nE) Una retta verticale rappresenta una trasformazione isocora, in cui il volume non cambia: qui invece il gas si espande."
+    },
+    {
+      "id": "u5-0084",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione irreversibile",
+      "testo": "La trasformazione reale che non si può ripercorrere all'indietro riportando sistema e ambiente nello stato di partenza si dice ……",
+      "accettate": [
+        "irreversibile",
+        "irreversibili"
+      ],
+      "spiegazione": "Sono irreversibili tutti i processi spontanei: il passaggio di calore dal caldo al freddo, l'espansione di un gas nel vuoto, il mescolamento di due fluidi, la dissipazione di energia meccanica per attrito.\n\nIn un processo irreversibile l'entropia dell'universo aumenta, e questo fissa il verso in cui il processo può avvenire."
+    },
+    {
+      "id": "u5-0085",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Lavoro netto in un ciclo",
+      "testo": "Al termine di un ciclo termodinamico compiuto da un gas, il lavoro netto:",
+      "opzioni": [
+        "è nullo, perché tutte le grandezze ritornano al valore iniziale",
+        "è uguale alla variazione di energia interna del gas nel ciclo",
+        "è uguale a tutto il calore assorbito dalla sorgente calda",
+        "è uguale al calore netto scambiato, perché ΔU in un ciclo è nulla",
+        "è nullo, perché il calore assorbito è sempre uguale a quello ceduto"
+      ],
+      "corretta": 3,
+      "spiegazione": "In un ciclo il sistema torna nello stato iniziale, quindi ΔU = 0 e il primo principio dà W = Q, con Q calore netto, cioè la differenza fra calore assorbito e calore ceduto.\n\nA) A tornare al valore iniziale sono le funzioni di stato, come l'energia interna. Il lavoro non è una funzione di stato e in un ciclo è in generale diverso da zero: è l'area racchiusa dal ciclo.\nB) La variazione di energia interna in un ciclo è nulla, mentre il lavoro netto non lo è.\nC) Dal calore assorbito va sottratto quello ceduto alla sorgente fredda, che per il secondo principio non è mai nullo.\nE) Se i due calori fossero uguali la macchina non produrrebbe lavoro. Il calore ceduto è minore di quello assorbito, e la differenza è il lavoro."
+    },
+    {
+      "id": "u5-0086",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Espansione libera",
+      "testo": "L'espansione di un gas che si dilata nel vuoto, senza compiere lavoro sull'ambiente e senza scambiare calore, si chiama espansione ……",
+      "accettate": [
+        "libera",
+        "libere"
+      ],
+      "spiegazione": "Si realizza aprendo il rubinetto fra un recipiente contenente gas e uno vuoto, il tutto isolato e rigido. Non c'è scambio di calore (Q = 0) e il gas non compie lavoro contro nulla (W = 0), quindi ΔU = 0: per un gas perfetto la temperatura finale è uguale a quella iniziale.\n\nÈ un processo violentemente irreversibile: il gas non torna spontaneamente nel recipiente di partenza. Non essendo quasistatico, non si può rappresentare con una curva nel piano pressione-volume."
+    },
+    {
+      "id": "u5-0087",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Calore in una trasformazione isobara",
+      "testo": "Si scaldano 3,0 mol di gas perfetto monoatomico aumentandone la temperatura di 40 K a pressione costante. Con C_P = 5/2 R e R = 8,31 J/(mol·K), il calore fornito vale circa:",
+      "opzioni": [
+        "1,5 × 10³ J",
+        "2,5 × 10³ J",
+        "8,3 × 10² J",
+        "1,0 × 10³ J",
+        "3,0 × 10² J"
+      ],
+      "corretta": 1,
+      "spiegazione": "A pressione costante Q = n C_P ΔT = 3,0 × (5/2 × 8,31) × 40 = 3,0 × 20,8 × 40 ≈ 2,49 × 10³ J, cioè circa 2,5 × 10³ J. Di questi, n R ΔT ≈ 1,0 × 10³ J escono come lavoro di espansione e il resto aumenta l'energia interna.\n\nA) Usa C_V = 3/2 R: è la variazione di energia interna, non il calore fornito a pressione costante.\nC) Dimentica il numero di moli: è il calore per una sola mole.\nD) Usa R al posto di 5/2 R: il risultato è il solo lavoro di espansione.\nE) Moltiplica 5/2 per le moli e per ΔT, ma dimentica la costante R."
+    },
+    {
+      "id": "u5-0088",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Calore molare",
+      "testo": "Il calore necessario per innalzare di un kelvin la temperatura di una mole di sostanza si chiama calore ……",
+      "accettate": [
+        "molare",
+        "molari",
+        "specifico molare"
+      ],
+      "spiegazione": "Si misura in J/(mol·K) e si indica con C. Per i gas se ne usano due valori, C_V a volume costante e C_P a pressione costante, perché il calore necessario dipende da ciò che si mantiene costante durante il riscaldamento.\n\nIl calore specifico, invece, è riferito all'unità di massa e si misura in J/(kg·K). Si passa dall'uno all'altro moltiplicando per la massa molare."
+    },
+    {
+      "id": "u5-0089",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Entropia",
+      "testo": "La funzione di stato che compare nel secondo principio e che, in un sistema isolato, non può mai diminuire si chiama ……",
+      "accettate": [
+        "entropia",
+        "entropie"
+      ],
+      "spiegazione": "Si indica con S. Per una trasformazione reversibile a temperatura costante la sua variazione vale ΔS = Q/T, con T in kelvin.\n\nÈ una funzione di stato: la sua variazione fra due stati non dipende dalla trasformazione seguita. Per calcolarla in un processo irreversibile si immagina una trasformazione reversibile fra gli stessi stati iniziale e finale."
+    },
+    {
+      "id": "u5-0090",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Struttura del ciclo di Carnot",
+      "testo": "Il ciclo di Carnot è costituito da:",
+      "opzioni": [
+        "due isoterme e due adiabatiche",
+        "due isoterme e due isocore",
+        "due isobare e due isocore",
+        "due adiabatiche e due isobare",
+        "quattro trasformazioni isoterme a temperature diverse"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le due isoterme sono gli scambi di calore con la sorgente calda e con quella fredda, che avvengono a temperatura costante; le due adiabatiche collegano le due temperature senza scambi di calore. Tutte le trasformazioni sono reversibili.\n\nB) Le isocore comporterebbero scambi di calore a volume costante, che renderebbero il ciclo diverso da quello di Carnot.\nC) È la struttura di altri cicli, non di quello di Carnot, in cui gli scambi di calore devono avvenire a temperatura costante.\nD) Gli scambi di calore con le sorgenti devono avvenire a temperatura costante, non a pressione costante.\nE) Fra due isoterme a temperature diverse serve un collegamento senza scambi di calore, cioè un'adiabatica."
+    },
+    {
+      "id": "u5-0091",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Unità di misura dell'entropia",
+      "testo": "Dalla relazione ΔS = Q/T segue che nel Sistema Internazionale l'entropia si misura in joule su ……",
+      "accettate": [
+        "kelvin",
+        "k"
+      ],
+      "spiegazione": "L'unità è J/K. La temperatura nella formula va sempre espressa nella scala assoluta: usare i gradi Celsius darebbe un risultato privo di senso, e per temperature sotto lo zero Celsius perfino un segno sbagliato.\n\nL'entropia molare si misura invece in J/(mol·K), le stesse unità dei calori molari e della costante R."
+    },
+    {
+      "id": "u5-0092",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Variazione di entropia nella fusione",
+      "testo": "Si fondono 0,10 kg di ghiaccio a 0 °C, assorbendo calore da un bagno alla stessa temperatura (L = 3,34 × 10⁵ J/kg). La variazione di entropia del ghiaccio vale circa:",
+      "opzioni": [
+        "−122 J/K",
+        "+3,34 × 10⁴ J/K",
+        "+122 J/K",
+        "+1,2 × 10³ J/K",
+        "0 J/K"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il passaggio di stato avviene a temperatura costante, quindi ΔS = Q/T. Il calore assorbito è Q = m L = 0,10 × 3,34 × 10⁵ = 3,34 × 10⁴ J e la temperatura assoluta è T = 273,15 K: ΔS = 3,34 × 10⁴/273,15 ≈ +122 J/K. Il segno è positivo perché il ghiaccio assorbe calore.\n\nA) Il valore numerico è corretto, ma il segno no: il ghiaccio assorbe calore, quindi la sua entropia aumenta. Sarebbe l'entropia ceduta dal bagno.\nB) È il calore assorbito in joule: manca la divisione per la temperatura assoluta.\nD) Divide il calore latente per la temperatura dimenticando la massa: è la variazione di entropia per la fusione di 1 kg di ghiaccio.\nE) Poiché la temperatura non cambia, ritiene nulla la variazione di entropia. La formula ΔS = Q/T dà un valore diverso da zero proprio perché c'è scambio di calore."
+    },
+    {
+      "id": "u5-0093",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Entropia dell'universo",
+      "testo": "In ogni processo irreversibile l'entropia dell'universo, cioè quella del sistema sommata a quella dell'ambiente, ……",
+      "accettate": [
+        "aumenta",
+        "cresce",
+        "incrementa"
+      ],
+      "spiegazione": "È la formulazione del secondo principio in termini di entropia: ΔS(universo) > 0 nei processi irreversibili e ΔS(universo) = 0 nel caso limite dei processi reversibili. Non può mai essere negativa.\n\nL'entropia del solo sistema può invece diminuire, purché quella dell'ambiente aumenti di più: è il caso dell'acqua che congela in un congelatore."
+    },
+    {
+      "id": "u5-0094",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Entropia come funzione di stato",
+      "testo": "Un sistema passa dallo stato A allo stato B una prima volta con una trasformazione reversibile, una seconda volta con una irreversibile. La variazione di entropia del sistema è:",
+      "opzioni": [
+        "maggiore nel caso irreversibile, perché l'entropia aumenta sempre",
+        "uguale nei due casi, perché l'entropia è una funzione di stato",
+        "minore nel caso irreversibile, perché parte dell'energia si dissipa",
+        "nulla nel caso reversibile, perché gli scambi si compensano",
+        "calcolabile solo per la trasformazione reversibile"
+      ],
+      "corretta": 1,
+      "spiegazione": "La variazione di entropia del sistema dipende solo dagli stati A e B. Anche per il processo irreversibile si calcola immaginando una qualunque trasformazione reversibile fra gli stessi stati. Ciò che cambia è l'entropia complessiva di sistema e ambiente: nulla nel caso reversibile, positiva in quello irreversibile.\n\nA) Confonde la variazione di entropia del sistema con quella dell'universo, che è effettivamente maggiore nel caso irreversibile. Quella del sistema dipende solo dagli stati A e B.\nC) La dissipazione riguarda l'energia utilizzabile, non la variazione di entropia del sistema, che resta la stessa fra gli stessi due stati.\nD) Nel caso reversibile è nulla la variazione di entropia dell'universo, non quella del sistema, che dipende dagli stati A e B.\nE) Proprio perché l'entropia è una funzione di stato, la variazione nel processo irreversibile si calcola lungo un percorso reversibile fra gli stessi stati."
+    },
+    {
+      "id": "u5-0095",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Interpretazione statistica dell'entropia",
+      "testo": "Nella relazione di Boltzmann S = k ln W, la grandezza W è il numero di …… microscopici compatibili con lo stato macroscopico del sistema",
+      "accettate": [
+        "stati",
+        "stato",
+        "microstati",
+        "configurazioni"
+      ],
+      "spiegazione": "Uno stato macroscopico realizzabile in molti modi diversi a livello microscopico ha entropia alta; uno realizzabile in pochi modi ha entropia bassa. In questa lettura l'entropia misura il disordine, cioè la mancanza di informazione sulla configurazione microscopica.\n\nLa costante k è quella di Boltzmann, pari a R/N_A ≈ 1,38 × 10⁻²³ J/K: è il ponte fra la descrizione statistica e quella macroscopica."
+    },
+    {
+      "id": "u5-0096",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Verso spontaneo del flusso di calore",
+      "testo": "Perché il calore passa spontaneamente dal corpo caldo a quello freddo e mai nel verso opposto?",
+      "opzioni": [
+        "perché solo in quel verso l'entropia complessiva dei due corpi aumenta",
+        "perché il corpo caldo contiene più energia interna di quello freddo",
+        "perché il verso opposto violerebbe il primo principio",
+        "perché l'energia si conserva soltanto in quel verso",
+        "perché un corpo freddo non è in grado di assorbire calore"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il corpo caldo cede calore a temperatura alta e perde entropia Q/T_caldo; il corpo freddo riceve la stessa quantità di calore a temperatura bassa e guadagna Q/T_freddo, che è maggiore. La somma è positiva, come richiede il secondo principio. Nel verso opposto sarebbe negativa.\n\nB) L'energia interna dipende anche dalla massa: un corpo freddo molto grande ne ha più di un corpo caldo piccolo, e il calore passa comunque dal caldo al freddo.\nC) Il primo principio è rispettato in entrambi i versi: l'energia si conserverebbe anche se il calore passasse dal freddo al caldo. È il secondo a escluderlo.\nD) L'energia si conserva in ogni trasformazione, indipendentemente dal verso.\nE) Un corpo freddo assorbe calore senza difficoltà: è proprio quello che accade nel processo spontaneo."
+    },
+    {
+      "id": "u5-0097",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Macchina frigorifera",
+      "testo": "La macchina che, assorbendo lavoro dall'esterno, trasferisce calore da un ambiente freddo a uno più caldo si chiama ……",
+      "accettate": [
+        "frigorifero",
+        "frigoriferi",
+        "macchina frigorifera",
+        "pompa di calore"
+      ],
+      "spiegazione": "È una macchina termica percorsa in senso inverso: nel piano pressione-volume il ciclo è percorso in senso antiorario e il lavoro netto è negativo, cioè fornito dall'esterno.\n\nNon viola il secondo principio: il passaggio di calore dal freddo al caldo non è l'unico risultato del processo, perché richiede lavoro. La stessa macchina, usata per scaldare un ambiente invece di raffreddarlo, si chiama pompa di calore."
+    },
+    {
+      "id": "u5-0098",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Frigorifero aperto in una stanza isolata",
+      "testo": "In una stanza chiusa e ben isolata si lascia aperto lo sportello di un frigorifero in funzione. Dopo qualche ora la temperatura media della stanza:",
+      "opzioni": [
+        "è diminuita, perché il frigorifero assorbe calore dall'aria della stanza",
+        "è rimasta costante, perché il calore assorbito è uguale a quello ceduto",
+        "è diminuita soltanto nella zona d'aria vicina allo sportello aperto",
+        "è aumentata, perché alla stanza arriva anche l'energia elettrica del motore",
+        "è rimasta costante, perché l'energia totale in gioco si conserva"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il frigorifero preleva calore dall'interno e lo cede, attraverso il condensatore, alla stanza, aggiungendovi anche l'energia elettrica consumata dal compressore. Il bilancio per la stanza è quindi un guadagno netto di energia, pari al lavoro elettrico assorbito.\n\nA) Il calore assorbito viene restituito alla stessa stanza dal condensatore: non esce dal locale.\nB) Il calore ceduto è maggiore di quello assorbito, perché comprende il lavoro elettrico del compressore.\nC) Nelle vicinanze dello sportello l'aria è più fredda, ma la domanda riguarda la temperatura media della stanza, che aumenta.\nE) L'energia si conserva, ma la stanza non è un sistema isolato: entra energia elettrica dalla rete, che finisce nella stanza come calore."
+    },
+    {
+      "id": "u5-0099",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Entropia e disordine",
+      "testo": "Nell'interpretazione statistica, l'entropia di un sistema è una misura del suo grado di ……",
+      "accettate": [
+        "disordine",
+        "disordini"
+      ],
+      "spiegazione": "Un gas che occupa tutto il recipiente è più disordinato, cioè realizzabile in molti più modi microscopici, dello stesso gas confinato in metà del volume: per questo la sua entropia è maggiore e l'espansione avviene spontaneamente.\n\nPer la stessa ragione l'entropia di una sostanza cresce passando da solido a liquido a gas, e aumenta quando due sostanze si mescolano."
+    },
+    {
+      "id": "u5-0100",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Entropia in un ciclo",
+      "testo": "Al termine di un ciclo reversibile, la variazione di entropia del sistema vale:",
+      "opzioni": [
+        "sempre positiva, perché l'entropia aumenta in ogni processo",
+        "uguale al calore assorbito diviso la temperatura della sorgente calda",
+        "negativa, se nel ciclo il sistema produce lavoro",
+        "zero soltanto se il ciclo è quello di Carnot",
+        "zero, perché l'entropia è una funzione di stato"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il sistema ritorna nello stato iniziale, quindi tutte le funzioni di stato riprendono il valore di partenza: ΔS = 0, come ΔU. Nel ciclo reversibile l'entropia ceduta alla sorgente fredda compensa esattamente quella assorbita dalla sorgente calda.\n\nA) Ad aumentare nei processi irreversibili è l'entropia dell'universo, non quella di un sistema che ritorna al proprio stato iniziale.\nB) È solo la variazione di entropia relativa allo scambio con la sorgente calda. Va sommata a quella, negativa, dello scambio con la sorgente fredda.\nC) La produzione di lavoro non altera il bilancio dell'entropia del sistema, che torna allo stato iniziale.\nD) Vale per qualunque ciclo, perché dipende solo dal fatto che il sistema ritorni nello stato di partenza."
+    }
+  ]
+}

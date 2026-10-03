@@ -1,0 +1,695 @@
+{
+  "lotto": "fisica-u4-01",
+  "unita": "u4",
+  "generato": "2026-09-09",
+  "domande": [
+    {
+      "id": "u4-0001",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Relazione fra velocità, lunghezza d'onda e frequenza",
+      "testo": "Un'onda sonora di frequenza 500 Hz ha lunghezza d'onda 0,68 m. La sua velocità di propagazione vale:",
+      "opzioni": [
+        "340 m/s",
+        "0,00136 m/s",
+        "34 m/s",
+        "500 m/s",
+        "735 m/s"
+      ],
+      "corretta": 0,
+      "spiegazione": "Per qualunque onda periodica vale v = λ f = 0,68 × 500 = 340 m/s, che è il valore tipico della velocità del suono in aria a temperatura ambiente.\n\nE) 735 m/s è f/λ, cioè la divisione al posto del prodotto.\nB) 0,00136 m/s è λ/f, il rapporto rovesciato.\nC) 34 m/s è il risultato corretto diviso dieci: nasce da un errore nella posizione della virgola.\nD) 500 m/s ripete il valore della frequenza, che si misura in hertz e non in metri al secondo."
+    },
+    {
+      "id": "u4-0002",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Periodo",
+      "testo": "Il tempo impiegato da un punto del mezzo a compiere un'oscillazione completa si chiama ……",
+      "accettate": [
+        "periodo"
+      ],
+      "spiegazione": "Il periodo si indica con T, si misura in secondi ed è l'inverso della frequenza: T = 1/f.\n\nNell'intervallo di un periodo l'onda avanza esattamente di una lunghezza d'onda: da qui la relazione v = λ/T = λ f."
+    },
+    {
+      "id": "u4-0003",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Periodo e frequenza",
+      "testo": "Un'onda ha frequenza 50 Hz. Il suo periodo vale:",
+      "opzioni": [
+        "0,02 s",
+        "0,2 s",
+        "50 s",
+        "2 s",
+        "0,005 s"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il periodo è l'inverso della frequenza: T = 1/f = 1/50 = 0,02 s.\n\nC) 50 s ripete il valore della frequenza, che si misura in hertz.\nB) 0,2 s è il risultato corretto moltiplicato per dieci.\nD) 2 s si ottiene da 100/50, cioè invertendo un valore sbagliato.\nE) 0,005 s è il periodo di un'onda a 200 Hz."
+    },
+    {
+      "id": "u4-0004",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Frequenza",
+      "testo": "Il numero di oscillazioni complete compiute in un secondo si chiama ……",
+      "accettate": [
+        "frequenza"
+      ],
+      "spiegazione": "La frequenza si indica con f (o con ν) e si misura in hertz: 1 Hz = 1 oscillazione al secondo, cioè 1 s⁻¹.\n\nLa frequenza di un'onda è fissata dalla sorgente e non cambia quando l'onda passa da un mezzo a un altro: a cambiare sono la velocità e, di conseguenza, la lunghezza d'onda."
+    },
+    {
+      "id": "u4-0005",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Onde longitudinali",
+      "testo": "Nelle onde sonore che si propagano in un fluido, le particelle del mezzo oscillano:",
+      "opzioni": [
+        "descrivendo traiettorie circolari attorno a un punto fisso",
+        "perpendicolarmente alla direzione di propagazione",
+        "soltanto in direzione verticale, per effetto della gravità",
+        "in modo disordinato, senza una direzione privilegiata",
+        "parallelamente alla direzione di propagazione"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il suono nei fluidi è un'onda longitudinale: consiste in una successione di compressioni e rarefazioni, e le particelle oscillano avanti e indietro lungo la stessa direzione in cui l'onda avanza.\n\nB) L'oscillazione perpendicolare caratterizza le onde trasversali, come quelle su una corda tesa.\nA) Traiettorie circolari si osservano nelle onde superficiali dell'acqua, che sono un caso misto.\nC) La gravità non impone alcuna direzione all'oscillazione sonora, che segue la direzione di propagazione.\nD) Il moto delle particelle è ordinato e periodico: è proprio ciò che distingue un'onda dall'agitazione termica."
+    },
+    {
+      "id": "u4-0006",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Unità di misura della frequenza",
+      "testo": "L'unità di misura della frequenza nel Sistema Internazionale è l'……",
+      "accettate": [
+        "hertz",
+        "hz"
+      ],
+      "spiegazione": "L'hertz equivale a un secondo elevato a meno uno: 1 Hz = 1 s⁻¹.\n\nI multipli sono di uso comune: 1 kHz = 10³ Hz, 1 MHz = 10⁶ Hz. Gli ultrasuoni impiegati in ecografia hanno frequenze dell'ordine dei megahertz."
+    },
+    {
+      "id": "u4-0007",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Trasporto di energia nelle onde",
+      "testo": "Un'onda meccanica che si propaga in un mezzo materiale trasporta:",
+      "opzioni": [
+        "materia, ma non energia",
+        "energia e quantità di moto, ma non materia",
+        "soltanto la massa delle particelle oscillanti",
+        "né energia né quantità di moto",
+        "materia ed energia in parti uguali"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le particelle del mezzo oscillano attorno alla propria posizione di equilibrio e non si spostano globalmente: ciò che avanza è la perturbazione, con l'energia e la quantità di moto associate. Un tappo su un'onda del mare sale e scende senza essere trasportato.\n\nA) L'energia è proprio ciò che l'onda trasporta.\nE) Non c'è alcun trasporto netto di materia.\nC) La massa resta dov'è: si sposta solo lo stato di moto.\nD) Senza trasporto di energia non si parlerebbe di onda che si propaga."
+    },
+    {
+      "id": "u4-0008",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Lunghezza d'onda",
+      "testo": "La distanza fra due creste successive di un'onda armonica si chiama lunghezza d'……",
+      "accettate": [
+        "onda"
+      ],
+      "spiegazione": "La lunghezza d'onda si indica con λ, si misura in metri ed è la distanza percorsa dall'onda in un periodo: λ = v T = v/f.\n\nÈ anche la distanza fra due punti qualsiasi che oscillano in fase, non solo fra due creste."
+    },
+    {
+      "id": "u4-0009",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Velocità del suono nei diversi mezzi",
+      "testo": "A parità di condizioni, la velocità di propagazione del suono è generalmente maggiore:",
+      "opzioni": [
+        "nel vuoto che in qualunque mezzo materiale",
+        "nei gas che nei liquidi e nei solidi",
+        "nei gas rarefatti, dove le molecole si muovono liberamente",
+        "nei solidi che nei liquidi e nei gas",
+        "nei liquidi che nei solidi"
+      ],
+      "corretta": 3,
+      "spiegazione": "La velocità del suono cresce con la rigidità del mezzo, cioè con la forza dei legami fra le particelle: nell'aria vale circa 340 m/s, nell'acqua circa 1500 m/s, nell'acciaio alcune migliaia di metri al secondo.\n\nB) I gas sono il mezzo in cui il suono è più lento, non più veloce.\nE) I liquidi sono intermedi fra gas e solidi.\nA) Nel vuoto il suono non si propaga affatto: mancano le particelle che trasmettono la perturbazione.\nC) La libertà di movimento delle molecole rende la trasmissione meno efficiente, non più rapida."
+    },
+    {
+      "id": "u4-0010",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Ampiezza",
+      "testo": "Il massimo spostamento di un punto del mezzo rispetto alla sua posizione di equilibrio si chiama ……",
+      "accettate": [
+        "ampiezza"
+      ],
+      "spiegazione": "L'ampiezza determina l'energia trasportata dall'onda: l'intensità è proporzionale al quadrato dell'ampiezza, quindi raddoppiando l'ampiezza l'intensità quadruplica.\n\nNel suono l'ampiezza corrisponde alla sensazione di intensità sonora, mentre la frequenza corrisponde all'altezza."
+    },
+    {
+      "id": "u4-0011",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Calcolo della lunghezza d'onda",
+      "testo": "Un suono di frequenza 1700 Hz si propaga in aria alla velocità di 340 m/s. La sua lunghezza d'onda vale:",
+      "opzioni": [
+        "0,2 m",
+        "5 m",
+        "2 m",
+        "0,5 m",
+        "578 000 m"
+      ],
+      "corretta": 0,
+      "spiegazione": "Dalla relazione v = λ f segue λ = v/f = 340/1700 = 0,2 m.\n\nB) 5 m è f/v, cioè il rapporto rovesciato.\nE) 578 000 m è il prodotto v·f, che non ha alcun significato fisico qui.\nC) 2 m è il risultato corretto moltiplicato per dieci.\nD) 0,5 m corrisponderebbe a una frequenza di 680 Hz."
+    },
+    {
+      "id": "u4-0012",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Onde trasversali",
+      "testo": "L'onda in cui le particelle del mezzo oscillano perpendicolarmente alla direzione di propagazione si dice ……",
+      "accettate": [
+        "trasversale",
+        "trasversali"
+      ],
+      "spiegazione": "Sono trasversali le onde su una corda tesa e le onde elettromagnetiche. Le onde meccaniche trasversali si propagano solo nei mezzi capaci di opporsi agli sforzi di taglio, cioè nei solidi: nei fluidi si propagano soltanto onde longitudinali.\n\nÈ per questo che, nelle onde sismiche, le onde trasversali non attraversano il nucleo esterno della Terra, che è liquido."
+    },
+    {
+      "id": "u4-0013",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Pulsazione",
+      "testo": "La pulsazione ω di un'onda armonica è legata alla frequenza f dalla relazione:",
+      "opzioni": [
+        "ω = 2π/f",
+        "ω = π f²",
+        "ω = 2π f",
+        "ω = 1/f",
+        "ω = f/(2π)"
+      ],
+      "corretta": 2,
+      "spiegazione": "La pulsazione, o frequenza angolare, è ω = 2π f = 2π/T e si misura in radianti al secondo: corrisponde all'angolo descritto nell'unità di tempo dal moto circolare uniforme di cui il moto armonico è la proiezione.\n\nE) La divisione per 2π darebbe la frequenza a partire dalla pulsazione, non il contrario.\nD) L'inverso della frequenza è il periodo.\nA) 2π/f varrebbe se al denominatore ci fosse il periodo, non la frequenza.\nB) Nella definizione non compare alcun quadrato."
+    },
+    {
+      "id": "u4-0014",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Onde longitudinali",
+      "testo": "L'onda in cui le particelle del mezzo oscillano parallelamente alla direzione di propagazione si dice ……",
+      "accettate": [
+        "longitudinale",
+        "longitudinali"
+      ],
+      "spiegazione": "Le onde sonore nei fluidi sono longitudinali: consistono in zone alternate di compressione, dove la densità è maggiore, e di rarefazione, dove è minore.\n\nLe onde longitudinali si propagano in tutti i mezzi materiali, perché richiedono soltanto che il mezzo sia comprimibile ed elastico."
+    },
+    {
+      "id": "u4-0015",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Interferenza distruttiva",
+      "testo": "Due onde della stessa frequenza e della stessa ampiezza giungono in un punto in opposizione di fase. In quel punto si osserva:",
+      "opzioni": [
+        "un raddoppio dell'ampiezza",
+        "un dimezzamento della lunghezza d'onda",
+        "una riflessione delle due onde",
+        "interferenza distruttiva, con ampiezza risultante nulla",
+        "un aumento della frequenza risultante"
+      ],
+      "corretta": 3,
+      "spiegazione": "Per il principio di sovrapposizione gli spostamenti si sommano algebricamente: due onde uguali sfasate di mezzo periodo hanno in ogni istante spostamenti opposti, e la loro somma è nulla.\n\nA) Il raddoppio dell'ampiezza si ha nell'interferenza costruttiva, cioè con onde in fase.\nE) L'interferenza non cambia la frequenza delle onde che si sovrappongono.\nC) La riflessione è un fenomeno diverso, legato all'incontro con una superficie di separazione.\nB) La lunghezza d'onda resta quella delle onde di partenza."
+    },
+    {
+      "id": "u4-0016",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Principio di sovrapposizione",
+      "testo": "Il principio secondo cui lo spostamento risultante in un punto è la somma degli spostamenti prodotti dalle singole onde si chiama principio di ……",
+      "accettate": [
+        "sovrapposizione"
+      ],
+      "spiegazione": "Le onde si attraversano senza modificarsi: dopo l'incontro ciascuna prosegue con la propria ampiezza, frequenza e direzione, come se l'altra non ci fosse.\n\nÈ dalla sovrapposizione che nascono l'interferenza e le onde stazionarie."
+    },
+    {
+      "id": "u4-0017",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Principio di sovrapposizione",
+      "testo": "Quando due onde si incontrano in un punto del mezzo:",
+      "opzioni": [
+        "si fermano finché la perturbazione non si esaurisce",
+        "lo spostamento risultante è la somma dei singoli spostamenti",
+        "la più intensa assorbe la meno intensa",
+        "cambiano entrambe frequenza dopo l'incontro",
+        "si annullano sempre a vicenda"
+      ],
+      "corretta": 1,
+      "spiegazione": "È il principio di sovrapposizione: gli effetti si sommano punto per punto e istante per istante, con il proprio segno. Dopo l'incontro le due onde proseguono immutate.\n\nE) L'annullamento si ha solo nel caso particolare di onde uguali in opposizione di fase.\nC) Le onde non si assorbono a vicenda: si sovrappongono e poi si separano.\nD) La frequenza di ciascuna onda è fissata dalla propria sorgente e non cambia nell'incontro.\nA) Nulla si arresta: la propagazione prosegue durante e dopo la sovrapposizione."
+    },
+    {
+      "id": "u4-0018",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Interferenza costruttiva",
+      "testo": "Quando due onde giungono in un punto in fase, i loro effetti si sommano e si parla di interferenza ……",
+      "accettate": [
+        "costruttiva"
+      ],
+      "spiegazione": "Nell'interferenza costruttiva l'ampiezza risultante è la somma delle ampiezze; poiché l'intensità è proporzionale al quadrato dell'ampiezza, due onde uguali in fase danno un'intensità quadrupla, non doppia.\n\nLa condizione di fase si traduce in una differenza di cammino pari a un numero intero di lunghezze d'onda."
+    },
+    {
+      "id": "u4-0019",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Legge dell'inverso del quadrato",
+      "testo": "Raddoppiando la distanza da una sorgente sonora puntiforme che emette in modo uniforme, l'intensità dell'onda:",
+      "opzioni": [
+        "resta invariata",
+        "si dimezza",
+        "raddoppia",
+        "si riduce a un ottavo",
+        "si riduce a un quarto"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'energia emessa si distribuisce su una superficie sferica di area 4πr²: l'intensità è I = P/(4πr²) e dipende dall'inverso del quadrato della distanza. Raddoppiando r, l'area quadruplica e l'intensità si riduce a un quarto.\n\nB) Il dimezzamento corrisponderebbe a una dipendenza dall'inverso della distanza.\nA) L'intensità non può restare invariata se la stessa potenza si distribuisce su un'area maggiore.\nC) L'intensità diminuisce allontanandosi, non aumenta.\nD) Un ottavo corrisponderebbe a una dipendenza dal cubo della distanza."
+    },
+    {
+      "id": "u4-0020",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Intensità di un'onda",
+      "testo": "La potenza trasportata da un'onda attraverso l'unità di superficie disposta perpendicolarmente alla propagazione si chiama ……",
+      "accettate": [
+        "intensita"
+      ],
+      "spiegazione": "L'intensità si misura in W/m² ed è proporzionale al quadrato dell'ampiezza dell'onda.\n\nPer una sorgente puntiforme che irradia uniformemente vale I = P/(4πr²): è la legge dell'inverso del quadrato della distanza."
+    },
+    {
+      "id": "u4-0021",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Calcolo dell'intensità",
+      "testo": "Una sorgente puntiforme emette uniformemente in tutte le direzioni una potenza di 100 W. A 10 m di distanza l'intensità vale circa:",
+      "opzioni": [
+        "1 W/m²",
+        "0,08 W/m²",
+        "0,008 W/m²",
+        "10 W/m²",
+        "0,32 W/m²"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'intensità è I = P/(4πr²) = 100/(4π × 100) = 100/1256 ≈ 0,08 W/m².\n\nA) 1 W/m² si ottiene dividendo per r² senza il fattore 4π, cioè come se l'energia si distribuisse su un metro quadrato per ogni metro al quadrato di distanza.\nD) 10 W/m² divide per la distanza invece che per il suo quadrato.\nE) 0,32 W/m² usa πr² al posto di 4πr², cioè l'area del cerchio invece di quella della sfera.\nC) 0,008 W/m² è il risultato corretto diviso dieci."
+    },
+    {
+      "id": "u4-0022",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Onde meccaniche e mezzo di propagazione",
+      "testo": "A differenza delle onde elettromagnetiche, le onde meccaniche non possono propagarsi nel ……",
+      "accettate": [
+        "vuoto"
+      ],
+      "spiegazione": "Un'onda meccanica è la propagazione di una perturbazione attraverso le interazioni fra le particelle del mezzo: senza particelle non c'è nulla che trasmetta la perturbazione.\n\nÈ il motivo per cui nello spazio non si propaga alcun suono, mentre la luce, che è un'onda elettromagnetica, lo attraversa senza difficoltà."
+    },
+    {
+      "id": "u4-0023",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Livello di intensità sonora",
+      "testo": "Il livello di intensità sonora L, espresso in decibel, è definito a partire dall'intensità I e dall'intensità di riferimento I₀ come:",
+      "opzioni": [
+        "L = log (I₀/I)",
+        "L = I/I₀",
+        "L = 10 log (I/I₀)",
+        "L = I − I₀",
+        "L = 10 (I/I₀)"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il livello sonoro è una scala logaritmica: L = 10 log(I/I₀), con I₀ = 10⁻¹² W/m², cioè la soglia convenzionale di udibilità. La scala logaritmica rende maneggevole un intervallo di intensità che copre dodici ordini di grandezza.\n\nB) Il semplice rapporto fra intensità è un numero puro, non un livello in decibel.\nA) Il rapporto è rovesciato e manca il fattore 10: darebbe valori negativi per i suoni udibili.\nD) La differenza fra due intensità è ancora un'intensità, misurata in W/m².\nE) Senza il logaritmo la scala non sarebbe logaritmica e i decibel non avrebbero senso."
+    },
+    {
+      "id": "u4-0024",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Decibel",
+      "testo": "Il livello di intensità sonora si misura in ……",
+      "accettate": [
+        "decibel",
+        "db"
+      ],
+      "spiegazione": "Il decibel non è un'unità di misura assoluta, ma esprime il rapporto fra l'intensità considerata e un'intensità di riferimento, fissata a 10⁻¹² W/m².\n\nUn suono di 0 dB è alla soglia di udibilità, una conversazione normale è attorno ai 60 dB, la soglia del dolore si colloca attorno ai 120 dB."
+    },
+    {
+      "id": "u4-0025",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Scala dei decibel",
+      "testo": "Se l'intensità di un suono aumenta di 100 volte, il livello di intensità sonora aumenta di:",
+      "opzioni": [
+        "20 dB",
+        "100 dB",
+        "10 dB",
+        "2 dB",
+        "200 dB"
+      ],
+      "corretta": 0,
+      "spiegazione": "La variazione è ΔL = 10 log(100) = 10 × 2 = 20 dB: nella scala logaritmica ogni fattore dieci nell'intensità corrisponde a 10 dB in più.\n\nD) 2 dB è il solo logaritmo del rapporto, senza il fattore 10.\nC) 10 dB corrisponderebbe a un'intensità dieci volte maggiore.\nB) 100 dB confonde il fattore moltiplicativo con l'aumento in decibel.\nE) 200 dB moltiplica per dieci il fattore, invece di prenderne il logaritmo."
+    },
+    {
+      "id": "u4-0026",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Velocità di propagazione",
+      "testo": "Il prodotto della lunghezza d'onda per la frequenza dà la …… di propagazione dell'onda",
+      "accettate": [
+        "velocita"
+      ],
+      "spiegazione": "La relazione v = λ f vale per qualunque onda periodica, meccanica o elettromagnetica.\n\nLa velocità è fissata dal mezzo, la frequenza dalla sorgente: passando da un mezzo a un altro cambia la lunghezza d'onda, che si adatta al nuovo valore della velocità."
+    },
+    {
+      "id": "u4-0027",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Soglia di udibilità e decibel",
+      "testo": "Un suono la cui intensità coincide con l'intensità di riferimento, cioè 10⁻¹² W/m², corrisponde a un livello sonoro di:",
+      "opzioni": [
+        "10 dB",
+        "1 dB",
+        "0 dB",
+        "12 dB",
+        "−12 dB"
+      ],
+      "corretta": 2,
+      "spiegazione": "Se I = I₀ il rapporto vale 1 e il suo logaritmo è zero: L = 10 log 1 = 0 dB. Lo zero della scala non indica assenza di suono, ma la soglia convenzionale di udibilità.\n\nB) 1 dB corrisponderebbe a un rapporto di circa 1,26.\nA) 10 dB corrisponde a un'intensità dieci volte la soglia.\nD) 12 dB è un numero suggerito dall'esponente, che nella formula non compare in questo modo.\nE) −12 dB scambia l'esponente dell'intensità di riferimento con il livello sonoro."
+    },
+    {
+      "id": "u4-0028",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Effetto Doppler",
+      "testo": "La variazione della frequenza percepita quando la sorgente e l'osservatore sono in moto relativo si chiama effetto ……",
+      "accettate": [
+        "doppler"
+      ],
+      "spiegazione": "Se sorgente e osservatore si avvicinano i fronti d'onda giungono più ravvicinati e la frequenza percepita è maggiore di quella emessa; se si allontanano accade il contrario. La frequenza emessa dalla sorgente non cambia in nessuno dei due casi.\n\nÈ il principio dell'ecodoppler, che ricava la velocità del sangue dallo scarto di frequenza degli ultrasuoni riflessi dai globuli rossi."
+    },
+    {
+      "id": "u4-0029",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Effetto Doppler: sorgente in avvicinamento",
+      "testo": "Un'ambulanza con la sirena accesa si avvicina a un osservatore fermo. Rispetto al suono emesso, l'osservatore percepisce un suono di:",
+      "opzioni": [
+        "frequenza minore e lunghezza d'onda maggiore",
+        "frequenza maggiore e lunghezza d'onda minore",
+        "frequenza e lunghezza d'onda entrambe maggiori",
+        "frequenza minore e lunghezza d'onda minore",
+        "frequenza uguale e sola intensità maggiore"
+      ],
+      "corretta": 1,
+      "spiegazione": "La sorgente insegue le onde che ha emesso: i fronti d'onda si addensano davanti a essa, la lunghezza d'onda percepita si accorcia e, poiché la velocità del suono nel mezzo non cambia, la frequenza percepita cresce.\n\nA) È ciò che accade quando la sorgente si allontana.\nC) Frequenza e lunghezza d'onda sono inversamente proporzionali a velocità fissata: non possono crescere insieme.\nE) L'intensità in effetti aumenta, ma la frequenza percepita cambia: è proprio questo l'effetto Doppler.\nD) A velocità di propagazione costante, a una lunghezza d'onda minore corrisponde una frequenza maggiore."
+    },
+    {
+      "id": "u4-0030",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Effetto Doppler in avvicinamento",
+      "testo": "Quando una sorgente sonora si avvicina a un osservatore fermo, la frequenza percepita rispetto a quella emessa ……",
+      "accettate": [
+        "aumenta",
+        "cresce",
+        "e maggiore"
+      ],
+      "spiegazione": "I fronti d'onda emessi si addensano nella direzione del moto: l'osservatore ne riceve un numero maggiore al secondo, quindi percepisce una frequenza più alta, cioè un suono più acuto.\n\nAl passaggio della sorgente la frequenza percepita scende bruscamente al di sotto di quella emessa: è il cambiamento di tono che si sente quando un'ambulanza sfila davanti a noi."
+    },
+    {
+      "id": "u4-0031",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Effetto Doppler: sorgente in allontanamento",
+      "testo": "Una sorgente sonora si allontana da un osservatore fermo. Il suono percepito ha:",
+      "opzioni": [
+        "frequenza doppia di quella emessa",
+        "frequenza minore di quella emessa",
+        "la stessa frequenza e la stessa intensità",
+        "la stessa frequenza, ma velocità minore",
+        "frequenza maggiore di quella emessa"
+      ],
+      "corretta": 1,
+      "spiegazione": "Allontanandosi, la sorgente emette ogni fronte d'onda da una posizione più lontana della precedente: i fronti giungono più distanziati, la lunghezza d'onda percepita si allunga e la frequenza percepita diminuisce, cioè il suono si fa più grave.\n\nE) L'aumento di frequenza si ha in avvicinamento.\nD) La velocità del suono dipende dal mezzo e non dal moto della sorgente.\nA) L'entità dello scarto dipende dal rapporto fra la velocità della sorgente e quella del suono, e per una sorgente ordinaria è piccola.\nC) Anche l'intensità diminuisce, perché la distanza aumenta."
+    },
+    {
+      "id": "u4-0032",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Compressioni e rarefazioni",
+      "testo": "Un'onda sonora che si propaga in un fluido consiste in una successione di compressioni e ……",
+      "accettate": [
+        "rarefazioni",
+        "rarefazione"
+      ],
+      "spiegazione": "Nelle compressioni la densità e la pressione locali sono superiori a quelle di equilibrio, nelle rarefazioni inferiori: il suono è a tutti gli effetti un'onda di pressione.\n\nLa distanza fra due compressioni successive è la lunghezza d'onda."
+    },
+    {
+      "id": "u4-0033",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Oscillatore armonico",
+      "testo": "Il periodo di oscillazione di un sistema massa-molla ideale:",
+      "opzioni": [
+        "non dipende né dalla massa né dalla costante elastica",
+        "è tanto maggiore quanto maggiore è la velocità iniziale",
+        "aumenta al crescere della massa e diminuisce al crescere della costante elastica",
+        "dipende dall'ampiezza dell'oscillazione, non dalla massa",
+        "aumenta al crescere della costante elastica e diminuisce al crescere della massa"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il periodo vale T = 2π√(m/k): una massa maggiore rende l'oscillazione più lenta, una molla più rigida la rende più rapida.\n\nA) Massa e costante elastica sono esattamente le due grandezze da cui il periodo dipende.\nE) I ruoli di m e k sono scambiati rispetto alla formula.\nD) Nell'oscillatore armonico ideale il periodo non dipende dall'ampiezza: è la proprietà detta isocronismo.\nB) Una velocità iniziale maggiore aumenta l'ampiezza, non il periodo."
+    },
+    {
+      "id": "u4-0034",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Moto armonico",
+      "testo": "Il moto di un punto che oscilla con legge sinusoidale attorno alla propria posizione di equilibrio si dice moto ……",
+      "accettate": [
+        "armonico",
+        "armonico semplice"
+      ],
+      "spiegazione": "Il moto armonico nasce da una forza di richiamo proporzionale allo spostamento e a esso opposta, come quella elastica: F = − k x.\n\nÈ il modello di riferimento per la generazione delle onde: ogni punto del mezzo attraversato da un'onda armonica compie un moto armonico attorno alla propria posizione di equilibrio."
+    },
+    {
+      "id": "u4-0035",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Frequenza: definizione",
+      "testo": "La frequenza di un'onda periodica è:",
+      "opzioni": [
+        "l'energia trasportata dall'onda in un secondo",
+        "la distanza percorsa dall'onda in un secondo",
+        "il tempo impiegato a compiere un'oscillazione completa",
+        "il massimo spostamento delle particelle dall'equilibrio",
+        "il numero di oscillazioni compiute nell'unità di tempo"
+      ],
+      "corretta": 4,
+      "spiegazione": "La frequenza conta le oscillazioni al secondo e si misura in hertz. È l'inverso del periodo ed è fissata dalla sorgente che genera l'onda.\n\nB) La distanza percorsa in un secondo è la velocità di propagazione.\nC) Il tempo di un'oscillazione completa è il periodo.\nD) Il massimo spostamento è l'ampiezza.\nA) L'energia trasportata al secondo è la potenza dell'onda."
+    },
+    {
+      "id": "u4-0036",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Interferenza distruttiva",
+      "testo": "Quando due onde uguali giungono in un punto in opposizione di fase e i loro effetti si elidono, si parla di interferenza ……",
+      "accettate": [
+        "distruttiva"
+      ],
+      "spiegazione": "L'opposizione di fase corrisponde a uno sfasamento di mezzo periodo, cioè a una differenza di cammino pari a un numero dispari di mezze lunghezze d'onda.\n\nL'energia non scompare: si ridistribuisce nello spazio, concentrandosi nei punti di interferenza costruttiva."
+    },
+    {
+      "id": "u4-0037",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Onde su una corda tesa",
+      "testo": "Lungo una corda tesa si propaga un'onda i cui punti oscillano su e giù, perpendicolarmente alla corda. Si tratta di un'onda:",
+      "opzioni": [
+        "priva di lunghezza d'onda definita",
+        "stazionaria per definizione",
+        "longitudinale, come il suono nell'aria",
+        "elettromagnetica",
+        "trasversale"
+      ],
+      "corretta": 4,
+      "spiegazione": "L'oscillazione avviene perpendicolarmente alla direzione lungo cui la perturbazione avanza: è la definizione di onda trasversale. Le onde trasversali meccaniche richiedono un mezzo capace di opporsi agli sforzi di taglio, e una corda tesa lo è.\n\nC) Nelle onde longitudinali l'oscillazione è parallela alla propagazione.\nB) Un'onda stazionaria nasce dalla sovrapposizione di un'onda con la sua riflessa: qui nulla lo impone.\nA) Se l'onda è periodica, la lunghezza d'onda è definita come per qualunque altra onda.\nD) L'onda si propaga grazie alle proprietà elastiche della corda: è meccanica, non elettromagnetica."
+    },
+    {
+      "id": "u4-0038",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Legge dell'inverso del quadrato",
+      "testo": "L'intensità di un'onda emessa da una sorgente puntiforme diminuisce con il …… della distanza",
+      "accettate": [
+        "quadrato",
+        "quadrato inverso"
+      ],
+      "spiegazione": "L'energia si distribuisce su superfici sferiche la cui area cresce con il quadrato del raggio: I = P/(4πr²).\n\nTriplicando la distanza l'intensità si riduce a un nono, non a un terzo."
+    },
+    {
+      "id": "u4-0039",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Velocità di propagazione e mezzo",
+      "testo": "La velocità di propagazione di un'onda meccanica dipende:",
+      "opzioni": [
+        "dalle proprietà elastiche e dalla densità del mezzo",
+        "dalla frequenza imposta dalla sorgente",
+        "dall'ampiezza dell'onda",
+        "dall'intensità trasportata dall'onda",
+        "dalla distanza percorsa dall'onda"
+      ],
+      "corretta": 0,
+      "spiegazione": "La velocità è determinata dal mezzo: cresce con la rigidità e diminuisce all'aumentare della densità. La sorgente fissa la frequenza, il mezzo la velocità, e la lunghezza d'onda si adegua di conseguenza secondo λ = v/f.\n\nC) Un suono forte e uno debole viaggiano alla stessa velocità.\nB) Se la velocità dipendesse dalla frequenza, i suoni acuti e gravi di un'orchestra arriverebbero in tempi diversi.\nD) L'intensità dipende dall'ampiezza e dalla distanza, non influisce sulla velocità.\nE) La velocità resta costante lungo il percorso, finché il mezzo non cambia."
+    },
+    {
+      "id": "u4-0040",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Velocità del suono nei solidi",
+      "testo": "Fra i tre stati di aggregazione, la velocità del suono raggiunge in generale i valori più elevati nei ……",
+      "accettate": [
+        "solidi",
+        "solido",
+        "mezzi solidi"
+      ],
+      "spiegazione": "Nei solidi le particelle sono legate rigidamente e trasmettono la perturbazione quasi istantaneamente ai vicini: nell'acciaio il suono viaggia a circa 5000 m/s, nell'acqua a circa 1500 m/s, in aria a circa 340 m/s.\n\nÈ per questo che, appoggiando l'orecchio a una rotaia, si sente arrivare un treno prima che il suono giunga attraverso l'aria."
+    },
+    {
+      "id": "u4-0041",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Intervallo di udibilità",
+      "testo": "L'orecchio umano percepisce come suono le onde acustiche di frequenza compresa all'incirca fra:",
+      "opzioni": [
+        "1 Hz e 1 000 000 Hz",
+        "2 Hz e 2000 Hz",
+        "20 Hz e 2000 Hz",
+        "20 Hz e 20 000 Hz",
+        "200 Hz e 200 000 Hz"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'intervallo convenzionale di udibilità va da 20 Hz a 20 000 Hz; il limite superiore si abbassa con l'età. Al di sotto si parla di infrasuoni, al di sopra di ultrasuoni.\n\nB) 2 Hz cade nel campo degli infrasuoni, non percepiti come suono.\nE) 200 000 Hz è ben oltre il limite superiore dell'udito umano.\nC) L'estremo superiore è dieci volte troppo basso: 2000 Hz è una frequenza centrale del parlato.\nA) L'intervallo è molto più largo di quello reale, in entrambi i sensi."
+    },
+    {
+      "id": "u4-0042",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Ultrasuoni",
+      "testo": "Le onde acustiche di frequenza superiore a circa 20 000 Hz, non udibili dall'uomo, si chiamano ……",
+      "accettate": [
+        "ultrasuoni",
+        "ultrasuono"
+      ],
+      "spiegazione": "Gli ultrasuoni usati in diagnostica hanno frequenze dell'ordine dei megahertz: la lunghezza d'onda risulta molto piccola e permette di distinguere dettagli fini, perché il potere risolutivo migliora al diminuire della lunghezza d'onda.\n\nLe onde di frequenza inferiore a 20 Hz si chiamano invece infrasuoni."
+    },
+    {
+      "id": "u4-0043",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Altezza e intensità del suono",
+      "testo": "La caratteristica del suono che ci fa distinguere una nota acuta da una grave è:",
+      "opzioni": [
+        "l'intensità dell'onda",
+        "la velocità di propagazione",
+        "la potenza della sorgente",
+        "la frequenza dell'onda",
+        "l'ampiezza dell'onda"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'altezza di un suono è determinata dalla frequenza: quanto più questa è alta, tanto più il suono è acuto. Il tono di una nota resta lo stesso sia che la si suoni piano sia che la si suoni forte.\n\nE) L'ampiezza determina l'intensità percepita, cioè quanto il suono è forte.\nA) L'intensità è la sensazione di forza sonora, distinta dall'altezza.\nB) La velocità dipende dal mezzo ed è la stessa per suoni acuti e gravi.\nC) La potenza della sorgente influisce sull'intensità, non sull'altezza."
+    },
+    {
+      "id": "u4-0044",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Altezza del suono",
+      "testo": "La caratteristica del suono legata alla frequenza, per cui lo percepiamo come acuto o grave, si chiama ……",
+      "accettate": [
+        "altezza"
+      ],
+      "spiegazione": "All'aumentare della frequenza il suono si fa più acuto. L'altezza va tenuta distinta dall'intensità, legata all'ampiezza, e dal timbro, legato alle armoniche presenti oltre alla fondamentale.\n\nÈ la grandezza che cambia nell'effetto Doppler: la sirena non diventa più forte al passaggio, diventa più grave."
+    },
+    {
+      "id": "u4-0045",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Intensità e ampiezza",
+      "testo": "Raddoppiando l'ampiezza di un'onda, a parità di ogni altra condizione, l'intensità:",
+      "opzioni": [
+        "resta invariata",
+        "si dimezza",
+        "quadruplica",
+        "raddoppia",
+        "aumenta di un fattore otto"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'intensità di un'onda è proporzionale al quadrato dell'ampiezza: raddoppiando l'ampiezza l'intensità viene moltiplicata per 2² = 4.\n\nA) L'ampiezza è la grandezza che determina l'energia trasportata: l'intensità non può restare la stessa.\nB) L'intensità cresce con l'ampiezza, non diminuisce.\nD) La proporzionalità diretta varrebbe se l'esponente fosse 1.\nE) Il fattore otto corrisponderebbe a una dipendenza dal cubo dell'ampiezza."
+    },
+    {
+      "id": "u4-0046",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Infrasuoni",
+      "testo": "Le onde acustiche di frequenza inferiore a circa 20 Hz, non udibili dall'uomo, si chiamano ……",
+      "accettate": [
+        "infrasuoni",
+        "infrasuono"
+      ],
+      "spiegazione": "Gli infrasuoni sono prodotti da sorgenti molto lente, come i terremoti, le eruzioni e le grandi masse d'aria in movimento, e si propagano a grande distanza perché sono poco assorbiti.\n\nDiversi animali li percepiscono e li usano per comunicare o per orientarsi."
+    },
+    {
+      "id": "u4-0047",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Onde e propagazione nel vuoto",
+      "testo": "Il suono non si propaga nel vuoto perché:",
+      "opzioni": [
+        "la sua velocità nel vuoto sarebbe infinita",
+        "il suono è un'onda trasversale e il vuoto non trasmette sforzi di taglio",
+        "nel vuoto la pressione atmosferica è nulla e i suoni si smorzano subito",
+        "un'onda meccanica ha bisogno di un mezzo materiale per propagarsi",
+        "nel vuoto la temperatura è troppo bassa perché le onde si formino"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il suono si propaga grazie alle interazioni fra le particelle del mezzo, che si trasmettono la perturbazione l'una all'altra: in assenza di particelle non c'è propagazione. È la differenza di fondo rispetto alle onde elettromagnetiche.\n\nA) Nel vuoto il suono non ha alcuna velocità, perché non esiste come fenomeno.\nC) Non si tratta di uno smorzamento progressivo: manca proprio il mezzo che trasmetterebbe l'onda.\nE) La temperatura non è la causa: anche a temperatura elevata, senza materia non c'è suono.\nB) Il suono nei fluidi è longitudinale, e in ogni caso il motivo è l'assenza di materia."
+    },
+    {
+      "id": "u4-0048",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Potenza di un'onda",
+      "testo": "L'energia trasportata da un'onda nell'unità di tempo si chiama ……",
+      "accettate": [
+        "potenza"
+      ],
+      "spiegazione": "La potenza si misura in watt; distribuita sulla superficie attraversata dall'onda dà l'intensità, in W/m².\n\nPer una sorgente che emette in modo uniforme la potenza resta la stessa a ogni distanza, mentre l'intensità diminuisce perché la superficie su cui si distribuisce cresce."
+    },
+    {
+      "id": "u4-0049",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Onda che passa da un mezzo a un altro",
+      "testo": "Un'onda sonora passa dall'aria all'acqua, dove la velocità di propagazione è maggiore. Nel nuovo mezzo:",
+      "opzioni": [
+        "frequenza e lunghezza d'onda restano entrambe invariate",
+        "la frequenza resta la stessa e la lunghezza d'onda diminuisce",
+        "la frequenza diminuisce e la lunghezza d'onda aumenta",
+        "la frequenza aumenta e la lunghezza d'onda resta la stessa",
+        "la frequenza resta la stessa e la lunghezza d'onda aumenta"
+      ],
+      "corretta": 4,
+      "spiegazione": "La frequenza è imposta dalla sorgente e non cambia attraversando la superficie di separazione: il numero di oscillazioni al secondo che arrivano deve essere pari a quello che riparte. Poiché λ = v/f e la velocità aumenta, ad aumentare è la lunghezza d'onda.\n\nD) La frequenza non cambia, e la lunghezza d'onda non può restare la stessa se la velocità cambia.\nC) Una frequenza diversa richiederebbe che il numero di oscillazioni al secondo si perda alla superficie.\nA) Se la velocità cambia, almeno una delle altre due grandezze deve cambiare.\nB) A frequenza fissata, la lunghezza d'onda è proporzionale alla velocità: aumenta, non diminuisce."
+    },
+    {
+      "id": "u4-0050",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Intensità e ampiezza",
+      "testo": "L'intensità di un'onda è proporzionale al …… dell'ampiezza",
+      "accettate": [
+        "quadrato"
+      ],
+      "spiegazione": "Da qui segue che un'onda di ampiezza doppia trasporta un'energia quadrupla.\n\nÈ la stessa dipendenza quadratica che si ritrova nell'energia di un oscillatore armonico, dove l'energia meccanica totale vale ½ k A²."
+    }
+  ]
+}

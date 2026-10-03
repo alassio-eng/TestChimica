@@ -2,20 +2,20 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**1315 domande su 2200** a regime.
+**1712 domande su 2200** a regime.
 
 
 ---
 
-## Chimica e propedeutica biochimica — 465/700
+## Chimica e propedeutica biochimica — 552/700
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Atomo, legami, stati della materia, termodinamica | 150/150 | 80M + 70C | 140 | 8 |
 | U2 | Miscele, soluzioni, proprietà colligative | 70/70 | 35M + 35C | 68 | 2 |
 | U3 | Cinetica ed equilibrio chimico | 70/70 | 34M + 36C | 10 | 2 |
-| U4 | Acidi, basi, tamponi, redox ed elettrochimica | 52/100 | 26M + 26C | 52 | 5 |
-| U5 | Carbonio, idrocarburi, aromatici | 51/90 | 26M + 25C | 41 | 4 |
+| U4 | Acidi, basi, tamponi, redox ed elettrochimica | 100/100 | 50M + 50C | 97 | 5 |
+| U5 | Carbonio, idrocarburi, aromatici | 90/90 | 45M + 45C | 67 | 4 |
 | U6 | Gruppi funzionali e isomerie | 70/70 | 34M + 36C | 52 | 1 |
 | U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 2/150 | 1M + 1C | 2 | 9 |
 
@@ -254,106 +254,177 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U4 — Acidi, basi, tamponi, redox ed elettrochimica
 
-52 domande su 100 · 26 a risposta multipla e 26 a completamento · 52 argomenti distinti · file: chimica-u4-01.json, chimica-u4-02.json
+100 domande su 100 · 50 a risposta multipla e 50 a completamento · 97 argomenti distinti · file: chimica-u4-01.json, chimica-u4-02.json, chimica-u4-03.json
 
+- Alterazioni dell'equilibrio acido-base (2 domande)
+- Reazioni redox non enzimatiche dell'ossigeno (2 domande)
+- pH di una soluzione di acido forte (2 domande)
+- Accettore finale di elettroni nella respirazione
+- Acidi con più protoni cedibili
 - Acidi poliprotici: dissociazioni successive
-- Alterazioni dell'equilibrio acido-base
 - Autoprotolisi dell'acqua
 - Autoprotolisi dell'acqua: dipendenza di Kw dalla temperatura
 - Bilanciamento per semireazioni
 - Calcolo del numero di ossidazione in uno ione poliatomico
+- Calcolo del pH di un tampone non equimolare
+- Calcolo della Kb di una base coniugata
+- Calcolo della forza elettromotrice standard
+- Calcolo di [OH⁻] a partire dal pH
 - Capacità tamponante
 - Cella galvanica: elettrodi e polarità
 - Classificazione degli acidi per numero di protoni cedibili
+- Classificazione di una soluzione in base al pH
+- Componente del tampone che neutralizza le basi
 - Comportamento acido o basico dei sali in acqua
 - Composizione di una soluzione tampone
+- Concentrazione del tampone e capacità tamponante
 - Condizione di equimolarità in un tampone
 - Condizione di massimo potere tamponante
+- Confronto fra acido forte e acido debole a pari concentrazione
 - Confronto fra le forze di due acidi deboli
+- Confronto fra numeri di ossidazione di uno stesso elemento
 - Coppie acido-base coniugate
 - Costante di dissociazione basica
+- Criterio di spontaneità di una reazione redox
 - Definizione di acido secondo Brønsted e Lowry
+- Definizione di agente riducente
+- Definizione di anodo
 - Definizione di catodo
 - Definizione di ossidazione
 - Definizione di soluzione tampone
+- Definizione operativa di pH
+- Dissociazione dell'acido solforico
 - Effetto della diluizione sul pH di un acido forte
 - Elettrochimica: elettrodi di una cella galvanica
 - Elettrodo di riferimento dei potenziali standard
 - Equazione di Henderson-Hasselbalch: rapporto base/acido
 - Equazione di Henderson-Hasselbalch: tampone equimolare
 - Equazione di Nernst
+- Forza relativa delle coppie coniugate
+- Grado di dissociazione
+- Grado di dissociazione e diluizione
 - Identificazione dell'agente ossidante
+- Idratazione dell'anidride carbonica
 - Idrolisi del catione di un sale
 - Indicatori di pH: meccanismo del viraggio
+- Individuazione dell'acido coniugato
+- Intervallo di lavoro di un tampone ammoniacale
 - Intervallo di viraggio di un indicatore
+- Intervallo utile di un tampone
+- Lettura di una semireazione
+- Lo ione idronio
 - Meccanismo d'azione di un tampone
+- Natura logaritmica della scala del pH
 - Nome dell'equazione dei tamponi
+- Numero di ossidazione dell'ossigeno nei perossidi
+- Ponte salino
+- Potenziale in condizioni non standard
+- Prodotto ionico dell'acqua
 - Reazione fra un acido e una base
 - Reazioni di dismutazione
-- Reazioni redox non enzimatiche dell'ossigeno
 - Regola di somma dei numeri di ossidazione
 - Relazione fra Ka e Kb di una coppia coniugata
 - Relazione fra energia libera e differenza di potenziale
 - Relazione fra pH e pOH
+- Riconoscimento degli acidi forti
+- Riconoscimento delle coppie coniugate in una reazione
+- Risposta di un tampone all'aggiunta di base forte
 - Ruolo delle due componenti di un tampone
+- Sali da acido forte e base forte
+- Scelta dell'acido debole per preparare un tampone
+- Scomposizione di una redox
 - Significato del pKa
 - Solubilità e pH: acido urico e urati
+- Solubilità e pH: calcoli renali
 - Soluzioni tampone: equazione di Henderson-Hasselbalch
 - Somma di pH e pOH
 - Specie anfotere
+- Specie che possono agire da acido e da base
+- Struttura dell'equazione di Henderson-Hasselbalch
+- Tampone bicarbonato e alterazioni respiratorie
+- Tampone formato da base debole e acido coniugato
 - Tampone fosfato
 - Tamponi del sangue
+- Teoria di Arrhenius: definizione di base
 - Teoria di Brønsted e Lowry: individuazione dell'acido e della base
 - Teoria di Lewis: definizione di acido
+- Uso pratico di un indicatore di pH
 - pH di una soluzione di acido debole
-- pH di una soluzione di acido forte
 - pH di una soluzione di base forte
+- pH di una soluzione di sale acido
+- pH dopo diluizione di un acido forte
 
 ### U5 — Carbonio, idrocarburi, aromatici
 
-51 domande su 90 · 26 a risposta multipla e 25 a completamento · 41 argomenti distinti · file: chimica-u5-01.json, chimica-u5-02.json
+90 domande su 90 · 45 a risposta multipla e 45 a completamento · 67 argomenti distinti · file: chimica-u5-01.json, chimica-u5-02.json, chimica-u5-03.json
 
+- Classificazione degli idrocarburi (4 domande)
 - Ibridazione del carbonio (3 domande)
+- Nomenclatura dei derivati del benzene (3 domande)
+- Proprietà fisiche degli alcani (3 domande)
 - Addizione elettrofila: regola di Markovnikov (2 domande)
+- Composti aromatici eterociclici (2 domande)
+- Conformazioni del cicloesano (2 domande)
+- Dieni coniugati (2 domande)
+- Effetto induttivo (2 domande)
+- Isomeria cis-trans (2 domande)
 - Meccanismo SN2 (2 domande)
 - Miscela racemica (2 domande)
-- Nomenclatura dei derivati del benzene (2 domande)
 - Nucleofili ed elettrofili (2 domande)
-- Proprietà fisiche degli alcani (2 domande)
+- Reazioni di eliminazione (2 domande)
+- Sostituenti attivanti e disattivanti (2 domande)
 - Sostituzione elettrofila aromatica (2 domande)
+- Stadi di una reazione radicalica a catena (2 domande)
 - Struttura del doppio legame C=C (2 domande)
+- Addizione elettrofila di alogeni
 - Addizione elettrofila: idratazione
 - Addizione elettrofila: meccanismo
 - Alogenazione radicalica degli alcani
+- Carbanioni
 - Carbocationi
 - Carbonio chirale
 - Centro chirale
-- Classificazione degli idrocarburi
+- Chiralità
+- Classificazione degli atomi di carbonio
 - Classificazione degli stereoisomeri
-- Composti aromatici eterociclici
-- Conformazioni del cicloesano
+- Composti aromatici policiclici: le purine
+- Convenzione destrogira/levogira
+- Convenzione di Fischer
+- Delocalizzazione e risonanza
 - Diastereoisomeri
-- Dieni coniugati
-- Effetto induttivo
 - Enantiomeri
+- Epimeri
 - Formula molecolare da nome IUPAC
+- Formula molecolare dei cicloalcani
 - Geometria del carbonio sp³
 - Gruppo uscente
 - Idrocarburi aromatici: struttura e reattività del benzene
 - Idrocarburi ciclici ed eterociclici
-- Isomeria cis-trans
+- Isomeria di struttura
+- Isomeria di struttura degli alcani
 - Meccanismo SN1
+- Nomenclatura IUPAC degli alcani
 - Nomenclatura IUPAC: scelta della catena principale
+- Nomenclatura degli alcheni
+- Numero di stereoisomeri
 - Ossidazione degli alcani
+- Potere ottico rotatorio
 - Proprietà degli enantiomeri
 - Radicali
+- Rappresentazione dei composti carboniosi
+- Reazioni degli alcheni: idrogenazione
 - Regola di Hückel
+- Regole di priorità e convenzione R/S
+- Rottura eterolitica
 - Rottura omolitica
 - Serie omologa degli alcani
-- Sostituenti attivanti e disattivanti
+- Stabilità dei carbanioni
 - Stabilità dei carbocationi
+- Stabilità dei radicali
+- Stabilità del benzene
 - Struttura del benzene
 - Tensione d'anello nei cicloalcani
+- Tossicità dei composti aromatici
 
 ### U6 — Gruppi funzionali e isomerie
 
@@ -421,15 +492,15 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Fisica — 460/680
+## Fisica — 560/680
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Introduzione ai metodi della fisica | 80/70 | 40M + 40C | 76 | 4 |
 | U2 | Meccanica | 130/130 | 65M + 65C | 122 | 5 |
 | U3 | Meccanica dei fluidi | 60/110 | 30M + 30C | 59 | 5 |
-| U4 | Onde meccaniche | 20/70 | 10M + 10C | 20 | 4 |
-| U5 | Termodinamica | 50/100 | 25M + 25C | 49 | 5 |
+| U4 | Onde meccaniche | 70/70 | 35M + 35C | 64 | 4 |
+| U5 | Termodinamica | 100/100 | 50M + 50C | 99 | 5 |
 | U6 | Elettricità e magnetismo | 120/120 | 60M + 60C | 120 | 5 |
 | U7 | Fisica delle radiazioni | 0/80 | 0M + 0C | 0 | 3 |
 
@@ -707,81 +778,175 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U4 — Onde meccaniche
 
-20 domande su 70 · 10 a risposta multipla e 10 a completamento · 20 argomenti distinti · file: fisica-u4-02.json
+70 domande su 70 · 35 a risposta multipla e 35 a completamento · 64 argomenti distinti · file: fisica-u4-01.json, fisica-u4-02.json
 
+- Intensità e ampiezza (2 domande)
+- Interferenza distruttiva (2 domande)
+- Legge dell'inverso del quadrato (2 domande)
+- Onde longitudinali (2 domande)
+- Principio di sovrapposizione (2 domande)
+- Pulsazione (2 domande)
+- Altezza del suono
+- Altezza e intensità del suono
+- Ampiezza
+- Calcolo dell'intensità
+- Calcolo della lunghezza d'onda
 - Che cosa fissa la frequenza di un'onda
+- Compressioni e rarefazioni
+- Decibel
+- Effetto Doppler
+- Effetto Doppler in avvicinamento
+- Effetto Doppler: sorgente in allontanamento
+- Effetto Doppler: sorgente in avvicinamento
 - Elongazione
+- Frequenza
+- Frequenza: definizione
 - Fronte d'onda
 - Fronti d'onda sferici
+- Infrasuoni
+- Intensità di un'onda
 - Interferenza
+- Interferenza costruttiva
 - Interferenza e differenza di cammino
+- Intervallo di udibilità
 - Legge dell'inverso del quadrato: calcolo
 - Legge dell'inverso del quadrato: distanza
+- Livello di intensità sonora
+- Lunghezza d'onda
+- Moto armonico
 - Moto delle particelle al passaggio dell'onda
 - Numero d'onda
 - Numero d'onda nell'equazione dell'onda armonica
+- Onda che passa da un mezzo a un altro
+- Onde e propagazione nel vuoto
+- Onde meccaniche e mezzo di propagazione
+- Onde su una corda tesa
+- Onde trasversali
 - Opposizione di fase
+- Oscillatore armonico
 - Oscillatore armonico: forza di richiamo
+- Periodo
+- Periodo e frequenza
 - Posizione di equilibrio
-- Pulsazione
+- Potenza di un'onda
+- Relazione fra velocità, lunghezza d'onda e frequenza
+- Scala dei decibel
+- Soglia di udibilità e decibel
+- Trasporto di energia nelle onde
+- Ultrasuoni
 - Unità di misura dell'intensità di un'onda
+- Unità di misura della frequenza
 - Unità di misura della potenza di un'onda
+- Velocità del suono nei diversi mezzi
+- Velocità del suono nei solidi
 - Velocità di oscillazione e velocità di propagazione
+- Velocità di propagazione
 - Velocità di propagazione dall'equazione dell'onda
+- Velocità di propagazione e mezzo
 - Velocità di un'onda su una corda tesa
 
 ### U5 — Termodinamica
 
-50 domande su 100 · 25 a risposta multipla e 25 a completamento · 49 argomenti distinti · file: fisica-u5-01.json
+100 domande su 100 · 50 a risposta multipla e 50 a completamento · 99 argomenti distinti · file: fisica-u5-01.json, fisica-u5-02.json
 
 - Irraggiamento (2 domande)
+- Adiabatica e isoterma nel piano pressione-volume
 - Applicazione del primo principio
 - Calore
+- Calore a volume costante di un gas monoatomico
+- Calore in una trasformazione isobara
 - Calore latente
 - Calore latente di fusione: Q = m L
+- Calore latente di vaporizzazione
+- Calore molare
 - Calore sensibile: Q = m c ΔT
 - Calore specifico
 - Caloria e joule
+- Calorimetro
 - Capacità termica
 - Capacità termica e calore specifico
 - Carnot come limite massimo
 - Ciclo di Carnot
 - Ciclo termodinamico
+- Compressione adiabatica
+- Condensazione
+- Conducibilità termica
 - Conduzione termica
+- Confronto fra i calori molari C_P e C_V
 - Conseguenze dell'enunciato di Kelvin-Planck
 - Conversione fra gradi Celsius e kelvin
 - Convezione
+- Costante di Boltzmann
+- Curva di riscaldamento
 - Energia interna
+- Entropia
+- Entropia come funzione di stato
+- Entropia dell'universo
+- Entropia e disordine
+- Entropia in un ciclo
 - Enunciato di Clausius
 - Enunciato di Kelvin-Planck
 - Equazione di stato dei gas perfetti
+- Equilibrio termico
+- Espansione libera
 - Fattori che influenzano il rendimento di Carnot
+- Frigorifero aperto in una stanza isolata
 - Funzioni di stato e grandezze di processo
 - Gas perfetto
+- Gas reale e gas perfetto
+- Grandezze di processo
+- Interpretazione statistica dell'entropia
+- Irraggiamento e temperatura
 - Lavoro in una trasformazione isobara
 - Lavoro nel piano pressione-volume
+- Lavoro netto in un ciclo
 - Legge dell'isocora (Gay-Lussac)
 - Legge della conduzione
 - Legge di Boyle
+- Legge generale dei gas perfetti
+- Legge isobara dei gas
+- Macchina frigorifera
 - Macchina termica
+- Materiali isolanti
+- Numero di Avogadro
 - Primo principio della termodinamica
+- Primo principio nella trasformazione adiabatica
 - Primo principio nella trasformazione isocora
 - Primo principio nella trasformazione isoterma
+- Principio zero della termodinamica
+- Processi irreversibili
+- Relazione di Mayer
 - Rendimento
 - Rendimento della macchina di Carnot
 - Rendimento di una macchina termica
+- Scala Fahrenheit
 - Sistema e ambiente
 - Sistema isolato
 - Sistemi aperti, chiusi e isolati
 - Sorgente termica
+- Struttura del ciclo di Carnot
+- Sublimazione
+- Sudorazione e calore latente
+- Temperatura di equilibrio
 - Temperatura di fusione
 - Temperatura durante un cambiamento di stato
+- Temperatura in un'adiabatica reversibile
+- Termoregolazione
+- Trasformazione adiabatica
+- Trasformazione irreversibile
 - Trasformazione isobara
 - Trasformazione isocora
 - Trasformazione isoterma
+- Trasformazione quasistatica
+- Trasformazione reversibile
+- Unità di misura dell'entropia
 - Variabili di stato
 - Variazione di energia interna del gas perfetto
+- Variazione di entropia nella fusione
 - Variazioni di temperatura in kelvin
+- Vasodilatazione cutanea
+- Verso spontaneo del flusso di calore
+- Volume molare
 - Zero assoluto
 
 ### U6 — Elettricità e magnetismo
@@ -916,15 +1081,15 @@ U7.
 
 ---
 
-## Biologia — 390/820
+## Biologia — 600/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Le basi dell'organizzazione biologica e molecolare della vita | 80/80 | 40M + 40C | 80 | 3 |
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
 | U3 | Il flusso dell'informazione | 50/180 | 25M + 25C | 50 | 7 |
-| U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 50/110 | 25M + 25C | 50 | 4 |
-| U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 50/200 | 25M + 25C | 50 | 8 |
+| U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 110/110 | 55M + 55C | 110 | 4 |
+| U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 200/200 | 100M + 100C | 200 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
 | U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 0/90 | 0M + 0C | 0 | 3 |
 
@@ -1135,69 +1300,142 @@ U7.
 
 ### U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
 
-50 domande su 110 · 25 a risposta multipla e 25 a completamento · 50 argomenti distinti · file: biologia-u4-01.json
+110 domande su 110 · 55 a risposta multipla e 55 a completamento · 110 argomenti distinti · file: biologia-u4-01.json, biologia-u4-02.json, biologia-u4-03.json
 
+- Agenti mutageni
+- Alberi genealogici: i simboli
 - Alberi genealogici: il probando
 - Alberi genealogici: unione consanguinea
 - Alleli letali e rapporti mendeliani atipici
 - Alleli multipli
 - Alterazioni di struttura: l'inversione
+- Alterazioni di struttura: la delezione
+- Alterazioni di struttura: la duplicazione
 - Aneuploidia
 - Anticipazione
 - Associazione e frequenza di ricombinazione
+- Autosomi ed eterocromosomi
 - Caratteri poligenici
 - Cariotipo: la tecnica del bandeggio
 - Codominanza e sistema AB0
+- Conseguenze della mutazione nonsenso
+- Conseguenze della non disgiunzione sui gameti
+- Crossing over
+- Danno su singolo e su doppio filamento
+- Definizione di cariotipo
 - Definizione di penetranza
+- Delezioni in fase e fuori fase
 - Dominanza incompleta
+- Dominanza incompleta: il fenotipo dell'eterozigote
+- Dominanza incompleta: rapporti nella progenie
+- Emizigosi nel maschio
 - Epistasi
+- Epistasi: gene epistatico e gene ipostatico
 - Ereditarietà autosomica dominante
+- Ereditarietà autosomica dominante: calcolo del rischio
 - Ereditarietà autosomica recessiva: calcolo del rischio
 - Ereditarietà autosomica recessiva: il portatore
 - Ereditarietà dominante legata al cromosoma X
+- Ereditarietà dominante legata all'X: la madre affetta
+- Ereditarietà legata al cromosoma Y
 - Ereditarietà mitocondriale
 - Ereditarietà recessiva legata al cromosoma X
+- Ereditarietà recessiva legata all'X: padre affetto
+- Ereditarietà recessiva legata all'X: rischio per la progenie
 - Eredità quantitativa
+- Eredità quantitativa: effetto dei singoli geni
+- Espansione di sequenze ripetute
 - Espansione di sequenze trinucleotidiche ripetute
+- Espansione di triplette: la premutazione
 - Espressività variabile
+- Eteroplasmia
+- Euploidia
+- Gameti prodotti da un diibrido
+- Geni associati
+- Genotipo e fenotipo
+- Giunzione delle estremità non omologhe
 - Il cariotipo umano normale
+- Il reincrocio di prova
 - Il reincrocio di prova (testcross)
 - Imprinting genomico
+- Imprinting genomico: effetto dell'origine parentale
+- Imprinting: espressione da un solo allele
+- Incrocio fra diibridi: rapporto fenotipico
 - Incrocio fra eterozigoti: rapporto genotipico
+- Inserzione di nucleotidi
 - Inserzioni e delezioni: lo slittamento del modulo di lettura
+- Malattie recessive: definizione
+- Mappe fisiche e mappe genetiche
 - Mappe genetiche: unità di distanza
+- Monosomia
+- Morfologia cromosomica: il cromosoma acrocentrico
 - Morfologia cromosomica: il cromosoma metacentrico
 - Mutazioni di sfasamento
+- Mutazioni geniche e mutazioni cromosomiche
+- Mutazioni insorte ex novo
+- Mutazioni puntiformi
 - Mutazioni puntiformi: la mutazione missenso
 - Mutazioni puntiformi: la mutazione nonsenso
 - Mutazioni puntiformi: la mutazione silente
 - Mutazioni somatiche e germinali
+- Mutazioni spontanee e mutazioni indotte
 - Non disgiunzione
 - Penetranza incompleta
+- Penetranza incompleta nell'albero genealogico
+- Penetranza ridotta
 - Pleiotropia
+- Pleiotropia ed eredità poligenica a confronto
+- Pleiotropia: riconoscerla nel quadro clinico
 - Poliploidia ed euploidia
 - Prima legge di Mendel
+- Principio generale della riparazione su singolo filamento
+- Rapporti mendeliani atipici
+- Riconoscere un carattere poligenico
 - Riparazione degli appaiamenti errati
 - Riparazione delle rotture a doppio filamento
 - Riparazione per escissione
+- Riparazione per escissione di base
 - Seconda legge di Mendel: assortimento indipendente
+- Sistema AB0: genotipi
 - Sistema AB0: incroci
+- Sistema AB0: incrocio AB per 0
+- Sistema AB0: rapporti di dominanza
+- Sostituzioni nucleotidiche: la transversione
 - Sostituzioni nucleotidiche: transizioni e transversioni
+- Terminologia degli incroci: il diibrido
+- Traslocazione reciproca
 - Traslocazione robertsoniana
+- Trisomia
+- Trisomia 21: meccanismo più frequente
 - Trisomia del cromosoma 21
+- Uniformità della prima generazione filiale
 - Zigosi: emizigosi
 - Zigosi: eterozigosi composta
+- Zigosi: omozigosi
 
 ### U5 — Le strutture cellulari: biogenesi, morfologia e funzioni
 
-50 domande su 200 · 25 a risposta multipla e 25 a completamento · 50 argomenti distinti · file: biologia-u5-01.json
+200 domande su 200 · 100 a risposta multipla e 100 a completamento · 200 argomenti distinti · file: biologia-u5-01.json, biologia-u5-02.json, biologia-u5-03.json, biologia-u5-04.json
 
+- Acidificazione del lume lisosomiale
+- Antiporto
 - Asimmetria della membrana plasmatica
 - Autofagia selettiva dei mitocondri
 - Canali e trasportatori
 - Canali per l'acqua
+- Cellule in soluzione ipotonica
 - Centro di organizzazione dei microtubuli
+- Che cosa attraversa liberamente il poro nucleare
+- Che cosa codifica il DNA mitocondriale
+- Che cosa non appartiene alla catena respiratoria
+- Che cosa serve per importare una proteina nel mitocondrio
 - Chinesine e dineine
+- Ciglia e flagelli
+- Conseguenze del blocco dell'autofagia
+- Dal piruvato all'acetil-CoA
+- Degradazione associata al reticolo
+- Difetti delle dineine ciliari
+- Diffusione semplice e facilitata
 - Dinamiche della rete mitocondriale
 - Endocitosi delle LDL
 - Endocitosi in fase fluida
@@ -1205,43 +1443,180 @@ U7.
 - Enzimi del trasferimento trasversale dei fosfolipidi
 - Fibrosi cistica e ERAD
 - Funzione detossificante dei perossisomi
+- Funzioni dei perossisomi
+- Gli sfingolipidi
+- I complessi della catena respiratoria
+- I condensati nucleari
+- I filamenti intermedi
 - I filamenti intermedi degli epiteli
+- I filamenti intermedi dei neuroni
+- I filamenti intermedi del tessuto connettivo
+- I filamenti intermedi muscolari
+- I filamenti spessi del sarcomero
+- I fosfoinositidi nel traffico vescicolare
+- I lipidi eterei dei perossisomi
+- I recettori dell'importazione nucleare
+- I ribosomi della via secretoria
 - I trasportatori ABC
 - Il bilancio della glicolisi
 - Il canale del reticolo endoplasmatico
+- Il carico classico della transcitosi
+- Il ciclo della transferrina
 - Il ciclo delle importine
+- Il citoscheletro di membrana del globulo rosso
+- Il colesterolo nelle membrane
+- Il compartimento fra reticolo e Golgi
+- Il compartimento terminale della degradazione
+- Il complesso SAM
+- Il complesso che nuclea i microtubuli
+- Il complesso che sintetizza ATP
+- Il controllo di qualità basato sul riconoscimento degli zuccheri
 - Il controllo di qualità del reticolo
+- Il difetto del recettore delle LDL
+- Il fosfolipide più abbondante
+- Il genoma mitocondriale
 - Il glicocalice
 - Il gradiente di Ran
+- Il lipide portatore dell'oligosaccaride
+- Il marcatore delle idrolasi lisosomiali
+- Il metabolismo in assenza di ossigeno
 - Il modello a mosaico fluido
+- Il nome del processo
 - Il nucleolo
+- Il passaggio trasversale dei fosfolipidi
+- Il peptide segnale
+- Il ponte fra nucleoscheletro e citoscheletro
+- Il potenziale d'azione
+- Il potenziale di membrana a riposo
+- Il potenziale di riposo
+- Il primo contatto fra vescicola e bersaglio
+- Il prodotto della fusione con il lisosoma
+- Il recettore degli ormoni steroidei
+- Il recettore del mannosio-6-fosfato
+- Il recettore del segnale perossisomiale
+- Il recettore dell'EGF
+- Il ritorno dei recettori in superficie
+- Il ritorno nel citosol delle proteine difettose
+- Il rivestimento COPI
+- Il rivestimento delle vescicole endocitiche
+- Il ruolo della glicosilazione nel ripiegamento
+- Il ruolo di BiP
+- Il secondo trasportatore mobile della catena
+- Il segnale di indirizzamento perossisomiale
+- Il segnale di recupero delle proteine del reticolo
+- Il trasportatore mobile liposolubile
+- Il trasporto del glucosio nell'eritrocita
+- Il valore critico del potenziale
 - Importazione nei perossisomi
 - Importazione nella matrice mitocondriale
+- Importina α e importina β
 - Indirizzamento al reticolo endoplasmatico
 - Instabilità dinamica dei microtubuli
 - L'accettore finale della catena respiratoria
+- L'ancora glicolipidica
+- L'attività di RanGAP
+- L'autofagia durante il digiuno
+- L'autofagia mediata da chaperon
+- L'effetto di un disaccoppiante
+- L'endocitosi nelle cellule polarizzate
+- L'endosoma precoce
+- L'esportazione dal nucleo
+- L'esportazione delle subunità ribosomiali
+- L'ingresso nell'apparato di Golgi
+- L'inserzione delle proteine transmembrana
+- L'involucro nucleare
+- L'organizzazione dei centrioli
+- L'orientamento dei microtubuli nell'interfase
+- L'osmosi
+- L'uscita del materiale dalla cellula
+- La GTPasi che stacca le vescicole
+- La GTPasi del rivestimento COPII
+- La N-glicosilazione nel reticolo
+- La barriera selettiva del poro
+- La biogenesi dei perossisomi
+- La classe a cui appartiene Ran
+- La conformazione tridimensionale
+- La corteccia cellulare
+- La demolizione degli acidi grassi
+- La dineina citoplasmatica nel neurone
+- La fagocitosi
+- La fluidità della membrana
+- La funzione del nucleolo
 - La lamina nucleare
+- La membrana che forma l'autofagosoma
+- La membrana mitocondriale interna
+- La misura della tendenza al flusso osmotico
+- La nucleazione dei filamenti non ramificati
+- La perdita del rivestimento
+- La polimerizzazione dell'actina
+- La pompa del calcio
 - La pompa sodio-potassio
+- La proteina che sequestra i monomeri di actina
+- La regolazione di SREBP
+- La resa del ciclo di Krebs
+- La risposta UPR
+- La sequenza degli eventi della fusione
 - La sintesi di ATP
+- La struttura degli scambi fra nucleo e citosol
+- La teoria che spiega la sintesi di ATP
+- La vescicola dell'autofagia
+- La vescicola della fagocitosi
+- La via predefinita della secrezione
+- Le SNARE del compartimento bersaglio
+- Le estensioni del fagocita
+- Le fasi della migrazione cellulare
+- Le fossette rivestite
+- Le malattie dei lisosomi
+- Le miosine
+- Le proprietà dei canali ionici
+- Le proteine MAP non motrici
+- Le proteine Rab
+- Le proteine adattatrici
 - Le proteine del poro nucleare
+- Le proteine della biogenesi perossisomiale
 - Le proteine della fusione
+- Le proteine della fusione mitocondriale
+- Lo ione trasportato dalla CFTR
+- Lo spazio fra le due membrane nucleari
+- Lo spazio interno del mitocondrio
 - Localizzazione del ciclo di Krebs
 - Malattie da accumulo lisosomiale
+- Modificazioni nell'apparato di Golgi
 - Morfologia della membrana mitocondriale interna
+- Movimento orientato dei neutrofili
+- Natura anfipatica dei lipidi di membrana
 - Nucleazione dell'actina
 - Patologie perossisomiali
+- Perché le idrolasi non digeriscono la cellula
+- Permeabilità del doppio strato lipidico
+- Permeabilità della membrana esterna
 - Proteine di collegamento del citoscheletro muscolare
 - Proteine di rivestimento
+- Proteine integrali e periferiche
+- Proteine prive di segnale
+- Quello che i perossisomi non fanno
+- Regolazione del citoscheletro di actina
 - Regolazione dell'importazione nucleare
+- Relazioni topologiche fra compartimenti
+- Reticolo liscio e reticolo rugoso
+- Ribosomi liberi e ribosomi legati
 - Rimozione della sequenza segnale
 - Ruolo di NSF e SNAP
 - Secrezione costitutiva e regolata
+- Segnali che vengono rimossi
+- Segnali di esportazione nucleare
 - Segnali di importazione nucleare
+- Struttura del microtubulo
+- TIM22 e TIM23
 - Tipi di autofagia
 - Tonicità delle soluzioni
 - Transcitosi
 - Traslocazione nel reticolo durante la sintesi
+- Trasporto attivo secondario
+- Trasporto di un singolo soluto
+- Una cellula a secrezione intensa
 - Vie di smistamento e topologia dei compartimenti
+- Zattere lipidiche
 
 ### U6 — La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale
 

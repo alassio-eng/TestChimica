@@ -76,6 +76,11 @@ def valida_materia(base, voce, errori, avvisi):
 
     visti, per_unita, per_tipo = {}, Counter(), Counter()
     posizioni, piu_lunga, multiple = Counter(), 0, 0
+    # sequenza delle posizioni corrette, file per file: serve a scoprire i lotti
+    # in cui la corretta avanza ciclicamente A, B, C, D, E. Una distribuzione
+    # uniforme non basta a escluderlo, e un ciclo rende il lotto indovinabile
+    # senza sapere la materia esattamente come lo renderebbe uno sbilanciamento.
+    sequenze = {}
 
     for file in lotti:
         p = os.path.join(dirname, file)
@@ -87,6 +92,7 @@ def valida_materia(base, voce, errori, avvisi):
         domande = dati if isinstance(dati, list) else dati.get("domande", [])
         if not domande:
             avvisi.append(f"{mid}/{file}: nessuna domanda")
+        sequenze[file] = []
 
         for i, q in enumerate(domande):
             dove = f"{mid}/{file}[{i}]"
@@ -135,6 +141,7 @@ def valida_materia(base, voce, errori, avvisi):
                     avvisi.append(f"{dove}: «accettate» è ignorato nelle domande a risposta multipla")
                 multiple += 1
                 posizioni[c] += 1
+                sequenze[file].append(c)
                 if len(opz[c]) == max(len(o) for o in opz):
                     piu_lunga += 1
                 sp = q.get("spiegazione", "")
@@ -172,7 +179,18 @@ def valida_materia(base, voce, errori, avvisi):
         "id": mid, "nome": idx.get("nome", mid), "unita": unita,
         "per_unita": per_unita, "per_tipo": per_tipo, "lotti": len(lotti),
         "posizioni": posizioni, "piu_lunga": piu_lunga, "multiple": multiple,
+        "sequenze": sequenze,
     }
+
+
+def ciclo_massimo(seq):
+    """Lunghezza della più lunga progressione in cui la posizione della
+    risposta corretta avanza di uno modulo cinque."""
+    massimo = corrente = 1 if seq else 0
+    for a, b in zip(seq, seq[1:]):
+        corrente = corrente + 1 if b == (a + 1) % 5 else 1
+        massimo = max(massimo, corrente)
+    return massimo
 
 
 def main() -> int:
@@ -219,6 +237,12 @@ def main() -> int:
                 avvisi.append(f"{r['id']}: la posizione della risposta corretta è sbilanciata")
             if quota > 70:
                 avvisi.append(f"{r['id']}: la risposta corretta è quasi sempre l'opzione più lunga")
+            for file, seq in r["sequenze"].items():
+                n = ciclo_massimo(seq)
+                if n >= 6:
+                    avvisi.append(f"{r['id']}/{file}: la posizione della risposta "
+                                  f"corretta avanza ciclicamente per {n} quesiti "
+                                  f"di fila: il lotto è indovinabile")
 
     print(f"\nTotale: {totale} domande in tutte le materie.")
     for a in avvisi:

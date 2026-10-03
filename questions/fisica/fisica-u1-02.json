@@ -10,14 +10,14 @@
       "argomento": "Conversione delle unità di densità",
       "testo": "Una sostanza ha densità 2,7 g/cm³. Espressa nelle unità del Sistema Internazionale, la sua densità vale:",
       "opzioni": [
-        "2700 kg/m³",
-        "27 kg/m³",
-        "0,0027 kg/m³",
         "270 kg/m³",
-        "2 700 000 kg/m³"
+        "2700 kg/m³",
+        "2 700 000 kg/m³",
+        "27 kg/m³",
+        "0,0027 kg/m³"
       ],
-      "corretta": 0,
-      "spiegazione": "Occorre convertire sia la massa sia il volume: 1 g = 10⁻³ kg e 1 cm³ = 10⁻⁶ m³, quindi il fattore complessivo è 10⁻³/10⁻⁶ = 10³. Ne segue 2,7 g/cm³ = 2700 kg/m³.\n\nB) 27 kg/m³ applica un fattore 10 anziché 1000.\nC) 0,0027 kg/m³ converte i grammi in chilogrammi ma lascia il volume in centimetri cubi.\nD) 270 kg/m³ applica un fattore 100.\nE) 2 700 000 kg/m³ converte il volume ma lascia la massa in grammi.\n\nRegola pratica: il valore in g/cm³ si moltiplica per 1000 per ottenere i kg/m³, ed è il motivo per cui l'acqua vale 1 g/cm³ e insieme 1000 kg/m³."
+      "corretta": 1,
+      "spiegazione": "Occorre convertire sia la massa sia il volume: 1 g = 10⁻³ kg e 1 cm³ = 10⁻⁶ m³, quindi il fattore complessivo è 10⁻³/10⁻⁶ = 10³. Ne segue 2,7 g/cm³ = 2700 kg/m³.\n\nD) 27 kg/m³ applica un fattore 10 anziché 1000.\nE) 0,0027 kg/m³ converte i grammi in chilogrammi ma lascia il volume in centimetri cubi.\nA) 270 kg/m³ applica un fattore 100.\nC) 2 700 000 kg/m³ converte il volume ma lascia la massa in grammi.\n\nRegola pratica: il valore in g/cm³ si moltiplica per 1000 per ottenere i kg/m³, ed è il motivo per cui l'acqua vale 1 g/cm³ e insieme 1000 kg/m³."
     },
     {
       "id": "u1-0052",
@@ -39,14 +39,14 @@
       "argomento": "Conversione delle unità di tempo",
       "testo": "Un intervallo di 2,5 ore corrisponde a:",
       "opzioni": [
-        "150 s",
-        "9000 s",
-        "900 s",
+        "1440 s",
         "10 200 s",
-        "1440 s"
+        "900 s",
+        "9000 s",
+        "150 s"
       ],
-      "corretta": 1,
-      "spiegazione": "Un'ora vale 3600 s, quindi 2,5 × 3600 = 9000 s.\n\nA) 150 s si ferma ai minuti: 2,5 × 60 dà i minuti, non i secondi.\nC) 900 s è il risultato corretto diviso dieci.\nD) 10 200 s interpreta «2,5 ore» come 2 ore e 50 minuti: la parte decimale di un'ora vale però 30 minuti, non 50.\nE) 1440 s è 3600 diviso 2,5, cioè il rapporto rovesciato."
+      "corretta": 3,
+      "spiegazione": "Un'ora vale 3600 s, quindi 2,5 × 3600 = 9000 s.\n\nE) 150 s si ferma ai minuti: 2,5 × 60 dà i minuti, non i secondi.\nC) 900 s è il risultato corretto diviso dieci.\nB) 10 200 s interpreta «2,5 ore» come 2 ore e 50 minuti: la parte decimale di un'ora vale però 30 minuti, non 50.\nA) 1440 s è 3600 diviso 2,5, cioè il rapporto rovesciato."
     },
     {
       "id": "u1-0054",
@@ -68,14 +68,14 @@
       "argomento": "Divisione in notazione scientifica",
       "testo": "Il quoziente (6 × 10⁵) / (3 × 10⁻²) vale:",
       "opzioni": [
-        "2 × 10³",
+        "18 × 10³",
         "2 × 10⁻⁷",
-        "2 × 10⁷",
         "3 × 10⁷",
-        "18 × 10³"
+        "2 × 10³",
+        "2 × 10⁷"
       ],
-      "corretta": 2,
-      "spiegazione": "Nella divisione si dividono i coefficienti e si sottraggono gli esponenti: 6/3 = 2 e 5 − (−2) = 7, quindi 2 × 10⁷.\n\nA) 2 × 10³ sottrae 2 da 5 senza tenere conto del segno meno dell'esponente al denominatore.\nB) 2 × 10⁻⁷ ha l'esponente di segno sbagliato.\nD) 3 × 10⁷ fa la differenza dei coefficienti, 6 − 3, invece del loro quoziente.\nE) 18 × 10³ moltiplica anziché dividere, e non è neppure scritto in notazione scientifica, perché il coefficiente supera 10."
+      "corretta": 4,
+      "spiegazione": "Nella divisione si dividono i coefficienti e si sottraggono gli esponenti: 6/3 = 2 e 5 − (−2) = 7, quindi 2 × 10⁷.\n\nD) 2 × 10³ sottrae 2 da 5 senza tenere conto del segno meno dell'esponente al denominatore.\nB) 2 × 10⁻⁷ ha l'esponente di segno sbagliato.\nC) 3 × 10⁷ fa la differenza dei coefficienti, 6 − 3, invece del loro quoziente.\nA) 18 × 10³ moltiplica anziché dividere, e non è neppure scritto in notazione scientifica, perché il coefficiente supera 10."
     },
     {
       "id": "u1-0056",
@@ -97,14 +97,14 @@
       "argomento": "Equazione dimensionale della potenza",
       "testo": "Indicando con [M], [L] e [T] le dimensioni di massa, lunghezza e tempo, quali sono le dimensioni della potenza?",
       "opzioni": [
-        "[M][L]²[T]⁻²",
         "[M][L][T]⁻¹",
-        "[M][L][T]⁻²",
+        "[M][L]²[T]⁻²",
         "[M][L]²[T]⁻³",
-        "[M][L]⁻¹[T]⁻²"
+        "[M][L]⁻¹[T]⁻²",
+        "[M][L][T]⁻²"
       ],
-      "corretta": 3,
-      "spiegazione": "La potenza è il lavoro diviso il tempo: [M][L]²[T]⁻² / [T] = [M][L]²[T]⁻³. Coerentemente 1 W = 1 J/s.\n\nA) [M][L]²[T]⁻² sono le dimensioni del lavoro e dell'energia: manca la divisione per il tempo.\nB) [M][L][T]⁻¹ sono le dimensioni della quantità di moto.\nC) [M][L][T]⁻² sono le dimensioni della forza.\nE) [M][L]⁻¹[T]⁻² sono le dimensioni della pressione."
+      "corretta": 2,
+      "spiegazione": "La potenza è il lavoro diviso il tempo: [M][L]²[T]⁻² / [T] = [M][L]²[T]⁻³. Coerentemente 1 W = 1 J/s.\n\nB) [M][L]²[T]⁻² sono le dimensioni del lavoro e dell'energia: manca la divisione per il tempo.\nA) [M][L][T]⁻¹ sono le dimensioni della quantità di moto.\nE) [M][L][T]⁻² sono le dimensioni della forza.\nD) [M][L]⁻¹[T]⁻² sono le dimensioni della pressione."
     },
     {
       "id": "u1-0058",
@@ -124,14 +124,14 @@
       "argomento": "Somma in notazione scientifica",
       "testo": "La somma 3 × 10⁵ + 4 × 10⁴ vale:",
       "opzioni": [
-        "7 × 10⁹",
-        "7 × 10⁵",
+        "3,4 × 10⁵",
         "3,4 × 10⁴",
         "12 × 10⁹",
-        "3,4 × 10⁵"
+        "7 × 10⁵",
+        "7 × 10⁹"
       ],
-      "corretta": 4,
-      "spiegazione": "Per sommare occorre prima portare i due termini allo stesso esponente: 4 × 10⁴ = 0,4 × 10⁵, quindi 3 × 10⁵ + 0,4 × 10⁵ = 3,4 × 10⁵, cioè 340 000.\n\nA) 7 × 10⁹ somma sia i coefficienti sia gli esponenti: gli esponenti si sommano nel prodotto, non nella somma.\nB) 7 × 10⁵ somma i coefficienti senza aver prima uniformato gli esponenti.\nC) 3,4 × 10⁴ ha il coefficiente giusto ma l'esponente del termine minore: il risultato è dieci volte troppo piccolo.\nD) 12 × 10⁹ moltiplica i due termini invece di sommarli."
+      "corretta": 0,
+      "spiegazione": "Per sommare occorre prima portare i due termini allo stesso esponente: 4 × 10⁴ = 0,4 × 10⁵, quindi 3 × 10⁵ + 0,4 × 10⁵ = 3,4 × 10⁵, cioè 340 000.\n\nE) 7 × 10⁹ somma sia i coefficienti sia gli esponenti: gli esponenti si sommano nel prodotto, non nella somma.\nD) 7 × 10⁵ somma i coefficienti senza aver prima uniformato gli esponenti.\nB) 3,4 × 10⁴ ha il coefficiente giusto ma l'esponente del termine minore: il risultato è dieci volte troppo piccolo.\nC) 12 × 10⁹ moltiplica i due termini invece di sommarli."
     },
     {
       "id": "u1-0060",
@@ -151,14 +151,14 @@
       "argomento": "Conversione fra gradi e radianti",
       "testo": "Un angolo di 90° corrisponde a:",
       "opzioni": [
-        "π/2 rad",
-        "π rad",
         "2π rad",
         "π/4 rad",
-        "90π rad"
+        "90π rad",
+        "π/2 rad",
+        "π rad"
       ],
-      "corretta": 0,
-      "spiegazione": "L'angolo piatto di 180° vale π rad, quindi 90° ne è la metà: π/2 rad, cioè circa 1,57 rad. In generale si converte moltiplicando i gradi per π/180.\n\nB) π rad corrisponde a 180°.\nC) 2π rad corrisponde all'angolo giro, cioè a 360°.\nD) π/4 rad corrisponde a 45°.\nE) 90π rad si ottiene moltiplicando i gradi per π invece che per π/180: sarebbe un angolo di decine di giri."
+      "corretta": 3,
+      "spiegazione": "L'angolo piatto di 180° vale π rad, quindi 90° ne è la metà: π/2 rad, cioè circa 1,57 rad. In generale si converte moltiplicando i gradi per π/180.\n\nE) π rad corrisponde a 180°.\nA) 2π rad corrisponde all'angolo giro, cioè a 360°.\nB) π/4 rad corrisponde a 45°.\nC) 90π rad si ottiene moltiplicando i gradi per π invece che per π/180: sarebbe un angolo di decine di giri."
     },
     {
       "id": "u1-0062",
@@ -180,14 +180,14 @@
       "argomento": "Somma di vettori per componenti",
       "testo": "Due vettori hanno componenti cartesiane a = (2; 3) e b = (−1; 1). Il vettore somma ha componenti:",
       "opzioni": [
-        "(1; 2)",
         "(1; 4)",
         "(3; 2)",
+        "(1; 2)",
         "(−2; 3)",
         "(2; 3)"
       ],
-      "corretta": 1,
-      "spiegazione": "La somma si esegue componente per componente, con i rispettivi segni: 2 + (−1) = 1 lungo x e 3 + 1 = 4 lungo y.\n\nA) (1; 2) somma correttamente lungo x ma sottrae lungo y.\nC) (3; 2) è il vettore differenza a − b.\nD) (−2; 3) moltiplica le componenti invece di sommarle.\nE) (2; 3) ripete il primo vettore, come se il secondo fosse nullo."
+      "corretta": 0,
+      "spiegazione": "La somma si esegue componente per componente, con i rispettivi segni: 2 + (−1) = 1 lungo x e 3 + 1 = 4 lungo y.\n\nC) (1; 2) somma correttamente lungo x ma sottrae lungo y.\nB) (3; 2) è il vettore differenza a − b.\nD) (−2; 3) moltiplica le componenti invece di sommarle.\nE) (2; 3) ripete il primo vettore, come se il secondo fosse nullo."
     },
     {
       "id": "u1-0064",
@@ -210,14 +210,14 @@
       "argomento": "Prodotto di un vettore per uno scalare",
       "testo": "Moltiplicando un vettore per lo scalare −3 si ottiene un vettore:",
       "opzioni": [
-        "di modulo triplo e stesso verso",
         "di modulo pari a un terzo e verso opposto",
-        "di modulo triplo e verso opposto",
+        "di modulo triplo e stesso verso",
         "di modulo triplo e direzione perpendicolare",
-        "uguale a quello di partenza, perché uno scalare non ha direzione"
+        "uguale a quello di partenza, perché uno scalare non ha direzione",
+        "di modulo triplo e verso opposto"
       ],
-      "corretta": 2,
-      "spiegazione": "Il prodotto di un vettore per uno scalare dà un vettore della stessa direzione, con modulo moltiplicato per il valore assoluto dello scalare e verso concorde se lo scalare è positivo, opposto se è negativo. Con −3 il modulo triplica e il verso si rovescia.\n\nA) Il segno negativo dello scalare rovescia il verso: ignorarlo è l'errore più frequente.\nB) Il modulo si divide per tre solo se lo scalare vale −1/3.\nD) La direzione non cambia mai in questa operazione: resta quella del vettore di partenza.\nE) Lo scalare non ha direzione, ma modifica comunque modulo e verso del vettore."
+      "corretta": 4,
+      "spiegazione": "Il prodotto di un vettore per uno scalare dà un vettore della stessa direzione, con modulo moltiplicato per il valore assoluto dello scalare e verso concorde se lo scalare è positivo, opposto se è negativo. Con −3 il modulo triplica e il verso si rovescia.\n\nB) Il segno negativo dello scalare rovescia il verso: ignorarlo è l'errore più frequente.\nA) Il modulo si divide per tre solo se lo scalare vale −1/3.\nC) La direzione non cambia mai in questa operazione: resta quella del vettore di partenza.\nD) Lo scalare non ha direzione, ma modifica comunque modulo e verso del vettore."
     },
     {
       "id": "u1-0066",
@@ -240,13 +240,13 @@
       "testo": "Due vettori di moduli 3 e 4 formano fra loro un angolo di 30°. Il modulo del loro prodotto vettoriale vale:",
       "opzioni": [
         "12",
-        "10,4",
-        "0",
         "6",
-        "7"
+        "0",
+        "7",
+        "10,4"
       ],
-      "corretta": 3,
-      "spiegazione": "Il modulo del prodotto vettoriale vale a b sen θ = 3 × 4 × sen 30° = 12 × 0,5 = 6.\n\nA) 12 è il prodotto dei moduli senza il fattore trigonometrico: si otterrebbe solo con vettori perpendicolari, per i quali il seno vale 1.\nB) 10,4 usa il coseno al posto del seno: 12 × 0,866 è il valore del prodotto scalare, non di quello vettoriale.\nC) 0 si avrebbe con vettori paralleli, per i quali il seno si annulla.\nE) 7 è la somma dei moduli, che non ha alcun ruolo in questa operazione."
+      "corretta": 1,
+      "spiegazione": "Il modulo del prodotto vettoriale vale a b sen θ = 3 × 4 × sen 30° = 12 × 0,5 = 6.\n\nA) 12 è il prodotto dei moduli senza il fattore trigonometrico: si otterrebbe solo con vettori perpendicolari, per i quali il seno vale 1.\nE) 10,4 usa il coseno al posto del seno: 12 × 0,866 è il valore del prodotto scalare, non di quello vettoriale.\nC) 0 si avrebbe con vettori paralleli, per i quali il seno si annulla.\nD) 7 è la somma dei moduli, che non ha alcun ruolo in questa operazione."
     },
     {
       "id": "u1-0068",
@@ -267,14 +267,14 @@
       "argomento": "Proporzionalità quadratica",
       "testo": "Fra due grandezze vale la relazione y = k x², con k costante. Raddoppiando il valore di x, il valore di y:",
       "opzioni": [
-        "raddoppia",
-        "resta invariato",
         "si dimezza",
+        "raddoppia",
+        "quadruplica",
         "aumenta di un fattore √2",
-        "quadruplica"
+        "resta invariato"
       ],
-      "corretta": 4,
-      "spiegazione": "Sostituendo 2x al posto di x si ottiene k(2x)² = 4 k x²: il valore viene moltiplicato per 2² = 4. Il grafico cartesiano della relazione è una parabola con il vertice nell'origine.\n\nA) Il raddoppio corrisponderebbe alla proporzionalità diretta, y = k x.\nB) L'invarianza si avrebbe solo con k nullo o con y indipendente da x.\nC) Il dimezzamento descriverebbe un andamento decrescente, incompatibile con un esponente positivo.\nD) Il fattore √2 si otterrebbe se y fosse proporzionale alla radice quadrata di x."
+      "corretta": 2,
+      "spiegazione": "Sostituendo 2x al posto di x si ottiene k(2x)² = 4 k x²: il valore viene moltiplicato per 2² = 4. Il grafico cartesiano della relazione è una parabola con il vertice nell'origine.\n\nB) Il raddoppio corrisponderebbe alla proporzionalità diretta, y = k x.\nE) L'invarianza si avrebbe solo con k nullo o con y indipendente da x.\nA) Il dimezzamento descriverebbe un andamento decrescente, incompatibile con un esponente positivo.\nD) Il fattore √2 si otterrebbe se y fosse proporzionale alla radice quadrata di x."
     },
     {
       "id": "u1-0070",

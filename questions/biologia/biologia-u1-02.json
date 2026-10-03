@@ -10,14 +10,14 @@
       "argomento": "Proprietà fondamentali della materia vivente",
       "testo": "Quale delle seguenti proprietà NON è comune a tutti gli organismi viventi?",
       "opzioni": [
-        "La capacità di ricavare energia dalla luce mediante la fotosintesi",
-        "La capacità di mantenere costante il proprio ambiente interno",
-        "La capacità di riprodursi trasmettendo l'informazione genetica",
+        "La capacità di rispondere agli stimoli provenienti dall'ambiente",
         "L'organizzazione in una o più cellule delimitate da membrana",
-        "La capacità di rispondere agli stimoli provenienti dall'ambiente"
+        "La capacità di riprodursi trasmettendo l'informazione genetica",
+        "La capacità di mantenere costante il proprio ambiente interno",
+        "La capacità di ricavare energia dalla luce mediante la fotosintesi"
       ],
-      "corretta": 0,
-      "spiegazione": "La fotosintesi è propria dei soli organismi fotoautotrofi: piante, alghe e alcuni batteri. Tutti gli altri viventi ricavano energia ossidando molecole organiche, e restano viventi a pieno titolo.\n\nB) L'omeostasi, cioè il mantenimento di condizioni interne costanti, è una proprietà universale.\nC) La riproduzione con trasmissione dell'informazione genetica è comune a tutti i viventi.\nD) L'organizzazione cellulare è il criterio stesso con cui si distingue un vivente da un virus.\nE) La risposta agli stimoli ambientali è presente in tutti gli organismi, anche unicellulari."
+      "corretta": 4,
+      "spiegazione": "La fotosintesi è propria dei soli organismi fotoautotrofi: piante, alghe e alcuni batteri. Tutti gli altri viventi ricavano energia ossidando molecole organiche, e restano viventi a pieno titolo.\n\nD) L'omeostasi, cioè il mantenimento di condizioni interne costanti, è una proprietà universale.\nC) La riproduzione con trasmissione dell'informazione genetica è comune a tutti i viventi.\nB) L'organizzazione cellulare è il criterio stesso con cui si distingue un vivente da un virus.\nA) La risposta agli stimoli ambientali è presente in tutti gli organismi, anche unicellulari."
     },
     {
       "id": "u1-0052",
@@ -38,14 +38,14 @@
       "argomento": "Il genoma dei virus",
       "testo": "Il genoma di un virus:",
       "opzioni": [
-        "è sempre costituito da DNA a doppio filamento, come quello cellulare",
         "può essere DNA o RNA, a singolo o a doppio filamento",
+        "contiene sempre sia DNA sia RNA, in copie separate dentro il capside",
         "è sempre costituito da RNA a singolo filamento di polarità positiva",
         "è costituito da DNA nei virus animali e da RNA nei batteriofagi",
-        "contiene sempre sia DNA sia RNA, in copie separate dentro il capside"
+        "è sempre costituito da DNA a doppio filamento, come quello cellulare"
       ],
-      "corretta": 1,
-      "spiegazione": "È la caratteristica che distingue i virus dagli organismi cellulari, il cui materiale genetico è sempre DNA a doppio filamento: nei virus si trovano tutte e quattro le combinazioni, e i virus a RNA a singolo filamento si distinguono ulteriormente per la polarità del genoma.\n\nA) e C) Fissano un solo tipo di genoma e ignorano la varietà reale.\nD) La distinzione non passa per il tipo di ospite: esistono batteriofagi a DNA e virus animali a RNA.\nE) In un virione è presente un solo tipo di acido nucleico."
+      "corretta": 0,
+      "spiegazione": "È la caratteristica che distingue i virus dagli organismi cellulari, il cui materiale genetico è sempre DNA a doppio filamento: nei virus si trovano tutte e quattro le combinazioni, e i virus a RNA a singolo filamento si distinguono ulteriormente per la polarità del genoma.\n\nE) e C) Fissano un solo tipo di genoma e ignorano la varietà reale.\nD) La distinzione non passa per il tipo di ospite: esistono batteriofagi a DNA e virus animali a RNA.\nB) In un virione è presente un solo tipo di acido nucleico."
     },
     {
       "id": "u1-0054",
@@ -67,14 +67,14 @@
       "argomento": "Virus a RNA a polarità negativa",
       "testo": "Un virus a RNA a singolo filamento di polarità negativa, per potersi replicare, deve:",
       "opzioni": [
-        "integrare il proprio genoma nel DNA della cellula che ha infettato",
-        "essere tradotto direttamente dai ribosomi della cellula ospite",
         "portare con sé nel virione una RNA polimerasi RNA-dipendente",
-        "convertire il proprio genoma in DNA grazie alla trascrittasi inversa",
-        "attendere la mitosi, quando l'involucro nucleare si disassembla"
+        "essere tradotto direttamente dai ribosomi della cellula ospite",
+        "integrare il proprio genoma nel DNA della cellula che ha infettato",
+        "attendere la mitosi, quando l'involucro nucleare si disassembla",
+        "convertire il proprio genoma in DNA grazie alla trascrittasi inversa"
       ],
-      "corretta": 2,
-      "spiegazione": "Un genoma a polarità negativa è complementare al messaggero e quindi non può essere letto dai ribosomi. Deve prima essere copiato in un filamento positivo, e poiché la cellula non possiede enzimi capaci di sintetizzare RNA su stampo di RNA, il virus deve trasportare il proprio dentro il virione.\n\nA) L'integrazione nel DNA dell'ospite caratterizza i retrovirus.\nB) La traduzione diretta è possibile ai soli genomi a polarità positiva, che funzionano già da messaggero.\nD) La trascrittasi inversa è un enzima dei retrovirus, non dei virus a RNA a polarità negativa.\nE) La replicazione di questi virus avviene nel citoplasma e non dipende dalla mitosi."
+      "corretta": 0,
+      "spiegazione": "Un genoma a polarità negativa è complementare al messaggero e quindi non può essere letto dai ribosomi. Deve prima essere copiato in un filamento positivo, e poiché la cellula non possiede enzimi capaci di sintetizzare RNA su stampo di RNA, il virus deve trasportare il proprio dentro il virione.\n\nC) L'integrazione nel DNA dell'ospite caratterizza i retrovirus.\nB) La traduzione diretta è possibile ai soli genomi a polarità positiva, che funzionano già da messaggero.\nE) La trascrittasi inversa è un enzima dei retrovirus, non dei virus a RNA a polarità negativa.\nD) La replicazione di questi virus avviene nel citoplasma e non dipende dalla mitosi."
     },
     {
       "id": "u1-0056",
@@ -97,14 +97,14 @@
       "argomento": "Il ciclo litico",
       "testo": "Quale sequenza descrive correttamente il ciclo litico di un batteriofago?",
       "opzioni": [
-        "Penetrazione, adsorbimento, assemblaggio, replicazione, lisi",
-        "Adsorbimento, integrazione nel cromosoma batterico, replicazione, lisi",
         "Adsorbimento, penetrazione, lisi, replicazione, assemblaggio",
+        "Replicazione, adsorbimento, penetrazione, assemblaggio, lisi",
+        "Adsorbimento, integrazione nel cromosoma batterico, replicazione, lisi",
         "Adsorbimento, penetrazione, replicazione, assemblaggio, lisi",
-        "Replicazione, adsorbimento, penetrazione, assemblaggio, lisi"
+        "Penetrazione, adsorbimento, assemblaggio, replicazione, lisi"
       ],
       "corretta": 3,
-      "spiegazione": "Il fago riconosce e si lega a un recettore della superficie batterica, inietta il proprio acido nucleico, dirotta la cellula per replicare il genoma e sintetizzare le proteine virali, i nuovi virioni si assemblano e infine la cellula viene lisata.\n\nA) L'adsorbimento è necessariamente il primo passo: senza legame al recettore non c'è penetrazione.\nB) L'integrazione nel cromosoma batterico appartiene al ciclo lisogenico.\nC) La lisi è l'evento finale, non intermedio: dopo la lisi non c'è più una cellula in cui replicarsi.\nE) La replicazione presuppone che il genoma sia già entrato nella cellula."
+      "spiegazione": "Il fago riconosce e si lega a un recettore della superficie batterica, inietta il proprio acido nucleico, dirotta la cellula per replicare il genoma e sintetizzare le proteine virali, i nuovi virioni si assemblano e infine la cellula viene lisata.\n\nE) L'adsorbimento è necessariamente il primo passo: senza legame al recettore non c'è penetrazione.\nC) L'integrazione nel cromosoma batterico appartiene al ciclo lisogenico.\nA) La lisi è l'evento finale, non intermedio: dopo la lisi non c'è più una cellula in cui replicarsi.\nB) La replicazione presuppone che il genoma sia già entrato nella cellula."
     },
     {
       "id": "u1-0058",
@@ -125,14 +125,14 @@
       "argomento": "I ribosomi dei procarioti",
       "testo": "I ribosomi di una cellula procariotica:",
       "opzioni": [
-        "sono identici a quelli presenti nelle cellule eucariotiche",
         "sono racchiusi in un compartimento delimitato da membrana",
+        "hanno un coefficiente di sedimentazione di 70S",
         "hanno un coefficiente di sedimentazione di 80S",
         "sono formati da sole proteine, senza alcuna componente a RNA",
-        "hanno un coefficiente di sedimentazione di 70S"
+        "sono identici a quelli presenti nelle cellule eucariotiche"
       ],
-      "corretta": 4,
-      "spiegazione": "I ribosomi procariotici sono 70S e risultano dall'associazione di una subunità 30S e di una 50S. I valori non si sommano perché il coefficiente di sedimentazione dipende dalla forma oltre che dalla massa.\n\nA) e C) I ribosomi eucariotici citoplasmatici sono 80S, formati da subunità 40S e 60S: la differenza è netta ed è il bersaglio di numerosi antibiotici.\nB) I procarioti non hanno compartimenti delimitati da membrana.\nD) I ribosomi sono ribonucleoproteine: contengono RNA ribosomiali oltre alle proteine, e l'attività catalitica risiede proprio nell'RNA.\n\nI ribosomi dei mitocondri sono anch'essi 70S, coerentemente con la loro origine endosimbiotica."
+      "corretta": 1,
+      "spiegazione": "I ribosomi procariotici sono 70S e risultano dall'associazione di una subunità 30S e di una 50S. I valori non si sommano perché il coefficiente di sedimentazione dipende dalla forma oltre che dalla massa.\n\nE) e C) I ribosomi eucariotici citoplasmatici sono 80S, formati da subunità 40S e 60S: la differenza è netta ed è il bersaglio di numerosi antibiotici.\nA) I procarioti non hanno compartimenti delimitati da membrana.\nD) I ribosomi sono ribonucleoproteine: contengono RNA ribosomiali oltre alle proteine, e l'attività catalitica risiede proprio nell'RNA.\n\nI ribosomi dei mitocondri sono anch'essi 70S, coerentemente con la loro origine endosimbiotica."
     },
     {
       "id": "u1-0060",
@@ -155,13 +155,13 @@
       "testo": "Quale delle seguenti strutture NON è presente in una cellula procariotica?",
       "opzioni": [
         "Il reticolo endoplasmatico",
-        "La parete cellulare di peptidoglicano",
         "I ribosomi per la sintesi delle proteine",
+        "La parete cellulare di peptidoglicano",
         "Il DNA organizzato in un cromosoma circolare",
         "Il citoplasma delimitato dalla membrana plasmatica"
       ],
       "corretta": 0,
-      "spiegazione": "I procarioti non possiedono alcun compartimento delimitato da membrana interna: niente reticolo endoplasmatico, né apparato di Golgi, né nucleo, né mitocondri. Le funzioni che negli eucarioti sono affidate agli organelli si svolgono nel citoplasma o sulla membrana plasmatica.\n\nB) La parete di peptidoglicano è caratteristica dei batteri.\nC) I ribosomi ci sono, di tipo 70S.\nD) Il cromosoma circolare è la forma tipica del genoma batterico.\nE) Citoplasma e membrana plasmatica sono presenti in ogni cellula."
+      "spiegazione": "I procarioti non possiedono alcun compartimento delimitato da membrana interna: niente reticolo endoplasmatico, né apparato di Golgi, né nucleo, né mitocondri. Le funzioni che negli eucarioti sono affidate agli organelli si svolgono nel citoplasma o sulla membrana plasmatica.\n\nC) La parete di peptidoglicano è caratteristica dei batteri.\nB) I ribosomi ci sono, di tipo 70S.\nD) Il cromosoma circolare è la forma tipica del genoma batterico.\nE) Citoplasma e membrana plasmatica sono presenti in ogni cellula."
     },
     {
       "id": "u1-0062",
@@ -182,14 +182,14 @@
       "argomento": "I plasmidi",
       "testo": "Che cos'è un plasmide?",
       "opzioni": [
-        "Un frammento di RNA che regola l'espressione dei geni batterici",
-        "Una molecola di DNA circolare che si replica in modo autonomo",
         "La regione del citoplasma in cui è alloggiato il cromosoma batterico",
+        "Un frammento di RNA che regola l'espressione dei geni batterici",
         "Un virus a DNA che infetta esclusivamente le cellule batteriche",
+        "Una molecola di DNA circolare che si replica in modo autonomo",
         "Un'appendice di superficie con cui il batterio aderisce ad altre cellule"
       ],
-      "corretta": 1,
-      "spiegazione": "Il plasmide è una molecola di DNA extracromosomica, di norma circolare, dotata di una propria origine di replicazione e quindi indipendente dal cromosoma. Porta geni accessori, non indispensabili alla sopravvivenza in condizioni normali ma spesso decisivi in condizioni particolari, come le resistenze agli antibiotici.\n\nA) Il plasmide è DNA, non RNA.\nC) La regione che ospita il cromosoma batterico è il nucleoide.\nD) Un virus dei batteri è un batteriofago; il plasmide non ha capside e non è infettante in quel senso.\nE) L'adesione è compito delle fimbrie."
+      "corretta": 3,
+      "spiegazione": "Il plasmide è una molecola di DNA extracromosomica, di norma circolare, dotata di una propria origine di replicazione e quindi indipendente dal cromosoma. Porta geni accessori, non indispensabili alla sopravvivenza in condizioni normali ma spesso decisivi in condizioni particolari, come le resistenze agli antibiotici.\n\nB) Il plasmide è DNA, non RNA.\nA) La regione che ospita il cromosoma batterico è il nucleoide.\nC) Un virus dei batteri è un batteriofago; il plasmide non ha capside e non è infettante in quel senso.\nE) L'adesione è compito delle fimbrie."
     },
     {
       "id": "u1-0064",
@@ -214,13 +214,13 @@
       "testo": "Quale vantaggio ha reso possibile il passaggio dagli organismi unicellulari a quelli pluricellulari complessi?",
       "opzioni": [
         "La possibilità di riprodursi senza trasmettere il proprio genoma",
-        "L'eliminazione della necessità di scambiare materia con l'ambiente",
-        "La specializzazione di gruppi di cellule in funzioni diverse",
         "L'aumento della velocità di divisione di ciascuna singola cellula",
-        "La perdita, in ciascuna cellula, dei geni non usati da quel tipo cellulare"
+        "La perdita, in ciascuna cellula, dei geni non usati da quel tipo cellulare",
+        "La specializzazione di gruppi di cellule in funzioni diverse",
+        "L'eliminazione della necessità di scambiare materia con l'ambiente"
       ],
-      "corretta": 2,
-      "spiegazione": "Nel pluricellulare le cellule si differenziano e si dividono i compiti: alcune assorbono, altre trasportano, altre difendono. Nessuna deve più svolgere da sola tutte le funzioni vitali, e questo permette prestazioni e dimensioni inaccessibili a una cellula singola.\n\nA) La riproduzione comporta sempre la trasmissione del genoma.\nB) Lo scambio con l'ambiente resta indispensabile, e anzi diventa più complesso al crescere delle dimensioni.\nD) La pluricellularità non richiede divisioni più rapide: nei tessuti differenziati molte cellule smettono del tutto di dividersi.\nE) Il differenziamento non comporta perdita di geni: le cellule di un organismo hanno lo stesso genoma e differiscono per quali geni esprimono."
+      "corretta": 3,
+      "spiegazione": "Nel pluricellulare le cellule si differenziano e si dividono i compiti: alcune assorbono, altre trasportano, altre difendono. Nessuna deve più svolgere da sola tutte le funzioni vitali, e questo permette prestazioni e dimensioni inaccessibili a una cellula singola.\n\nA) La riproduzione comporta sempre la trasmissione del genoma.\nE) Lo scambio con l'ambiente resta indispensabile, e anzi diventa più complesso al crescere delle dimensioni.\nB) La pluricellularità non richiede divisioni più rapide: nei tessuti differenziati molte cellule smettono del tutto di dividersi.\nC) Il differenziamento non comporta perdita di geni: le cellule di un organismo hanno lo stesso genoma e differiscono per quali geni esprimono."
     },
     {
       "id": "u1-0066",
@@ -240,14 +240,14 @@
       "argomento": "Il saccarosio",
       "testo": "Il saccarosio è un disaccaride formato da:",
       "opzioni": [
-        "due molecole di glucosio",
-        "glucosio e galattosio",
         "due molecole di fruttosio",
+        "due molecole di glucosio",
         "glucosio e fruttosio",
-        "galattosio e fruttosio"
+        "galattosio e fruttosio",
+        "glucosio e galattosio"
       ],
-      "corretta": 3,
-      "spiegazione": "Il saccarosio, lo zucchero comune da cucina, è formato da una molecola di glucosio e una di fruttosio unite da un legame glicosidico.\n\nA) Due molecole di glucosio formano il maltosio, che deriva dalla digestione dell'amido.\nB) Glucosio e galattosio formano il lattosio, il disaccaride del latte.\nC) ed E) Non corrispondono ad alcun disaccaride di rilievo biologico.\n\nTutti e tre i disaccaridi citati hanno la stessa formula grezza: cambia quali monosaccaridi li compongono e come sono legati, e da questo dipende quale enzima intestinale sia in grado di idrolizzarli."
+      "corretta": 2,
+      "spiegazione": "Il saccarosio, lo zucchero comune da cucina, è formato da una molecola di glucosio e una di fruttosio unite da un legame glicosidico.\n\nB) Due molecole di glucosio formano il maltosio, che deriva dalla digestione dell'amido.\nE) Glucosio e galattosio formano il lattosio, il disaccaride del latte.\nA) ed D) Non corrispondono ad alcun disaccaride di rilievo biologico.\n\nTutti e tre i disaccaridi citati hanno la stessa formula grezza: cambia quali monosaccaridi li compongono e come sono legati, e da questo dipende quale enzima intestinale sia in grado di idrolizzarli."
     },
     {
       "id": "u1-0068",
@@ -271,13 +271,13 @@
       "testo": "Rispetto a un acido grasso saturo della stessa lunghezza, un acido grasso insaturo:",
       "opzioni": [
         "ha una catena perfettamente lineare, che si impacchetta meglio",
-        "ha un punto di fusione più alto ed è solido a temperatura ambiente",
+        "presenta uno o più doppi legami che piegano la catena",
         "contiene un numero maggiore di atomi di idrogeno nella catena",
         "non può far parte dei fosfolipidi che formano le membrane",
-        "presenta uno o più doppi legami che piegano la catena"
+        "ha un punto di fusione più alto ed è solido a temperatura ambiente"
       ],
-      "corretta": 4,
-      "spiegazione": "Il doppio legame in configurazione cis introduce un gomito nella catena: le molecole non riescono più ad affiancarsi ordinatamente, le interazioni fra loro si indeboliscono e il punto di fusione si abbassa. È per questo che gli oli vegetali, ricchi di insaturi, sono liquidi mentre i grassi animali sono solidi.\n\nA) La catena lineare, capace di impacchettarsi strettamente, è quella dell'acido grasso saturo.\nB) Il punto di fusione più alto è del saturo: è l'insaturo ad avere quello più basso.\nC) «Saturo» significa proprio saturo di idrogeno: è l'insaturo ad averne di meno.\nD) I fosfolipidi di membrana contengono abitualmente una coda insatura, e sono proprio le insaturazioni a mantenere la membrana fluida."
+      "corretta": 1,
+      "spiegazione": "Il doppio legame in configurazione cis introduce un gomito nella catena: le molecole non riescono più ad affiancarsi ordinatamente, le interazioni fra loro si indeboliscono e il punto di fusione si abbassa. È per questo che gli oli vegetali, ricchi di insaturi, sono liquidi mentre i grassi animali sono solidi.\n\nA) La catena lineare, capace di impacchettarsi strettamente, è quella dell'acido grasso saturo.\nE) Il punto di fusione più alto è del saturo: è l'insaturo ad avere quello più basso.\nC) «Saturo» significa proprio saturo di idrogeno: è l'insaturo ad averne di meno.\nD) I fosfolipidi di membrana contengono abitualmente una coda insatura, e sono proprio le insaturazioni a mantenere la membrana fluida."
     },
     {
       "id": "u1-0070",
@@ -299,14 +299,14 @@
       "argomento": "Ciò che distingue i venti amminoacidi",
       "testo": "I venti amminoacidi che formano le proteine differiscono fra loro:",
       "opzioni": [
-        "per la catena laterale legata al carbonio α",
-        "per la posizione del gruppo amminico rispetto a quello carbossilico",
-        "per il tipo di legame con cui si uniscono l'uno all'altro nella catena",
         "per la presenza o l'assenza del gruppo amminico nella loro struttura",
-        "per lo zucchero a cui sono legati durante la sintesi della proteina"
+        "per lo zucchero a cui sono legati durante la sintesi della proteina",
+        "per il tipo di legame con cui si uniscono l'uno all'altro nella catena",
+        "per la posizione del gruppo amminico rispetto a quello carbossilico",
+        "per la catena laterale legata al carbonio α"
       ],
-      "corretta": 0,
-      "spiegazione": "Ogni amminoacido ha lo stesso scheletro: un carbonio α legato a un gruppo amminico, a un gruppo carbossilico, a un idrogeno e a una catena laterale. È solo quest'ultima a cambiare, e da essa dipendono le proprietà del residuo, apolare, polare o carico.\n\nB) Negli amminoacidi che formano le proteine il gruppo amminico è sempre legato al carbonio α, cioè quello che porta il carbossile: la posizione non varia mai.\nC) Il legame è sempre lo stesso, il legame peptidico.\nD) Il gruppo amminico è presente in tutti: fa parte dello scheletro comune.\nE) Gli amminoacidi non sono legati a zuccheri; il legame con il tRNA riguarda la traduzione e non li distingue chimicamente fra loro."
+      "corretta": 4,
+      "spiegazione": "Ogni amminoacido ha lo stesso scheletro: un carbonio α legato a un gruppo amminico, a un gruppo carbossilico, a un idrogeno e a una catena laterale. È solo quest'ultima a cambiare, e da essa dipendono le proprietà del residuo, apolare, polare o carico.\n\nD) Negli amminoacidi che formano le proteine il gruppo amminico è sempre legato al carbonio α, cioè quello che porta il carbossile: la posizione non varia mai.\nC) Il legame è sempre lo stesso, il legame peptidico.\nA) Il gruppo amminico è presente in tutti: fa parte dello scheletro comune.\nB) Gli amminoacidi non sono legati a zuccheri; il legame con il tRNA riguarda la traduzione e non li distingue chimicamente fra loro."
     },
     {
       "id": "u1-0072",
@@ -330,12 +330,12 @@
       "opzioni": [
         "descrive il ripiegamento di una singola catena polipeptidica nello spazio",
         "risulta dall'associazione di più catene polipeptidiche",
-        "corrisponde alla sequenza degli amminoacidi lungo la catena",
+        "riguarda i tratti ad α-elica e a foglietto β presenti nella catena",
         "è presente in tutte le proteine, senza alcuna eccezione",
-        "riguarda i tratti ad α-elica e a foglietto β presenti nella catena"
+        "corrisponde alla sequenza degli amminoacidi lungo la catena"
       ],
       "corretta": 1,
-      "spiegazione": "Si ha struttura quaternaria quando due o più catene, ciascuna con la propria struttura terziaria, si associano in un complesso funzionante. L'emoglobina, con le sue quattro subunità, ne è l'esempio classico.\n\nA) Il ripiegamento di una singola catena è la struttura terziaria.\nC) La sequenza degli amminoacidi è la struttura primaria.\nD) Le proteine formate da una sola catena, come la mioglobina, non hanno struttura quaternaria.\nE) α-elica e foglietto β sono elementi di struttura secondaria."
+      "spiegazione": "Si ha struttura quaternaria quando due o più catene, ciascuna con la propria struttura terziaria, si associano in un complesso funzionante. L'emoglobina, con le sue quattro subunità, ne è l'esempio classico.\n\nA) Il ripiegamento di una singola catena è la struttura terziaria.\nE) La sequenza degli amminoacidi è la struttura primaria.\nD) Le proteine formate da una sola catena, come la mioglobina, non hanno struttura quaternaria.\nC) α-elica e foglietto β sono elementi di struttura secondaria."
     },
     {
       "id": "u1-0074",
@@ -358,14 +358,14 @@
       "argomento": "I domini proteici",
       "testo": "Che cos'è un dominio proteico?",
       "opzioni": [
-        "Il tratto di catena compreso fra due legami peptidici consecutivi",
+        "Il gruppo chimico non proteico legato in modo stabile a un enzima",
         "L'insieme delle proteine che svolgono la stessa funzione biologica",
         "Una porzione della catena che si ripiega in modo autonomo e stabile",
         "La sequenza segnale che indirizza la proteina verso il suo compartimento",
-        "Il gruppo chimico non proteico legato in modo stabile a un enzima"
+        "Il tratto di catena compreso fra due legami peptidici consecutivi"
       ],
       "corretta": 2,
-      "spiegazione": "Un dominio è un modulo: si ripiega per conto proprio, spesso mantiene la funzione anche se isolato dal resto della catena, e ricorre in proteine per il resto diverse. Le proteine complesse sono in buona parte combinazioni di domini già collaudati.\n\nA) Fra due legami peptidici consecutivi si trova un singolo residuo amminoacidico.\nB) Un insieme di proteine con funzione affine è una famiglia proteica, non un dominio.\nD) La sequenza segnale è un breve tratto di indirizzamento, non un'unità di ripiegamento.\nE) Il gruppo non proteico legato a un enzima è un gruppo prostetico."
+      "spiegazione": "Un dominio è un modulo: si ripiega per conto proprio, spesso mantiene la funzione anche se isolato dal resto della catena, e ricorre in proteine per il resto diverse. Le proteine complesse sono in buona parte combinazioni di domini già collaudati.\n\nE) Fra due legami peptidici consecutivi si trova un singolo residuo amminoacidico.\nB) Un insieme di proteine con funzione affine è una famiglia proteica, non un dominio.\nD) La sequenza segnale è un breve tratto di indirizzamento, non un'unità di ripiegamento.\nA) Il gruppo non proteico legato a un enzima è un gruppo prostetico."
     },
     {
       "id": "u1-0076",
@@ -387,14 +387,14 @@
       "argomento": "Specificità enzimatica e adattamento indotto",
       "testo": "Secondo il modello dell'adattamento indotto:",
       "opzioni": [
-        "il substrato si lega a un sito diverso da quello catalitico dell'enzima",
         "enzima e substrato hanno forme rigide e perfettamente complementari",
+        "il substrato si lega a un sito diverso da quello catalitico dell'enzima",
         "l'enzima modifica in modo permanente la propria struttura terziaria",
-        "il sito attivo cambia forma quando il substrato vi si lega",
-        "un enzima può legare qualunque substrato, senza alcuna specificità"
+        "un enzima può legare qualunque substrato, senza alcuna specificità",
+        "il sito attivo cambia forma quando il substrato vi si lega"
       ],
-      "corretta": 3,
-      "spiegazione": "Il legame del substrato induce un aggiustamento della conformazione del sito attivo, che si chiude attorno alla molecola e dispone i residui catalitici nella posizione corretta. Enzima e substrato si adattano l'uno all'altro, invece di combaciare già in partenza.\n\nA) Il legame a un sito diverso da quello catalitico descrive la regolazione allosterica.\nB) La complementarietà rigida è il modello precedente, quello chiave-serratura, che l'adattamento indotto corregge.\nC) La variazione è reversibile: al rilascio del prodotto l'enzima torna alla conformazione di partenza.\nE) L'adattamento indotto non elimina la specificità: solo un substrato appropriato induce la conformazione catalitica."
+      "corretta": 4,
+      "spiegazione": "Il legame del substrato induce un aggiustamento della conformazione del sito attivo, che si chiude attorno alla molecola e dispone i residui catalitici nella posizione corretta. Enzima e substrato si adattano l'uno all'altro, invece di combaciare già in partenza.\n\nB) Il legame a un sito diverso da quello catalitico descrive la regolazione allosterica.\nA) La complementarietà rigida è il modello precedente, quello chiave-serratura, che l'adattamento indotto corregge.\nC) La variazione è reversibile: al rilascio del prodotto l'enzima torna alla conformazione di partenza.\nD) L'adattamento indotto non elimina la specificità: solo un substrato appropriato induce la conformazione catalitica."
     },
     {
       "id": "u1-0078",
@@ -417,13 +417,13 @@
       "testo": "Nella doppia elica del DNA, la coppia guanina-citosina:",
       "opzioni": [
         "è tenuta insieme da un legame covalente fra i due anelli affacciati",
-        "è formata da due basi puriniche affacciate l'una all'altra",
-        "è unita da due legami a idrogeno, come la coppia adenina-timina",
         "è meno stabile della coppia adenina-timina, a parità di condizioni",
-        "è unita da tre legami a idrogeno"
+        "è unita da tre legami a idrogeno",
+        "è formata da due basi puriniche affacciate l'una all'altra",
+        "è unita da due legami a idrogeno, come la coppia adenina-timina"
       ],
-      "corretta": 4,
-      "spiegazione": "Guanina e citosina formano tre legami a idrogeno, adenina e timina soltanto due: le regioni ricche di G e C richiedono più energia per essere separate, e la temperatura a cui un DNA si denatura cresce con il loro contenuto.\n\nA) Fra le basi appaiate non c'è alcun legame covalente: se ci fosse, la doppia elica non potrebbe aprirsi.\nB) La citosina è una pirimidina, non una purina.\nC) È la coppia adenina-timina a essere unita da due legami a idrogeno.\nD) La conclusione è rovesciata: più legami a idrogeno significano maggiore stabilità."
+      "corretta": 2,
+      "spiegazione": "Guanina e citosina formano tre legami a idrogeno, adenina e timina soltanto due: le regioni ricche di G e C richiedono più energia per essere separate, e la temperatura a cui un DNA si denatura cresce con il loro contenuto.\n\nA) Fra le basi appaiate non c'è alcun legame covalente: se ci fosse, la doppia elica non potrebbe aprirsi.\nD) La citosina è una pirimidina, non una purina.\nE) È la coppia adenina-timina a essere unita da due legami a idrogeno.\nB) La conclusione è rovesciata: più legami a idrogeno significano maggiore stabilità."
     },
     {
       "id": "u1-0080",

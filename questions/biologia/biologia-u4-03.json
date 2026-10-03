@@ -1,0 +1,155 @@
+{
+  "lotto": "biologia-u4-03",
+  "unita": "u4",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u4-0101",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Danno su singolo e su doppio filamento",
+      "testo": "Quale fra i seguenti danni NON può essere riparato usando come stampo il filamento complementare della stessa molecola di DNA?",
+      "opzioni": [
+        "L'appaiamento errato di una base sfuggito alla replicazione",
+        "La deaminazione spontanea di una citosina del filamento",
+        "La rottura di entrambi i filamenti nello stesso punto",
+        "Un dimero di timina indotto dai raggi ultravioletti",
+        "La presenza di una base azotata chimicamente alterata"
+      ],
+      "corretta": 2,
+      "spiegazione": "Quando la rottura interessa entrambi i filamenti, nella molecola non resta alcun tratto integro da copiare: l'informazione di quella regione è persa su entrambe le eliche. Per questo le rotture a doppio filamento richiedono meccanismi dedicati, che o ricorrono a una copia esterna della sequenza, il cromatidio fratello, o risaldano direttamente le estremità accettando qualche perdita di nucleotidi.\n\nA) L'appaiamento errato riguarda il solo filamento di nuova sintesi e viene corretto dalla riparazione del mismatch sul modello del filamento parentale.\nE) e B) Una base alterata o deaminata viene rimossa dalla riparazione per escissione di base, che poi risintetizza il nucleotide corretto copiando il filamento opposto.\nD) Il dimero di timina viene eliminato con l'escissione di nucleotidi, che asporta un tratto di un solo filamento e lo ricostruisce sull'altro."
+    },
+    {
+      "id": "u4-0102",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Conseguenze della mutazione nonsenso",
+      "testo": "Una mutazione nonsenso interrompe la traduzione prima del termine previsto e dà origine a una proteina più corta del normale, detta proteina ……",
+      "accettate": [
+        "tronca",
+        "troncata",
+        "tronche",
+        "troncate"
+      ],
+      "spiegazione": "La comparsa anticipata di un codone di stop fa staccare il ribosoma prima che la catena sia completa: la proteina tronca manca di una porzione, spesso proprio di quella che contiene il sito attivo o i domini di interazione, ed è di regola non funzionante.\n\nLa mutazione missenso produce invece una proteina di lunghezza normale con un amminoacido sostituito, e la mutazione silente una proteina del tutto identica a quella selvatica."
+    },
+    {
+      "id": "u4-0103",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Uniformità della prima generazione filiale",
+      "testo": "Incrociando due linee pure che differiscono per un carattere a dominanza completa, la prima generazione filiale:",
+      "opzioni": [
+        "mostra un fenotipo intermedio fra quelli dei due genitori",
+        "è tutta uniforme e mostra il solo carattere dominante",
+        "si distribuisce secondo il rapporto 3 : 1 fra i due fenotipi",
+        "comprende per un quarto individui di fenotipo recessivo",
+        "è formata per metà da individui simili a ciascun genitore"
+      ],
+      "corretta": 1,
+      "spiegazione": "Ciascun genitore è omozigote e produce un solo tipo di gamete: tutti i figli risultano eterozigoti e, con dominanza completa, mostrano il carattere dominante. L'uniformità della prima generazione filiale è la legge della dominanza, il primo dei risultati ottenuti da Mendel.\n\nC) e D) Il rapporto 3 : 1, e quindi la ricomparsa di un quarto di individui recessivi, si osserva nella seconda generazione filiale, incrociando fra loro gli ibridi.\nA) Il fenotipo intermedio comparirebbe in caso di dominanza incompleta, qui esclusa dall'enunciato.\nE) La progenie divisa a metà fra i due fenotipi parentali è l'esito del reincrocio di prova, non di questo incrocio."
+    },
+    {
+      "id": "u4-0104",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Terminologia degli incroci: il diibrido",
+      "testo": "Un individuo eterozigote contemporaneamente per due geni diversi si dice ……",
+      "accettate": [
+        "diibrido",
+        "diibrida",
+        "diibridi",
+        "doppio eterozigote"
+      ],
+      "spiegazione": "Il diibrido, di genotipo AaBb, produce quattro tipi di gameti: in proporzioni uguali se i due geni sono indipendenti, con prevalenza dei tipi parentali se sono associati. L'incrocio fra due diibridi per geni indipendenti dà il rapporto fenotipico 9 : 3 : 3 : 1.\n\nL'individuo eterozigote per un solo gene è detto monoibrido; i termini non dicono nulla sulla posizione dei geni, che va stabilita a parte."
+    },
+    {
+      "id": "u4-0105",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Sistema AB0: incrocio AB per 0",
+      "testo": "Un uomo di gruppo sanguigno AB e una donna di gruppo 0 possono avere figli:",
+      "opzioni": [
+        "esclusivamente di gruppo 0, perché l'allele 0 è recessivo",
+        "esclusivamente di gruppo AB, per la codominanza di A e B",
+        "di tutti e quattro i gruppi, con uguale probabilità",
+        "di gruppo A oppure di gruppo B, ma né AB né 0",
+        "di gruppo AB oppure 0, come i rispettivi genitori"
+      ],
+      "corretta": 3,
+      "spiegazione": "I genotipi dei genitori sono AB e 00. Il padre trasmette A oppure B, la madre sempre 0: i figli possibili sono A0 e B0, cioè di gruppo A o di gruppo B, ciascuno con probabilità del 50%. Nessun figlio può essere AB, perché dalla madre arriva comunque l'allele 0, né di gruppo 0, perché dal padre arriva comunque A o B.\n\nE) È l'errore di chi si attende che i figli ripetano i gruppi dei genitori: qui sono proprio i due gruppi impossibili.\nA) L'allele 0 è recessivo, ma nei figli è sempre accompagnato da A o da B, che si manifestano.\nC) Due dei quattro gruppi sono esclusi dai genotipi dei genitori.\nB) Il gruppo AB richiede che un genitore trasmetta A e l'altro B: la madre non possiede nessuno dei due alleli."
+    },
+    {
+      "id": "u4-0106",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Imprinting: espressione da un solo allele",
+      "testo": "Nei geni sottoposti a imprinting genomico è attiva una sola delle due copie presenti nel genoma: la loro espressione si dice perciò ……",
+      "accettate": [
+        "monoallelica",
+        "monoallelico",
+        "monoallelici"
+      ],
+      "spiegazione": "L'allele silenziato dipende dall'origine parentale ed è marcato nella gametogenesi: l'individuo è geneticamente diploide per quel gene ma funzionalmente emizigote, perché una sola copia viene trascritta. Basta quindi una mutazione sulla copia attiva perché il gene risulti del tutto assente dal punto di vista funzionale.\n\nL'espressione biallelica, quella della maggior parte dei geni, prevede invece il contributo di entrambe le copie, ed è il motivo per cui nelle malattie recessive l'eterozigote resta sano."
+    },
+    {
+      "id": "u4-0107",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Trisomia 21: meccanismo più frequente",
+      "testo": "Nella grande maggioranza dei casi la sindrome di Down è dovuta a:",
+      "opzioni": [
+        "una traslocazione robertsoniana che coinvolge il cromosoma 21",
+        "una mutazione puntiforme in un gene del cromosoma 21",
+        "una delezione di parte del braccio lungo del cromosoma 21",
+        "una triploidia che interessa l'intero assetto cromosomico",
+        "una non disgiunzione del cromosoma 21 nella gametogenesi"
+      ],
+      "corretta": 4,
+      "spiegazione": "La forma di gran lunga più comune è la trisomia libera: un gamete porta due copie del cromosoma 21 perché queste non si sono separate durante la gametogenesi, e lo zigote risulta 47,XX,+21 oppure 47,XY,+21. Il rischio aumenta con l'età materna e la condizione non si ripete di regola in famiglia.\n\nA) La forma da traslocazione robertsoniana esiste ed è quella che può ricorrere in famiglia, ma rappresenta una quota minoritaria dei casi; il cariotipo mostra 46 cromosomi, uno dei quali traslocato.\nB) e C) La sindrome dipende dalla dose in eccesso di un intero cromosoma, non dall'alterazione o dalla perdita di una singola porzione di esso.\nD) La triploidia riguarda tutti i cromosomi e non è compatibile con la vita."
+    },
+    {
+      "id": "u4-0108",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Morfologia cromosomica: il cromosoma acrocentrico",
+      "testo": "Un cromosoma nel quale il centromero è situato molto vicino a una delle estremità, così che uno dei due bracci risulta assai ridotto, è detto ……",
+      "accettate": [
+        "acrocentrico",
+        "acrocentrici",
+        "acrocentrica"
+      ],
+      "spiegazione": "Gli acrocentrici del cariotipo umano portano sui bracci corti sequenze ripetute e i geni per gli RNA ribosomiali, presenti in copie multiple: è il motivo per cui la perdita di quei bracci nella traslocazione robertsoniana non dà conseguenze fenotipiche nel portatore.\n\nIl cromosoma metacentrico ha centromero mediano e bracci uguali, il submetacentrico centromero leggermente spostato e bracci di lunghezza diversa ma entrambi ben rappresentati."
+    },
+    {
+      "id": "u4-0109",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Ereditarietà recessiva legata all'X: padre affetto",
+      "testo": "Un uomo affetto da emofilia classica, malattia recessiva legata al cromosoma X, ha figli con una donna che non è portatrice. Ci si attende che:",
+      "opzioni": [
+        "tutte le figlie siano portatrici sane e tutti i maschi siano sani",
+        "tutti i figli maschi siano affetti dalla malattia come il padre",
+        "metà dei figli, di entrambi i sessi, risulti affetta dalla malattia",
+        "nessuno dei figli riceva dal padre l'allele mutato responsabile",
+        "tutte le figlie femmine siano affette dalla malattia come il padre"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il padre ha un solo cromosoma X, che porta l'allele mutato, e lo trasmette a tutte le figlie e a nessun figlio maschio, ai quali passa invece l'Y. Le figlie, ricevendo dalla madre un X sano, sono eterozigoti e quindi portatrici non affette; i maschi ricevono dalla madre l'unico X di cui dispongono e sono sani. La malattia ricomparirà eventualmente nella generazione successiva, nei figli maschi delle figlie portatrici.\n\nB) e D) Il padre non trasmette il proprio X ai figli maschi, che per questo sono indenni; alle figlie invece lo trasmette sempre.\nC) La distribuzione paritaria fra i sessi è tipica delle condizioni autosomiche.\nE) Perché una figlia sia affetta occorre un secondo allele mutato dalla madre, che qui non è portatrice."
+    },
+    {
+      "id": "u4-0110",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Mutazioni insorte ex novo",
+      "testo": "Un allele patogeno presente in un figlio e assente in entrambi i genitori è comparso nei gameti o nello zigote per una mutazione ……",
+      "accettate": [
+        "de novo",
+        "ex novo",
+        "nuova",
+        "insorta de novo"
+      ],
+      "spiegazione": "È la spiegazione tipica di una malattia autosomica dominante grave che compare in una famiglia senza precedenti: l'individuo affetto è il primo portatore e potrà trasmettere l'allele alla propria discendenza con le probabilità ordinarie.\n\nVa distinta dalla mutazione somatica, che insorge dopo lo sviluppo e non è presente in tutte le cellule né trasmissibile, e dalla penetranza incompleta, in cui l'allele era già presente in un genitore che semplicemente non manifestava la malattia."
+    }
+  ]
+}

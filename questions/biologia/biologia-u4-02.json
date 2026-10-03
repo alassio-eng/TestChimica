@@ -1,0 +1,738 @@
+{
+  "lotto": "biologia-u4-02",
+  "unita": "u4",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u4-0051",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Mutazioni geniche e mutazioni cromosomiche",
+      "testo": "Quale fra le seguenti alterazioni NON rientra fra le mutazioni geniche?",
+      "opzioni": [
+        "La traslocazione di un segmento su un cromosoma non omologo",
+        "L'inserzione di due nucleotidi in una regione codificante",
+        "La delezione di un singolo nucleotide da un esone",
+        "L'espansione del numero di triplette ripetute di un gene",
+        "La sostituzione di una base con un'altra all'interno di un codone"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le mutazioni geniche riguardano la sequenza nucleotidica di un singolo gene e non sono visibili al microscopio; le mutazioni cromosomiche interessano invece la struttura o il numero dei cromosomi e si riconoscono nell'analisi del cariotipo. La traslocazione sposta un intero segmento cromosomico, quindi appartiene al secondo gruppo.\n\nE) La sostituzione di una base è la mutazione genica più semplice, quella puntiforme.\nB) e C) Inserzioni e delezioni di pochi nucleotidi restano all'interno della sequenza di un gene e ne alterano il modulo di lettura.\nD) L'espansione di una sequenza ripetuta modifica la lunghezza di un gene, ma non la struttura del cromosoma."
+    },
+    {
+      "id": "u4-0052",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Mutazioni puntiformi",
+      "testo": "Una mutazione che interessa un solo nucleotide della sequenza del DNA è detta mutazione ……",
+      "accettate": [
+        "puntiforme",
+        "puntiformi",
+        "puntuale"
+      ],
+      "spiegazione": "Le mutazioni puntiformi comprendono le sostituzioni di una singola base e le inserzioni o delezioni di un solo nucleotide. L'effetto sul prodotto genico può essere nullo, come nelle mutazioni silenti, oppure devastante, come nelle mutazioni nonsenso e in quelle che spostano il modulo di lettura.\n\nSi contrappongono alle mutazioni che coinvolgono tratti estesi di sequenza o interi cromosomi, come delezioni ampie, duplicazioni e traslocazioni."
+    },
+    {
+      "id": "u4-0053",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Delezioni in fase e fuori fase",
+      "testo": "La delezione di tre nucleotidi consecutivi all'interno di una sequenza codificante:",
+      "opzioni": [
+        "elimina un amminoacido lasciando corretta la lettura a valle",
+        "introduce sempre un codone di stop nel punto della delezione",
+        "sposta il modulo di lettura e altera tutti i codoni successivi",
+        "non ha alcun effetto, perché il codice genetico è degenerato",
+        "trasforma la mutazione in una alterazione cromosomica di struttura"
+      ],
+      "corretta": 0,
+      "spiegazione": "Tre nucleotidi corrispondono esattamente a un codone: la sequenza si accorcia di un amminoacido, ma i codoni successivi restano in fase e vengono tradotti correttamente. È una mutazione in fase, molto meno grave di uno sfasamento, anche se la perdita di quell'unico amminoacido può bastare a compromettere la funzione della proteina.\n\nC) Lo spostamento del modulo di lettura si ha solo quando il numero di nucleotidi coinvolti non è multiplo di tre.\nB) Un codone di stop può comparire per caso, ma non è una conseguenza necessaria della delezione.\nD) La degenerazione del codice riguarda la corrispondenza fra codoni e amminoacidi, non compensa la perdita di un codone intero.\nE) La delezione di tre nucleotidi non è visibile al cariotipo e resta una mutazione genica."
+    },
+    {
+      "id": "u4-0054",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Sostituzioni nucleotidiche: la transversione",
+      "testo": "La sostituzione di una purina con una pirimidina, o di una pirimidina con una purina, è detta ……",
+      "accettate": [
+        "transversione",
+        "trasversione",
+        "transversioni",
+        "trasversioni"
+      ],
+      "spiegazione": "Nella transversione cambia la categoria chimica della base: una base a doppio anello viene rimpiazzata da una a singolo anello o viceversa. Le transversioni sono meno frequenti delle transizioni, che scambiano invece basi della stessa categoria.\n\nIl termine non dice nulla sull'effetto della mutazione: una transversione può risultare silente, missenso o nonsenso a seconda del codone in cui ricade."
+    },
+    {
+      "id": "u4-0055",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Mutazioni spontanee e mutazioni indotte",
+      "testo": "Le mutazioni indotte si distinguono da quelle spontanee perché:",
+      "opzioni": [
+        "riguardano sempre interi cromosomi e non singoli geni",
+        "colpiscono soltanto le cellule della linea germinale",
+        "non possono essere corrette dai sistemi di riparazione del DNA",
+        "si trasmettono alla discendenza, a differenza di quelle spontanee",
+        "derivano dall'esposizione a un agente fisico o chimico esterno"
+      ],
+      "corretta": 4,
+      "spiegazione": "Le mutazioni spontanee derivano da errori della replicazione e da alterazioni chimiche del DNA che avvengono di per sé, con una frequenza bassa e caratteristica; le indotte sono quelle provocate da un agente mutageno, come radiazioni ionizzanti, raggi ultravioletti o sostanze chimiche, che innalza quella frequenza. La distinzione riguarda la causa, non il tipo di lesione né le cellule colpite.\n\nB) Entrambe possono colpire sia cellule somatiche sia cellule germinali.\nA) Un mutageno può produrre sia mutazioni geniche sia rotture e riarrangiamenti cromosomici.\nC) I sistemi di riparazione agiscono sulla lesione, indipendentemente da che cosa l'abbia provocata.\nD) La trasmissibilità dipende dal fatto che la cellula colpita sia germinale o somatica, non dall'origine della mutazione."
+    },
+    {
+      "id": "u4-0056",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Inserzione di nucleotidi",
+      "testo": "L'aggiunta di uno o più nucleotidi all'interno di una sequenza di DNA preesistente si chiama ……",
+      "accettate": [
+        "inserzione",
+        "inserzioni",
+        "addizione"
+      ],
+      "spiegazione": "L'inserzione allunga la sequenza. Se cade in una regione codificante e il numero di nucleotidi aggiunti non è multiplo di tre, sposta il modulo di lettura con conseguenze su tutta la porzione di proteina a valle.\n\nL'operazione opposta è la delezione, che accorcia la sequenza. Entrambe vanno distinte dalla sostituzione, che lascia invariata la lunghezza perché rimpiazza un nucleotide con un altro."
+    },
+    {
+      "id": "u4-0057",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Espansione di triplette: la premutazione",
+      "testo": "Un individuo che porta un allele con un numero di ripetizioni trinucleotidiche superiore alla norma ma inferiore alla soglia patogena:",
+      "opzioni": [
+        "manifesta la malattia in forma attenuata e a esordio tardivo",
+        "è di norma sano, ma può trasmettere un allele ulteriormente espanso",
+        "possiede un allele che tornerà spontaneamente alla lunghezza normale",
+        "presenta un'alterazione visibile all'analisi del cariotipo",
+        "non può in alcun caso avere figli affetti dalla malattia"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'allele in questa condizione intermedia, detto premutazione, non supera la soglia che rende il gene non funzionante, quindi il portatore è di regola clinicamente sano. La ripetizione è però instabile nella trasmissione: nei gameti può espandersi ancora e superare la soglia, generando figli affetti. È il meccanismo che spiega la comparsa improvvisa della malattia in una famiglia fino ad allora indenne.\n\nA) Sotto la soglia patogena il fenotipo classico della malattia non compare.\nE) È vero il contrario: il rischio per la discendenza è proprio la caratteristica della premutazione.\nC) La tendenza prevalente è all'aumento del numero di ripetizioni, non alla sua normalizzazione.\nD) Si tratta di una mutazione genica, non visibile al microscopio."
+    },
+    {
+      "id": "u4-0058",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Agenti mutageni",
+      "testo": "Un agente fisico o chimico capace di aumentare la frequenza delle mutazioni al di sopra del tasso spontaneo è detto ……",
+      "accettate": [
+        "mutageno",
+        "mutageni",
+        "agente mutageno"
+      ],
+      "spiegazione": "Sono mutageni le radiazioni ionizzanti, che provocano rotture dei filamenti, i raggi ultravioletti, che inducono dimeri di pirimidina, e numerose sostanze chimiche, come gli analoghi delle basi e gli agenti intercalanti. Il mutageno non crea tipi di lesione nuovi: aumenta la frequenza di eventi che avvengono comunque.\n\nUn mutageno capace di provocare trasformazione tumorale è detto anche cancerogeno, ma i due termini non coincidono: la cancerogenesi richiede che le mutazioni colpiscano geni che controllano la proliferazione cellulare."
+    },
+    {
+      "id": "u4-0059",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Giunzione delle estremità non omologhe",
+      "testo": "La giunzione delle estremità non omologhe, impiegata per riparare le rotture del doppio filamento:",
+      "opzioni": [
+        "corregge le basi appaiate in modo errato dopo la replicazione",
+        "copia la sequenza mancante da un cromosoma omologo intatto",
+        "rimuove un tratto di filamento contenente una lesione ingombrante",
+        "risalda direttamente le due estremità, con possibile perdita di nucleotidi",
+        "agisce esclusivamente nelle fasi S e G2 del ciclo cellulare"
+      ],
+      "corretta": 3,
+      "spiegazione": "Questo sistema riunisce le due estremità spezzate senza bisogno di una sequenza di riferimento: è rapido e utilizzabile in qualunque fase del ciclo, anche quando il cromatidio fratello non esiste ancora, ma nel rifilare le estremità prima di saldarle può perdere qualche nucleotide. È quindi un meccanismo soggetto a errore, che lascia spesso una piccola delezione nel punto di riparazione.\n\nB) L'uso di una sequenza omologa come stampo è la caratteristica della ricombinazione omologa, cioè dell'altro sistema.\nE) La restrizione alle fasi S e G2 riguarda la ricombinazione omologa, che ha bisogno del cromatidio fratello.\nA) La correzione degli appaiamenti errati è compito della riparazione del mismatch, che interviene su un danno a singolo filamento.\nC) L'asportazione di un tratto di filamento attorno a una lesione è la riparazione per escissione di nucleotidi."
+    },
+    {
+      "id": "u4-0060",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Espansione di sequenze ripetute",
+      "testo": "L'aumento del numero di unità di una sequenza trinucleotidica ripetuta rispetto all'allele normale si chiama …… della ripetizione",
+      "accettate": [
+        "espansione",
+        "espansioni",
+        "amplificazione"
+      ],
+      "spiegazione": "L'espansione si genera per scivolamento della DNA polimerasi sulle sequenze ripetute durante la replicazione: il filamento neosintetizzato può riappaiarsi in posizione sfalsata e aggiungere unità. Il numero di ripetizioni diventa così un carattere instabile, che tende a crescere di generazione in generazione.\n\nL'effetto patogeno compare solo oltre una soglia caratteristica di ciascuna malattia, e la gravità del quadro clinico è correlata al numero di ripetizioni."
+    },
+    {
+      "id": "u4-0061",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Principio generale della riparazione su singolo filamento",
+      "testo": "Il danno che interessa uno solo dei due filamenti del DNA può essere riparato con elevata fedeltà perché:",
+      "opzioni": [
+        "il filamento complementare integro conserva l'informazione e fa da stampo",
+        "la cellula sostituisce l'intero cromosoma con una copia di riserva",
+        "la DNA polimerasi riconosce da sola tutte le basi alterate",
+        "il danno viene eliminato insieme al nucleo durante la mitosi",
+        "le mutazioni su un solo filamento non vengono mai replicate"
+      ],
+      "corretta": 0,
+      "spiegazione": "Tutti i sistemi che agiscono su lesioni di un singolo filamento — riparazione del mismatch, escissione di base, escissione di nucleotidi — condividono la stessa logica: rimuovere il tratto danneggiato e risintetizzarlo copiando il filamento opposto, che è rimasto intatto. Per questo le rotture a doppio filamento, dove quel riferimento manca, sono molto più insidiose.\n\nB) Non esistono copie di riserva dei cromosomi da cui attingere; nelle fasi S e G2 esiste il cromatidio fratello, che però serve alla ricombinazione omologa.\nE) Una lesione non riparata prima della replicazione viene fissata come mutazione in una delle due cellule figlie.\nC) L'attività di correzione della polimerasi intercetta solo una parte degli errori, e agisce durante la sintesi.\nD) Il nucleo non viene eliminato nella mitosi: si disassembla e si ricostituisce, con il DNA che contiene."
+    },
+    {
+      "id": "u4-0062",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Riparazione per escissione di base",
+      "testo": "Il sistema che rimuove una singola base azotata chimicamente alterata, staccandola dallo zucchero e lasciando il filamento in sede, è la riparazione per escissione di ……",
+      "accettate": [
+        "base",
+        "basi",
+        "ber"
+      ],
+      "spiegazione": "Interviene su danni che non deformano la doppia elica, come la deaminazione di una citosina o l'ossidazione di una base: la base alterata viene staccata, lo scheletro zucchero-fosfato resta integro, e il sito privo di base viene poi corretto risintetizzando il nucleotide corretto sul filamento complementare.\n\nSi distingue dall'escissione di nucleotidi, che asporta un intero tratto di filamento e si occupa di lesioni ingombranti come i dimeri di pirimidina, e dalla riparazione del mismatch, che corregge basi normali ma appaiate in modo errato."
+    },
+    {
+      "id": "u4-0063",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Genotipo e fenotipo",
+      "testo": "Due individui che presentano lo stesso fenotipo per un carattere a dominanza completa:",
+      "opzioni": [
+        "producono gameti dello stesso tipo per quel gene",
+        "trasmettono ai figli la stessa probabilità di manifestare il carattere",
+        "possono avere genotipi diversi, uno omozigote e l'altro eterozigote",
+        "sono entrambi eterozigoti, perché il fenotipo è quello dominante",
+        "hanno necessariamente lo stesso genotipo per quel carattere"
+      ],
+      "corretta": 2,
+      "spiegazione": "Con dominanza completa l'omozigote dominante e l'eterozigote sono indistinguibili all'osservazione: lo stesso fenotipo può corrispondere a due genotipi diversi. È proprio il motivo per cui serve il reincrocio di prova per risalire al genotipo.\n\nE) L'identità di fenotipo non implica identità di genotipo: è il caso in cui il genotipo non è deducibile dall'aspetto.\nD) Il fenotipo dominante si osserva sia nell'eterozigote sia nell'omozigote dominante.\nA) L'omozigote produce un solo tipo di gamete, l'eterozigote due tipi in proporzioni uguali.\nB) Le probabilità per la progenie dipendono dal genotipo, che nei due individui può essere diverso."
+    },
+    {
+      "id": "u4-0064",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Zigosi: omozigosi",
+      "testo": "Un individuo che porta sui due cromosomi omologhi due alleli identici dello stesso gene è detto ……",
+      "accettate": [
+        "omozigote",
+        "omozigoti",
+        "omozigota"
+      ],
+      "spiegazione": "L'omozigote produce per quel gene un solo tipo di gamete e trasmette con certezza quell'allele a tutta la progenie. L'omozigote recessivo manifesta sempre il carattere recessivo, perché non ha alcun allele che possa mascherarlo.\n\nL'eterozigote porta invece due alleli diversi e produce due tipi di gameti in proporzioni uguali; l'emizigote possiede una sola copia del gene e non rientra in questa classificazione."
+    },
+    {
+      "id": "u4-0065",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Gameti prodotti da un diibrido",
+      "testo": "Un individuo di genotipo AaBb, con i due geni situati su coppie di omologhi diverse, produce:",
+      "opzioni": [
+        "due soli tipi di gameti, AB e ab, in proporzioni uguali",
+        "otto tipi di gameti, tanti quante sono le combinazioni alleliche",
+        "un solo tipo di gamete, perché gli alleli dominanti prevalgono",
+        "quattro tipi di gameti in proporzioni uguali fra loro",
+        "quattro tipi di gameti, ma con i tipi parentali più frequenti"
+      ],
+      "corretta": 3,
+      "spiegazione": "Ciascuna coppia di omologhi si dispone indipendentemente dall'altra, quindi i due geni si combinano liberamente: i gameti possibili sono AB, Ab, aB e ab, ciascuno in un quarto dei casi. È questa equiprobabilità a produrre il rapporto 9 : 3 : 3 : 1 nella progenie di due diibridi.\n\nA) Due soli tipi di gameti si otterrebbero con associazione completa, cioè con i due geni molto vicini sullo stesso cromosoma.\nE) Lo sbilanciamento a favore dei tipi parentali caratterizza i geni associati, non quelli indipendenti.\nC) L'essere dominante non dà a un allele alcun vantaggio nella formazione dei gameti: la segregazione è imparziale.\nB) Con due geni biallelici le combinazioni possibili sono quattro, non otto."
+    },
+    {
+      "id": "u4-0066",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Il reincrocio di prova",
+      "testo": "L'incrocio fra un individuo di fenotipo dominante e un omozigote recessivo, usato per stabilire il genotipo del primo, si chiama reincrocio di prova, o in inglese ……",
+      "accettate": [
+        "testcross",
+        "test cross",
+        "test-cross",
+        "back cross"
+      ],
+      "spiegazione": "Il partner omozigote recessivo produce un solo tipo di gamete e non contribuisce in alcun modo al fenotipo della progenie: ogni figlio mostra quindi direttamente l'allele ricevuto dall'individuo in esame. Una progenie tutta di fenotipo dominante indica omozigosi, una progenie divisa a metà indica eterozigosi.\n\nLo stesso incrocio serve anche a misurare la frequenza di ricombinazione fra due geni, perché rende leggibili nei fenotipi dei figli i gameti prodotti dal genitore eterozigote."
+    },
+    {
+      "id": "u4-0067",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Incrocio fra diibridi: rapporto fenotipico",
+      "testo": "Dall'incrocio fra due diibridi, per due geni indipendenti ed entrambi a dominanza completa, il rapporto fenotipico atteso nella progenie è:",
+      "opzioni": [
+        "9 : 7",
+        "9 : 3 : 3 : 1",
+        "3 : 1",
+        "1 : 1 : 1 : 1",
+        "1 : 2 : 1"
+      ],
+      "corretta": 1,
+      "spiegazione": "Ciascun carattere, preso da solo, si distribuisce 3 : 1; poiché i due geni sono indipendenti le probabilità si moltiplicano, e le quattro classi fenotipiche risultano nelle proporzioni 9 : 3 : 3 : 1. Nove sedicesimi mostrano entrambi i caratteri dominanti e un sedicesimo entrambi i recessivi.\n\nE) 1 : 2 : 1 è il rapporto genotipico di un incrocio monoibrido, o quello fenotipico in caso di dominanza incompleta.\nC) 3 : 1 è il rapporto fenotipico quando si considera un solo carattere.\nD) 1 : 1 : 1 : 1 è il risultato del reincrocio di prova di un diibrido con un doppio omozigote recessivo.\nA) 9 : 7 è uno dei rapporti atipici che si osservano in presenza di epistasi."
+    },
+    {
+      "id": "u4-0068",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Dominanza incompleta: il fenotipo dell'eterozigote",
+      "testo": "Nella dominanza incompleta il fenotipo dell'eterozigote risulta …… fra quelli dei due omozigoti",
+      "accettate": [
+        "intermedio",
+        "intermedia",
+        "mediano"
+      ],
+      "spiegazione": "L'unico allele funzionante presente nell'eterozigote produce una quantità di prodotto genico insufficiente a dare il fenotipo dell'omozigote dominante: il risultato è una gradazione intermedia. Poiché ciascuno dei tre genotipi ha un aspetto riconoscibile, il rapporto fenotipico fra due eterozigoti diventa 1 : 2 : 1.\n\nNella codominanza, invece, l'eterozigote non è intermedio: entrambi i caratteri si manifestano pienamente e contemporaneamente, come i due antigeni del gruppo AB."
+    },
+    {
+      "id": "u4-0069",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Dominanza incompleta: rapporti nella progenie",
+      "testo": "Incrociando fra loro due individui eterozigoti per un carattere a dominanza incompleta, il rapporto fenotipico atteso nella progenie è:",
+      "opzioni": [
+        "tutta la progenie con fenotipo intermedio",
+        "3 : 1, come in ogni incrocio fra eterozigoti",
+        "1 : 1 fra i due fenotipi parentali",
+        "9 : 3 : 3 : 1 fra le quattro classi possibili",
+        "1 : 2 : 1, con l'eterozigote distinguibile"
+      ],
+      "corretta": 4,
+      "spiegazione": "I genotipi si distribuiscono sempre 1 : 2 : 1, come in qualunque incrocio fra eterozigoti; la differenza è che qui ogni genotipo ha un fenotipo proprio, perché l'eterozigote è riconoscibile a vista. Rapporto genotipico e rapporto fenotipico quindi coincidono.\n\nB) Il 3 : 1 presuppone che l'eterozigote sia indistinguibile dall'omozigote dominante, cioè la dominanza completa.\nA) La progenie tutta intermedia si ottiene incrociando i due omozigoti fra loro, non due eterozigoti.\nC) Il rapporto 1 : 1 è quello del reincrocio di prova, e qui comparirebbe comunque anche la classe intermedia.\nD) Il 9 : 3 : 3 : 1 riguarda due caratteri considerati insieme, non uno solo."
+    },
+    {
+      "id": "u4-0070",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Sistema AB0: rapporti di dominanza",
+      "testo": "Nel sistema AB0 gli alleli A e B sono codominanti fra loro, mentre l'allele 0 nei confronti di entrambi è ……",
+      "accettate": [
+        "recessivo",
+        "recessiva",
+        "recessivi"
+      ],
+      "spiegazione": "L'allele 0 codifica una proteina priva di attività, quindi non aggiunge alcuno zucchero terminale alla sostanza precursore: in presenza di A o di B il suo contributo non si vede. Soltanto il genotipo 00 dà il gruppo 0, mentre A0 è di gruppo A e B0 di gruppo B.\n\nÈ la ragione per cui genitori di gruppo A e B, se entrambi eterozigoti, possono avere un figlio di gruppo 0: ciascuno trasmette l'allele silente che portava nascosto."
+    },
+    {
+      "id": "u4-0071",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Sistema AB0: genotipi",
+      "testo": "Un individuo di gruppo sanguigno 0 ha necessariamente genotipo:",
+      "opzioni": [
+        "A0, perché l'allele 0 è dominante su A",
+        "00, cioè omozigote per l'allele privo di attività",
+        "0 in emizigosi, perché l'allele è presente in copia singola",
+        "B0, perché l'allele 0 maschera l'allele B",
+        "AB, perché i due alleli si annullano a vicenda"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'allele 0 è recessivo rispetto ad A e a B, quindi si manifesta solo quando è l'unico presente: il gruppo 0 corrisponde al solo genotipo 00. Per gli altri gruppi, invece, il genotipo non è deducibile dal fenotipo, perché A e B possono essere in omozigosi o accompagnati dall'allele 0.\n\nA) e D) Invertono il rapporto di dominanza: A0 dà gruppo A e B0 dà gruppo B.\nE) Il genotipo AB corrisponde al gruppo AB, con entrambi gli antigeni espressi per codominanza.\nC) Il gene del sistema AB0 è autosomico e presente in due copie in entrambi i sessi: l'emizigosi non si applica."
+    },
+    {
+      "id": "u4-0072",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Pleiotropia ed eredità poligenica a confronto",
+      "testo": "La situazione opposta alla pleiotropia, in cui molti geni diversi concorrono alla determinazione di un solo carattere, è detta eredità ……",
+      "accettate": [
+        "poligenica",
+        "poligenico",
+        "polifattoriale",
+        "poligenia"
+      ],
+      "spiegazione": "Nella pleiotropia un gene influenza molti caratteri; nell'eredità poligenica molti geni influenzano un carattere. I due fenomeni non si escludono e possono riguardare gli stessi geni, ma descrivono relazioni opposte fra numero di loci e numero di caratteri.\n\nL'eredità poligenica è alla base dei caratteri quantitativi, che mostrano nella popolazione una variazione continua anziché classi fenotipiche distinte."
+    },
+    {
+      "id": "u4-0073",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Pleiotropia: riconoscerla nel quadro clinico",
+      "testo": "In un paziente la mutazione di un unico gene causa insieme anomalie dello scheletro, dislocazione del cristallino e dilatazione dell'aorta. Il fenomeno prende il nome di:",
+      "opzioni": [
+        "eredità poligenica",
+        "epistasi fra geni diversi",
+        "pleiotropia",
+        "espressività variabile",
+        "eterozigosi composta"
+      ],
+      "corretta": 2,
+      "spiegazione": "Un solo gene, il cui prodotto è utilizzato in tessuti e processi diversi, produce con la sua mutazione un quadro clinico composito, con segni che sembrano scollegati fra loro. È la definizione di pleiotropia, e spiega perché molte malattie genetiche sono sindromi e non alterazioni di un solo organo.\n\nB) L'epistasi richiede l'interazione fra due geni diversi nel determinare un unico carattere.\nA) Nell'eredità poligenica il rapporto è rovesciato: molti geni per un solo carattere.\nD) L'espressività variabile riguarda la diversa gravità dello stesso quadro in individui diversi, non la molteplicità dei segni in uno stesso paziente.\nE) L'eterozigosi composta descrive la natura dei due alleli presenti, non gli effetti del gene."
+    },
+    {
+      "id": "u4-0074",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Epistasi: gene epistatico e gene ipostatico",
+      "testo": "Nell'interazione fra due geni, quello che impedisce la manifestazione dell'effetto dell'altro è detto gene ……",
+      "accettate": [
+        "epistatico",
+        "epistatica",
+        "epistatici"
+      ],
+      "spiegazione": "Il gene epistatico sta a monte, o comunque in posizione tale da condizionare il risultato finale: se il suo prodotto manca, il carattere non compare qualunque sia l'assetto allelico dell'altro gene. Quello mascherato è detto ipostatico.\n\nLa coppia di termini descrive un rapporto fra loci diversi e non va confusa con dominanza e recessività, che riguardano due alleli dello stesso locus."
+    },
+    {
+      "id": "u4-0075",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Rapporti mendeliani atipici",
+      "testo": "In un incrocio fra due diibridi si osserva un rapporto fenotipico 9 : 7 invece del classico 9 : 3 : 3 : 1. Il dato indica:",
+      "opzioni": [
+        "un'interazione epistatica fra i due geni considerati",
+        "la presenza di un allele letale in condizione di omozigosi",
+        "che i due geni sono associati sullo stesso cromosoma",
+        "dominanza incompleta per entrambi i caratteri considerati",
+        "un errore di conteggio, perché il totale non è di sedici parti"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il 9 : 7 è un 9 : 3 : 3 : 1 in cui tre classi fenotipiche sono diventate indistinguibili: serve il prodotto funzionante di entrambi i geni perché il carattere si manifesti, e la mancanza dell'uno o dell'altro dà lo stesso risultato. Il totale resta di sedici parti, che è la firma dell'interazione fra due geni indipendenti.\n\nD) La dominanza incompleta aumenterebbe il numero di classi distinguibili, non lo ridurrebbe.\nC) L'associazione altera le proporzioni fra parentali e ricombinanti e non restituisce un totale di sedici parti ripartito così.\nB) Un allele letale fa mancare una classe di genotipi e porta tipicamente al rapporto 2 : 1 su un solo carattere.\nE) Nove più sette fa esattamente sedici: il conteggio è coerente."
+    },
+    {
+      "id": "u4-0076",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Crossing over",
+      "testo": "Lo scambio reciproco di segmenti corrispondenti fra cromatidi di cromosomi omologhi, che separa alleli di geni associati, si chiama ……",
+      "accettate": [
+        "crossing over",
+        "crossing-over",
+        "crossingover",
+        "sovrincrociamento"
+      ],
+      "spiegazione": "Il crossing over genera i cromosomi ricombinanti, che portano combinazioni alleliche diverse da quelle presenti nei genitori. La probabilità che avvenga fra due geni aumenta con la distanza che li separa, ed è questo che consente di tradurre la frequenza di ricombinazione in distanza di mappa.\n\nSenza crossing over i geni di uno stesso cromosoma verrebbero trasmessi sempre in blocco, e l'unico rimescolamento possibile sarebbe quello fra cromosomi diversi."
+    },
+    {
+      "id": "u4-0077",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Geni associati",
+      "testo": "Due geni situati vicini sullo stesso cromosoma:",
+      "opzioni": [
+        "danno nella progenie il 50% di combinazioni ricombinanti",
+        "si assortiscono in modo indipendente, come tutti gli altri geni",
+        "tendono a essere trasmessi insieme, con meno del 50% di ricombinanti",
+        "non possono mai essere separati l'uno dall'altro",
+        "si trovano necessariamente sullo stesso cromatidio dopo la replicazione"
+      ],
+      "corretta": 2,
+      "spiegazione": "Geni vicini appartengono allo stesso gruppo di associazione: solo un crossing over che cada nel tratto compreso fra loro può separarli, e la probabilità che ciò accada è tanto minore quanto minore è la distanza. Nella progenie le combinazioni parentali risultano quindi più numerose delle ricombinanti, e la frequenza di queste ultime resta sotto il 50%.\n\nB) e A) L'assortimento indipendente e il 50% di ricombinanti sono proprio ciò che l'associazione impedisce di osservare.\nD) L'associazione è quasi sempre incompleta: il crossing over separa i due geni in una quota di gameti.\nE) Dopo la replicazione ogni cromosoma ha due cromatidi, e i due geni si trovano su entrambi: l'affermazione non ha a che fare con l'associazione."
+    },
+    {
+      "id": "u4-0078",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Mappe fisiche e mappe genetiche",
+      "testo": "La mappa che indica la posizione dei geni e le loro distanze in numero di paia di basi, ricavata dal sequenziamento del DNA, è detta mappa ……",
+      "accettate": [
+        "fisica",
+        "fisiche"
+      ],
+      "spiegazione": "La mappa fisica misura distanze reali sulla molecola; la mappa genetica, costruita sulle frequenze di ricombinazione, misura distanze espresse in unità di mappa, cioè in centimorgan.\n\nLe due mappe concordano sull'ordine dei geni ma non sono proporzionali fra loro: il crossing over non avviene con uguale frequenza lungo tutto il cromosoma, perciò la stessa distanza in paia di basi può corrispondere a distanze genetiche diverse a seconda della regione."
+    },
+    {
+      "id": "u4-0079",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Penetranza incompleta nell'albero genealogico",
+      "testo": "In una famiglia con una malattia autosomica dominante, un uomo clinicamente sano ha il padre affetto e un figlio affetto. La spiegazione più plausibile è:",
+      "opzioni": [
+        "la malattia è in realtà a trasmissione autosomica recessiva",
+        "l'uomo sano porta l'allele mutato ma la penetranza è incompleta",
+        "il figlio ha acquisito la malattia per una mutazione somatica",
+        "l'allele è sottoposto a imprinting di origine paterna",
+        "nel figlio l'allele è comparso per una nuova mutazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'allele ha attraversato tre generazioni per linea verticale: l'uomo sano l'ha quasi certamente ricevuto dal padre e trasmesso al figlio, pur non manifestando la malattia. Quando un portatore non esprime il fenotipo si parla di penetranza incompleta, ed è il motivo per cui una dominante può sembrare saltare una generazione.\n\nA) Una recessiva richiederebbe che anche la madre fosse portatrice e non spiegherebbe la presenza della malattia nel nonno paterno.\nC) Una mutazione somatica non è ereditaria e non spiega un carattere familiare già presente nella generazione precedente.\nE) Una mutazione nuova nel figlio sarebbe una coincidenza improbabile in una famiglia in cui l'allele è già presente.\nD) L'imprinting prevede una regola fissa legata al sesso del genitore trasmettente, che qui non si osserva: il nonno affetto ha trasmesso l'allele a un figlio maschio sano."
+    },
+    {
+      "id": "u4-0080",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Penetranza ridotta",
+      "testo": "Se soltanto 60 portatori su 100 di un allele patogeno ne manifestano il fenotipo, si dice che la penetranza di quell'allele è ……",
+      "accettate": [
+        "incompleta",
+        "ridotta",
+        "parziale",
+        "bassa"
+      ],
+      "spiegazione": "La penetranza si misura come percentuale di portatori che esprimono il fenotipo: in questo caso vale il 60%. Quando è inferiore al 100% la malattia può non comparire in alcuni portatori, che restano comunque in grado di trasmettere l'allele.\n\nNon va confusa con l'espressività, che descrive quanto gravemente il fenotipo si manifesta in chi lo esprime: un allele può avere penetranza completa ed espressività molto variabile, o viceversa."
+    },
+    {
+      "id": "u4-0081",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Riconoscere un carattere poligenico",
+      "testo": "Quale fra i seguenti è un carattere a determinazione poligenica?",
+      "opzioni": [
+        "L'albinismo oculocutaneo",
+        "Il colore della pelle nell'uomo",
+        "L'emofilia classica",
+        "La fibrosi cistica",
+        "Il gruppo sanguigno del sistema AB0"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il colore della pelle dipende dall'effetto additivo di molti geni che regolano la produzione e la distribuzione della melanina, ed è inoltre influenzato dall'ambiente: ne risulta una variazione continua, senza classi separate. È il prototipo del carattere quantitativo nell'uomo.\n\nE) Il sistema AB0 dipende da un solo gene con tre alleli: è poliallelia, e le classi fenotipiche sono quattro e ben distinte.\nD) e A) Fibrosi cistica e albinismo sono condizioni monogeniche autosomiche recessive, con fenotipo presente o assente.\nC) L'emofilia classica è una condizione monogenica recessiva legata al cromosoma X."
+    },
+    {
+      "id": "u4-0082",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Eredità quantitativa: effetto dei singoli geni",
+      "testo": "Nei caratteri quantitativi il contributo di ciascuno dei geni coinvolti si somma a quello degli altri: per questo si parla di effetto ……",
+      "accettate": [
+        "additivo",
+        "additiva",
+        "additivi",
+        "sommatorio"
+      ],
+      "spiegazione": "Ogni allele cosiddetto additivo sposta il valore del carattere di una piccola quantità, sempre nella stessa direzione: il fenotipo finale dipende da quanti ne possiede l'individuo, non da quali. Con molti loci in gioco le classi diventano numerose e ravvicinate, e la distribuzione nella popolazione assume l'andamento a campana.\n\nÈ un modello diverso da quello della dominanza, dove un singolo allele basta a determinare il fenotipo e gli alleli non si sommano fra loro."
+    },
+    {
+      "id": "u4-0083",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Imprinting genomico: effetto dell'origine parentale",
+      "testo": "Una delezione della stessa regione cromosomica provoca due quadri clinici completamente diversi a seconda che il cromosoma portatore della delezione sia di origine paterna o materna. Il fenomeno che lo spiega è:",
+      "opzioni": [
+        "la penetranza incompleta della delezione",
+        "la non disgiunzione avvenuta nella gametogenesi",
+        "l'imprinting genomico dei geni di quella regione",
+        "l'eterozigosi composta per i geni deleti",
+        "l'anticipazione nelle generazioni successive"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nelle regioni sottoposte a imprinting una delle due copie dei geni è normalmente silenziata in base all'origine parentale. Se viene a mancare proprio la copia attiva, il gene non è più espresso; se viene a mancare quella già silente, non cambia nulla per quel gene ma può cambiare per quelli vicini con imprinting opposto. Lo stesso difetto produce quindi conseguenze diverse secondo il genitore di provenienza.\n\nA) La penetranza incompleta spiegherebbe perché alcuni portatori non sono malati, non perché due quadri clinici siano diversi.\nE) L'anticipazione riguarda l'età di esordio e la gravità lungo le generazioni, non l'origine parentale.\nD) L'eterozigosi composta presuppone due alleli mutati diversi, non una delezione su un solo omologo.\nB) La non disgiunzione produce alterazioni del numero di cromosomi, non delezioni di una regione."
+    },
+    {
+      "id": "u4-0084",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Definizione di cariotipo",
+      "testo": "L'insieme dei cromosomi di una cellula, ordinati e classificati per numero, dimensione e posizione del centromero, costituisce il ……",
+      "accettate": [
+        "cariotipo",
+        "cariotipi"
+      ],
+      "spiegazione": "Il cariotipo si allestisce su cellule bloccate in metafase, quando i cromosomi sono massimamente condensati e riconoscibili, e si completa con il bandeggio, che permette di identificare le singole coppie e le alterazioni di struttura.\n\nÈ lo strumento con cui si diagnosticano le alterazioni del numero e della struttura dei cromosomi; le mutazioni geniche, che riguardano pochi nucleotidi, non vi sono visibili."
+    },
+    {
+      "id": "u4-0085",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Autosomi ed eterocromosomi",
+      "testo": "Nel cariotipo umano, le 22 coppie di cromosomi presenti in modo identico nei due sessi sono dette:",
+      "opzioni": [
+        "acrocentrici",
+        "cromatidi",
+        "eterocromosomi",
+        "omologhi",
+        "autosomi"
+      ],
+      "corretta": 4,
+      "spiegazione": "Gli autosomi sono i cromosomi non sessuali: nell'uomo sono 44, raggruppati in 22 coppie uguali nel maschio e nella femmina. I restanti due sono i cromosomi sessuali, XX nella femmina e XY nel maschio.\n\nB) I cromatidi sono le due copie unite al centromero di cui ogni cromosoma è formato dopo la replicazione.\nC) Eterocromosomi è un sinonimo di cromosomi sessuali, cioè esattamente della coppia esclusa dal conteggio.\nD) Omologhi indica i due membri di una qualsiasi coppia, anche quella dei sessuali nella femmina: non distingue gli autosomi.\nA) Acrocentrici sono i cromosomi con centromero quasi terminale, solo alcuni fra gli autosomi umani."
+    },
+    {
+      "id": "u4-0086",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Euploidia",
+      "testo": "Una cellula il cui numero di cromosomi è un multiplo esatto del corredo aploide della specie è detta ……",
+      "accettate": [
+        "euploide",
+        "euploidi",
+        "euploidia"
+      ],
+      "spiegazione": "Sono euploidi le cellule aploidi (n), come i gameti, quelle diploidi (2n), come le cellule somatiche umane, e anche quelle poliploidi (3n, 4n), in cui il corredo completo è presente in più di due copie. Ciò che conta è che nessun cromosoma sia in eccesso o in difetto rispetto agli altri.\n\nL'aneuploidia è la condizione opposta: il numero totale non è più un multiplo di n perché mancano o sovrabbondano singoli cromosomi, come nelle monosomie e nelle trisomie."
+    },
+    {
+      "id": "u4-0087",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Monosomia",
+      "testo": "Un individuo il cui cariotipo è 45,X presenta:",
+      "opzioni": [
+        "un cariotipo maschile del tutto normale",
+        "un assetto triploide del corredo cromosomico",
+        "una trisomia dei cromosomi sessuali",
+        "una traslocazione fra i due cromosomi sessuali",
+        "una monosomia del cromosoma X"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il totale è 45 anziché 46 e la formula riporta un solo cromosoma sessuale: le 22 coppie di autosomi sono complete, mentre dei due cromosomi sessuali attesi ne è presente uno solo. Un singolo cromosoma al posto di una coppia è per definizione una monosomia, quindi un'aneuploidia.\n\nC) Nella trisomia il cromosoma sarebbe in tre copie e il totale sarebbe 47.\nB) Un assetto triploide avrebbe 69 cromosomi, cioè tre corredi aploidi completi.\nA) Il cariotipo maschile normale è 46,XY e comprende un cromosoma Y, qui assente.\nD) Una traslocazione non modifica il numero totale di cromosomi in questo modo, e la formula non ne riporta alcuna."
+    },
+    {
+      "id": "u4-0088",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Alterazioni di struttura: la delezione",
+      "testo": "La perdita di un segmento di cromosoma, con tutti i geni in esso contenuti, si chiama ……",
+      "accettate": [
+        "delezione",
+        "delezioni",
+        "deleto"
+      ],
+      "spiegazione": "La delezione comporta perdita definitiva di materiale genetico: l'individuo resta con una sola copia funzionante dei geni di quel tratto, e il fenotipo è tanto più grave quanto più ampio è il segmento perduto. Può essere terminale, se riguarda l'estremità, o interstiziale, se il segmento perduto è interno.\n\nSi distingue dalla duplicazione, che aggiunge una copia di un segmento, e dall'inversione, che non comporta né perdita né acquisto di materiale."
+    },
+    {
+      "id": "u4-0089",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Conseguenze della non disgiunzione sui gameti",
+      "testo": "Quando durante la gametogenesi avviene una non disgiunzione, dalla cellula interessata si originano:",
+      "opzioni": [
+        "gameti con un cromosoma in più e gameti con uno in meno",
+        "gameti contenenti ciascuno il doppio dei cromosomi",
+        "soltanto gameti con un cromosoma in più del normale",
+        "gameti privi di qualunque cromosoma sessuale",
+        "gameti con cromosomi strutturalmente riarrangiati"
+      ],
+      "corretta": 0,
+      "spiegazione": "I due elementi che non si separano finiscono entrambi nella stessa cellula figlia, che risulta in eccesso di un cromosoma, mentre l'altra ne resta priva. Dalla fecondazione di questi gameti derivano rispettivamente zigoti trisomici e zigoti monosomici, con le monosomie autosomiche quasi sempre incompatibili con lo sviluppo.\n\nC) L'eccesso in una cellula comporta necessariamente il difetto nell'altra: i due esiti sono complementari.\nB) Il raddoppio dell'intero corredo è un meccanismo diverso e porta a poliploidia, non ad aneuploidia.\nD) La non disgiunzione può riguardare qualunque coppia di cromosomi, non solo quella dei sessuali.\nE) La struttura dei cromosomi non viene alterata: a essere sbagliata è la loro ripartizione."
+    },
+    {
+      "id": "u4-0090",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Trisomia",
+      "testo": "La presenza di tre copie di un singolo cromosoma invece delle due attese si chiama ……",
+      "accettate": [
+        "trisomia",
+        "trisomie",
+        "trisomico"
+      ],
+      "spiegazione": "La trisomia è l'aneuploidia più frequente fra i nati vivi, perché un cromosoma in eccesso è in genere meglio tollerato di uno mancante. Deriva per lo più da una non disgiunzione avvenuta nella formazione dei gameti.\n\nLa condizione opposta, con un solo cromosoma al posto della coppia, è la monosomia. Entrambe vanno distinte dalla poliploidia, in cui a essere moltiplicato è l'intero assetto cromosomico."
+    },
+    {
+      "id": "u4-0091",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Traslocazione reciproca",
+      "testo": "Nella traslocazione reciproca:",
+      "opzioni": [
+        "un intero cromosoma risulta presente in tre copie invece che in due",
+        "un segmento di cromosoma viene perduto insieme ai geni che contiene",
+        "un segmento viene ruotato di 180° e reinserito nella stessa posizione",
+        "due cromosomi non omologhi si scambiano segmenti, senza perdita di materiale",
+        "due cromosomi acrocentrici si fondono perdendo i rispettivi bracci corti"
+      ],
+      "corretta": 3,
+      "spiegazione": "Due cromosomi non omologhi si spezzano e si scambiano i frammenti: la quantità complessiva di materiale genetico resta invariata e il portatore è di norma sano, perché nessun gene manca e nessuno è in eccesso. Il rischio è per la discendenza, dato che la segregazione dei cromosomi traslocati può produrre gameti sbilanciati.\n\nB) La perdita di un segmento è la delezione.\nE) La fusione di due acrocentrici con perdita dei bracci corti è la traslocazione robertsoniana, che riduce a 45 il numero dei cromosomi.\nC) La rotazione di un segmento all'interno dello stesso cromosoma è l'inversione.\nA) La presenza di un cromosoma in tre copie è la trisomia, un'alterazione del numero e non della struttura."
+    },
+    {
+      "id": "u4-0092",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Alberi genealogici: i simboli",
+      "testo": "Nella rappresentazione convenzionale di un albero genealogico i maschi si indicano con un quadrato e le femmine con un ……",
+      "accettate": [
+        "cerchio",
+        "cerchi",
+        "circolo",
+        "tondo"
+      ],
+      "spiegazione": "I simboli pieni indicano gli individui affetti, quelli vuoti i soggetti sani; una linea orizzontale unisce i partner, una linea verticale li collega alla progenie, e le generazioni si numerano con numeri romani. Il punto all'interno del simbolo si usa, quando serve, per segnalare gli eterozigoti portatori.\n\nLa convenzione è indispensabile perché l'albero sia leggibile da chiunque: è dalla distribuzione dei simboli pieni fra i due sessi e fra le generazioni che si deduce il tipo di trasmissione."
+    },
+    {
+      "id": "u4-0093",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Alterazioni di struttura: la duplicazione",
+      "testo": "Un segmento cromosomico che risulta presente due volte di seguito sullo stesso cromosoma costituisce:",
+      "opzioni": [
+        "una delezione interstiziale",
+        "una traslocazione robertsoniana",
+        "una monosomia parziale del cromosoma",
+        "una duplicazione in tandem",
+        "un'inversione paracentrica del segmento stesso"
+      ],
+      "corretta": 3,
+      "spiegazione": "La duplicazione aggiunge una copia di un tratto cromosomico, e quando la copia si trova subito accanto all'originale si parla di duplicazione in tandem. L'individuo ha quindi tre dosi dei geni compresi in quel tratto invece di due, e lo squilibrio di dosaggio può avere conseguenze fenotipiche.\n\nE) L'inversione cambia l'orientamento di un segmento senza aggiungerne copie.\nA) e C) La delezione interstiziale toglie un segmento interno, e la perdita di una delle due copie di una regione è una monosomia parziale: in entrambi i casi il materiale diminuisce, non aumenta.\nB) La traslocazione robertsoniana coinvolge due cromosomi acrocentrici distinti, non un segmento ripetuto."
+    },
+    {
+      "id": "u4-0094",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Malattie recessive: definizione",
+      "testo": "Una malattia che si manifesta soltanto nell'individuo omozigote, mentre l'eterozigote resta sano, è detta ……",
+      "accettate": [
+        "recessiva",
+        "recessive",
+        "recessivo"
+      ],
+      "spiegazione": "Nell'eterozigote l'allele selvatico presente sull'altro omologo produce abbastanza prodotto genico da garantire la funzione: il fenotipo patologico compare solo quando entrambi gli alleli sono mutati, in omozigosi o in eterozigosi composta.\n\nNelle malattie dominanti, al contrario, un solo allele mutato basta a determinare la malattia, e l'albero genealogico mostra affetti in ogni generazione invece che in una sola."
+    },
+    {
+      "id": "u4-0095",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Ereditarietà autosomica dominante: calcolo del rischio",
+      "testo": "Un uomo affetto da una malattia autosomica dominante ed eterozigote per l'allele responsabile ha figli con una donna sana. La probabilità che ciascun figlio sia affetto è:",
+      "opzioni": [
+        "25%",
+        "75%",
+        "50%",
+        "100%",
+        "0% per le femmine e 50% per i maschi"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'uomo eterozigote produce metà gameti con l'allele mutato e metà con quello selvatico; la madre, omozigote sana, trasmette sempre l'allele selvatico. Ogni figlio ha quindi una probabilità su due di ricevere l'allele mutato e, con penetranza completa, di essere affetto. Il calcolo vale a ogni gravidanza e per entrambi i sessi.\n\nA) Il 25% è il rischio tipico dell'incrocio fra due portatori per una malattia recessiva.\nB) Il 75% è la quota di progenie con fenotipo dominante nell'incrocio fra due eterozigoti, situazione diversa da questa.\nD) Il 100% si avrebbe se il genitore affetto fosse omozigote per l'allele mutato.\nE) La differenza fra i sessi caratterizza le malattie legate ai cromosomi sessuali, non quelle autosomiche."
+    },
+    {
+      "id": "u4-0096",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Emizigosi nel maschio",
+      "testo": "Il maschio, che per i geni della regione specifica del cromosoma X possiede un solo allele anziché due, è detto ……",
+      "accettate": [
+        "emizigote",
+        "emizigoti",
+        "emizigota"
+      ],
+      "spiegazione": "Non avendo un secondo allele, il maschio esprime comunque l'unico che possiede: un allele recessivo mutato sull'X si manifesta quindi nel maschio anche se in una femmina, nella stessa condizione di eterozigosi, resterebbe silente. È la ragione per cui le malattie recessive legate all'X colpiscono soprattutto i maschi.\n\nI termini omozigote ed eterozigote presuppongono due copie del gene e non si applicano a questa situazione."
+    },
+    {
+      "id": "u4-0097",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Ereditarietà recessiva legata all'X: rischio per la progenie",
+      "testo": "Una donna portatrice sana di una malattia recessiva legata al cromosoma X ha figli con un uomo sano. Rispetto a questa malattia:",
+      "opzioni": [
+        "tutti i figli maschi saranno affetti e tutte le figlie portatrici",
+        "la probabilità di essere affetti sarà del 25% per entrambi i sessi",
+        "nessun figlio potrà essere affetto, perché il padre è sano",
+        "ciascun figlio maschio avrà il 50% di probabilità di essere affetto",
+        "le figlie femmine avranno il 50% di probabilità di essere affette"
+      ],
+      "corretta": 3,
+      "spiegazione": "La madre trasmette a caso uno dei suoi due cromosomi X: metà dei figli maschi riceve quello mutato e, essendo emizigote, risulta affetto. Le figlie ricevono in ogni caso l'X sano del padre, quindi nessuna è affetta, ma metà di loro è portatrice come la madre.\n\nA) L'allele mutato è presente su uno solo dei due X materni: i maschi colpiti sono la metà, non tutti.\nC) Il padre sano non protegge i figli maschi, ai quali trasmette il cromosoma Y e non un X normale.\nE) Perché una figlia sia affetta servirebbe un allele mutato anche dal padre, che qui è sano.\nB) Il 25% si riferisce alla probabilità calcolata sull'insieme dei figli di entrambi i sessi, non al rischio del singolo figlio maschio, che è del 50%."
+    },
+    {
+      "id": "u4-0098",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Ereditarietà legata al cromosoma Y",
+      "testo": "L'ereditarietà dei geni della regione specifica del cromosoma Y, che passano dal padre a tutti i figli maschi e a nessuna figlia, è detta ……",
+      "accettate": [
+        "oloandrica",
+        "olandrica",
+        "oloandrico",
+        "olandrico"
+      ],
+      "spiegazione": "Nell'albero genealogico questo tipo di trasmissione si riconosce immediatamente: gli affetti sono tutti e soli i maschi di una stessa linea paterna, generazione dopo generazione, senza alcuna femmina coinvolta nemmeno come portatrice.\n\nÈ l'opposto speculare dell'ereditarietà mitocondriale, che segue le sole linee femminili perché i mitocondri dello zigote provengono dalla cellula uovo."
+    },
+    {
+      "id": "u4-0099",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Ereditarietà dominante legata all'X: la madre affetta",
+      "testo": "Una donna affetta ed eterozigote per una malattia dominante legata al cromosoma X ha figli con un uomo sano. Ci si attende che:",
+      "opzioni": [
+        "nessun figlio risulti affetto, perché il padre è sano",
+        "siano affette solo le figlie che ereditano anche l'X paterno",
+        "siano affetti tutti i figli maschi e nessuna figlia femmina",
+        "siano affette tutte le figlie femmine e nessun figlio maschio",
+        "sia affetta la metà dei figli, maschi e femmine indifferentemente"
+      ],
+      "corretta": 4,
+      "spiegazione": "La madre eterozigote trasmette a caso l'X mutato o l'X normale, e lo fa con la stessa probabilità ai figli di entrambi i sessi: chi riceve l'allele dominante si ammala, maschio o femmina che sia. Il rischio è quindi del 50% per ogni figlio, senza differenze fra i sessi. La trasmissione da madre affetta è l'unico caso in cui una dominante legata all'X si comporta all'apparenza come una dominante autosomica.\n\nD) e C) La trasmissione esclusiva a un solo sesso si osserva quando è il padre a essere affetto: lui trasmette l'unico X a tutte le figlie e l'Y a tutti i maschi.\nA) Il padre sano non impedisce nulla: l'allele patogeno viene dalla madre.\nB) Ogni figlia riceve comunque l'X paterno, essendo l'unico che il padre possiede: la condizione enunciata non seleziona nessuno."
+    },
+    {
+      "id": "u4-0100",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Eteroplasmia",
+      "testo": "La coesistenza, nella stessa cellula, di mitocondri con DNA normale e di mitocondri con DNA mutato si chiama ……",
+      "accettate": [
+        "eteroplasmia",
+        "eteroplasmica",
+        "eteroplasia"
+      ],
+      "spiegazione": "Ogni cellula contiene molte copie di DNA mitocondriale, che si ripartiscono a caso fra le cellule figlie: la proporzione di genomi mutati può quindi variare da cellula a cellula e da tessuto a tessuto. La malattia si manifesta solo dove la quota di mitocondri mutati supera una soglia critica, e questo spiega la gravità molto variabile fra fratelli nati dalla stessa madre.\n\nLa condizione in cui tutte le copie sono identiche fra loro, mutate o normali, è detta omoplasmia."
+    }
+  ]
+}

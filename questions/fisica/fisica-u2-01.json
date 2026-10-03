@@ -11,13 +11,13 @@
       "testo": "Nel grafico spazio-tempo di un moto rettilineo uniforme, la pendenza della retta rappresenta:",
       "opzioni": [
         "la velocità",
-        "l'accelerazione",
         "lo spazio percorso",
         "il tempo impiegato",
-        "la quantità di moto"
+        "la quantità di moto",
+        "l'accelerazione"
       ],
       "corretta": 0,
-      "spiegazione": "La pendenza di un grafico è il rapporto fra la variazione della grandezza in ordinata e quella della grandezza in ascissa: qui Δs/Δt, cioè la velocità. Nel moto rettilineo uniforme la velocità è costante e la retta ha pendenza costante.\n\nB) L'accelerazione è la pendenza del grafico velocità-tempo, non di quello spazio-tempo; nel moto uniforme vale zero.\nC) Lo spazio percorso si legge sull'asse delle ordinate, come differenza fra due valori.\nD) Il tempo si legge sull'asse delle ascisse.\nE) La quantità di moto non compare in un grafico cinematico: richiede di conoscere anche la massa."
+      "spiegazione": "La pendenza di un grafico è il rapporto fra la variazione della grandezza in ordinata e quella della grandezza in ascissa: qui Δs/Δt, cioè la velocità. Nel moto rettilineo uniforme la velocità è costante e la retta ha pendenza costante.\n\nE) L'accelerazione è la pendenza del grafico velocità-tempo, non di quello spazio-tempo; nel moto uniforme vale zero.\nB) Lo spazio percorso si legge sull'asse delle ordinate, come differenza fra due valori.\nC) Il tempo si legge sull'asse delle ascisse.\nD) La quantità di moto non compare in un grafico cinematico: richiede di conoscere anche la massa."
     },
     {
       "id": "u2-0002",
@@ -38,14 +38,14 @@
       "argomento": "Moto uniformemente accelerato",
       "testo": "Un corpo parte da fermo e si muove con accelerazione costante di 2 m/s². Lo spazio percorso dopo 5 s vale:",
       "opzioni": [
-        "10 m",
         "25 m",
         "50 m",
+        "10 m",
         "5 m",
         "12,5 m"
       ],
-      "corretta": 1,
-      "spiegazione": "Con partenza da fermo vale s = ½ a t² = ½ × 2 × 5² = 25 m.\n\nA) 10 m è il valore di a·t, cioè la velocità raggiunta dopo 5 s, espressa in m/s.\nC) 50 m si ottiene da a·t², dimenticando il fattore ½.\nD) 5 m si ottiene da ½·a·t, elevando al quadrato il tempo solo a metà del calcolo.\nE) 12,5 m si ottiene da ½·t², cioè trascurando l'accelerazione."
+      "corretta": 0,
+      "spiegazione": "Con partenza da fermo vale s = ½ a t² = ½ × 2 × 5² = 25 m.\n\nC) 10 m è il valore di a·t, cioè la velocità raggiunta dopo 5 s, espressa in m/s.\nB) 50 m si ottiene da a·t², dimenticando il fattore ½.\nD) 5 m si ottiene da ½·a·t, elevando al quadrato il tempo solo a metà del calcolo.\nE) 12,5 m si ottiene da ½·t², cioè trascurando l'accelerazione."
     },
     {
       "id": "u2-0004",
@@ -65,14 +65,14 @@
       "argomento": "Caduta libera: velocità",
       "testo": "Un sasso viene lasciato cadere da fermo. Trascurando la resistenza dell'aria e assumendo g = 9,8 m/s², dopo 3 s la sua velocità vale:",
       "opzioni": [
-        "3 m/s",
         "9,8 m/s",
-        "29,4 m/s",
+        "3 m/s",
         "44,1 m/s",
-        "88,2 m/s"
+        "88,2 m/s",
+        "29,4 m/s"
       ],
-      "corretta": 2,
-      "spiegazione": "Nella caduta libera da fermo la velocità cresce linearmente nel tempo: v = g t = 9,8 × 3 = 29,4 m/s.\n\nA) 3 m/s ripete il valore del tempo.\nB) 9,8 m/s è il valore di g, cioè la velocità acquistata dopo un solo secondo.\nD) 44,1 è il valore di ½ g t², cioè lo spazio percorso in metri, non la velocità.\nE) 88,2 è g t², il doppio dello spazio percorso: nasce dal dimenticare il fattore ½ e dallo scambiare le due formule."
+      "corretta": 4,
+      "spiegazione": "Nella caduta libera da fermo la velocità cresce linearmente nel tempo: v = g t = 9,8 × 3 = 29,4 m/s.\n\nB) 3 m/s ripete il valore del tempo.\nA) 9,8 m/s è il valore di g, cioè la velocità acquistata dopo un solo secondo.\nC) 44,1 è il valore di ½ g t², cioè lo spazio percorso in metri, non la velocità.\nD) 88,2 è g t², il doppio dello spazio percorso: nasce dal dimenticare il fattore ½ e dallo scambiare le due formule."
     },
     {
       "id": "u2-0006",
@@ -93,13 +93,13 @@
       "testo": "Nel vuoto, una piuma e una sfera di piombo vengono lasciate cadere nello stesso istante dalla stessa quota:",
       "opzioni": [
         "arriva prima la sfera, perché ha massa maggiore",
-        "arriva prima la piuma, perché è più leggera",
-        "arrivano insieme solo se hanno lo stesso volume",
         "arrivano al suolo nello stesso istante",
-        "arriva prima la sfera solo se la quota è elevata"
+        "arrivano insieme solo se hanno lo stesso volume",
+        "arriva prima la sfera solo se la quota è elevata",
+        "arriva prima la piuma, perché è più leggera"
       ],
-      "corretta": 3,
-      "spiegazione": "Nel vuoto l'unica forza è il peso, P = m g, e l'accelerazione vale a = P/m = g per qualunque massa: la massa maggiore è compensata esattamente dalla maggiore inerzia. I due corpi cadono con la stessa legge oraria e toccano terra insieme.\n\nA) La massa maggiore comporta un peso maggiore, ma anche un'inerzia maggiore: i due effetti si cancellano.\nB) In aria la piuma è rallentata dall'attrito, ma nel vuoto l'attrito non c'è e la leggerezza non dà alcun vantaggio.\nC) Nel vuoto il volume e la forma non hanno alcun ruolo, perché non c'è mezzo che opponga resistenza.\nE) L'altezza di caduta è la stessa per entrambi e non introduce differenze."
+      "corretta": 1,
+      "spiegazione": "Nel vuoto l'unica forza è il peso, P = m g, e l'accelerazione vale a = P/m = g per qualunque massa: la massa maggiore è compensata esattamente dalla maggiore inerzia. I due corpi cadono con la stessa legge oraria e toccano terra insieme.\n\nA) La massa maggiore comporta un peso maggiore, ma anche un'inerzia maggiore: i due effetti si cancellano.\nE) In aria la piuma è rallentata dall'attrito, ma nel vuoto l'attrito non c'è e la leggerezza non dà alcun vantaggio.\nC) Nel vuoto il volume e la forma non hanno alcun ruolo, perché non c'è mezzo che opponga resistenza.\nD) L'altezza di caduta è la stessa per entrambi e non introduce differenze."
     },
     {
       "id": "u2-0008",
@@ -120,14 +120,14 @@
       "argomento": "Moto circolare uniforme",
       "testo": "In un moto circolare uniforme:",
       "opzioni": [
-        "l'accelerazione è nulla, perché il modulo della velocità non cambia",
-        "l'accelerazione è tangente alla traiettoria e vale v²/r",
         "la forza risultante sul corpo è nulla in ogni istante",
+        "l'accelerazione è nulla, perché il modulo della velocità non cambia",
         "il vettore velocità resta costante durante tutto il moto",
-        "l'accelerazione punta verso il centro e vale v²/r"
+        "l'accelerazione punta verso il centro e vale v²/r",
+        "l'accelerazione è tangente alla traiettoria e vale v²/r"
       ],
-      "corretta": 4,
-      "spiegazione": "Il modulo della velocità è costante, ma la sua direzione cambia continuamente: la variazione del vettore velocità è diretta verso il centro. L'accelerazione centripeta vale a = v²/r ed è perpendicolare alla velocità in ogni istante.\n\nA) L'accelerazione è la variazione del vettore velocità: cambia anche solo la direzione, quindi non è nulla.\nB) Una componente tangenziale farebbe variare il modulo della velocità, e il moto non sarebbe più uniforme.\nC) Se la risultante fosse nulla, per il primo principio il moto sarebbe rettilineo uniforme.\nD) Il vettore velocità cambia direzione istante per istante: costante è solo il suo modulo."
+      "corretta": 3,
+      "spiegazione": "Il modulo della velocità è costante, ma la sua direzione cambia continuamente: la variazione del vettore velocità è diretta verso il centro. L'accelerazione centripeta vale a = v²/r ed è perpendicolare alla velocità in ogni istante.\n\nB) L'accelerazione è la variazione del vettore velocità: cambia anche solo la direzione, quindi non è nulla.\nE) Una componente tangenziale farebbe variare il modulo della velocità, e il moto non sarebbe più uniforme.\nA) Se la risultante fosse nulla, per il primo principio il moto sarebbe rettilineo uniforme.\nC) Il vettore velocità cambia direzione istante per istante: costante è solo il suo modulo."
     },
     {
       "id": "u2-0010",
@@ -149,12 +149,12 @@
       "opzioni": [
         "20 m/s²",
         "2 m/s²",
-        "100 m/s²",
         "0,05 m/s²",
-        "50 m/s²"
+        "50 m/s²",
+        "100 m/s²"
       ],
       "corretta": 0,
-      "spiegazione": "L'accelerazione centripeta vale a = v²/r = 10²/5 = 100/5 = 20 m/s².\n\nB) 2 m/s² si ottiene da v/r, senza elevare al quadrato la velocità.\nC) 100 m/s² è il solo v², senza dividere per il raggio.\nD) 0,05 m/s² è r/v², cioè il rapporto rovesciato.\nE) 50 m/s² si ottiene da v²/(2r), aggiungendo un fattore ½ che nella formula non c'è."
+      "spiegazione": "L'accelerazione centripeta vale a = v²/r = 10²/5 = 100/5 = 20 m/s².\n\nB) 2 m/s² si ottiene da v/r, senza elevare al quadrato la velocità.\nE) 100 m/s² è il solo v², senza dividere per il raggio.\nC) 0,05 m/s² è r/v², cioè il rapporto rovesciato.\nD) 50 m/s² si ottiene da v²/(2r), aggiungendo un fattore ½ che nella formula non c'è."
     },
     {
       "id": "u2-0012",
@@ -176,14 +176,14 @@
       "argomento": "Primo principio della dinamica",
       "testo": "Un corpo su cui la risultante delle forze applicate è nulla:",
       "opzioni": [
-        "è necessariamente fermo",
+        "rallenta gradualmente fino a fermarsi",
+        "si muove di moto circolare uniforme",
         "è fermo oppure si muove di moto rettilineo uniforme",
         "si muove di moto uniformemente accelerato",
-        "rallenta gradualmente fino a fermarsi",
-        "si muove di moto circolare uniforme"
+        "è necessariamente fermo"
       ],
-      "corretta": 1,
-      "spiegazione": "È l'enunciato del principio d'inerzia: in assenza di forza risultante lo stato di moto non cambia. La quiete e il moto rettilineo uniforme sono due stati equivalenti, distinguibili solo cambiando sistema di riferimento.\n\nA) La quiete è solo uno dei due casi possibili: confondere «forza nulla» con «corpo fermo» è l'errore aristotelico più comune.\nC) Un moto uniformemente accelerato richiede una forza risultante costante e diversa da zero.\nD) Il rallentamento osservato nella pratica è dovuto all'attrito, cioè a una forza che in questa ipotesi non c'è.\nE) Il moto circolare uniforme richiede una forza centripeta, quindi una risultante non nulla."
+      "corretta": 2,
+      "spiegazione": "È l'enunciato del principio d'inerzia: in assenza di forza risultante lo stato di moto non cambia. La quiete e il moto rettilineo uniforme sono due stati equivalenti, distinguibili solo cambiando sistema di riferimento.\n\nE) La quiete è solo uno dei due casi possibili: confondere «forza nulla» con «corpo fermo» è l'errore aristotelico più comune.\nD) Un moto uniformemente accelerato richiede una forza risultante costante e diversa da zero.\nA) Il rallentamento osservato nella pratica è dovuto all'attrito, cioè a una forza che in questa ipotesi non c'è.\nB) Il moto circolare uniforme richiede una forza centripeta, quindi una risultante non nulla."
     },
     {
       "id": "u2-0014",
@@ -204,13 +204,13 @@
       "testo": "Su un corpo di massa 4 kg agisce una forza risultante di 12 N. L'accelerazione del corpo vale:",
       "opzioni": [
         "48 m/s²",
-        "0,33 m/s²",
-        "3 m/s²",
+        "4 m/s²",
         "12 m/s²",
-        "4 m/s²"
+        "3 m/s²",
+        "0,33 m/s²"
       ],
-      "corretta": 2,
-      "spiegazione": "Dalla seconda legge F = m a segue a = F/m = 12/4 = 3 m/s².\n\nA) 48 m/s² è il prodotto della forza per la massa, non il loro rapporto.\nB) 0,33 m/s² è m/F, cioè il rapporto rovesciato.\nD) 12 m/s² ripete il valore della forza, come se la massa fosse unitaria.\nE) 4 m/s² ripete il valore della massa."
+      "corretta": 3,
+      "spiegazione": "Dalla seconda legge F = m a segue a = F/m = 12/4 = 3 m/s².\n\nA) 48 m/s² è il prodotto della forza per la massa, non il loro rapporto.\nE) 0,33 m/s² è m/F, cioè il rapporto rovesciato.\nC) 12 m/s² ripete il valore della forza, come se la massa fosse unitaria.\nB) 4 m/s² ripete il valore della massa."
     },
     {
       "id": "u2-0016",
@@ -232,14 +232,14 @@
       "argomento": "Terzo principio della dinamica",
       "testo": "Un libro è appoggiato in quiete su un tavolo. Nel senso del terzo principio, la reazione alla forza peso del libro è:",
       "opzioni": [
-        "la forza normale che il tavolo esercita sul libro",
+        "il peso del tavolo",
+        "la forza gravitazionale che il libro esercita sulla Terra",
         "la forza che il libro esercita sul tavolo",
         "la forza di attrito fra libro e tavolo",
-        "la forza gravitazionale che il libro esercita sulla Terra",
-        "il peso del tavolo"
+        "la forza normale che il tavolo esercita sul libro"
       ],
-      "corretta": 3,
-      "spiegazione": "Le forze del terzo principio formano coppie azione-reazione: agiscono su corpi diversi, hanno la stessa retta d'azione, stesso modulo e verso opposto. Il peso è la forza con cui la Terra attrae il libro; la sua reazione è la forza con cui il libro attrae la Terra.\n\nA) La forza normale equilibra il peso, ma è applicata allo stesso corpo, il libro: due forze che si equilibrano su uno stesso corpo non sono una coppia azione-reazione.\nB) La forza che il libro esercita sul tavolo è la reazione alla forza normale, non al peso.\nC) L'attrito qui è nullo, perché non c'è alcuna tendenza allo scivolamento orizzontale.\nE) Il peso del tavolo è una forza esercitata dalla Terra su un terzo corpo, senza rapporto con il peso del libro."
+      "corretta": 1,
+      "spiegazione": "Le forze del terzo principio formano coppie azione-reazione: agiscono su corpi diversi, hanno la stessa retta d'azione, stesso modulo e verso opposto. Il peso è la forza con cui la Terra attrae il libro; la sua reazione è la forza con cui il libro attrae la Terra.\n\nE) La forza normale equilibra il peso, ma è applicata allo stesso corpo, il libro: due forze che si equilibrano su uno stesso corpo non sono una coppia azione-reazione.\nC) La forza che il libro esercita sul tavolo è la reazione alla forza normale, non al peso.\nD) L'attrito qui è nullo, perché non c'è alcuna tendenza allo scivolamento orizzontale.\nA) Il peso del tavolo è una forza esercitata dalla Terra su un terzo corpo, senza rapporto con il peso del libro."
     },
     {
       "id": "u2-0018",
@@ -261,14 +261,14 @@
       "argomento": "Attrito radente dinamico",
       "testo": "La forza di attrito radente dinamico che agisce su un corpo che scivola su una superficie:",
       "opzioni": [
-        "è direttamente proporzionale all'area della superficie di contatto",
         "cresce proporzionalmente alla velocità del corpo",
+        "è direttamente proporzionale all'area della superficie di contatto",
         "è sempre uguale e opposta alla forza applicata al corpo",
         "dipende dalla massa del corpo ma non dal tipo di superfici",
         "è proporzionale alla forza normale fra le superfici"
       ],
       "corretta": 4,
-      "spiegazione": "Vale la relazione empirica f = μ N, con μ coefficiente di attrito dinamico che dipende dalla natura delle due superfici a contatto. Fissate le superfici, l'unica variabile è la forza normale.\n\nA) L'area di contatto non compare nella relazione: due mattoni identici appoggiati su facce diverse subiscono lo stesso attrito.\nB) La proporzionalità con la velocità vale per l'attrito viscoso nei fluidi, non per l'attrito radente fra solidi.\nC) L'attrito dinamico ha modulo fissato da μ N: se fosse sempre uguale alla forza applicata, il corpo non potrebbe mai accelerare. È l'attrito statico ad adeguarsi alla forza applicata, fino al proprio valore massimo.\nD) La massa interviene solo attraverso la forza normale, mentre il tipo di superfici determina μ ed è tutt'altro che irrilevante."
+      "spiegazione": "Vale la relazione empirica f = μ N, con μ coefficiente di attrito dinamico che dipende dalla natura delle due superfici a contatto. Fissate le superfici, l'unica variabile è la forza normale.\n\nB) L'area di contatto non compare nella relazione: due mattoni identici appoggiati su facce diverse subiscono lo stesso attrito.\nA) La proporzionalità con la velocità vale per l'attrito viscoso nei fluidi, non per l'attrito radente fra solidi.\nC) L'attrito dinamico ha modulo fissato da μ N: se fosse sempre uguale alla forza applicata, il corpo non potrebbe mai accelerare. È l'attrito statico ad adeguarsi alla forza applicata, fino al proprio valore massimo.\nD) La massa interviene solo attraverso la forza normale, mentre il tipo di superfici determina μ ed è tutt'altro che irrilevante."
     },
     {
       "id": "u2-0020",
@@ -290,14 +290,14 @@
       "argomento": "Legge di Hooke",
       "testo": "Una molla ideale di costante elastica 200 N/m viene allungata di 10 cm. La forza elastica che essa esercita ha modulo:",
       "opzioni": [
-        "20 N",
         "2000 N",
+        "20 N",
+        "200 N",
         "2 N",
-        "0,0005 N",
-        "200 N"
+        "0,0005 N"
       ],
-      "corretta": 0,
-      "spiegazione": "La legge di Hooke dà F = k x, con l'allungamento espresso in metri: 200 × 0,10 = 20 N. Il segno meno, nella forma vettoriale F = − k x, indica che la forza è opposta alla deformazione.\n\nB) 2000 N si ottiene inserendo l'allungamento in centimetri anziché in metri.\nC) 2 N corrisponderebbe a un allungamento di 1 cm.\nD) 0,0005 N è x/k, cioè la divisione al posto della moltiplicazione.\nE) 200 N ripete la costante elastica, come se l'allungamento fosse di un metro."
+      "corretta": 1,
+      "spiegazione": "La legge di Hooke dà F = k x, con l'allungamento espresso in metri: 200 × 0,10 = 20 N. Il segno meno, nella forma vettoriale F = − k x, indica che la forza è opposta alla deformazione.\n\nA) 2000 N si ottiene inserendo l'allungamento in centimetri anziché in metri.\nD) 2 N corrisponderebbe a un allungamento di 1 cm.\nE) 0,0005 N è x/k, cioè la divisione al posto della moltiplicazione.\nC) 200 N ripete la costante elastica, come se l'allungamento fosse di un metro."
     },
     {
       "id": "u2-0022",
@@ -317,14 +317,14 @@
       "argomento": "Massa e peso",
       "testo": "Un corpo viene trasportato sulla Luna, dove l'accelerazione di gravità è circa un sesto di quella terrestre. Rispetto ai valori misurati sulla Terra:",
       "opzioni": [
+        "sia la massa sia il peso restano invariati",
         "la massa si riduce a un sesto e il peso resta invariato",
         "la massa resta invariata, mentre il peso si riduce a un sesto",
-        "sia la massa sia il peso restano invariati",
         "la massa aumenta di sei volte e il peso resta invariato",
         "sia la massa sia il peso si riducono a un sesto"
       ],
-      "corretta": 1,
-      "spiegazione": "La massa è una proprietà del corpo e misura la sua inerzia: non dipende dal luogo. Il peso è invece la forza gravitazionale P = m g, quindi segue il valore locale di g e sulla Luna si riduce a circa un sesto.\n\nA) È lo scambio esatto fra le due grandezze: è la massa a non cambiare.\nC) Il peso cambia, perché cambia g.\nD) Nessun trasporto può aumentare la massa di un corpo.\nE) La massa resta la stessa: solo il peso si riduce."
+      "corretta": 2,
+      "spiegazione": "La massa è una proprietà del corpo e misura la sua inerzia: non dipende dal luogo. Il peso è invece la forza gravitazionale P = m g, quindi segue il valore locale di g e sulla Luna si riduce a circa un sesto.\n\nB) È lo scambio esatto fra le due grandezze: è la massa a non cambiare.\nA) Il peso cambia, perché cambia g.\nD) Nessun trasporto può aumentare la massa di un corpo.\nE) La massa resta la stessa: solo il peso si riduce."
     },
     {
       "id": "u2-0024",
@@ -344,14 +344,14 @@
       "argomento": "Lavoro di una forza",
       "testo": "Una forza costante di 20 N agisce su un corpo che si sposta di 5 m, formando un angolo di 60° con lo spostamento. Il lavoro compiuto vale:",
       "opzioni": [
-        "100 J",
-        "86,6 J",
         "50 J",
         "0 J",
+        "86,6 J",
+        "100 J",
         "10 J"
       ],
-      "corretta": 2,
-      "spiegazione": "Il lavoro è il prodotto scalare fra forza e spostamento: L = F s cos θ = 20 × 5 × cos 60° = 20 × 5 × 0,5 = 50 J.\n\nA) 100 J è F s, cioè il lavoro che si avrebbe con forza parallela allo spostamento.\nB) 86,6 J usa il seno al posto del coseno: 20 × 5 × 0,866.\nD) 0 J si avrebbe solo con forza perpendicolare allo spostamento, cioè con angolo di 90°.\nE) 10 J è F cos θ, senza moltiplicare per lo spostamento."
+      "corretta": 0,
+      "spiegazione": "Il lavoro è il prodotto scalare fra forza e spostamento: L = F s cos θ = 20 × 5 × cos 60° = 20 × 5 × 0,5 = 50 J.\n\nD) 100 J è F s, cioè il lavoro che si avrebbe con forza parallela allo spostamento.\nC) 86,6 J usa il seno al posto del coseno: 20 × 5 × 0,866.\nB) 0 J si avrebbe solo con forza perpendicolare allo spostamento, cioè con angolo di 90°.\nE) 10 J è F cos θ, senza moltiplicare per lo spostamento."
     },
     {
       "id": "u2-0026",
@@ -371,14 +371,14 @@
       "argomento": "Lavoro della forza centripeta",
       "testo": "Il lavoro compiuto dalla forza centripeta su un corpo in moto circolare uniforme è:",
       "opzioni": [
-        "positivo e pari all'energia cinetica del corpo",
         "positivo lungo metà giro e negativo lungo l'altra metà",
-        "negativo, perché la forza è diretta verso il centro",
+        "positivo e pari all'energia cinetica del corpo",
         "nullo, perché la forza è perpendicolare allo spostamento",
+        "negativo, perché la forza è diretta verso il centro",
         "nullo, perché la forza centripeta ha modulo nullo"
       ],
-      "corretta": 3,
-      "spiegazione": "Nel lavoro L = F s cos θ l'angolo fra forza centripeta e spostamento è sempre di 90°, quindi il coseno è nullo. Coerentemente l'energia cinetica non varia, come deve essere in un moto a velocità di modulo costante.\n\nA) Un lavoro positivo farebbe crescere l'energia cinetica, e il moto non sarebbe più uniforme.\nB) L'angolo resta di 90° in ogni punto della traiettoria: non ci sono tratti con lavoro positivo o negativo.\nC) La direzione della forza da sola non determina il segno del lavoro: conta l'angolo che essa forma con lo spostamento.\nE) La forza centripeta non è nulla: vale m v²/r, ed è proprio ciò che curva la traiettoria."
+      "corretta": 2,
+      "spiegazione": "Nel lavoro L = F s cos θ l'angolo fra forza centripeta e spostamento è sempre di 90°, quindi il coseno è nullo. Coerentemente l'energia cinetica non varia, come deve essere in un moto a velocità di modulo costante.\n\nB) Un lavoro positivo farebbe crescere l'energia cinetica, e il moto non sarebbe più uniforme.\nA) L'angolo resta di 90° in ogni punto della traiettoria: non ci sono tratti con lavoro positivo o negativo.\nD) La direzione della forza da sola non determina il segno del lavoro: conta l'angolo che essa forma con lo spostamento.\nE) La forza centripeta non è nulla: vale m v²/r, ed è proprio ciò che curva la traiettoria."
     },
     {
       "id": "u2-0028",
@@ -398,14 +398,14 @@
       "argomento": "Teorema dell'energia cinetica",
       "testo": "Il lavoro totale compiuto da tutte le forze agenti su un corpo è uguale:",
       "opzioni": [
-        "alla variazione della sua energia cinetica",
         "alla sua energia cinetica finale",
+        "alla variazione della sua energia cinetica",
         "alla variazione della sua energia potenziale",
-        "alla sua quantità di moto finale",
-        "alla potenza sviluppata nel percorso"
+        "alla potenza sviluppata nel percorso",
+        "alla sua quantità di moto finale"
       ],
-      "corretta": 0,
-      "spiegazione": "È il teorema dell'energia cinetica: L(totale) = ΔK = ½ m v² − ½ m v₀². Vale per qualunque tipo di forza, conservativa o no.\n\nB) Il lavoro coincide con l'energia cinetica finale solo nel caso particolare in cui il corpo parta da fermo.\nC) La variazione di energia potenziale è l'opposto del lavoro delle sole forze conservative, non del lavoro totale.\nD) La quantità di moto è un vettore e si misura in kg·m/s: non può essere uguale a un lavoro.\nE) La potenza è un lavoro diviso un tempo, quindi una grandezza dimensionalmente diversa."
+      "corretta": 1,
+      "spiegazione": "È il teorema dell'energia cinetica: L(totale) = ΔK = ½ m v² − ½ m v₀². Vale per qualunque tipo di forza, conservativa o no.\n\nA) Il lavoro coincide con l'energia cinetica finale solo nel caso particolare in cui il corpo parta da fermo.\nC) La variazione di energia potenziale è l'opposto del lavoro delle sole forze conservative, non del lavoro totale.\nE) La quantità di moto è un vettore e si misura in kg·m/s: non può essere uguale a un lavoro.\nD) La potenza è un lavoro diviso un tempo, quindi una grandezza dimensionalmente diversa."
     },
     {
       "id": "u2-0030",
@@ -425,14 +425,14 @@
       "argomento": "Energia cinetica e velocità",
       "testo": "Se la velocità di un corpo raddoppia, mantenendo invariata la massa, la sua energia cinetica:",
       "opzioni": [
-        "raddoppia",
-        "quadruplica",
-        "resta invariata",
         "si dimezza",
-        "aumenta di un fattore √2"
+        "quadruplica",
+        "aumenta di un fattore √2",
+        "resta invariata",
+        "raddoppia"
       ],
       "corretta": 1,
-      "spiegazione": "L'energia cinetica vale ½ m v²: dipende dal quadrato della velocità, quindi raddoppiando v il valore viene moltiplicato per 2² = 4.\n\nA) La proporzionalità diretta con la velocità vale per la quantità di moto, p = m v, non per l'energia cinetica.\nC) L'energia cinetica dipende dalla velocità e non può restare invariata.\nD) Il dimezzamento si avrebbe con una diminuzione della velocità, non con un aumento.\nE) Il fattore √2 si otterrebbe se l'energia dipendesse dalla radice della velocità."
+      "spiegazione": "L'energia cinetica vale ½ m v²: dipende dal quadrato della velocità, quindi raddoppiando v il valore viene moltiplicato per 2² = 4.\n\nE) La proporzionalità diretta con la velocità vale per la quantità di moto, p = m v, non per l'energia cinetica.\nD) L'energia cinetica dipende dalla velocità e non può restare invariata.\nA) Il dimezzamento si avrebbe con una diminuzione della velocità, non con un aumento.\nC) Il fattore √2 si otterrebbe se l'energia dipendesse dalla radice della velocità."
     },
     {
       "id": "u2-0032",
@@ -454,13 +454,13 @@
       "testo": "Un corpo di massa 2 kg si trova a 10 m dal suolo. Assumendo g = 9,8 m/s² e ponendo lo zero al suolo, la sua energia potenziale gravitazionale vale:",
       "opzioni": [
         "20 J",
-        "98 J",
+        "19,6 J",
         "196 J",
         "392 J",
-        "19,6 J"
+        "98 J"
       ],
       "corretta": 2,
-      "spiegazione": "Vale U = m g h = 2 × 9,8 × 10 = 196 J.\n\nA) 20 J è m·h, cioè il calcolo senza g.\nB) 98 J è g·h, cioè il calcolo senza la massa.\nD) 392 J è il doppio del valore corretto, come se la massa fosse 4 kg.\nE) 19,6 J è m·g, cioè il peso del corpo espresso in newton, non un'energia."
+      "spiegazione": "Vale U = m g h = 2 × 9,8 × 10 = 196 J.\n\nA) 20 J è m·h, cioè il calcolo senza g.\nE) 98 J è g·h, cioè il calcolo senza la massa.\nD) 392 J è il doppio del valore corretto, come se la massa fosse 4 kg.\nB) 19,6 J è m·g, cioè il peso del corpo espresso in newton, non un'energia."
     },
     {
       "id": "u2-0034",
@@ -481,14 +481,14 @@
       "argomento": "Forze conservative",
       "testo": "Una forza si dice conservativa quando:",
       "opzioni": [
+        "agisce soltanto su corpi in quiete",
         "compie sempre un lavoro positivo sul corpo",
         "ha modulo costante lungo tutto il percorso",
         "compie un lavoro nullo lungo qualunque percorso",
-        "il lavoro che compie dipende solo dalle posizioni iniziale e finale",
-        "agisce soltanto su corpi in quiete"
+        "il lavoro che compie dipende solo dalle posizioni iniziale e finale"
       ],
-      "corretta": 3,
-      "spiegazione": "Per una forza conservativa il lavoro non dipende dal cammino seguito, e di conseguenza è nullo lungo qualunque percorso chiuso. Solo per queste forze si può definire un'energia potenziale. Sono conservative la forza peso, la forza gravitazionale e la forza elastica.\n\nA) Il lavoro di una forza conservativa può benissimo essere negativo, come quello del peso su un corpo che sale.\nB) La forza elastica è conservativa pur avendo modulo variabile con la deformazione.\nC) Il lavoro è nullo solo lungo i percorsi chiusi, non lungo un percorso qualsiasi.\nE) La condizione riguarda il lavoro lungo i percorsi, non lo stato di moto del corpo."
+      "corretta": 4,
+      "spiegazione": "Per una forza conservativa il lavoro non dipende dal cammino seguito, e di conseguenza è nullo lungo qualunque percorso chiuso. Solo per queste forze si può definire un'energia potenziale. Sono conservative la forza peso, la forza gravitazionale e la forza elastica.\n\nB) Il lavoro di una forza conservativa può benissimo essere negativo, come quello del peso su un corpo che sale.\nC) La forza elastica è conservativa pur avendo modulo variabile con la deformazione.\nD) Il lavoro è nullo solo lungo i percorsi chiusi, non lungo un percorso qualsiasi.\nA) La condizione riguarda il lavoro lungo i percorsi, non lo stato di moto del corpo."
     },
     {
       "id": "u2-0036",
@@ -508,14 +508,14 @@
       "argomento": "Conservazione dell'energia meccanica",
       "testo": "Un corpo viene lasciato cadere da fermo da un'altezza di 20 m. Trascurando ogni attrito e assumendo g = 9,8 m/s², la sua velocità all'arrivo al suolo vale circa:",
       "opzioni": [
-        "196 m/s",
-        "392 m/s",
         "20 m/s",
+        "392 m/s",
+        "196 m/s",
         "14 m/s",
         "19,8 m/s"
       ],
       "corretta": 4,
-      "spiegazione": "L'energia potenziale iniziale si trasforma integralmente in energia cinetica: m g h = ½ m v², da cui v = √(2 g h) = √(2 × 9,8 × 20) = √392 ≈ 19,8 m/s. La massa si semplifica e non serve conoscerla.\n\nA) 196 è il prodotto g·h: è il valore di ½v², non di v.\nB) 392 è 2 g h, cioè il valore di v² senza estrarre la radice.\nC) 20 ripete l'altezza di caduta.\nD) 14 m/s è √(g h), cioè il risultato di chi dimentica il fattore 2."
+      "spiegazione": "L'energia potenziale iniziale si trasforma integralmente in energia cinetica: m g h = ½ m v², da cui v = √(2 g h) = √(2 × 9,8 × 20) = √392 ≈ 19,8 m/s. La massa si semplifica e non serve conoscerla.\n\nC) 196 è il prodotto g·h: è il valore di ½v², non di v.\nB) 392 è 2 g h, cioè il valore di v² senza estrarre la radice.\nA) 20 ripete l'altezza di caduta.\nD) 14 m/s è √(g h), cioè il risultato di chi dimentica il fattore 2."
     },
     {
       "id": "u2-0038",
@@ -538,13 +538,13 @@
       "testo": "L'impulso di una forza applicata a un corpo è uguale:",
       "opzioni": [
         "alla variazione della quantità di moto del corpo",
-        "alla variazione dell'energia cinetica del corpo",
         "al lavoro compiuto dalla forza sul corpo",
+        "alla variazione dell'energia cinetica del corpo",
         "alla quantità di moto iniziale del corpo",
         "alla potenza media sviluppata dalla forza"
       ],
       "corretta": 0,
-      "spiegazione": "Il teorema dell'impulso si scrive F Δt = Δp: forza per tempo dà una variazione di quantità di moto, e le unità coincidono, perché 1 N·s = 1 kg·m/s.\n\nB) La variazione di energia cinetica è uguale al lavoro, cioè al prodotto della forza per lo spostamento, non per il tempo.\nC) Il lavoro è una grandezza scalare misurata in joule: non può eguagliare un vettore misurato in N·s.\nD) L'impulso dà la variazione della quantità di moto, non il suo valore iniziale.\nE) La potenza si misura in watt ed è una grandezza dimensionalmente diversa."
+      "spiegazione": "Il teorema dell'impulso si scrive F Δt = Δp: forza per tempo dà una variazione di quantità di moto, e le unità coincidono, perché 1 N·s = 1 kg·m/s.\n\nC) La variazione di energia cinetica è uguale al lavoro, cioè al prodotto della forza per lo spostamento, non per il tempo.\nB) Il lavoro è una grandezza scalare misurata in joule: non può eguagliare un vettore misurato in N·s.\nD) L'impulso dà la variazione della quantità di moto, non il suo valore iniziale.\nE) La potenza si misura in watt ed è una grandezza dimensionalmente diversa."
     },
     {
       "id": "u2-0040",
@@ -565,14 +565,14 @@
       "argomento": "Urto perfettamente anelastico",
       "testo": "Una sferetta di 20 g che si muove a 2 m/s su un piano orizzontale privo di attrito urta una sfera ferma di 40 g e vi resta attaccata. Dopo l'urto le due sfere procedono insieme alla velocità di circa:",
       "opzioni": [
+        "6 m/s",
         "1 m/s",
-        "0,67 m/s",
-        "2 m/s",
         "1,33 m/s",
-        "6 m/s"
+        "0,67 m/s",
+        "2 m/s"
       ],
-      "corretta": 1,
-      "spiegazione": "Si conserva la quantità di moto: m₁v₁ = (m₁ + m₂)v, quindi v = (0,020 × 2)/(0,020 + 0,040) = 0,04/0,06 ≈ 0,67 m/s. Le masse possono restare in grammi, purché siano usate le stesse unità sopra e sotto.\n\nA) 1 m/s si ottiene dividendo per la sola massa del corpo inizialmente fermo.\nC) 2 m/s è la velocità iniziale: resterebbe invariata solo se il secondo corpo avesse massa trascurabile.\nD) 1,33 m/s si ottiene con 30 g al denominatore, cioè usando la media delle masse invece della loro somma.\nE) 6 m/s scambia le masse nel rapporto, e darebbe una velocità maggiore di quella iniziale: un urto anelastico non può accelerare il sistema."
+      "corretta": 3,
+      "spiegazione": "Si conserva la quantità di moto: m₁v₁ = (m₁ + m₂)v, quindi v = (0,020 × 2)/(0,020 + 0,040) = 0,04/0,06 ≈ 0,67 m/s. Le masse possono restare in grammi, purché siano usate le stesse unità sopra e sotto.\n\nB) 1 m/s si ottiene dividendo per la sola massa del corpo inizialmente fermo.\nE) 2 m/s è la velocità iniziale: resterebbe invariata solo se il secondo corpo avesse massa trascurabile.\nC) 1,33 m/s si ottiene con 30 g al denominatore, cioè usando la media delle masse invece della loro somma.\nA) 6 m/s scambia le masse nel rapporto, e darebbe una velocità maggiore di quella iniziale: un urto anelastico non può accelerare il sistema."
     },
     {
       "id": "u2-0042",
@@ -595,14 +595,14 @@
       "argomento": "Centro di massa di un sistema isolato",
       "testo": "Il centro di massa di un sistema di corpi su cui la risultante delle forze esterne è nulla:",
       "opzioni": [
-        "si trova sempre nel punto di mezzo fra i corpi",
         "accelera se i corpi interagiscono fra loro",
-        "resta fermo o si muove di moto rettilineo uniforme",
         "si sposta verso il corpo di massa maggiore",
-        "coincide sempre con il baricentro del corpo più pesante"
+        "coincide sempre con il baricentro del corpo più pesante",
+        "resta fermo o si muove di moto rettilineo uniforme",
+        "si trova sempre nel punto di mezzo fra i corpi"
       ],
-      "corretta": 2,
-      "spiegazione": "Il centro di massa obbedisce alla seconda legge nella forma F(esterna) = M a(cm): se la risultante delle forze esterne è nulla, la sua accelerazione è nulla. È la formulazione equivalente della conservazione della quantità di moto totale.\n\nA) Il punto di mezzo vale solo per due corpi di massa uguale: in generale il centro di massa è più vicino al corpo più pesante.\nB) Le forze interne sono a due a due opposte per il terzo principio e hanno risultante nulla: non possono accelerare il centro di massa.\nD) La posizione del centro di massa è più vicina al corpo di massa maggiore, ma questo non comporta alcuno spostamento nel tempo.\nE) Il baricentro di un singolo corpo del sistema è cosa diversa dal centro di massa dell'insieme."
+      "corretta": 3,
+      "spiegazione": "Il centro di massa obbedisce alla seconda legge nella forma F(esterna) = M a(cm): se la risultante delle forze esterne è nulla, la sua accelerazione è nulla. È la formulazione equivalente della conservazione della quantità di moto totale.\n\nE) Il punto di mezzo vale solo per due corpi di massa uguale: in generale il centro di massa è più vicino al corpo più pesante.\nA) Le forze interne sono a due a due opposte per il terzo principio e hanno risultante nulla: non possono accelerare il centro di massa.\nB) La posizione del centro di massa è più vicina al corpo di massa maggiore, ma questo non comporta alcuno spostamento nel tempo.\nC) Il baricentro di un singolo corpo del sistema è cosa diversa dal centro di massa dell'insieme."
     },
     {
       "id": "u2-0044",
@@ -626,12 +626,12 @@
       "opzioni": [
         "80 N·m",
         "20 N·m",
-        "0,0125 N·m",
         "5 N·m",
+        "0,0125 N·m",
         "500 N·m"
       ],
-      "corretta": 3,
-      "spiegazione": "Con forza perpendicolare al braccio il momento vale M = F b = 20 × 0,25 = 5 N·m.\n\nA) 80 N·m è F/b, cioè la divisione al posto della moltiplicazione.\nB) 20 N·m ripete il valore della forza, come se il braccio fosse di 1 m.\nC) 0,0125 N·m è b/F, il rapporto rovesciato.\nE) 500 N·m si ottiene inserendo il braccio in centimetri anziché in metri."
+      "corretta": 2,
+      "spiegazione": "Con forza perpendicolare al braccio il momento vale M = F b = 20 × 0,25 = 5 N·m.\n\nA) 80 N·m è F/b, cioè la divisione al posto della moltiplicazione.\nB) 20 N·m ripete il valore della forza, come se il braccio fosse di 1 m.\nD) 0,0125 N·m è b/F, il rapporto rovesciato.\nE) 500 N·m si ottiene inserendo il braccio in centimetri anziché in metri."
     },
     {
       "id": "u2-0046",
@@ -653,13 +653,13 @@
       "testo": "Nell'avambraccio che solleva un peso tenuto in mano, con il fulcro nel gomito e il bicipite inserito fra il gomito e la mano, la leva è:",
       "opzioni": [
         "di primo genere, sempre vantaggiosa",
-        "di primo genere, sempre indifferente",
-        "di secondo genere, sempre vantaggiosa",
         "di secondo genere, sempre svantaggiosa",
-        "di terzo genere, sempre svantaggiosa"
+        "di primo genere, sempre indifferente",
+        "di terzo genere, sempre svantaggiosa",
+        "di secondo genere, sempre vantaggiosa"
       ],
-      "corretta": 4,
-      "spiegazione": "Il genere di una leva si stabilisce dalla posizione del fulcro rispetto alle due forze. Qui la potenza, esercitata dal bicipite, è applicata fra il fulcro (il gomito) e la resistenza (il peso nella mano): è la definizione di leva di terzo genere. Il braccio della potenza è il minore, quindi la leva è svantaggiosa.\n\nA) Nella leva di primo genere il fulcro si trova fra la potenza e la resistenza, e la leva può essere vantaggiosa, svantaggiosa o indifferente a seconda dei bracci.\nB) Vale la stessa obiezione sul genere, e l'indifferenza si ha solo con bracci uguali.\nC) Nella leva di secondo genere la resistenza si trova fra il fulcro e la potenza.\nD) La leva di secondo genere è sempre vantaggiosa, perché il braccio della potenza è il maggiore.\n\nIl muscolo sviluppa quindi una forza molto maggiore del peso sollevato, ma ottiene in cambio uno spostamento della mano molto più ampio di quello del punto di inserzione."
+      "corretta": 3,
+      "spiegazione": "Il genere di una leva si stabilisce dalla posizione del fulcro rispetto alle due forze. Qui la potenza, esercitata dal bicipite, è applicata fra il fulcro (il gomito) e la resistenza (il peso nella mano): è la definizione di leva di terzo genere. Il braccio della potenza è il minore, quindi la leva è svantaggiosa.\n\nA) Nella leva di primo genere il fulcro si trova fra la potenza e la resistenza, e la leva può essere vantaggiosa, svantaggiosa o indifferente a seconda dei bracci.\nC) Vale la stessa obiezione sul genere, e l'indifferenza si ha solo con bracci uguali.\nE) Nella leva di secondo genere la resistenza si trova fra il fulcro e la potenza.\nB) La leva di secondo genere è sempre vantaggiosa, perché il braccio della potenza è il maggiore.\n\nIl muscolo sviluppa quindi una forza molto maggiore del peso sollevato, ma ottiene in cambio uno spostamento della mano molto più ampio di quello del punto di inserzione."
     },
     {
       "id": "u2-0048",
@@ -679,14 +679,14 @@
       "argomento": "Condizioni di equilibrio del corpo rigido",
       "testo": "Su un corpo rigido agiscono due forze uguali in modulo, di verso opposto e con rette d'azione parallele ma distinte. Il corpo:",
       "opzioni": [
-        "resta in equilibrio, perché la risultante è nulla",
-        "trasla con accelerazione costante nella direzione delle forze",
         "resta in equilibrio solo se le due forze sono verticali",
         "si deforma senza ruotare né traslare",
+        "trasla con accelerazione costante nella direzione delle forze",
+        "resta in equilibrio, perché la risultante è nulla",
         "ruota, perché la somma dei momenti non è nulla"
       ],
       "corretta": 4,
-      "spiegazione": "Le due forze formano una coppia: la risultante è nulla, quindi non c'è traslazione, ma i due momenti hanno lo stesso verso di rotazione e si sommano. La seconda condizione di equilibrio non è soddisfatta e il corpo ruota.\n\nA) La risultante nulla esclude la traslazione, ma per l'equilibrio di un corpo rigido serve anche che sia nulla la somma dei momenti.\nB) La traslazione accelerata richiede una risultante diversa da zero.\nC) L'orientamento delle forze non cambia il risultato: ciò che conta è la distanza fra le due rette d'azione.\nD) Il corpo rigido è per definizione indeformabile: è il modello con cui si studiano queste situazioni."
+      "spiegazione": "Le due forze formano una coppia: la risultante è nulla, quindi non c'è traslazione, ma i due momenti hanno lo stesso verso di rotazione e si sommano. La seconda condizione di equilibrio non è soddisfatta e il corpo ruota.\n\nD) La risultante nulla esclude la traslazione, ma per l'equilibrio di un corpo rigido serve anche che sia nulla la somma dei momenti.\nC) La traslazione accelerata richiede una risultante diversa da zero.\nA) L'orientamento delle forze non cambia il risultato: ciò che conta è la distanza fra le due rette d'azione.\nB) Il corpo rigido è per definizione indeformabile: è il modello con cui si studiano queste situazioni."
     },
     {
       "id": "u2-0050",
