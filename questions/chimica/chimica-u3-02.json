@@ -1,12 +1,13 @@
 {
   "lotto": "chimica-u3-02",
   "unita": "u3",
+  "generato": "2026-10-03",
   "domande": [
     {
       "id": "u3-0002",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "reazioni e bilanciamento",
+      "argomento": "Bilanciamento e leggi di conservazione",
       "testo": "Nella reazione di combustione completa del propano, C3H8 + O2 -> CO2 + H2O, il coefficiente stechiometrico dell'ossigeno molecolare nell'equazione bilanciata è:",
       "opzioni": [
         "5",
@@ -16,18 +17,18 @@
         "2, perché l'ossigeno è biatomico"
       ],
       "corretta": 0,
-      "spiegazione": "L'equazione bilanciata è C3H8 + 5 O2 -> 3 CO2 + 4 H2O. I 3 atomi di carbonio impongono 3 CO2, gli 8 atomi di idrogeno impongono 4 H2O; al secondo membro compaiono quindi 3x2 + 4x1 = 10 atomi di ossigeno, corrispondenti a 5 molecole di O2. La seconda opzione confonde il coefficiente dell'ossigeno con quello della CO2, la terza commette lo stesso errore con l'acqua. La quarta è l'errore più frequente: conta gli atomi di ossigeno, che sono 10, invece delle molecole di O2, che sono 5, dimenticando che ogni molecola ne porta due. L'ultima attribuisce all'ossigeno un coefficiente fisso pari a 2, confondendo il coefficiente con l'indice della formula O2."
+      "spiegazione": "L'equazione bilanciata è C3H8 + 5 O2 -> 3 CO2 + 4 H2O. I 3 atomi di carbonio impongono 3 CO2, gli 8 atomi di idrogeno impongono 4 H2O; al secondo membro compaiono quindi 3x2 + 4x1 = 10 atomi di ossigeno, corrispondenti a 5 molecole di O2.\n\nB) confonde il coefficiente dell'ossigeno con quello dell'anidride carbonica.\nC) commette lo stesso errore prendendo il coefficiente dell'acqua.\nD) conta gli atomi di ossigeno, che sono 10, invece delle molecole di O2, che sono 5: è l'errore più frequente e nasce dal dimenticare che ogni molecola porta due atomi.\nE) attribuisce all'ossigeno un coefficiente fisso pari a 2, confondendo il coefficiente con l'indice della formula O2."
     },
     {
       "id": "u3-0003",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "reazioni e bilanciamento",
-      "testo": "La legge secondo cui in una reazione chimica la massa totale dei reagenti è uguale alla massa totale dei prodotti è detta legge di conservazione della …….",
+      "argomento": "Bilanciamento e leggi di conservazione",
+      "testo": "La legge secondo cui in una reazione chimica la massa totale dei reagenti è uguale alla massa totale dei prodotti è detta legge di conservazione della ……",
       "accettate": [
         "massa",
-        "materia",
-        "masse"
+        "masse",
+        "materia"
       ],
       "spiegazione": "È la legge di Lavoisier: poiché in una reazione chimica gli atomi si riorganizzano ma non si creano né si distruggono, la massa complessiva di un sistema chiuso resta invariata. È la ragione per cui un'equazione chimica va bilanciata."
     },
@@ -35,7 +36,7 @@
       "id": "u3-0004",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "reazioni e bilanciamento",
+      "argomento": "Bilanciamento e leggi di conservazione",
       "testo": "Quale affermazione sul bilanciamento di un'equazione chimica è corretta?",
       "opzioni": [
         "Per pareggiare il numero di atomi si possono modificare gli indici presenti nelle formule dei composti",
@@ -45,14 +46,14 @@
         "La carica elettrica totale si conserva soltanto nelle reazioni di ossidoriduzione"
       ],
       "corretta": 3,
-      "spiegazione": "Bilanciare significa scegliere i coefficienti stechiometrici: gli indici delle formule sono fissati dalla composizione del composto e modificarli equivarrebbe a scrivere una sostanza diversa. La prima opzione è proprio questo errore, il più comune in assoluto. La seconda confonde la conservazione della massa con un'inesistente conservazione del numero di molecole, che in generale cambia, come si vede in C3H8 + 5 O2 -> 3 CO2 + 4 H2O, dove si passa da 6 a 7 molecole. La terza è falsa così come è formulata: a conservarsi è la massa totale, cioè la somma dei prodotti coefficiente per massa molare, non la somma delle sole masse molari. L'ultima è falsa perché la carica si conserva in qualunque equazione ionica, redox o no."
+      "spiegazione": "Bilanciare significa scegliere i coefficienti stechiometrici: gli indici delle formule sono fissati dalla composizione del composto e modificarli equivarrebbe a scrivere una sostanza diversa.\n\nA) è l'errore più comune in assoluto: cambiare un indice trasforma H2O in H2O2, cioè in un'altra sostanza.\nB) confonde la conservazione della massa con un'inesistente conservazione del numero di molecole, che in generale cambia: in C3H8 + 5 O2 -> 3 CO2 + 4 H2O si passa da 6 a 7 molecole.\nC) è falsa così come è formulata: a conservarsi è la massa totale, cioè la somma dei prodotti coefficiente per massa molare, non la somma delle sole masse molari.\nE) è falsa perché la carica si conserva in qualunque equazione scritta in forma ionica, redox o no."
     },
     {
       "id": "u3-0005",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "reazioni e bilanciamento",
-      "testo": "I numeri che si scrivono davanti alle formule per bilanciare un'equazione chimica sono detti coefficienti …….",
+      "argomento": "Bilanciamento e leggi di conservazione",
+      "testo": "I numeri che si scrivono davanti alle formule per bilanciare un'equazione chimica sono detti coefficienti ……",
       "accettate": [
         "stechiometrici",
         "stechiometrico",
@@ -64,12 +65,11 @@
       "id": "u3-0006",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "reazioni e bilanciamento",
+      "argomento": "Bilanciamento e leggi di conservazione",
       "testo": "Nel bilanciamento di un'equazione in forma ionica, oltre al numero di atomi di ciascun elemento deve essere conservata anche la …… elettrica totale.",
       "accettate": [
         "carica",
-        "cariche",
-        "carica elettrica"
+        "cariche"
       ],
       "spiegazione": "In un'equazione ionica la somma algebrica delle cariche al primo membro deve uguagliare quella al secondo membro. È il criterio su cui si fonda il metodo delle semireazioni per le redox, ma vale per qualunque equazione scritta in forma ionica."
     },
@@ -77,7 +77,7 @@
       "id": "u3-0007",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "cinetica: velocità e fattori",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
       "testo": "La velocità di una reazione chimica è definita come:",
       "opzioni": [
         "il tempo necessario perché i reagenti si consumino completamente",
@@ -87,13 +87,13 @@
         "il valore assunto dalla costante di equilibrio della reazione a quella temperatura"
       ],
       "corretta": 1,
-      "spiegazione": "La velocità è una derivata: variazione di concentrazione diviso variazione di tempo, con il segno scelto in modo che risulti positiva. La prima opzione inverte la definizione, confondendo la velocità con il suo reciproco, cioè con la durata del processo: una reazione veloce impiega poco tempo, ma il tempo non è la velocità. La terza descrive la resa, che è una grandezza stechiometrica e termodinamica, non cinetica. La quarta è la variazione di entalpia, che non dice nulla sulla rapidità. L'ultima confonde la costante di velocità k, grandezza cinetica, con la costante di equilibrio K, che è termodinamica."
+      "spiegazione": "La velocità è il rapporto fra una variazione di concentrazione e l'intervallo di tempo in cui avviene, con il segno scelto in modo che risulti positiva.\n\nA) inverte la definizione, confondendo la velocità con il suo reciproco: una reazione veloce impiega poco tempo, ma il tempo non è la velocità.\nC) descrive la resa, grandezza stechiometrica e termodinamica, che non dice nulla sulla rapidità.\nD) è la variazione di entalpia della reazione, anch'essa estranea alla cinetica.\nE) confonde la costante di velocità k, grandezza cinetica, con la costante di equilibrio K, che è termodinamica."
     },
     {
       "id": "u3-0008",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "cinetica: velocità e fattori",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
       "testo": "Il ramo della chimica che studia la velocità delle reazioni, i fattori che la influenzano e i meccanismi con cui esse avvengono è la …… chimica.",
       "accettate": [
         "cinetica"
@@ -104,7 +104,7 @@
       "id": "u3-0009",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "cinetica: velocità e fattori",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
       "testo": "Un aumento di temperatura accelera in modo marcato una reazione chimica principalmente perché:",
       "opzioni": [
         "abbassa il valore dell'energia di attivazione della reazione",
@@ -114,14 +114,14 @@
         "aumenta la frazione di molecole dotate di energia uguale o superiore all'energia di attivazione"
       ],
       "corretta": 4,
-      "spiegazione": "Secondo la distribuzione di Maxwell-Boltzmann, scaldando si sposta verso destra la curva delle energie molecolari e cresce in modo esponenziale la frazione di molecole capaci di superare la barriera: è il termine esponenziale dell'equazione di Arrhenius. La prima opzione è l'errore più diffuso, perché l'energia di attivazione dipende dal cammino di reazione e non dalla temperatura, e ad abbassarla è semmai un catalizzatore. La seconda è falsa a volume costante, dove le concentrazioni non cambiano. La terza confonde un fattore cinetico con il segno di una grandezza termodinamica, che la temperatura non inverte. La quarta descrive un effetto reale ma minoritario: la frequenza degli urti cresce con la radice quadrata della temperatura assoluta, quindi di poco, mentre il termine esponenziale cresce moltissimo."
+      "spiegazione": "Secondo la distribuzione di Maxwell-Boltzmann, scaldando si sposta verso destra la curva delle energie molecolari e cresce in modo esponenziale la frazione di molecole capaci di superare la barriera: è il comportamento descritto dal termine esponenziale dell'equazione di Arrhenius.\n\nA) è l'errore più diffuso: l'energia di attivazione dipende dal cammino di reazione e non dalla temperatura, e ad abbassarla è semmai un catalizzatore.\nB) è falsa a volume costante, dove le concentrazioni non cambiano.\nC) confonde un fattore cinetico con il segno di una grandezza termodinamica, che la temperatura non inverte.\nD) descrive un effetto reale ma minoritario: la frequenza degli urti cresce con la radice quadrata della temperatura assoluta, quindi di poco, mentre il termine esponenziale cresce moltissimo."
     },
     {
       "id": "u3-0010",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "cinetica: velocità e fattori",
-      "testo": "Nell'equazione cinetica v = k[A]^m[B]^n la grandezza k, che dipende dalla temperatura ma non dalle concentrazioni, è detta costante di …….",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
+      "testo": "Nell'equazione cinetica v = k[A]^m[B]^n la grandezza k, che dipende dalla temperatura ma non dalle concentrazioni, è detta costante di ……",
       "accettate": [
         "velocità",
         "velocità di reazione"
@@ -132,7 +132,7 @@
       "id": "u3-0011",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "cinetica: velocità e fattori",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
       "testo": "Uno stesso campione di carbonato di calcio solido reagisce con acido cloridrico diluito più rapidamente se è finemente polverizzato anziché in un unico blocco. Il motivo è che:",
       "opzioni": [
         "la polverizzazione aumenta la concentrazione del solido nel sistema",
@@ -142,13 +142,13 @@
         "la temperatura del sistema aumenta durante la macinazione"
       ],
       "corretta": 2,
-      "spiegazione": "In una reazione eterogenea gli urti avvengono soltanto all'interfaccia: suddividere il solido moltiplica l'area disponibile e quindi il numero di urti utili nell'unità di tempo. La prima opzione è falsa perché a un solido puro non si attribuisce una concentrazione variabile, dato che densità e composizione restano quelle. La seconda confonde un fattore geometrico con la barriera energetica, che dipende dal cammino di reazione e non dalla granulometria. La quarta confonde un effetto cinetico con uno termodinamico, dato che la costante di equilibrio dipende solo dalla temperatura. L'ultima è irrilevante, perché il confronto si effettua fra campioni alla stessa temperatura."
+      "spiegazione": "In una reazione eterogenea gli urti avvengono soltanto all'interfaccia: suddividere il solido moltiplica l'area disponibile e quindi il numero di urti utili nell'unità di tempo.\n\nA) è falsa perché a un solido puro non si attribuisce una concentrazione variabile: densità e composizione restano quelle, qualunque sia la granulometria.\nB) confonde un fattore geometrico con la barriera energetica, che dipende dal cammino di reazione.\nD) confonde un effetto cinetico con uno termodinamico: la costante di equilibrio dipende soltanto dalla temperatura.\nE) è irrilevante, perché il confronto si effettua fra campioni portati alla stessa temperatura."
     },
     {
       "id": "u3-0012",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "cinetica: velocità e fattori",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
       "testo": "Nelle reazioni eterogenee la velocità aumenta suddividendo finemente il reagente solido, perché in questo modo cresce la …… di contatto fra le fasi.",
       "accettate": [
         "superficie",
@@ -161,7 +161,7 @@
       "id": "u3-0013",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "cinetica: velocità e fattori",
+      "argomento": "Velocità di reazione e fattori che la influenzano",
       "testo": "Una reazione segue la legge cinetica v = k[A]. A temperatura costante, mentre la reazione procede:",
       "opzioni": [
         "la velocità diminuisce perché diminuisce [A], mentre k resta invariata",
@@ -171,13 +171,13 @@
         "la velocità diminuisce perché k si riduce progressivamente nel tempo"
       ],
       "corretta": 0,
-      "spiegazione": "La velocità è proporzionale a [A], che cala mano a mano che A si consuma: la curva della concentrazione in funzione del tempo è infatti decrescente con pendenza sempre minore. La seconda opzione scambia la costanza di k con la costanza di v, confondendo il coefficiente con il prodotto. La terza introduce nella legge cinetica i prodotti, che in questa espressione non compaiono. La quarta e la quinta attribuiscono a k una variazione nel tempo, mentre k dipende soltanto dalla temperatura e dall'eventuale presenza di un catalizzatore, non dall'avanzamento della reazione."
+      "spiegazione": "La velocità è proporzionale a [A], che cala mano a mano che A si consuma: la curva della concentrazione in funzione del tempo è decrescente con pendenza sempre minore.\n\nB) scambia la costanza di k con la costanza di v, confondendo il coefficiente con il prodotto che esso contribuisce a formare.\nC) introduce nella legge cinetica i prodotti, che in questa espressione non compaiono.\nD) attribuisce a k una diminuzione nel tempo che non si verifica, pur individuando correttamente il calo di [A].\nE) fa dipendere il calo della velocità dalla sola k, mentre k dipende soltanto dalla temperatura e dall'eventuale presenza di un catalizzatore."
     },
     {
       "id": "u3-0014",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "ordine e molecolarità",
+      "argomento": "Ordine di reazione e molecolarità",
       "testo": "Per la reazione A + B -> prodotti si osserva sperimentalmente che, raddoppiando [A] a [B] costante, la velocità raddoppia; raddoppiando [B] a [A] costante, la velocità quadruplica. L'ordine complessivo della reazione è:",
       "opzioni": [
         "1",
@@ -187,13 +187,13 @@
         "6"
       ],
       "corretta": 2,
-      "spiegazione": "Se al raddoppio di [A] la velocità raddoppia, l'ordine rispetto ad A è 1, perché 2 elevato a 1 fa 2; se al raddoppio di [B] la velocità quadruplica, l'ordine rispetto a B è 2, perché 2 elevato a 2 fa 4. La legge cinetica è v = k[A][B]^2 e l'ordine complessivo è la somma degli esponenti, 1 + 2 = 3. L'opzione 1 considera soltanto l'ordine rispetto ad A, l'opzione 2 soltanto quello rispetto a B. L'opzione 4 assume un ordine 2 rispetto a ciascun reagente. L'opzione 6 moltiplica i fattori di aumento della velocità invece di sommare gli esponenti."
+      "spiegazione": "Se al raddoppio di [A] la velocità raddoppia, l'ordine rispetto ad A è 1, perché 2 elevato a 1 fa 2; se al raddoppio di [B] la velocità quadruplica, l'ordine rispetto a B è 2, perché 2 elevato a 2 fa 4. La legge cinetica è dunque v = k[A][B]^2 e l'ordine complessivo è la somma degli esponenti.\n\nA) riporta il solo ordine rispetto ad A, fermandosi alla prima osservazione.\nB) riporta il solo ordine rispetto a B.\nD) assume un ordine 2 rispetto a ciascun reagente, ignorando che rispetto ad A l'ordine è 1.\nE) moltiplica i due fattori di aumento della velocità invece di sommare gli esponenti."
     },
     {
       "id": "u3-0015",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "ordine e molecolarità",
+      "argomento": "Ordine di reazione e molecolarità",
       "testo": "Il numero di specie chimiche che partecipano effettivamente a un singolo stadio elementare di una reazione è detto …… dello stadio.",
       "accettate": [
         "molecolarità"
@@ -204,7 +204,7 @@
       "id": "u3-0016",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "ordine e molecolarità",
+      "argomento": "Ordine di reazione e molecolarità",
       "testo": "Quale affermazione su ordine di reazione e molecolarità è corretta?",
       "opzioni": [
         "L'ordine di reazione si deduce direttamente dai coefficienti stechiometrici dell'equazione globale",
@@ -214,19 +214,17 @@
         "La molecolarità si ricava misurando come varia la velocità al variare delle concentrazioni"
       ],
       "corretta": 1,
-      "spiegazione": "L'ordine è una descrizione empirica della legge cinetica, la molecolarità è un'affermazione sul meccanismo e riguarda il singolo stadio elementare. La prima opzione vale solo per gli stadi elementari: per una reazione globale a più stadi, dedurre gli esponenti dai coefficienti è un errore classico. La terza afferma una coincidenza che si verifica soltanto nel caso particolare degli stadi elementari. La quarta inverte i ruoli, perché è l'ordine a poter essere frazionario o nullo, mentre la molecolarità, contando molecole, è necessariamente un intero positivo. L'ultima attribuisce alla molecolarità il metodo sperimentale con cui si determina l'ordine."
+      "spiegazione": "L'ordine è una descrizione empirica della legge cinetica, ricavata dai dati; la molecolarità è un'affermazione sul meccanismo e riguarda il singolo stadio elementare.\n\nA) vale soltanto per gli stadi elementari: dedurre gli esponenti dai coefficienti di una reazione globale a più stadi è un errore classico.\nC) afferma una coincidenza che si verifica solo nel caso particolare degli stadi elementari.\nD) inverte i ruoli: è l'ordine a poter essere frazionario o nullo, mentre la molecolarità, contando particelle, è necessariamente un intero positivo.\nE) attribuisce alla molecolarità il metodo sperimentale con cui si determina l'ordine."
     },
     {
       "id": "u3-0017",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "ordine e molecolarità",
-      "testo": "Una reazione ha legge cinetica v = k[A]^2[B]: il suo ordine complessivo è …….",
+      "argomento": "Ordine di reazione e molecolarità",
+      "testo": "Una reazione ha legge cinetica v = k[A]^2[B]: il suo ordine complessivo è ……",
       "accettate": [
-        "3",
         "tre",
-        "terzo",
-        "3,0"
+        "terzo"
       ],
       "spiegazione": "L'ordine complessivo è la somma degli esponenti delle concentrazioni nella legge cinetica: 2 + 1 = 3. La reazione è di secondo ordine rispetto ad A e di primo ordine rispetto a B."
     },
@@ -234,7 +232,7 @@
       "id": "u3-0018",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "ordine e molecolarità",
+      "argomento": "Ordine di reazione e molecolarità",
       "testo": "In una reazione che avviene attraverso più stadi successivi, la velocità complessiva del processo è determinata:",
       "opzioni": [
         "dalla media aritmetica delle velocità dei singoli stadi",
@@ -244,13 +242,13 @@
         "dallo stadio più veloce, che impone il ritmo a tutti gli altri"
       ],
       "corretta": 3,
-      "spiegazione": "Gli stadi sono in serie: il processo complessivo non può procedere più rapidamente del passaggio più lento, che per questo si chiama stadio determinante della velocità. La prima opzione non ha senso fisico, perché in una sequenza obbligata non si fa la media ma comanda il collo di bottiglia. La seconda è vera soltanto nel caso particolare in cui il primo stadio sia anche il più lento. La terza confonde un criterio energetico complessivo con quello cinetico: ciò che conta non è il calore scambiato ma la barriera di attivazione. L'ultima inverte il ragionamento, attribuendo il controllo allo stadio rapido."
+      "spiegazione": "Gli stadi sono in serie: il processo complessivo non può procedere più rapidamente del passaggio più lento, che per questo si chiama stadio determinante della velocità.\n\nA) non ha senso fisico, perché in una sequenza obbligata non si fa la media delle velocità ma comanda il collo di bottiglia.\nB) è vera soltanto nel caso particolare in cui il primo stadio sia anche il più lento.\nC) sostituisce il criterio cinetico con uno energetico complessivo: ciò che conta non è il calore scambiato ma l'altezza della barriera di attivazione.\nE) inverte il ragionamento, attribuendo il controllo allo stadio rapido."
     },
     {
       "id": "u3-0019",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "ordine e molecolarità",
+      "argomento": "Ordine di reazione e molecolarità",
       "testo": "In un meccanismo a più stadi, lo stadio lento che impone la velocità all'intero processo è detto stadio …… della velocità.",
       "accettate": [
         "determinante",
@@ -262,7 +260,7 @@
       "id": "u3-0020",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "arrhenius e stato di transizione",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
       "testo": "Secondo la teoria degli urti, perché un urto fra due molecole di reagente dia luogo alla reazione è necessario che:",
       "opzioni": [
         "l'urto avvenga fra molecole della stessa specie chimica",
@@ -272,14 +270,14 @@
         "le molecole abbiano energia sufficiente e si urtino con orientamento adeguato"
       ],
       "corretta": 4,
-      "spiegazione": "Un urto è efficace solo se soddisfa entrambe le condizioni: energia almeno pari all'energia di attivazione e geometria che porti a contatto le porzioni di molecola coinvolte nella rottura e nella formazione dei legami. Il fattore sterico è per questo incluso nel termine pre-esponenziale dell'equazione di Arrhenius. La prima opzione è falsa, perché gli urti reattivi avvengono di norma fra specie diverse. La seconda è falsa perché la teoria si applica anche alle reazioni in soluzione. La terza sostituisce un requisito di soglia con un massimo e ignora che le velocità molecolari sono distribuite. La quarta è l'errore più comune, perché trascura proprio il requisito di orientamento, che spiega perché solo una frazione degli urti sufficientemente energetici risulta produttiva."
+      "spiegazione": "Un urto è efficace solo se soddisfa entrambe le condizioni: energia almeno pari all'energia di attivazione e geometria che porti a contatto le porzioni di molecola coinvolte nella rottura e nella formazione dei legami.\n\nA) è falsa, perché gli urti reattivi avvengono di norma fra specie diverse.\nB) è falsa perché la teoria degli urti si applica anche alle reazioni in soluzione.\nC) sostituisce un requisito di soglia con un massimo e ignora che le velocità molecolari sono distribuite su un intervallo.\nD) è l'errore più comune: trascura il requisito di orientamento, che è proprio ciò che spiega perché solo una frazione degli urti sufficientemente energetici risulta produttiva."
     },
     {
       "id": "u3-0021",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "arrhenius e stato di transizione",
-      "testo": "Nell'equazione di Arrhenius k = A e^(-Ea/RT), il termine Ea rappresenta l'energia di …….",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
+      "testo": "Nell'equazione di Arrhenius k = A e^(-Ea/RT), il termine Ea rappresenta l'energia di ……",
       "accettate": [
         "attivazione"
       ],
@@ -289,7 +287,7 @@
       "id": "u3-0022",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "arrhenius e stato di transizione",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
       "testo": "Nel diagramma dell'energia in funzione della coordinata di reazione, l'energia di attivazione della reazione diretta corrisponde alla differenza di energia fra:",
       "opzioni": [
         "il complesso attivato e i reagenti",
@@ -299,14 +297,14 @@
         "il complesso attivato e lo zero della scala delle energie"
       ],
       "corretta": 0,
-      "spiegazione": "La barriera che i reagenti devono superare si misura a partire dal loro livello energetico fino alla sommità della curva, occupata dal complesso attivato. La seconda opzione è la variazione di entalpia della reazione, non la barriera: è l'errore più frequente su questo diagramma. La terza è l'energia di attivazione della reazione inversa, misurata dai prodotti verso la stessa sommità. La quarta è ancora la variazione di entalpia, cambiata di segno e privata dell'informazione sul verso. L'ultima non ha significato, perché nel diagramma contano soltanto le differenze di energia e non il livello assoluto."
+      "spiegazione": "La barriera che i reagenti devono superare si misura a partire dal loro livello energetico fino alla sommità della curva, occupata dal complesso attivato.\n\nB) è la variazione di entalpia della reazione, non la barriera: è l'errore più frequente su questo diagramma.\nC) è l'energia di attivazione della reazione inversa, misurata dai prodotti verso la stessa sommità.\nD) è ancora la variazione di entalpia, privata del segno e quindi dell'informazione sul verso.\nE) non ha significato, perché nel diagramma contano soltanto le differenze di energia e non il livello assoluto."
     },
     {
       "id": "u3-0023",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "arrhenius e stato di transizione",
-      "testo": "La specie instabile di massima energia che si forma lungo il cammino di reazione, corrispondente allo stato di transizione, è detta complesso …….",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
+      "testo": "La specie instabile di massima energia che si forma lungo il cammino di reazione, corrispondente allo stato di transizione, è detta complesso ……",
       "accettate": [
         "attivato"
       ],
@@ -316,7 +314,7 @@
       "id": "u3-0024",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "arrhenius e stato di transizione",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
       "testo": "Due reazioni diverse hanno lo stesso fattore pre-esponenziale, ma la prima ha energia di attivazione maggiore della seconda. Alla stessa temperatura, la prima reazione ha rispetto alla seconda:",
       "opzioni": [
         "la stessa costante di velocità, perché Ea influisce solo sulla resa",
@@ -326,14 +324,14 @@
         "una variazione di entalpia necessariamente maggiore"
       ],
       "corretta": 2,
-      "spiegazione": "Nell'equazione di Arrhenius l'energia di attivazione compare con segno negativo all'esponente: a parità di fattore pre-esponenziale e di temperatura, aumentarla riduce il fattore esponenziale e quindi k. La prima opzione nega l'effetto dell'energia di attivazione sulla cinetica e per di più le attribuisce un effetto sulla resa, che dipende invece dalla termodinamica. La seconda legge la relazione come se fosse diretta, scambiando una barriera da superare con una riserva di energia disponibile. La quarta sposta la risposta sulla costante di equilibrio, che non dipende dall'energia di attivazione ma dalla variazione di energia libera standard. L'ultima confonde l'altezza della barriera con il dislivello fra reagenti e prodotti, che sono grandezze indipendenti."
+      "spiegazione": "Nell'equazione di Arrhenius l'energia di attivazione compare con segno negativo all'esponente: a parità di fattore pre-esponenziale e di temperatura, aumentarla riduce il fattore esponenziale e quindi k.\n\nA) nega l'effetto dell'energia di attivazione sulla cinetica e per di più le attribuisce un effetto sulla resa, che dipende dalla termodinamica.\nB) legge la relazione come se fosse diretta, scambiando una barriera da superare con una riserva di energia disponibile.\nD) sposta la risposta sulla costante di equilibrio, che non dipende dall'energia di attivazione ma dalla variazione di energia libera standard.\nE) confonde l'altezza della barriera con il dislivello fra reagenti e prodotti, che sono grandezze indipendenti."
     },
     {
       "id": "u3-0025",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "arrhenius e stato di transizione",
-      "testo": "Gli urti fra molecole di reagente che portano effettivamente alla formazione dei prodotti sono detti urti …….",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
+      "testo": "Gli urti fra molecole di reagente che portano effettivamente alla formazione dei prodotti sono detti urti ……",
       "accettate": [
         "efficaci",
         "efficace"
@@ -344,8 +342,8 @@
       "id": "u3-0026",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "arrhenius e stato di transizione",
-      "testo": "Secondo l'equazione di Arrhenius, a parità di energia di attivazione, all'aumentare della temperatura assoluta il valore della costante di velocità k …….",
+      "argomento": "Teoria degli urti, energia di attivazione ed equazione di Arrhenius",
+      "testo": "Secondo l'equazione di Arrhenius, a parità di energia di attivazione, all'aumentare della temperatura assoluta il valore della costante di velocità k ……",
       "accettate": [
         "aumenta",
         "cresce",
@@ -358,7 +356,7 @@
       "id": "u3-0027",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "catalisi ed enzimi",
+      "argomento": "Catalizzatori ed enzimi",
       "testo": "Un catalizzatore aumenta la velocità di una reazione perché:",
       "opzioni": [
         "aumenta l'energia cinetica media delle molecole di reagente",
@@ -368,14 +366,14 @@
         "aumenta il valore della costante di equilibrio della reazione"
       ],
       "corretta": 1,
-      "spiegazione": "Il catalizzatore partecipa al meccanismo e viene poi rigenerato, offrendo un percorso con barriera più bassa; abbassando l'energia di attivazione fa crescere k e quindi la velocità. La prima opzione descrive l'effetto della temperatura e non della catalisi, dato che l'energia cinetica media dipende solo da T. Le ultime tre sono tre versioni dello stesso errore, il più grave in questo argomento: il catalizzatore agisce sulla cinetica e non modifica nulla di termodinamico, né la posizione dell'equilibrio, né il segno della variazione di energia libera, né il valore della costante di equilibrio. Abbassa la barriera nei due versi allo stesso modo, quindi accelera in egual misura reazione diretta e inversa."
+      "spiegazione": "Il catalizzatore partecipa al meccanismo e viene poi rigenerato, offrendo un percorso con barriera più bassa; abbassando l'energia di attivazione fa crescere k e quindi la velocità, nei due versi allo stesso modo.\n\nA) descrive l'effetto della temperatura e non della catalisi, dato che l'energia cinetica media dipende soltanto da T.\nC) attribuisce al catalizzatore uno spostamento dell'equilibrio che non avviene: la posizione dell'equilibrio è fissata dalla termodinamica.\nD) gli attribuisce la capacità di invertire il segno della variazione di energia libera, che dipende dalla natura di reagenti e prodotti.\nE) gli attribuisce un effetto sulla costante di equilibrio, che dipende soltanto dalla temperatura."
     },
     {
       "id": "u3-0028",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "catalisi ed enzimi",
-      "testo": "Una sostanza che aumenta la velocità di una reazione senza essere consumata e senza modificare la posizione dell'equilibrio è detta …….",
+      "argomento": "Catalizzatori ed enzimi",
+      "testo": "Una sostanza che aumenta la velocità di una reazione senza essere consumata e senza modificare la posizione dell'equilibrio è detta ……",
       "accettate": [
         "catalizzatore",
         "catalizzatori"
@@ -386,7 +384,7 @@
       "id": "u3-0029",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "catalisi ed enzimi",
+      "argomento": "Catalizzatori ed enzimi",
       "testo": "A un sistema chimico che ha già raggiunto l'equilibrio viene aggiunto l'enzima che catalizza quella reazione. L'effetto è che:",
       "opzioni": [
         "l'equilibrio si sposta nella direzione dei prodotti",
@@ -396,14 +394,14 @@
         "viene accelerata la sola reazione diretta, e non quella inversa"
       ],
       "corretta": 3,
-      "spiegazione": "Un catalizzatore, enzimatico o no, cambia la velocità con cui l'equilibrio viene raggiunto ma non la sua posizione: se il sistema è già all'equilibrio, non accade nulla di osservabile. Le prime due opzioni attribuiscono all'enzima un effetto termodinamico che non possiede. La terza è falsa perché ΔG° dipende soltanto dalla natura di reagenti e prodotti e dalla temperatura. L'ultima è l'errore concettuale più insidioso: abbassando la barriera, l'enzima abbassa l'energia di attivazione tanto della reazione diretta quanto di quella inversa, che passano per lo stesso stato di transizione."
+      "spiegazione": "Un catalizzatore, enzimatico o no, cambia la velocità con cui l'equilibrio viene raggiunto ma non la sua posizione: se il sistema è già all'equilibrio, non accade nulla di osservabile.\n\nA) attribuisce all'enzima uno spostamento dell'equilibrio che nessun catalizzatore produce.\nB) è la stessa affermazione espressa in termini di resa, e cade per lo stesso motivo.\nC) è falsa perché ΔG° dipende soltanto dalla natura di reagenti e prodotti e dalla temperatura.\nE) è l'errore concettuale più insidioso: abbassando la barriera, l'enzima abbassa l'energia di attivazione tanto della reazione diretta quanto di quella inversa, che passano per lo stesso stato di transizione."
     },
     {
       "id": "u3-0030",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "catalisi ed enzimi",
-      "testo": "I catalizzatori biologici, in massima parte di natura proteica, sono detti …….",
+      "argomento": "Catalizzatori ed enzimi",
+      "testo": "I catalizzatori biologici, in massima parte di natura proteica, sono detti ……",
       "accettate": [
         "enzimi",
         "enzima"
@@ -414,7 +412,7 @@
       "id": "u3-0031",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "costante di equilibrio",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
       "testo": "Per l'equilibrio in fase gassosa N2 + 3 H2 <-> 2 NH3, l'espressione corretta della costante di equilibrio Kc è:",
       "opzioni": [
         "Kc = [N2][H2]^3 / [NH3]^2",
@@ -424,13 +422,13 @@
         "Kc = [NH3]^2 / ([N2][H2]^3)"
       ],
       "corretta": 4,
-      "spiegazione": "La legge d'azione di massa pone al numeratore il prodotto delle concentrazioni dei prodotti e al denominatore quello dei reagenti, ciascuna elevata al proprio coefficiente stechiometrico. La prima opzione rovescia numeratore e denominatore ed è l'espressione della costante della reazione inversa. La seconda ignora del tutto i coefficienti. La terza usa i coefficienti come fattori moltiplicativi e somma le concentrazioni dei reagenti invece di moltiplicarle, due errori tipici di chi ricorda la formula a memoria. La quarta applica l'esponente ai soli prodotti e dimentica il 3 su [H2]."
+      "spiegazione": "La legge d'azione di massa pone al numeratore il prodotto delle concentrazioni dei prodotti e al denominatore quello dei reagenti, ciascuna elevata al proprio coefficiente stechiometrico.\n\nA) rovescia numeratore e denominatore ed è l'espressione della costante della reazione inversa.\nB) ignora del tutto i coefficienti stechiometrici.\nC) usa i coefficienti come fattori moltiplicativi e somma le concentrazioni dei reagenti invece di moltiplicarle: due errori tipici di chi ricorda la formula a memoria.\nD) applica l'esponente al solo prodotto e dimentica il 3 su [H2]."
     },
     {
       "id": "u3-0032",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "costante di equilibrio",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
       "testo": "La relazione che esprime la costante di equilibrio come rapporto fra il prodotto delle concentrazioni dei prodotti e quello delle concentrazioni dei reagenti, elevate ai rispettivi coefficienti, è nota come legge d'…… di massa.",
       "accettate": [
         "azione"
@@ -441,7 +439,7 @@
       "id": "u3-0033",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "costante di equilibrio",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
       "testo": "Per l'equilibrio eterogeneo CaCO3(s) <-> CaO(s) + CO2(g), l'espressione della costante di equilibrio è:",
       "opzioni": [
         "K = [CO2]",
@@ -451,14 +449,14 @@
         "K = 1 / [CO2]"
       ],
       "corretta": 0,
-      "spiegazione": "Nell'espressione della costante non compaiono i solidi puri e i liquidi puri, perché la loro concentrazione è una costante inglobata nel valore di K: resta quindi la sola specie gassosa. La seconda opzione scrive l'espressione come se tutte e tre le specie fossero in soluzione. La terza elimina il solido a denominatore ma non quello a numeratore, in modo incoerente, e la quarta commette l'errore opposto. L'ultima è l'espressione della reazione inversa, per di più dopo aver correttamente eliminato i solidi. Conseguenza pratica: aggiungere altro CaCO3 solido non sposta questo equilibrio."
+      "spiegazione": "Nell'espressione della costante non compaiono i solidi puri e i liquidi puri, perché la loro concentrazione è costante e viene inglobata nel valore di K: resta quindi la sola specie gassosa. Ne segue che aggiungere altro CaCO3 solido non sposta questo equilibrio.\n\nB) scrive l'espressione come se tutte e tre le specie fossero in soluzione.\nC) elimina il solido a denominatore ma non quello a numeratore, in modo incoerente.\nD) commette l'errore speculare, eliminando CaO ma conservando CaCO3.\nE) è l'espressione della reazione inversa, pur avendo correttamente escluso i solidi."
     },
     {
       "id": "u3-0034",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "costante di equilibrio",
-      "testo": "Nell'espressione della costante di un equilibrio eterogeneo non compaiono i solidi puri e i liquidi puri, perché le loro concentrazioni sono …….",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
+      "testo": "Nell'espressione della costante di un equilibrio eterogeneo non compaiono i solidi puri e i liquidi puri, perché le loro concentrazioni sono ……",
       "accettate": [
         "costanti",
         "costante",
@@ -470,7 +468,7 @@
       "id": "u3-0035",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "costante di equilibrio",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
       "testo": "A una certa temperatura una reazione ha costante di equilibrio K = 1 x 10^-5. Ciò significa che all'equilibrio:",
       "opzioni": [
         "prevalgono nettamente i prodotti rispetto ai reagenti",
@@ -480,14 +478,14 @@
         "la reazione è da considerarsi irreversibile nel verso diretto"
       ],
       "corretta": 3,
-      "spiegazione": "Una costante molto minore di 1 indica che il numeratore, cioè il termine dei prodotti, è molto più piccolo del denominatore: all'equilibrio la miscela è costituita quasi soltanto da reagenti. La prima opzione inverte la lettura del rapporto. La seconda corrisponderebbe a un valore di K prossimo a 1. La terza confonde la termodinamica con la cinetica, perché K non contiene alcuna informazione sulla rapidità e una reazione con K piccolo può raggiungere l'equilibrio in un istante. L'ultima descriverebbe il caso opposto, quello di una K enormemente grande, in cui la reazione diretta è di fatto completa."
+      "spiegazione": "Una costante molto minore di 1 indica che il numeratore, cioè il termine dei prodotti, è molto più piccolo del denominatore: all'equilibrio la miscela è costituita quasi soltanto da reagenti.\n\nA) inverte la lettura del rapporto fra numeratore e denominatore.\nB) corrisponderebbe a un valore di K prossimo a 1.\nC) confonde la termodinamica con la cinetica: la costante non contiene alcuna informazione sulla rapidità, e una reazione con K piccolo può raggiungere l'equilibrio in un istante.\nE) descrive il caso opposto, quello di una K enormemente grande, in cui la reazione diretta è di fatto completa."
     },
     {
       "id": "u3-0036",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "costante di equilibrio",
-      "testo": "In un sistema che ha raggiunto l'equilibrio chimico le velocità della reazione diretta e di quella inversa sono fra loro …….",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
+      "testo": "In un sistema che ha raggiunto l'equilibrio chimico le velocità della reazione diretta e di quella inversa sono fra loro ……",
       "accettate": [
         "uguali",
         "uguale",
@@ -500,7 +498,7 @@
       "id": "u3-0037",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "costante di equilibrio",
+      "argomento": "Costante di equilibrio e legge d'azione di massa",
       "testo": "In un sistema chimico che ha raggiunto l'equilibrio:",
       "opzioni": [
         "entrambe le reazioni, diretta e inversa, si sono arrestate",
@@ -510,13 +508,13 @@
         "la costante di equilibrio assume necessariamente valore unitario"
       ],
       "corretta": 1,
-      "spiegazione": "L'equilibrio è una condizione stazionaria mantenuta da due processi opposti che procedono alla stessa velocità. La prima opzione descrive un equilibrio statico, che in chimica non esiste, ed è l'errore più frequente. La terza confonde la costanza delle concentrazioni con la loro uguaglianza: le concentrazioni restano ferme ai valori imposti dalla costante, che in generale sono diversi fra loro. La quarta non è compatibile con la costanza delle concentrazioni, perché se procedesse solo la reazione inversa i prodotti calerebbero. L'ultima vale soltanto nel caso particolarissimo in cui la costante sia effettivamente pari a 1."
+      "spiegazione": "L'equilibrio è una condizione stazionaria mantenuta da due processi opposti che continuano a procedere alla stessa velocità.\n\nA) descrive un equilibrio statico, che in chimica non esiste: è l'errore più frequente su questo concetto.\nC) confonde la costanza delle concentrazioni con la loro uguaglianza; le concentrazioni restano ferme ai valori imposti dalla costante, che in generale sono diversi fra loro.\nD) non è compatibile con la costanza delle concentrazioni, perché se procedesse solo la reazione inversa i prodotti diminuirebbero.\nE) vale soltanto nel caso particolarissimo in cui la costante sia effettivamente pari a 1."
     },
     {
       "id": "u3-0038",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "energia libera ed equilibrio",
+      "argomento": "Energia libera ed equilibrio",
       "testo": "Per una reazione chimica il cui ΔG° risulta negativo, si può affermare che la costante di equilibrio:",
       "opzioni": [
         "è minore di 1",
@@ -526,19 +524,17 @@
         "non è definibile, perché la reazione non raggiunge l'equilibrio"
       ],
       "corretta": 2,
-      "spiegazione": "Dalla relazione ΔG° = -RT ln K segue che, se ΔG° è negativo, ln K è positivo e quindi K è maggiore di 1, cioè all'equilibrio prevalgono i prodotti. La prima opzione corrisponde al caso opposto, con ΔG° positivo. La seconda corrisponde a ΔG° nullo. La quarta aggiunge alla conclusione corretta una deduzione sbagliata, perché la spontaneità è questione termodinamica e non dice nulla sulla velocità, che dipende dall'energia di attivazione. L'ultima è falsa perché una reazione con ΔG° negativo raggiunge comunque un equilibrio, soltanto molto spostato verso i prodotti."
+      "spiegazione": "Dalla relazione ΔG° = -RT ln K segue che, se ΔG° è negativo, ln K è positivo e quindi K è maggiore di 1: all'equilibrio prevalgono i prodotti.\n\nA) corrisponde al caso opposto, quello di ΔG° positivo.\nB) corrisponde al caso di ΔG° nullo.\nD) parte dalla conclusione giusta sul valore di K ma vi aggiunge una deduzione sbagliata: la spontaneità è questione termodinamica e non dice nulla sulla velocità, che dipende dall'energia di attivazione.\nE) è falsa perché una reazione con ΔG° negativo raggiunge comunque un equilibrio, soltanto molto spostato verso i prodotti."
     },
     {
       "id": "u3-0039",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "energia libera ed equilibrio",
-      "testo": "Un sistema chimico a temperatura e pressione costanti ha raggiunto l'equilibrio quando la variazione di energia libera di Gibbs ΔG assume il valore …….",
+      "argomento": "Energia libera ed equilibrio",
+      "testo": "Un sistema chimico a temperatura e pressione costanti ha raggiunto l'equilibrio quando la variazione di energia libera di Gibbs ΔG assume il valore ……",
       "accettate": [
-        "0",
         "zero",
-        "nullo",
-        "0,0"
+        "nullo"
       ],
       "spiegazione": "Finché ΔG è negativo la reazione procede spontaneamente nel verso diretto; quando si annulla non esiste più alcuna forza motrice in nessuno dei due versi e il sistema è all'equilibrio. Da non confondere con ΔG°, che all'equilibrio in generale non è nullo."
     },
@@ -546,7 +542,7 @@
       "id": "u3-0040",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "energia libera ed equilibrio",
+      "argomento": "Energia libera ed equilibrio",
       "testo": "Per una reazione esotermica all'equilibrio, un aumento di temperatura produce come effetto:",
       "opzioni": [
         "un aumento del valore della costante di equilibrio",
@@ -556,14 +552,14 @@
         "una diminuzione del valore della costante di equilibrio"
       ],
       "corretta": 4,
-      "spiegazione": "In una reazione esotermica il calore va considerato come un prodotto: fornendone dall'esterno, per il principio dell'equilibrio mobile il sistema si sposta verso i reagenti e il valore della costante diminuisce. La prima opzione vale invece per le reazioni endotermiche. La seconda nega l'unico fattore che possa realmente modificare la costante, dato che la temperatura influisce sia sulla cinetica sia sulla termodinamica. La terza commette lo stesso errore e lo aggrava, deducendo la posizione dell'equilibrio da un argomento di velocità. La quarta è priva di senso, perché il segno della variazione di entalpia è fissato dalla natura della reazione."
+      "spiegazione": "In una reazione esotermica il calore si comporta come un prodotto: fornendone dall'esterno, per il principio dell'equilibrio mobile il sistema si sposta verso i reagenti e il valore della costante diminuisce.\n\nA) descrive ciò che accade invece alle reazioni endotermiche.\nB) nega l'unico fattore che possa realmente modificare la costante, dato che la temperatura influisce sia sulla cinetica sia sulla termodinamica.\nC) commette lo stesso errore e lo aggrava, deducendo la posizione dell'equilibrio da un argomento di velocità.\nD) è priva di senso, perché il segno della variazione di entalpia è fissato dalla natura della reazione e non dalla temperatura di lavoro."
     },
     {
       "id": "u3-0041",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "energia libera ed equilibrio",
-      "testo": "Dalla relazione ΔG° = -RT ln K segue che, se la costante di equilibrio è maggiore di 1, il segno di ΔG° è …….",
+      "argomento": "Energia libera ed equilibrio",
+      "testo": "Dalla relazione ΔG° = -RT ln K segue che, se la costante di equilibrio è maggiore di 1, il segno di ΔG° è ……",
       "accettate": [
         "negativo",
         "negativa",
@@ -575,8 +571,8 @@
       "id": "u3-0042",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "energia libera ed equilibrio",
-      "testo": "Fra le grandezze che si possono variare agendo su un sistema all'equilibrio, l'unica che modifica il valore numerico della costante di equilibrio di una data reazione è la …….",
+      "argomento": "Energia libera ed equilibrio",
+      "testo": "Fra le grandezze che si possono variare agendo su un sistema all'equilibrio, l'unica che modifica il valore numerico della costante di equilibrio di una data reazione è la ……",
       "accettate": [
         "temperatura"
       ],
@@ -586,7 +582,7 @@
       "id": "u3-0043",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "equilibrio mobile e stato stazionario",
+      "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
       "testo": "In una miscela di reazione il quoziente di reazione Q risulta minore della costante di equilibrio K. Il sistema evolve:",
       "opzioni": [
         "verso i prodotti, fino a che Q non eguaglia K",
@@ -596,13 +592,13 @@
         "verso i reagenti, perché il sistema tende sempre a minimizzare Q"
       ],
       "corretta": 0,
-      "spiegazione": "Q ha la stessa forma della costante ma è calcolato con le concentrazioni del momento. Se Q è minore di K, il numeratore dei prodotti è troppo piccolo rispetto alla condizione di equilibrio, quindi la reazione procede nel verso diretto finché Q non sale fino a K. La seconda opzione inverte il criterio e descrive il caso di Q maggiore di K. La terza vale soltanto se Q è uguale a K. La quarta introduce una condizione sull'entalpia che non c'entra, perché il confronto fra Q e K stabilisce il verso a prescindere dal segno del calore di reazione. L'ultima inventa una tendenza a minimizzare Q che non esiste: il sistema tende a rendere Q uguale a K, non minimo."
+      "spiegazione": "Q ha la stessa forma della costante ma è calcolato con le concentrazioni del momento. Se Q è minore di K, il termine dei prodotti è troppo piccolo rispetto alla condizione di equilibrio, quindi la reazione procede nel verso diretto finché Q non sale fino a K.\n\nB) inverte il criterio e descrive il caso di Q maggiore di K.\nC) vale soltanto quando Q è già uguale a K.\nD) individua il verso giusto ma vi aggiunge una condizione sull'entalpia che non esiste: il confronto fra Q e K stabilisce il verso a prescindere dal segno del calore di reazione.\nE) inventa una tendenza a minimizzare Q: il sistema tende a rendere Q uguale a K, non minimo."
     },
     {
       "id": "u3-0044",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "equilibrio mobile e stato stazionario",
+      "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
       "testo": "L'espressione che ha la stessa forma della costante di equilibrio ma viene calcolata con concentrazioni non necessariamente di equilibrio è detta …… di reazione.",
       "accettate": [
         "quoziente"
@@ -613,7 +609,7 @@
       "id": "u3-0045",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "equilibrio mobile e stato stazionario",
+      "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
       "testo": "Il sistema all'equilibrio N2(g) + 3 H2(g) <-> 2 NH3(g) viene compresso riducendo il volume del recipiente, a temperatura costante. L'equilibrio:",
       "opzioni": [
         "non subisce alcuno spostamento, perché tutte le specie sono gassose",
@@ -623,14 +619,14 @@
         "si sposta verso i reagenti, perché la compressione ostacola le reazioni di sintesi"
       ],
       "corretta": 2,
-      "spiegazione": "Comprimendo si aumenta la pressione: per il principio dell'equilibrio mobile il sistema reagisce riducendo il numero di particelle in fase gassosa, e qui si passa da 4 moli di gas a sinistra a 2 a destra. La prima opzione sarebbe valida soltanto se il numero di moli gassose fosse uguale nei due membri. La seconda individua il verso sbagliato usando un argomento vero ma mal applicato, perché aumentano le pressioni parziali di tutte le specie e ciò che conta è il bilancio delle moli. La quarta aggiunge alla conclusione giusta un errore grave, dato che a temperatura costante la costante non cambia: cambiano le concentrazioni. L'ultima inventa una regola inesistente."
+      "spiegazione": "Comprimendo si aumenta la pressione: per il principio dell'equilibrio mobile il sistema reagisce riducendo il numero di particelle in fase gassosa, e qui si passa da 4 moli di gas al primo membro a 2 al secondo.\n\nA) sarebbe valida soltanto se il numero di moli gassose fosse uguale nei due membri.\nB) individua il verso sbagliato partendo da un fatto vero ma mal applicato: comprimendo aumentano le pressioni parziali di tutte le specie, e ciò che decide è il bilancio delle moli.\nD) individua il verso giusto ma vi aggiunge un errore grave, perché a temperatura costante la costante di equilibrio non cambia: cambiano le concentrazioni.\nE) invoca una regola inesistente sulle reazioni di sintesi."
     },
     {
       "id": "u3-0046",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "equilibrio mobile e stato stazionario",
-      "testo": "Il principio secondo cui un sistema all'equilibrio, sottoposto a una perturbazione esterna, si sposta nel verso che ne attenua gli effetti è detto principio dell'equilibrio …….",
+      "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
+      "testo": "Il principio secondo cui un sistema all'equilibrio, sottoposto a una perturbazione esterna, si sposta nel verso che ne attenua gli effetti è detto principio dell'equilibrio ……",
       "accettate": [
         "mobile"
       ],
@@ -640,7 +636,7 @@
       "id": "u3-0047",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "equilibrio mobile e stato stazionario",
+      "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
       "testo": "Quale caratteristica distingue lo stato stazionario, tipico dei sistemi biologici, dall'equilibrio chimico?",
       "opzioni": [
         "Nello stato stazionario le concentrazioni delle specie variano continuamente nel tempo",
@@ -650,14 +646,14 @@
         "Nello stato stazionario la variazione di energia libera del sistema è nulla"
       ],
       "corretta": 1,
-      "spiegazione": "Lo stato stazionario è una condizione propria dei sistemi aperti: un metabolita mantiene concentrazione costante perché viene prodotto e consumato alla stessa velocità, ma il sistema è attraversato da un flusso e resta lontano dall'equilibrio, condizione che per una cellula coincide con la morte. La prima opzione è falsa, perché la costanza delle concentrazioni è proprio ciò che accomuna i due stati. La terza, la quarta e l'ultima descrivono tutte l'equilibrio chimico e non lo stato stazionario: uguaglianza delle velocità diretta e inversa, sistema chiuso o isolato, variazione di energia libera nulla."
+      "spiegazione": "Lo stato stazionario è una condizione propria dei sistemi aperti: un metabolita mantiene concentrazione costante perché viene prodotto e consumato alla stessa velocità, ma il sistema è attraversato da un flusso e resta lontano dall'equilibrio, condizione che per una cellula coincide con la morte.\n\nA) è falsa, perché la costanza delle concentrazioni è proprio ciò che accomuna i due stati.\nC) descrive l'equilibrio chimico, in cui le due velocità opposte si eguagliano.\nD) descrive ancora l'equilibrio, che si instaura in un sistema chiuso, e capovolge la caratteristica distintiva dello stato stazionario.\nE) è la condizione termodinamica dell'equilibrio, non dello stato stazionario."
     },
     {
       "id": "u3-0048",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "equilibrio mobile e stato stazionario",
-      "testo": "Nella cellula la concentrazione di un metabolita resta costante perché esso viene prodotto e consumato alla stessa velocità, pur essendoci scambio continuo con l'esterno: questa condizione è detta stato …….",
+      "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
+      "testo": "Nella cellula la concentrazione di un metabolita resta costante perché esso viene prodotto e consumato alla stessa velocità, pur essendoci scambio continuo con l'esterno: questa condizione è detta stato ……",
       "accettate": [
         "stazionario"
       ],
@@ -667,7 +663,7 @@
       "id": "u3-0049",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "solubilità e ione comune",
+      "argomento": "Prodotto di solubilità ed effetto dello ione comune",
       "testo": "Per l'equilibrio di solubilità CaF2(s) <-> Ca2+(aq) + 2 F-(aq), l'espressione corretta del prodotto di solubilità è:",
       "opzioni": [
         "Kps = [Ca2+][F-]",
@@ -677,14 +673,14 @@
         "Kps = [Ca2+] + 2[F-]"
       ],
       "corretta": 3,
-      "spiegazione": "Il prodotto di solubilità è il prodotto delle concentrazioni degli ioni all'equilibrio, ciascuna elevata al proprio coefficiente stechiometrico; il sale solido, essendo una fase pura, non compare. La prima opzione dimentica l'esponente 2 sul fluoruro. La seconda usa il coefficiente come fattore moltiplicativo anziché come esponente. La terza mette a denominatore il solido, che non deve comparire. L'ultima somma le concentrazioni invece di moltiplicarle, tradendo il nome stesso di prodotto di solubilità."
+      "spiegazione": "Il prodotto di solubilità è il prodotto delle concentrazioni degli ioni all'equilibrio, ciascuna elevata al proprio coefficiente stechiometrico; il sale solido, essendo una fase pura, non compare.\n\nA) dimentica l'esponente 2 sul fluoruro.\nB) usa il coefficiente come fattore moltiplicativo anziché come esponente.\nC) scrive correttamente gli esponenti ma mette a denominatore il solido, che non deve comparire.\nE) somma le concentrazioni invece di moltiplicarle, tradendo il nome stesso di prodotto di solubilità."
     },
     {
       "id": "u3-0050",
       "unita": "u3",
       "tipo": "completamento",
-      "argomento": "solubilità e ione comune",
-      "testo": "La diminuzione di solubilità di un sale poco solubile provocata dall'aggiunta alla soluzione di uno ione già presente nel suo equilibrio di dissoluzione è detta effetto dello ione …….",
+      "argomento": "Prodotto di solubilità ed effetto dello ione comune",
+      "testo": "La diminuzione di solubilità di un sale poco solubile provocata dall'aggiunta alla soluzione di uno ione già presente nel suo equilibrio di dissoluzione è detta effetto dello ione ……",
       "accettate": [
         "comune",
         "in comune"
@@ -695,7 +691,7 @@
       "id": "u3-0051",
       "unita": "u3",
       "tipo": "multipla",
-      "argomento": "solubilità e ione comune",
+      "argomento": "Prodotto di solubilità ed effetto dello ione comune",
       "testo": "A una soluzione satura di cloruro di argento, in equilibrio con il proprio corpo di fondo, si aggiunge cloruro di sodio solido. A temperatura costante si osserva che:",
       "opzioni": [
         "la solubilità di AgCl aumenta, per effetto dell'aumento di forza ionica",
@@ -705,7 +701,7 @@
         "la solubilità di AgCl diminuisce e parte del sale precipita"
       ],
       "corretta": 4,
-      "spiegazione": "Il cloruro di sodio, molto solubile, immette ioni cloruro che sono comuni all'equilibrio di AgCl: il prodotto ionico supera il Kps e il sistema torna all'equilibrio facendo precipitare AgCl, cioè abbassandone la solubilità. La prima opzione inverte l'effetto. La seconda e la terza confondono la solubilità con il Kps: quest'ultimo dipende soltanto dalla temperatura e resta invariato, mentre ciò che cambia sono le concentrazioni ioniche e quindi la solubilità. La quarta parte dall'osservazione corretta che il Kps non cambia, ma ne trae la conclusione sbagliata che non accada nulla: proprio perché il Kps deve restare costante, l'aggiunta di cloruro impone la precipitazione."
+      "spiegazione": "Il cloruro di sodio, molto solubile, immette ioni cloruro comuni all'equilibrio di AgCl: il prodotto ionico supera il Kps e il sistema torna all'equilibrio facendo precipitare AgCl, cioè abbassandone la solubilità.\n\nA) inverte l'effetto dello ione comune.\nB) confonde la solubilità con il Kps, che dipende soltanto dalla temperatura e resta invariato.\nC) commette lo stesso errore nella direzione opposta.\nD) parte dall'osservazione corretta che il Kps non cambia, ma ne trae la conclusione sbagliata che non accada nulla: proprio perché il Kps deve restare costante, l'aggiunta di cloruro impone la precipitazione."
     }
   ]
 }

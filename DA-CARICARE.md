@@ -2,76 +2,50 @@
 
 Contiene **solo** i file cambiati rispetto a quanto è pubblicato adesso su
 `alassio-eng/TestChimica`. Scompatta mantenendo i percorsi e sovrascrivi.
-Risulta non caricato anche il delta dell'unità 5: questo pacchetto lo ingloba,
-quindi basta caricare questo.
+Il delta precedente risulta caricato: qui non c'è nulla che lo ripeta.
 
-## 1. Unità 4 completata in tutte e tre le materie
+## Dei cinque file che mi hai passato ne ho integrati tre
 
-| file | domande | id |
-|---|---|---|
-| `questions/chimica/chimica-u4-03.json` | 48 (24 multipla + 24 completamento) | `u4-0053` … `u4-0100` |
-| `questions/fisica/fisica-u4-01.json` | 50 (25 + 25) | `u4-0001` … `u4-0050` |
-| `questions/biologia/biologia-u4-02.json` | 50 (25 + 25) | `u4-0051` … `u4-0100` |
-| `questions/biologia/biologia-u4-03.json` | 10 (5 + 5) | `u4-0101` … `u4-0110` |
+| file | esito |
+|---|---|
+| `biologia-u3-04.json` | **nuovo**, integrato: 30 domande, id `u3-0151` … `u3-0180` |
+| `chimica-u3-02.json` | **sostituito**: la nuova versione corregge un difetto vero |
+| `chimica-u3-03.json` | **sostituito**: stessa correzione |
+| `fisica-u3-03.json` | identico a quello già nel banco, scartato |
+| `fisica-u3-02.json` | **scartato**: è la versione precedente alla correzione del ciclo |
 
-`fisica-u4-01` riempie il buco di id lasciato dal file mai consegnato.
+### Perché ho sostituito i due file di chimica
 
-## 2. Unità 5 (dal delta precedente, non ancora caricato)
+Nelle versioni finora pubblicate tutte e 34 le spiegazioni dei quesiti a
+risposta multipla commentavano i distrattori con formule posizionali del tipo
+«la prima opzione…» invece di citarli per lettera. Era un difetto noto, che
+il validatore segnalava da sempre con 34 avvisi: non l'avevo corretto perché
+le formulazioni erano troppo irregolari per una conversione meccanica sicura.
+Le versioni nuove lo risolvono: tutte le spiegazioni ora citano `A)`, `B)` e
+così via. Gli id, i testi dei quesiti, le opzioni e le risposte corrette sono
+rimasti identici; cambiano solo le spiegazioni e qualche voce delle risposte
+accettate.
 
-`chimica-u5-03.json`, `fisica-u5-02.json`, `biologia-u5-02/03/04.json`.
+### Perché ho scartato fisica-u3-02
 
-## 3. Correzione di un difetto di qualità su dieci lotti
+La versione che mi hai passato è quella **precedente** alla correzione fatta
+ieri: in essa la posizione della risposta corretta avanza ciclicamente
+A, B, C, D, E per tutti e 25 i quesiti, il che rende il lotto indovinabile
+senza sapere la materia. Caricarla avrebbe annullato la correzione. Il
+contenuto è per il resto identico: stessi id, stesse domande, stesse risposte
+corrette, cambia solo l'ordine in cui le opzioni compaiono.
 
-In dieci lotti la posizione della risposta corretta avanzava ciclicamente
-A, B, C, D, E, A, B… Il banco superava il controllo di uniformità (cinque
-risposte per lettera) ma era **indovinabile senza sapere la materia**:
-bastava notare il ciclo. L'app non rimescola le opzioni, quindi il difetto
-era visibile allo studente.
+## Stato dopo il caricamento
 
-In ciascun quesito le opzioni sono state permutate e le lettere citate nelle
-spiegazioni rimappate di conseguenza. **Gli id non sono stati toccati**, i
-testi delle domande e delle spiegazioni sono invariati, la risposta corretta
-è sempre la stessa: cambia solo la posizione in cui compare.
-
-Lotti già pubblicati che sono stati corretti:
-
-- `questions/fisica/fisica-u1-02.json` (ciclo di 10 → 2)
-- `questions/fisica/fisica-u2-01.json` (14 → 3)
-- `questions/fisica/fisica-u2-02.json` (14 → 3)
-- `questions/fisica/fisica-u2-03.json` (11 → 2)
-- `questions/fisica/fisica-u3-02.json` (25 su 25, ciclo perfetto → 3)
-- `questions/biologia/biologia-u1-02.json` (15 → 2)
-
-`tools/valida.py`: aggiunto il controllo che intercetta questo schema. Da
-ora un lotto in cui la corretta avanza ciclicamente per sei o più quesiti di
-fila genera un avviso esplicito.
+Banco a 1742 domande: chimica 552, fisica 560, biologia 630.
+Biologia U3 passa da 50 a 80 su 180.
+Nessun file del guscio è cambiato: `VERSIONE` in `sw.js` resta `v10`.
 
 ## File elencati
 
 - `APERTURA-CHAT.md`
 - `COPERTURA.md`
-- `questions/biologia/biologia-u1-02.json`
-- `questions/biologia/biologia-u4-02.json`  *(nuovo)*
-- `questions/biologia/biologia-u4-03.json`  *(nuovo)*
-- `questions/biologia/biologia-u5-02.json`  *(nuovo)*
-- `questions/biologia/biologia-u5-03.json`  *(nuovo)*
-- `questions/biologia/biologia-u5-04.json`  *(nuovo)*
+- `questions/biologia/biologia-u3-04.json`  *(nuovo)*
 - `questions/biologia/index.json`
-- `questions/chimica/chimica-u4-03.json`  *(nuovo)*
-- `questions/chimica/chimica-u5-03.json`  *(nuovo)*
-- `questions/chimica/index.json`
-- `questions/fisica/fisica-u1-02.json`
-- `questions/fisica/fisica-u2-01.json`
-- `questions/fisica/fisica-u2-02.json`
-- `questions/fisica/fisica-u2-03.json`
-- `questions/fisica/fisica-u3-02.json`
-- `questions/fisica/fisica-u4-01.json`  *(nuovo)*
-- `questions/fisica/fisica-u5-02.json`  *(nuovo)*
-- `questions/fisica/index.json`
-- `questions/index.json`
-- `tools/valida.py`
-
-## Dopo il caricamento
-
-Banco a 1712 domande: chimica 552, fisica 560, biologia 600.
-Nessun file del guscio è cambiato: `VERSIONE` in `sw.js` resta `v10`.
+- `questions/chimica/chimica-u3-02.json`
+- `questions/chimica/chimica-u3-03.json`

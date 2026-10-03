@@ -1,0 +1,441 @@
+{
+  "lotto": "biologia-u3-04",
+  "unita": "u3",
+  "generato": "2026-10-03",
+  "domande": [
+    {
+      "id": "u3-0151",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Distribuzione dei filamenti parentali",
+      "testo": "Una singola molecola di DNA a doppia elica viene replicata per tre cicli successivi. In quante delle molecole ottenute è presente un filamento della molecola di partenza?",
+      "opzioni": [
+        "In una sola, perché i due filamenti parentali restano appaiati fra loro",
+        "In due su otto, perché i filamenti parentali sono due e finiscono separati",
+        "In quattro su otto, perché metà del DNA finale è sempre di origine parentale",
+        "In sei su otto, perché il DNA parentale viene ridistribuito a ogni ciclo",
+        "In tutte e otto, perché ciascuna riceve un frammento della molecola iniziale"
+      ],
+      "corretta": 1,
+      "spiegazione": "I filamenti parentali sono due e restano integri, ciascuno in una molecola diversa: dopo tre cicli le molecole sono otto, due delle quali ibride e sei costituite solo da DNA di nuova sintesi.\n\nA) Descrive il modello conservativo, nel quale la doppia elica di partenza resterebbe intatta.\nC) La metà vale solo dopo il primo ciclo: sui sedici filamenti finali quelli parentali restano due.\nD) I filamenti parentali non si duplicano e non si spezzano: il loro numero non cambia mai.\nE) Descrive il modello dispersivo, escluso sperimentalmente."
+    },
+    {
+      "id": "u3-0152",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Complementarità delle basi",
+      "testo": "La proprietà per cui a ogni adenina dello stampo corrisponde una timina nel filamento nuovo, e a ogni citosina una guanina, si chiama ……",
+      "accettate": [
+        "complementarità",
+        "complementarietà",
+        "appaiamento complementare"
+      ],
+      "spiegazione": "È la proprietà che rende possibile copiare l'informazione: ciascuno dei due filamenti contiene, in forma complementare, tutto ciò che serve a ricostruire l'altro.\n\nVa tenuta distinta dall'antiparallelismo, che riguarda l'orientamento opposto dei due filamenti e non le regole di appaiamento. Insieme, le due proprietà spiegano perché un filamento figlio debba essere sintetizzato in modo discontinuo."
+    },
+    {
+      "id": "u3-0153",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Conseguenze dell'inattivazione della primasi",
+      "testo": "In una cellula la primasi viene inattivata. Che cosa accade alla replicazione del DNA?",
+      "opzioni": [
+        "Procede, ma i frammenti di Okazaki non vengono più saldati l'uno all'altro",
+        "Procede regolarmente, perché la DNA polimerasi sa iniziare da sola la catena",
+        "Procede sul solo filamento in ritardo, dove gli inneschi non sono necessari",
+        "Non può cominciare, perché manca l'estremità 3'-OH da cui la polimerasi parte",
+        "Procede, ma il prodotto contiene tratti di RNA al posto del DNA corrispondente"
+      ],
+      "corretta": 3,
+      "spiegazione": "Nessuna DNA polimerasi è in grado di appaiare il primo nucleotide da sola: ha bisogno di un'estremità 3'-OH già presente, e quella estremità è fornita dall'innesco a RNA che la primasi sintetizza. Senza primasi la sintesi non parte né sul filamento continuo né su quello in ritardo.\n\nA) La saldatura dei frammenti è compito della ligasi, un difetto del tutto diverso.\nB) È proprio ciò che la DNA polimerasi non sa fare: è la ragione per cui la primasi esiste.\nC) Il filamento in ritardo è quello che di inneschi ne richiede di più, uno per frammento.\nE) L'RNA resterebbe nel prodotto se mancasse chi lo rimuove, non chi lo sintetizza."
+    },
+    {
+      "id": "u3-0154",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Legame fosfodiestere",
+      "testo": "Il legame covalente che la DNA polimerasi forma fra il 3'-OH della catena in crescita e il fosfato del nucleotide entrante si chiama legame ……",
+      "accettate": [
+        "fosfodiestere",
+        "fosfodiesterico",
+        "fosfodiestereo"
+      ],
+      "spiegazione": "È il legame che costituisce lo scheletro zucchero-fosfato dell'acido nucleico e che ne stabilisce la direzionalità: un'estremità della catena espone un 5'-fosfato, l'altra un 3'-OH libero.\n\nÈ lo stesso tipo di legame che la ligasi ricostituisce fra due frammenti adiacenti e che le topoisomerasi rompono e richiudono. Da non confondere con i legami idrogeno, che tengono appaiate le basi fra i due filamenti e sono molto più deboli."
+    },
+    {
+      "id": "u3-0155",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Direzione di lettura dello stampo",
+      "testo": "In quale direzione la DNA polimerasi percorre il filamento stampo mentre sintetizza il nuovo filamento?",
+      "opzioni": [
+        "Da 3' a 5', dato che il filamento che costruisce cresce da 5' a 3'",
+        "Da 5' a 3', cioè nello stesso verso del filamento che sta costruendo",
+        "Da 5' a 3' sul filamento continuo e da 3' a 5' su quello in ritardo",
+        "In entrambe le direzioni, a seconda di dove si trova l'innesco a RNA",
+        "Nel verso in cui avanza la forcella, qualunque sia la polarità dello stampo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Stampo e catena nuova sono antiparalleli: se il prodotto cresce aggiungendo nucleotidi all'estremità 3', l'enzima deve scorrere sullo stampo nel verso opposto, dal 3' verso il 5'.\n\nB) Confonde il verso di lettura con quello di sintesi: i due sono necessariamente opposti.\nC) La regola vale allo stesso modo su entrambi i filamenti: ciò che cambia è il rapporto con l'avanzamento della forcella.\nD) La polarità non è una scelta: dipende dalla chimica della reazione, uguale in ogni punto.\nE) Sul filamento in ritardo la sintesi procede proprio in verso opposto a quello della forcella."
+    },
+    {
+      "id": "u3-0156",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Cromosoma circolare ed estremità",
+      "testo": "Perché il cromosoma batterico non pone il problema dell'accorciamento che riguarda i cromosomi umani?",
+      "opzioni": [
+        "Perché le sue DNA polimerasi non hanno bisogno di inneschi a RNA",
+        "Perché la sua replicazione parte da un'unica origine ed è unidirezionale",
+        "Perché è circolare e quindi privo di estremità terminali da completare",
+        "Perché i batteri possiedono una telomerasi molto più attiva della nostra",
+        "Perché il suo DNA viene replicato in modo conservativo e non semiconservativo"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il deficit nasce dall'ultimo innesco del filamento in ritardo, che una volta rimosso non può essere sostituito perché manca un'estremità 3'-OH a monte. In una molecola circolare quel punto non esiste: ogni innesco ha sempre, a monte, DNA da cui ripartire.\n\nA) Anche i batteri usano inneschi a RNA, rimossi e sostituiti come negli eucarioti.\nB) La replicazione batterica è in realtà bidirezionale, e comunque la direzionalità non c'entra con il problema delle estremità.\nD) I batteri non hanno telomerasi, perché non ne hanno bisogno.\nE) La replicazione è semiconservativa in tutti gli organismi."
+    },
+    {
+      "id": "u3-0157",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Natura enzimatica della telomerasi",
+      "testo": "Poiché sintetizza DNA utilizzando come stampo una molecola di RNA, la telomerasi appartiene agli enzimi detti trascrittasi ……",
+      "accettate": [
+        "inverse",
+        "inversa",
+        "inverso"
+      ],
+      "spiegazione": "Il flusso dell'informazione segue qui il percorso inverso rispetto a quello consueto, dall'RNA al DNA: da qui il nome. La particolarità della telomerasi è che lo stampo non è una molecola esterna, ma una sua subunità stabile.\n\nEnzimi dello stesso tipo sono noti soprattutto in alcuni virus a RNA, che li usano per convertire il proprio genoma in DNA. La reazione in sé non viola alcun principio: richiede solo un enzima capace di leggere uno stampo a RNA."
+    },
+    {
+      "id": "u3-0158",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Definizione di gene",
+      "testo": "Quale definizione di gene è corretta?",
+      "opzioni": [
+        "Qualunque tratto di DNA compreso fra due origini di replicazione successive",
+        "La sola porzione di DNA che viene tradotta in una sequenza di amminoacidi",
+        "Un tratto di RNA che porta l'informazione per la sintesi di una proteina",
+        "L'insieme degli elementi regolativi che controllano la trascrizione in cis",
+        "Un tratto di DNA che specifica un prodotto funzionale, polipeptide oppure RNA"
+      ],
+      "corretta": 4,
+      "spiegazione": "La definizione deve comprendere anche i geni il cui prodotto finale è un RNA che non viene tradotto, come quelli dei tRNA, degli rRNA e dei miRNA: il gene specifica un prodotto funzionale, non necessariamente una proteina.\n\nA) Le origini di replicazione non delimitano i geni: un replicone ne contiene molti.\nB) Escluderebbe introni e regioni non tradotte, che fanno parte del gene pur non essendo tradotti, e tutti i geni per RNA non codificanti.\nC) Il gene è DNA: l'RNA ne è il prodotto.\nD) Gli elementi regolativi controllano il gene ma non lo esauriscono."
+    },
+    {
+      "id": "u3-0159",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Promotore",
+      "testo": "La sequenza di DNA situata a monte del sito di inizio, sulla quale si posiziona l'apparato che avvia la trascrizione, si chiama ……",
+      "accettate": [
+        "promotore",
+        "promotori"
+      ],
+      "spiegazione": "Il promotore non viene trascritto: determina dove la trascrizione comincia e con quale efficienza, ed è il punto su cui convergono i segnali dei fattori regolativi.\n\nVa distinto dall'operatore dei batteri, che è il sito di legame del repressore, e dagli enhancer eucariotici, che agiscono a distanza e non ospitano l'assemblaggio della polimerasi."
+    },
+    {
+      "id": "u3-0160",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Operone lac senza lattosio né glucosio",
+      "testo": "Nel terreno di coltura mancano sia il lattosio sia il glucosio. In quale stato si trova l'operone lac?",
+      "opzioni": [
+        "Spento: la proteina CAP è attiva, ma il repressore resta legato all'operatore",
+        "Acceso al massimo, perché l'assenza di glucosio mantiene alto il cAMP",
+        "Acceso a livello intermedio, perché mancano sia l'induttore sia il repressore",
+        "Spento, perché in assenza di glucosio la cellula smette di produrre cAMP",
+        "Acceso, perché in assenza di entrambi gli zuccheri il repressore si stacca"
+      ],
+      "corretta": 0,
+      "spiegazione": "I due controlli devono essere soddisfatti entrambi. Qui quello positivo lo è, perché il cAMP è alto e CAP si lega al promotore, ma manca l'induttore: il repressore resta sull'operatore e la trascrizione non parte. Produrre gli enzimi del lattosio quando il lattosio non c'è sarebbe uno spreco.\n\nB) Il cAMP alto da solo non basta: senza induttore il blocco negativo resta.\nC) Il repressore c'è ed è attivo proprio perché l'induttore manca.\nD) È il contrario: il cAMP aumenta quando il glucosio scarseggia.\nE) Il repressore si stacca solo quando l'allolattosio si lega a esso."
+    },
+    {
+      "id": "u3-0161",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Proteina attivatrice dell'operone lac",
+      "testo": "La proteina che, legata al cAMP, si attacca a monte del promotore lac e ne aumenta l'efficienza è indicata con la sigla ……",
+      "accettate": [
+        "cap",
+        "crp",
+        "proteina attivatrice da catabolita"
+      ],
+      "spiegazione": "È il regolatore positivo dell'operone: senza di essa il promotore lac viene riconosciuto male dall'RNA polimerasi e la trascrizione resta bassa anche quando il repressore è staccato.\n\nLa sua attività dipende interamente dal cAMP, che a sua volta dipende dalla disponibilità di glucosio: è il meccanismo con cui il batterio consuma per primo lo zucchero più conveniente."
+    },
+    {
+      "id": "u3-0162",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Espressione genica differenziale",
+      "testo": "Un epatocita e un neurone dello stesso individuo contengono lo stesso genoma ma producono proteine in buona parte diverse. Da che cosa dipende la differenza?",
+      "opzioni": [
+        "Dal diverso numero di geni presenti nel nucleo dei due tipi cellulari",
+        "Dal diverso codice genetico impiegato dai ribosomi dei due tipi cellulari",
+        "Dalla perdita, in ciascuna cellula, dei geni che a quel tipo non servono",
+        "Dai diversi insiemi di geni trascritti, sotto il controllo di fattori specifici",
+        "Dal fatto che in ogni cellula viene trascritto un solo filamento della doppia elica"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il genoma è lo stesso in tutte le cellule somatiche: a cambiare è quali geni vengono espressi, e la selezione dipende dal corredo di fattori di trascrizione specifici presente in quel tipo cellulare, oltre ai livelli di controllo successivi.\n\nA) Il numero dei geni non varia da un tessuto all'altro.\nB) Il codice genetico è lo stesso in tutte le cellule dell'organismo.\nC) Il differenziamento non comporta perdita di geni: le cellule conservano l'intero genoma.\nE) La lettura di un solo filamento vale per qualunque gene in qualunque cellula e non spiega alcuna differenza."
+    },
+    {
+      "id": "u3-0163",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Bolla di trascrizione",
+      "testo": "La breve regione di doppia elica aperta che accompagna l'RNA polimerasi lungo il gene si chiama bolla di ……",
+      "accettate": [
+        "trascrizione",
+        "trascrizione del dna"
+      ],
+      "spiegazione": "L'enzima apre l'elica davanti a sé per pochi nucleotidi, tiene il trascritto nascente appaiato allo stampo per un tratto breve e lascia che il DNA si richiuda dietro di sé: l'apertura si sposta con la polimerasi e non resta.\n\nÈ molto più piccola della bolla di replicazione, che invece si allarga progressivamente perché le due forcelle si allontanano l'una dall'altra."
+    },
+    {
+      "id": "u3-0164",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Indipendenza da posizione e orientamento dell'enhancer",
+      "testo": "Un enhancer viene spostato sperimentalmente a diecimila paia di basi a valle del gene che regola e invertito di orientamento. Che cosa è lecito attendersi?",
+      "opzioni": [
+        "Che perda ogni effetto, perché gli elementi regolativi agiscono solo a monte",
+        "Che continui ad agire, perché il DNA si ripiega e lo avvicina al promotore",
+        "Che si comporti da silencer, perché l'inversione ne rovescia il segno",
+        "Che agisca solo se viene trascritto insieme al gene che deve regolare",
+        "Che agisca sul gene omologo dell'altro cromosoma anziché sul proprio"
+      ],
+      "corretta": 1,
+      "spiegazione": "Ciò che conta per un enhancer non è la posizione lungo la sequenza ma la possibilità di essere avvicinato al promotore dal ripiegamento del DNA: per questo funziona a monte o a valle, vicino o lontano, in un orientamento o nell'altro.\n\nA) L'indipendenza dalla posizione è esattamente la proprietà che distingue gli elementi distali.\nC) Il segno dell'effetto dipende dai fattori che l'elemento recluta, non dal suo orientamento.\nD) Gli enhancer non vengono trascritti: sono siti di legame per proteine.\nE) Un elemento in cis agisce sulla molecola di cui fa parte, non sull'omologo."
+    },
+    {
+      "id": "u3-0165",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Fattori di trascrizione specifici",
+      "testo": "Le proteine che riconoscono determinate sequenze del DNA e regolano la trascrizione solo di alcuni geni si chiamano fattori di trascrizione ……",
+      "accettate": [
+        "specifici",
+        "specifico",
+        "specifiche",
+        "sequenza specifici"
+      ],
+      "spiegazione": "Sono questi fattori a rendere diverse fra loro le cellule di uno stesso organismo: il loro corredo cambia da tessuto a tessuto e con esso cambia l'insieme dei geni trascritti.\n\nSi contrappongono ai fattori generali, richiesti da ogni promotore di classe II e privi di qualunque selettività. I recettori degli ormoni steroidei, attivati dal legame con l'ormone, sono un esempio di fattori specifici."
+    },
+    {
+      "id": "u3-0166",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Giunzioni esone-esone",
+      "testo": "Un trascritto primario contiene 5 esoni e 4 introni. Se tutti gli esoni vengono conservati, quante giunzioni fra esoni sono presenti nell'mRNA maturo?",
+      "opzioni": [
+        "Una sola, perché gli esoni vengono uniti tutti in un unico passaggio",
+        "Due, una a ciascuna estremità della sequenza codificante del messaggero",
+        "Cinque, una per ciascun esone conservato nel messaggero maturo",
+        "Otto, una per ogni confine fra un esone e un introne del trascritto",
+        "Quattro, una per ciascun introne rimosso dal trascritto primario"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ogni introne rimosso lascia una giunzione fra i due esoni che lo affiancavano: cinque esoni saldati in fila danno quattro punti di unione, uno per ciascuno dei quattro introni eliminati.\n\nA) Lo splicing procede introne per introne, e ogni rimozione crea la propria giunzione.\nB) Le estremità del messaggero sono il cappuccio e la coda, non giunzioni fra esoni.\nC) Conta gli esoni anziché gli intervalli fra essi: n elementi in fila hanno n meno uno punti di contatto.\nD) I confini esone-introne nel trascritto di partenza sono otto, ma scompaiono con gli introni: nel maturo restano quattro giunzioni."
+    },
+    {
+      "id": "u3-0167",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Splicing",
+      "testo": "Il processo che rimuove gli introni dal trascritto primario e salda fra loro gli esoni si chiama ……",
+      "accettate": [
+        "splicing",
+        "splicing dell rna",
+        "splicing del pre-mrna"
+      ],
+      "spiegazione": "Avviene nel nucleo, in larga parte mentre la trascrizione è ancora in corso, ed è catalizzato dallo spliceosoma attraverso due reazioni successive.\n\nIl taglio deve essere esatto al nucleotide: uno scarto di una sola base sposterebbe la cornice di lettura di tutto ciò che segue. È la ragione per cui i siti di splicing sono definiti da sequenze conservate e riconosciuti per appaiamento di basi con gli snRNA."
+    },
+    {
+      "id": "u3-0168",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Controllo di qualità dei trascritti",
+      "testo": "Che fine fa un trascritto che non ha completato correttamente la maturazione?",
+      "opzioni": [
+        "Viene esportato ugualmente e tradotto in una proteina più lunga del previsto",
+        "Viene riportato al sito di trascrizione e corretto dalla stessa polimerasi",
+        "Resta nel nucleo, dove viene riconosciuto e avviato alla degradazione",
+        "Si accumula nel nucleolo in attesa di un secondo ciclo di maturazione",
+        "Perde la coda di poli-A e diventa un RNA regolatore del proprio gene"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'esportazione non è automatica: il messaggero viene riconosciuto come esportabile solo se porta i segni di una maturazione completa, e un trascritto difettoso resta nel nucleo, dove i sistemi di degradazione lo eliminano.\n\nA) Un trascritto non maturato non supera il controllo che precede l'uscita dal nucleo.\nB) La polimerasi non torna indietro e non ha alcuna funzione di riparazione dell'RNA.\nD) Il nucleolo è la sede della maturazione degli rRNA, non un deposito di messaggeri difettosi.\nE) La perdita della coda avvia la degradazione del messaggero, non la sua conversione in un regolatore."
+    },
+    {
+      "id": "u3-0169",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Chimica dello splicing: transesterificazioni",
+      "testo": "Ciascuna delle due reazioni dello splicing, in cui un legame fosfodiestere viene sostituito da un altro senza idrolisi netta, è una ……",
+      "accettate": [
+        "transesterificazione",
+        "transesterificazioni",
+        "trans-esterificazione"
+      ],
+      "spiegazione": "Nella prima il 2'-OH dell'adenosina del punto di ramificazione attacca il sito di splicing 5'; nella seconda il 3'-OH dell'esone a monte attacca il sito 3'. In entrambe un legame si rompe e uno equivalente si forma, quindi il bilancio energetico della chimica è sostanzialmente neutro.\n\nQuesto non significa che lo splicing sia gratuito: l'assemblaggio dello spliceosoma e i riarrangiamenti fra le sue snRNP consumano ATP."
+    },
+    {
+      "id": "u3-0170",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Stabilità dell'mRNA e resa proteica",
+      "testo": "Perché la stabilità di un mRNA incide sulla quantità di proteina che la cellula ne ricava?",
+      "opzioni": [
+        "Perché un messaggero più longevo viene tradotto più volte prima di essere degradato",
+        "Perché la durata del messaggero determina la velocità con cui il ribosoma lo percorre",
+        "Perché un messaggero stabile viene trascritto più volte a partire dal proprio gene",
+        "Perché la stabilità del messaggero stabilisce quanti amminoacidi avrà la proteina",
+        "Perché solo i messaggeri stabili ricevono il cappuccio e la coda di poli-A"
+      ],
+      "corretta": 0,
+      "spiegazione": "Un messaggero può essere letto molte volte, anche da più ribosomi contemporaneamente: la resa complessiva dipende quindi tanto da quanti messaggeri vengono prodotti quanto da quanto a lungo restano disponibili alla traduzione.\n\nB) La velocità di traduzione dipende dal macchinario ribosomiale, non dalla durata del messaggero.\nC) La trascrizione avviene sul gene e non è influenzata dalla sorte del trascritto già prodotto.\nD) La lunghezza della proteina dipende dalla sequenza codificante, non dalla stabilità.\nE) Cappuccio e coda vengono aggiunti a tutti i messaggeri durante la maturazione: semmai sono loro a conferire stabilità."
+    },
+    {
+      "id": "u3-0171",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Emivita dell'mRNA",
+      "testo": "Il tempo necessario perché si degradi metà delle molecole di un dato mRNA presenti nella cellula si chiama ……",
+      "accettate": [
+        "emivita",
+        "tempo di dimezzamento",
+        "semivita"
+      ],
+      "spiegazione": "Varia enormemente da un messaggero all'altro: quelli che codificano proteine richieste in modo stabile durano a lungo, quelli dei regolatori che devono poter essere spenti in fretta durano pochi minuti.\n\nÈ un parametro regolato, non una proprietà fissa: le sequenze della regione non tradotta al 3', le proteine che vi si legano e i miRNA possono accorciarla o allungarla a seconda delle condizioni della cellula."
+    },
+    {
+      "id": "u3-0172",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "RNA non codificanti",
+      "testo": "rRNA, tRNA e snRNA svolgono la propria funzione in quanto molecole di RNA e non vengono mai tradotti: per questo si dicono RNA ……",
+      "accettate": [
+        "non codificanti",
+        "non codificante",
+        "noncodificanti"
+      ],
+      "spiegazione": "La funzione di queste molecole dipende dalla sequenza e dal ripiegamento che essa determina: appaiamento con un bersaglio, come per gli snRNA e i tRNA, oppure attività catalitica, come per l'rRNA della subunità maggiore.\n\nAppartengono alla stessa categoria i miRNA. L'unica classe destinata a essere tradotta è quella degli mRNA, che non a caso sono detti messaggeri."
+    },
+    {
+      "id": "u3-0173",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Dal numero di nucleotidi al numero di amminoacidi",
+      "testo": "La sequenza codificante di un mRNA, dal codone di inizio al codone di stop compreso, è lunga 900 nucleotidi. Da quanti amminoacidi è formata la catena polipeptidica corrispondente, prima di eventuali modificazioni?",
+      "opzioni": [
+        "900, uno per ciascun nucleotide della sequenza",
+        "450, perché ogni amminoacido corrisponde a due nucleotidi",
+        "299, perché dei 300 codoni l'ultimo è un codone di stop",
+        "300, perché 900 diviso 3 dà esattamente 300 codoni",
+        "303, perché ai 300 codoni vanno aggiunte le regioni non tradotte"
+      ],
+      "corretta": 2,
+      "spiegazione": "Novecento nucleotidi corrispondono a trecento triplette, ma l'ultima è il codone di stop, che non specifica alcun amminoacido e viene letto dal fattore di rilascio: i residui incorporati sono quindi duecentonovantanove.\n\nA) Il codice è a triplette: un nucleotide da solo non specifica nulla.\nB) Le coppie di basi darebbero appena sedici combinazioni, insufficienti per venti amminoacidi.\nD) Il calcolo è giusto ma conta anche il codone di stop fra quelli tradotti.\nE) Le regioni non tradotte sono fuori dal tratto considerato e in ogni caso non aggiungono amminoacidi."
+    },
+    {
+      "id": "u3-0174",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Codice genetico",
+      "testo": "L'insieme delle corrispondenze fra le triplette di nucleotidi e gli amminoacidi che esse specificano si chiama ……",
+      "accettate": [
+        "codice genetico",
+        "codice"
+      ],
+      "spiegazione": "È degenerato, perché quasi tutti gli amminoacidi hanno più codoni, ma non ambiguo, perché ogni codone ne specifica uno solo; ed è praticamente lo stesso in tutti gli organismi.\n\nNon va confuso con il genoma, che è l'insieme dell'informazione contenuta nel DNA di un organismo: il codice è la chiave di lettura, il genoma è il testo da leggere."
+    },
+    {
+      "id": "u3-0175",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Traduzione nei procarioti e negli eucarioti",
+      "testo": "Quale differenza distingue la traduzione batterica da quella eucariotica?",
+      "opzioni": [
+        "Nei batteri la catena cresce dall'estremità carbossilica verso quella amminica",
+        "Nei batteri non serve alcun tRNA: gli amminoacidi si legano al ribosoma",
+        "Negli eucarioti la traduzione comincia prima che la trascrizione sia finita",
+        "Negli eucarioti il primo amminoacido è una metionina formilata, nei batteri no",
+        "Nei batteri il ribosoma trova il codone di inizio appaiandosi a una sequenza a monte"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il ribosoma batterico riconosce il punto di partenza grazie a una breve sequenza del messaggero, posta poco prima dell'AUG, che si appaia con l'rRNA della subunità minore. L'eucariote segue un'altra strada: si aggancia al cappuccio e scorre fino al primo AUG in contesto adeguato.\n\nA) La catena cresce dall'estremità amminica verso quella carbossilica in tutti gli organismi.\nB) Il tRNA è indispensabile ovunque: è la molecola che traduce materialmente il codone in amminoacido.\nC) È vero per i batteri, non per gli eucarioti, dove nucleo e citoplasma separano i due processi.\nD) L'attribuzione è rovesciata: la metionina formilata è quella del tRNA iniziatore batterico."
+    },
+    {
+      "id": "u3-0176",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Legame peptidico",
+      "testo": "Il legame covalente che il ribosoma forma fra il gruppo carbossilico di un amminoacido e il gruppo amminico del successivo si chiama legame ……",
+      "accettate": [
+        "peptidico",
+        "peptidici",
+        "ammidico",
+        "amidico"
+      ],
+      "spiegazione": "L'energia necessaria non viene fornita in quel momento ma era già stata immagazzinata dalla sintetasi nel legame fra l'amminoacido e il proprio tRNA, a spese dell'ATP.\n\nLa reazione è catalizzata dall'RNA ribosomiale della subunità maggiore. Ogni nuovo legame si forma sul carbossile della catena in crescita, che resta così agganciata al tRNA entrato per ultimo."
+    },
+    {
+      "id": "u3-0177",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Terminazione e riciclo del ribosoma",
+      "testo": "Il fattore di rilascio ha riconosciuto un codone di stop nel sito A. Che cosa accade subito dopo?",
+      "opzioni": [
+        "La catena resta legata al proprio tRNA e viene trasportata così al suo bersaglio",
+        "La catena viene staccata dal tRNA e il ribosoma si separa nelle due subunità",
+        "Il ribosoma oltrepassa il codone di stop e prosegue fino alla coda di poli-A",
+        "Il messaggero viene tagliato in corrispondenza del codone di stop riconosciuto",
+        "Le due subunità restano unite e ricominciano la traduzione da quella posizione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il fattore di rilascio promuove l'idrolisi del legame fra la catena polipeptidica e il tRNA del sito P: la proteina è libera, e il complesso si smonta liberando messaggero e subunità, che potranno essere riutilizzati.\n\nA) La catena deve staccarsi dal tRNA per poter ripiegarsi e funzionare.\nC) Un ribosoma che ignorasse il codone di stop produrrebbe una proteina allungata in modo anomalo.\nD) Il messaggero non viene tagliato: può essere tradotto altre volte.\nE) Al termine le subunità si dissociano: una nuova traduzione richiede un nuovo complesso di inizio."
+    },
+    {
+      "id": "u3-0178",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Espressione genica",
+      "testo": "L'insieme dei processi che portano dall'informazione contenuta in un gene al suo prodotto funzionale si chiama ……",
+      "accettate": [
+        "espressione genica",
+        "espressione del gene",
+        "espressione"
+      ],
+      "spiegazione": "Per un gene che codifica una proteina comprende trascrizione, maturazione del trascritto, traduzione e maturazione della proteina; per un gene di RNA non codificante si ferma alla maturazione del trascritto.\n\nÈ regolata a ciascuno di questi passaggi, ed è la ragione per cui cellule con lo stesso genoma possono essere profondamente diverse fra loro."
+    },
+    {
+      "id": "u3-0179",
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Destino delle proteine non recuperabili",
+      "testo": "Gli chaperon non riescono a riportare una proteina alla conformazione corretta. Che cosa fa la cellula?",
+      "opzioni": [
+        "La espelle all'esterno attraverso la membrana plasmatica",
+        "Ne modifica la sequenza amminoacidica per renderla ripiegabile",
+        "La conserva inalterata nel citosol finché non tornerà utile",
+        "La marca con una catena di ubiquitina e la avvia al proteasoma",
+        "La trasferisce nel nucleo, dove viene smontata dagli enzimi nucleari"
+      ],
+      "corretta": 3,
+      "spiegazione": "Quando il recupero fallisce l'alternativa è l'eliminazione: la proteina viene ubiquitinata e demolita dal proteasoma, e i suoi amminoacidi tornano disponibili. È il modo in cui la cellula impedisce che le molecole mal ripiegate si accumulino e aggreghino.\n\nA) L'espulsione non risolverebbe nulla e non esiste una via di questo tipo per le proteine citosoliche difettose.\nB) La sequenza è stabilita dal messaggero e non può essere modificata dopo la sintesi.\nC) Conservarla sarebbe pericoloso, perché le superfici idrofobiche esposte favoriscono l'aggregazione.\nE) La degradazione non avviene nel nucleo: il proteasoma opera nel citosol e nel nucleo stesso, ma non è lì che la proteina viene inviata come soluzione di ripiego."
+    },
+    {
+      "id": "u3-0180",
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Poliubiquitinazione",
+      "testo": "L'attacco successivo di più molecole di ubiquitina, a formare una catena sul substrato da degradare, si chiama ……",
+      "accettate": [
+        "poliubiquitinazione",
+        "poliubiquitilazione",
+        "poliubiquitinilazione"
+      ],
+      "spiegazione": "È la catena, e non la singola molecola, a costituire il segnale che la particella regolatoria del proteasoma riconosce: le molecole di ubiquitina si legano l'una all'altra attraverso residui di lisina.\n\nL'attacco di una sola molecola, la monoubiquitinazione, ha significati diversi e non comporta degradazione: regola per esempio il destino di alcune proteine di membrana e l'attività di altre."
+    }
+  ]
+}

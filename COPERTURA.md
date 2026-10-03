@@ -2,7 +2,7 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**1712 domande su 2200** a regime.
+**1742 domande su 2200** a regime.
 
 
 ---
@@ -241,15 +241,15 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 70 domande su 70 · 34 a risposta multipla e 36 a completamento · 10 argomenti distinti · file: chimica-u3-01.json, chimica-u3-02.json, chimica-u3-03.json
 
-- arrhenius e stato di transizione (10 domande)
-- costante di equilibrio (10 domande)
-- cinetica: velocità e fattori (9 domande)
-- equilibrio mobile e stato stazionario (8 domande)
-- ordine e molecolarità (8 domande)
-- reazioni e bilanciamento (7 domande)
-- catalisi ed enzimi (6 domande)
-- energia libera ed equilibrio (6 domande)
-- solubilità e ione comune (5 domande)
+- Costante di equilibrio e legge d'azione di massa (10 domande)
+- Teoria degli urti, energia di attivazione ed equazione di Arrhenius (10 domande)
+- Velocità di reazione e fattori che la influenzano (9 domande)
+- Ordine di reazione e molecolarità (8 domande)
+- Quoziente di reazione, equilibrio mobile e stato stazionario (8 domande)
+- Bilanciamento e leggi di conservazione (7 domande)
+- Catalizzatori ed enzimi (6 domande)
+- Energia libera ed equilibrio (6 domande)
+- Prodotto di solubilità ed effetto dello ione comune (5 domande)
 - Cinetica: catalizzatori ed energia di attivazione
 
 ### U4 — Acidi, basi, tamponi, redox ed elettrochimica
@@ -1081,13 +1081,13 @@ U7.
 
 ---
 
-## Biologia — 600/820
+## Biologia — 630/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Le basi dell'organizzazione biologica e molecolare della vita | 80/80 | 40M + 40C | 80 | 3 |
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
-| U3 | Il flusso dell'informazione | 50/180 | 25M + 25C | 50 | 7 |
+| U3 | Il flusso dell'informazione | 80/180 | 40M + 40C | 80 | 7 |
 | U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 110/110 | 55M + 55C | 110 | 4 |
 | U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 200/200 | 100M + 100C | 200 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
@@ -1245,43 +1245,69 @@ U7.
 
 ### U3 — Il flusso dell'informazione
 
-50 domande su 180 · 25 a risposta multipla e 25 a completamento · 50 argomenti distinti · file: biologia-u3-03.json
+80 domande su 180 · 40 a risposta multipla e 40 a completamento · 80 argomenti distinti · file: biologia-u3-03.json, biologia-u3-04.json
 
 - Allungamento della trascrizione
 - Aminoacil-tRNA
 - Antiparallelismo
 - Associazione delle subunità ribosomiali
 - Bolla di replicazione
+- Bolla di trascrizione
 - Chaperonine
+- Chimica dello splicing: transesterificazioni
+- Codice genetico
 - Codone
 - Codone AUG
+- Complementarità delle basi
 - Complesso d'inizio della replicazione
+- Conseguenze dell'inattivazione della primasi
+- Controllo di qualità dei trascritti
 - Controllo negativo e positivo
 - Controllo post-trascrizionale
 - Controllo traduzionale
+- Cromosoma circolare ed estremità
+- Dal numero di nucleotidi al numero di amminoacidi
+- Definizione di gene
+- Destino delle proteine non recuperabili
 - Deubiquitinasi
 - Dimensione del codone
 - Direzione dei frammenti di Okazaki
+- Direzione di lettura dello stampo
+- Distribuzione dei filamenti parentali
 - Editing per deaminazione
+- Emivita dell'mRNA
 - Energia della traduzione
 - Esiti del silenziamento mediato da RISC
+- Espressione genica
+- Espressione genica differenziale
+- Fattori di trascrizione specifici
 - Fattori generali: terminologia
 - Fattori richiesti dalle RNA polimerasi eucariotiche
 - Fedeltà della replicazione
 - Fedeltà della traduzione
 - Filamento codificante
 - Filamento in ritardo
+- Giunzioni esone-esone
+- Indipendenza da posizione e orientamento dell'enhancer
+- Legame fosfodiestere
+- Legame peptidico
 - Maturazione dell'RNA
+- Natura enzimatica della telomerasi
+- Operone lac senza lattosio né glucosio
 - Operone lac: la permeasi
 - Operone lac: massima espressione
 - Operoni inducibili
 - Origine dell'informazione per il ripiegamento
 - Polarità della catena polipeptidica
+- Poliubiquitinazione
 - Prodotti dello splicing
 - Prodotto della polimerizzazione
+- Promotore
 - Promotore prossimale
+- Proteina attivatrice dell'operone lac
 - Proteine simili all'ubiquitina
 - Punto di ramificazione
+- RNA non codificanti
 - Replicazione e trascrizione a confronto
 - Ruolo della DNA ligasi
 - Sede della maturazione degli rRNA
@@ -1290,9 +1316,13 @@ U7.
 - Siti del ribosoma: sito E
 - Sito di inizio della trascrizione
 - Sostituzioni in terza posizione
+- Splicing
+- Stabilità dell'mRNA e resa proteica
 - TBP
 - Telomerasi e proliferazione illimitata
 - Telomero
+- Terminazione e riciclo del ribosoma
+- Traduzione nei procarioti e negli eucarioti
 - Trascritto primario
 - mRNA monocistronico
 - microRNA
