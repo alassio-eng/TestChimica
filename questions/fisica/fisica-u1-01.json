@@ -620,7 +620,8 @@
       "testo": "Un metro cubo corrisponde a …… litri",
       "accettate": [
         "mille",
-        "1000"
+        "1000",
+        "1 000"
       ],
       "spiegazione": "Il litro è definito come un decimetro cubo, e in un metro cubo entrano 10 × 10 × 10 = 1000 decimetri cubi. Ne segue 1 L = 10⁻³ m³.\n\nL'errore frequente è applicare al volume il fattore lineare 10: fra metro e decimetro il fattore è 10, ma fra metro cubo e decimetro cubo è 10³."
     },

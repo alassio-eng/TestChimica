@@ -417,7 +417,7 @@
         "positivo se il corpo accelera, negativo se rallenta"
       ],
       "corretta": 1,
-      "spiegazione": "L'attrito dinamico ha sempre verso opposto allo spostamento: l'angolo fra forza e spostamento è di 180° e il lavoro risulta negativo in ogni caso. L'energia meccanica sottratta si trasforma in calore.\n\nA) Un lavoro positivo significherebbe che l'attrito fornisce energia al corpo.\nC) L'attrito agisce mentre il corpo si sposta: il lavoro sarebbe nullo solo a corpo fermo.\nD) Invertendo il moto si inverte anche il verso dell'attrito, quindi il segno del lavoro non cambia.\nE) L'attrito è negativo anche quando il corpo accelera per effetto di un'altra forza maggiore."
+      "spiegazione": "L'attrito dinamico ha sempre verso opposto allo spostamento: l'angolo fra forza e spostamento è di 180° e il lavoro risulta negativo in ogni caso. L'energia meccanica sottratta si trasforma in calore.\n\nA) Un lavoro positivo significherebbe che l'attrito fornisce energia al corpo.\nC) L'attrito agisce mentre il corpo si sposta: il lavoro sarebbe nullo solo a corpo fermo.\nD) Invertendo il moto si inverte anche il verso dell'attrito, quindi il segno del lavoro non cambia.\nE) Il lavoro dell'attrito è negativo anche quando il corpo accelera per effetto di un'altra forza maggiore."
     },
     {
       "id": "u2-0080",
@@ -500,7 +500,7 @@
         "2 J"
       ],
       "corretta": 4,
-      "spiegazione": "Vale U = ½ k x², con la deformazione in metri: ½ × 100 × 0,20² = ½ × 100 × 0,04 = 2 J.\n\nA) 40 J è 2 k x², cioè il raddoppio invece del dimezzamento.\nB) 20 J è k·x, cioè la forza elastica in newton, non un'energia.\nC) 10 J è ½ k x, con la deformazione non elevata al quadrato.\nD) 4 J è k x², senza il fattore ½."
+      "spiegazione": "Vale U = ½ k x², con la deformazione in metri: ½ × 100 × 0,20² = ½ × 100 × 0,04 = 2 J.\n\nA) 40 J è 2 k x = 2 × 100 × 0,20: raddoppia invece di dimezzare e non eleva al quadrato la deformazione.\nB) 20 J è k·x, cioè la forza elastica in newton, non un'energia.\nC) 10 J è ½ k x, con la deformazione non elevata al quadrato.\nD) 4 J è k x², senza il fattore ½."
     },
     {
       "id": "u2-0086",

@@ -45,7 +45,7 @@
         "12,5 m"
       ],
       "corretta": 0,
-      "spiegazione": "Con partenza da fermo vale s = ½ a t² = ½ × 2 × 5² = 25 m.\n\nB) 50 m si ottiene da a·t², dimenticando il fattore ½.\nC) 10 m è il valore di a·t, cioè la velocità raggiunta dopo 5 s, espressa in m/s.\nD) 5 m si ottiene da ½·a·t, elevando al quadrato il tempo solo a metà del calcolo.\nE) 12,5 m si ottiene da ½·t², cioè trascurando l'accelerazione."
+      "spiegazione": "Con partenza da fermo vale s = ½ a t² = ½ × 2 × 5² = 25 m.\n\nB) 50 m si ottiene da a·t², dimenticando il fattore ½.\nC) 10 m è il valore di a·t, cioè la velocità raggiunta dopo 5 s, espressa in m/s.\nD) 5 m si ottiene da ½·a·t, senza elevare al quadrato il tempo.\nE) 12,5 m si ottiene da ½·t², cioè trascurando l'accelerazione."
     },
     {
       "id": "u2-0004",
@@ -154,7 +154,7 @@
         "100 m/s²"
       ],
       "corretta": 0,
-      "spiegazione": "L'accelerazione centripeta vale a = v²/r = 10²/5 = 100/5 = 20 m/s².\n\nB) 2 m/s² si ottiene da v/r, senza elevare al quadrato la velocità.\nC) 0,05 m/s² è r/v², cioè il rapporto rovesciato.\nD) 50 m/s² si ottiene da v²/(2r), aggiungendo un fattore ½ che nella formula non c'è.\nE) 100 m/s² è il solo v², senza dividere per il raggio."
+      "spiegazione": "L'accelerazione centripeta vale a = v²/r = 10²/5 = 100/5 = 20 m/s².\n\nB) 2 m/s² si ottiene da v/r, senza elevare al quadrato la velocità.\nC) 0,05 m/s² è r/v², cioè il rapporto rovesciato.\nD) 50 m/s² è il prodotto v·r = 10 × 5: la velocità va elevata al quadrato e divisa per il raggio, non moltiplicata per esso.\nE) 100 m/s² è il solo v², senza dividere per il raggio."
     },
     {
       "id": "u2-0012",
@@ -553,8 +553,7 @@
       "argomento": "Centro di massa",
       "testo": "Il punto in cui si può considerare concentrata tutta la massa di un sistema, ai fini della descrizione del suo moto traslatorio, si chiama centro di ……",
       "accettate": [
-        "massa",
-        "gravita"
+        "massa"
       ],
       "spiegazione": "Il centro di massa si muove come un punto materiale che avesse tutta la massa del sistema e fosse soggetto alla sola risultante delle forze esterne. In un campo gravitazionale uniforme coincide con il baricentro.\n\nNon deve necessariamente trovarsi dove c'è materia: il centro di massa di un anello omogeneo sta nel suo centro geometrico, cioè nel vuoto."
     },
@@ -572,7 +571,7 @@
         "2 m/s"
       ],
       "corretta": 3,
-      "spiegazione": "Si conserva la quantità di moto: m₁v₁ = (m₁ + m₂)v, quindi v = (0,020 × 2)/(0,020 + 0,040) = 0,04/0,06 ≈ 0,67 m/s. Le masse possono restare in grammi, purché siano usate le stesse unità sopra e sotto.\n\nA) 6 m/s scambia le masse nel rapporto, e darebbe una velocità maggiore di quella iniziale: un urto anelastico non può accelerare il sistema.\nB) 1 m/s si ottiene dividendo per la sola massa del corpo inizialmente fermo.\nC) 1,33 m/s si ottiene con 30 g al denominatore, cioè usando la media delle masse invece della loro somma.\nE) 2 m/s è la velocità iniziale: resterebbe invariata solo se il secondo corpo avesse massa trascurabile."
+      "spiegazione": "Si conserva la quantità di moto: m₁v₁ = (m₁ + m₂)v, quindi v = (0,020 × 2)/(0,020 + 0,040) = 0,04/0,06 ≈ 0,67 m/s. Le masse possono restare in grammi, purché siano usate le stesse unità sopra e sotto.\n\nA) 6 m/s rovescia il rapporto fra le masse, (m₁ + m₂)·v₁/m₁ = 0,06 × 2/0,02, e darebbe una velocità maggiore di quella iniziale: un urto anelastico non può accelerare il sistema.\nB) 1 m/s si ottiene dividendo per la sola massa del corpo inizialmente fermo.\nC) 1,33 m/s si ottiene con 30 g al denominatore, cioè usando la media delle masse invece della loro somma.\nE) 2 m/s è la velocità iniziale: resterebbe invariata solo se il secondo corpo avesse massa trascurabile."
     },
     {
       "id": "u2-0042",

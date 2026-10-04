@@ -40,11 +40,11 @@
         "0,02 s",
         "0,2 s",
         "50 s",
-        "2 s",
+        "0,13 s",
         "0,005 s"
       ],
       "corretta": 0,
-      "spiegazione": "Il periodo è l'inverso della frequenza: T = 1/f = 1/50 = 0,02 s.\n\nB) 0,2 s è il risultato corretto moltiplicato per dieci.\nC) 50 s ripete il valore della frequenza, che si misura in hertz.\nD) 2 s si ottiene da 100/50, cioè invertendo un valore sbagliato.\nE) 0,005 s è il periodo di un'onda a 200 Hz."
+      "spiegazione": "Il periodo è l'inverso della frequenza: T = 1/f = 1/50 = 0,02 s.\n\nB) 0,2 s è il risultato corretto moltiplicato per dieci.\nC) 50 s ripete il valore della frequenza, che si misura in hertz.\nD) 0,13 s è 2π/f: il fattore 2π compare nel legame fra periodo e pulsazione, T = 2π/ω, non in quello fra periodo e frequenza, T = 1/f.\nE) 0,005 s è il periodo di un'onda a 200 Hz."
     },
     {
       "id": "u4-0004",

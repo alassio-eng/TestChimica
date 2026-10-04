@@ -17,7 +17,7 @@
         "21 m"
       ],
       "corretta": 4,
-      "spiegazione": "La legge oraria è s = s₀ + v₀t + ½at² = 0 + 4 × 3 + ½ × 2 × 3² = 12 + 9 = 21 m.\n\nA) 18 m è at², lo stesso errore del caso precedente ma senza il termine di velocità iniziale.\nB) 30 m somma v₀t e at², cioè dimentica il fattore ½ nel secondo termine.\nC) 9 m è il solo termine ½at²: trascura la velocità iniziale.\nD) 12 m è il solo termine v₀t: trascura il contributo dell'accelerazione."
+      "spiegazione": "La legge oraria è s = s₀ + v₀t + ½at² = 0 + 4 × 3 + ½ × 2 × 3² = 12 + 9 = 21 m.\n\nA) 18 m è at² = 2 × 3²: dimentica il fattore ½ e trascura il termine di velocità iniziale.\nB) 30 m somma v₀t e at², cioè dimentica il fattore ½ nel secondo termine.\nC) 9 m è il solo termine ½at²: trascura la velocità iniziale.\nD) 12 m è il solo termine v₀t: trascura il contributo dell'accelerazione."
     },
     {
       "id": "u2-0102",
@@ -416,7 +416,7 @@
         "0,2 N·m"
       ],
       "corretta": 2,
-      "spiegazione": "Conta solo la componente della forza perpendicolare all'asta: M = F d sen α = 10 × 0,4 × sen 30° = 10 × 0,4 × 0,5 = 2 N·m. In alternativa si calcola il braccio, cioè la distanza fra il perno e la retta d'azione, che vale d sen α = 0,2 m.\n\nA) 4 N·m è F·d senza il fattore trigonometrico: sarebbe corretto solo con forza perpendicolare all'asta.\nB) 20 N·m divide la forza per il seno invece di moltiplicare.\nD) 3,46 N·m usa il coseno al posto del seno, cioè la componente parallela all'asta, che non produce alcuna rotazione.\nE) 0,2 N·m è il valore del braccio in metri, non moltiplicato per la forza."
+      "spiegazione": "Conta solo la componente della forza perpendicolare all'asta: M = F d sen α = 10 × 0,4 × sen 30° = 10 × 0,4 × 0,5 = 2 N·m. In alternativa si calcola il braccio, cioè la distanza fra il perno e la retta d'azione, che vale d sen α = 0,2 m.\n\nA) 4 N·m è F·d senza il fattore trigonometrico: sarebbe corretto solo con forza perpendicolare all'asta.\nB) 20 N·m è F/sen α = 10/0,5: divide la forza per il seno invece di moltiplicarla, e dimentica anche il braccio.\nD) 3,46 N·m usa il coseno al posto del seno, cioè la componente parallela all'asta, che non produce alcuna rotazione.\nE) 0,2 N·m è il valore del braccio in metri, non moltiplicato per la forza."
     },
     {
       "id": "u2-0130",
