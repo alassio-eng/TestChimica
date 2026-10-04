@@ -149,7 +149,7 @@
         "nuova",
         "insorta de novo"
       ],
-      "spiegazione": "È la spiegazione tipica di una malattia autosomica dominante grave che compare in una famiglia senza precedenti: l'individuo affetto è il primo portatore e potrà trasmettere l'allele alla propria discendenza con le probabilità ordinarie.\n\nVa distinta dalla mutazione somatica, che insorge dopo lo sviluppo e non è presente in tutte le cellule né trasmissibile, e dalla penetranza incompleta, in cui l'allele era già presente in un genitore che semplicemente non manifestava la malattia."
+      "spiegazione": "È la spiegazione tipica di una malattia autosomica dominante grave che compare in una famiglia senza precedenti: l'individuo affetto è il primo portatore e potrà trasmettere l'allele alla propria discendenza con le probabilità ordinarie.\n\nVa distinta dalla mutazione somatica, che insorge in una cellula somatica dopo la formazione dello zigote, anche durante lo sviluppo embrionale, e non è presente in tutte le cellule né trasmissibile, e dalla penetranza incompleta, in cui l'allele era già presente in un genitore che semplicemente non manifestava la malattia."
     }
   ]
 }

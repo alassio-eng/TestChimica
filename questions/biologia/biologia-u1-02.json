@@ -158,12 +158,12 @@
       "opzioni": [
         "Il reticolo endoplasmatico",
         "I ribosomi per la sintesi delle proteine",
-        "La parete cellulare di peptidoglicano",
+        "Il nucleoide, privo di membrana propria",
         "Il DNA organizzato in un cromosoma circolare",
         "Il citoplasma delimitato dalla membrana plasmatica"
       ],
       "corretta": 0,
-      "spiegazione": "I procarioti non possiedono alcun compartimento delimitato da membrana interna: niente reticolo endoplasmatico, né apparato di Golgi, né nucleo, né mitocondri. Le funzioni che negli eucarioti sono affidate agli organelli si svolgono nel citoplasma o sulla membrana plasmatica.\n\nB) I ribosomi ci sono, di tipo 70S.\nC) La parete di peptidoglicano è caratteristica dei batteri.\nD) Il cromosoma circolare è la forma tipica del genoma batterico.\nE) Citoplasma e membrana plasmatica sono presenti in ogni cellula."
+      "spiegazione": "I procarioti non possiedono alcun compartimento delimitato da membrana interna: niente reticolo endoplasmatico, né apparato di Golgi, né nucleo, né mitocondri. Le funzioni che negli eucarioti sono affidate agli organelli si svolgono nel citoplasma o sulla membrana plasmatica.\n\nB) I ribosomi ci sono, di tipo 70S.\nC) Il nucleoide, la regione del citoplasma che ospita il cromosoma, c'è in tutti i procarioti: è proprio ciò che occupa il posto del nucleo, senza alcuna membrana a delimitarlo.\nD) Il cromosoma circolare è la forma tipica del genoma batterico.\nE) Citoplasma e membrana plasmatica sono presenti in ogni cellula."
     },
     {
       "id": "u1-0062",

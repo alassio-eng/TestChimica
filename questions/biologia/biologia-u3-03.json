@@ -337,9 +337,7 @@
       "argomento": "TBP",
       "testo": "La subunità di TFIID che si inserisce nel solco minore della TATA box e piega il DNA è la proteina legante la TATA, indicata con la sigla ……",
       "accettate": [
-        "tbp",
-        "tata binding protein",
-        "proteina legante la tata"
+        "tbp"
       ],
       "spiegazione": "TBP è richiesta anche dai promotori privi di TATA box e dalle altre due RNA polimerasi: è quindi un componente comune a tutti i sistemi di inizio della trascrizione eucariotica, benché sia arrivata con il nome del solo elemento che riconosce direttamente.\n\nLa piegatura che introduce nel DNA è marcata e crea la geometria su cui si assemblano gli altri fattori generali."
     },
@@ -409,7 +407,7 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "snRNA",
-      "testo": "I piccoli RNA nucleari che, associati a proteine, formano le particelle dello spliceosoma e riconoscono i siti di splicing si chiamano ……",
+      "testo": "Gli RNA non codificanti che, associati a proteine, formano le particelle dello spliceosoma e riconoscono i siti di splicing si chiamano ……",
       "accettate": [
         "snrna",
         "piccoli rna nucleari",
@@ -527,12 +525,10 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "Codone",
-      "testo": "La tripletta di basi dell'mRNA che specifica un amminoacido o un segnale di terminazione si chiama ……",
+      "testo": "L'unità di tre nucleotidi consecutivi dell'mRNA che specifica un amminoacido o un segnale di terminazione si chiama ……",
       "accettate": [
         "codone",
-        "codoni",
-        "tripletta",
-        "triplette"
+        "codoni"
       ],
       "spiegazione": "I codoni si leggono senza sovrapposizioni e senza interruzioni a partire dal codone di inizio: la sequenza di nucleotidi viene così convertita in una sequenza di amminoacidi secondo una corrispondenza fissa.\n\nDei 64 codoni possibili, 61 specificano amminoacidi e tre funzionano da segnali di stop. Il codone non si appaia con l'amminoacido, che non ha alcuna affinità per l'RNA, ma con l'anticodone del tRNA che lo trasporta."
     },
@@ -639,7 +635,7 @@
         "La traduzione si interrompe e la catena incompleta viene rilasciata"
       ],
       "corretta": 2,
-      "spiegazione": "Il ribosoma verifica soltanto l'appaiamento fra codone e anticodone e non ha alcun modo di controllare quale amminoacido il tRNA stia trasportando: un tRNA caricato male inserisce il proprio carico come se fosse quello giusto.\n\nA) Non esiste un sistema di sorveglianza che elimini i tRNA caricati male prima dell'uso.\nB) Il controllo nel sito aminoacilico riguarda la geometria dell'appaiamento codone-anticodone, non l'amminoacido.\nD) La cornice di lettura non ammette salti: ogni codone viene letto.\nE) La traduzione non si interrompe: l'errore passa inosservato e la catena viene completata.\n\nÈ la ragione per cui la specificità delle aminoacil-tRNA sintetasi è il punto critico della fedeltà dell'intero processo."
+      "spiegazione": "Il ribosoma verifica soltanto l'appaiamento fra codone e anticodone e non ha alcun modo di controllare quale amminoacido il tRNA stia trasportando: un tRNA caricato male inserisce il proprio carico come se fosse quello giusto.\n\nA) Una volta rilasciato dalla sintetasi, il tRNA caricato male non viene più riconosciuto né eliminato: il controllo sull'amminoacido avviene solo dentro la sintetasi, grazie alla sua attività di correzione.\nB) Il controllo nel sito aminoacilico riguarda la geometria dell'appaiamento codone-anticodone, non l'amminoacido.\nD) La cornice di lettura non ammette salti: ogni codone viene letto.\nE) La traduzione non si interrompe: l'errore passa inosservato e la catena viene completata.\n\nÈ la ragione per cui la specificità delle aminoacil-tRNA sintetasi è il punto critico della fedeltà dell'intero processo."
     },
     {
       "id": "u3-0144",
@@ -685,7 +681,7 @@
         "posttrascrizionale",
         "post-trascrizionali"
       ],
-      "spiegazione": "Agisce dopo che il gene è stato trascritto e prima che la proteina sia prodotta: determina quale forma matura il messaggero assuma, quanto a lungo sopravviva e se raggiunga il citoplasma.\n\nÈ il livello che negli eucarioti si aggiunge a quelli disponibili nei procarioti, dove trascrizione e traduzione avvengono nello stesso compartimento e in parte contemporaneamente."
+      "spiegazione": "Agisce dopo che il gene è stato trascritto e prima che la proteina sia prodotta: determina quale forma matura il messaggero assuma, quanto a lungo sopravviva e se raggiunga il citoplasma.\n\nEsiste anche nei procarioti, ma negli eucarioti è molto più esteso: la separazione fra nucleo e citoplasma permette splicing, maturazione e controllo dell'esportazione del messaggero, impossibili nei procarioti, dove trascrizione e traduzione avvengono nello stesso compartimento e in parte contemporaneamente."
     },
     {
       "id": "u3-0147",

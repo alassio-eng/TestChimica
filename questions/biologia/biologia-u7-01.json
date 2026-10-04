@@ -273,7 +273,7 @@
       "unita": "u7",
       "tipo": "completamento",
       "argomento": "Oncogene",
-      "testo": "La forma mutata o iperespressa di un proto-oncogene, che promuove la proliferazione cellulare in modo incontrollato, si chiama ……",
+      "testo": "La forma mutata o iperespressa di un gene normale che regola la proliferazione, capace di promuovere la divisione cellulare in modo incontrollato, si chiama ……",
       "accettate": [
         "oncogene",
         "oncogeni"
@@ -427,7 +427,7 @@
       "accettate": [
         "prometafase"
       ],
-      "spiegazione": "Con la frammentazione dell'involucro i microtubuli, fino a quel momento esterni al nucleo, raggiungono i cromosomi. L'aggancio avviene per tentativi: i microtubuli esplorano lo spazio allungandosi e accorciandosi finché non catturano un cinetocore.\n\nAlcuni testi includono questa fase nella profase tardiva; il syllabus e la maggior parte dei testi la distinguono come prometafase."
+      "spiegazione": "Con la frammentazione dell'involucro i microtubuli, fino a quel momento esterni al nucleo, raggiungono i cromosomi. L'aggancio avviene per tentativi: i microtubuli esplorano lo spazio allungandosi e accorciandosi finché non catturano un cinetocore.\n\nAlcuni testi includono questa fase nella profase tardiva; la maggior parte la distingue come prometafase."
     },
     {
       "id": "u7-0030",
@@ -652,9 +652,7 @@
       "argomento": "MOMP",
       "testo": "La permeabilizzazione della membrana mitocondriale esterna, evento decisivo della via apoptotica intrinseca, è indicata con la sigla ……",
       "accettate": [
-        "momp",
-        "permeabilizzazione della membrana mitocondriale esterna",
-        "mitochondrial outer membrane permeabilization"
+        "momp"
       ],
       "spiegazione": "La MOMP è controllata dalle proteine della famiglia BCL2 e porta al rilascio nel citosol del citocromo c e di altre proteine dello spazio intermembrana. È considerata il punto di non ritorno della via intrinseca: una volta avvenuta, la cellula è di regola destinata a morire.\n\nRiguarda la membrana esterna: la membrana interna resta in larga parte integra."
     },

@@ -212,7 +212,7 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Mutazioni di sfasamento",
-      "testo": "L'inserzione o la delezione, in una regione codificante, di un numero di nucleotidi non multiplo di tre provoca uno slittamento del modulo di lettura: la mutazione è detta di ……",
+      "testo": "L'inserzione o la delezione, in una regione codificante, di un numero di nucleotidi non multiplo di tre altera la suddivisione in triplette di tutta la sequenza a valle: la mutazione è detta di ……",
       "accettate": [
         "sfasamento",
         "slittamento",

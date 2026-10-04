@@ -351,7 +351,7 @@
       "unita": "u6",
       "tipo": "completamento",
       "argomento": "Tipi di segnalazione",
-      "testo": "La segnalazione in cui la molecola segnale resta ancorata alla membrana della cellula emittente e agisce solo su una cellula a diretto contatto, come nel sistema Notch-Delta, si chiama segnalazione ……",
+      "testo": "La segnalazione in cui la molecola segnale resta ancorata alla membrana della cellula emittente e agisce solo su una cellula adiacente, la cui membrana tocca la propria, come nel sistema Notch-Delta, si chiama segnalazione ……",
       "accettate": [
         "iuxtacrina",
         "juxtacrina",
@@ -709,15 +709,12 @@
       "unita": "u6",
       "tipo": "completamento",
       "argomento": "Segnalazione del recettore per l'insulina",
-      "testo": "Il recettore per l'insulina attivato fosforila su tirosine proteine adattatrici dette substrati del recettore insulinico, indicate con la sigla ……",
+      "testo": "Il recettore per l'insulina attivato fosforila su tirosine proteine adattatrici indicate con la sigla ……",
       "accettate": [
         "irs",
         "irs1",
         "irs-1",
-        "irs 1",
-        "insulin receptor substrate",
-        "substrati del recettore insulinico",
-        "substrato del recettore insulinico"
+        "irs 1"
       ],
       "spiegazione": "Le proteine IRS fosforilate diventano piattaforme che reclutano proteine con domini SH2, in particolare la PI 3-chinasi. Da qui parte la via PIP3-Akt, che porta, fra l'altro, alla traslocazione in membrana dei trasportatori GLUT4 nel muscolo e nel tessuto adiposo.\n\nLa differenza rispetto al recettore per l'EGF è che l'insulina usa prevalentemente queste proteine di aggancio, anziché i siti di autofosforilazione del recettore stesso."
     },

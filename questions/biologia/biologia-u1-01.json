@@ -404,7 +404,7 @@
         "endomembrane",
         "endomembrana"
       ],
-      "spiegazione": "I compartimenti del sistema scambiano fra loro materiale soprattutto tramite vescicole che gemmano da un compartimento e fondono con quello successivo: il lume di ciascuno è topologicamente equivalente all'esterno della cellula.\n\nMitocondri e perossisomi ne restano fuori: non ricevono proteine per via vescicolare, ma le importano direttamente dal citosol grazie a sequenze segnale riconosciute da recettori propri."
+      "spiegazione": "I compartimenti del sistema scambiano fra loro materiale soprattutto tramite vescicole che gemmano da un compartimento e fondono con quello successivo: il lume di ciascuno è topologicamente equivalente all'esterno della cellula.\n\nMitocondri e perossisomi ne restano fuori: i mitocondri e la matrice dei perossisomi non ricevono proteine per via vescicolare, ma le importano direttamente dal citosol grazie a sequenze segnale riconosciute da recettori propri. Fa eccezione una parte delle proteine della membrana perossisomiale, che passa per il reticolo endoplasmatico."
     },
     {
       "id": "u1-0029",
@@ -616,7 +616,7 @@
         "nell'aggiunta di una catena di ubiquitine che ne segna la degradazione"
       ],
       "corretta": 1,
-      "spiegazione": "Le catene oligosaccaridiche vengono legate all'azoto della catena laterale dell'asparagina (glicosilazione N-legata) oppure all'ossigeno di serina e treonina (O-legata). Avviene nel reticolo endoplasmatico e nell'apparato di Golgi e riguarda soprattutto proteine di membrana e proteine secrete.\n\nA) La rimozione di un fosfato è la defosforilazione, opera delle fosfatasi.\nC) Una modificazione post-traduzionale, per definizione, avviene dopo la sintesi della catena.\nD) Il taglio proteolitico è una modificazione diversa, per esempio quella che converte un proenzima nella forma attiva.\nE) L'aggiunta di ubiquitine è l'ubiquitinazione."
+      "spiegazione": "Le catene oligosaccaridiche vengono legate all'azoto della catena laterale dell'asparagina (glicosilazione N-legata) oppure all'ossigeno di serina e treonina (O-legata). Avviene nel reticolo endoplasmatico e nell'apparato di Golgi e riguarda soprattutto proteine di membrana e proteine secrete.\n\nA) La rimozione di un fosfato è la defosforilazione, opera delle fosfatasi.\nC) La glicosilazione aggiunge zuccheri a residui già incorporati nella catena, spesso mentre questa sta ancora entrando nel reticolo: non consiste nell'inserire, durante la traduzione, un amminoacido già modificato.\nD) Il taglio proteolitico è una modificazione diversa, per esempio quella che converte un proenzima nella forma attiva.\nE) L'aggiunta di ubiquitine è l'ubiquitinazione."
     },
     {
       "id": "u1-0044",

@@ -118,7 +118,7 @@
         "mutageni",
         "agente mutageno"
       ],
-      "spiegazione": "Sono mutageni le radiazioni ionizzanti, che provocano rotture dei filamenti, i raggi ultravioletti, che inducono dimeri di pirimidina, e numerose sostanze chimiche, come gli analoghi delle basi e gli agenti intercalanti. Il mutageno non crea tipi di lesione nuovi: aumenta la frequenza di eventi che avvengono comunque.\n\nUn mutageno capace di provocare trasformazione tumorale è detto anche cancerogeno, ma i due termini non coincidono: la cancerogenesi richiede che le mutazioni colpiscano geni che controllano la proliferazione cellulare."
+      "spiegazione": "Sono mutageni le radiazioni ionizzanti, che provocano rotture dei filamenti, i raggi ultravioletti, che inducono dimeri di pirimidina, e numerose sostanze chimiche, come gli analoghi delle basi e gli agenti intercalanti. Molti mutageni aumentano la frequenza di lesioni che avvengono anche spontaneamente; altri producono lesioni caratteristiche, come i dimeri di pirimidina da raggi ultravioletti.\n\nUn mutageno capace di provocare trasformazione tumorale è detto anche cancerogeno, ma i due termini non coincidono: la cancerogenesi richiede che le mutazioni colpiscano geni che controllano la proliferazione cellulare."
     },
     {
       "id": "u4-0059",
@@ -170,7 +170,7 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Riparazione per escissione di base",
-      "testo": "Il sistema che rimuove una singola base azotata chimicamente alterata, staccandola dallo zucchero e lasciando il filamento in sede, è la riparazione per escissione di ……",
+      "testo": "Il sistema che ripara un danno chimico che non deforma l'elica, come una citosina deaminata, staccando dallo zucchero il solo residuo alterato e lasciando intatto lo scheletro del filamento, è la riparazione per escissione di ……",
       "accettate": [
         "base",
         "basi",

@@ -130,7 +130,7 @@
         "un nucleo di proteine non istoniche associato a un tratto di DNA metilato"
       ],
       "corretta": 1,
-      "spiegazione": "L'ottamero è formato da due copie di ciascuno dei quattro istoni del nucleo: H2A, H2B, H3 e H4. Attorno a esso si avvolgono circa 147 paia di basi di DNA.\n\nA) H1 non fa parte dell'ottamero: è l'istone di collegamento e si lega all'esterno del nucleosoma.\nC) Gli istoni del nucleo sono quattro tipi ma otto molecole; il DNA linker è il tratto fra due nucleosomi, non parte del nucleosoma.\nD) Le circa 300 paia di basi sono all'incirca la lunghezza di una sequenza Alu, non del DNA nucleosomico.\nE) Le proteine del nucleosoma sono istoni, e l'avvolgimento non dipende dalla metilazione del DNA."
+      "spiegazione": "L'ottamero è formato da due copie di ciascuno dei quattro istoni del nucleo: H2A, H2B, H3 e H4. Attorno a esso si avvolgono circa 147 paia di basi di DNA.\n\nA) H1 non fa parte dell'ottamero: è l'istone di collegamento e si lega all'esterno del nucleosoma.\nC) Gli istoni del nucleo sono quattro tipi ma otto molecole; il DNA linker è il tratto fra due nucleosomi, non parte del nucleosoma.\nD) Il nucleo istonico è un ottamero: il tetramero di H3 e H4 ne è solo la parte centrale, a cui si aggiungono due dimeri H2A-H2B. Il DNA avvolto è di circa 147 paia di basi, non 300.\nE) Le proteine del nucleosoma sono istoni, e l'avvolgimento non dipende dalla metilazione del DNA."
     },
     {
       "id": "u2-0010",
