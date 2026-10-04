@@ -618,14 +618,15 @@
       "id": "u7-0046",
       "unita": "u7",
       "tipo": "completamento",
-      "argomento": "Legame fosfodiestere",
-      "testo": "Il legame che unisce i nucleotidi di un filamento di acido nucleico, in cui un gruppo fosfato è esterificato con due ossidrili di zuccheri diversi, si chiama legame ……",
+      "argomento": "Polarità del filamento di acido nucleico",
+      "testo": "Per convenzione la sequenza di un filamento di acido nucleico si scrive e si legge dall'estremità 5' all'estremità ……",
       "accettate": [
-        "fosfodiestere",
-        "fosfodiestereo",
-        "fosfodiesterico"
+        "3'",
+        "3",
+        "tre",
+        "3 primo"
       ],
-      "spiegazione": "Il fosfato forma due legami estere, con l'ossidrile in 3' di un nucleotide e con quello in 5' del successivo: per questo il legame si chiama fosfodiestere. L'alternanza zucchero–fosfato costituisce lo scheletro covalente del filamento."
+      "spiegazione": "Le sequenze si scrivono dall'estremità 5', che porta il fosfato libero, all'estremità 3', con l'ossidrile libero. È anche la direzione in cui la catena si allunga nella sintesi degli acidi nucleici: ogni nuovo nucleotide si lega all'ossidrile in 3' dell'ultimo.\nLa polarità deriva dai legami fosfodiestere 3'–5' che uniscono i nucleotidi."
     },
     {
       "id": "u7-0047",

@@ -424,7 +424,7 @@
         "3"
       ],
       "corretta": 4,
-      "spiegazione": "La configurazione è 1s² 2s² 2p³. I tre elettroni 2p, per la regola di Hund, occupano i tre orbitali p degeneri uno ciascuno e con spin paralleli: restano quindi tre elettroni spaiati. È la ragione per cui l'azoto forma tre legami covalenti.\n\nA) e B) Si otterrebbero appaiando gli elettroni prima di aver occupato tutti gli orbitali degeneri, contro la regola di Hund.\nC) Cinque sono gli elettroni del guscio di valenza (2s² 2p³), non quelli spaiati.\nD) Nessun elettrone spaiato richiederebbe che i tre elettroni 2p si appaiassero, cosa impossibile con un numero dispari di elettroni in tre orbitali."
+      "spiegazione": "La configurazione è 1s² 2s² 2p³. I tre elettroni 2p, per la regola di Hund, occupano i tre orbitali p degeneri uno ciascuno e con spin paralleli: restano quindi tre elettroni spaiati. È la ragione per cui l'azoto forma tre legami covalenti.\n\nA) Con tre elettroni distribuiti in tre orbitali il numero di elettroni spaiati può essere solo dispari (1 o 3): due è impossibile.\nB) Un solo elettrone spaiato si avrebbe appaiando due elettroni 2p nello stesso orbitale prima di aver occupato gli altri, contro la regola di Hund.\nC) Cinque sono gli elettroni del guscio di valenza (2s² 2p³), non quelli spaiati.\nD) Nessun elettrone spaiato richiederebbe che i tre elettroni 2p si appaiassero, cosa impossibile con un numero dispari di elettroni in tre orbitali."
     },
     {
       "id": "u1-0031",
@@ -440,7 +440,7 @@
         "diminuisce, perché diminuisce il numero di livelli occupati"
       ],
       "corretta": 0,
-      "spiegazione": "Lungo un periodo il numero di livelli occupati non cambia, mentre la carica nucleare cresce di un'unità per volta. Gli elettroni aggiunti entrano nello stesso livello e si schermano poco a vicenda, quindi la carica nucleare efficace aumenta e la nuvola elettronica viene attratta più vicino al nucleo: il raggio diminuisce.\n\nC) È vero che il numero di livelli resta costante, ma questo non implica che il raggio non cambi.\nB) e D) Individuano cause reali (più elettroni, più protoni) ma ne traggono la conclusione sbagliata: prevale l'attrazione nucleare.\nE) Il numero di livelli lungo un periodo non diminuisce: resta lo stesso."
+      "spiegazione": "Lungo un periodo il numero di livelli occupati non cambia, mentre la carica nucleare cresce di un'unità per volta. Gli elettroni aggiunti entrano nello stesso livello e si schermano poco a vicenda, quindi la carica nucleare efficace aumenta e la nuvola elettronica viene attratta più vicino al nucleo: il raggio diminuisce.\n\nB) Individua una causa reale, l'aumento dei protoni, ma ne trae la conclusione sbagliata: la carica nucleare maggiore contrae la nuvola elettronica, non la espande.\nC) È vero che il numero di livelli resta costante, ma questo non implica che il raggio non cambi.\nD) Gli elettroni aggiunti entrano nello stesso livello e si schermano poco a vicenda: non compensano l'aumento della carica nucleare, quindi il raggio cala.\nE) Il numero di livelli lungo un periodo non diminuisce: resta lo stesso."
     },
     {
       "id": "u1-0032",
@@ -635,7 +635,7 @@
         "raggio maggiore, perché aumenta la repulsione fra gli elettroni rimasti"
       ],
       "corretta": 1,
-      "spiegazione": "Nel catione il numero di protoni resta invariato mentre gli elettroni diminuiscono: la carica nucleare efficace su ciascun elettrone rimasto aumenta e la nuvola elettronica si contrae. Spesso, inoltre, viene svuotato l'intero livello più esterno, come nel passaggio da Na a Na⁺.\n\nA) ed E) La perdita di elettroni riduce la repulsione elettrone-elettrone, quindi il raggio cala.\nC) Il nucleo non cambia, ma il bilancio fra attrazione e repulsione sì.\nD) Un catione non perde protoni: se li perdesse cambierebbe elemento. L'anione, per il ragionamento opposto, è più grande dell'atomo neutro."
+      "spiegazione": "Nel catione il numero di protoni resta invariato mentre gli elettroni diminuiscono: la carica nucleare efficace su ciascun elettrone rimasto aumenta e la nuvola elettronica si contrae. Spesso, inoltre, viene svuotato l'intero livello più esterno, come nel passaggio da Na a Na⁺.\n\nA) La perdita di un elettrone riduce la repulsione fra gli elettroni rimasti e aumenta l'attrazione nucleare su ciascuno: il raggio diminuisce, non aumenta.\nC) Il nucleo non cambia, ma il bilancio fra attrazione e repulsione sì.\nD) Un catione non perde protoni: se li perdesse cambierebbe elemento. L'anione, per il ragionamento opposto, è più grande dell'atomo neutro.\nE) È il ragionamento invertito: con meno elettroni la repulsione fra quelli rimasti diminuisce, non aumenta."
     },
     {
       "id": "u1-0046",
@@ -678,7 +678,7 @@
         "88 mol"
       ],
       "corretta": 2,
-      "spiegazione": "n = m / M = 88 g ÷ 44 g/mol = 2 mol.\n\nA) 0,5 mol si otterrebbe invertendo la divisione (44 ÷ 88).\nB) 1 mol corrisponderebbe a 44 g.\nD) ed E) Riportano i dati del problema senza eseguire il calcolo: 44 è la massa molare, 88 la massa in grammi."
+      "spiegazione": "n = m / M = 88 g ÷ 44 g/mol = 2 mol.\n\nA) 0,5 mol si otterrebbe invertendo la divisione (44 ÷ 88).\nB) 1 mol corrisponderebbe a 44 g.\nD) 44 è la massa molare della CO₂: riportarla significa non eseguire il calcolo.\nE) 88 è la massa del campione in grammi, non il numero di moli."
     },
     {
       "id": "u1-0049",

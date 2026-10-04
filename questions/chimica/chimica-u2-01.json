@@ -117,7 +117,7 @@
         "composto chimico definito"
       ],
       "corretta": 0,
-      "spiegazione": "Nelle leghe metalliche gli atomi di un metallo sono distribuiti uniformemente nel reticolo dell'altro: la composizione è omogenea a livello atomico e lo stato è solido, quindi si tratta di una soluzione solida.\n\nB) L'omogeneità esclude che il sistema sia eterogeneo.\nC) e D) Richiederebbero particelle disperse distinguibili come fase separata.\nE) Un composto avrebbe una formula e un rapporto fisso fra gli elementi; nell'ottone la proporzione rame-zinco è variabile con continuità.\n\nAnche l'aria è una soluzione, in questo caso gassosa."
+      "spiegazione": "Nelle leghe metalliche gli atomi di un metallo sono distribuiti uniformemente nel reticolo dell'altro: la composizione è omogenea a livello atomico e lo stato è solido, quindi si tratta di una soluzione solida.\n\nB) L'omogeneità esclude che il sistema sia eterogeneo.\nC) Una sospensione richiede particelle disperse distinguibili, che sedimentano: nell'ottone i due metalli sono mescolati a livello atomico.\nD) Un colloide richiede particelle disperse più grandi delle singole molecole: nell'ottone la dispersione è atomica.\nE) Un composto avrebbe una formula e un rapporto fisso fra gli elementi; nell'ottone la proporzione rame-zinco è variabile con continuità.\n\nAnche l'aria è una soluzione, in questo caso gassosa."
     },
     {
       "id": "u2-0009",
@@ -162,7 +162,7 @@
         "glucosio"
       ],
       "corretta": 4,
-      "spiegazione": "Vale la regola «il simile scioglie il simile»: il glucosio possiede cinque gruppi ossidrilici capaci di formare legami a idrogeno con l'acqua, quindi è molto solubile.\n\nA), B), C) e D) sono sostanze apolari o quasi: idrocarburi, trigliceridi e cere interagiscono fra loro solo con forze di London e non possono sostituire i legami a idrogeno che l'acqua perderebbe accogliendole. Restano perciò separati dalla fase acquosa."
+      "spiegazione": "Vale la regola «il simile scioglie il simile»: il glucosio possiede cinque gruppi ossidrilici capaci di formare legami a idrogeno con l'acqua, quindi è molto solubile.\n\nA) L'olio d'oliva è formato da trigliceridi, quasi del tutto apolari: non forma legami a idrogeno con l'acqua e ne resta separato.\nB) Il benzene è un idrocarburo apolare: interagisce solo con forze di London.\nC) La paraffina è una miscela di alcani a catena lunga, apolari e insolubili.\nD) L'esano è un alcano apolare: sciogliersi richiederebbe di rompere legami a idrogeno dell'acqua senza sostituirli."
     },
     {
       "id": "u2-0012",
@@ -248,7 +248,7 @@
         "NaCl"
       ],
       "corretta": 1,
-      "spiegazione": "Il glucosio si scioglie in forma molecolare: i suoi gruppi ossidrilici formano legami a idrogeno con l'acqua, ma la molecola non si dissocia in ioni e la soluzione non conduce corrente.\n\nC) L'acido cloridrico è un acido forte: in acqua si dissocia completamente in H₃O⁺ e Cl⁻.\nA), D) ed E) sono sali, quindi elettroliti forti completamente dissociati.\n\nLa differenza pesa sulle proprietà colligative: una soluzione 0,1 M di glucosio contiene 0,1 mol/L di particelle, una di NaCl 0,2 mol/L."
+      "spiegazione": "Il glucosio si scioglie in forma molecolare: i suoi gruppi ossidrilici formano legami a idrogeno con l'acqua, ma la molecola non si dissocia in ioni e la soluzione non conduce corrente.\n\nA) CaCl₂ è un sale: elettrolita forte, si dissocia completamente in Ca²⁺ e 2 Cl⁻.\nC) L'acido cloridrico è un acido forte: in acqua si dissocia completamente in H₃O⁺ e Cl⁻.\nD) KCl è un sale: elettrolita forte, completamente dissociato in K⁺ e Cl⁻.\nE) NaCl è un sale: elettrolita forte, completamente dissociato in Na⁺ e Cl⁻.\n\nLa differenza pesa sulle proprietà colligative: una soluzione 0,1 M di glucosio contiene 0,1 mol/L di particelle, una di NaCl 0,2 mol/L."
     },
     {
       "id": "u2-0018",
@@ -291,7 +291,7 @@
         "resta invariata, perché dipende solo dalla pressione"
       ],
       "corretta": 3,
-      "spiegazione": "Sciogliere un gas libera energia: le molecole passano da uno stato disordinato a uno più vincolato in seno al liquido. Fornendo calore l'equilibrio si sposta verso la fase gassosa e la solubilità cala.\n\nA) Il comportamento vale per tutti i gas.\nB) L'andamento è opposto anche a pressione costante.\nC) È il comportamento dei solidi, e applicare a un gas il ragionamento valido per i sali è l'errore ricorrente.\nE) La solubilità dipende sia dalla pressione parziale sia dalla temperatura.\n\nNe deriva che le acque calde contengono meno ossigeno disciolto, con conseguenze per gli organismi acquatici."
+      "spiegazione": "La dissoluzione di un gas è di norma esotermica: non c'è un reticolo da smontare, e si formano interazioni attrattive fra le molecole del gas e quelle del solvente, che liberano energia. Fornendo calore l'equilibrio si sposta verso la fase gassosa e la solubilità cala.\n\nA) Il comportamento vale per tutti i gas.\nB) L'andamento è opposto anche a pressione costante.\nC) È il comportamento dei solidi, e applicare a un gas il ragionamento valido per i sali è l'errore ricorrente.\nE) La solubilità dipende sia dalla pressione parziale sia dalla temperatura.\n\nNe deriva che le acque calde contengono meno ossigeno disciolto, con conseguenze per gli organismi acquatici."
     },
     {
       "id": "u2-0021",
@@ -432,7 +432,7 @@
         "8,0 M"
       ],
       "corretta": 1,
-      "spiegazione": "Nella diluizione vale C₁V₁ = C₂V₂: C₂ = (2,0 × 50) ÷ 200 = 0,50 M. Il volume è quadruplicato, quindi la concentrazione si riduce a un quarto.\n\nA) 0,10 M si otterrebbe con una diluizione di venti volte.\nC) 1,0 M corrisponderebbe a un raddoppio del volume.\nD) e E) Applicano la proporzionalità diretta invece di quella inversa: diluendo la concentrazione scende, non sale."
+      "spiegazione": "Nella diluizione vale C₁V₁ = C₂V₂: C₂ = (2,0 × 50) ÷ 200 = 0,50 M. Il volume è quadruplicato, quindi la concentrazione si riduce a un quarto.\n\nA) 0,10 M si otterrebbe con una diluizione di venti volte.\nC) 1,0 M corrisponderebbe a un raddoppio del volume.\nD) 4,0 M fa salire la concentrazione invece di farla scendere: diluendo, le stesse moli si distribuiscono in un volume maggiore.\nE) 8,0 M si ottiene invertendo il rapporto dei volumi (2,0 × 200 ÷ 50): è la proporzionalità diretta al posto di quella inversa."
     },
     {
       "id": "u2-0031",
@@ -505,7 +505,7 @@
         "la media delle pressioni parziali dei componenti"
       ],
       "corretta": 0,
-      "spiegazione": "Ogni gas si comporta come se fosse solo nel recipiente e contribuisce alla pressione totale in proporzione al numero delle sue molecole: P totale = p₁ + p₂ + p₃ + …\n\nB) La pressione totale a volume e temperatura fissati dipende dal numero totale di molecole, quindi dalla composizione.\nD) Il componente più abbondante dà il contributo maggiore, ma non l'intera pressione.\nC) ed E) Non corrispondono ad alcuna relazione fisica fra le pressioni."
+      "spiegazione": "Ogni gas si comporta come se fosse solo nel recipiente e contribuisce alla pressione totale in proporzione al numero delle sue molecole: P totale = p₁ + p₂ + p₃ + …\n\nB) La pressione totale a volume e temperatura fissati dipende dal numero totale di molecole, quindi dalla composizione.\nC) Il prodotto delle pressioni parziali non corrisponde ad alcuna relazione fisica: le pressioni parziali si sommano.\nD) Il componente più abbondante dà il contributo maggiore, ma non l'intera pressione.\nE) La media delle pressioni parziali sarebbe minore della pressione totale reale: i contributi dei singoli gas si sommano."
     },
     {
       "id": "u2-0036",
@@ -601,7 +601,7 @@
         "si annulla completamente in presenza di un soluto non volatile"
       ],
       "corretta": 3,
-      "spiegazione": "La legge si scrive p = x(solvente) · p°(solvente): poiché la frazione molare del solvente in una soluzione è minore di 1, la tensione di vapore risulta sempre inferiore a quella del solvente puro.\n\nA) È il punto centrale delle proprietà colligative: conta quante particelle ci sono, non quali.\nB) ed E) Sono in contrasto con la relazione: la tensione diminuisce ma non si annulla.\nC) L'uguaglianza si avrebbe solo con frazione molare del solvente pari a 1, cioè in assenza di soluto."
+      "spiegazione": "La legge si scrive p = x(solvente) · p°(solvente): poiché la frazione molare del solvente in una soluzione è minore di 1, la tensione di vapore risulta sempre inferiore a quella del solvente puro.\n\nA) È il punto centrale delle proprietà colligative: conta quante particelle ci sono, non quali.\nB) La tensione di vapore della soluzione è minore, non maggiore, di quella del solvente puro: il soluto non volatile non contribuisce al vapore.\nC) L'uguaglianza si avrebbe solo con frazione molare del solvente pari a 1, cioè in assenza di soluto.\nE) La tensione diminuisce ma non si annulla: si annullerebbe solo con frazione molare del solvente pari a zero."
     },
     {
       "id": "u2-0043",
@@ -651,7 +651,7 @@
         "cloruro di sodio 0,10 m"
       ],
       "corretta": 4,
-      "spiegazione": "L'abbassamento della tensione di vapore dipende dal numero di particelle disciolte. Il cloruro di sodio è un elettrolita forte e si dissocia in Na⁺ e Cl⁻: 0,10 m di NaCl dà 0,20 mol/kg di particelle, il doppio delle altre soluzioni.\n\nA), B), C) e D) sono tutti non elettroliti, con fattore di van't Hoff pari a 1: a parità di molalità producono lo stesso effetto colligativo, minore di quello del sale.\n\nCon lo stesso ragionamento, la soluzione di NaCl è anche quella che bolle alla temperatura più alta e congela alla più bassa."
+      "spiegazione": "L'abbassamento della tensione di vapore dipende dal numero di particelle disciolte. Il cloruro di sodio è un elettrolita forte e si dissocia in Na⁺ e Cl⁻: 0,10 m di NaCl dà 0,20 mol/kg di particelle, il doppio delle altre soluzioni.\n\nA) Il glucosio è un non elettrolita (i = 1): 0,10 mol/kg di particelle, metà di quelle del sale.\nB) Il saccarosio è un non elettrolita: 0,10 mol/kg di particelle, benché la molecola sia più grande.\nC) Il glicerolo è un non elettrolita: 0,10 mol/kg di particelle.\nD) L'urea è un non elettrolita: 0,10 mol/kg di particelle.\n\nCon lo stesso ragionamento, la soluzione di NaCl è anche quella che bolle alla temperatura più alta e congela alla più bassa."
     },
     {
       "id": "u2-0047",
@@ -707,7 +707,7 @@
         "cloruro di potassio 0,10 m"
       ],
       "corretta": 3,
-      "spiegazione": "Conta il numero di particelle, cioè il prodotto m × i. Il cloruro di calcio dà Ca²⁺ + 2 Cl⁻, quindi i = 3 e 0,30 mol/kg di particelle: l'abbassamento crioscopico è il maggiore dell'elenco.\n\nA) e C) Glucosio e urea sono non elettroliti, i = 1, quindi 0,10 mol/kg.\nB) ed E) NaCl e KCl hanno i = 2, quindi 0,20 mol/kg di particelle.\n\nOrdine dell'abbassamento: CaCl₂ > NaCl = KCl > glucosio = urea."
+      "spiegazione": "Conta il numero di particelle, cioè il prodotto m × i. Il cloruro di calcio dà Ca²⁺ + 2 Cl⁻, quindi i = 3 e 0,30 mol/kg di particelle: l'abbassamento crioscopico è il maggiore dell'elenco.\n\nA) Il glucosio è un non elettrolita, i = 1: 0,10 mol/kg di particelle.\nB) NaCl ha i = 2: 0,20 mol/kg di particelle, meno del cloruro di calcio.\nC) L'urea è un non elettrolita, i = 1: 0,10 mol/kg di particelle.\nE) KCl ha i = 2: 0,20 mol/kg di particelle, come NaCl.\n\nOrdine dell'abbassamento: CaCl₂ > NaCl = KCl > glucosio = urea."
     }
   ]
 }

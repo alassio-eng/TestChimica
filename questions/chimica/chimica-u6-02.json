@@ -145,9 +145,7 @@
       "accettate": [
         "fenossido",
         "fenato",
-        "fenolato",
-        "fenossi",
-        "fenossile"
+        "fenolato"
       ],
       "spiegazione": "La base coniugata del fenolo è lo ione fenossido (detto anche fenato o fenolato), C6H5O−. Il fenolo, con pKa ≈ 10, è deprotonato da NaOH; gli alcoli comuni (pKa ≈ 16) no, apprezzabilmente. «Benzoato» è lo ione dell'acido benzoico, non del fenolo; «alcossido» è la base coniugata degli alcoli."
     },
@@ -493,7 +491,7 @@
         "acido tricloroacetico"
       ],
       "corretta": 4,
-      "spiegazione": "Il cloro è elettronegativo ed esercita un effetto induttivo elettron-attrattore: sottrae densità elettronica al carbossilato e lo stabilizza. Più atomi di cloro ci sono vicino al carbossile, più l'acido è forte. Il tricloroacetico (pKa ≈ 0,7) è il più forte dell'elenco.\n\nA) il gruppo etile è debolmente elettron-donatore e destabilizza leggermente il carbossilato (pKa ≈ 4,87): l'idea che una catena più lunga renda l'acido più forte è sbagliata.\nB) un solo cloro: pKa ≈ 2,9, più acido dell'acetico ma meno dei derivati di- e triclorurati.\nC) con due atomi di cloro l'effetto induttivo è minore (pKa ≈ 1,3): forte, ma meno del tricloroacetico.\nD) senza sostituenti elettron-attrattori: pKa ≈ 4,76."
+      "spiegazione": "Il cloro è elettronegativo ed esercita un effetto induttivo elettron-attrattore: sottrae densità elettronica al carbossilato e lo stabilizza. Più atomi di cloro ci sono vicino al carbossile, più l'acido è forte. Il tricloroacetico (pKa ≈ 0,7) è il più forte dell'elenco.\n\nA) il gruppo etile è debolmente elettron-donatore e destabilizza leggermente il carbossilato (pKa ≈ 4,87): l'idea che una catena più lunga renda l'acido più forte è sbagliata.\nB) un solo cloro: pKa ≈ 2,9, più acido dell'acetico ma meno dei derivati di- e triclorurati.\nC) con due atomi di cloro l'effetto induttivo è minore (pKa ≈ 1,3): forte, ma meno del tricloroacetico.\nD) senza sostituenti elettron-attrattori: pKa ≈ 4,74."
     },
     {
       "id": "u6-0036",

@@ -57,7 +57,7 @@
         "la pressione necessaria a far passare il soluto attraverso la membrana"
       ],
       "corretta": 0,
-      "spiegazione": "È la pressione che bilancia esattamente la tendenza del solvente a entrare nella soluzione: applicandola si arresta il flusso osmotico netto. Si calcola con π = i·M·R·T.\n\nB) e C) Confondono la pressione osmotica con grandezze relative all'equilibrio liquido-vapore.\nD) Il soluto disciolto non esercita una pressione sulle pareti nel senso dei gas.\nE) La membrana semipermeabile è per definizione impermeabile al soluto: il soluto non passa a nessuna pressione."
+      "spiegazione": "È la pressione che bilancia esattamente la tendenza del solvente a entrare nella soluzione: applicandola si arresta il flusso osmotico netto. Si calcola con π = i·M·R·T.\n\nB) La differenza fra pressione atmosferica e tensione di vapore riguarda l'equilibrio liquido-vapore, non il flusso di solvente attraverso una membrana.\nC) La pressione di vapore alla temperatura di ebollizione è uguale alla pressione esterna: non ha a che fare con l'osmosi.\nD) Il soluto disciolto non esercita una pressione sulle pareti nel senso dei gas.\nE) La membrana semipermeabile è per definizione impermeabile al soluto: il soluto non passa a nessuna pressione."
     },
     {
       "id": "u2-0055",
@@ -180,7 +180,7 @@
         "allo 0,9% peso/peso, ipotonica rispetto al plasma"
       ],
       "corretta": 3,
-      "spiegazione": "Lo 0,9% p/V corrisponde a 9 g/L, cioè circa 0,15 mol/L di NaCl. Poiché il sale si dissocia in due ioni, l'osmolarità è circa 0,30 osmol/L, praticamente uguale a quella del plasma: la soluzione è isotonica e può essere infusa senza danneggiare le cellule.\n\nA) e B) Sbagliano di un fattore dieci: al 9% sarebbe fortemente ipertonica, allo 0,09% marcatamente ipotonica e capace di provocare emolisi.\nC) Il 5% p/V è la concentrazione della soluzione glucosata, non di quella salina.\nE) L'unità corretta è p/V, e comunque a quella concentrazione la soluzione non sarebbe ipotonica."
+      "spiegazione": "Lo 0,9% p/V corrisponde a 9 g/L, cioè circa 0,15 mol/L di NaCl. Poiché il sale si dissocia in due ioni, l'osmolarità è circa 0,30 osmol/L, praticamente uguale a quella del plasma: la soluzione è isotonica e può essere infusa senza danneggiare le cellule.\n\nA) Allo 0,09% p/V la concentrazione è dieci volte troppo bassa: la soluzione sarebbe marcatamente ipotonica e provocherebbe emolisi.\nB) Al 9% p/V la concentrazione è dieci volte troppo alta: la soluzione sarebbe fortemente ipertonica.\nC) Il 5% p/V è la concentrazione della soluzione glucosata, non di quella salina.\nE) L'unità corretta è p/V, e comunque a quella concentrazione la soluzione non sarebbe ipotonica."
     },
     {
       "id": "u2-0064",
@@ -193,7 +193,7 @@
         "isotonico",
         "isotoniche"
       ],
-      "spiegazione": "Nelle soluzioni isotoniche le cellule mantengono volume e forma. Sono isotoniche con il plasma la soluzione fisiologica (NaCl 0,9% p/V) e la glucosata al 5%.\n\nUna soluzione con pressione osmotica maggiore è ipertonica e sottrae acqua alle cellule; una con pressione minore è ipotonica e ne provoca il rigonfiamento."
+      "spiegazione": "Nelle soluzioni isotoniche le cellule mantengono volume e forma. È isotonica con il plasma la soluzione fisiologica (NaCl 0,9% p/V). La glucosata al 5% è isoosmotica al momento dell'infusione, ma il glucosio entra nelle cellule e viene metabolizzato: in pratica si comporta come acqua libera.\n\nUna soluzione con pressione osmotica maggiore è ipertonica e sottrae acqua alle cellule; una con pressione minore è ipotonica e ne provoca il rigonfiamento."
     },
     {
       "id": "u2-0065",
@@ -255,7 +255,7 @@
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Soluzione glucosata",
-      "testo": "La soluzione glucosata al 5% peso/volume risulta all'incirca isotonica con il plasma perché:",
+      "testo": "La soluzione glucosata al 5% peso/volume risulta all'incirca isoosmotica con il plasma perché:",
       "opzioni": [
         "il glucosio si dissocia in due particelle e raddoppia l'osmolarità della soluzione",
         "il glucosio non attraversa mai la membrana delle cellule",

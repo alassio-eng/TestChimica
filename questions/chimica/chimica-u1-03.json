@@ -11,8 +11,7 @@
       "testo": "Nella nomenclatura tradizionale il suffisso -ito indica l'anione che deriva da un acido il cui nome termina con il suffisso ……",
       "accettate": [
         "oso",
-        "-oso",
-        "ico oso"
+        "-oso"
       ],
       "spiegazione": "La corrispondenza è: acido -oso dà anione -ito, acido -ico dà anione -ato. Dall'acido solforoso H₂SO₃ deriva lo ione solfito SO₃²⁻; dall'acido solforico H₂SO₄ deriva lo ione solfato SO₄²⁻.\n\nIl suffisso -oso indica lo stato di ossidazione più basso fra i due possibili, e l'anione corrispondente contiene un atomo di ossigeno in meno."
     },
@@ -46,7 +45,7 @@
         "SO₃"
       ],
       "corretta": 4,
-      "spiegazione": "Gli ossidi dei non metalli sono ossidi acidi: reagendo con l'acqua danno un acido. SO₃ + H₂O → H₂SO₄. Lo zolfo è un non metallo, quindi SO₃ è l'anidride solforica.\n\nA), B), C) e D) sono ossidi di metalli, quindi ossidi basici: con l'acqua danno idrossidi, per esempio CaO + H₂O → Ca(OH)₂. Il criterio da applicare è la natura metallica o non metallica dell'elemento legato all'ossigeno, non il numero di atomi nella formula."
+      "spiegazione": "Gli ossidi dei non metalli sono ossidi acidi: reagendo con l'acqua danno un acido. SO₃ + H₂O → H₂SO₄. Lo zolfo è un non metallo, quindi SO₃ è l'anidride solforica.\n\nA) Na₂O è l'ossido di un metallo alcalino: ossido basico, con l'acqua dà NaOH.\nB) MgO è l'ossido di un metallo alcalino-terroso: ossido basico, con l'acqua dà Mg(OH)₂.\nC) K₂O è l'ossido di un metallo alcalino: ossido basico, con l'acqua dà KOH.\nD) CaO è l'ossido di un metallo alcalino-terroso: ossido basico, CaO + H₂O → Ca(OH)₂.\n\nIl criterio da applicare è la natura metallica o non metallica dell'elemento legato all'ossigeno, non il numero di atomi nella formula."
     },
     {
       "id": "u1-0104",
@@ -233,7 +232,7 @@
         "0,25 L"
       ],
       "corretta": 0,
-      "spiegazione": "Dalla legge di Boyle P₁V₁ = P₂V₂: V₂ = (1,0 × 2,0) / 4,0 = 0,50 L. Quadruplicando la pressione il volume si riduce a un quarto.\n\nB) Il volume resterebbe invariato solo se non cambiasse la pressione.\nC) e D) Si otterrebbero trattando le due grandezze come direttamente proporzionali, cioè moltiplicando invece di dividere: è l'errore più comune su questa legge.\nE) 0,25 L si ottiene dividendo 1,0 per 4,0 e dimenticando il volume iniziale."
+      "spiegazione": "Dalla legge di Boyle P₁V₁ = P₂V₂: V₂ = (1,0 × 2,0) / 4,0 = 0,50 L. Quadruplicando la pressione il volume si riduce a un quarto.\n\nB) Il volume resterebbe invariato solo se non cambiasse la pressione.\nC) 4,0 L si ottiene moltiplicando 1,0 per 4,0: tratta le grandezze come direttamente proporzionali e dimentica il volume iniziale.\nD) 8,0 L si ottiene trattando pressione e volume come direttamente proporzionali (2,0 × 4,0 ÷ 1,0): è l'errore più comune su questa legge.\nE) 0,25 L si ottiene dividendo 1,0 per 4,0 e dimenticando il volume iniziale."
     },
     {
       "id": "u1-0117",
@@ -323,7 +322,7 @@
         "alla massa delle molecole"
       ],
       "corretta": 3,
-      "spiegazione": "La temperatura è la misura macroscopica dell'agitazione termica: l'energia cinetica media di traslazione delle molecole vale (3/2)kT ed è quindi direttamente proporzionale alla temperatura assoluta.\n\nA) La pressione dipende dagli urti sulle pareti e quindi anche dalla temperatura, ma non ne è la definizione: si può variare la pressione mantenendo T costante.\nB) e C) Volume e numero di molecole entrano nell'equazione di stato, ma non definiscono la temperatura.\nE) A parità di temperatura, molecole di massa diversa hanno la stessa energia cinetica media ma velocità diverse."
+      "spiegazione": "La temperatura è la misura macroscopica dell'agitazione termica: l'energia cinetica media di traslazione delle molecole vale (3/2)kT ed è quindi direttamente proporzionale alla temperatura assoluta.\n\nA) La pressione dipende dagli urti sulle pareti e quindi anche dalla temperatura, ma non ne è la definizione: si può variare la pressione mantenendo T costante.\nB) Il volume entra nell'equazione di stato ma non definisce la temperatura: a T costante si può variare il volume a piacere.\nC) Il numero di molecole determina la quantità di gas, non la sua temperatura: due campioni di dimensioni diverse possono avere la stessa T.\nE) A parità di temperatura, molecole di massa diversa hanno la stessa energia cinetica media ma velocità diverse."
     },
     {
       "id": "u1-0123",
@@ -355,7 +354,7 @@
         "le molecole abbiano volume trascurabile e non si attraggano fra loro"
       ],
       "corretta": 4,
-      "spiegazione": "Le due ipotesi fondanti sono proprio queste: particelle puntiformi e assenza di interazioni, salvo gli urti. Da esse discende l'equazione PV = nRT.\n\nB) La temperatura è precisamente la misura dell'agitazione molecolare.\nC) Gli urti sono assunti perfettamente elastici: l'energia cinetica totale si conserva, altrimenti un gas si raffredderebbe da solo.\nA) e D) Sono le condizioni in cui il modello smette di funzionare, cioè alte pressioni e basse temperature; per tenerne conto servono equazioni come quella di van der Waals."
+      "spiegazione": "Le due ipotesi fondanti sono proprio queste: particelle puntiformi e assenza di interazioni, salvo gli urti. Da esse discende l'equazione PV = nRT.\n\nA) Un volume proprio paragonabile a quello del recipiente è la condizione in cui il modello smette di funzionare, cioè ad alte pressioni.\nB) La temperatura è precisamente la misura dell'agitazione molecolare.\nC) Gli urti sono assunti perfettamente elastici: l'energia cinetica totale si conserva, altrimenti un gas si raffredderebbe da solo.\nD) Le attrazioni fra le molecole sono proprio ciò che il modello trascura; diventano importanti a basse temperature, dove servono equazioni come quella di van der Waals."
     },
     {
       "id": "u1-0125",
@@ -415,7 +414,7 @@
         "O₂"
       ],
       "corretta": 1,
-      "spiegazione": "Alla stessa temperatura tutte le molecole hanno la stessa energia cinetica media: da (1/2)mv² segue che la velocità cresce al diminuire della massa, secondo v ∝ 1/√M. L'idrogeno, con massa molare 2 g/mol, è il più leggero dell'elenco e quindi il più veloce.\n\nA), C) ed E) Con masse molari di 28, 32 e 44 g/mol sono progressivamente più lenti. È lo stesso principio che rende i gas leggeri i più rapidi a diffondere.\nD) L'elio ha massa molare 4 g/mol: veloce, ma meno dell'idrogeno."
+      "spiegazione": "Alla stessa temperatura tutte le molecole hanno la stessa energia cinetica media: da (1/2)mv² segue che la velocità cresce al diminuire della massa, secondo v ∝ 1/√M. L'idrogeno, con massa molare 2 g/mol, è il più leggero dell'elenco e quindi il più veloce.\n\nA) La CO₂ ha massa molare 44 g/mol, la più alta dell'elenco: è il gas più lento.\nC) L'N₂ ha massa molare 28 g/mol: più lento dell'idrogeno e dell'elio.\nD) L'elio ha massa molare 4 g/mol: veloce, ma meno dell'idrogeno.\nE) L'O₂ ha massa molare 32 g/mol: più lento dell'idrogeno.\n\nÈ lo stesso principio che rende i gas leggeri i più rapidi a diffondere."
     },
     {
       "id": "u1-0129",
@@ -474,7 +473,7 @@
         "l'acqua disponibile in quota è meno pura e contiene più sali disciolti"
       ],
       "corretta": 3,
-      "spiegazione": "L'ebollizione avviene quando la tensione di vapore uguaglia la pressione esterna. In quota la pressione atmosferica è minore, quindi quell'uguaglianza si realizza a una temperatura più bassa: a 2000 metri l'acqua bolle attorno a 93 °C.\n\nA) La temperatura dell'aria non entra nella condizione di ebollizione.\nB) La tensione di vapore dipende dalla temperatura e dal liquido, non dall'altitudine.\nC) La conseguenza pratica è nota: in quota i cibi cuociono più lentamente, perché l'acqua bolle a temperatura minore.\nE) La purezza sposterebbe il punto di ebollizione, ma non è la causa in questione."
+      "spiegazione": "L'ebollizione avviene quando la tensione di vapore uguaglia la pressione esterna. In quota la pressione atmosferica è minore, quindi quell'uguaglianza si realizza a una temperatura più bassa: a 2000 metri l'acqua bolle attorno a 93 °C.\n\nA) La temperatura dell'aria non entra nella condizione di ebollizione.\nB) La tensione di vapore dipende dalla temperatura e dal liquido, non dall'altitudine.\nC) Il calore di evaporazione varia pochissimo con la quota e non entra nella condizione di ebollizione, che dipende solo dal confronto fra tensione di vapore e pressione esterna.\nE) La purezza sposterebbe il punto di ebollizione, ma non è la causa in questione."
     },
     {
       "id": "u1-0133",
@@ -503,7 +502,7 @@
         "il sudore prodotto è più freddo della superficie della pelle"
       ],
       "corretta": 0,
-      "spiegazione": "Per passare allo stato di vapore le molecole d'acqua devono assorbire il calore latente di evaporazione, e lo prelevano dalla pelle: la superficie corporea si raffredda. L'efficacia del meccanismo dipende dall'elevato calore di evaporazione dell'acqua.\n\nC) L'evaporazione assorbe calore, non lo libera: a liberarlo è la condensazione.\nB) e D) Effetti marginali o inesistenti. Il meccanismo perde efficacia in ambiente molto umido, perché l'aria satura di vapore rallenta l'evaporazione.\nE) Il sudore esce a temperatura corporea; il raffreddamento avviene dopo, con l'evaporazione."
+      "spiegazione": "Per passare allo stato di vapore le molecole d'acqua devono assorbire il calore latente di evaporazione, e lo prelevano dalla pelle: la superficie corporea si raffredda. L'efficacia del meccanismo dipende dall'elevato calore di evaporazione dell'acqua.\n\nB) Il sudore non modifica in modo apprezzabile la conducibilità termica della pelle: il raffreddamento viene dal calore assorbito nell'evaporazione.\nC) L'evaporazione assorbe calore, non lo libera: a liberarlo è la condensazione.\nD) Il sudore non riflette la radiazione solare in misura rilevante.\nE) Il sudore esce a temperatura corporea; il raffreddamento avviene dopo, con l'evaporazione.\n\nIl meccanismo perde efficacia in ambiente molto umido, perché l'aria satura di vapore rallenta l'evaporazione."
     },
     {
       "id": "u1-0135",
@@ -512,8 +511,7 @@
       "argomento": "Tensione superficiale",
       "testo": "La proprietà che rende la superficie di un liquido simile a una membrana elastica, dovuta al fatto che le molecole superficiali subiscono forze di coesione non bilanciate, si chiama tensione ……",
       "accettate": [
-        "superficiale",
-        "superficie"
+        "superficiale"
       ],
       "spiegazione": "Una molecola interna è circondata da altre molecole in ogni direzione e le forze si compensano; una molecola in superficie è attratta solo verso l'interno e lateralmente. Il liquido tende perciò a minimizzare la superficie esposta, e le gocce assumono forma sferica.\n\nL'acqua ha una tensione superficiale alta proprio per i legami a idrogeno. Negli alveoli polmonari sarebbe tanto elevata da farli collassare: a impedirlo è il surfattante, una sostanza tensioattiva che la abbassa."
     },
@@ -613,7 +611,7 @@
         "il ΔH è positivo e il sistema assorbe calore dall'ambiente"
       ],
       "corretta": 1,
-      "spiegazione": "In una reazione esotermica i prodotti hanno entalpia minore dei reagenti: la differenza viene ceduta all'ambiente come calore, e il ΔH risulta negativo. La combustione ne è l'esempio tipico.\n\nC) Un ΔH nullo indicherebbe assenza di scambio termico.\nD) È l'errore concettuale più insidioso: la spontaneità dipende dal ΔG, non dal solo ΔH. Una reazione esotermica ma con forte diminuzione di entropia può risultare non spontanea ad alta temperatura, e reazioni endotermiche spontanee esistono, come lo scioglimento di certi sali in acqua.\nA) ed E) Descrivono una reazione endotermica."
+      "spiegazione": "In una reazione esotermica i prodotti hanno entalpia minore dei reagenti: la differenza viene ceduta all'ambiente come calore, e il ΔH risulta negativo. La combustione ne è l'esempio tipico.\n\nA) Entalpia dei prodotti maggiore di quella dei reagenti significa ΔH positivo: descrive una reazione endotermica.\nC) Un ΔH nullo indicherebbe assenza di scambio termico.\nD) È l'errore concettuale più insidioso: la spontaneità dipende dal ΔG, non dal solo ΔH. Una reazione esotermica ma con forte diminuzione di entropia può risultare non spontanea ad alta temperatura, e reazioni endotermiche spontanee esistono, come lo scioglimento di certi sali in acqua.\nE) ΔH positivo e calore assorbito descrivono una reazione endotermica."
     },
     {
       "id": "u1-0143",
@@ -700,7 +698,7 @@
         "spontanea solo alle basse temperature"
       ],
       "corretta": 2,
-      "spiegazione": "In ΔG = ΔH − TΔS il primo termine è negativo e il secondo, con ΔS positivo, dà −TΔS anch'esso negativo: la somma è negativa per qualunque valore positivo di T. Entrambi i fattori spingono nella stessa direzione.\n\nA) L'equilibrio richiede ΔG = 0, condizione qui mai soddisfatta.\nB) Il caso mai spontaneo è ΔH > 0 con ΔS < 0.\nD) ed E) Descrivono i casi in cui i due termini hanno effetto contrario: con ΔH < 0 e ΔS < 0 la spontaneità è confinata alle basse temperature, con ΔH > 0 e ΔS > 0 alle alte."
+      "spiegazione": "In ΔG = ΔH − TΔS il primo termine è negativo e il secondo, con ΔS positivo, dà −TΔS anch'esso negativo: la somma è negativa per qualunque valore positivo di T. Entrambi i fattori spingono nella stessa direzione.\n\nA) L'equilibrio richiede ΔG = 0, condizione qui mai soddisfatta.\nB) Il caso mai spontaneo è ΔH > 0 con ΔS < 0.\nD) La spontaneità solo alle alte temperature si ha con ΔH > 0 e ΔS > 0, quando il termine −TΔS deve vincere un ΔH sfavorevole.\nE) La spontaneità solo alle basse temperature si ha con ΔH < 0 e ΔS < 0: qui invece ΔS è positivo."
     },
     {
       "id": "u1-0149",

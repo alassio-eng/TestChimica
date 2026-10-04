@@ -297,7 +297,7 @@
         "il complesso attivato e lo zero della scala delle energie"
       ],
       "corretta": 2,
-      "spiegazione": "La barriera che i reagenti devono superare si misura a partire dal loro livello energetico fino alla sommità della curva, occupata dal complesso attivato.\n\nA) è ancora la variazione di entalpia, privata del segno e quindi dell'informazione sul verso.\nB) è la variazione di entalpia della reazione, non la barriera: è l'errore più frequente su questo diagramma.\nD) è l'energia di attivazione della reazione inversa, misurata dai prodotti verso la stessa sommità.\nE) non ha significato, perché nel diagramma contano soltanto le differenze di energia e non il livello assoluto."
+      "spiegazione": "La barriera che i reagenti devono superare si misura a partire dal loro livello energetico fino alla sommità della curva, occupata dal complesso attivato.\n\nA) è il valore assoluto della variazione di entalpia: misura il dislivello fra reagenti e prodotti, non la barriera da superare.\nB) è la variazione di entalpia della reazione, non la barriera: è l'errore più frequente su questo diagramma.\nD) è l'energia di attivazione della reazione inversa, misurata dai prodotti verso la stessa sommità.\nE) non ha significato, perché nel diagramma contano soltanto le differenze di energia e non il livello assoluto."
     },
     {
       "id": "u3-0023",
@@ -552,7 +552,7 @@
         "nessuna variazione di K, perché la temperatura agisce solo sulla velocità"
       ],
       "corretta": 3,
-      "spiegazione": "In una reazione esotermica il calore si comporta come un prodotto: fornendone dall'esterno, per il principio dell'equilibrio mobile il sistema si sposta verso i reagenti e il valore della costante diminuisce.\n\nA) è priva di senso, perché il segno della variazione di entalpia è fissato dalla natura della reazione e non dalla temperatura di lavoro.\nB) commette lo stesso errore e lo aggrava, deducendo la posizione dell'equilibrio da un argomento di velocità.\nC) descrive ciò che accade invece alle reazioni endotermiche.\nE) nega l'unico fattore che possa realmente modificare la costante, dato che la temperatura influisce sia sulla cinetica sia sulla termodinamica."
+      "spiegazione": "In una reazione esotermica il calore si comporta come un prodotto: fornendone dall'esterno, per il principio dell'equilibrio mobile il sistema si sposta verso i reagenti e il valore della costante diminuisce.\n\nA) è priva di senso, perché il segno della variazione di entalpia è fissato dalla natura della reazione e non dalla temperatura di lavoro.\nB) deduce la posizione dell'equilibrio da un argomento di velocità: il riscaldamento accelera entrambe le reazioni, e per una reazione esotermica K diminuisce, non aumenta.\nC) descrive ciò che accade invece alle reazioni endotermiche.\nE) nega l'unico fattore che possa realmente modificare la costante, dato che la temperatura influisce sia sulla cinetica sia sulla termodinamica."
     },
     {
       "id": "u3-0041",
@@ -701,7 +701,7 @@
         "il valore del Kps di AgCl aumenta"
       ],
       "corretta": 0,
-      "spiegazione": "Il cloruro di sodio, molto solubile, immette ioni cloruro comuni all'equilibrio di AgCl: il prodotto ionico supera il Kps e il sistema torna all'equilibrio facendo precipitare AgCl, cioè abbassandone la solubilità.\n\nB) parte dall'osservazione corretta che il Kps non cambia, ma ne trae la conclusione sbagliata che non accada nulla: proprio perché il Kps deve restare costante, l'aggiunta di cloruro impone la precipitazione.\nC) commette lo stesso errore nella direzione opposta.\nD) inverte l'effetto dello ione comune.\nE) confonde la solubilità con il Kps, che dipende soltanto dalla temperatura e resta invariato."
+      "spiegazione": "Il cloruro di sodio, molto solubile, immette ioni cloruro comuni all'equilibrio di AgCl: il prodotto ionico supera il Kps e il sistema torna all'equilibrio facendo precipitare AgCl, cioè abbassandone la solubilità.\n\nB) parte dall'osservazione corretta che il Kps non cambia, ma ne trae la conclusione sbagliata che non accada nulla: proprio perché il Kps deve restare costante, l'aggiunta di cloruro impone la precipitazione.\nC) il Kps dipende soltanto dalla temperatura: l'aggiunta di ioni cloruro cambia le concentrazioni, non il valore della costante.\nD) inverte l'effetto dello ione comune.\nE) confonde la solubilità con il Kps, che dipende soltanto dalla temperatura e resta invariato."
     }
   ]
 }

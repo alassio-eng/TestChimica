@@ -312,10 +312,10 @@
       "id": "u4-0026",
       "unita": "u4",
       "tipo": "completamento",
-      "argomento": "Reazione fra un acido e una base",
-      "testo": "La reazione fra un acido e una base che porta alla formazione di un sale e di acqua è detta reazione di ……",
-      "accettate": ["neutralizzazione", "neutralizzazioni"],
-      "spiegazione": "Nella neutralizzazione gli ioni H₃O⁺ dell'acido e gli ioni OH⁻ della base si combinano dando acqua, mentre gli ioni rimanenti costituiscono il sale. Il pH finale è 7 soltanto se acido e base sono entrambi forti: negli altri casi il sale prodotto reagisce con l'acqua e il pH si discosta dalla neutralità."
+      "argomento": "Neutralizzazione in forma ionica",
+      "testo": "In forma ionica, la neutralizzazione fra un acido forte e una base forte si riduce alla combinazione di ioni H₃O⁺ e OH⁻ con formazione di ……",
+      "accettate": ["acqua", "h2o", "molecole d'acqua", "molecole di acqua"],
+      "spiegazione": "Gli ioni del sale, per esempio Na⁺ e Cl⁻ nella reazione fra NaOH e HCl, sono spettatori e restano in soluzione: la sola reazione che avviene davvero è H₃O⁺ + OH⁻ → 2 H₂O.\nÈ l'inverso dell'autoprotolisi dell'acqua, con costante 1/Kw = 10¹⁴: per questo la reazione è praticamente completa."
     },
     {
       "id": "u4-0027",

@@ -264,13 +264,16 @@
       "id": "u7-0071",
       "unita": "u7",
       "tipo": "completamento",
-      "argomento": "Epimeri",
-      "testo": "Due stereoisomeri che differiscono per la configurazione di un solo centro chirale si chiamano ……",
+      "argomento": "Epimeri: mannosio e glucosio",
+      "testo": "Il D-mannosio e il D-glucosio sono epimeri: differiscono soltanto per la configurazione del carbonio in posizione ……",
       "accettate": [
-        "epimeri",
-        "epimero"
+        "2",
+        "c2",
+        "c-2",
+        "due",
+        "carbonio 2"
       ],
-      "spiegazione": "Gli epimeri sono un caso particolare di diastereoisomeri: differiscono per la configurazione di un solo centro chirale. Il D-mannosio è l'epimero al C2 del D-glucosio, il D-galattosio l'epimero al C4."
+      "spiegazione": "Mannosio e glucosio hanno la stessa configurazione in C3, C4 e C5 e differiscono solo in C2: sono epimeri al C2. Il D-galattosio è invece l'epimero del D-glucosio al C4.\nGli epimeri sono un caso particolare di diastereoisomeri: differiscono per la configurazione di un solo centro chirale."
     },
     {
       "id": "u7-0072",

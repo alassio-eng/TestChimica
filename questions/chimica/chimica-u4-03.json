@@ -17,7 +17,7 @@
         "H₃O⁺"
       ],
       "corretta": 0,
-      "spiegazione": "L'acido coniugato di una base si ottiene aggiungendo un protone: HPO₄²⁻ + H⁺ dà H₂PO₄⁻, con carica che passa da 2− a 1−. Acido e base coniugata differiscono sempre per un solo H⁺.\n\nD) PO₄³⁻ si ottiene togliendo un protone: è la base coniugata di HPO₄²⁻, non il suo acido coniugato.\nB) H₃PO₄ richiede l'aggiunta di due protoni: è l'acido coniugato di H₂PO₄⁻, non di HPO₄²⁻.\nE) H₃O⁺ è l'acido coniugato dell'acqua, specie che non compare nella domanda.\nC) OH⁻ è la base coniugata dell'acqua, e per di più è una base, non un acido."
+      "spiegazione": "L'acido coniugato di una base si ottiene aggiungendo un protone: HPO₄²⁻ + H⁺ dà H₂PO₄⁻, con carica che passa da 2− a 1−. Acido e base coniugata differiscono sempre per un solo H⁺.\n\nB) H₃PO₄ richiede l'aggiunta di due protoni: è l'acido coniugato di H₂PO₄⁻, non di HPO₄²⁻.\nC) OH⁻ è la base coniugata dell'acqua, e per di più è una base, non un acido.\nD) PO₄³⁻ si ottiene togliendo un protone: è la base coniugata di HPO₄²⁻, non il suo acido coniugato.\nE) H₃O⁺ è l'acido coniugato dell'acqua, specie che non compare nella domanda."
     },
     {
       "id": "u4-0054",
@@ -33,7 +33,7 @@
         "acquista protoni da un'altra specie chimica"
       ],
       "corretta": 1,
-      "spiegazione": "Arrhenius definisce le basi come sostanze che in acqua liberano ioni OH⁻, e gli acidi come sostanze che liberano ioni H⁺. È la definizione più restrittiva delle tre: non spiega la basicità dell'ammoniaca, che non contiene gruppi OH, ed è per questo che fu poi ampliata da Brønsted e Lowry.\n\nE) è la definizione di base secondo Brønsted e Lowry, che non richiede la presenza di ioni OH⁻.\nA) è la definizione di acido secondo Lewis.\nD) è la definizione di base secondo Lewis.\nC) è la definizione di acido secondo Arrhenius: i due ruoli sono scambiati."
+      "spiegazione": "Arrhenius definisce le basi come sostanze che in acqua liberano ioni OH⁻, e gli acidi come sostanze che liberano ioni H⁺. È la definizione più restrittiva delle tre: non spiega la basicità dell'ammoniaca, che non contiene gruppi OH, ed è per questo che fu poi ampliata da Brønsted e Lowry.\n\nA) è la definizione di acido secondo Lewis.\nC) è la definizione di acido secondo Arrhenius: i due ruoli sono scambiati.\nD) è la definizione di base secondo Lewis.\nE) è la definizione di base secondo Brønsted e Lowry, che non richiede la presenza di ioni OH⁻."
     },
     {
       "id": "u4-0055",
@@ -49,7 +49,7 @@
         "non esistono coppie coniugate, perché non si trasferiscono protoni"
       ],
       "corretta": 3,
-      "spiegazione": "Due specie formano una coppia coniugata quando differiscono per un solo protone. NH₃ acquista un H⁺ diventando NH₄⁺, quindi la prima coppia è NH₃/NH₄⁺; l'acqua cede quel protone diventando OH⁻, quindi la seconda coppia è H₂O/OH⁻. Ogni coppia è sempre formata da un reagente e dal prodotto che da esso deriva.\n\nB) accosta i due reagenti fra loro e i due prodotti fra loro: ciascuna di queste coppie differisce per molto più di un protone.\nA) incrocia le specie: NH₃ e OH⁻ non derivano l'una dall'altra per scambio di un protone.\nC) la prima coppia è giusta, ma H₃O⁺ non compare nell'equazione: qui l'acqua agisce da acido e si trasforma in OH⁻.\nE) un protone viene trasferito dall'acqua all'ammoniaca: la reazione è acido-base a tutti gli effetti."
+      "spiegazione": "Due specie formano una coppia coniugata quando differiscono per un solo protone. NH₃ acquista un H⁺ diventando NH₄⁺, quindi la prima coppia è NH₃/NH₄⁺; l'acqua cede quel protone diventando OH⁻, quindi la seconda coppia è H₂O/OH⁻. Ogni coppia è sempre formata da un reagente e dal prodotto che da esso deriva.\n\nA) incrocia le specie: NH₃ e OH⁻ non derivano l'una dall'altra per scambio di un protone.\nB) accosta i due reagenti fra loro e i due prodotti fra loro: ciascuna di queste coppie differisce per molto più di un protone.\nC) la prima coppia è giusta, ma H₃O⁺ non compare nell'equazione: qui l'acqua agisce da acido e si trasforma in OH⁻.\nE) un protone viene trasferito dall'acqua all'ammoniaca: la reazione è acido-base a tutti gli effetti."
     },
     {
       "id": "u4-0056",
@@ -95,7 +95,7 @@
         "11 M"
       ],
       "corretta": 2,
-      "spiegazione": "Da pH = 3,0 segue [H₃O⁺] = 1,0 × 10⁻³ M. Poiché [H₃O⁺][OH⁻] = Kw = 1,0 × 10⁻¹⁴, si ha [OH⁻] = 1,0 × 10⁻¹⁴ / 1,0 × 10⁻³ = 1,0 × 10⁻¹¹ M. In alternativa: pOH = 14 − 3 = 11, da cui [OH⁻] = 10⁻¹¹ M.\n\nB) è la concentrazione degli ioni idronio, non di quelli ossidrile.\nA) 10⁻⁷ M è il valore comune alle due specie nell'acqua pura, cioè solo in condizioni di neutralità.\nD) 10⁻¹⁴ è il valore di Kw, cioè del prodotto delle due concentrazioni, non di una di esse.\nE) 11 è il valore del pOH, non una concentrazione: va riportato nell'esponente, non come molarità."
+      "spiegazione": "Da pH = 3,0 segue [H₃O⁺] = 1,0 × 10⁻³ M. Poiché [H₃O⁺][OH⁻] = Kw = 1,0 × 10⁻¹⁴, si ha [OH⁻] = 1,0 × 10⁻¹⁴ / 1,0 × 10⁻³ = 1,0 × 10⁻¹¹ M. In alternativa: pOH = 14 − 3 = 11, da cui [OH⁻] = 10⁻¹¹ M.\n\nA) 10⁻⁷ M è il valore comune alle due specie nell'acqua pura, cioè solo in condizioni di neutralità.\nB) è la concentrazione degli ioni idronio, non di quelli ossidrile.\nD) 10⁻¹⁴ è il valore di Kw, cioè del prodotto delle due concentrazioni, non di una di esse.\nE) 11 è il valore del pOH, non una concentrazione: va riportato nell'esponente, non come molarità."
     },
     {
       "id": "u4-0059",
@@ -111,7 +111,7 @@
         "è dieci volte maggiore nella prima"
       ],
       "corretta": 1,
-      "spiegazione": "La scala del pH è logaritmica in base dieci: a una differenza di due unità corrisponde un rapporto di 10² fra le concentrazioni. A pH 4,0 si ha 10⁻⁴ M, a pH 6,0 si ha 10⁻⁶ M, quindi la prima soluzione è cento volte più concentrata in ioni idronio e più acida.\n\nA) il rapporto sarebbe 2 solo se la differenza di pH fosse log 2, cioè circa 0,3 unità.\nE) un fattore dieci corrisponde a una differenza di una sola unità di pH.\nC) il verso è invertito: il pH più basso indica la soluzione più acida, cioè più ricca di ioni idronio.\nD) il pH è una grandezza definita in modo assoluto a partire dalla concentrazione: due valori diversi indicano concentrazioni diverse."
+      "spiegazione": "La scala del pH è logaritmica in base dieci: a una differenza di due unità corrisponde un rapporto di 10² fra le concentrazioni. A pH 4,0 si ha 10⁻⁴ M, a pH 6,0 si ha 10⁻⁶ M, quindi la prima soluzione è cento volte più concentrata in ioni idronio e più acida.\n\nA) il rapporto sarebbe 2 solo se la differenza di pH fosse log 2, cioè circa 0,3 unità.\nC) il verso è invertito: il pH più basso indica la soluzione più acida, cioè più ricca di ioni idronio.\nD) il pH è una grandezza definita in modo assoluto a partire dalla concentrazione: due valori diversi indicano concentrazioni diverse.\nE) un fattore dieci corrisponde a una differenza di una sola unità di pH."
     },
     {
       "id": "u4-0060",
@@ -152,7 +152,7 @@
         "H₂CO₃"
       ],
       "corretta": 3,
-      "spiegazione": "L'acido nitrico è uno dei pochi acidi forti comuni, insieme a HCl, HBr, HI, HClO₄ e, limitatamente alla prima dissociazione, H₂SO₄: in soluzione diluita è dissociato praticamente al 100%.\n\nB) l'acido acetico ha Ka = 1,8 × 10⁻⁵: è l'acido debole di riferimento.\nE) l'acido carbonico è un acido debole e per di più instabile, in equilibrio con CO₂ e acqua.\nA) HF è l'unico idracido alogenidrico debole, per via dell'energia elevata del legame H–F: appartenere al gruppo degli alogeni non basta a renderlo forte.\nC) l'acido fosforico è un acido debole in tutte e tre le sue dissociazioni, anche se la prima è la più estesa."
+      "spiegazione": "L'acido nitrico è uno dei pochi acidi forti comuni, insieme a HCl, HBr, HI, HClO₄ e, limitatamente alla prima dissociazione, H₂SO₄: in soluzione diluita è dissociato praticamente al 100%.\n\nA) HF è l'unico idracido alogenidrico debole, per via dell'energia elevata del legame H–F: appartenere al gruppo degli alogeni non basta a renderlo forte.\nB) l'acido acetico ha Ka = 1,8 × 10⁻⁵: è l'acido debole di riferimento.\nC) l'acido fosforico è un acido debole in tutte e tre le sue dissociazioni, anche se la prima è la più estesa.\nE) l'acido carbonico è un acido debole e per di più instabile, in equilibrio con CO₂ e acqua."
     },
     {
       "id": "u4-0063",
@@ -168,7 +168,7 @@
         "resta costante, perché dipende soltanto dalla Ka"
       ],
       "corretta": 0,
-      "spiegazione": "La diluizione sposta l'equilibrio di dissociazione verso il lato con il maggior numero di particelle, cioè verso gli ioni: la frazione di molecole dissociate cresce. Attenzione a non confondere le due grandezze: il grado di dissociazione aumenta, mentre la concentrazione assoluta di H₃O⁺ diminuisce e il pH sale.\n\nB) è la lettura sbagliata del fenomeno, che nasce dal confondere il grado di dissociazione con la concentrazione di ioni idronio.\nE) Ka resta costante a temperatura costante, ma il grado di dissociazione dipende anche dalla concentrazione.\nC) per quanto diluita, una soluzione di acido debole conserva un equilibrio di dissociazione: il grado tende semmai al valore limite di 1.\nD) il comportamento vale per qualunque acido debole, indipendentemente dal numero di protoni cedibili."
+      "spiegazione": "La diluizione sposta l'equilibrio di dissociazione verso il lato con il maggior numero di particelle, cioè verso gli ioni: la frazione di molecole dissociate cresce. Attenzione a non confondere le due grandezze: il grado di dissociazione aumenta, mentre la concentrazione assoluta di H₃O⁺ diminuisce e il pH sale.\n\nB) è la lettura sbagliata del fenomeno, che nasce dal confondere il grado di dissociazione con la concentrazione di ioni idronio.\nC) per quanto diluita, una soluzione di acido debole conserva un equilibrio di dissociazione: il grado tende semmai al valore limite di 1.\nD) il comportamento vale per qualunque acido debole, indipendentemente dal numero di protoni cedibili.\nE) Ka resta costante a temperatura costante, ma il grado di dissociazione dipende anche dalla concentrazione."
     },
     {
       "id": "u4-0064",
@@ -184,7 +184,7 @@
         "6,2 × 10⁻¹⁰"
       ],
       "corretta": 0,
-      "spiegazione": "Per una coppia coniugata vale Ka × Kb = Kw, quindi Kb = 1,0 × 10⁻¹⁴ / 6,2 × 10⁻¹⁰ ≈ 1,6 × 10⁻⁵. Il valore relativamente elevato spiega perché i cianuri in acqua diano soluzioni nettamente basiche.\n\nE) è la Ka dell'acido riportata tale e quale: acido e base coniugata hanno costanti diverse.\nD) si ottiene sottraendo gli esponenti anziché eseguire la divisione, lasciando invariato il coefficiente.\nB) l'esponente è sbagliato: 10⁻¹⁴ diviso 10⁻¹⁰ dà 10⁻⁴, che con il coefficiente 1,6 porta a 10⁻⁵, non a 10⁻⁹.\nC) 10⁻¹⁴ è il valore di Kw, cioè del prodotto delle due costanti, non di una di esse."
+      "spiegazione": "Per una coppia coniugata vale Ka × Kb = Kw, quindi Kb = 1,0 × 10⁻¹⁴ / 6,2 × 10⁻¹⁰ ≈ 1,6 × 10⁻⁵. Il valore relativamente elevato spiega perché i cianuri in acqua diano soluzioni nettamente basiche.\n\nB) l'esponente è sbagliato: 10⁻¹⁴ diviso 10⁻¹⁰ dà 10⁻⁴, che con il coefficiente 1,6 porta a 10⁻⁵, non a 10⁻⁹.\nC) 10⁻¹⁴ è il valore di Kw, cioè del prodotto delle due costanti, non di una di esse.\nD) si ottiene sottraendo gli esponenti anziché eseguire la divisione, lasciando invariato il coefficiente.\nE) è la Ka dell'acido riportata tale e quale: acido e base coniugata hanno costanti diverse."
     },
     {
       "id": "u4-0065",
@@ -225,7 +225,7 @@
         "1,3"
       ],
       "corretta": 4,
-      "spiegazione": "Il volume raddoppia e la concentrazione si dimezza: 0,10 M diventa 0,050 M. Essendo HCl un acido forte, [H₃O⁺] = 0,050 M e pH = −log(5,0 × 10⁻²) ≈ 1,3.\n\nA) è la concentrazione finale in mol/L riportata al posto del pH.\nD) è il pH della soluzione di partenza, prima della diluizione.\nC) corrisponde a una concentrazione di 0,010 M, cioè a una diluizione di dieci volte anziché di due.\nB) è il pOH corrispondente al risultato giusto, riferito agli ioni OH⁻ anziché a quelli idronio."
+      "spiegazione": "Il volume raddoppia e la concentrazione si dimezza: 0,10 M diventa 0,050 M. Essendo HCl un acido forte, [H₃O⁺] = 0,050 M e pH = −log(5,0 × 10⁻²) ≈ 1,3.\n\nA) è la concentrazione finale in mol/L riportata al posto del pH.\nB) è il pOH corrispondente al risultato giusto, riferito agli ioni OH⁻ anziché a quelli idronio.\nC) corrisponde a una concentrazione di 0,010 M, cioè a una diluizione di dieci volte anziché di due.\nD) è il pH della soluzione di partenza, prima della diluizione."
     },
     {
       "id": "u4-0068",
@@ -241,20 +241,20 @@
         "pH più basso, perché l'acido acetico è un acido organico"
       ],
       "corretta": 1,
-      "spiegazione": "A parità di concentrazione analitica conta quanto acido si dissocia davvero. HCl è completamente dissociato e dà [H₃O⁺] = 0,10 M, cioè pH 1; l'acido acetico, con Ka = 1,8 × 10⁻⁵, è dissociato per circa l'1% e dà pH prossimo a 2,9. Meno ioni idronio significa pH più alto.\n\nE) la natura organica della molecola non stabilisce di per sé la forza dell'acido, che dipende dalla Ka.\nC) la conclusione è sbagliata pur partendo da un dato giusto: una Ka minore comporta meno ioni idronio e quindi un pH più alto.\nD) la concentrazione uguale riguarda le molecole introdotte, non gli ioni effettivamente liberati.\nA) nell'acido acetico solo l'idrogeno del gruppo carbossilico è cedibile; gli idrogeni legati al carbonio non contribuiscono all'acidità."
+      "spiegazione": "A parità di concentrazione analitica conta quanto acido si dissocia davvero. HCl è completamente dissociato e dà [H₃O⁺] = 0,10 M, cioè pH 1; l'acido acetico, con Ka = 1,8 × 10⁻⁵, è dissociato per circa l'1% e dà pH prossimo a 2,9. Meno ioni idronio significa pH più alto.\n\nA) nell'acido acetico solo l'idrogeno del gruppo carbossilico è cedibile; gli idrogeni legati al carbonio non contribuiscono all'acidità.\nC) la conclusione è sbagliata pur partendo da un dato giusto: una Ka minore comporta meno ioni idronio e quindi un pH più alto.\nD) la concentrazione uguale riguarda le molecole introdotte, non gli ioni effettivamente liberati.\nE) la natura organica della molecola non stabilisce di per sé la forza dell'acido, che dipende dalla Ka."
     },
     {
       "id": "u4-0069",
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "pH di una soluzione di acido forte",
-      "testo": "A 25 °C una soluzione acquosa 0,010 M di acido nitrico HNO₃ ha pH uguale a ……",
+      "testo": "A 25 °C una soluzione acquosa 0,0010 M di acido nitrico HNO₃ ha pH uguale a ……",
       "accettate": [
-        "2",
-        "2,0",
-        "due"
+        "3",
+        "3,0",
+        "tre"
       ],
-      "spiegazione": "HNO₃ è un acido forte e si dissocia completamente: [H₃O⁺] = 0,010 M = 1,0 × 10⁻², quindi pH = 2. Il calcolo con la radice quadrata, valido per gli acidi deboli, qui non va applicato."
+      "spiegazione": "HNO₃ è un acido forte e si dissocia completamente: [H₃O⁺] = 1,0 × 10⁻³ M, quindi pH = 3.\nIl calcolo con la radice quadrata, valido per gli acidi deboli, qui non va applicato; e 11, che è il pOH, non va riportato come pH."
     },
     {
       "id": "u4-0070",
@@ -281,7 +281,7 @@
         "cede i due protoni con la stessa costante di dissociazione"
       ],
       "corretta": 0,
-      "spiegazione": "H₂SO₄ è un caso intermedio: la prima dissociazione è completa, quindi l'acido è forte rispetto al primo protone, mentre la seconda, quella di HSO₄⁻, ha Ka₂ dell'ordine di 10⁻², cioè si comporta da acido debole. Per questo KHSO₄ in acqua dà soluzione acida.\n\nC) se la seconda dissociazione fosse completa, lo ione HSO₄⁻ non esisterebbe in soluzione, mentre è una specie ben nota.\nB) i due stadi sono invertiti: la cessione diventa più difficile, non più facile, quando la specie è già carica negativamente.\nD) la prima dissociazione è completa: l'acido solforico è uno degli acidi forti di riferimento.\nE) le costanti degli stadi successivi di un acido poliprotico sono sempre decrescenti, mai uguali."
+      "spiegazione": "H₂SO₄ è un caso intermedio: la prima dissociazione è completa, quindi l'acido è forte rispetto al primo protone, mentre la seconda, quella di HSO₄⁻, ha Ka₂ dell'ordine di 10⁻², cioè si comporta da acido debole. Per questo KHSO₄ in acqua dà soluzione acida.\n\nB) i due stadi sono invertiti: la cessione diventa più difficile, non più facile, quando la specie è già carica negativamente.\nC) se la seconda dissociazione fosse completa, lo ione HSO₄⁻ non esisterebbe in soluzione, mentre è una specie ben nota.\nD) la prima dissociazione è completa: l'acido solforico è uno degli acidi forti di riferimento.\nE) le costanti degli stadi successivi di un acido poliprotico sono sempre decrescenti, mai uguali."
     },
     {
       "id": "u4-0072",
@@ -311,7 +311,7 @@
         "gialla"
       ],
       "corretta": 2,
-      "spiegazione": "A pH 7,0 ci si trova al di sotto dell'estremo inferiore dell'intervallo di viraggio: prevale nettamente la forma indissociata dell'indicatore, che è incolore. Il colore rosa compare solo superando pH 8,2 circa.\n\nA) il rosa richiede che prevalga la forma basica, condizione che si realizza oltre pH 10.\nD) il rosso non è un colore assunto dalla fenolftaleina, che passa da incolore a rosa-violetto.\nE) il giallo è tipico di altri indicatori, come il metilarancio nella sua forma basica.\nB) il blu richiama il blu di bromotimolo, che vira effettivamente intorno alla neutralità: la fenolftaleina non è adatta a rivelare il pH 7."
+      "spiegazione": "A pH 7,0 ci si trova al di sotto dell'estremo inferiore dell'intervallo di viraggio: prevale nettamente la forma indissociata dell'indicatore, che è incolore. Il colore rosa compare solo superando pH 8,2 circa.\n\nA) il rosa richiede che prevalga la forma basica, condizione che si realizza oltre pH 10.\nB) il blu richiama il blu di bromotimolo, che vira effettivamente intorno alla neutralità: la fenolftaleina non è adatta a rivelare il pH 7.\nD) il rosso non è un colore assunto dalla fenolftaleina, che passa da incolore a rosa-violetto.\nE) il giallo è tipico di altri indicatori, come il metilarancio nella sua forma basica."
     },
     {
       "id": "u4-0074",
@@ -327,7 +327,7 @@
         "uguale a 14, perché il sodio è un metallo alcalino"
       ],
       "corretta": 1,
-      "spiegazione": "Lo ione HCO₃⁻ è anfotero: può cedere un protone dando CO₃²⁻ o acquistarne uno dando H₂CO₃. La sua tendenza ad acquistare protoni prevale nettamente su quella a cederli, quindi la soluzione è basica, con pH di circa 8,3. Il catione Na⁺ è uno ione spettatore e non influisce.\n\nC) lo ione bicarbonato può effettivamente cedere un protone, ma lo fa in misura molto minore di quanto ne acquisti: il bilancio dei due processi dà basicità.\nA) il sodio è spettatore proprio perché deriva da una base forte, quindi non neutralizza nulla; il pH è deciso dall'anione.\nD) il pH di una soluzione di sale non coincide con il pKa dell'acido da cui il sale deriva: quella coincidenza riguarda i tamponi equimolari.\nE) 14 è l'estremo della scala, raggiungibile solo da una soluzione molto concentrata di base forte."
+      "spiegazione": "Lo ione HCO₃⁻ è anfotero: può cedere un protone dando CO₃²⁻ o acquistarne uno dando H₂CO₃. La sua tendenza ad acquistare protoni prevale nettamente su quella a cederli, quindi la soluzione è basica, con pH di circa 8,3. Il catione Na⁺ è uno ione spettatore e non influisce.\n\nA) il sodio è spettatore proprio perché deriva da una base forte, quindi non neutralizza nulla; il pH è deciso dall'anione.\nC) lo ione bicarbonato può effettivamente cedere un protone, ma lo fa in misura molto minore di quanto ne acquisti: il bilancio dei due processi dà basicità.\nD) il pH di una soluzione di sale non coincide con il pKa dell'acido da cui il sale deriva: quella coincidenza riguarda i tamponi equimolari.\nE) 14 è l'estremo della scala, raggiungibile solo da una soluzione molto concentrata di base forte."
     },
     {
       "id": "u4-0075",
@@ -369,7 +369,7 @@
         "NH₃ e NH₄Cl"
       ],
       "corretta": 4,
-      "spiegazione": "L'ammoniaca è una base debole e lo ione ammonio, fornito da NH₄Cl, è il suo acido coniugato: la coppia tampona efficacemente intorno a pH 9,25, cioè al pKa dello ione ammonio.\n\nC) è un tampone, ma costruito nel modo opposto: parte da un acido debole e dalla sua base coniugata, non da una base debole.\nB) una base forte e un sale neutro non formano alcuna coppia coniugata.\nA) l'acido forte reagisce con l'ammoniaca eventualmente presente e non costituisce con il sale una coppia coniugata debole.\nD) manca l'acido coniugato: NaCl fornisce solo ioni spettatori, quindi l'ammoniaca resta sola."
+      "spiegazione": "L'ammoniaca è una base debole e lo ione ammonio, fornito da NH₄Cl, è il suo acido coniugato: la coppia tampona efficacemente intorno a pH 9,25, cioè al pKa dello ione ammonio.\n\nA) l'acido forte reagisce con l'ammoniaca eventualmente presente e non costituisce con il sale una coppia coniugata debole.\nB) una base forte e un sale neutro non formano alcuna coppia coniugata.\nC) è un tampone, ma costruito nel modo opposto: parte da un acido debole e dalla sua base coniugata, non da una base debole.\nD) manca l'acido coniugato: NaCl fornisce solo ioni spettatori, quindi l'ammoniaca resta sola."
     },
     {
       "id": "u4-0078",
@@ -385,7 +385,7 @@
         "nessuna: il tampone non reagisce con le basi"
       ],
       "corretta": 1,
-      "spiegazione": "Gli ioni OH⁻ introdotti vengono consumati dalla componente acida del tampone: NH₄⁺ + OH⁻ → NH₃ + H₂O. Il rapporto base/acido aumenta e il pH sale, ma di pochissimo.\n\nC) l'ammoniaca è la componente basica e interviene quando si aggiunge un acido, non una base.\nA) lo ione sodio è uno ione spettatore e non partecipa ad alcun equilibrio acido-base.\nD) l'acqua è il solvente ed è il prodotto della reazione, non la specie che neutralizza la base aggiunta.\nE) il tampone agisce contro entrambe le aggiunte, acide e basiche: è la ragione per cui contiene due specie coniugate."
+      "spiegazione": "Gli ioni OH⁻ introdotti vengono consumati dalla componente acida del tampone: NH₄⁺ + OH⁻ → NH₃ + H₂O. Il rapporto base/acido aumenta e il pH sale, ma di pochissimo.\n\nA) lo ione sodio è uno ione spettatore e non partecipa ad alcun equilibrio acido-base.\nC) l'ammoniaca è la componente basica e interviene quando si aggiunge un acido, non una base.\nD) l'acqua è il solvente ed è il prodotto della reazione, non la specie che neutralizza la base aggiunta.\nE) il tampone agisce contro entrambe le aggiunte, acide e basiche: è la ragione per cui contiene due specie coniugate."
     },
     {
       "id": "u4-0079",
@@ -427,7 +427,7 @@
         "7,0"
       ],
       "corretta": 2,
-      "spiegazione": "Nella coppia la base coniugata è HPO₄²⁻ e l'acido è H₂PO₄⁻. Il rapporto base/acido vale 0,010/0,10 = 0,1, il cui logaritmo è −1: pH = 7,2 − 1 = 6,2. L'eccesso della forma acida sposta il pH al di sotto del pKa.\n\nA) 7,2 sarebbe il pH di un tampone equimolare, con rapporto base/acido pari a 1.\nB) si ottiene sommando 1 invece di sottrarlo, cioè invertendo le due specie nel rapporto.\nE) 7,0 è il pH dell'acqua pura a 25 °C e non ha alcun ruolo nel calcolo.\nD) nasce dall'uso del valore 0,1 al posto del suo logaritmo nell'equazione di Henderson-Hasselbalch."
+      "spiegazione": "Nella coppia la base coniugata è HPO₄²⁻ e l'acido è H₂PO₄⁻. Il rapporto base/acido vale 0,010/0,10 = 0,1, il cui logaritmo è −1: pH = 7,2 − 1 = 6,2. L'eccesso della forma acida sposta il pH al di sotto del pKa.\n\nA) 7,2 sarebbe il pH di un tampone equimolare, con rapporto base/acido pari a 1.\nB) si ottiene sommando 1 invece di sottrarlo, cioè invertendo le due specie nel rapporto.\nD) nasce dall'uso del valore 0,1 al posto del suo logaritmo nell'equazione di Henderson-Hasselbalch.\nE) 7,0 è il pH dell'acqua pura a 25 °C e non ha alcun ruolo nel calcolo."
     },
     {
       "id": "u4-0082",
@@ -443,7 +443,7 @@
         "il più vicino possibile a 7,0"
       ],
       "corretta": 2,
-      "spiegazione": "Il potere tamponante è massimo quando pH = pKa e resta accettabile entro circa una unità. Scegliendo un acido con pKa prossimo a 5,0 si lavora con un rapporto base/acido vicino a 1, cioè nella zona di massima efficienza.\n\nE) il pKa va scelto in funzione del pH desiderato, non del valore di neutralità.\nD) un pKa molto minore di 5 obbliga a un forte eccesso di base coniugata e porta il sistema fuori dall'intervallo utile.\nA) un pKa molto maggiore di 5 richiede un forte eccesso di acido, con lo stesso problema di segno opposto.\nB) la concentrazione determina la capacità del tampone, non il pH a cui esso lavora: nessuna concentrazione può compensare un pKa inadatto."
+      "spiegazione": "Il potere tamponante è massimo quando pH = pKa e resta accettabile entro circa una unità. Scegliendo un acido con pKa prossimo a 5,0 si lavora con un rapporto base/acido vicino a 1, cioè nella zona di massima efficienza.\n\nA) un pKa molto maggiore di 5 richiede un forte eccesso di acido, con lo stesso problema di segno opposto.\nB) la concentrazione determina la capacità del tampone, non il pH a cui esso lavora: nessuna concentrazione può compensare un pKa inadatto.\nD) un pKa molto minore di 5 obbliga a un forte eccesso di base coniugata e porta il sistema fuori dall'intervallo utile.\nE) il pKa va scelto in funzione del pH desiderato, non del valore di neutralità."
     },
     {
       "id": "u4-0083",
@@ -472,7 +472,7 @@
         "stesso pH e capacità tamponante maggiore"
       ],
       "corretta": 4,
-      "spiegazione": "Nell'equazione di Henderson-Hasselbalch compare soltanto il rapporto fra le due concentrazioni, non il loro valore assoluto: a parità di rapporto il pH è lo stesso. La capacità tamponante dipende invece dalla quantità di acido e base disponibili, quindi il tampone concentrato ne neutralizza molto di più prima di esaurirsi.\n\nA) la concentrazione non sposta il pH, perché il rapporto fra le due specie è rimasto invariato.\nD) l'affermazione sbaglia su entrambi i punti: il pH non cambia e la capacità sì.\nC) è l'errore di chi assimila la capacità tamponante al pH: sono due proprietà distinte del sistema.\nB) nessun motivo giustifica un pH più alto, dato che il rapporto base/acido è lo stesso."
+      "spiegazione": "Nell'equazione di Henderson-Hasselbalch compare soltanto il rapporto fra le due concentrazioni, non il loro valore assoluto: a parità di rapporto il pH è lo stesso. La capacità tamponante dipende invece dalla quantità di acido e base disponibili, quindi il tampone concentrato ne neutralizza molto di più prima di esaurirsi.\n\nA) la concentrazione non sposta il pH, perché il rapporto fra le due specie è rimasto invariato.\nB) nessun motivo giustifica un pH più alto, dato che il rapporto base/acido è lo stesso.\nC) è l'errore di chi assimila la capacità tamponante al pH: sono due proprietà distinte del sistema.\nD) l'affermazione sbaglia su entrambi i punti: il pH non cambia e la capacità sì."
     },
     {
       "id": "u4-0085",
@@ -501,7 +501,7 @@
         "un aumento del pH, cioè alcalosi metabolica"
       ],
       "corretta": 0,
-      "spiegazione": "La CO₂ disciolta costituisce la componente acida del tampone: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. Se aumenta a bicarbonato costante, il rapporto [HCO₃⁻]/[CO₂] diminuisce e con esso il pH. Poiché la causa è una ridotta eliminazione polmonare della CO₂, l'alterazione è detta respiratoria: è quanto accade nell'ipoventilazione.\n\nC) l'alcalosi respiratoria corrisponde alla situazione opposta, cioè alla riduzione della CO₂ da iperventilazione.\nD) la CO₂ disciolta reagisce con l'acqua dando acido carbonico: dal punto di vista del tampone si comporta a tutti gli effetti da acido.\nE) il verso della variazione è sbagliato e l'origine è attribuita al compartimento sbagliato.\nB) il verso della variazione è giusto, ma l'alterazione è metabolica solo quando a cambiare per primo è il bicarbonato."
+      "spiegazione": "La CO₂ disciolta costituisce la componente acida del tampone: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. Se aumenta a bicarbonato costante, il rapporto [HCO₃⁻]/[CO₂] diminuisce e con esso il pH. Poiché la causa è una ridotta eliminazione polmonare della CO₂, l'alterazione è detta respiratoria: è quanto accade nell'ipoventilazione.\n\nB) il verso della variazione è giusto, ma l'alterazione è metabolica solo quando a cambiare per primo è il bicarbonato.\nC) l'alcalosi respiratoria corrisponde alla situazione opposta, cioè alla riduzione della CO₂ da iperventilazione.\nD) la CO₂ disciolta reagisce con l'acqua dando acido carbonico: dal punto di vista del tampone si comporta a tutti gli effetti da acido.\nE) il verso della variazione è sbagliato e l'origine è attribuita al compartimento sbagliato."
     },
     {
       "id": "u4-0087",
@@ -529,17 +529,17 @@
       "id": "u4-0089",
       "unita": "u4",
       "tipo": "multipla",
-      "argomento": "Numero di ossidazione dell'ossigeno nei perossidi",
-      "testo": "Nel perossido di idrogeno H₂O₂ il numero di ossidazione dell'ossigeno è:",
+      "argomento": "Numero di ossidazione del fosforo",
+      "testo": "Nell'acido fosforico H₃PO₄ il numero di ossidazione del fosforo è:",
       "opzioni": [
-        "+1",
-        "0",
-        "−2",
-        "−1",
-        "+2"
+        "+3",
+        "−3",
+        "+8",
+        "+5",
+        "+6"
       ],
       "corretta": 3,
-      "spiegazione": "Nei perossidi i due atomi di ossigeno sono legati fra loro: il legame O–O, essendo fra atomi uguali, non assegna carica formale ad alcuno dei due. Ciascun ossigeno riceve quindi solo l'elettrone del proprio idrogeno, e il suo numero di ossidazione è −1. La verifica è immediata: 2(+1) + 2(−1) = 0.\n\nC) −2 è il valore usuale dell'ossigeno, ma vale quando è legato soltanto ad atomi diversi da sé; i perossidi sono la principale eccezione.\nB) 0 è il valore nell'ossigeno molecolare O₂, dove non ci sono altri elementi.\nA) +1 è il numero di ossidazione dell'idrogeno in questo composto, non quello dell'ossigeno.\nE) +2 si avrebbe solo in combinazione con un elemento più elettronegativo dell'ossigeno, cioè praticamente con il solo fluoro."
+      "spiegazione": "Idrogeno +1, ossigeno −2, molecola neutra: 3(+1) + x + 4(−2) = 0, da cui x = +5. È il valore massimo per il fosforo, che ha cinque elettroni di valenza, ed è quello dei fosfati presenti in ATP, acidi nucleici e osso.\n\nA) +3 è il valore del fosforo nell'acido fosforoso H₃PO₃, che ha un ossigeno in meno.\nB) −3 è il valore nella fosfina PH₃, la forma più ridotta del fosforo.\nC) +8 si ottiene dimenticando i tre idrogeni nel bilancio (x + 4(−2) = 0); supera inoltre i cinque elettroni di valenza del fosforo.\nE) +6 è il valore dello zolfo nell'acido solforico H₂SO₄: la formula simile trae in inganno, ma qui i tre idrogeni portano il conto a +5."
     },
     {
       "id": "u4-0090",
@@ -555,7 +555,7 @@
         "NO₂"
       ],
       "corretta": 3,
-      "spiegazione": "Nell'acido nitrico l'azoto ha numero di ossidazione +5: da x + 1 + 3(−2) = 0 si ricava x = +5, il valore massimo possibile per un elemento del gruppo 15.\n\nB) nell'ammoniaca l'azoto è a −3, perché è più elettronegativo dell'idrogeno: è il valore minimo, non il massimo.\nA) nell'azoto molecolare il numero di ossidazione è 0, come in ogni elemento allo stato libero.\nC) nel monossido di azoto l'azoto è a +2.\nE) nel diossido di azoto l'azoto è a +4, valore elevato ma inferiore a quello dell'acido nitrico."
+      "spiegazione": "Nell'acido nitrico l'azoto ha numero di ossidazione +5: da x + 1 + 3(−2) = 0 si ricava x = +5, il valore massimo possibile per un elemento del gruppo 15.\n\nA) nell'azoto molecolare il numero di ossidazione è 0, come in ogni elemento allo stato libero.\nB) nell'ammoniaca l'azoto è a −3, perché è più elettronegativo dell'idrogeno: è il valore minimo, non il massimo.\nC) nel monossido di azoto l'azoto è a +2.\nE) nel diossido di azoto l'azoto è a +4, valore elevato ma inferiore a quello dell'acido nitrico."
     },
     {
       "id": "u4-0091",
@@ -583,7 +583,7 @@
         "si riduce, cedendo 5 elettroni"
       ],
       "corretta": 2,
-      "spiegazione": "Il manganese passa da +7 nel permanganato a +2 nello ione Mn²⁺: la diminuzione di cinque unità corrisponde all'acquisto di cinque elettroni, che infatti compaiono fra i reagenti. Il permanganato si riduce e agisce quindi da agente ossidante.\n\nB) l'acquisto di elettroni è letto correttamente, ma esso definisce una riduzione, non un'ossidazione.\nE) gli elettroni compaiono a sinistra della freccia, quindi sono acquistati, non ceduti.\nD) entrambe le affermazioni sono invertite rispetto a ciò che l'equazione mostra.\nA) il numero di ossidazione del manganese scende da +7 a +2: la variazione è anzi fra le più ampie che si incontrino."
+      "spiegazione": "Il manganese passa da +7 nel permanganato a +2 nello ione Mn²⁺: la diminuzione di cinque unità corrisponde all'acquisto di cinque elettroni, che infatti compaiono fra i reagenti. Il permanganato si riduce e agisce quindi da agente ossidante.\n\nA) il numero di ossidazione del manganese scende da +7 a +2: la variazione è anzi fra le più ampie che si incontrino.\nB) l'acquisto di elettroni è letto correttamente, ma esso definisce una riduzione, non un'ossidazione.\nD) entrambe le affermazioni sono invertite rispetto a ciò che l'equazione mostra.\nE) gli elettroni compaiono a sinistra della freccia, quindi sono acquistati, non ceduti."
     },
     {
       "id": "u4-0093",
@@ -612,7 +612,7 @@
         "0,42 V"
       ],
       "corretta": 3,
-      "spiegazione": "La forza elettromotrice si calcola come E°(catodo) − E°(anodo). La riduzione avviene sulla coppia con potenziale maggiore, cioè il rame: E° = +0,34 − (−0,76) = +1,10 V. Il valore positivo conferma che la reazione fra zinco metallico e ioni rameici è spontanea.\n\nE) si ottiene sommando algebricamente i due potenziali anziché sottrarli, cioè sbagliando il segno del termine dell'anodo.\nA) ha il modulo giusto ma il segno sbagliato: deriva dall'avere scambiato catodo e anodo. Una cella galvanica in funzione ha sempre fem positiva.\nB) somma l'errore di segno a quello di calcolo del caso precedente.\nC) è il potenziale standard della sola coppia dello zinco, cambiato di segno: un singolo potenziale non è una forza elettromotrice."
+      "spiegazione": "La forza elettromotrice si calcola come E°(catodo) − E°(anodo). La riduzione avviene sulla coppia con potenziale maggiore, cioè il rame: E° = +0,34 − (−0,76) = +1,10 V. Il valore positivo conferma che la reazione fra zinco metallico e ioni rameici è spontanea.\n\nA) ha il modulo giusto ma il segno sbagliato: deriva dall'avere scambiato catodo e anodo. Una cella galvanica in funzione ha sempre fem positiva.\nB) somma l'errore di segno a quello di calcolo del caso precedente.\nC) è il potenziale standard della sola coppia dello zinco, cambiato di segno: un singolo potenziale non è una forza elettromotrice.\nE) si ottiene sommando algebricamente i due potenziali anziché sottrarli, cioè sbagliando il segno del termine dell'anodo."
     },
     {
       "id": "u4-0095",
@@ -629,13 +629,14 @@
       "id": "u4-0096",
       "unita": "u4",
       "tipo": "completamento",
-      "argomento": "Definizione di anodo",
-      "testo": "In una cella galvanica l'elettrodo al quale avviene l'ossidazione è detto ……",
+      "argomento": "Polarità degli elettrodi nella cella galvanica",
+      "testo": "In una cella galvanica in funzione l'anodo, sede dell'ossidazione, costituisce il polo ……",
       "accettate": [
-        "anodo",
-        "anodi"
+        "negativo",
+        "negativa",
+        "polo negativo"
       ],
-      "spiegazione": "Ossidazione all'anodo e riduzione al catodo, in qualunque cella. In una cella galvanica l'anodo è il polo negativo, perché è la sede in cui si liberano gli elettroni che percorrono il circuito esterno; nella cella elettrolitica, invece, l'anodo è il polo positivo."
+      "spiegazione": "All'anodo la specie che si ossida libera elettroni, che si accumulano sull'elettrodo e da lì percorrono il circuito esterno verso il catodo: l'anodo è quindi il polo negativo, il catodo il positivo.\nNella cella elettrolitica i segni si invertono, perché l'anodo è collegato al polo positivo del generatore, ma la definizione resta la stessa: all'anodo avviene sempre l'ossidazione."
     },
     {
       "id": "u4-0097",
@@ -647,7 +648,7 @@
         "Nernst",
         "equazione di Nernst"
       ],
-      "spiegazione": "L'equazione di Nernst, E = E° − (RT/nF) ln Q, esprime la dipendenza del potenziale dalle concentrazioni delle specie coinvolte. A 25 °C e passando al logaritmo decimale il coefficiente vale 0,0592/n volt. Quando il sistema raggiunge l'equilibrio il potenziale si annulla."
+      "spiegazione": "L'equazione di Nernst, E = E° − (RT/nF) ln Q, esprime la dipendenza del potenziale dalle concentrazioni delle specie coinvolte. A 25 °C e passando al logaritmo decimale il coefficiente vale 0,0592/n volt. Quando la reazione della cella raggiunge l'equilibrio si annulla la differenza di potenziale fra i due elettrodi (ΔE = 0), non il potenziale del singolo elettrodo."
     },
     {
       "id": "u4-0098",

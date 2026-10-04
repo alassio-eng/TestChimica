@@ -171,7 +171,7 @@
       "unita": "u6",
       "tipo": "multipla",
       "argomento": "Tautomeria cheto-enolica nelle basi azotate",
-      "testo": "Nella citosina la tautomeria cheto-enolica (lattame-lattimo) riguarda:",
+      "testo": "Nella citosina libera la tautomeria cheto-enolica (lattame-lattimo) riguarda:",
       "opzioni": [
         "la conversione della citosina in uracile per perdita del gruppo amminico",
         "il passaggio del gruppo amminico dal C4 al C2 dell'anello",
@@ -180,7 +180,7 @@
         "lo spostamento di un H fra l'azoto dell'anello e l'ossigeno in C2"
       ],
       "corretta": 4,
-      "spiegazione": "Nella citosina il gruppo C2=O è adiacente a un azoto dell'anello che porta un H. L'H può spostarsi dall'azoto all'ossigeno, formando un –OH su un carbonio con doppio legame: è la forma enolica (lattimica). A pH fisiologico prevale nettamente la forma chetonica (lattamica), quella che forma l'appaiamento normale con la guanina; le rare forme tautomeriche possono alterare l'appaiamento.\n\nA) è la deaminazione della citosina, una reazione chimica vera e propria (idrolisi del gruppo amminico) che produce un composto diverso, non un equilibrio tautomerico.\nB) nella tautomeria si spostano un idrogeno e un doppio legame; i gruppi sostituenti restano attaccati agli stessi atomi.\nC) il meccanismo è quello giusto, ma la conclusione è invertita: prevale la forma chetonica, che è quella presente nel DNA.\nD) la tautomeria non rompe l'anello: si sposta solo un H con il doppio legame."
+      "spiegazione": "Nella citosina il gruppo C2=O è adiacente a un azoto dell'anello che porta un H. L'H può spostarsi dall'azoto all'ossigeno, formando un –OH su un carbonio con doppio legame: è la forma enolica (lattimica). A pH fisiologico prevale nettamente la forma chetonica (lattamica), la stessa che nel DNA si appaia con la guanina. Nel DNA, però, l'N1 è legato al deossiribosio: questo specifico spostamento di H riguarda la base libera.\n\nA) è la deaminazione della citosina, una reazione chimica vera e propria (idrolisi del gruppo amminico) che produce un composto diverso, non un equilibrio tautomerico.\nB) nella tautomeria si spostano un idrogeno e un doppio legame; i gruppi sostituenti restano attaccati agli stessi atomi.\nC) il meccanismo è quello giusto, ma la conclusione è invertita: prevale la forma chetonica, che è quella presente nel DNA.\nD) la tautomeria non rompe l'anello: si sposta solo un H con il doppio legame."
     },
     {
       "id": "u6-0064",

@@ -8,16 +8,16 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Soluzioni tampone: equazione di Henderson-Hasselbalch",
-      "testo": "Una soluzione contiene acido acetico 0,10 M e acetato di sodio 0,10 M. Sapendo che il pKa dell'acido acetico è 4,76, il pH della soluzione è:",
+      "testo": "Una soluzione tampone contiene acido acetico 0,010 M e acetato di sodio 0,10 M. Sapendo che il pKa dell'acido acetico è 4,74, il pH della soluzione è:",
       "opzioni": [
-        "4,76",
-        "4,00",
-        "7,00",
-        "2,38",
-        "9,52"
+        "5,74",
+        "3,74",
+        "4,74",
+        "3,37",
+        "8,26"
       ],
       "corretta": 0,
-      "spiegazione": "Si applica l'equazione di Henderson-Hasselbalch: pH = pKa + log([base coniugata]/[acido]). Poiché acido e base coniugata hanno la stessa concentrazione, il rapporto vale 1, il suo logaritmo è 0 e quindi pH = pKa = 4,76. È anche la condizione di massimo potere tamponante.\n\nB) 4,00 è −log(0,10): si otterrebbe trattando l'acido acetico come un acido forte completamente dissociato, ignorando che è un acido debole e che è presente la sua base coniugata.\nC) 7,00 è l'errore di chi deduce «concentrazioni uguali, quindi soluzione neutra». Le concentrazioni uguali danno pH = pKa, che è neutro solo se pKa vale 7.\nD) 2,38 è pKa/2, operazione priva di fondamento; la formula pH = ½(pKa − log Ca) vale per un acido debole da solo, non per un tampone.\nE) 9,52 è 2 × pKa, anch'esso privo di significato; 14 − 4,76 = 9,24 sarebbe il pKb, non il pH."
+      "spiegazione": "Con l'equazione di Henderson-Hasselbalch: pH = pKa + log([base coniugata]/[acido]) = 4,74 + log(0,10/0,010) = 4,74 + log 10 = 5,74. Un eccesso di dieci volte della base coniugata porta il pH una unità sopra il pKa, al limite dell'intervallo utile del tampone.\n\nB) 3,74 si ottiene invertendo il rapporto, cioè mettendo l'acido al numeratore: il termine logaritmico cambia segno.\nC) 4,74 è il pKa: coincide con il pH solo se acido e base coniugata hanno la stessa concentrazione.\nD) 3,37 è il pH della sola soluzione di acido acetico 0,010 M, calcolato con √(Ka × C): ignora la base coniugata presente.\nE) 8,26 è 14 − 5,74, cioè il pOH: è stato scambiato con il pH."
     },
     {
       "id": "u4-0002",

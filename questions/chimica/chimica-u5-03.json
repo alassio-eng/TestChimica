@@ -139,7 +139,7 @@
         "ha necessariamente configurazione R"
       ],
       "corretta": 3,
-      "spiegazione": "Il verso della rotazione si misura sperimentalmente con il polarimetro: orario significa destrogiro, indicato con (+) oppure con la lettera d. Il segno non si deduce dalla struttura e non è legato alla configurazione R o S, che si assegna invece in base alle regole di priorità.\n\nA) Vale la stessa obiezione: il verso della rotazione è un dato sperimentale e non si ricava dalla configurazione assoluta.\nB) Accoppia il nome giusto al segno sbagliato: destrogiro corrisponde a (+).\nC) Levogiro è il verso antiorario. Il segno (−) accompagna la rotazione antioraria.\nE) È l'errore più diffuso: segno della rotazione e configurazione R/S sono informazioni indipendenti. Esistono composti R levogiri e composti S destrogiri."
+      "spiegazione": "Il verso della rotazione si misura sperimentalmente con il polarimetro: orario significa destrogiro, indicato con (+) oppure con la lettera d. Il segno non si deduce dalla struttura e non è legato alla configurazione R o S, che si assegna invece in base alle regole di priorità.\n\nA) Il verso della rotazione è un dato sperimentale e non dipende dalla configurazione R/S: un composto destrogiro può essere R oppure S.\nB) Accoppia il nome giusto al segno sbagliato: destrogiro corrisponde a (+).\nC) Levogiro è il verso antiorario. Il segno (−) accompagna la rotazione antioraria.\nE) È l'errore più diffuso: segno della rotazione e configurazione R/S sono informazioni indipendenti. Esistono composti R levogiri e composti S destrogiri."
     },
     {
       "id": "u5-0061",
@@ -225,7 +225,7 @@
         "·CH₃"
       ],
       "corretta": 4,
-      "spiegazione": "Il radicale metile non ha gruppi alchilici legati al carbonio che porta l'elettrone spaiato. I gruppi alchilici, elettron-donatori, contribuiscono a stabilizzare il radicale: l'ordine di stabilità è terziario > secondario > primario > metile.\n\nA) È un radicale terziario, il più stabile dei quattro: ha tre gruppi alchilici.\nB) È primario, come l'etile: è l'ingombro della molecola a trarre in inganno, ma conta quanti carboni sono legati al carbonio che porta l'elettrone spaiato, e qui è uno solo.\nC) È un radicale primario: ha un gruppo alchilico ed è quindi più stabile del metile.\nD) È un radicale secondario, con due gruppi alchilici."
+      "spiegazione": "Il radicale metile non ha gruppi alchilici legati al carbonio che porta l'elettrone spaiato. I gruppi alchilici, elettron-donatori, contribuiscono a stabilizzare il radicale: l'ordine di stabilità è terziario > secondario > primario > metile.\n\nA) È un radicale terziario, il più stabile dell'elenco: ha tre gruppi alchilici.\nB) È primario, come l'etile: è l'ingombro della molecola a trarre in inganno, ma conta quanti carboni sono legati al carbonio che porta l'elettrone spaiato, e qui è uno solo.\nC) È un radicale primario: ha un gruppo alchilico ed è quindi più stabile del metile.\nD) È un radicale secondario, con due gruppi alchilici."
     },
     {
       "id": "u5-0067",
@@ -235,8 +235,7 @@
       "testo": "Lo stadio iniziale di una reazione radicalica a catena, in cui la luce o il calore provocano la rottura omolitica di un legame e si formano i primi radicali, si chiama ……",
       "accettate": [
         "iniziazione",
-        "innesco",
-        "attivazione"
+        "innesco"
       ],
       "spiegazione": "Iniziazione (o innesco). Negli stadi di propagazione che seguono il numero di radicali resta costante; negli stadi di terminazione due radicali si combinano e la catena si interrompe."
     },
@@ -454,8 +453,7 @@
       "argomento": "Isomeria cis-trans",
       "testo": "Nell'isomero …… di un alchene i due sostituenti di riferimento si trovano dallo stesso lato del piano del doppio legame.",
       "accettate": [
-        "cis",
-        "z"
+        "cis"
       ],
       "spiegazione": "Cis (nella nomenclatura E/Z corrisponde di norma all'isomero Z). Quando i sostituenti stanno da parti opposte l'isomero è trans (E). I due isomeri sono diastereoisomeri e hanno proprietà fisiche diverse."
     },
