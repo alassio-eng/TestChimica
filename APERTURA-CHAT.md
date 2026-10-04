@@ -85,42 +85,7 @@ Obiettivo raggiunto (60/60): nessuna chat da aprire.
 
 ## U3 — Il flusso dell'informazione
 
-130/180 nel banco · mancano 50 domande in 1 file: `biologia-u3-02.json` … `biologia-u3-02.json`, id da `u3-0051` a `u3-0100`
-
-```text
-Sei la chat che si occupa di una sola unità del banco domande di Biologia: la U3. Il tuo compito è portarla all'obiettivo per intero, non produrre un singolo lotto.
-
-UNITÀ
-U3 — Il flusso dell'informazione
-Obiettivo: 180 domande in totale. Nel banco ci sono già 130 domande di questa unità, con id da u3-0001 a u3-0050 e da u3-0101 a u3-0180. Non riscriverle, non rigenerare i file che le contengono e non riusare quegli id: sono agganciati allo storico delle mie risposte sul dispositivo. Resta però libero un intervallo di id, lasciato da un file mai consegnato: il piano qui sotto lo copre per primo.
-Mancano 50 domande, che consegnerai in 1 file.
-
-PIANO DEI FILE — già calcolato, seguilo alla lettera
-1. biologia-u3-02.json — 50 domande (25 a risposta multipla e 25 a completamento), id da u3-0051 a u3-0100
-
-Ogni file è un JSON completo e valido con questa forma:
-{ "lotto": "<nome del file senza .json>", "unita": "u3", "domande": [ … ] }
-Dentro ogni file gli id sono progressivi e senza buchi, esattamente nell'intervallo indicato per quel file: né uno in più né uno in meno.
-
-PRIMA DI SCRIVERE
-Ricava dal syllabus l'elenco degli argomenti dell'unità e proponimi una ripartizione delle 50 domande fra quegli argomenti, proporzionale al peso che hanno nel programma. Fermati lì e aspetta che la approvi: è il modo per non ritrovarsi il primo file pieno dei concetti facili e l'ultimo pieno di ripetizioni. Tieni quella ripartizione come tracciato e spunta gli argomenti man mano.
-
-POI, UN FILE PER VOLTA
-Consegni il file, io lo valido e ti dico «prossimo». Non anticipare il file successivo e non riaprire quelli già consegnati. Se ti accorgi di un errore in un file già consegnato, dimmelo invece di rigenerarlo: correggere il testo di una domanda è innocuo, cambiarne l'id no.
-
-COME DEVONO ESSERE LE DOMANDE
-- Formato JSON, campi obbligatori e normalizzazione delle risposte accettate: SPEC-NUOVA-MATERIA.md, nella knowledge del progetto. Leggila per intero prima di cominciare.
-- Il perimetro è il syllabus: niente che stia oltre il programma.
-- Distrattori che corrispondono a errori che uno studente commette davvero, non opzioni assurde da scartare a colpo d'occhio.
-- Una sola risposta inequivocabilmente corretta: se un quesito ti risulta ambiguo, riscrivilo invece di consegnarlo.
-- Nei completamenti si chiede il termine esatto: sono quesiti di terminologia. In "accettate" elenca tutte le forme legittime — singolare e plurale, sinonimi ammessi, sigla ed esteso.
-- Ogni spiegazione dice perché la corretta è corretta E perché le altre non lo sono, analizzando i distrattori uno per uno.
-- La posizione della risposta corretta va distribuita in modo uniforme fra A ed E, e la corretta non deve essere sistematicamente l'opzione più lunga: sono i due modi con cui un banco diventa indovinabile senza sapere la materia. Controllali tu prima di consegnare ogni file.
-- Precisione prima di tutto: se non sei certo di un dato, dimmelo invece di arrotondare. Un errore in una tua spiegazione me lo porto all'esame.
-
-ALTRO
-Non toccare index.json e non rigenerarlo: alla registrazione dei file ci penso io. Non dichiarare mai che una domanda è «nuova» o «non ancora somministrata»: non hai modo di saperlo. Italiano, tono asciutto, niente incoraggiamenti di circostanza.
-```
+Obiettivo raggiunto (180/180): nessuna chat da aprire.
 
 ## U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
 

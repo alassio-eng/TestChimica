@@ -10,14 +10,14 @@
       "argomento": "Organizzazione minimale di un cromosoma eucariotico",
       "testo": "Quali elementi sono indispensabili perché un cromosoma eucariotico lineare venga replicato e trasmesso correttamente alle cellule figlie?",
       "opzioni": [
-        "Un promotore, un enhancer e un sito di poliadenilazione funzionanti",
+        "Le sequenze ripetute in tandem distribuite lungo tutto il braccio corto",
         "Una sola origine di replicazione, collocata al centro della molecola",
-        "Le origini di replicazione, il centromero e i telomeri",
         "Il centromero, il nucleolo e la lamina nucleare che lo ancora all'involucro",
-        "Le sequenze ripetute in tandem distribuite lungo tutto il braccio corto"
+        "Un promotore, un enhancer e un sito di poliadenilazione funzionanti",
+        "Le origini di replicazione, il centromero e i telomeri"
       ],
-      "corretta": 2,
-      "spiegazione": "Sono i tre elementi minimi che un cromosoma artificiale deve contenere per comportarsi da cromosoma: le origini permettono la duplicazione, il centromero l'aggancio al fuso e quindi la segregazione, i telomeri la protezione e la replicazione completa delle estremità.\n\nA) Promotore, enhancer e sito di poliadenilazione servono all'espressione di un gene, non alla trasmissione del cromosoma.\nB) I cromosomi eucariotici hanno numerose origini di replicazione distribuite lungo tutta la loro lunghezza, non una sola: è la condizione per replicare in tempi ragionevoli molecole molto lunghe.\nD) Il nucleolo non è un elemento del cromosoma ma un condensato nucleare; la lamina non è richiesta per la trasmissione.\nE) Le sequenze ripetute in tandem sono abbondanti nei cromosomi ma non sono un requisito funzionale."
+      "corretta": 4,
+      "spiegazione": "Sono i tre elementi minimi che un cromosoma artificiale deve contenere per comportarsi da cromosoma: le origini permettono la duplicazione, il centromero l'aggancio al fuso e quindi la segregazione, i telomeri la protezione e la replicazione completa delle estremità.\n\nA) Le sequenze ripetute in tandem sono abbondanti nei cromosomi ma non sono un requisito funzionale.\nB) I cromosomi eucariotici hanno numerose origini di replicazione distribuite lungo tutta la loro lunghezza, non una sola: è la condizione per replicare in tempi ragionevoli molecole molto lunghe.\nC) Il nucleolo non è un elemento del cromosoma ma un condensato nucleare; la lamina non è richiesta per la trasmissione.\nD) Promotore, enhancer e sito di poliadenilazione servono all'espressione di un gene, non alla trasmissione del cromosoma."
     },
     {
       "id": "u2-0002",
@@ -38,14 +38,14 @@
       "argomento": "Funzione del centromero",
       "testo": "Qual è la funzione del centromero?",
       "opzioni": [
-        "Costituisce il sito su cui si assembla il cinetocore",
-        "Contiene le origini da cui parte la replicazione del cromosoma",
-        "Protegge le estremità del cromosoma dalla degradazione enzimatica",
+        "Determina il numero di cromatidi presenti in ciascun cromosoma",
         "Raccoglie i geni per gli RNA ribosomiali e organizza il nucleolo",
-        "Determina il numero di cromatidi presenti in ciascun cromosoma"
+        "Costituisce il sito su cui si assembla il cinetocore",
+        "Protegge le estremità del cromosoma dalla degradazione enzimatica",
+        "Contiene le origini da cui parte la replicazione del cromosoma"
       ],
-      "corretta": 0,
-      "spiegazione": "Sul DNA centromerico si assembla il cinetocore, la piattaforma proteica che lega i microtubuli del fuso: senza di essa il cromosoma non verrebbe ripartito fra le cellule figlie.\n\nB) Le origini di replicazione sono numerose e distribuite lungo tutto il cromosoma.\nC) La protezione delle estremità è compito dei telomeri.\nD) I geni per gli RNA ribosomiali stanno nelle regioni organizzatrici del nucleolo, sui bracci corti dei cromosomi acrocentrici.\nE) I cromatidi sono due dopo la replicazione e uno prima: dipende dalla fase del ciclo cellulare, non dal centromero."
+      "corretta": 2,
+      "spiegazione": "Sul DNA centromerico si assembla il cinetocore, la piattaforma proteica che lega i microtubuli del fuso: senza di essa il cromosoma non verrebbe ripartito fra le cellule figlie.\n\nA) I cromatidi sono due dopo la replicazione e uno prima: dipende dalla fase del ciclo cellulare, non dal centromero.\nB) I geni per gli RNA ribosomiali stanno nelle regioni organizzatrici del nucleolo, sui bracci corti dei cromosomi acrocentrici.\nD) La protezione delle estremità è compito dei telomeri.\nE) Le origini di replicazione sono numerose e distribuite lungo tutto il cromosoma."
     },
     {
       "id": "u2-0004",
@@ -67,14 +67,14 @@
       "argomento": "Il DNA telomerico",
       "testo": "Il DNA telomerico dei vertebrati è costituito da:",
       "opzioni": [
-        "sequenze uniche, diverse in ciascuno dei cromosomi della specie",
         "un lungo tratto di DNA satellite alfa in unità da 171 paia di basi",
-        "geni per gli RNA ribosomiali ripetuti in tandem molte volte di seguito",
         "sequenze che codificano proteine indispensabili alla divisione cellulare",
+        "geni per gli RNA ribosomiali ripetuti in tandem molte volte di seguito",
+        "sequenze uniche, diverse in ciascuno dei cromosomi della specie",
         "brevi sequenze ripetute in tandem, ricche di guanina"
       ],
       "corretta": 4,
-      "spiegazione": "Nei vertebrati il telomero è formato dalla ripetizione in tandem del motivo TTAGGG, presente in migliaia di copie e uguale in tutti i cromosomi della specie. L'estremità sporgente ricca di guanina si ripiega e si inserisce nel tratto a doppio filamento, formando un'ansa che nasconde l'estremità.\n\nA) Le sequenze telomeriche non sono uniche né specifiche di ciascun cromosoma: sono le stesse ovunque.\nB) Il satellite alfa è il DNA ripetuto dei centromeri, non dei telomeri.\nC) I geni per gli rRNA sono ripetuti in tandem ma stanno nelle regioni organizzatrici del nucleolo.\nD) I telomeri non contengono sequenze codificanti."
+      "spiegazione": "Nei vertebrati il telomero è formato dalla ripetizione in tandem del motivo TTAGGG, presente in migliaia di copie e uguale in tutti i cromosomi della specie. L'estremità sporgente ricca di guanina si ripiega e si inserisce nel tratto a doppio filamento, formando un'ansa che nasconde l'estremità.\n\nA) Il satellite alfa è il DNA ripetuto dei centromeri, non dei telomeri.\nB) I telomeri non contengono sequenze codificanti.\nC) I geni per gli rRNA sono ripetuti in tandem ma stanno nelle regioni organizzatrici del nucleolo.\nD) Le sequenze telomeriche non sono uniche né specifiche di ciascun cromosoma: sono le stesse ovunque."
     },
     {
       "id": "u2-0006",
@@ -95,14 +95,14 @@
       "argomento": "Funzione dei telomeri",
       "testo": "Perché le estremità dei cromosomi lineari devono essere protette dai telomeri?",
       "opzioni": [
-        "Perché altrimenti verrebbero metilate e i geni vicini risulterebbero silenziati",
         "Perché altrimenti sarebbero riconosciute come rotture del DNA a doppio filamento",
-        "Perché altrimenti il cromosoma non potrebbe condensarsi durante la mitosi",
         "Perché altrimenti il cinetocore si assemblerebbe in una posizione sbagliata",
+        "Perché altrimenti il cromosoma non potrebbe condensarsi durante la mitosi",
+        "Perché altrimenti verrebbero metilate e i geni vicini risulterebbero silenziati",
         "Perché altrimenti gli istoni non riuscirebbero a legare il DNA in quella regione"
       ],
-      "corretta": 1,
-      "spiegazione": "Un'estremità libera di DNA a doppio filamento è il segnale di un danno: attiva la risposta al danno al DNA e i sistemi di saldatura, che unirebbero fra loro le estremità di cromosomi diversi generando cromosomi dicentrici. Il ripiegamento del telomero e le proteine che vi si legano mascherano l'estremità.\n\nA) La metilazione riguarda le citosine dei dinucleotidi CpG e non dipende dalla presenza di un'estremità.\nC) La condensazione mitotica è affidata alle condensine e non richiede i telomeri.\nD) La posizione del cinetocore è determinata dal centromero.\nE) Gli istoni legano il DNA telomerico come qualsiasi altro tratto di DNA."
+      "corretta": 0,
+      "spiegazione": "Un'estremità libera di DNA a doppio filamento è il segnale di un danno: attiva la risposta al danno al DNA e i sistemi di saldatura, che unirebbero fra loro le estremità di cromosomi diversi generando cromosomi dicentrici. Il ripiegamento del telomero e le proteine che vi si legano mascherano l'estremità.\n\nB) La posizione del cinetocore è determinata dal centromero.\nC) La condensazione mitotica è affidata alle condensine e non richiede i telomeri.\nD) La metilazione riguarda le citosine dei dinucleotidi CpG e non dipende dalla presenza di un'estremità.\nE) Gli istoni legano il DNA telomerico come qualsiasi altro tratto di DNA."
     },
     {
       "id": "u2-0008",
@@ -124,13 +124,13 @@
       "testo": "Il nucleosoma è formato da:",
       "opzioni": [
         "un ottamero costituito da otto copie dell'istone H1, avvolto dal DNA",
+        "due copie ciascuna degli istoni H2A, H2B, H3 e H4, con circa 147 paia di basi",
         "quattro istoni diversi, presenti in una sola copia ciascuno, e il DNA linker",
         "un tetramero di istoni attorno a cui si avvolgono circa 300 paia di basi",
-        "due copie ciascuna degli istoni H2A, H2B, H3 e H4, con circa 147 paia di basi",
         "un nucleo di proteine non istoniche associato a un tratto di DNA metilato"
       ],
-      "corretta": 3,
-      "spiegazione": "L'ottamero è formato da due copie di ciascuno dei quattro istoni del nucleo: H2A, H2B, H3 e H4. Attorno a esso si avvolgono circa 147 paia di basi di DNA.\n\nA) H1 non fa parte dell'ottamero: è l'istone di collegamento e si lega all'esterno del nucleosoma.\nB) Gli istoni del nucleo sono quattro tipi ma otto molecole; il DNA linker è il tratto fra due nucleosomi, non parte del nucleosoma.\nC) Le circa 300 paia di basi sono all'incirca la lunghezza di una sequenza Alu, non del DNA nucleosomico.\nE) Le proteine del nucleosoma sono istoni, e l'avvolgimento non dipende dalla metilazione del DNA."
+      "corretta": 1,
+      "spiegazione": "L'ottamero è formato da due copie di ciascuno dei quattro istoni del nucleo: H2A, H2B, H3 e H4. Attorno a esso si avvolgono circa 147 paia di basi di DNA.\n\nA) H1 non fa parte dell'ottamero: è l'istone di collegamento e si lega all'esterno del nucleosoma.\nC) Gli istoni del nucleo sono quattro tipi ma otto molecole; il DNA linker è il tratto fra due nucleosomi, non parte del nucleosoma.\nD) Le circa 300 paia di basi sono all'incirca la lunghezza di una sequenza Alu, non del DNA nucleosomico.\nE) Le proteine del nucleosoma sono istoni, e l'avvolgimento non dipende dalla metilazione del DNA."
     },
     {
       "id": "u2-0010",
@@ -152,14 +152,14 @@
       "argomento": "Interazione fra istoni e DNA",
       "testo": "Gli istoni si legano saldamente al DNA perché:",
       "opzioni": [
-        "formano legami covalenti con le basi azotate del filamento stampo",
-        "sono proteine acide, cariche negativamente come lo scheletro del DNA",
-        "sono proteine basiche, ricche di lisina e arginina, cariche positivamente",
         "riconoscono sequenze nucleotidiche specifiche distribuite lungo il genoma",
-        "sono modificati dall'aggiunta di gruppi fosfato che ne aumentano l'adesività"
+        "sono proteine basiche, ricche di lisina e arginina, cariche positivamente",
+        "formano legami covalenti con le basi azotate del filamento stampo",
+        "sono modificati dall'aggiunta di gruppi fosfato che ne aumentano l'adesività",
+        "sono proteine acide, cariche negativamente come lo scheletro del DNA"
       ],
-      "corretta": 2,
-      "spiegazione": "Il legame è elettrostatico: le catene laterali di lisina e arginina, cariche positivamente a pH fisiologico, interagiscono con lo scheletro zucchero-fosfato, carico negativamente. Proprio perché il contatto avviene con lo scheletro e non con le basi, gli istoni legano il DNA indipendentemente dalla sequenza.\n\nA) Il legame è debole e reversibile, non covalente: se non lo fosse, la cromatina non potrebbe aprirsi.\nB) Sono proteine basiche, non acide: due cariche uguali si respingerebbero.\nD) Il riconoscimento di sequenze specifiche è proprio dei fattori di trascrizione.\nE) La fosforilazione aggiunge cariche negative, che riducono l'affinità per il DNA."
+      "corretta": 1,
+      "spiegazione": "Il legame è elettrostatico: le catene laterali di lisina e arginina, cariche positivamente a pH fisiologico, interagiscono con lo scheletro zucchero-fosfato, carico negativamente. Proprio perché il contatto avviene con lo scheletro e non con le basi, gli istoni legano il DNA indipendentemente dalla sequenza.\n\nA) Il riconoscimento di sequenze specifiche è proprio dei fattori di trascrizione.\nC) Il legame è debole e reversibile, non covalente: se non lo fosse, la cromatina non potrebbe aprirsi.\nD) La fosforilazione aggiunge cariche negative, che riducono l'affinità per il DNA.\nE) Sono proteine basiche, non acide: due cariche uguali si respingerebbero."
     },
     {
       "id": "u2-0012",
@@ -181,14 +181,14 @@
       "argomento": "L'istone H1",
       "testo": "Qual è il ruolo dell'istone H1?",
       "opzioni": [
-        "Lega il DNA di collegamento e favorisce la formazione della fibra da 30 nm",
         "Costituisce, insieme a H3 e H4, il tetramero centrale dell'ottamero istonico",
         "Taglia il DNA fra due nucleosomi consecutivi durante la condensazione mitotica",
         "Aggiunge gruppi acetile alle code degli altri istoni presenti nel nucleosoma",
+        "Lega il DNA di collegamento e favorisce la formazione della fibra da 30 nm",
         "Sostituisce l'istone H3 nei nucleosomi della regione centromerica del cromosoma"
       ],
-      "corretta": 0,
-      "spiegazione": "H1 è l'istone di collegamento: si lega al DNA nel punto in cui entra ed esce dal nucleosoma, stabilizza l'avvolgimento e favorisce il ripiegamento della fibra da 11 nm in quella più compatta da 30 nm.\n\nB) Il tetramero centrale è formato da due copie di H3 e due di H4: H1 non ne fa parte.\nC) H1 non ha attività enzimatica e non taglia il DNA.\nD) L'acetilazione è catalizzata dalle istone acetiltransferasi.\nE) La sostituzione di H3 nei nucleosomi centromerici è opera della variante CENP-A."
+      "corretta": 3,
+      "spiegazione": "H1 è l'istone di collegamento: si lega al DNA nel punto in cui entra ed esce dal nucleosoma, stabilizza l'avvolgimento e favorisce il ripiegamento della fibra da 11 nm in quella più compatta da 30 nm.\n\nA) Il tetramero centrale è formato da due copie di H3 e due di H4: H1 non ne fa parte.\nB) H1 non ha attività enzimatica e non taglia il DNA.\nC) L'acetilazione è catalizzata dalle istone acetiltransferasi.\nE) La sostituzione di H3 nei nucleosomi centromerici è opera della variante CENP-A."
     },
     {
       "id": "u2-0014",
@@ -209,14 +209,14 @@
       "argomento": "La fibra da 11 nm",
       "testo": "La struttura «a collana di perle» osservata al microscopio elettronico corrisponde:",
       "opzioni": [
-        "al DNA nudo, del tutto privo di proteine associate, del diametro di 30 nm",
-        "alla fibra di cromatina più compatta, del diametro di circa 30 nanometri",
+        "alla fibra di circa 11 nm formata da nucleosomi separati da DNA linker",
         "ai cromosomi metafasici completamente condensati e divisi in due cromatidi",
         "al DNA avvolto attorno a molecole del solo istone H1, del diametro di 5 nm",
-        "alla fibra di circa 11 nm formata da nucleosomi separati da DNA linker"
+        "alla fibra di cromatina più compatta, del diametro di circa 30 nanometri",
+        "al DNA nudo, del tutto privo di proteine associate, del diametro di 30 nm"
       ],
-      "corretta": 4,
-      "spiegazione": "È il primo livello di organizzazione della cromatina: i nucleosomi sono le «perle», il DNA di collegamento il filo che li unisce, e il diametro complessivo è di circa 10-11 nm. Si osserva in condizioni di bassa forza ionica, che sciolgono i livelli superiori di compattazione.\n\nA) Il DNA nudo ha un diametro di circa 2 nm.\nB) Il diametro di circa 30 nm è quello della fibra successiva, più compatta.\nC) I cromosomi metafasici rappresentano il grado massimo di condensazione, non il primo livello.\nD) H1 non forma il nucleo attorno a cui si avvolge il DNA: quello è l'ottamero."
+      "corretta": 0,
+      "spiegazione": "È il primo livello di organizzazione della cromatina: i nucleosomi sono le «perle», il DNA di collegamento il filo che li unisce, e il diametro complessivo è di circa 10-11 nm. Si osserva in condizioni di bassa forza ionica, che sciolgono i livelli superiori di compattazione.\n\nB) I cromosomi metafasici rappresentano il grado massimo di condensazione, non il primo livello.\nC) H1 non forma il nucleo attorno a cui si avvolge il DNA: quello è l'ottamero.\nD) Il diametro di circa 30 nm è quello della fibra successiva, più compatta.\nE) Il DNA nudo ha un diametro di circa 2 nm."
     },
     {
       "id": "u2-0016",
@@ -237,14 +237,14 @@
       "argomento": "Dalla fibra da 11 nm a quella da 30 nm",
       "testo": "Il passaggio dalla fibra da 11 nm a quella da 30 nm:",
       "opzioni": [
+        "è la conseguenza diretta dell'acetilazione delle code degli istoni",
         "richiede la rimozione degli istoni del nucleo nucleosomico dalla fibra",
-        "è favorito dall'istone H1 e rende la cromatina meno accessibile",
-        "avviene soltanto nei cromosomi dei gameti e non in quelli somatici",
         "coincide con la duplicazione del materiale genetico durante la fase S",
-        "è la conseguenza diretta dell'acetilazione delle code degli istoni"
+        "avviene soltanto nei cromosomi dei gameti e non in quelli somatici",
+        "è favorito dall'istone H1 e rende la cromatina meno accessibile"
       ],
-      "corretta": 1,
-      "spiegazione": "H1 stabilizza il DNA all'ingresso e all'uscita del nucleosoma e permette ai nucleosomi di avvicinarsi fra loro: la cromatina si compatta e diventa meno accessibile agli apparati di trascrizione e di replicazione.\n\nA) Gli istoni del nucleo restano al loro posto: senza nucleosomi non ci sarebbe alcuna fibra da ripiegare.\nC) La compattazione riguarda tutti i tipi cellulari.\nD) La duplicazione del DNA è un processo distinto dalla compattazione della cromatina.\nE) L'acetilazione ha l'effetto opposto: apre la cromatina invece di compattarla."
+      "corretta": 4,
+      "spiegazione": "H1 stabilizza il DNA all'ingresso e all'uscita del nucleosoma e permette ai nucleosomi di avvicinarsi fra loro: la cromatina si compatta e diventa meno accessibile agli apparati di trascrizione e di replicazione.\n\nA) L'acetilazione ha l'effetto opposto: apre la cromatina invece di compattarla.\nB) Gli istoni del nucleo restano al loro posto: senza nucleosomi non ci sarebbe alcuna fibra da ripiegare.\nC) La duplicazione del DNA è un processo distinto dalla compattazione della cromatina.\nD) La compattazione riguarda tutti i tipi cellulari."
     },
     {
       "id": "u2-0018",
@@ -264,14 +264,14 @@
       "argomento": "Eucromatina ed eterocromatina",
       "testo": "Rispetto all'eucromatina, l'eterocromatina:",
       "opzioni": [
-        "è più ricca di geni attivamente trascritti dalla RNA polimerasi",
+        "è priva di istoni ed è formata da solo DNA ripetuto in tandem",
         "è meno condensata e più accessibile agli enzimi che agiscono sul DNA",
-        "si trova esclusivamente nel citoplasma della cellula, fuori dal nucleo",
         "è più condensata e trascrizionalmente poco attiva",
-        "è priva di istoni ed è formata da solo DNA ripetuto in tandem"
+        "è più ricca di geni attivamente trascritti dalla RNA polimerasi",
+        "si trova esclusivamente nel citoplasma della cellula, fuori dal nucleo"
       ],
-      "corretta": 3,
-      "spiegazione": "L'eterocromatina resta condensata anche in interfase, si colora intensamente ed è povera di geni espressi: la compattazione tiene il DNA fuori dalla portata dell'apparato trascrizionale.\n\nA) È l'eucromatina a essere ricca di geni trascritti.\nB) La minore condensazione e la maggiore accessibilità caratterizzano l'eucromatina.\nC) Entrambe le forme di cromatina stanno nel nucleo.\nE) L'eterocromatina contiene istoni come l'eucromatina, e contiene anche sequenze non ripetute."
+      "corretta": 2,
+      "spiegazione": "L'eterocromatina resta condensata anche in interfase, si colora intensamente ed è povera di geni espressi: la compattazione tiene il DNA fuori dalla portata dell'apparato trascrizionale.\n\nA) L'eterocromatina contiene istoni come l'eucromatina, e contiene anche sequenze non ripetute.\nB) La minore condensazione e la maggiore accessibilità caratterizzano l'eucromatina.\nD) È l'eucromatina a essere ricca di geni trascritti.\nE) Entrambe le forme di cromatina stanno nel nucleo."
     },
     {
       "id": "u2-0020",
@@ -292,13 +292,13 @@
       "testo": "Il corpo di Barr presente nelle cellule somatiche femminili è un esempio di:",
       "opzioni": [
         "eterocromatina facoltativa",
-        "eterocromatina costitutiva",
+        "cromosoma politenico",
         "eucromatina attivamente trascritta",
         "nucleolo secondario",
-        "cromosoma politenico"
+        "eterocromatina costitutiva"
       ],
       "corretta": 0,
-      "spiegazione": "Il corpo di Barr è uno dei due cromosomi X, inattivato e condensato. Poiché l'inattivazione colpisce a caso l'X materno o quello paterno, lo stesso cromosoma resta eucromatico e attivo nelle cellule in cui a essere inattivato è stato l'omologo: la condensazione non dipende quindi dalla sequenza, ed è questa la definizione di eterocromatina facoltativa.\n\nB) L'eterocromatina costitutiva è condensata sempre e in tutte le cellule, come quella dei centromeri.\nC) Il corpo di Barr è per definizione trascrizionalmente inattivo.\nD) Il nucleolo è il sito di sintesi e assemblaggio dei ribosomi, non un cromosoma condensato.\nE) I cromosomi politenici sono strutture giganti di alcune cellule di insetti, e non esistono nell'uomo."
+      "spiegazione": "Il corpo di Barr è uno dei due cromosomi X, inattivato e condensato. Poiché l'inattivazione colpisce a caso l'X materno o quello paterno, lo stesso cromosoma resta eucromatico e attivo nelle cellule in cui a essere inattivato è stato l'omologo: la condensazione non dipende quindi dalla sequenza, ed è questa la definizione di eterocromatina facoltativa.\n\nB) I cromosomi politenici sono strutture giganti di alcune cellule di insetti, e non esistono nell'uomo.\nC) Il corpo di Barr è per definizione trascrizionalmente inattivo.\nD) Il nucleolo è il sito di sintesi e assemblaggio dei ribosomi, non un cromosoma condensato.\nE) L'eterocromatina costitutiva è condensata sempre e in tutte le cellule, come quella dei centromeri."
     },
     {
       "id": "u2-0022",
@@ -318,14 +318,14 @@
       "argomento": "Acetilazione degli istoni",
       "testo": "L'acetilazione delle lisine delle code istoniche:",
       "opzioni": [
-        "aumenta la carica positiva degli istoni e compatta ulteriormente la cromatina",
+        "è una modificazione irreversibile, trasmessa immutata a tutte le cellule figlie",
         "introduce un gruppo metile che silenzia stabilmente il promotore del gene",
         "neutralizza la carica positiva delle lisine e favorisce l'apertura della cromatina",
-        "avviene sul DNA e non sulle proteine associate a esso nella cromatina",
-        "è una modificazione irreversibile, trasmessa immutata a tutte le cellule figlie"
+        "aumenta la carica positiva degli istoni e compatta ulteriormente la cromatina",
+        "avviene sul DNA e non sulle proteine associate a esso nella cromatina"
       ],
       "corretta": 2,
-      "spiegazione": "Il gruppo acetile azzera la carica positiva della lisina: l'attrazione elettrostatica fra coda istonica e scheletro fosfato si indebolisce, la cromatina si allenta e diventa accessibile. L'acetilazione delle code istoniche è infatti associata alle regioni trascrizionalmente attive.\n\nA) L'effetto sulla carica è opposto, e con esso l'effetto sulla compattazione.\nB) Il gruppo aggiunto è acetile, non metile.\nD) Il bersaglio dell'acetilazione sono le code degli istoni, non il DNA.\nE) È una modificazione reversibile: le deacetilasi rimuovono il gruppo acetile."
+      "spiegazione": "Il gruppo acetile azzera la carica positiva della lisina: l'attrazione elettrostatica fra coda istonica e scheletro fosfato si indebolisce, la cromatina si allenta e diventa accessibile. L'acetilazione delle code istoniche è infatti associata alle regioni trascrizionalmente attive.\n\nA) È una modificazione reversibile: le deacetilasi rimuovono il gruppo acetile.\nB) Il gruppo aggiunto è acetile, non metile.\nD) L'effetto sulla carica è opposto, e con esso l'effetto sulla compattazione.\nE) Il bersaglio dell'acetilazione sono le code degli istoni, non il DNA."
     },
     {
       "id": "u2-0024",
@@ -346,14 +346,14 @@
       "argomento": "Istone deacetilasi",
       "testo": "Gli enzimi che rimuovono i gruppi acetile dalle code istoniche, favorendo la compattazione della cromatina, sono:",
       "opzioni": [
+        "le chinasi istoniche",
         "le istone acetiltransferasi",
         "le DNA metiltransferasi",
-        "le ubiquitina ligasi",
-        "le chinasi istoniche",
-        "le istone deacetilasi"
+        "le istone deacetilasi",
+        "le ubiquitina ligasi"
       ],
-      "corretta": 4,
-      "spiegazione": "Le istone deacetilasi ripristinano la carica positiva delle lisine, l'affinità delle code per il DNA aumenta e la cromatina si richiude: la loro azione si associa alla repressione trascrizionale.\n\nA) Le acetiltransferasi catalizzano la reazione opposta, cioè l'aggiunta del gruppo acetile.\nB) Le DNA metiltransferasi agiscono sulle citosine del DNA, non sugli istoni.\nC) Le ubiquitina ligasi aggiungono ubiquitina alle proteine bersaglio.\nD) Le chinasi trasferiscono gruppi fosfato, non rimuovono gruppi acetile."
+      "corretta": 3,
+      "spiegazione": "Le istone deacetilasi ripristinano la carica positiva delle lisine, l'affinità delle code per il DNA aumenta e la cromatina si richiude: la loro azione si associa alla repressione trascrizionale.\n\nA) Le chinasi trasferiscono gruppi fosfato, non rimuovono gruppi acetile.\nB) Le acetiltransferasi catalizzano la reazione opposta, cioè l'aggiunta del gruppo acetile.\nC) Le DNA metiltransferasi agiscono sulle citosine del DNA, non sugli istoni.\nE) Le ubiquitina ligasi aggiungono ubiquitina alle proteine bersaglio."
     },
     {
       "id": "u2-0026",
@@ -375,14 +375,14 @@
       "argomento": "Rimodellamento della cromatina",
       "testo": "I complessi di rimodellamento della cromatina:",
       "opzioni": [
-        "tagliano il DNA di collegamento per liberare i nucleosomi dalla fibra",
+        "impediscono in modo stabile qualunque cambiamento nella cromatina",
         "usano l'energia dell'ATP per spostare o rimuovere i nucleosomi",
-        "aggiungono gruppi metile alle citosine dei promotori dei geni bersaglio",
         "sostituiscono gli istoni con proteine non istoniche di tipo strutturale",
-        "impediscono in modo stabile qualunque cambiamento nella cromatina"
+        "tagliano il DNA di collegamento per liberare i nucleosomi dalla fibra",
+        "aggiungono gruppi metile alle citosine dei promotori dei geni bersaglio"
       ],
       "corretta": 1,
-      "spiegazione": "Sono macchine molecolari ATP-dipendenti che fanno scorrere il nucleosoma lungo il DNA, lo staccano o ne sostituiscono gli istoni con varianti: il risultato è rendere accessibile o inaccessibile una sequenza, per esempio un promotore, senza modificare la sequenza stessa.\n\nA) Nessun taglio del DNA è coinvolto: il rimodellamento è reversibile e non lascia rotture.\nC) La metilazione delle citosine è opera delle DNA metiltransferasi.\nD) Gli istoni possono essere scambiati con varianti istoniche, non con proteine strutturali non istoniche.\nE) Il rimodellamento serve appunto a rendere la cromatina dinamica."
+      "spiegazione": "Sono macchine molecolari ATP-dipendenti che fanno scorrere il nucleosoma lungo il DNA, lo staccano o ne sostituiscono gli istoni con varianti: il risultato è rendere accessibile o inaccessibile una sequenza, per esempio un promotore, senza modificare la sequenza stessa.\n\nA) Il rimodellamento serve appunto a rendere la cromatina dinamica.\nC) Gli istoni possono essere scambiati con varianti istoniche, non con proteine strutturali non istoniche.\nD) Nessun taglio del DNA è coinvolto: il rimodellamento è reversibile e non lascia rotture.\nE) La metilazione delle citosine è opera delle DNA metiltransferasi."
     },
     {
       "id": "u2-0028",
@@ -402,14 +402,14 @@
       "argomento": "Che cos'è una modificazione epigenetica",
       "testo": "Che cosa si intende per modificazione epigenetica?",
       "opzioni": [
-        "Una mutazione che cambia una singola base nella sequenza del DNA",
-        "Un riarrangiamento che sposta un tratto di DNA su un altro cromosoma",
-        "Una modificazione ereditabile che altera l'espressione senza cambiare la sequenza",
+        "Una variazione del numero di cromosomi presenti nel nucleo della cellula",
         "La perdita definitiva di un gene nel corso del differenziamento cellulare",
-        "Una variazione del numero di cromosomi presenti nel nucleo della cellula"
+        "Una mutazione che cambia una singola base nella sequenza del DNA",
+        "Una modificazione ereditabile che altera l'espressione senza cambiare la sequenza",
+        "Un riarrangiamento che sposta un tratto di DNA su un altro cromosoma"
       ],
-      "corretta": 2,
-      "spiegazione": "Il criterio è duplice: la modificazione deve essere trasmessa alle cellule figlie e non deve toccare la sequenza nucleotidica. Metilazione del DNA e modificazioni istoniche rispondono a entrambe le condizioni.\n\nA) Il cambiamento di una base è una mutazione puntiforme, cioè una variazione della sequenza.\nB) Uno spostamento di materiale genetico è una traslocazione, una mutazione cromosomica.\nD) Salvo casi particolari, il differenziamento non comporta perdita di geni: le cellule di un organismo hanno lo stesso genoma.\nE) Le variazioni del numero di cromosomi sono alterazioni del cariotipo."
+      "corretta": 3,
+      "spiegazione": "Il criterio è duplice: la modificazione deve essere trasmessa alle cellule figlie e non deve toccare la sequenza nucleotidica. Metilazione del DNA e modificazioni istoniche rispondono a entrambe le condizioni.\n\nA) Le variazioni del numero di cromosomi sono alterazioni del cariotipo.\nB) Salvo casi particolari, il differenziamento non comporta perdita di geni: le cellule di un organismo hanno lo stesso genoma.\nC) Il cambiamento di una base è una mutazione puntiforme, cioè una variazione della sequenza.\nE) Uno spostamento di materiale genetico è una traslocazione, una mutazione cromosomica."
     },
     {
       "id": "u2-0030",
@@ -430,14 +430,14 @@
       "argomento": "Bersaglio della metilazione del DNA",
       "testo": "Nel genoma dei mammiferi la metilazione del DNA riguarda:",
       "opzioni": [
-        "l'adenina delle sequenze ripetute in tandem",
-        "la guanina all'interno delle sole regioni codificanti",
         "la timina dei promotori dei geni attivamente trascritti",
+        "la guanina all'interno delle sole regioni codificanti",
         "la citosina dei dinucleotidi CpG",
-        "tutte e quattro le basi, in modo indifferenziato"
+        "tutte e quattro le basi, in modo indifferenziato",
+        "l'adenina delle sequenze ripetute in tandem"
       ],
-      "corretta": 3,
-      "spiegazione": "Il gruppo metile viene aggiunto in posizione 5 dell'anello della citosina, e quasi esclusivamente quando la citosina è seguita da una guanina lungo lo stesso filamento: è il dinucleotide CpG.\n\nA) La metilazione dell'adenina è un fenomeno dei batteri, dove distingue il DNA proprio da quello estraneo.\nB) La guanina non è il bersaglio della metilazione.\nC) La timina non viene metilata: possiede già un gruppo metile che la distingue dall'uracile.\nE) La metilazione è tutt'altro che indifferenziata: è ristretta alla citosina in un contesto preciso."
+      "corretta": 2,
+      "spiegazione": "Il gruppo metile viene aggiunto in posizione 5 dell'anello della citosina, e quasi esclusivamente quando la citosina è seguita da una guanina lungo lo stesso filamento: è il dinucleotide CpG.\n\nA) La timina non viene metilata: possiede già un gruppo metile che la distingue dall'uracile.\nB) La guanina non è il bersaglio della metilazione.\nD) La metilazione è tutt'altro che indifferenziata: è ristretta alla citosina in un contesto preciso.\nE) La metilazione dell'adenina è un fenomeno dei batteri, dove distingue il DNA proprio da quello estraneo."
     },
     {
       "id": "u2-0032",
@@ -458,14 +458,14 @@
       "argomento": "Metilazione dei promotori e silenziamento",
       "testo": "Quale effetto ha, di regola, l'ipermetilazione delle isole CpG del promotore di un gene?",
       "opzioni": [
-        "Il silenziamento della trascrizione del gene",
-        "Un forte aumento della trascrizione del gene",
         "La comparsa di una mutazione puntiforme nel gene",
         "La perdita fisica del gene dal cromosoma",
-        "L'inversione del verso di trascrizione del gene"
+        "L'inversione del verso di trascrizione del gene",
+        "Un forte aumento della trascrizione del gene",
+        "Il silenziamento della trascrizione del gene"
       ],
-      "corretta": 0,
-      "spiegazione": "Le citosine metilate reclutano proteine che le riconoscono e che a loro volta portano con sé complessi con attività deacetilasica: la cromatina si compatta e il promotore diventa inaccessibile. Nei geni attivi le isole CpG dei promotori sono di norma non metilate.\n\nB) L'effetto è opposto: la metilazione del promotore reprime.\nC) La metilazione non cambia la sequenza e quindi non è una mutazione, anche se ne favorisce indirettamente una.\nD) Il gene resta al suo posto: viene solo spento.\nE) Il verso di trascrizione è determinato dall'orientamento del promotore e non cambia."
+      "corretta": 4,
+      "spiegazione": "Le citosine metilate reclutano proteine che le riconoscono e che a loro volta portano con sé complessi con attività deacetilasica: la cromatina si compatta e il promotore diventa inaccessibile. Nei geni attivi le isole CpG dei promotori sono di norma non metilate.\n\nA) La metilazione non cambia la sequenza e quindi non è una mutazione, anche se ne favorisce indirettamente una.\nB) Il gene resta al suo posto: viene solo spento.\nC) Il verso di trascrizione è determinato dall'orientamento del promotore e non cambia.\nD) L'effetto è opposto: la metilazione del promotore reprime."
     },
     {
       "id": "u2-0034",
@@ -486,14 +486,14 @@
       "argomento": "Le condensine",
       "testo": "Le condensine sono complessi proteici che:",
       "opzioni": [
+        "riparano le rotture del DNA a doppio filamento prodotte dalle radiazioni",
         "rimuovono i nucleosomi dai promotori dei geni attivamente trascritti",
         "trasferiscono gruppi acetile alle code degli istoni del nucleosoma",
-        "riparano le rotture del DNA a doppio filamento prodotte dalle radiazioni",
         "trasportano nel nucleo gli istoni sintetizzati nel citosol della cellula",
         "ripiegano la cromatina in anse e condensano i cromosomi"
       ],
       "corretta": 4,
-      "spiegazione": "Le condensine sono complessi con subunità SMC che, consumando ATP, estrudono progressivamente anse di cromatina: da questa attività deriva la compattazione longitudinale che trasforma i lunghi filamenti interfasici nei cromosomi metafasici, distinti e separabili.\n\nA) Lo spostamento e la rimozione dei nucleosomi spettano ai complessi di rimodellamento.\nB) Il trasferimento di gruppi acetile è compito delle istone acetiltransferasi.\nC) La riparazione delle rotture a doppio filamento è affidata a sistemi enzimatici dedicati.\nD) L'importazione degli istoni nel nucleo avviene attraverso i pori nucleari con l'intervento delle importine."
+      "spiegazione": "Le condensine sono complessi con subunità SMC che, consumando ATP, estrudono progressivamente anse di cromatina: da questa attività deriva la compattazione longitudinale che trasforma i lunghi filamenti interfasici nei cromosomi metafasici, distinti e separabili.\n\nA) La riparazione delle rotture a doppio filamento è affidata a sistemi enzimatici dedicati.\nB) Lo spostamento e la rimozione dei nucleosomi spettano ai complessi di rimodellamento.\nC) Il trasferimento di gruppi acetile è compito delle istone acetiltransferasi.\nD) L'importazione degli istoni nel nucleo avviene attraverso i pori nucleari con l'intervento delle importine."
     },
     {
       "id": "u2-0036",
@@ -515,13 +515,13 @@
       "testo": "Quale frazione del genoma umano è costituita da sequenze che codificano proteine?",
       "opzioni": [
         "circa un terzo del totale",
-        "circa il 2 per cento",
+        "praticamente il 100 per cento",
         "circa la metà del totale",
-        "circa il 25 per cento",
-        "praticamente il 100 per cento"
+        "circa il 2 per cento",
+        "circa il 25 per cento"
       ],
-      "corretta": 1,
-      "spiegazione": "Gli esoni codificanti dei circa 20.000 geni che specificano proteine occupano poco meno del 2% dei circa 3,2 miliardi di paia di basi del genoma aploide. Il resto comprende introni, sequenze regolative, geni per RNA non codificanti e una grande quota di DNA ripetuto.\n\nA), C), D) ed E) sovrastimano tutte la parte codificante: è l'errore di chi identifica il genoma con l'insieme dei geni, mentre più della metà del genoma umano è costituita da sequenze ripetute."
+      "corretta": 3,
+      "spiegazione": "Gli esoni codificanti dei circa 20.000 geni che specificano proteine occupano poco meno del 2% dei circa 3,2 miliardi di paia di basi del genoma aploide. Il resto comprende introni, sequenze regolative, geni per RNA non codificanti e una grande quota di DNA ripetuto.\n\nA), B), C) ed E) sovrastimano tutte la parte codificante: è l'errore di chi identifica il genoma con l'insieme dei geni, mentre più della metà del genoma umano è costituita da sequenze ripetute."
     },
     {
       "id": "u2-0038",
@@ -543,13 +543,13 @@
       "testo": "I geni delle globine costituiscono un esempio di:",
       "opzioni": [
         "sequenze ripetute intersperse, distribuite in tutto il genoma",
-        "elementi trasponibili capaci di spostarsi da un sito all'altro",
-        "sequenze ripetute in tandem prive di qualunque funzione codificante",
         "famiglia genica originata per duplicazione di un gene ancestrale",
-        "geni presenti in una sola copia nell'intero genoma della specie"
+        "geni presenti in una sola copia nell'intero genoma della specie",
+        "elementi trasponibili capaci di spostarsi da un sito all'altro",
+        "sequenze ripetute in tandem prive di qualunque funzione codificante"
       ],
-      "corretta": 3,
-      "spiegazione": "I geni delle globine sono organizzati in due gruppi, quello alfa e quello beta, situati su cromosomi diversi: sono geni imparentati fra loro, derivati da duplicazioni successive di un progenitore comune e poi divergenti, che vengono espressi in fasi diverse dello sviluppo. Nei due gruppi sono presenti anche pseudogeni.\n\nA) Le sequenze intersperse sono DNA ripetuto non codificante, disseminato nel genoma.\nB) Gli elementi trasponibili sono sequenze mobili, anch'esse non codificanti per proteine dell'organismo.\nC) I geni delle globine sono codificanti a tutti gli effetti.\nE) Sono presenti in più copie, ed è proprio questo a definire una famiglia genica."
+      "corretta": 1,
+      "spiegazione": "I geni delle globine sono organizzati in due gruppi, quello alfa e quello beta, situati su cromosomi diversi: sono geni imparentati fra loro, derivati da duplicazioni successive di un progenitore comune e poi divergenti, che vengono espressi in fasi diverse dello sviluppo. Nei due gruppi sono presenti anche pseudogeni.\n\nA) Le sequenze intersperse sono DNA ripetuto non codificante, disseminato nel genoma.\nC) Sono presenti in più copie, ed è proprio questo a definire una famiglia genica.\nD) Gli elementi trasponibili sono sequenze mobili, anch'esse non codificanti per proteine dell'organismo.\nE) I geni delle globine sono codificanti a tutti gli effetti."
     },
     {
       "id": "u2-0040",
@@ -570,14 +570,14 @@
       "argomento": "Pseudogeni",
       "testo": "Uno pseudogene è:",
       "opzioni": [
-        "una sequenza simile a un gene ma non funzionante",
-        "un gene privo di introni caratteristico dei procarioti",
+        "una sequenza ripetuta situata nella regione centromerica",
         "un gene la cui trascrizione avviene soltanto nei gameti",
-        "un tratto di DNA che codifica un RNA ribosomiale maturo",
-        "una sequenza ripetuta situata nella regione centromerica"
+        "un gene privo di introni caratteristico dei procarioti",
+        "una sequenza simile a un gene ma non funzionante",
+        "un tratto di DNA che codifica un RNA ribosomiale maturo"
       ],
-      "corretta": 0,
-      "spiegazione": "Uno pseudogene deriva da un gene reale, per duplicazione o per reinserzione di una copia retrotrascritta del suo mRNA, ma ha accumulato mutazioni che ne impediscono l'espressione o rendono non funzionale il prodotto. Se ne trovano diversi all'interno delle famiglie geniche, comprese quelle delle globine.\n\nB) L'assenza di introni è un carattere dei geni procariotici, e non li rende pseudogeni.\nC) L'espressione limitata ai gameti riguarda geni funzionanti a regolazione tessuto-specifica.\nD) I geni per gli rRNA sono geni funzionanti.\nE) Il DNA ripetuto centromerico non deriva da un gene."
+      "corretta": 3,
+      "spiegazione": "Uno pseudogene deriva da un gene reale, per duplicazione o per reinserzione di una copia retrotrascritta del suo mRNA, ma ha accumulato mutazioni che ne impediscono l'espressione o rendono non funzionale il prodotto. Se ne trovano diversi all'interno delle famiglie geniche, comprese quelle delle globine.\n\nA) Il DNA ripetuto centromerico non deriva da un gene.\nB) L'espressione limitata ai gameti riguarda geni funzionanti a regolazione tessuto-specifica.\nC) L'assenza di introni è un carattere dei geni procariotici, e non li rende pseudogeni.\nE) I geni per gli rRNA sono geni funzionanti."
     },
     {
       "id": "u2-0042",
@@ -598,14 +598,14 @@
       "argomento": "Microsatelliti e minisatelliti",
       "testo": "I microsatelliti si distinguono dai minisatelliti perché:",
       "opzioni": [
-        "sono distribuiti come copie singole e non in serie ripetute",
         "sono costituiti da sequenze codificanti brevi ma pienamente funzionali",
         "hanno un'unità ripetuta molto più corta, di poche paia di basi",
-        "si trovano soltanto nelle regioni telomeriche dei cromosomi",
-        "derivano da retrovirus integrati nel genoma della linea germinale"
+        "sono distribuiti come copie singole e non in serie ripetute",
+        "derivano da retrovirus integrati nel genoma della linea germinale",
+        "si trovano soltanto nelle regioni telomeriche dei cromosomi"
       ],
-      "corretta": 2,
-      "spiegazione": "Entrambi sono DNA ripetuto in tandem e la differenza sta nella lunghezza dell'unità: da una a sei paia di basi nei microsatelliti, dell'ordine delle decine nei minisatelliti.\n\nA) Sono ripetizioni in serie per definizione.\nB) Sono sequenze non codificanti.\nD) Sono distribuiti in tutto il genoma; è il DNA telomerico a essere confinato alle estremità.\nE) L'origine da retrovirus integrati riguarda i retrovirus endogeni, che sono sequenze intersperse e non ripetizioni in tandem."
+      "corretta": 1,
+      "spiegazione": "Entrambi sono DNA ripetuto in tandem e la differenza sta nella lunghezza dell'unità: da una a sei paia di basi nei microsatelliti, dell'ordine delle decine nei minisatelliti.\n\nA) Sono sequenze non codificanti.\nC) Sono ripetizioni in serie per definizione.\nD) L'origine da retrovirus integrati riguarda i retrovirus endogeni, che sono sequenze intersperse e non ripetizioni in tandem.\nE) Sono distribuiti in tutto il genoma; è il DNA telomerico a essere confinato alle estremità."
     },
     {
       "id": "u2-0044",
@@ -653,14 +653,14 @@
       "argomento": "Le sequenze Alu",
       "testo": "Le sequenze Alu del genoma umano:",
       "opzioni": [
-        "sono elementi ripetuti in tandem che costituiscono il DNA centromerico",
         "costituiscono la famiglia genica che codifica gli RNA ribosomiali",
         "sono i geni che codificano gli istoni presenti nel nucleosoma",
+        "sono la famiglia di sequenze intersperse più abbondante del genoma",
         "sono lunghe circa 6.000 paia di basi e codificano una trascrittasi inversa",
-        "sono la famiglia di sequenze intersperse più abbondante del genoma"
+        "sono elementi ripetuti in tandem che costituiscono il DNA centromerico"
       ],
-      "corretta": 4,
-      "spiegazione": "Le Alu sono SINE lunghe circa 300 paia di basi, presenti in oltre un milione di copie disperse nel genoma umano, dove occupano complessivamente all'incirca il 10% del DNA totale.\n\nA) Le Alu sono intersperse, cioè disseminate, non ripetute in tandem.\nB) I geni per gli RNA ribosomiali sono ripetuti in tandem nelle regioni organizzatrici del nucleolo.\nC) I geni degli istoni sono geni codificanti, del tutto estranei alle sequenze ripetute disperse.\nD) Le dimensioni indicate e la capacità di codificare una trascrittasi inversa sono proprie dei LINE, non delle Alu, che sono elementi corti e non autonomi."
+      "corretta": 2,
+      "spiegazione": "Le Alu sono SINE lunghe circa 300 paia di basi, presenti in oltre un milione di copie disperse nel genoma umano, dove occupano complessivamente all'incirca il 10% del DNA totale.\n\nA) I geni per gli RNA ribosomiali sono ripetuti in tandem nelle regioni organizzatrici del nucleolo.\nB) I geni degli istoni sono geni codificanti, del tutto estranei alle sequenze ripetute disperse.\nD) Le dimensioni indicate e la capacità di codificare una trascrittasi inversa sono proprie dei LINE, non delle Alu, che sono elementi corti e non autonomi.\nE) Le Alu sono intersperse, cioè disseminate, non ripetute in tandem."
     },
     {
       "id": "u2-0048",
@@ -682,14 +682,14 @@
       "argomento": "LINE e SINE",
       "testo": "Rispetto ai LINE, i SINE:",
       "opzioni": [
-        "si spostano tagliandosi e reinserendosi, senza un intermedio a RNA",
         "non codificano gli enzimi necessari alla propria mobilizzazione",
-        "sono molto più lunghi e contengono geni pienamente funzionanti",
+        "si trovano esclusivamente all'interno delle regioni codificanti",
         "sono presenti in poche decine di copie nel genoma umano",
-        "si trovano esclusivamente all'interno delle regioni codificanti"
+        "sono molto più lunghi e contengono geni pienamente funzionanti",
+        "si spostano tagliandosi e reinserendosi, senza un intermedio a RNA"
       ],
-      "corretta": 1,
-      "spiegazione": "I LINE sono elementi lunghi e autonomi: codificano una trascrittasi inversa e un'endonucleasi, e con quelle si spostano. I SINE, fra cui le Alu, sono corti e privi di capacità codificante, e per mobilizzarsi devono sfruttare gli enzimi prodotti dai LINE.\n\nA) Entrambi sono retrotrasposoni e si spostano attraverso un intermedio a RNA; il meccanismo di taglio è quello dei trasposoni a DNA.\nC) I SINE sono più corti dei LINE, non più lunghi.\nD) Le Alu da sole superano il milione di copie.\nE) Sono dispersi in tutto il genoma, introni compresi."
+      "corretta": 0,
+      "spiegazione": "I LINE sono elementi lunghi e autonomi: codificano una trascrittasi inversa e un'endonucleasi, e con quelle si spostano. I SINE, fra cui le Alu, sono corti e privi di capacità codificante, e per mobilizzarsi devono sfruttare gli enzimi prodotti dai LINE.\n\nB) Sono dispersi in tutto il genoma, introni compresi.\nC) Le Alu da sole superano il milione di copie.\nD) I SINE sono più corti dei LINE, non più lunghi.\nE) Entrambi sono retrotrasposoni e si spostano attraverso un intermedio a RNA; il meccanismo di taglio è quello dei trasposoni a DNA."
     },
     {
       "id": "u2-0050",
@@ -698,14 +698,14 @@
       "argomento": "Elementi mobili del DNA",
       "testo": "La differenza fra un trasposone a DNA e un retrotrasposone sta nel fatto che il secondo:",
       "opzioni": [
-        "si sposta soltanto durante la divisione meiotica della cellula germinale",
+        "si sposta attraverso un intermedio a RNA, retrotrascritto in DNA",
         "non è in grado di cambiare posizione all'interno del genoma dell'ospite",
         "si sposta tagliandosi dal sito di origine e reinserendosi altrove",
-        "si sposta attraverso un intermedio a RNA, retrotrascritto in DNA",
-        "è costituito da RNA anziché da DNA anche nella forma integrata"
+        "è costituito da RNA anziché da DNA anche nella forma integrata",
+        "si sposta soltanto durante la divisione meiotica della cellula germinale"
       ],
-      "corretta": 3,
-      "spiegazione": "Il retrotrasposone viene trascritto in RNA, l'RNA è retrotrascritto in DNA e la copia si inserisce in un nuovo sito: l'originale resta al suo posto, e il meccanismo è quindi «copia e incolla». Nell'uomo i retrotrasposoni sono di gran lunga i più abbondanti, e comprendono i LINE, i SINE e i retrovirus endogeni.\n\nA) La mobilizzazione non è ristretta alla meiosi, benché solo gli eventi nella linea germinale siano trasmessi ai discendenti.\nB) L'incapacità di spostarsi contraddice la definizione stessa di elemento mobile.\nC) Il meccanismo «taglia e incolla», mediato dalla trasposasi, è quello dei trasposoni a DNA.\nE) Nel genoma l'elemento è DNA in entrambi i casi: l'RNA è solo l'intermedio del trasferimento."
+      "corretta": 0,
+      "spiegazione": "Il retrotrasposone viene trascritto in RNA, l'RNA è retrotrascritto in DNA e la copia si inserisce in un nuovo sito: l'originale resta al suo posto, e il meccanismo è quindi «copia e incolla». Nell'uomo i retrotrasposoni sono di gran lunga i più abbondanti, e comprendono i LINE, i SINE e i retrovirus endogeni.\n\nB) L'incapacità di spostarsi contraddice la definizione stessa di elemento mobile.\nC) Il meccanismo «taglia e incolla», mediato dalla trasposasi, è quello dei trasposoni a DNA.\nD) Nel genoma l'elemento è DNA in entrambi i casi: l'RNA è solo l'intermedio del trasferimento.\nE) La mobilizzazione non è ristretta alla meiosi, benché solo gli eventi nella linea germinale siano trasmessi ai discendenti."
     }
   ]
 }

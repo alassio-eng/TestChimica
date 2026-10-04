@@ -193,6 +193,21 @@ def ciclo_massimo(seq):
     return massimo
 
 
+def periodo_massimo(seq):
+    """Lunghezza del più lungo tratto in cui la sequenza delle posizioni
+    corrette si ripete con periodo da 2 a 5 (per esempio B E C A D B E C A D):
+    un ciclo A B C D E è solo un caso particolare, e uno schema fisso ripetuto
+    rende il lotto indovinabile allo stesso modo. Restituisce (lunghezza, periodo)."""
+    migliore = (0, 0)
+    for p in range(2, 6):
+        corsa = 0
+        for i in range(p, len(seq)):
+            corsa = corsa + 1 if seq[i] == seq[i - p] else 0
+            if corsa and corsa + p > migliore[0]:
+                migliore = (corsa + p, p)
+    return migliore
+
+
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     solo = None
@@ -243,6 +258,11 @@ def main() -> int:
                     avvisi.append(f"{r['id']}/{file}: la posizione della risposta "
                                   f"corretta avanza ciclicamente per {n} quesiti "
                                   f"di fila: il lotto è indovinabile")
+                lung, p = periodo_massimo(seq)
+                if lung >= 10:
+                    avvisi.append(f"{r['id']}/{file}: le posizioni della risposta "
+                                  f"corretta ripetono uno schema fisso di {p} "
+                                  f"per {lung} quesiti di fila: il lotto è indovinabile")
 
     print(f"\nTotale: {totale} domande in tutte le materie.")
     for a in avvisi:

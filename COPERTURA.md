@@ -2,7 +2,7 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**2160 domande su 2200** a regime.
+**2210 domande su 2200** a regime.
 
 
 ---
@@ -1336,13 +1336,13 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Biologia — 770/820
+## Biologia — 820/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Le basi dell'organizzazione biologica e molecolare della vita | 80/80 | 40M + 40C | 80 | 3 |
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
-| U3 | Il flusso dell'informazione | 130/180 | 65M + 65C | 130 | 7 |
+| U3 | Il flusso dell'informazione | 180/180 | 90M + 90C | 180 | 7 |
 | U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 110/110 | 55M + 55C | 110 | 4 |
 | U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 200/200 | 100M + 100C | 200 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
@@ -1500,17 +1500,21 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U3 — Il flusso dell'informazione
 
-130 domande su 180 · 65 a risposta multipla e 65 a completamento · 130 argomenti distinti · file: biologia-u3-01.json, biologia-u3-03.json, biologia-u3-04.json
+180 domande su 180 · 90 a risposta multipla e 90 a completamento · 180 argomenti distinti · file: biologia-u3-01.json, biologia-u3-02.json, biologia-u3-03.json, biologia-u3-04.json
 
 - Allungamento della trascrizione
 - Aminoacil-tRNA
+- Amminoacido iniziale
 - Anatomia del gene procariotico ed eucariotico
+- Anticodone
 - Antiparallelismo
 - Associazione delle subunità ribosomiali
 - Attività peptidil-transferasica
+- Bidirezionalità della replicazione
 - Bolla di replicazione
 - Bolla di trascrizione
 - Capping del pre-mRNA
+- Cappuccio in 5'
 - Chaperon molecolari
 - Chaperonine
 - Chimica dello splicing
@@ -1518,25 +1522,32 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Codice genetico
 - Codone
 - Codone AUG
+- Codoni di stop
 - Codoni e anticodoni
 - Complementarità delle basi
+- Complesso RISC
 - Complesso d'inizio della replicazione
+- Complesso di preinizio
 - Conseguenze dell'inattivazione della primasi
 - Controllo di qualità dei trascritti
 - Controllo negativo e positivo
 - Controllo post-traduzionale
 - Controllo post-trascrizionale
 - Controllo traduzionale
+- Controllo trascrizionale
+- Cornice di lettura
 - Correzione degli errori delle DNA polimerasi
 - Cromosoma circolare ed estremità
 - DNA ligasi
 - Dal numero di nucleotidi al numero di amminoacidi
+- Decapucciamento
 - Definizione di gene
 - Degenerazione del codice genetico
 - Degradazione dell'mRNA
 - Degradazione proteasomica
 - Destino delle proteine non recuperabili
 - Deubiquitinasi
+- Differenze fra RNA polimerasi e DNA polimerasi
 - Dimensione del codone
 - Direzione dei frammenti di Okazaki
 - Direzione della traduzione
@@ -1544,10 +1555,14 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Distribuzione dei filamenti parentali
 - Editing dell'RNA
 - Editing per deaminazione
+- Elementi di risposta agli ormoni
 - Elementi regolativi in cis
 - Emivita dell'mRNA
 - Energia della traduzione
+- Enzimi dell'ubiquitinazione
+- Errori di ripiegamento
 - Esiti del silenziamento mediato da RISC
+- Esoni
 - Espressione genica
 - Espressione genica differenziale
 - Fattori di trascrizione generali
@@ -1559,23 +1574,32 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Fedeltà della traduzione
 - Filamento codificante
 - Filamento continuo e discontinuo
+- Filamento guida
 - Filamento in ritardo
 - Filamento stampo della trascrizione
+- Forcella replicativa
 - Formazione degli aminoacil-tRNA
 - Frammenti di Okazaki
+- Funzione dei telomeri
+- Generazione dei piccoli RNA regolatori
 - Geni policistronici
 - Giunzioni esone-esone
+- Il gene lacI e il repressore
 - Indipendenza da posizione e orientamento dell'enhancer
+- Inizio della traduzione negli eucarioti
 - Innesco della replicazione
 - Introni ed esoni
 - Le tre RNA polimerasi eucariotiche
 - Legame fosfodiestere
 - Legame peptidico
 - Livelli di controllo dell'espressione genica
+- Maturazione co-trascrizionale
 - Maturazione degli rRNA
 - Maturazione dei tRNA
 - Maturazione dell'RNA
+- Meccanismo semiconservativo
 - Natura enzimatica della telomerasi
+- Operone
 - Operone lac senza lattosio né glucosio
 - Operone lac: l'induttore
 - Operone lac: l'operatore
@@ -1585,53 +1609,79 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Operone lac: ruolo dell'operatore
 - Operoni inducibili
 - Origine dell'informazione per il ripiegamento
+- Origine di replicazione
+- Origini di replicazione nei procarioti e negli eucarioti
+- Passaggio dall'inizio all'allungamento
 - Polarità della catena polipeptidica
 - Poliadenilazione
+- Polisomi
 - Poliubiquitinazione
 - Problema della replicazione delle estremità
+- Prodotti dell'operone lac
 - Prodotti dello splicing
 - Prodotto della polimerizzazione
 - Promotore
+- Promotore procariotico
 - Promotore prossimale
 - Promotori distali: enhancer
 - Proprietà del codice genetico
+- Proteasoma
 - Proteina attivatrice dell'operone lac
 - Proteine chaperon
+- Proteine da shock termico
 - Proteine simili all'ubiquitina
 - Punto di ramificazione
 - RNA interference
 - RNA non codificanti
+- RNA polimerasi I
+- Regioni non tradotte dell'mRNA
 - Replicazione e trascrizione a confronto
 - Replicazione semiconservativa
+- Repressione da catabolita
+- Ribozimi
+- Rimozione degli inneschi a RNA
 - Ruolo della DNA ligasi
 - Sede della maturazione degli rRNA
 - Sede della maturazione dell'mRNA
+- Segnale di poliadenilazione
 - Senescenza replicativa
+- Sequenza telomerica
 - Sequenze consenso degli introni
+- Sequenze trascritte e non tradotte
+- Silencer
 - Siti del ribosoma
 - Siti del ribosoma: sito E
+- Siti del ribosoma: sito P
 - Sito di inizio della trascrizione
 - Sostituzioni in terza posizione
 - Spliceosoma
 - Splicing
 - Splicing alternativo
+- Splicing alternativo: terminologia
 - Srotolamento del DNA alla forcella
 - Stabilità dell'mRNA e resa proteica
+- Struttura del tRNA
+- Substrati ed energia della sintesi del DNA
 - TATA box
 - TBP
 - Telomerasi
 - Telomerasi e proliferazione illimitata
+- Telomerasi: definizione
 - Telomero
 - Terminazione della traduzione
+- Terminazione della trascrizione negli eucarioti
 - Terminazione e riciclo del ribosoma
 - Topoisomerasi e superavvolgimenti
 - Traduzione nei procarioti e negli eucarioti
 - Trascritto primario
+- Traslocazione del ribosoma
 - Ubiquitina
+- Universalità del codice genetico
 - mRNA monocistronico
 - miRNA
 - microRNA
 - snRNA
+- snRNP dello spliceosoma
 
 ### U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
 
