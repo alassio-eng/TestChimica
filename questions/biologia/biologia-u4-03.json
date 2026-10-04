@@ -17,7 +17,7 @@
         "La presenza di una base azotata chimicamente alterata"
       ],
       "corretta": 2,
-      "spiegazione": "Quando la rottura interessa entrambi i filamenti, nella molecola non resta alcun tratto integro da copiare: l'informazione di quella regione è persa su entrambe le eliche. Per questo le rotture a doppio filamento richiedono meccanismi dedicati, che o ricorrono a una copia esterna della sequenza, il cromatidio fratello, o risaldano direttamente le estremità accettando qualche perdita di nucleotidi.\n\nA) L'appaiamento errato riguarda il solo filamento di nuova sintesi e viene corretto dalla riparazione del mismatch sul modello del filamento parentale.\nE) e B) Una base alterata o deaminata viene rimossa dalla riparazione per escissione di base, che poi risintetizza il nucleotide corretto copiando il filamento opposto.\nD) Il dimero di timina viene eliminato con l'escissione di nucleotidi, che asporta un tratto di un solo filamento e lo ricostruisce sull'altro."
+      "spiegazione": "Quando la rottura interessa entrambi i filamenti, nella molecola non resta alcun tratto integro da copiare: l'informazione di quella regione è persa su entrambe le eliche. Per questo le rotture a doppio filamento richiedono meccanismi dedicati, che o ricorrono a una copia esterna della sequenza, il cromatidio fratello, o risaldano direttamente le estremità accettando qualche perdita di nucleotidi.\n\nA) L'appaiamento errato riguarda il solo filamento di nuova sintesi e viene corretto dalla riparazione del mismatch sul modello del filamento parentale.\nB) e E) Una base alterata o deaminata viene rimossa dalla riparazione per escissione di base, che poi risintetizza il nucleotide corretto copiando il filamento opposto.\nD) Il dimero di timina viene eliminato con l'escissione di nucleotidi, che asporta un tratto di un solo filamento e lo ricostruisce sull'altro."
     },
     {
       "id": "u4-0102",
@@ -47,7 +47,7 @@
         "è formata per metà da individui simili a ciascun genitore"
       ],
       "corretta": 1,
-      "spiegazione": "Ciascun genitore è omozigote e produce un solo tipo di gamete: tutti i figli risultano eterozigoti e, con dominanza completa, mostrano il carattere dominante. L'uniformità della prima generazione filiale è la legge della dominanza, il primo dei risultati ottenuti da Mendel.\n\nC) e D) Il rapporto 3 : 1, e quindi la ricomparsa di un quarto di individui recessivi, si osserva nella seconda generazione filiale, incrociando fra loro gli ibridi.\nA) Il fenotipo intermedio comparirebbe in caso di dominanza incompleta, qui esclusa dall'enunciato.\nE) La progenie divisa a metà fra i due fenotipi parentali è l'esito del reincrocio di prova, non di questo incrocio."
+      "spiegazione": "Ciascun genitore è omozigote e produce un solo tipo di gamete: tutti i figli risultano eterozigoti e, con dominanza completa, mostrano il carattere dominante. L'uniformità della prima generazione filiale è descritta dalla legge della dominanza, detta anche dell'uniformità degli ibridi.\n\nA) Il fenotipo intermedio comparirebbe in caso di dominanza incompleta, qui esclusa dall'enunciato.\nC) e D) Il rapporto 3 : 1, e quindi la ricomparsa di un quarto di individui recessivi, si osserva nella seconda generazione filiale, incrociando fra loro gli ibridi.\nE) La progenie divisa a metà fra i due fenotipi parentali è l'esito del reincrocio di prova, non di questo incrocio."
     },
     {
       "id": "u4-0104",
@@ -77,7 +77,7 @@
         "di gruppo AB oppure 0, come i rispettivi genitori"
       ],
       "corretta": 3,
-      "spiegazione": "I genotipi dei genitori sono AB e 00. Il padre trasmette A oppure B, la madre sempre 0: i figli possibili sono A0 e B0, cioè di gruppo A o di gruppo B, ciascuno con probabilità del 50%. Nessun figlio può essere AB, perché dalla madre arriva comunque l'allele 0, né di gruppo 0, perché dal padre arriva comunque A o B.\n\nE) È l'errore di chi si attende che i figli ripetano i gruppi dei genitori: qui sono proprio i due gruppi impossibili.\nA) L'allele 0 è recessivo, ma nei figli è sempre accompagnato da A o da B, che si manifestano.\nC) Due dei quattro gruppi sono esclusi dai genotipi dei genitori.\nB) Il gruppo AB richiede che un genitore trasmetta A e l'altro B: la madre non possiede nessuno dei due alleli."
+      "spiegazione": "I genotipi dei genitori sono AB e 00. Il padre trasmette A oppure B, la madre sempre 0: i figli possibili sono A0 e B0, cioè di gruppo A o di gruppo B, ciascuno con probabilità del 50%. Nessun figlio può essere AB, perché dalla madre arriva comunque l'allele 0, né di gruppo 0, perché dal padre arriva comunque A o B.\n\nA) L'allele 0 è recessivo, ma nei figli è sempre accompagnato da A o da B, che si manifestano.\nB) Il gruppo AB richiede che un genitore trasmetta A e l'altro B: la madre non possiede nessuno dei due alleli.\nC) Due dei quattro gruppi sono esclusi dai genotipi dei genitori.\nE) È l'errore di chi si attende che i figli ripetano i gruppi dei genitori: qui sono proprio i due gruppi impossibili."
     },
     {
       "id": "u4-0106",

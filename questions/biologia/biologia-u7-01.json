@@ -263,10 +263,10 @@
         "solo se sono inattivati entrambi gli alleli",
         "solo se la mutazione è ereditata attraverso la linea germinale",
         "solo se la mutazione causa la perdita di funzione della proteina",
-        "solo se nella stessa cellula è mutato anche l'altro allele del proto-oncogene"
+        "solo se nella stessa cellula è già stato perso un oncosoppressore"
       ],
       "corretta": 0,
-      "spiegazione": "La mutazione che trasforma un proto-oncogene in oncogene è un guadagno di funzione: la proteina è iperattiva, o prodotta in eccesso, e l'effetto si manifesta anche se l'altro allele è normale. A livello cellulare l'oncogene agisce quindi in modo dominante.\n\nB) È la regola dei geni oncosoppressori, che agiscono in modo recessivo a livello cellulare perché basta un allele funzionante a garantirne la funzione.\nC) Nella grande maggioranza dei tumori gli oncogeni derivano da mutazioni somatiche.\nD) Una perdita di funzione è tipica dell'inattivazione degli oncosoppressori; il proto-oncogene diventa oncogene per guadagno di funzione.\nE) Riformula il modello recessivo degli oncosoppressori, che non vale per gli oncogeni."
+      "spiegazione": "La mutazione che trasforma un proto-oncogene in oncogene è un guadagno di funzione: la proteina è iperattiva, o prodotta in eccesso, e l'effetto si manifesta anche se l'altro allele è normale. A livello cellulare l'oncogene agisce quindi in modo dominante.\n\nB) È la regola dei geni oncosoppressori, che agiscono in modo recessivo a livello cellulare perché basta un allele funzionante a garantirne la funzione.\nC) Nella grande maggioranza dei tumori gli oncogeni derivano da mutazioni somatiche.\nD) Una perdita di funzione è tipica dell'inattivazione degli oncosoppressori; il proto-oncogene diventa oncogene per guadagno di funzione.\nE) L'oncogene agisce di per sé: nella storia di un tumore si accumulano di solito anche perdite di oncosoppressori, ma non sono la condizione perché l'oncogene abbia effetto."
     },
     {
       "id": "u7-0019",

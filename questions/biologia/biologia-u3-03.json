@@ -210,7 +210,7 @@
         "Glucosio abbondante e lattosio presente solo in tracce"
       ],
       "corretta": 2,
-      "spiegazione": "Servono due condizioni simultanee: l'allolattosio derivato dal lattosio stacca il repressore dall'operatore, e la scarsità di glucosio mantiene alto il cAMP, così che CAP si leghi e renda efficiente il promotore. Solo allora il controllo negativo è rimosso e quello positivo è attivo.\n\nA) Con glucosio abbondante il cAMP è basso e la trascrizione resta modesta anche se il repressore è staccato.\nB) In assenza di lattosio l'operone è spento, a prescindere dal livello di cAMP.\nD) Senza lattosio il repressore resta sull'operatore e l'operone è spento.\nE) Tracce di lattosio non bastano a derepimere l'operone e il glucosio tiene comunque basso il cAMP."
+      "spiegazione": "Servono due condizioni simultanee: l'allolattosio derivato dal lattosio stacca il repressore dall'operatore, e la scarsità di glucosio mantiene alto il cAMP, così che CAP si leghi e renda efficiente il promotore. Solo allora il controllo negativo è rimosso e quello positivo è attivo.\n\nA) Con glucosio abbondante il cAMP è basso e la trascrizione resta modesta anche se il repressore è staccato.\nB) In assenza di lattosio l'operone è spento, a prescindere dal livello di cAMP.\nD) Senza lattosio il repressore resta sull'operatore e l'operone è spento.\nE) Tracce di lattosio non bastano a dereprimere l'operone e il glucosio tiene comunque basso il cAMP."
     },
     {
       "id": "u3-0115",
@@ -462,7 +462,7 @@
         "Nel reticolo endoplasmatico ruvido, mentre la proteina viene sintetizzata"
       ],
       "corretta": 0,
-      "spiegazione": "La maturazione è nucleare e in buona parte co-trascrizionale: il messaggero raggiunge il citoplasma già capucciato, privo di introni e poliadenilato. È proprio la separazione fra nucleo e citoplasma a rendere possibili questi controlli, che nei procarioti non esistono.\n\nB) Nel citoplasma il messaggero viene tradotto, non maturato: uno spliceosoma citoplasmatico non esiste.\nC) I mitocondri hanno un proprio sistema di espressione, distinto da quello nucleare.\nD) Un messaggero non maturato non verrebbe neppure esportato: i controlli precedono l'uscita.\nE) Nel reticolo avviene la maturazione di alcune proteine, non quella degli RNA."
+      "spiegazione": "La maturazione è nucleare e in buona parte co-trascrizionale: il messaggero raggiunge il citoplasma già cappucciato, privo di introni e poliadenilato. È proprio la separazione fra nucleo e citoplasma a rendere possibili questi controlli, che nei procarioti non esistono.\n\nB) Nel citoplasma il messaggero viene tradotto, non maturato: uno spliceosoma citoplasmatico non esiste.\nC) I mitocondri hanno un proprio sistema di espressione, distinto da quello nucleare.\nD) Un messaggero non maturato non verrebbe neppure esportato: i controlli precedono l'uscita.\nE) Nel reticolo avviene la maturazione di alcune proteine, non quella degli RNA."
     },
     {
       "id": "u3-0132",

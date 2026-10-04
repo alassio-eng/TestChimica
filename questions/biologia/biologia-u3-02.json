@@ -402,7 +402,7 @@
         "Durante la replicazione, sul DNA, prima ancora che il gene venga trascritto"
       ],
       "corretta": 2,
-      "spiegazione": "Il capping è co-trascrizionale: avviene quando il trascritto nascente è lungo appena qualche decina di nucleotidi, grazie agli enzimi reclutati sul dominio carbossiterminale fosforilato della polimerasi. Anche splicing e poliadenilazione cominciano mentre la trascrizione è ancora in corso.\n\nA) Il cappuccio precede lo splicing e vi partecipa, favorendo il riconoscimento del primo introne.\nB) Il messaggero arriva nel citoplasma già maturo: nel citosol non avviene capping.\nD) L'ordine è invertito: il cappuccio è la prima modifica, la coda di poli-A l'ultima.\nE) La maturazione riguarda l'RNA: il DNA non viene capucciato."
+      "spiegazione": "Il capping è co-trascrizionale: avviene quando il trascritto nascente è lungo appena qualche decina di nucleotidi, grazie agli enzimi reclutati sul dominio carbossiterminale fosforilato della polimerasi. Anche splicing e poliadenilazione cominciano mentre la trascrizione è ancora in corso.\n\nA) Il cappuccio precede lo splicing e vi partecipa, favorendo il riconoscimento del primo introne.\nB) Il messaggero arriva nel citoplasma già maturo: nel citosol non avviene capping.\nD) L'ordine è invertito: il cappuccio è la prima modifica, la coda di poli-A l'ultima.\nE) La maturazione riguarda l'RNA: il DNA non viene cappucciato."
     },
     {
       "id": "u3-0078",
@@ -636,7 +636,8 @@
       "accettate": [
         "peptidilico",
         "peptidilici",
-        "sito peptidilico"
+        "sito peptidilico",
+        "donatore"
       ],
       "spiegazione": "È il sito indicato con la lettera P: durante la traslocazione vi entra il tRNA che ha appena ricevuto la catena e da lì, al ciclo successivo, passerà al sito di uscita una volta scaricato.\n\nGli altri due sono il sito A, o aminoacilico, dove entra il tRNA carico e viene verificato l'appaiamento con il codone, e il sito E, di uscita, dal quale il tRNA lascia il ribosoma."
     },

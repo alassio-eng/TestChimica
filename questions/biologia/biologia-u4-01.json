@@ -170,14 +170,14 @@
       "id": "u4-0012",
       "unita": "u4",
       "tipo": "completamento",
-      "argomento": "Prima legge di Mendel",
-      "testo": "Il principio secondo cui i due alleli di un gene si separano l'uno dall'altro durante la formazione dei gameti, così che ogni gamete ne riceva uno solo, è la prima legge di Mendel, o legge della ……",
+      "argomento": "Legge della segregazione",
+      "testo": "Il principio secondo cui i due alleli di un gene si separano l'uno dall'altro durante la formazione dei gameti, così che ogni gamete ne riceva uno solo, è noto come legge della ……",
       "accettate": [
         "segregazione",
         "segregazione dei caratteri",
         "segregazione degli alleli"
       ],
-      "spiegazione": "La legge della segregazione spiega perché l'incrocio fra due eterozigoti restituisce il carattere recessivo scomparso nella prima generazione: gli alleli non si mescolano, si separano intatti e si ricombinano nella fecondazione.\n\nLa seconda legge, dell'assortimento indipendente, riguarda invece il comportamento reciproco di due geni diversi. La legge della dominanza, o dell'uniformità degli ibridi, descrive il fatto che la prima generazione da genitori di linea pura è tutta uguale e mostra il solo carattere dominante."
+      "spiegazione": "La legge della segregazione spiega perché l'incrocio fra due eterozigoti restituisce il carattere recessivo scomparso nella prima generazione: gli alleli non si mescolano, si separano intatti e si ricombinano nella fecondazione.\n\nLa legge dell'assortimento indipendente riguarda invece il comportamento reciproco di due geni diversi. La legge della dominanza, o dell'uniformità degli ibridi, descrive il fatto che la prima generazione da genitori di linea pura è tutta uguale e mostra il solo carattere dominante."
     },
     {
       "id": "u4-0013",
@@ -358,8 +358,8 @@
       "id": "u4-0025",
       "unita": "u4",
       "tipo": "multipla",
-      "argomento": "Seconda legge di Mendel: assortimento indipendente",
-      "testo": "La seconda legge di Mendel, l'assortimento indipendente, si verifica rigorosamente quando i due geni considerati:",
+      "argomento": "Legge dell'assortimento indipendente",
+      "testo": "L'assortimento indipendente descritto da Mendel si verifica rigorosamente quando i due geni considerati:",
       "opzioni": [
         "sono adiacenti l'uno all'altro sullo stesso cromosoma",
         "presentano entrambi dominanza completa fra i propri alleli",
@@ -558,7 +558,7 @@
         "interessa l'intero assetto cromosomico, presente in più di due copie"
       ],
       "corretta": 4,
-      "spiegazione": "Nella poliploidia il numero di cromosomi resta un multiplo esatto del corredo aploide, ma il multiplo è superiore a due: 3n, 4n. È quindi una forma di euploidia anomala, diversa dall'aneuploidia, in cui varia il numero di singoli cromosomi e il totale non è più un multiplo di n. Nell'uomo la poliploidia non è compatibile con la vita ed è causa di aborto precoce.\n\nA) La presenza di un solo cromosoma sovrannumerario è la definizione di trisomia, cioè di aneuploidia.\nB) Il crossing over ineguale genera duplicazioni e delezioni di segmenti, non assetti cromosomici multipli.\nC) La perdita di un segmento interno è una delezione, un'alterazione di struttura.\nD) È vero il contrario: molte aneuploidie sono compatibili con la vita, la poliploidia nell'uomo no."
+      "spiegazione": "Nella poliploidia il numero di cromosomi resta un multiplo esatto del corredo aploide, ma il multiplo è superiore a due: 3n, 4n. È quindi una forma di euploidia anomala, diversa dall'aneuploidia, in cui varia il numero di singoli cromosomi e il totale non è più un multiplo di n. Nell'uomo la poliploidia non è compatibile con la vita ed è causa di aborto precoce.\n\nA) La presenza di un solo cromosoma sovrannumerario è la definizione di trisomia, cioè di aneuploidia.\nB) Il crossing over ineguale genera duplicazioni e delezioni di segmenti, non assetti cromosomici multipli.\nC) La perdita di un segmento interno è una delezione, un'alterazione di struttura.\nD) È vero il contrario: alcune aneuploidie sono compatibili con la vita, la poliploidia nell'uomo no."
     },
     {
       "id": "u4-0039",

@@ -666,8 +666,8 @@
       "id": "u2-0048",
       "unita": "u2",
       "tipo": "completamento",
-      "argomento": "SINE",
-      "testo": "La famiglia di sequenze intersperse corte più abbondante nel genoma umano, lunga circa 300 paia di basi, prende il nome di sequenze ……",
+      "argomento": "SINE: le sequenze Alu",
+      "testo": "Fra i SINE, gli elementi ripetuti intersperse corti del genoma umano, la famiglia più abbondante, con elementi lunghi circa 300 paia di basi, prende il nome di sequenze ……",
       "accettate": [
         "alu",
         "elementi alu",

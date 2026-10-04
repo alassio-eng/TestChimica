@@ -536,14 +536,14 @@
       "argomento": "Codoni e anticodoni",
       "testo": "Un tRNA porta l'anticodone 3'-UAC-5'. Quale codone dell'mRNA riconosce?",
       "opzioni": [
-        "3'-AUG-5'",
+        "5'-CAU-3'",
         "5'-UAC-3'",
         "5'-GUA-3'",
         "5'-AUG-3'",
         "5'-ATG-3'"
       ],
       "corretta": 3,
-      "spiegazione": "Codone e anticodone si appaiano in modo antiparallelo e complementare: alla U dell'anticodone corrisponde una A, alla A una U, alla C una G. Leggendo il codone nel verso convenzionale 5'→3' si ottiene AUG, il codone di inizio, che specifica la metionina.\n\nA) La sequenza di basi è giusta ma la polarità è invertita: i codoni si scrivono da 5' a 3'.\nB) Ripete la sequenza dell'anticodone anziché il suo complemento.\nC) È il complemento scritto nel verso sbagliato, l'errore tipico di chi dimentica l'antiparallelismo.\nE) Contiene timina: appartiene al DNA, non a un mRNA."
+      "spiegazione": "Codone e anticodone si appaiano in modo antiparallelo e complementare: alla U dell'anticodone corrisponde una A, alla A una U, alla C una G. Leggendo il codone nel verso convenzionale 5'→3' si ottiene AUG, il codone di inizio, che specifica la metionina.\n\nA) È l'anticodone soltanto capovolto, cioè riletto da 5' a 3' senza farne il complemento: si appaierebbe a un anticodone 3'-GUA-5'.\nB) Ripete la sequenza dell'anticodone anziché il suo complemento.\nC) È il complemento scritto nel verso sbagliato: le basi AUG lette da 3' a 5' corrispondono, nel verso convenzionale, al codone GUA, che specifica la valina. È l'errore tipico di chi dimentica l'antiparallelismo.\nE) Contiene timina: appartiene al DNA, non a un mRNA."
     },
     {
       "id": "u3-0038",
@@ -631,7 +631,8 @@
       "testo": "Il sito del ribosoma in cui entra l'aminoacil-tRNA carico, indicato con la lettera A, è detto sito ……",
       "accettate": [
         "aminoacilico",
-        "amminoacilico"
+        "amminoacilico",
+        "accettore"
       ],
       "spiegazione": "Nel sito aminoacilico avviene il controllo dell'appaiamento fra codone e anticodone; se l'appaiamento è corretto, l'amminoacido viene trasferito sulla catena nascente.\n\nGli altri due siti sono il sito P, o peptidilico, che ospita il tRNA legato alla catena in crescita, e il sito E, di uscita, da cui il tRNA scarico abbandona il ribosoma. La traslocazione sposta i tRNA da A a P e da P a E."
     },

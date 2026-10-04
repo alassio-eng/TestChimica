@@ -422,7 +422,7 @@
         "La trasferisce nel nucleo, dove viene smontata dagli enzimi nucleari"
       ],
       "corretta": 3,
-      "spiegazione": "Quando il recupero fallisce l'alternativa è l'eliminazione: la proteina viene ubiquitinata e demolita dal proteasoma, e i suoi amminoacidi tornano disponibili. È il modo in cui la cellula impedisce che le molecole mal ripiegate si accumulino e aggreghino.\n\nA) L'espulsione non risolverebbe nulla e non esiste una via di questo tipo per le proteine citosoliche difettose.\nB) La sequenza è stabilita dal messaggero e non può essere modificata dopo la sintesi.\nC) Conservarla sarebbe pericoloso, perché le superfici idrofobiche esposte favoriscono l'aggregazione.\nE) La degradazione non avviene nel nucleo: il proteasoma opera nel citosol e nel nucleo stesso, ma non è lì che la proteina viene inviata come soluzione di ripiego."
+      "spiegazione": "Quando il recupero fallisce l'alternativa è l'eliminazione: la proteina viene ubiquitinata e demolita dal proteasoma, e i suoi amminoacidi tornano disponibili. È il modo in cui la cellula impedisce che le molecole mal ripiegate si accumulino e aggreghino.\n\nA) L'espulsione non risolverebbe nulla e non esiste una via di questo tipo per le proteine citosoliche difettose.\nB) La sequenza è stabilita dal messaggero e non può essere modificata dopo la sintesi.\nC) Conservarla sarebbe pericoloso, perché le superfici idrofobiche esposte favoriscono l'aggregazione.\nE) La proteina non viene spedita in un altro compartimento per essere smontata: viene marcata con ubiquitina e degradata dal proteasoma."
     },
     {
       "id": "u3-0180",
