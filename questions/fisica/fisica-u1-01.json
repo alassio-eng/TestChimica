@@ -30,7 +30,7 @@
         "mol",
         "moli"
       ],
-      "spiegazione": "La mole è una delle sette unità fondamentali del SI e contiene un numero di entità elementari pari alla costante di Avogadro, 6,022 × 10²³ mol⁻¹.\n\nLe altre sei unità fondamentali sono metro, chilogrammo, secondo, ampere, kelvin e candela."
+      "spiegazione": "La mole è una delle sette unità fondamentali del SI e contiene un numero di entità elementari pari al numero di Avogadro, circa 6,022 × 10²³ (la costante di Avogadro, che ha le dimensioni dell'inverso di una quantità di sostanza, vale 6,022 × 10²³ mol⁻¹).\n\nLe altre sei unità fondamentali sono metro, chilogrammo, secondo, ampere, kelvin e candela."
     },
     {
       "id": "u1-0003",
@@ -553,7 +553,7 @@
         "kg·m⁻¹·s⁻¹"
       ],
       "corretta": 0,
-      "spiegazione": "1 Pa = 1 N/m², e il newton vale 1 kg·m·s⁻²: dividendo per m² si ottiene 1 kg·m⁻¹·s⁻².\n\nB) kg·m·s⁻² è il newton, cioè l'unità della forza.\nC) kg·m²·s⁻² è il joule, unità di lavoro ed energia.\nD) kg·m⁻³ è l'unità della densità.\nE) kg·m⁻¹·s⁻¹ è il pascal per secondo, unità della viscosità dinamica."
+      "spiegazione": "1 Pa = 1 N/m², e il newton vale 1 kg·m·s⁻²: dividendo per m² si ottiene 1 kg·m⁻¹·s⁻².\n\nB) kg·m·s⁻² è il newton, cioè l'unità della forza.\nC) kg·m²·s⁻² è il joule, unità di lavoro ed energia.\nD) kg·m⁻³ è l'unità della densità.\nE) kg·m⁻¹·s⁻¹ è il pascal·secondo (Pa·s), unità della viscosità dinamica."
     },
     {
       "id": "u1-0040",
@@ -588,9 +588,10 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Relazione fondamentale della trigonometria",
-      "testo": "Per qualunque angolo, la somma del quadrato del seno e del quadrato del coseno vale ……",
+      "testo": "Per qualunque angolo, la somma del quadrato del seno e del quadrato del coseno è uguale all'……",
       "accettate": [
-        "uno",
+        "unità",
+        "all'unità",
         "1"
       ],
       "spiegazione": "L'identità sen²α + cos²α = 1 è la traduzione del teorema di Pitagora nella circonferenza di raggio unitario, dove seno e coseno sono i due cateti e il raggio è l'ipotenusa.\n\nÈ la relazione che garantisce che le due componenti cartesiane di un vettore ricostruiscano sempre il modulo di partenza: v²cos²θ + v²sen²θ = v²."

@@ -29,7 +29,7 @@
         "2,0 × 10⁻⁷ m"
       ],
       "corretta": 0,
-      "spiegazione": "Da c = λf si ricava λ = c/f = (3,0 × 10⁸)/(6,0 × 10¹⁴) = 0,50 × 10⁻⁶ m = 5,0 × 10⁻⁷ m, cioè 500 nm: è luce visibile.\n\nE) Inverte il rapporto delle mantisse (6/3 = 2 invece di 3/6 = 0,5) pur tenendo l'esponente corretto.\nB) È f/c: la formula è capovolta, e il risultato avrebbe le dimensioni di m⁻¹, non di una lunghezza.\nC) Errore di una potenza di dieci: 0,50 × 10⁻⁶ va riscritto come 5,0 × 10⁻⁷, non come 5,0 × 10⁻⁶.\nD) È il prodotto c·f invece del rapporto: le dimensioni sarebbero m/s², non metri."
+      "spiegazione": "Da c = λf si ricava λ = c/f = (3,0 × 10⁸)/(6,0 × 10¹⁴) = 0,50 × 10⁻⁶ m = 5,0 × 10⁻⁷ m, cioè 500 nm: è luce visibile.\n\nB) È f/c: la formula è capovolta, e il risultato avrebbe le dimensioni di m⁻¹, non di una lunghezza.\nC) Errore di una potenza di dieci: 0,50 × 10⁻⁶ va riscritto come 5,0 × 10⁻⁷, non come 5,0 × 10⁻⁶.\nD) È il prodotto c·f invece del rapporto: le dimensioni sarebbero m/s², non metri.\nE) Inverte il rapporto delle mantisse (6/3 = 2 invece di 3/6 = 0,5) pur tenendo l'esponente corretto."
     },
     {
       "id": "u7-0003",
@@ -57,7 +57,7 @@
         "la frequenza aumenta, la lunghezza d'onda resta invariata"
       ],
       "corretta": 0,
-      "spiegazione": "La frequenza è fissata dalla sorgente e non cambia attraversando la superficie di separazione. Nel vetro la velocità scende a v = c/n ≈ 2,0 × 10⁸ m/s e, poiché λ = v/f, la lunghezza d'onda si riduce dello stesso fattore 1,5.\n\nC) Se la velocità cambia e la frequenza no, λ = v/f deve cambiare: non possono restare invariate entrambe.\nB) La frequenza non cambia nel passaggio; è la lunghezza d'onda che si adatta alla nuova velocità.\nD) Nel vetro la luce rallenta. L'idea che in un mezzo più denso l'onda vada più veloce viene dal suono nei solidi e non vale per la luce.\nE) La frequenza non cambia, e se cambiasse con v diminuita anche λ dovrebbe variare."
+      "spiegazione": "La frequenza è fissata dalla sorgente e non cambia attraversando la superficie di separazione. Nel vetro la velocità scende a v = c/n ≈ 2,0 × 10⁸ m/s e, poiché λ = v/f, la lunghezza d'onda si riduce dello stesso fattore 1,5.\n\nB) La frequenza non cambia nel passaggio; è la lunghezza d'onda che si adatta alla nuova velocità.\nC) Se la velocità cambia e la frequenza no, λ = v/f deve cambiare: non possono restare invariate entrambe.\nD) Nel vetro la luce rallenta. L'idea che in un mezzo più denso l'onda vada più veloce viene dal suono nei solidi e non vale per la luce.\nE) La frequenza non cambia, e se cambiasse con v diminuita anche λ dovrebbe variare."
     },
     {
       "id": "u7-0005",
@@ -85,7 +85,7 @@
         "quadruplica"
       ],
       "corretta": 4,
-      "spiegazione": "L'intensità è proporzionale al quadrato dell'ampiezza: I ∝ E₀². Raddoppiando E₀, l'intensità diventa 2² = 4 volte maggiore.\n\nB) Tratta la relazione come lineare, dimenticando il quadrato.\nA) Rovescia la relazione: è l'ampiezza a essere proporzionale alla radice dell'intensità, non il contrario.\nC) Confonde l'intensità dell'onda con l'energia del singolo fotone, che dipende dalla frequenza; l'intensità dipende dall'ampiezza.\nD) Usa il cubo invece del quadrato."
+      "spiegazione": "L'intensità è proporzionale al quadrato dell'ampiezza: I ∝ E₀². Raddoppiando E₀, l'intensità diventa 2² = 4 volte maggiore.\n\nA) Rovescia la relazione: è l'ampiezza a essere proporzionale alla radice dell'intensità, non il contrario.\nB) Tratta la relazione come lineare, dimenticando il quadrato.\nC) Confonde l'intensità dell'onda con l'energia del singolo fotone, che dipende dalla frequenza; l'intensità dipende dall'ampiezza.\nD) Usa il cubo invece del quadrato."
     },
     {
       "id": "u7-0007",
@@ -101,7 +101,7 @@
         "onde radio, infrarosso, microonde, visibile, ultravioletto, raggi X, raggi gamma"
       ],
       "corretta": 1,
-      "spiegazione": "Per frequenza crescente, e quindi lunghezza d'onda decrescente: onde radio, microonde, infrarosso, visibile, ultravioletto, raggi X, raggi gamma. Gli intervalli dei raggi X e gamma in parte si sovrappongono (si distinguono anche per l'origine: elettronica per gli X, nucleare per i gamma), ma nell'ordinamento convenzionale i gamma stanno in cima.\n\nA) È l'ordine inverso: frequenza decrescente, cioè lunghezza d'onda crescente.\nE) Scambia microonde e infrarosso: l'infrarosso ha frequenza maggiore delle microonde.\nC) Scambia raggi X e raggi gamma.\nD) Scambia infrarosso e ultravioletto attorno al visibile."
+      "spiegazione": "Per frequenza crescente, e quindi lunghezza d'onda decrescente: onde radio, microonde, infrarosso, visibile, ultravioletto, raggi X, raggi gamma. Gli intervalli dei raggi X e gamma in parte si sovrappongono (si distinguono anche per l'origine: elettronica per gli X, nucleare per i gamma), ma nell'ordinamento convenzionale i gamma stanno in cima.\n\nA) È l'ordine inverso: frequenza decrescente, cioè lunghezza d'onda crescente.\nC) Scambia raggi X e raggi gamma.\nD) Scambia infrarosso e ultravioletto attorno al visibile.\nE) Scambia microonde e infrarosso: l'infrarosso ha frequenza maggiore delle microonde."
     },
     {
       "id": "u7-0008",
@@ -133,7 +133,7 @@
         "ultravioletto"
       ],
       "corretta": 3,
-      "spiegazione": "In ordine di lunghezza d'onda decrescente: microonde, infrarosso, luce verde, ultravioletto, raggi X. Le microonde, con lunghezze d'onda dell'ordine dei millimetri-centimetri, sono le più lunghe fra quelle proposte.\n\nB) I raggi X hanno lunghezza d'onda fra le più corte dello spettro: confonde l'energia elevata con una lunghezza d'onda grande.\nE) L'ultravioletto ha lunghezza d'onda più corta del visibile.\nA) La luce verde (circa 500–550 nm) sta a metà del visibile, molto più corta delle microonde.\nC) L'infrarosso ha lunghezza d'onda maggiore del visibile, ma minore delle microonde: è la regione vicina, non la più lunga."
+      "spiegazione": "In ordine di lunghezza d'onda decrescente: microonde, infrarosso, luce verde, ultravioletto, raggi X. Le microonde, con lunghezze d'onda dell'ordine dei millimetri-centimetri, sono le più lunghe fra quelle proposte.\n\nA) La luce verde (circa 500–550 nm) sta a metà del visibile, molto più corta delle microonde.\nB) I raggi X hanno lunghezza d'onda fra le più corte dello spettro: confonde l'energia elevata con una lunghezza d'onda grande.\nC) L'infrarosso ha lunghezza d'onda maggiore del visibile, ma minore delle microonde: è la regione vicina, non la più lunga.\nE) L'ultravioletto ha lunghezza d'onda più corta del visibile."
     },
     {
       "id": "u7-0010",
@@ -165,7 +165,7 @@
         "verde"
       ],
       "corretta": 0,
-      "spiegazione": "Nel visibile la lunghezza d'onda cresce dal violetto (circa 400 nm) al rosso (circa 700 nm), nell'ordine violetto, blu, verde, giallo, arancione, rosso. Il violetto ha quindi la lunghezza d'onda minore e la frequenza maggiore.\n\nB) Il rosso è all'estremo opposto: lunghezza d'onda maggiore. È l'errore di chi associa il rosso al «caldo» e quindi all'energia più alta.\nE) Il verde ha lunghezza d'onda intermedia.\nC) Il giallo ha lunghezza d'onda intermedia, più vicina al rosso che al violetto.\nD) L'arancione sta subito prima del rosso: lunghezza d'onda fra le maggiori del visibile."
+      "spiegazione": "Nel visibile la lunghezza d'onda cresce dal violetto (circa 400 nm) al rosso (circa 700 nm), nell'ordine violetto, blu, verde, giallo, arancione, rosso. Il violetto ha quindi la lunghezza d'onda minore e la frequenza maggiore.\n\nB) Il rosso è all'estremo opposto: lunghezza d'onda maggiore. È l'errore di chi associa il rosso al «caldo» e quindi all'energia più alta.\nC) Il giallo ha lunghezza d'onda intermedia, più vicina al rosso che al violetto.\nD) L'arancione sta subito prima del rosso: lunghezza d'onda fra le maggiori del visibile.\nE) Il verde ha lunghezza d'onda intermedia."
     },
     {
       "id": "u7-0012",
@@ -205,7 +205,7 @@
         "1,3 × 10⁻⁴⁸ J"
       ],
       "corretta": 2,
-      "spiegazione": "E = hf = 6,63 × 10⁻³⁴ × 5,0 × 10¹⁴ = 33,2 × 10⁻²⁰ J ≈ 3,3 × 10⁻¹⁹ J, circa 2 eV: l'ordine di grandezza tipico dei fotoni visibili.\n\nE) È h/f: divide invece di moltiplicare.\nD) È f/h: formula capovolta.\nA) È h·c: usa la velocità della luce al posto della frequenza.\nB) Errore nell'esponente: 33,2 × 10⁻²⁰ si riscrive 3,32 × 10⁻¹⁹, non 3,3 × 10⁻²⁰."
+      "spiegazione": "E = hf = 6,63 × 10⁻³⁴ × 5,0 × 10¹⁴ = 33,2 × 10⁻²⁰ J ≈ 3,3 × 10⁻¹⁹ J, circa 2 eV: l'ordine di grandezza tipico dei fotoni visibili.\n\nA) È h·c: usa la velocità della luce al posto della frequenza.\nB) Errore nell'esponente: 33,2 × 10⁻²⁰ si riscrive 3,32 × 10⁻¹⁹, non 3,3 × 10⁻²⁰.\nD) È f/h: formula capovolta.\nE) È h/f: divide invece di moltiplicare."
     },
     {
       "id": "u7-0015",
@@ -221,7 +221,7 @@
         "4"
       ],
       "corretta": 3,
-      "spiegazione": "Poiché E = hc/λ, l'energia è inversamente proporzionale alla lunghezza d'onda: E₁/E₂ = λ₂/λ₁ = 800/400 = 2.\n\nA) Tratta l'energia come direttamente proporzionale a λ: è la frequenza, non la lunghezza d'onda, a essere proporzionale all'energia.\nE) Eleva al quadrato il rapporto: la dipendenza da λ è inversa ma lineare.\nC) Proporzionalità diretta e quadratica insieme: due errori.\nB) Confonde la velocità, uguale per tutti i fotoni nel vuoto, con l'energia, che dipende da λ."
+      "spiegazione": "Poiché E = hc/λ, l'energia è inversamente proporzionale alla lunghezza d'onda: E₁/E₂ = λ₂/λ₁ = 800/400 = 2.\n\nA) Tratta l'energia come direttamente proporzionale a λ: è la frequenza, non la lunghezza d'onda, a essere proporzionale all'energia.\nB) Confonde la velocità, uguale per tutti i fotoni nel vuoto, con l'energia, che dipende da λ.\nC) Proporzionalità diretta e quadratica insieme: due errori.\nE) Eleva al quadrato il rapporto: la dipendenza da λ è inversa ma lineare."
     },
     {
       "id": "u7-0016",
@@ -237,7 +237,7 @@
         "raddoppia l'energia di ciascun fotone, il loro numero resta uguale"
       ],
       "corretta": 1,
-      "spiegazione": "L'energia di ogni fotone è hf e la frequenza non cambia, quindi l'energia del singolo fotone resta la stessa. L'intensità è il prodotto fra il numero di fotoni che arrivano per unità di tempo e di superficie e l'energia hf di ciascuno: per raddoppiarla deve raddoppiare il numero di fotoni.\n\nE) L'energia del fotone dipende solo dalla frequenza, che per ipotesi non cambia.\nC) Se raddoppiassero entrambi l'intensità quadruplicherebbe; e comunque l'energia del singolo fotone non può cambiare a frequenza fissa.\nD) La frequenza è invariata per ipotesi, e con essa la lunghezza d'onda λ = c/f.\nA) La lunghezza d'onda non cambia, e a numero di fotoni costante l'intensità non potrebbe raddoppiare."
+      "spiegazione": "L'energia di ogni fotone è hf e la frequenza non cambia, quindi l'energia del singolo fotone resta la stessa. L'intensità è il prodotto fra il numero di fotoni che arrivano per unità di tempo e di superficie e l'energia hf di ciascuno: per raddoppiarla deve raddoppiare il numero di fotoni.\n\nA) La lunghezza d'onda non cambia, e a numero di fotoni costante l'intensità non potrebbe raddoppiare.\nC) Se raddoppiassero entrambi l'intensità quadruplicherebbe; e comunque l'energia del singolo fotone non può cambiare a frequenza fissa.\nD) La frequenza è invariata per ipotesi, e con essa la lunghezza d'onda λ = c/f.\nE) L'energia del fotone dipende solo dalla frequenza, che per ipotesi non cambia."
     },
     {
       "id": "u7-0017",
@@ -264,7 +264,7 @@
         "2,0 eV"
       ],
       "corretta": 4,
-      "spiegazione": "E = hc/λ = 1240 eV·nm / 620 nm = 2,0 eV, pari a 2,0 × 1,60 × 10⁻¹⁹ J ≈ 3,2 × 10⁻¹⁹ J. È luce visibile arancione-rossa.\n\nB) È λ/(hc): rapporto capovolto.\nA) È il prodotto hc·λ invece del rapporto.\nC) Mescola le unità: inserisce λ in metri (6,2 × 10⁻⁷ m) con hc espresso in eV·nm.\nD) È il valore corretto in joule, ma con l'unità sbagliata: 3,2 × 10⁻¹⁹ J, non eV."
+      "spiegazione": "E = hc/λ = 1240 eV·nm / 620 nm = 2,0 eV, pari a 2,0 × 1,60 × 10⁻¹⁹ J ≈ 3,2 × 10⁻¹⁹ J. È luce visibile arancione-rossa.\n\nA) È il prodotto hc·λ invece del rapporto.\nB) È λ/(hc): rapporto capovolto.\nC) Mescola le unità: inserisce λ in metri (6,2 × 10⁻⁷ m) con hc espresso in eV·nm.\nD) È il valore corretto in joule, ma con l'unità sbagliata: 3,2 × 10⁻¹⁹ J, non eV."
     },
     {
       "id": "u7-0019",
@@ -292,7 +292,7 @@
         "4 mm"
       ],
       "corretta": 1,
-      "spiegazione": "Ogni strato di 2 mm dimezza l'intensità. Poiché 1/8 = (1/2)³, servono tre dimezzamenti successivi, cioè 3 × 2 mm = 6 mm.\n\nA) Divide lo spessore per 8, come se uno strato più sottile attenuasse di più.\nD) Tratta l'attenuazione come lineare (8 × 2 mm): ridurre a 1/8 non richiede otto strati, ma tre.\nE) Due strati riducono l'intensità a 1/4, non a 1/8.\nC) Quattro strati riducono l'intensità a 1/16."
+      "spiegazione": "Ogni strato di 2 mm dimezza l'intensità. Poiché 1/8 = (1/2)³, servono tre dimezzamenti successivi, cioè 3 × 2 mm = 6 mm.\n\nA) Divide lo spessore per 8, come se uno strato più sottile attenuasse di più.\nC) Quattro strati riducono l'intensità a 1/16.\nD) Tratta l'attenuazione come lineare (8 × 2 mm): ridurre a 1/8 non richiede otto strati, ma tre.\nE) Due strati riducono l'intensità a 1/4, non a 1/8."
     },
     {
       "id": "u7-0021",
@@ -308,7 +308,7 @@
         "si riduce a un quarto"
       ],
       "corretta": 2,
-      "spiegazione": "L'assorbanza è proporzionale sia alla concentrazione c sia allo spessore l: raddoppiando c e dimezzando l il prodotto l·c non cambia, e con esso l'assorbanza.\n\nB) Considera solo il raddoppio della concentrazione e trascura il dimezzamento dello spessore.\nA) Tratta entrambe le variazioni come aumenti: 2 × 2.\nD) Considera solo il dimezzamento dello spessore.\nE) Tratta entrambe le variazioni come riduzioni: ½ × ½."
+      "spiegazione": "L'assorbanza è proporzionale sia alla concentrazione c sia allo spessore l: raddoppiando c e dimezzando l il prodotto l·c non cambia, e con esso l'assorbanza.\n\nA) Tratta entrambe le variazioni come aumenti: 2 × 2.\nB) Considera solo il raddoppio della concentrazione e trascura il dimezzamento dello spessore.\nD) Considera solo il dimezzamento dello spessore.\nE) Tratta entrambe le variazioni come riduzioni: ½ × ½."
     },
     {
       "id": "u7-0022",
@@ -337,7 +337,7 @@
         "si misura in W/m² ed è l'intensità assorbita per unità di spessore"
       ],
       "corretta": 0,
-      "spiegazione": "L'esponente μx deve essere un numero puro: poiché x è una lunghezza, μ si misura in m⁻¹ (o cm⁻¹). Il suo valore dipende dal materiale e dall'energia (cioè dalla lunghezza d'onda) della radiazione: per questo osso e tessuti molli attenuano i raggi X in modo diverso, ed è il principio della radiografia.\n\nD) μ non è adimensionale: lo è il prodotto μx.\nC) Descrive lo spessore emivalente x½ = ln 2/μ, che è una lunghezza ma non coincide con μ.\nB) μ è una proprietà del materiale, non dello spessore: lo spessore è x.\nE) W/m² è l'unità dell'intensità, non del coefficiente di assorbimento."
+      "spiegazione": "L'esponente μx deve essere un numero puro: poiché x è una lunghezza, μ si misura in m⁻¹ (o cm⁻¹). Il suo valore dipende dal materiale e dall'energia (cioè dalla lunghezza d'onda) della radiazione: per questo osso e tessuti molli attenuano i raggi X in modo diverso, ed è il principio della radiografia.\n\nB) μ è una proprietà del materiale, non dello spessore: lo spessore è x.\nC) Descrive lo spessore emivalente x½ = ln 2/μ, che è una lunghezza ma non coincide con μ.\nD) μ non è adimensionale: lo è il prodotto μx.\nE) W/m² è l'unità dell'intensità, non del coefficiente di assorbimento."
     },
     {
       "id": "u7-0024",
@@ -365,7 +365,7 @@
         "A − 4 e Z − 4"
       ],
       "corretta": 2,
-      "spiegazione": "La particella α è un nucleo di elio-4, con 2 protoni e 2 neutroni. Il nucleo che la emette perde quindi 4 nucleoni (A − 4) e 2 protoni (Z − 2).\n\nB) Sottrae al numero di massa solo i 2 protoni, dimenticando i 2 neutroni.\nA) Sbaglia il segno: emettendo due protoni il numero atomico diminuisce.\nD) Tiene conto della carica persa ma non della massa: A deve diminuire di 4.\nE) Sottrae 4 anche a Z, confondendo il numero di nucleoni con il numero di protoni."
+      "spiegazione": "La particella α è un nucleo di elio-4, con 2 protoni e 2 neutroni. Il nucleo che la emette perde quindi 4 nucleoni (A − 4) e 2 protoni (Z − 2).\n\nA) Sbaglia il segno: emettendo due protoni il numero atomico diminuisce.\nB) Sottrae al numero di massa solo i 2 protoni, dimenticando i 2 neutroni.\nD) Tiene conto della carica persa ma non della massa: A deve diminuire di 4.\nE) Sottrae 4 anche a Z, confondendo il numero di nucleoni con il numero di protoni."
     },
     {
       "id": "u7-0026",
@@ -393,7 +393,7 @@
         "100 Bq"
       ],
       "corretta": 1,
-      "spiegazione": "In 24 ore trascorrono 24/6 = 4 emivite. A ogni emivita l'attività si dimezza: 800 → 400 → 200 → 100 → 50 Bq, cioè 800/2⁴ = 50 Bq.\n\nA) Divide l'attività per il numero di emivite (800/4), come se il decadimento fosse lineare.\nC) Divide l'attività per il numero di ore trascorse (800/24): l'emivita non entra così nel calcolo.\nE) Conta tre dimezzamenti invece di quattro.\nD) Conta cinque dimezzamenti invece di quattro."
+      "spiegazione": "In 24 ore trascorrono 24/6 = 4 emivite. A ogni emivita l'attività si dimezza: 800 → 400 → 200 → 100 → 50 Bq, cioè 800/2⁴ = 50 Bq.\n\nA) Divide l'attività per il numero di emivite (800/4), come se il decadimento fosse lineare.\nC) Divide l'attività per il numero di ore trascorse (800/24): l'emivita non entra così nel calcolo.\nD) Conta cinque dimezzamenti invece di quattro.\nE) Conta tre dimezzamenti invece di quattro."
     },
     {
       "id": "u7-0028",
@@ -435,7 +435,7 @@
         "un protone si trasforma in un neutrone, Z diminuisce di 1 e A non cambia"
       ],
       "corretta": 1,
-      "spiegazione": "Nel nucleo un neutrone si trasforma in un protone con emissione di un elettrone e di un antineutrino. Il numero dei protoni aumenta di uno (Z + 1); il numero totale di nucleoni resta lo stesso, perché un nucleone ha solo cambiato natura (A invariato).\n\nE) Descrive il decadimento β⁺, in cui un protone diventa neutrone ed è emesso un positrone.\nD) A non cambia: neutrone e protone sono entrambi nucleoni, e il loro numero totale resta lo stesso.\nA) L'elettrone β nasce nel nucleo, non proviene dagli orbitali: l'espulsione di un elettrone orbitale è una ionizzazione, non un decadimento.\nC) Il nucleo emette effettivamente un elettrone, ma Z aumenta: l'errore di segno nasce dal pensare che «perdere una carica negativa» riduca Z."
+      "spiegazione": "Nel nucleo un neutrone si trasforma in un protone con emissione di un elettrone e di un antineutrino. Il numero dei protoni aumenta di uno (Z + 1); il numero totale di nucleoni resta lo stesso, perché un nucleone ha solo cambiato natura (A invariato).\n\nA) L'elettrone β nasce nel nucleo, non proviene dagli orbitali: l'espulsione di un elettrone orbitale è una ionizzazione, non un decadimento.\nC) Il nucleo emette effettivamente un elettrone, ma Z aumenta: l'errore di segno nasce dal pensare che «perdere una carica negativa» riduca Z.\nD) A non cambia: neutrone e protone sono entrambi nucleoni, e il loro numero totale resta lo stesso.\nE) Descrive il decadimento β⁺, in cui un protone diventa neutrone ed è emesso un positrone."
     },
     {
       "id": "u7-0031",
@@ -464,7 +464,7 @@
         "A diminuisce di 4 e Z di 2: il nucleo emette un nucleo di elio"
       ],
       "corretta": 2,
-      "spiegazione": "La radiazione γ è un fotone emesso da un nucleo che passa da uno stato eccitato a uno di energia minore, spesso subito dopo un decadimento α o β. Non cambia la composizione del nucleo: Z e A restano gli stessi, cambia solo il suo contenuto di energia.\n\nA) Descrive il decadimento β⁺.\nE) Descrive il decadimento α.\nD) Descrive il decadimento β⁻.\nB) Descrive l'emissione di un neutrone, che non è il decadimento γ."
+      "spiegazione": "La radiazione γ è un fotone emesso da un nucleo che passa da uno stato eccitato a uno di energia minore, spesso subito dopo un decadimento α o β. Non cambia la composizione del nucleo: Z e A restano gli stessi, cambia solo il suo contenuto di energia.\n\nA) Descrive il decadimento β⁺.\nB) Descrive l'emissione di un neutrone, che non è il decadimento γ.\nD) Descrive il decadimento β⁻.\nE) Descrive il decadimento α."
     },
     {
       "id": "u7-0033",
@@ -492,7 +492,7 @@
         "è proporzionale al numero di nuclei non ancora decaduti"
       ],
       "corretta": 4,
-      "spiegazione": "Ogni nucleo ha la stessa probabilità λ di decadere nell'unità di tempo, quindi il numero di decadimenti al secondo è λN, proporzionale al numero N di nuclei ancora presenti. Ne segue la legge esponenziale N = N₀·e^(−λt).\n\nB) Un ritmo costante darebbe una diminuzione lineare, che si esaurirebbe a un istante preciso: non è ciò che si osserva.\nC) Il ritmo di decadimento diminuisce col passare del tempo, non aumenta.\nD) Confonde il decadimento nucleare con una reazione chimica: in pratica non dipende né dalla temperatura né dalla pressione.\nA) Rovescia la proporzionalità: meno nuclei ci sono, meno decadimenti si osservano."
+      "spiegazione": "Ogni nucleo ha la stessa probabilità λ di decadere nell'unità di tempo, quindi il numero di decadimenti al secondo è λN, proporzionale al numero N di nuclei ancora presenti. Ne segue la legge esponenziale N = N₀·e^(−λt).\n\nA) Rovescia la proporzionalità: meno nuclei ci sono, meno decadimenti si osservano.\nB) Un ritmo costante darebbe una diminuzione lineare, che si esaurirebbe a un istante preciso: non è ciò che si osserva.\nC) Il ritmo di decadimento diminuisce col passare del tempo, non aumenta.\nD) Confonde il decadimento nucleare con una reazione chimica: in pratica non dipende né dalla temperatura né dalla pressione."
     },
     {
       "id": "u7-0035",
@@ -521,7 +521,7 @@
         "10 s"
       ],
       "corretta": 4,
-      "spiegazione": "T½ = ln 2/λ = 0,693/0,0693 s⁻¹ = 10 s.\n\nC) È λ·ln 2: moltiplica invece di dividere.\nB) È 1/λ, cioè la vita media τ, non l'emivita: le due grandezze differiscono per il fattore ln 2.\nA) È λ/ln 2: rapporto capovolto.\nD) Errore di virgola nel rapporto 0,693/0,0693."
+      "spiegazione": "T½ = ln 2/λ = 0,693/0,0693 s⁻¹ = 10 s.\n\nA) È λ/ln 2: rapporto capovolto.\nB) È 1/λ, cioè la vita media τ, non l'emivita: le due grandezze differiscono per il fattore ln 2.\nC) È λ·ln 2: moltiplica invece di dividere.\nD) Errore di virgola nel rapporto 0,693/0,0693."
     },
     {
       "id": "u7-0037",
@@ -549,7 +549,7 @@
         "luce visibile"
       ],
       "corretta": 0,
-      "spiegazione": "I fotoni dei raggi X hanno energie tipicamente nell'ordine dei keV, molto superiori alle energie di ionizzazione degli atomi (da pochi eV a qualche decina di eV): possono quindi ionizzare.\n\nC) I fotoni delle microonde hanno energie di gran lunga inferiori a quelle di ionizzazione: le microonde scaldano, non ionizzano.\nB) L'infrarosso è non ionizzante: i suoi fotoni hanno energia minore di quelli visibili.\nD) Le onde radio hanno i fotoni di energia più bassa dello spettro.\nE) I fotoni visibili hanno energia fra circa 1,8 e 3,1 eV, inferiore anche all'energia di ionizzazione più bassa fra gli elementi (cesio, circa 3,9 eV)."
+      "spiegazione": "I fotoni dei raggi X hanno energie tipicamente nell'ordine dei keV, molto superiori alle energie di ionizzazione degli atomi (da pochi eV a qualche decina di eV): possono quindi ionizzare.\n\nB) L'infrarosso è non ionizzante: i suoi fotoni hanno energia minore di quelli visibili.\nC) I fotoni delle microonde hanno energie di gran lunga inferiori a quelle di ionizzazione: le microonde scaldano, non ionizzano.\nD) Le onde radio hanno i fotoni di energia più bassa dello spettro.\nE) I fotoni visibili hanno energia fra circa 1,8 e 3,1 eV, inferiore anche all'energia di ionizzazione più bassa fra gli elementi (cesio, circa 3,9 eV)."
     },
     {
       "id": "u7-0039",
@@ -576,7 +576,7 @@
         "la sua lunghezza d'onda è troppo corta per interagire con gli atomi"
       ],
       "corretta": 3,
-      "spiegazione": "La ionizzazione dipende dall'energia del singolo fotone, hf, non dall'intensità del fascio. Aumentare l'intensità aumenta il numero di fotoni, ma ciascuno resta al di sotto dell'energia di ionizzazione.\n\nB) Confonde intensità ed energia del fotone: non esiste una «soglia di intensità» per la ionizzazione.\nE) La lunghezza d'onda delle microonde è lunga (millimetri-centimetri), non corta; ed è proprio la λ lunga a dare fotoni poco energetici.\nC) Nel vuoto tutte le onde elettromagnetiche hanno la stessa velocità c.\nA) La frequenza delle microonde è minore, non maggiore, di quella di raggi X e gamma."
+      "spiegazione": "La ionizzazione dipende dall'energia del singolo fotone, hf, non dall'intensità del fascio. Aumentare l'intensità aumenta il numero di fotoni, ma ciascuno resta al di sotto dell'energia di ionizzazione.\n\nA) La frequenza delle microonde è minore, non maggiore, di quella di raggi X e gamma.\nB) Confonde intensità ed energia del fotone: non esiste una «soglia di intensità» per la ionizzazione.\nC) Nel vuoto tutte le onde elettromagnetiche hanno la stessa velocità c.\nE) La lunghezza d'onda delle microonde è lunga (millimetri-centimetri), non corta; ed è proprio la λ lunga a dare fotoni poco energetici."
     },
     {
       "id": "u7-0041",
@@ -603,7 +603,7 @@
         "4,5 × 10⁸ m/s"
       ],
       "corretta": 3,
-      "spiegazione": "Da n = c/v si ricava v = c/n = 3,0 × 10⁸ / 1,5 = 2,0 × 10⁸ m/s.\n\nE) È c·n: moltiplica invece di dividere, e darebbe una velocità maggiore di c.\nA) È la velocità nel vuoto: trascura che nel mezzo la luce rallenta.\nB) Sottrae n da c (3,0 − 1,5) invece di dividere.\nC) È n/c, cioè l'inverso della velocità: l'unità corretta sarebbe s/m."
+      "spiegazione": "Da n = c/v si ricava v = c/n = 3,0 × 10⁸ / 1,5 = 2,0 × 10⁸ m/s.\n\nA) È la velocità nel vuoto: trascura che nel mezzo la luce rallenta.\nB) Sottrae n da c (3,0 − 1,5) invece di dividere.\nC) È n/c, cioè l'inverso della velocità: l'unità corretta sarebbe s/m.\nE) È c·n: moltiplica invece di dividere, e darebbe una velocità maggiore di c."
     },
     {
       "id": "u7-0043",
@@ -663,7 +663,7 @@
         "20 cm dalla lente, reale e capovolta"
       ],
       "corretta": 3,
-      "spiegazione": "Dalla legge dei punti coniugati 1/p + 1/q = 1/f: 1/q = 1/10 − 1/30 = 2/30, quindi q = 15 cm. Il valore positivo indica un'immagine reale, dalla parte opposta della lente, capovolta; l'ingrandimento q/p = 0,5 dice che è rimpicciolita. Un oggetto oltre 2f dà sempre un'immagine fra f e 2f.\n\nA) La distanza è giusta, ma un'immagine virtuale e diritta si ha solo con l'oggetto fra la lente e il fuoco (p < f).\nC) Somma i reciproci invece di sottrarli: 1/10 + 1/30 = 4/30 dà 7,5 cm.\nE) Sottrae le distanze (30 − 10) invece dei loro reciproci.\nB) Somma le distanze (30 + 10): la legge lega i reciproci, non le distanze."
+      "spiegazione": "Dalla legge dei punti coniugati 1/p + 1/q = 1/f: 1/q = 1/10 − 1/30 = 2/30, quindi q = 15 cm. Il valore positivo indica un'immagine reale, dalla parte opposta della lente, capovolta; l'ingrandimento q/p = 0,5 dice che è rimpicciolita. Un oggetto oltre 2f dà sempre un'immagine fra f e 2f.\n\nA) La distanza è giusta, ma un'immagine virtuale e diritta si ha solo con l'oggetto fra la lente e il fuoco (p < f).\nB) Somma le distanze (30 + 10): la legge lega i reciproci, non le distanze.\nC) Somma i reciproci invece di sottrarli: 1/10 + 1/30 = 4/30 dà 7,5 cm.\nE) Sottrae le distanze (30 − 10) invece dei loro reciproci."
     },
     {
       "id": "u7-0047",
@@ -690,7 +690,7 @@
         "virtuale, diritta e ingrandita"
       ],
       "corretta": 4,
-      "spiegazione": "Con p < f la legge dei punti coniugati dà 1/q = 1/f − 1/p < 0: q è negativo, l'immagine è virtuale, dalla stessa parte dell'oggetto, diritta e ingrandita. È il funzionamento della lente d'ingrandimento.\n\nD) È l'immagine di un oggetto posto fra f e 2f.\nC) È l'immagine di un oggetto posto oltre 2f.\nA) Con una sola lente convergente un'immagine virtuale è sempre diritta, e qui è ingrandita.\nB) È il caso dell'oggetto esattamente nel fuoco, non fra la lente e il fuoco."
+      "spiegazione": "Con p < f la legge dei punti coniugati dà 1/q = 1/f − 1/p < 0: q è negativo, l'immagine è virtuale, dalla stessa parte dell'oggetto, diritta e ingrandita. È il funzionamento della lente d'ingrandimento.\n\nA) Con una sola lente convergente un'immagine virtuale è sempre diritta, e qui è ingrandita.\nB) È il caso dell'oggetto esattamente nel fuoco, non fra la lente e il fuoco.\nC) È l'immagine di un oggetto posto oltre 2f.\nD) È l'immagine di un oggetto posto fra f e 2f."
     },
     {
       "id": "u7-0049",
