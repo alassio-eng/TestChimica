@@ -17,7 +17,7 @@
         "La capacità di ricavare energia dalla luce mediante la fotosintesi"
       ],
       "corretta": 4,
-      "spiegazione": "La fotosintesi è propria dei soli organismi fotoautotrofi: piante, alghe e alcuni batteri. Tutti gli altri viventi ricavano energia ossidando molecole organiche, e restano viventi a pieno titolo.\n\nA) La risposta agli stimoli ambientali è presente in tutti gli organismi, anche unicellulari.\nB) L'organizzazione cellulare è il criterio stesso con cui si distingue un vivente da un virus.\nC) La riproduzione con trasmissione dell'informazione genetica è comune a tutti i viventi.\nD) L'omeostasi, cioè il mantenimento di condizioni interne costanti, è una proprietà universale."
+      "spiegazione": "La fotosintesi è propria degli organismi fotosintetici: piante, alghe e alcuni batteri. Gli altri viventi ricavano energia ossidando molecole, organiche nella grande maggioranza dei casi, inorganiche in alcuni procarioti chemiolitotrofi, e restano viventi a pieno titolo.\n\nA) La risposta agli stimoli ambientali è presente in tutti gli organismi, anche unicellulari.\nB) L'organizzazione cellulare è il criterio stesso con cui si distingue un vivente da un virus.\nC) La riproduzione con trasmissione dell'informazione genetica è comune a tutti i viventi.\nD) L'omeostasi, cioè il mantenimento di condizioni interne costanti, è una proprietà universale."
     },
     {
       "id": "u1-0052",
@@ -45,20 +45,20 @@
         "è sempre costituito da DNA a doppio filamento, come quello cellulare"
       ],
       "corretta": 0,
-      "spiegazione": "È la caratteristica che distingue i virus dagli organismi cellulari, il cui materiale genetico è sempre DNA a doppio filamento: nei virus si trovano tutte e quattro le combinazioni, e i virus a RNA a singolo filamento si distinguono ulteriormente per la polarità del genoma.\n\nB) In un virione è presente un solo tipo di acido nucleico.\nC) e E) Fissano un solo tipo di genoma e ignorano la varietà reale.\nD) La distinzione non passa per il tipo di ospite: esistono batteriofagi a DNA e virus animali a RNA."
+      "spiegazione": "È la caratteristica che distingue i virus dagli organismi cellulari, il cui materiale genetico è sempre DNA a doppio filamento: nei virus si trovano tutte e quattro le combinazioni, e i virus a RNA a singolo filamento si distinguono ulteriormente per la polarità del genoma.\n\nB) Il genoma di un virus è o DNA o RNA, mai entrambi; alcuni virioni incorporano anche piccoli RNA della cellula ospite, che però non fanno parte del genoma.\nC) e E) Fissano un solo tipo di genoma e ignorano la varietà reale.\nD) La distinzione non passa per il tipo di ospite: esistono batteriofagi a DNA e virus animali a RNA."
     },
     {
       "id": "u1-0054",
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Le subunità del capside",
-      "testo": "Le subunità proteiche che, assemblandosi fra loro, costituiscono il capside di un virus si chiamano ……",
+      "testo": "Le unità morfologiche, formate da una o più subunità proteiche, che assemblandosi fra loro costituiscono il capside di un virus si chiamano ……",
       "accettate": [
         "capsomeri",
         "capsomero",
         "capsomeri proteici"
       ],
-      "spiegazione": "I capsomeri sono pochi tipi di proteine ripetute molte volte: è la soluzione con cui un genoma piccolissimo riesce a specificare un involucro grande, perché una sola sequenza codificante basta a produrre centinaia di copie della stessa subunità.\n\nL'assemblaggio è spontaneo e guidato dalla forma delle subunità, e porta alle due simmetrie fondamentali, quella icosaedrica e quella elicoidale."
+      "spiegazione": "I capsomeri sono le unità visibili al microscopio elettronico, formate da una o più catene proteiche (protomeri) ripetute molte volte: è la soluzione con cui un genoma piccolissimo riesce a specificare un involucro grande, perché una sola sequenza codificante basta a produrre centinaia di copie della stessa subunità.\n\nL'assemblaggio è spontaneo e guidato dalla forma delle subunità, e porta alle due simmetrie fondamentali, quella icosaedrica e quella elicoidale."
     },
     {
       "id": "u1-0055",
@@ -74,7 +74,7 @@
         "convertire il proprio genoma in DNA grazie alla trascrittasi inversa"
       ],
       "corretta": 0,
-      "spiegazione": "Un genoma a polarità negativa è complementare al messaggero e quindi non può essere letto dai ribosomi. Deve prima essere copiato in un filamento positivo, e poiché la cellula non possiede enzimi capaci di sintetizzare RNA su stampo di RNA, il virus deve trasportare il proprio dentro il virione.\n\nB) La traduzione diretta è possibile ai soli genomi a polarità positiva, che funzionano già da messaggero.\nC) L'integrazione nel DNA dell'ospite caratterizza i retrovirus.\nD) La replicazione di questi virus avviene nel citoplasma e non dipende dalla mitosi.\nE) La trascrittasi inversa è un enzima dei retrovirus, non dei virus a RNA a polarità negativa."
+      "spiegazione": "Un genoma a polarità negativa è complementare al messaggero e quindi non può essere letto dai ribosomi. Deve prima essere copiato in un filamento positivo, e poiché la cellula non possiede enzimi capaci di sintetizzare RNA su stampo di RNA, il virus deve trasportare il proprio dentro il virione.\n\nB) La traduzione diretta è possibile ai soli genomi a polarità positiva, che funzionano già da messaggero.\nC) L'integrazione nel DNA dell'ospite caratterizza i retrovirus.\nD) La replicazione di questi virus avviene di norma nel citoplasma (fanno eccezione i virus influenzali, che la compiono nel nucleo) e in nessun caso richiede la mitosi.\nE) La trascrittasi inversa è un enzima dei retrovirus, non dei virus a RNA a polarità negativa."
     },
     {
       "id": "u1-0056",
@@ -134,7 +134,7 @@
         "sono identici a quelli presenti nelle cellule eucariotiche"
       ],
       "corretta": 1,
-      "spiegazione": "I ribosomi procariotici sono 70S e risultano dall'associazione di una subunità 30S e di una 50S. I valori non si sommano perché il coefficiente di sedimentazione dipende dalla forma oltre che dalla massa.\n\nA) I procarioti non hanno compartimenti delimitati da membrana.\nC) e E) I ribosomi eucariotici citoplasmatici sono 80S, formati da subunità 40S e 60S: la differenza è netta ed è il bersaglio di numerosi antibiotici.\nD) I ribosomi sono ribonucleoproteine: contengono RNA ribosomiali oltre alle proteine, e l'attività catalitica risiede proprio nell'RNA.\n\nI ribosomi dei mitocondri sono anch'essi 70S, coerentemente con la loro origine endosimbiotica."
+      "spiegazione": "I ribosomi procariotici sono 70S e risultano dall'associazione di una subunità 30S e di una 50S. I valori non si sommano perché il coefficiente di sedimentazione dipende dalla forma oltre che dalla massa.\n\nA) I procarioti non hanno compartimenti delimitati da membrana.\nC) e E) I ribosomi eucariotici citoplasmatici sono 80S, formati da subunità 40S e 60S: la differenza è netta ed è il bersaglio di numerosi antibiotici.\nD) I ribosomi sono ribonucleoproteine: contengono RNA ribosomiali oltre alle proteine, e l'attività catalitica risiede proprio nell'RNA.\n\nI ribosomi dei mitocondri sono di tipo batterico, coerentemente con la loro origine endosimbiotica, ma il loro coefficiente varia fra organismi: nell'uomo sono 55S, con subunità 28S e 39S."
     },
     {
       "id": "u1-0060",
@@ -187,7 +187,7 @@
         "La regione del citoplasma in cui è alloggiato il cromosoma batterico",
         "Un frammento di RNA che regola l'espressione dei geni batterici",
         "Un virus a DNA che infetta esclusivamente le cellule batteriche",
-        "Una molecola di DNA circolare che si replica in modo autonomo",
+        "Una molecola di DNA, di norma circolare, che si replica in modo autonomo",
         "Un'appendice di superficie con cui il batterio aderisce ad altre cellule"
       ],
       "corretta": 3,
@@ -206,7 +206,7 @@
         "triacilgliceroli",
         "grasso neutro"
       ],
-      "spiegazione": "Nel trigliceride tutti e tre gli ossidrili del glicerolo sono impegnati nei legami estere: la molecola risulta priva di gruppi polari ed è quindi del tutto apolare, e per questo si accumula in gocce separate dalla fase acquosa.\n\nÈ la forma di riserva energetica più conveniente, perché a parità di massa i lipidi liberano circa il doppio dell'energia di zuccheri e proteine e vengono immagazzinati praticamente senza acqua."
+      "spiegazione": "Nel trigliceride tutti e tre gli ossidrili del glicerolo sono impegnati nei legami estere, debolmente polari, e la molecola è dominata dalle lunghe catene idrocarburiche: è praticamente apolare, insolubile in acqua, e per questo si accumula in gocce separate dalla fase acquosa.\n\nÈ la forma di riserva energetica più conveniente, perché a parità di massa i lipidi liberano circa il doppio dell'energia di zuccheri e proteine e vengono immagazzinati praticamente senza acqua."
     },
     {
       "id": "u1-0065",
@@ -270,7 +270,7 @@
       "unita": "u1",
       "tipo": "multipla",
       "argomento": "Gli acidi grassi insaturi",
-      "testo": "Rispetto a un acido grasso saturo della stessa lunghezza, un acido grasso insaturo:",
+      "testo": "Rispetto a un acido grasso saturo della stessa lunghezza, un acido grasso insaturo con doppi legami cis:",
       "opzioni": [
         "ha una catena perfettamente lineare, che si impacchetta meglio",
         "presenta uno o più doppi legami che piegano la catena",
@@ -279,7 +279,7 @@
         "ha un punto di fusione più alto ed è solido a temperatura ambiente"
       ],
       "corretta": 1,
-      "spiegazione": "Il doppio legame in configurazione cis introduce un gomito nella catena: le molecole non riescono più ad affiancarsi ordinatamente, le interazioni fra loro si indeboliscono e il punto di fusione si abbassa. È per questo che gli oli vegetali, ricchi di insaturi, sono liquidi mentre i grassi animali sono solidi.\n\nA) La catena lineare, capace di impacchettarsi strettamente, è quella dell'acido grasso saturo.\nC) «Saturo» significa proprio saturo di idrogeno: è l'insaturo ad averne di meno.\nD) I fosfolipidi di membrana contengono abitualmente una coda insatura, e sono proprio le insaturazioni a mantenere la membrana fluida.\nE) Il punto di fusione più alto è del saturo: è l'insaturo ad avere quello più basso."
+      "spiegazione": "Il doppio legame in configurazione cis introduce un gomito nella catena: le molecole non riescono più ad affiancarsi ordinatamente, le interazioni fra loro si indeboliscono e il punto di fusione si abbassa. I doppi legami trans, rari negli acidi grassi naturali, non producono lo stesso gomito. È per questo che gli oli vegetali, ricchi di insaturi, sono liquidi mentre i grassi animali sono solidi.\n\nA) La catena lineare, capace di impacchettarsi strettamente, è quella dell'acido grasso saturo.\nC) «Saturo» significa proprio saturo di idrogeno: è l'insaturo ad averne di meno.\nD) I fosfolipidi di membrana contengono abitualmente una coda insatura, e sono proprio le insaturazioni a mantenere la membrana fluida.\nE) Il punto di fusione più alto è del saturo: è l'insaturo ad avere quello più basso."
     },
     {
       "id": "u1-0070",
@@ -351,7 +351,7 @@
         "acilazione",
         "aggiunta di lipidi"
       ],
-      "spiegazione": "Una proteina priva di segmenti transmembrana può comunque essere legata stabilmente a una membrana grazie a un lipide agganciato in modo covalente: la catena idrocarburica si inserisce nel doppio strato e vi trattiene la proteina.\n\nMolte proteine della trasduzione del segnale sono ancorate così, ed è un ancoraggio regolabile: rimuovendo il lipide la proteina torna solubile e lascia la membrana."
+      "spiegazione": "Una proteina priva di segmenti transmembrana può comunque essere legata stabilmente a una membrana grazie a un lipide agganciato in modo covalente: la catena idrocarburica si inserisce nel doppio strato e vi trattiene la proteina.\n\nMolte proteine della trasduzione del segnale sono ancorate così. Alcuni di questi ancoraggi sono regolabili: la palmitoilazione può essere rimossa, e la proteina lascia la membrana; altri, come la prenilazione e la miristoilazione, sono di norma stabili."
     },
     {
       "id": "u1-0075",
@@ -403,13 +403,13 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "RNA non codificanti",
-      "testo": "I brevi RNA non codificanti, lunghi una ventina di nucleotidi, che regolano l'espressione genica appaiandosi a mRNA bersaglio sono i ……",
+      "testo": "I brevi RNA non codificanti endogeni, lunghi una ventina di nucleotidi, che derivano da precursori a forcina trascritti dalla cellula stessa e regolano l'espressione genica appaiandosi a mRNA bersaglio sono i ……",
       "accettate": [
         "microrna",
         "mirna",
         "micro rna"
       ],
-      "spiegazione": "I microRNA non vengono tradotti: sono essi stessi il prodotto finale del gene. Appaiandosi per complementarietà a un mRNA ne bloccano la traduzione o ne accelerano la degradazione, e un solo microRNA può regolare molti messaggeri diversi.\n\nSono una parte della grande classe degli RNA non codificanti, che comprende anche gli RNA ribosomiali, i transfer e i piccoli RNA nucleari: la quota di genoma trascritta in RNA che non diventeranno mai proteine è di gran lunga superiore a quella dei geni codificanti."
+      "spiegazione": "I microRNA non vengono tradotti: sono essi stessi il prodotto finale del gene. Appaiandosi per complementarietà a un mRNA ne bloccano la traduzione o ne accelerano la degradazione, e un solo microRNA può regolare molti messaggeri diversi. Si distinguono dai siRNA, che derivano invece dal taglio di RNA a doppio filamento lunghi, spesso di origine esterna.\n\nSono una parte della grande classe degli RNA non codificanti, che comprende anche gli RNA ribosomiali, i transfer e i piccoli RNA nucleari: la quota di genoma trascritta in RNA che non diventeranno mai proteine è di gran lunga superiore a quella dei geni codificanti."
     },
     {
       "id": "u1-0079",

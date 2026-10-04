@@ -209,7 +209,7 @@
         "la deformazione del tessuto sotto uno stress meccanico"
       ],
       "corretta": 2,
-      "spiegazione": "Le giunzioni occludenti sigillano lo spazio fra cellule adiacenti: i soluti non possono passare fra le cellule e devono attraversarle, per via transcellulare, tramite trasportatori e canali regolati. La tenuta varia da un epitelio all'altro in base alle claudine espresse.\n\nA) La via transcellulare è proprio quella che resta disponibile, attraverso trasportatori e canali.\nB) La comunicazione fra citoplasmi è mediata dalle giunzioni comunicanti; le occludenti non la bloccano.\nD) L'ancoraggio alla lamina basale è compito degli emidesmosomi e delle adesioni focali.\nE) La resistenza allo stress meccanico è affidata soprattutto a desmosomi e filamenti intermedi."
+      "spiegazione": "Le giunzioni occludenti sigillano lo spazio fra cellule adiacenti: il passaggio fra le cellule diventa selettivo e limitato, e gran parte dei soluti deve attraversarle, per via transcellulare, tramite trasportatori e canali regolati. La tenuta varia da un epitelio all'altro in base alle claudine espresse.\n\nA) La via transcellulare è proprio quella che resta disponibile, attraverso trasportatori e canali.\nB) La comunicazione fra citoplasmi è mediata dalle giunzioni comunicanti; le occludenti non la bloccano.\nD) L'ancoraggio alla lamina basale è compito degli emidesmosomi e delle adesioni focali.\nE) La resistenza allo stress meccanico è affidata soprattutto a desmosomi e filamenti intermedi."
     },
     {
       "id": "u6-0065",
@@ -277,7 +277,7 @@
         "negli epiteli soggetti a stress meccanico, come l'epidermide"
       ],
       "corretta": 4,
-      "spiegazione": "Desmosomi ed emidesmosomi ancorano i filamenti intermedi, i più resistenti alla trazione fra gli elementi del citoscheletro: per questo abbondano nei tessuti sottoposti a sollecitazioni meccaniche, come l'epidermide e il muscolo cardiaco. Difetti genetici o autoimmuni di queste giunzioni causano malattie bollose della cute.\n\nA) La trasmissione elettrica diretta fra cellule passa per le giunzioni comunicanti.\nB) Gli eritrociti circolano isolati e non formano giunzioni con altre cellule.\nC) La barriera ematoencefalica dipende soprattutto dalle giunzioni occludenti.\nD) Nel connettivo le cellule sono disperse nella matrice e si ancorano soprattutto a essa, con le integrine."
+      "spiegazione": "Desmosomi ed emidesmosomi ancorano i filamenti intermedi, i più resistenti alla trazione fra gli elementi del citoscheletro: per questo abbondano nei tessuti sottoposti a sollecitazioni meccaniche, come l'epidermide; nel muscolo cardiaco abbondano i desmosomi, mentre gli emidesmosomi sono strutture tipiche degli epiteli. Difetti genetici o autoimmuni di queste giunzioni causano malattie bollose della cute.\n\nA) La trasmissione elettrica diretta fra cellule passa per le giunzioni comunicanti.\nB) Gli eritrociti circolano isolati e non formano giunzioni con altre cellule.\nC) La barriera ematoencefalica dipende soprattutto dalle giunzioni occludenti.\nD) Nel connettivo le cellule sono disperse nella matrice e si ancorano soprattutto a essa, con le integrine."
     },
     {
       "id": "u6-0070",
@@ -530,7 +530,7 @@
         "entra nel nucleo e agisce come un fattore di trascrizione"
       ],
       "corretta": 3,
-      "spiegazione": "Il diacilglicerolo è lipidico e resta nel foglietto interno della membrana plasmatica. Lì recluta la proteina chinasi C, che per attivarsi richiede anche il Ca2+ liberato grazie all'IP3: i due rami della via convergono.\n\nA) Questo è il ruolo dell'IP3, l'altro prodotto della fosfolipasi C, che è idrosolubile.\nB) Le subunità regolatrici della PKA legano il cAMP.\nC) L'adenilato ciclasi usa come substrato l'ATP, non il diacilglicerolo.\nE) Il diacilglicerolo agisce in membrana, attivando una chinasi."
+      "spiegazione": "Il diacilglicerolo è lipidico e resta nel foglietto interno della membrana plasmatica. Lì recluta la proteina chinasi C, le cui isoforme classiche per attivarsi richiedono anche il Ca2+ liberato grazie all'IP3: i due rami della via convergono.\n\nA) Questo è il ruolo dell'IP3, l'altro prodotto della fosfolipasi C, che è idrosolubile.\nB) Le subunità regolatrici della PKA legano il cAMP.\nC) L'adenilato ciclasi usa come substrato l'ATP, non il diacilglicerolo.\nE) Il diacilglicerolo agisce in membrana, attivando una chinasi."
     },
     {
       "id": "u6-0087",
@@ -714,7 +714,7 @@
         "trattenuto in membrana senza essere mai internalizzato"
       ],
       "corretta": 0,
-      "spiegazione": "Il recettore per l'EGF attivato viene ubiquitinato, internalizzato per endocitosi mediata da recettori e indirizzato, attraverso i corpi multivescicolari, ai lisosomi. La riduzione dei recettori in superficie limita la durata della stimolazione proliferativa.\n\nB) Il riciclo in membrana è tipico del recettore della transferrina e delle LDL, non del recettore per l'EGF.\nC) Il recettore per l'EGF agisce attivando vie citosoliche, non da fattore di trascrizione.\nD) Il destino prevalente del recettore attivato è l'endocitosi.\nE) Il recettore attivato viene internalizzato rapidamente: è uno dei principali meccanismi di attenuazione del segnale."
+      "spiegazione": "Il recettore per l'EGF attivato viene ubiquitinato, internalizzato per endocitosi mediata da recettori e indirizzato, attraverso i corpi multivescicolari, ai lisosomi. La riduzione dei recettori in superficie limita la durata della stimolazione proliferativa.\n\nB) Il riciclo è il destino tipico dei recettori della transferrina e delle LDL; per il recettore dell'EGF attivato riguarda solo una quota minore.\nC) Il recettore per l'EGF agisce attivando vie citosoliche, non da fattore di trascrizione.\nD) Il destino prevalente del recettore attivato è l'endocitosi.\nE) Il recettore attivato viene internalizzato rapidamente: è uno dei principali meccanismi di attenuazione del segnale."
     },
     {
       "id": "u6-0099",

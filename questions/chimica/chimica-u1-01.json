@@ -108,7 +108,7 @@
       "unita": "u1",
       "tipo": "multipla",
       "argomento": "Massa atomica relativa e abbondanza isotopica",
-      "testo": "La massa atomica relativa del cloro riportata nella tavola periodica è 35,45 u. Questo valore:",
+      "testo": "La massa atomica media del cloro riportata nella tavola periodica è circa 35,45 u. Questo valore:",
       "opzioni": [
         "corrisponde al numero atomico del cloro",
         "è la massa dell'isotopo più abbondante del cloro",
@@ -117,7 +117,7 @@
         "è la media ponderata delle masse dei suoi isotopi naturali"
       ],
       "corretta": 4,
-      "spiegazione": "La massa atomica relativa tabulata è la media delle masse degli isotopi naturali, pesata sulle rispettive abbondanze. Per il cloro (³⁵Cl circa 75,8%, ³⁷Cl circa 24,2%) il calcolo dà 0,758 × 35 + 0,242 × 37 ≈ 35,5 u.\n\nA) Il numero atomico del cloro è 17.\nB) L'isotopo più abbondante è il ³⁵Cl, la cui massa vale circa 35 u.\nC) Il numero di nucleoni di un singolo atomo è sempre un numero intero: nessun atomo di cloro ha 35,45 nucleoni. È proprio la media a produrre un valore non intero.\nD) La somma darebbe 72 u."
+      "spiegazione": "La massa atomica tabulata è la media delle masse degli isotopi naturali, pesata sulle rispettive abbondanze. Per il cloro (³⁵Cl circa 75,8%, ³⁷Cl circa 24,2%), approssimando le masse isotopiche con i numeri di massa, il calcolo dà 0,758 × 35 + 0,242 × 37 ≈ 35,5 u. Lo stesso valore espresso come numero puro, senza unità, è la massa atomica relativa.\n\nA) Il numero atomico del cloro è 17.\nB) L'isotopo più abbondante è il ³⁵Cl, la cui massa vale circa 35 u.\nC) Il numero di nucleoni di un singolo atomo è sempre un numero intero: nessun atomo di cloro ha 35,45 nucleoni. È proprio la media a produrre un valore non intero.\nD) La somma darebbe 72 u."
     },
     {
       "id": "u1-0009",
@@ -183,8 +183,7 @@
       "testo": "Il nucleo dell'atomo di ……, costituito da un solo protone e abbondantissimo nell'acqua dei tessuti, è quello normalmente osservato nella risonanza magnetica.",
       "accettate": [
         "idrogeno",
-        "idrogeno h",
-        "protone"
+        "idrogeno h"
       ],
       "spiegazione": "L'¹H ha spin 1/2 e un momento magnetico elevato, e l'acqua corporea ne mette a disposizione una quantità enormemente maggiore di qualsiasi altro nucleo: per questo la risonanza magnetica clinica misura il segnale dei protoni dell'acqua e del grasso.\n\nAltri nuclei con spin non nullo (¹³C, ³¹P, ¹⁹F) sono usati in ricerca e in spettroscopia, ma la loro abbondanza nei tessuti è troppo bassa per l'imaging di routine."
     },
@@ -375,12 +374,12 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Definizione di orbitale",
-      "testo": "La regione dello spazio attorno al nucleo in cui è massima la probabilità di trovare un elettrone si chiama ……",
+      "testo": "La regione dello spazio attorno al nucleo entro cui la probabilità di trovare un elettrone è elevata (convenzionalmente il 90%) si chiama ……",
       "accettate": [
         "orbitale",
         "orbitale atomico"
       ],
-      "spiegazione": "L'orbitale è una funzione d'onda, e il suo quadrato descrive la densità di probabilità di trovare l'elettrone in un punto. Non è una traiettoria.\n\nIl termine «orbita», che indica un percorso definito, appartiene al modello di Bohr ed è stato superato dalla meccanica quantistica: il principio di indeterminazione esclude che si possano conoscere insieme posizione e quantità di moto dell'elettrone."
+      "spiegazione": "In senso rigoroso l'orbitale è la funzione d'onda ψ che descrive l'elettrone; il quadrato del suo modulo, |ψ|², dà la densità di probabilità di trovarlo in un punto. La regione che racchiude il 90% di questa probabilità è la sua rappresentazione grafica abituale. Non è una traiettoria.\n\nIl termine «orbita», che indica un percorso definito, appartiene al modello di Bohr ed è stato superato dalla meccanica quantistica: il principio di indeterminazione esclude che si possano conoscere insieme posizione e quantità di moto dell'elettrone."
     },
     {
       "id": "u1-0028",
@@ -502,7 +501,7 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Gruppi della tavola periodica",
-      "testo": "Gli elementi del gruppo 18, caratterizzati dall'ottetto completo e da reattività bassissima, sono detti gas ……",
+      "testo": "Gli elementi del gruppo 18, caratterizzati dal guscio di valenza completo e da reattività bassissima, sono detti gas ……",
       "accettate": [
         "nobili",
         "nobile",
@@ -559,7 +558,7 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Gruppi della tavola periodica",
-      "testo": "Gli elementi del gruppo 1, che perdono facilmente un elettrone formando cationi monovalenti, si chiamano metalli ……",
+      "testo": "Gli elementi del gruppo 1, escluso l'idrogeno, che perdono facilmente un elettrone formando cationi monovalenti, si chiamano metalli ……",
       "accettate": [
         "alcalini",
         "alcalino"

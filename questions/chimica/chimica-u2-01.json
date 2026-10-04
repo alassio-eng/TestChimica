@@ -291,7 +291,7 @@
         "resta invariata, perché dipende solo dalla pressione"
       ],
       "corretta": 3,
-      "spiegazione": "La dissoluzione di un gas è di norma esotermica: non c'è un reticolo da smontare, e si formano interazioni attrattive fra le molecole del gas e quelle del solvente, che liberano energia. Fornendo calore l'equilibrio si sposta verso la fase gassosa e la solubilità cala.\n\nA) Il comportamento vale per tutti i gas.\nB) L'andamento è opposto anche a pressione costante.\nC) È il comportamento dei solidi, e applicare a un gas il ragionamento valido per i sali è l'errore ricorrente.\nE) La solubilità dipende sia dalla pressione parziale sia dalla temperatura.\n\nNe deriva che le acque calde contengono meno ossigeno disciolto, con conseguenze per gli organismi acquatici."
+      "spiegazione": "La dissoluzione di un gas è di norma esotermica: non c'è un reticolo da smontare, e si formano interazioni attrattive fra le molecole del gas e quelle del solvente, che liberano energia. Fornendo calore l'equilibrio si sposta verso la fase gassosa e la solubilità cala.\n\nA) In acqua, alle temperature ordinarie, il comportamento vale praticamente per tutti i gas, polari e apolari.\nB) L'andamento è opposto anche a pressione costante.\nC) È il comportamento dei solidi, e applicare a un gas il ragionamento valido per i sali è l'errore ricorrente.\nE) La solubilità dipende sia dalla pressione parziale sia dalla temperatura.\n\nNe deriva che le acque calde contengono meno ossigeno disciolto, con conseguenze per gli organismi acquatici."
     },
     {
       "id": "u2-0021",
@@ -383,12 +383,12 @@
       "unita": "u2",
       "tipo": "completamento",
       "argomento": "Unità percentuali di concentrazione",
-      "testo": "La concentrazione peso su volume indica i grammi di soluto contenuti in …… millilitri di soluzione.",
+      "testo": "La concentrazione percentuale peso su volume (% p/V) indica i grammi di soluto contenuti in …… millilitri di soluzione.",
       "accettate": [
         "cento",
         "100"
       ],
-      "spiegazione": "Il riferimento è sempre a 100 mL di soluzione, come per tutte le espressioni percentuali di concentrazione.\n\nDalla percentuale p/V si passa alla molarità dividendo i grammi per litro per la massa molare: una soluzione fisiologica allo 0,9% p/V contiene 9 g/L di NaCl, cioè 9 ÷ 58,5 ≈ 0,15 mol/L."
+      "spiegazione": "Nella percentuale p/V il riferimento è 100 mL di soluzione, come nella percentuale v/V; nella percentuale p/p il riferimento è invece 100 g di soluzione. Senza la parola «percentuale» la concentrazione peso su volume può essere espressa anche in g/L o mg/mL.\n\nDalla percentuale p/V si passa alla molarità dividendo i grammi per litro per la massa molare: una soluzione fisiologica allo 0,9% p/V contiene 9 g/L di NaCl, cioè 9 ÷ 58,5 ≈ 0,15 mol/L."
     },
     {
       "id": "u2-0028",
@@ -469,11 +469,11 @@
       "unita": "u2",
       "tipo": "completamento",
       "argomento": "Soluzioni non ideali e attività",
-      "testo": "Nelle soluzioni concentrate gli ioni interagiscono fra loro e si comportano come se fossero meno numerosi: la concentrazione efficace che ne risulta si chiama ……",
+      "testo": "Nelle soluzioni reali gli ioni interagiscono fra loro e la loro concentrazione efficace differisce da quella analitica: questa concentrazione efficace si chiama ……",
       "accettate": [
         "attivita"
       ],
-      "spiegazione": "L'attività si ottiene moltiplicando la concentrazione analitica per il coefficiente di attività, un numero minore di 1 nelle soluzioni reali e tanto più piccolo quanto più la soluzione è concentrata e quanto maggiori sono le cariche degli ioni.\n\nNelle soluzioni molto diluite il coefficiente tende a 1 e attività e concentrazione coincidono, che è il motivo per cui nei calcoli scolastici si usa direttamente la concentrazione. Nello spazio intracellulare, affollato di ioni e macromolecole, lo scostamento non è invece trascurabile."
+      "spiegazione": "L'attività si ottiene moltiplicando la concentrazione analitica per il coefficiente di attività. Nelle soluzioni di elettroliti diluite o moderatamente concentrate il coefficiente è minore di 1 e diminuisce all'aumentare della concentrazione e della carica degli ioni; in soluzioni molto concentrate può tornare a crescere e superare 1.\n\nNelle soluzioni molto diluite il coefficiente tende a 1 e attività e concentrazione coincidono, che è il motivo per cui nei calcoli scolastici si usa direttamente la concentrazione. Nello spazio intracellulare, affollato di ioni e macromolecole, lo scostamento non è invece trascurabile."
     },
     {
       "id": "u2-0034",

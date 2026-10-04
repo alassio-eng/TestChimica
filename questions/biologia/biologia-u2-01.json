@@ -188,7 +188,7 @@
         "Sostituisce l'istone H3 nei nucleosomi della regione centromerica del cromosoma"
       ],
       "corretta": 3,
-      "spiegazione": "H1 è l'istone di collegamento: si lega al DNA nel punto in cui entra ed esce dal nucleosoma, stabilizza l'avvolgimento e favorisce il ripiegamento della fibra da 11 nm in quella più compatta da 30 nm.\n\nA) Il tetramero centrale è formato da due copie di H3 e due di H4: H1 non ne fa parte.\nB) H1 non ha attività enzimatica e non taglia il DNA.\nC) L'acetilazione è catalizzata dalle istone acetiltransferasi.\nE) La sostituzione di H3 nei nucleosomi centromerici è opera della variante CENP-A."
+      "spiegazione": "H1 è l'istone di collegamento: si lega al DNA nel punto in cui entra ed esce dal nucleosoma, stabilizza l'avvolgimento e favorisce il ripiegamento della fibra da 11 nm in quella più compatta da 30 nm, secondo il modello classico; nel nucleo la cromatina appare spesso organizzata in modo meno regolare.\n\nA) Il tetramero centrale è formato da due copie di H3 e due di H4: H1 non ne fa parte.\nB) H1 non ha attività enzimatica e non taglia il DNA.\nC) L'acetilazione è catalizzata dalle istone acetiltransferasi.\nE) La sostituzione di H3 nei nucleosomi centromerici è opera della variante CENP-A."
     },
     {
       "id": "u2-0014",
@@ -200,7 +200,7 @@
         "h1",
         "istone h1"
       ],
-      "spiegazione": "H1 è più variabile degli altri istoni ed è presente in numerose varianti tessuto-specifiche; la sua quantità relativa nella cromatina è circa una molecola per nucleosoma.\n\nLa sua rimozione sperimentale scioglie la fibra da 30 nm e riporta la cromatina all'aspetto «a collana di perle», che è il modo più diretto per mostrarne il ruolo nella compattazione."
+      "spiegazione": "H1 è più variabile degli altri istoni ed è presente in numerose varianti tessuto-specifiche; la sua quantità relativa nella cromatina è circa una molecola per nucleosoma.\n\nLa sua rimozione sperimentale scioglie in vitro la fibra da 30 nm e riporta la cromatina all'aspetto «a collana di perle», che è il modo più diretto per mostrarne il ruolo nella compattazione."
     },
     {
       "id": "u2-0015",
@@ -216,7 +216,7 @@
         "al DNA nudo, del tutto privo di proteine associate, del diametro di 30 nm"
       ],
       "corretta": 0,
-      "spiegazione": "È il primo livello di organizzazione della cromatina: i nucleosomi sono le «perle», il DNA di collegamento il filo che li unisce, e il diametro complessivo è di circa 10-11 nm. Si osserva in condizioni di bassa forza ionica, che sciolgono i livelli superiori di compattazione.\n\nB) I cromosomi metafasici rappresentano il grado massimo di condensazione, non il primo livello.\nC) H1 non forma il nucleo attorno a cui si avvolge il DNA: quello è l'ottamero.\nD) Il diametro di circa 30 nm è quello della fibra successiva, più compatta.\nE) Il DNA nudo ha un diametro di circa 2 nm."
+      "spiegazione": "È il primo livello di organizzazione della cromatina: i nucleosomi sono le «perle», il DNA di collegamento il filo che li unisce, e il diametro complessivo è di circa 10-11 nm. Si osserva in condizioni di bassa forza ionica, che sciolgono i livelli superiori di compattazione.\n\nB) I cromosomi metafasici rappresentano il grado massimo di condensazione, non il primo livello.\nC) H1 non forma il nucleo attorno a cui si avvolge il DNA: quello è l'ottamero.\nD) Il diametro di circa 30 nm è quello della fibra successiva del modello classico, più compatta.\nE) Il DNA nudo ha un diametro di circa 2 nm."
     },
     {
       "id": "u2-0016",
@@ -244,7 +244,7 @@
         "è favorito dall'istone H1 e rende la cromatina meno accessibile"
       ],
       "corretta": 4,
-      "spiegazione": "H1 stabilizza il DNA all'ingresso e all'uscita del nucleosoma e permette ai nucleosomi di avvicinarsi fra loro: la cromatina si compatta e diventa meno accessibile agli apparati di trascrizione e di replicazione.\n\nA) L'acetilazione ha l'effetto opposto: apre la cromatina invece di compattarla.\nB) Gli istoni del nucleo restano al loro posto: senza nucleosomi non ci sarebbe alcuna fibra da ripiegare.\nC) La duplicazione del DNA è un processo distinto dalla compattazione della cromatina.\nD) La compattazione riguarda tutti i tipi cellulari."
+      "spiegazione": "Nel modello classico, H1 stabilizza il DNA all'ingresso e all'uscita del nucleosoma e permette ai nucleosomi di avvicinarsi fra loro: la cromatina si compatta e diventa meno accessibile agli apparati di trascrizione e di replicazione.\n\nA) L'acetilazione ha l'effetto opposto: apre la cromatina invece di compattarla.\nB) Gli istoni del nucleo restano al loro posto: senza nucleosomi non ci sarebbe alcuna fibra da ripiegare.\nC) La duplicazione del DNA è un processo distinto dalla compattazione della cromatina.\nD) La compattazione riguarda tutti i tipi cellulari."
     },
     {
       "id": "u2-0018",
@@ -556,12 +556,12 @@
       "unita": "u2",
       "tipo": "completamento",
       "argomento": "Geni per gli RNA ribosomiali",
-      "testo": "I geni che codificano gli RNA ribosomiali sono presenti in centinaia di copie ripetute in …… nelle regioni organizzatrici del nucleolo.",
+      "testo": "I geni che codificano il precursore degli rRNA 18S, 5,8S e 28S sono presenti in centinaia di copie ripetute in …… nelle regioni organizzatrici del nucleolo.",
       "accettate": [
         "tandem",
         "serie"
       ],
-      "spiegazione": "Le unità ripetute sono disposte una dopo l'altra sui bracci corti dei cinque cromosomi acrocentrici umani. L'elevato numero di copie serve a soddisfare la richiesta di rRNA di una cellula, che deve produrre milioni di ribosomi.\n\nÈ intorno a queste regioni che si organizza il nucleolo, dove gli rRNA vengono trascritti, maturati e assemblati con le proteine ribosomiali."
+      "spiegazione": "Le unità ripetute sono disposte una dopo l'altra sui bracci corti dei cinque cromosomi acrocentrici umani. L'elevato numero di copie serve a soddisfare la richiesta di rRNA di una cellula, che deve produrre milioni di ribosomi. I geni dell'rRNA 5S formano un gruppo distinto, fuori dalle regioni organizzatrici del nucleolo.\n\nÈ intorno a queste regioni che si organizza il nucleolo, dove gli rRNA vengono trascritti, maturati e assemblati con le proteine ribosomiali."
     },
     {
       "id": "u2-0041",
@@ -605,7 +605,7 @@
         "si trovano soltanto nelle regioni telomeriche dei cromosomi"
       ],
       "corretta": 1,
-      "spiegazione": "Entrambi sono DNA ripetuto in tandem e la differenza sta nella lunghezza dell'unità: da una a sei paia di basi nei microsatelliti, dell'ordine delle decine nei minisatelliti.\n\nA) Sono sequenze non codificanti.\nC) Sono ripetizioni in serie per definizione.\nD) L'origine da retrovirus integrati riguarda i retrovirus endogeni, che sono sequenze intersperse e non ripetizioni in tandem.\nE) Sono distribuiti in tutto il genoma; è il DNA telomerico a essere confinato alle estremità."
+      "spiegazione": "Entrambi sono DNA ripetuto in tandem e la differenza sta nella lunghezza dell'unità: da una a sei paia di basi nei microsatelliti, dell'ordine delle decine nei minisatelliti.\n\nA) Sono per lo più non codificanti; alcune ripetizioni di triplette cadono dentro sequenze codificanti, ma non è questo a distinguerli dai minisatelliti.\nC) Sono ripetizioni in serie per definizione.\nD) L'origine da retrovirus integrati riguarda i retrovirus endogeni, che sono sequenze intersperse e non ripetizioni in tandem.\nE) Sono distribuiti in tutto il genoma; è il DNA telomerico a essere confinato alle estremità."
     },
     {
       "id": "u2-0044",
@@ -655,12 +655,12 @@
       "opzioni": [
         "costituiscono la famiglia genica che codifica gli RNA ribosomiali",
         "sono i geni che codificano gli istoni presenti nel nucleosoma",
-        "sono la famiglia di sequenze intersperse più abbondante del genoma",
+        "sono la famiglia di sequenze intersperse con più copie nel genoma",
         "sono lunghe circa 6.000 paia di basi e codificano una trascrittasi inversa",
         "sono elementi ripetuti in tandem che costituiscono il DNA centromerico"
       ],
       "corretta": 2,
-      "spiegazione": "Le Alu sono SINE lunghe circa 300 paia di basi, presenti in oltre un milione di copie disperse nel genoma umano, dove occupano complessivamente all'incirca il 10% del DNA totale.\n\nA) I geni per gli RNA ribosomiali sono ripetuti in tandem nelle regioni organizzatrici del nucleolo.\nB) I geni degli istoni sono geni codificanti, del tutto estranei alle sequenze ripetute disperse.\nD) Le dimensioni indicate e la capacità di codificare una trascrittasi inversa sono proprie dei LINE, non delle Alu, che sono elementi corti e non autonomi.\nE) Le Alu sono intersperse, cioè disseminate, non ripetute in tandem."
+      "spiegazione": "Le Alu sono SINE lunghe circa 300 paia di basi, presenti in oltre un milione di copie disperse nel genoma umano, dove occupano complessivamente all'incirca il 10% del DNA totale. Per quota di DNA occupato le superano i LINE, più lunghi, che ne coprono circa un sesto.\n\nA) I geni per gli RNA ribosomiali sono ripetuti in tandem nelle regioni organizzatrici del nucleolo.\nB) I geni degli istoni sono geni codificanti, del tutto estranei alle sequenze ripetute disperse.\nD) Le dimensioni indicate e la capacità di codificare una trascrittasi inversa sono proprie dei LINE, non delle Alu, che sono elementi corti e non autonomi.\nE) Le Alu sono intersperse, cioè disseminate, non ripetute in tandem."
     },
     {
       "id": "u2-0048",

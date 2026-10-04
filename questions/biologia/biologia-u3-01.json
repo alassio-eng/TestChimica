@@ -75,7 +75,7 @@
         "A separare i due filamenti della doppia elica davanti alla forcella replicativa"
       ],
       "corretta": 3,
-      "spiegazione": "È l'attività di correzione di bozze: quando la polimerasi inserisce un nucleotide non complementare, l'estremità 3' non appaiata viene spostata nel sito esonucleasico, il nucleotide è asportato e la sintesi riprende. Abbassa il tasso di errore di circa due ordini di grandezza rispetto alla sola selezione in fase di incorporazione.\n\nA) La rimozione degli inneschi è compito di un'attività esonucleasica 5'→3', di verso opposto, e non della correzione di bozze.\nB) Il filamento stampo non viene mai degradato: resta nella molecola figlia.\nC) Saldare i frammenti fra loro spetta alla DNA ligasi.\nE) L'apertura dell'elica è compito dell'elicasi, che non ha attività esonucleasica."
+      "spiegazione": "È l'attività di correzione di bozze: quando la polimerasi inserisce un nucleotide non complementare, l'estremità 3' non appaiata viene spostata nel sito esonucleasico, il nucleotide è asportato e la sintesi riprende. Abbassa il tasso di errore di circa due ordini di grandezza rispetto alla sola selezione in fase di incorporazione.\n\nA) Gli inneschi vengono rimossi da altri enzimi (nei batteri l'attività esonucleasica 5'→3' della DNA polimerasi I, negli eucarioti la RNasi H e una nucleasi dedicata), non dalla correzione di bozze.\nB) Il filamento stampo non viene mai degradato: resta nella molecola figlia.\nC) Saldare i frammenti fra loro spetta alla DNA ligasi.\nE) L'apertura dell'elica è compito dell'elicasi, che non ha attività esonucleasica."
     },
     {
       "id": "u3-0006",
@@ -161,7 +161,7 @@
         "È espressa a livelli elevati in tutte le cellule somatiche dell'organismo adulto"
       ],
       "corretta": 2,
-      "spiegazione": "La telomerasi è una trascrittasi inversa che contiene una componente a RNA: appaia quel breve stampo interno all'estremità sporgente del telomero e vi sintetizza sopra DNA, allungando ripetutamente il filamento ricco di guanine. È l'unica DNA polimerasi cellulare che usa come stampo un RNA, per di più contenuto nell'enzima stesso.\n\nA) Anche la telomerasi allunga in direzione 5'→3': la polarità della sintesi non fa eccezione.\nB) Uno stampo c'è, ed è proprio il suo RNA: la sequenza telomerica aggiunta è ripetitiva e definita, non casuale.\nD) Allunga l'estremità 3' sporgente del filamento ricco di guanine; il filamento complementare è poi completato dal macchinario replicativo ordinario.\nE) Nelle cellule somatiche l'attività è bassa o assente: resta alta nelle germinali, in molte staminali e nella maggior parte delle cellule tumorali."
+      "spiegazione": "La telomerasi è una trascrittasi inversa che contiene una componente a RNA: appaia quel breve stampo interno all'estremità sporgente del telomero e vi sintetizza sopra DNA, allungando ripetutamente il filamento ricco di guanine. La sua particolarità è che lo stampo a RNA fa parte dell'enzima stesso; le DNA polimerasi replicative, invece, copiano il DNA.\n\nA) Anche la telomerasi allunga in direzione 5'→3': la polarità della sintesi non fa eccezione.\nB) Uno stampo c'è, ed è proprio il suo RNA: la sequenza telomerica aggiunta è ripetitiva e definita, non casuale.\nD) Allunga l'estremità 3' sporgente del filamento ricco di guanine; il filamento complementare è poi completato dal macchinario replicativo ordinario.\nE) Nelle cellule somatiche l'attività è bassa o assente: resta alta nelle germinali, in molte staminali e nella maggior parte delle cellule tumorali."
     },
     {
       "id": "u3-0012",
@@ -317,7 +317,7 @@
         "amplificatore",
         "amplificatori"
       ],
-      "spiegazione": "Un enhancer lega fattori di trascrizione specifici e li avvicina al promotore grazie al ripiegamento del DNA, che forma un'ansa: per questo può trovarsi a migliaia di paia di basi di distanza, a monte o a valle del gene, e persino dentro un introne.\n\nL'elemento speculare, che riduce la trascrizione legando fattori repressori, è il silencer. Entrambi sono elementi in cis e nessuno dei due viene trascritto."
+      "spiegazione": "Un enhancer lega fattori di trascrizione specifici e li avvicina al promotore grazie al ripiegamento del DNA, che forma un'ansa: per questo può trovarsi a migliaia di paia di basi di distanza, a monte o a valle del gene, e persino dentro un introne.\n\nL'elemento speculare, che riduce la trascrizione legando fattori repressori, è il silencer. Entrambi agiscono in cis legando fattori proteici: la loro funzione non dipende da un prodotto codificato, anche se molti enhancer vengono a loro volta trascritti in brevi RNA non codificanti."
     },
     {
       "id": "u3-0023",
@@ -418,12 +418,12 @@
       "opzioni": [
         "Aumenta il numero dei geni presenti nel genoma degli organismi più complessi",
         "Sostituisce singole basi del trascritto, modificando il significato di alcuni codoni",
-        "Permette di rimuovere gli esoni e di conservare gli introni nel messaggero maturo",
+        "Cambia il codice genetico, così che lo stesso codone specifichi amminoacidi diversi",
         "Genera messaggeri di identica sequenza ma con code di poli-A di lunghezza diversa",
         "Da un solo gene si ottengono mRNA diversi e quindi proteine diverse"
       ],
       "corretta": 4,
-      "spiegazione": "Combinando in modi diversi gli esoni dello stesso trascritto primario, la cellula ricava da un unico gene più messaggeri maturi e quindi più isoforme proteiche, spesso specifiche di tessuto o di stadio di sviluppo. È una delle ragioni per cui il numero di proteine umane supera largamente quello dei geni.\n\nA) Il numero dei geni non cambia: cambia il numero dei prodotti ricavati da ciascuno.\nB) La sostituzione di singole basi sul trascritto è l'editing dell'RNA, un processo distinto.\nC) È l'inverso di ciò che accade: lo splicing rimuove gli introni e conserva gli esoni.\nD) La lunghezza della coda di poli-A riguarda la stabilità del messaggero e non dipende dallo splicing."
+      "spiegazione": "Combinando in modi diversi gli esoni dello stesso trascritto primario, la cellula ricava da un unico gene più messaggeri maturi e quindi più isoforme proteiche, spesso specifiche di tessuto o di stadio di sviluppo. È una delle ragioni per cui il numero di proteine umane supera largamente quello dei geni.\n\nA) Il numero dei geni non cambia: cambia il numero dei prodotti ricavati da ciascuno.\nB) La sostituzione di singole basi sul trascritto è l'editing dell'RNA, un processo distinto.\nC) Il codice genetico resta lo stesso: a cambiare è quali esoni compongono il messaggero, non il significato dei codoni.\nD) La lunghezza della coda di poli-A riguarda la stabilità del messaggero e non dipende dallo splicing."
     },
     {
       "id": "u3-0030",
@@ -438,7 +438,7 @@
         "poly-A",
         "poly A"
       ],
-      "spiegazione": "Il trascritto viene tagliato poco a valle del segnale AAUAAA e la poli-A polimerasi aggiunge le adenine senza leggere alcuno stampo. La coda protegge il messaggero, ne favorisce l'esportazione e, tramite le proteine che la legano, stimola la traduzione.\n\nÈ una struttura assente nella quasi totalità degli mRNA batterici e, negli eucarioti, anche negli mRNA degli istoni, che usano un diverso segnale di terminazione. Il suo progressivo accorciamento è il primo passo della degradazione del messaggero."
+      "spiegazione": "Il trascritto viene tagliato poco a valle del segnale AAUAAA e la poli-A polimerasi aggiunge le adenine senza leggere alcuno stampo. La coda protegge il messaggero, ne favorisce l'esportazione e, tramite le proteine che la legano, stimola la traduzione.\n\nÈ una struttura assente nella quasi totalità degli mRNA batterici e, negli eucarioti, anche negli mRNA degli istoni canonici, prodotti durante la replicazione, che usano un diverso segnale di terminazione. Il suo progressivo accorciamento è il primo passo della degradazione del messaggero."
     },
     {
       "id": "u3-0031",
@@ -571,7 +571,7 @@
         "è praticamente lo stesso in tutti gli organismi viventi conosciuti",
         "la terza base del codone pesa meno delle prime due nel determinare l'amminoacido",
         "i tre codoni di stop non specificano alcun amminoacido della catena",
-        "ogni codone specifica un solo amminoacido"
+        "ogni codone di senso specifica un solo amminoacido"
       ],
       "corretta": 4,
       "spiegazione": "La non ambiguità riguarda il verso della lettura codone-amminoacido: una data tripletta ha sempre lo stesso significato, quindi il messaggio è interpretato in modo univoco.\n\nA) È falsa e descriverebbe un codice non degenerato: quasi tutti gli amminoacidi hanno più codoni.\nB) Descrive l'universalità, che è una proprietà diversa.\nC) Descrive la maggiore tolleranza alle sostituzioni in terza posizione, conseguenza della degenerazione.\nD) È vera, ma definisce i codoni di stop e non la proprietà chiamata non ambiguità."
@@ -634,7 +634,7 @@
         "amminoacilico",
         "accettore"
       ],
-      "spiegazione": "Nel sito aminoacilico avviene il controllo dell'appaiamento fra codone e anticodone; se l'appaiamento è corretto, l'amminoacido viene trasferito sulla catena nascente.\n\nGli altri due siti sono il sito P, o peptidilico, che ospita il tRNA legato alla catena in crescita, e il sito E, di uscita, da cui il tRNA scarico abbandona il ribosoma. La traslocazione sposta i tRNA da A a P e da P a E."
+      "spiegazione": "Nel sito aminoacilico avviene il controllo dell'appaiamento fra codone e anticodone; se l'appaiamento è corretto, la catena nascente, legata al tRNA del sito P, viene trasferita sul gruppo amminico dell'amminoacido portato dal tRNA del sito A.\n\nGli altri due siti sono il sito P, o peptidilico, che ospita il tRNA legato alla catena in crescita, e il sito E, di uscita, da cui il tRNA scarico abbandona il ribosoma. La traslocazione sposta i tRNA da A a P e da P a E."
     },
     {
       "id": "u3-0044",
@@ -677,7 +677,7 @@
         "posttraduzionale",
         "post-traduzionali"
       ],
-      "spiegazione": "A questo livello la cellula non cambia la quantità di proteina presente ma il suo stato funzionale, la sua localizzazione o la sua durata: fosforilazione, acetilazione, ubiquitinazione e proteolisi regolata ne sono gli strumenti.\n\nÈ il livello più rapido: agisce su molecole già disponibili e non richiede né trascrizione né sintesi proteica, quindi produce effetti nell'arco di secondi o minuti anziché di ore."
+      "spiegazione": "A questo livello la cellula agisce su proteine già sintetizzate, cambiandone lo stato funzionale, la localizzazione o la durata, e quindi, attraverso la degradazione, anche la quantità: fosforilazione, acetilazione, ubiquitinazione e proteolisi regolata ne sono gli strumenti.\n\nÈ il livello più rapido: agisce su molecole già disponibili e non richiede né trascrizione né sintesi proteica, quindi produce effetti nell'arco di secondi o minuti anziché di ore."
     },
     {
       "id": "u3-0047",
@@ -693,7 +693,7 @@
         "Trasferiscono le proteine mal ripiegate nel nucleo, dove verranno poi degradate"
       ],
       "corretta": 2,
-      "spiegazione": "Gli chaperon legano le superfici idrofobiche esposte dalle catene non ancora ripiegate e le proteggono dall'aggregazione, concedendo tempo perché il ripiegamento corretto si compia; molti lavorano con cicli dipendenti da ATP e si staccano al termine del processo.\n\nA) L'informazione per il ripiegamento è contenuta nella sequenza amminoacidica: gli chaperon non la forniscono, rendono solo più probabile il raggiungimento della conformazione corretta.\nB) La proteolisi è compito del proteasoma e delle idrolasi lisosomiali.\nD) Il legame peptidico è formato dall'attività peptidil-transferasica del ribosoma.\nE) Le proteine mal ripiegate non vengono indirizzate al nucleo; la loro eliminazione avviene nel citosol o nel reticolo."
+      "spiegazione": "Gli chaperon legano le superfici idrofobiche esposte dalle catene non ancora ripiegate e le proteggono dall'aggregazione, concedendo tempo perché il ripiegamento corretto si compia; molti lavorano con cicli dipendenti da ATP e si staccano al termine del processo.\n\nA) L'informazione per il ripiegamento è contenuta nella sequenza amminoacidica: gli chaperon non la forniscono, rendono solo più probabile il raggiungimento della conformazione corretta.\nB) La proteolisi è compito del proteasoma e delle idrolasi lisosomiali.\nD) Il legame peptidico è formato dall'attività peptidil-transferasica del ribosoma.\nE) Il nucleo non è una destinazione di smaltimento per le proteine di altri compartimenti: quelle mal ripiegate vengono degradate dal proteasoma, presente sia nel citosol sia nel nucleo, oppure per via lisosomiale."
     },
     {
       "id": "u3-0048",
@@ -724,7 +724,7 @@
         "Il substrato poliubiquitinato viene degradato dal proteasoma 26S con consumo di ATP"
       ],
       "corretta": 4,
-      "spiegazione": "Il substrato riceve una catena di più molecole di ubiquitina; la particella regolatoria del proteasoma 26S la riconosce, srotola la proteina e la spinge nella camera catalitica, dove viene tagliata in corti peptidi. Sia il riconoscimento sia lo srotolamento richiedono ATP.\n\nA) Descrive la via lisosomiale, che è distinta e segue altri meccanismi di indirizzamento.\nB) Senza marcatura non c'è degradazione proteasomica: è proprio l'ubiquitinazione a conferire la selettività.\nC) L'ubiquitina viene rimossa dalle deubiquitinasi prima dell'ingresso nella camera e riciclata.\nD) La monoubiquitinazione ha altri significati, per esempio nello smistamento delle proteine di membrana: per il proteasoma serve una catena."
+      "spiegazione": "Il substrato riceve una catena di più molecole di ubiquitina; la particella regolatoria del proteasoma 26S la riconosce, srotola la proteina e la spinge nella camera catalitica, dove viene tagliata in corti peptidi. Sia il riconoscimento sia lo srotolamento richiedono ATP.\n\nA) Descrive la via lisosomiale, che è distinta e segue altri meccanismi di indirizzamento.\nB) Senza marcatura non c'è degradazione proteasomica: è proprio l'ubiquitinazione a conferire la selettività.\nC) L'ubiquitina viene rimossa dalle deubiquitinasi prima dell'ingresso nella camera e riciclata.\nD) Il segnale tipico per il proteasoma è una catena di ubiquitine; la monoubiquitinazione ha di regola altri significati, come lo smistamento delle proteine di membrana verso endosomi e lisosomi."
     },
     {
       "id": "u3-0050",

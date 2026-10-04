@@ -398,12 +398,12 @@
       "unita": "u7",
       "tipo": "completamento",
       "argomento": "Citodieresi",
-      "testo": "La divisione del citoplasma che segue la divisione del nucleo e separa le due cellule figlie si chiama ……",
+      "testo": "La divisione del citoplasma che accompagna le fasi finali della mitosi e separa le due cellule figlie si chiama ……",
       "accettate": [
         "citodieresi",
         "citocinesi"
       ],
-      "spiegazione": "Nelle cellule animali la citodieresi avviene per strozzamento, grazie all'anello contrattile di actina e miosina II che si assembla nella posizione indicata dal fuso. Nelle cellule vegetali avviene invece per formazione della piastra cellulare.\n\nMitosi e citodieresi sono eventi distinti: in alcune cellule la mitosi avviene senza citodieresi e dà origine a cellule con più nuclei."
+      "spiegazione": "Nelle cellule animali la citodieresi avviene per strozzamento, grazie all'anello contrattile di actina e miosina II che si assembla nella posizione indicata dal fuso. Nelle cellule vegetali avviene invece per formazione della piastra cellulare.\n\nComincia di solito già in anafase e si completa dopo la telofase. Mitosi e citodieresi sono comunque eventi distinti: in alcune cellule la mitosi avviene senza citodieresi e dà origine a cellule con più nuclei."
     },
     {
       "id": "u7-0079",
@@ -518,7 +518,7 @@
         "caspase",
         "caspases"
       ],
-      "spiegazione": "Sono sintetizzate come procaspasi inattive e attivate per taglio. Le iniziatrici, come la 8 e la 9, vengono attivate su piattaforme di assemblaggio come il DISC e l'apoptosoma; le esecutrici, come la 3 e la 7, sono attivate dalle iniziatrici e tagliano i substrati che smantellano la cellula.\n\nL'attivazione a cascata amplifica il segnale e rende il processo rapido e difficilmente reversibile."
+      "spiegazione": "Sono sintetizzate come procaspasi inattive. Le iniziatrici, come la 8 e la 9, si attivano per dimerizzazione su piattaforme di assemblaggio come il DISC e l'apoptosoma; le esecutrici, come la 3 e la 7, sono attivate per taglio da parte delle iniziatrici e tagliano i substrati che smantellano la cellula.\n\nL'attivazione a cascata amplifica il segnale e rende il processo rapido e difficilmente reversibile."
     },
     {
       "id": "u7-0087",
@@ -546,7 +546,7 @@
         "apoptotici",
         "apoptotico"
       ],
-      "spiegazione": "I corpi apoptotici contengono citoplasma, organelli e frammenti di cromatina condensata, tutti racchiusi da membrana. È la ragione per cui l'apoptosi non provoca infiammazione: il contenuto cellulare non si riversa nello spazio extracellulare.\n\nLa loro formazione è preceduta dalla comparsa di estroflessioni della membrana, il blebbing."
+      "spiegazione": "I corpi apoptotici contengono citoplasma, organelli e frammenti di cromatina condensata, tutti racchiusi da membrana. È la ragione per cui l'apoptosi, quando i corpi vengono rimossi rapidamente, non provoca infiammazione: il contenuto cellulare non si riversa nello spazio extracellulare.\n\nLa loro formazione è preceduta dalla comparsa di estroflessioni della membrana, il blebbing."
     },
     {
       "id": "u7-0089",

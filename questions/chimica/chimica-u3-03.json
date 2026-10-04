@@ -24,18 +24,18 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "Bilanciamento e leggi di conservazione",
-      "testo": "In una reazione chimica, oltre alla massa e alla carica elettrica, si conserva anche l'…… totale del sistema, che può però cambiare forma passando per esempio da chimica a termica.",
+      "testo": "In una reazione chimica, oltre alla massa e alla carica elettrica, si conserva anche l'…… totale di sistema e ambiente considerati insieme, che può però cambiare forma passando per esempio da chimica a termica.",
       "accettate": [
         "energia"
       ],
-      "spiegazione": "È il primo principio della termodinamica applicato alla reazione chimica: l'energia complessiva non si crea né si distrugge. Nelle reazioni esotermiche parte dell'energia dei legami viene ceduta all'ambiente come calore, nelle endotermiche accade il contrario, ma il bilancio complessivo resta nullo."
+      "spiegazione": "È il primo principio della termodinamica applicato alla reazione chimica: l'energia complessiva non si crea né si distrugge. Nelle reazioni esotermiche parte dell'energia del sistema viene ceduta all'ambiente come calore, nelle endotermiche accade il contrario: l'energia del solo sistema cambia, mentre quella di sistema e ambiente presi insieme resta costante."
     },
     {
       "id": "u3-0054",
       "unita": "u3",
       "tipo": "multipla",
       "argomento": "Velocità di reazione e fattori che la influenzano",
-      "testo": "Per la reazione fra due gas A e B, condotta in un recipiente a temperatura costante, quale intervento NON modifica la velocità della reazione?",
+      "testo": "La reazione fra due gas A e B segue la legge cinetica v = k[A][B]. In un recipiente a temperatura costante, quale intervento NON modifica la velocità della reazione?",
       "opzioni": [
         "L'introduzione di un gas inerte, mantenendo costante il volume del recipiente",
         "La riduzione del volume del recipiente",
@@ -235,13 +235,13 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "Quoziente di reazione, equilibrio mobile e stato stazionario",
-      "testo": "Quando a un sistema all'equilibrio si aggiunge un'ulteriore quantità di un reagente, il quoziente di reazione Q diventa …… della costante K e la reazione riprende nel verso diretto.",
+      "testo": "Quando a un equilibrio in soluzione si aggiunge un'ulteriore quantità di un reagente disciolto, il quoziente di reazione Q diventa …… della costante K e la reazione riprende nel verso diretto.",
       "accettate": [
         "minore",
         "più piccolo",
         "inferiore"
       ],
-      "spiegazione": "Aggiungendo un reagente si accresce il denominatore del quoziente, che perciò diminuisce e scende sotto il valore di K. Il sistema risponde consumando reagenti e formando prodotti finché Q non risale fino a K."
+      "spiegazione": "Aggiungendo un reagente si accresce il denominatore del quoziente, che perciò diminuisce e scende sotto il valore di K. Il sistema risponde consumando reagenti e formando prodotti finché Q non risale fino a K. Se invece si aggiunge un solido puro o un liquido puro, che non compare in Q, il quoziente non cambia e l'equilibrio non si sposta."
     },
     {
       "id": "u3-0069",

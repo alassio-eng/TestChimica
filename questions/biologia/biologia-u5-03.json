@@ -13,11 +13,11 @@
         "le code degli acidi grassi sono lunghe e completamente sature",
         "il contenuto di colesterolo della membrana è particolarmente elevato",
         "il doppio strato è privo di proteine integrali immerse al suo interno",
-        "le code degli acidi grassi sono corte e contengono doppi legami",
+        "le code degli acidi grassi sono corte e contengono doppi legami cis",
         "le teste polari dei fosfolipidi portano una carica elettrica netta"
       ],
       "corretta": 3,
-      "spiegazione": "I doppi legami delle code insature introducono una piega che impedisce l'impacchettamento ordinato delle catene, e code più corte hanno minore superficie di contatto reciproco: in entrambi i casi le interazioni idrofobiche fra le code sono più deboli e il doppio strato risulta più fluido. È il motivo per cui le cellule modificano la composizione dei propri lipidi quando cambia la temperatura esterna.\n\nA) Catene lunghe e sature si affiancano in modo regolare e massimizzano le interazioni fra loro, rendendo il doppio strato più ordinato e meno fluido.\nB) Alla temperatura corporea il colesterolo immobilizza in parte le code dei fosfolipidi e riduce la fluidità, pur impedendo la solidificazione a basse temperature.\nC) Le proteine non sono il determinante principale della fluidità, che dipende dalla composizione lipidica e dalla temperatura.\nE) La carica delle teste influisce sulle interazioni con l'ambiente acquoso e con le proteine, non sull'ordine delle code che determina la fluidità."
+      "spiegazione": "I doppi legami cis delle code insature introducono una piega che impedisce l'impacchettamento ordinato delle catene, e code più corte hanno minore superficie di contatto reciproco: in entrambi i casi le interazioni idrofobiche fra le code sono più deboli e il doppio strato risulta più fluido. È il motivo per cui le cellule modificano la composizione dei propri lipidi quando cambia la temperatura esterna.\n\nA) Catene lunghe e sature si affiancano in modo regolare e massimizzano le interazioni fra loro, rendendo il doppio strato più ordinato e meno fluido.\nB) Alla temperatura corporea il colesterolo immobilizza in parte le code dei fosfolipidi e riduce la fluidità, pur impedendo la solidificazione a basse temperature.\nC) Le proteine non sono il determinante principale della fluidità, che dipende dalla composizione lipidica e dalla temperatura.\nE) La carica delle teste influisce sulle interazioni con l'ambiente acquoso e con le proteine, non sull'ordine delle code che determina la fluidità."
     },
     {
       "id": "u5-0102",
@@ -101,7 +101,8 @@
       "accettate": [
         "potassio",
         "ione potassio",
-        "potassio k"
+        "potassio k",
+        "k+"
       ],
       "spiegazione": "A riposo la membrana è molto più permeabile al potassio che agli altri ioni, grazie ai canali di dispersione sempre aperti: il potenziale si avvicina quindi al valore di equilibrio del potassio, negativo all'interno. Il contributo della Na⁺/K⁺-ATPasi è diretto ma piccolo; il suo ruolo essenziale è mantenere nel tempo i gradienti su cui il potenziale si fonda."
     },
@@ -132,7 +133,7 @@
         "viene inserita nella membrana plasmatica con orientamento casuale"
       ],
       "corretta": 0,
-      "spiegazione": "Il citosol è la destinazione predefinita: senza un segnale riconosciuto da un recettore o da una particella come la SRP, la proteina non viene indirizzata ad alcun compartimento e resta dove è stata sintetizzata. Sono in questa condizione, per esempio, gli enzimi della glicolisi e le subunità del citoscheletro.\n\nB) L'ingresso nel nucleo richiede un segnale di localizzazione nucleare: per diffusione libera passano solo gli ioni e le molecole piccole.\nC) La degradazione proteasomica dipende dalla poliubiquitinazione, non dall'assenza di un segnale di smistamento.\nD) La secrezione costitutiva è predefinita soltanto per le proteine che sono già entrate nel reticolo endoplasmatico, cioè dotate di peptide segnale.\nE) Le proteine di membrana sono inserite nel reticolo grazie a sequenze specifiche, e il loro orientamento è determinato, non casuale."
+      "spiegazione": "Il citosol è la destinazione predefinita: senza un segnale riconosciuto da un recettore o da una particella come la SRP, la proteina non viene indirizzata ad alcun compartimento e resta dove è stata sintetizzata. Sono in questa condizione, per esempio, gli enzimi della glicolisi e le subunità del citoscheletro.\n\nB) L'importazione attiva nel nucleo richiede un segnale di localizzazione nucleare; senza segnale entrano per diffusione soltanto ioni, metaboliti e proteine molto piccole, non «ogni proteina citosolica».\nC) La degradazione proteasomica dipende dalla poliubiquitinazione, non dall'assenza di un segnale di smistamento.\nD) La secrezione costitutiva è predefinita soltanto per le proteine che sono già entrate nel reticolo endoplasmatico, cioè dotate di peptide segnale.\nE) Le proteine di membrana sono inserite nel reticolo grazie a sequenze specifiche, e il loro orientamento è determinato, non casuale."
     },
     {
       "id": "u5-0110",
@@ -143,12 +144,12 @@
       "opzioni": [
         "Il segnale di localizzazione nucleare riconosciuto dalle importine",
         "Il segnale di esportazione nucleare riconosciuto dalle esportine",
-        "La sequenza segnale che indirizza al reticolo endoplasmatico",
+        "Il peptide segnale N-terminale che indirizza al reticolo endoplasmatico",
         "Il segnale PTS1 che indirizza alla matrice dei perossisomi",
         "Il segnale KDEL delle proteine residenti del reticolo endoplasmatico"
       ],
       "corretta": 2,
-      "spiegazione": "Il peptide segnale del reticolo è rimosso dalla peptidasi del segnale già durante la traslocazione, e la proteina matura non lo porta più. La stessa cosa vale per la presequenza delle proteine destinate alla matrice mitocondriale, tagliata dalla peptidasi della matrice. Gli altri segnali restano invece parte permanente della catena, perché devono poter essere riconosciuti più di una volta.\n\nA) Non viene rimosso: a ogni divisione cellulare l'involucro nucleare si disgrega e le proteine nucleari devono essere reimportate.\nB) Resta nella proteina, e molte proteine si spostano continuamente fra nucleo e citosol proprio perché conservano entrambi i segnali.\nD) Il tripeptide C-terminale non viene tagliato dopo l'importazione nel perossisoma.\nE) Deve restare esposto in modo permanente: è ciò che permette di recuperare la proteina dal Golgi ogni volta che sfugge in avanti."
+      "spiegazione": "Il peptide segnale N-terminale del reticolo è rimosso dalla peptidasi del segnale già durante la traslocazione, e la proteina matura non lo porta più; le sequenze segnale interne di alcune proteine di membrana, che fanno anche da ancora, restano invece nella catena. La stessa cosa vale per la presequenza delle proteine destinate alla matrice mitocondriale, tagliata dalla peptidasi della matrice. Gli altri segnali restano invece parte permanente della catena, perché devono poter essere riconosciuti più di una volta.\n\nA) Non viene rimosso: a ogni divisione cellulare l'involucro nucleare si disgrega e le proteine nucleari devono essere reimportate.\nB) Resta nella proteina, e molte proteine si spostano continuamente fra nucleo e citosol proprio perché conservano entrambi i segnali.\nD) Il tripeptide C-terminale non viene tagliato dopo l'importazione nel perossisoma.\nE) Deve restare esposto in modo permanente: è ciò che permette di recuperare la proteina dal Golgi ogni volta che sfugge in avanti."
     },
     {
       "id": "u5-0111",
@@ -164,7 +165,7 @@
         "nessuna molecola, perché ogni passaggio richiede idrolisi di ATP"
       ],
       "corretta": 1,
-      "spiegazione": "La maglia formata dalle regioni non strutturate delle nucleoporine lascia diffondere liberamente ioni, metaboliti e proteine di piccole dimensioni. Le macromolecole passano solo se riconosciute da un recettore di trasporto, che interagisce con le ripetizioni FG e attraversa la barriera: il poro è quindi insieme un setaccio e una porta controllata.\n\nA) Se così fosse non esisterebbe alcuna separazione funzionale fra nucleo e citosol, e i segnali NLS e NES non avrebbero ragione di essere.\nC) Il poro è un canale molto più grande: lascia passare liberamente ioni e piccole molecole organiche.\nD) L'esportazione degli RNA è anch'essa un trasporto mediato da recettori, non una diffusione libera.\nE) Il passaggio di molecole piccole non richiede energia, e il trasporto mediato è reso direzionale dal gradiente di Ran, non da un'idrolisi di ATP nel poro."
+      "spiegazione": "La maglia formata dalle regioni non strutturate delle nucleoporine lascia diffondere liberamente ioni, metaboliti e proteine di piccole dimensioni. Le macromolecole passano solo se riconosciute da un recettore di trasporto, che interagisce con le ripetizioni FG e attraversa la barriera: il poro è quindi insieme un setaccio e una porta controllata.\n\nA) Se così fosse non esisterebbe alcuna separazione funzionale fra nucleo e citosol, e i segnali NLS e NES non avrebbero ragione di essere.\nC) Il poro è un canale molto più grande: lascia passare liberamente ioni e piccole molecole organiche.\nD) L'esportazione degli RNA è anch'essa un trasporto mediato da recettori, non una diffusione libera.\nE) Il passaggio di molecole piccole non richiede energia, e la direzione del trasporto mediato dalle carioferine è data dal gradiente di Ran; l'esportazione della maggior parte degli mRNA usa invece un recettore diverso e non dipende da Ran."
     },
     {
       "id": "u5-0112",
@@ -375,7 +376,7 @@
       "unita": "u5",
       "tipo": "multipla",
       "argomento": "L'inserzione delle proteine transmembrana",
-      "testo": "Una proteina destinata a restare inserita nella membrana, durante la traslocazione nel reticolo:",
+      "testo": "Una proteina transmembrana a singolo passaggio, con il peptide segnale all'estremità N-terminale, durante la traslocazione nel reticolo:",
       "opzioni": [
         "viene prima completamente rilasciata nel lume e poi reinserita",
         "viene inserita nella membrana dall'esterno, dopo la secrezione",
@@ -384,7 +385,7 @@
         "viene trattenuta nella membrana dal legame con la clatrina citosolica"
       ],
       "corretta": 3,
-      "spiegazione": "Nelle proteine transmembrana la traslocazione non procede fino in fondo: quando nel traslocone entra un segmento idrofobico di arresto, il canale si apre lateralmente e quel segmento passa nel doppio strato, dove rimane come α-elica transmembrana. Una proteina con più segmenti di questo tipo attraversa la membrana più volte, e l'alternanza fra sequenze di inizio e di arresto del trasferimento determina il suo orientamento.\n\nA) L'inserzione avviene durante la traslocazione stessa: una proteina rilasciata nel lume resterebbe solubile.\nB) Una proteina secreta non può reinserirsi spontaneamente nel doppio strato con l'orientamento corretto.\nC) Le ancore lipidiche, come quella GPI, fissano alcune proteine alla superficie della membrana, ma non sono il meccanismo delle proteine a segmenti transmembrana.\nE) La clatrina riveste le vescicole dal lato citosolico e non ha alcun ruolo nell'ancoraggio delle proteine al doppio strato."
+      "spiegazione": "In una proteina di questo tipo la traslocazione non procede fino in fondo: quando nel traslocone entra un segmento idrofobico di arresto, il canale si apre lateralmente e quel segmento passa nel doppio strato, dove rimane come α-elica transmembrana. Una proteina con più segmenti di questo tipo attraversa la membrana più volte, e l'alternanza fra sequenze di inizio e di arresto del trasferimento determina il suo orientamento.\n\nA) L'inserzione avviene durante la traslocazione stessa: una proteina rilasciata nel lume resterebbe solubile.\nB) Una proteina secreta non può reinserirsi spontaneamente nel doppio strato con l'orientamento corretto.\nC) Le ancore lipidiche, come quella GPI, fissano alcune proteine alla superficie della membrana, ma non sono il meccanismo delle proteine a segmenti transmembrana.\nE) La clatrina riveste le vescicole dal lato citosolico e non ha alcun ruolo nell'ancoraggio delle proteine al doppio strato."
     },
     {
       "id": "u5-0127",
@@ -497,7 +498,7 @@
         "sar 1",
         "sar-1"
       ],
-      "spiegazione": "Sar1 nella forma legata a GTP si inserisce nella membrana del reticolo e recluta le subunità di COPII, dando inizio alla gemmazione. La GTPasi analoga per i rivestimenti COPI e clatrina del Golgi è ARF. In entrambi i casi l'idrolisi del GTP è il segnale che porta alla successiva dissoluzione del rivestimento."
+      "spiegazione": "Sar1 nella forma legata a GTP si inserisce nella membrana del reticolo e recluta le subunità di COPII, dando inizio alla gemmazione. La GTPasi analoga per i rivestimenti COPI e clatrina del Golgi è ARF. Per COPII e COPI l'idrolisi del GTP è il segnale che porta alla dissoluzione del rivestimento; la clatrina viene invece smontata da chaperon della famiglia Hsp70, con consumo di ATP."
     },
     {
       "id": "u5-0135",
@@ -696,7 +697,7 @@
         "tripletta",
         "triplette di microtubuli"
       ],
-      "spiegazione": "Le nove triplette del centriolo e del corpo basale si distinguono dalle nove doppiette dell'assonema di un ciglio, che hanno in più la coppia centrale. Il corpo basale, derivato da un centriolo, è precisamente la struttura da cui l'assonema si organizza e che lo ancora alla cellula."
+      "spiegazione": "Le nove triplette del centriolo e del corpo basale si distinguono dalle nove doppiette dell'assonema di un ciglio mobile classico, che ha in più la coppia centrale. Il corpo basale, derivato da un centriolo, è precisamente la struttura da cui l'assonema si organizza e che lo ancora alla cellula."
     },
     {
       "id": "u5-0149",

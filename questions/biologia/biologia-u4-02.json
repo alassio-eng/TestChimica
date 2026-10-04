@@ -17,7 +17,7 @@
         "La sostituzione di una base con un'altra all'interno di un codone"
       ],
       "corretta": 0,
-      "spiegazione": "Le mutazioni geniche riguardano la sequenza nucleotidica di un singolo gene e non sono visibili al microscopio; le mutazioni cromosomiche interessano invece la struttura o il numero dei cromosomi e si riconoscono nell'analisi del cariotipo. La traslocazione sposta un intero segmento cromosomico, quindi appartiene al secondo gruppo.\n\nB) e C) Inserzioni e delezioni di pochi nucleotidi restano all'interno della sequenza di un gene e ne alterano il modulo di lettura.\nD) L'espansione di una sequenza ripetuta modifica la lunghezza di un gene, ma non la struttura del cromosoma.\nE) La sostituzione di una base è la mutazione genica più semplice, quella puntiforme."
+      "spiegazione": "Le mutazioni geniche riguardano la sequenza nucleotidica di un singolo gene e non sono visibili al microscopio; le mutazioni cromosomiche interessano invece la struttura o il numero dei cromosomi e, se abbastanza estese, si riconoscono nell'analisi del cariotipo; i riarrangiamenti più piccoli richiedono tecniche molecolari. La traslocazione sposta un intero segmento cromosomico, quindi appartiene al secondo gruppo.\n\nB) e C) Inserzioni e delezioni di pochi nucleotidi restano all'interno della sequenza di un gene e ne alterano il modulo di lettura.\nD) L'espansione di una sequenza ripetuta modifica la lunghezza di un gene, ma non la struttura del cromosoma.\nE) La sostituzione di una base è la mutazione genica più semplice, quella puntiforme."
     },
     {
       "id": "u4-0052",
@@ -37,7 +37,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Delezioni in fase e fuori fase",
-      "testo": "La delezione di tre nucleotidi consecutivi all'interno di una sequenza codificante:",
+      "testo": "La delezione di tre nucleotidi consecutivi che corrispondono esattamente a un codone interno di una sequenza codificante:",
       "opzioni": [
         "elimina un amminoacido lasciando corretta la lettura a valle",
         "introduce sempre un codone di stop nel punto della delezione",
@@ -105,7 +105,7 @@
         "non può in alcun caso avere figli affetti dalla malattia"
       ],
       "corretta": 1,
-      "spiegazione": "L'allele in questa condizione intermedia, detto premutazione, non supera la soglia che rende il gene non funzionante, quindi il portatore è di regola clinicamente sano. La ripetizione è però instabile nella trasmissione: nei gameti può espandersi ancora e superare la soglia, generando figli affetti. È il meccanismo che spiega la comparsa improvvisa della malattia in una famiglia fino ad allora indenne.\n\nA) Sotto la soglia patogena il fenotipo classico della malattia non compare.\nC) La tendenza prevalente è all'aumento del numero di ripetizioni, non alla sua normalizzazione.\nD) Si tratta di una mutazione genica, non visibile al microscopio.\nE) È vero il contrario: il rischio per la discendenza è proprio la caratteristica della premutazione."
+      "spiegazione": "L'allele in questa condizione intermedia, detto premutazione, non supera la soglia che rende il gene non funzionante, quindi il portatore è di regola clinicamente sano. La ripetizione è però instabile nella trasmissione: nei gameti può espandersi ancora e superare la soglia, generando figli affetti. È il meccanismo che spiega la comparsa improvvisa della malattia in una famiglia fino ad allora indenne.\n\nA) Sotto la soglia patogena il quadro classico della malattia non compare; in alcune malattie, come la sindrome dell'X fragile, la premutazione si associa però a condizioni diverse e più tardive.\nC) La tendenza prevalente è all'aumento del numero di ripetizioni, non alla sua normalizzazione.\nD) Si tratta di una mutazione genica, non visibile al microscopio.\nE) È vero il contrario: il rischio per la discendenza è proprio la caratteristica della premutazione."
     },
     {
       "id": "u4-0058",
@@ -170,13 +170,13 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Riparazione per escissione di base",
-      "testo": "Il sistema che ripara un danno chimico che non deforma l'elica, come una citosina deaminata, staccando dallo zucchero il solo residuo alterato e lasciando intatto lo scheletro del filamento, è la riparazione per escissione di ……",
+      "testo": "Il sistema che ripara un danno chimico che non deforma l'elica, come una citosina deaminata, cominciando con il distacco del solo residuo alterato dallo zucchero, è la riparazione per escissione di ……",
       "accettate": [
         "base",
         "basi",
         "ber"
       ],
-      "spiegazione": "Interviene su danni che non deformano la doppia elica, come la deaminazione di una citosina o l'ossidazione di una base: la base alterata viene staccata, lo scheletro zucchero-fosfato resta integro, e il sito privo di base viene poi corretto risintetizzando il nucleotide corretto sul filamento complementare.\n\nSi distingue dall'escissione di nucleotidi, che asporta un intero tratto di filamento e si occupa di lesioni ingombranti come i dimeri di pirimidina, e dalla riparazione del mismatch, che corregge basi normali ma appaiate in modo errato."
+      "spiegazione": "Interviene su danni che non deformano la doppia elica, come la deaminazione di una citosina o l'ossidazione di una base: un enzima, una DNA glicosilasi, stacca la base alterata lasciando per il momento intatto lo scheletro; il sito rimasto privo di base viene poi inciso, il nucleotide corretto viene risintetizzato sul filamento complementare e la ligasi richiude l'interruzione.\n\nSi distingue dall'escissione di nucleotidi, che asporta un intero tratto di filamento e si occupa di lesioni ingombranti come i dimeri di pirimidina, e dalla riparazione del mismatch, che corregge basi normali ma appaiate in modo errato."
     },
     {
       "id": "u4-0063",
@@ -234,7 +234,7 @@
         "test cross",
         "test-cross"
       ],
-      "spiegazione": "Il partner omozigote recessivo produce un solo tipo di gamete e non contribuisce in alcun modo al fenotipo della progenie: ogni figlio mostra quindi direttamente l'allele ricevuto dall'individuo in esame. Una progenie tutta di fenotipo dominante indica omozigosi, una progenie divisa a metà indica eterozigosi.\n\nLo stesso incrocio serve anche a misurare la frequenza di ricombinazione fra due geni, perché rende leggibili nei fenotipi dei figli i gameti prodotti dal genitore eterozigote."
+      "spiegazione": "Il partner omozigote recessivo produce un solo tipo di gamete e trasmette sempre l'allele recessivo: il fenotipo di ogni figlio rivela quindi l'allele ricevuto dall'individuo in esame. Anche un solo figlio di fenotipo recessivo dimostra l'eterozigosi; una progenie tutta dominante indica l'omozigosi con una sicurezza che cresce con il numero di figli, perché un eterozigote darebbe per caso n figli tutti dominanti con probabilità (1/2) elevato alla n.\n\nLo stesso incrocio serve anche a misurare la frequenza di ricombinazione fra due geni, perché rende leggibili nei fenotipi dei figli i gameti prodotti dal genitore eterozigote."
     },
     {
       "id": "u4-0067",
@@ -250,7 +250,7 @@
         "1 : 2 : 1"
       ],
       "corretta": 1,
-      "spiegazione": "Ciascun carattere, preso da solo, si distribuisce 3 : 1; poiché i due geni sono indipendenti le probabilità si moltiplicano, e le quattro classi fenotipiche risultano nelle proporzioni 9 : 3 : 3 : 1. Nove sedicesimi mostrano entrambi i caratteri dominanti e un sedicesimo entrambi i recessivi.\n\nA) 9 : 7 è uno dei rapporti atipici che si osservano in presenza di epistasi.\nC) 3 : 1 è il rapporto fenotipico quando si considera un solo carattere.\nD) 1 : 1 : 1 : 1 è il risultato del reincrocio di prova di un diibrido con un doppio omozigote recessivo.\nE) 1 : 2 : 1 è il rapporto genotipico di un incrocio monoibrido, o quello fenotipico in caso di dominanza incompleta."
+      "spiegazione": "Ciascun carattere, preso da solo, si distribuisce 3 : 1; poiché i due geni sono indipendenti le probabilità si moltiplicano, e le quattro classi fenotipiche risultano nelle proporzioni 9 : 3 : 3 : 1, purché non ci sia epistasi e tutte le classi abbiano la stessa vitalità. Nove sedicesimi mostrano entrambi i caratteri dominanti e un sedicesimo entrambi i recessivi.\n\nA) 9 : 7 è uno dei rapporti atipici che si osservano in presenza di epistasi.\nC) 3 : 1 è il rapporto fenotipico quando si considera un solo carattere.\nD) 1 : 1 : 1 : 1 è il risultato del reincrocio di prova di un diibrido con un doppio omozigote recessivo.\nE) 1 : 2 : 1 è il rapporto genotipico di un incrocio monoibrido, o quello fenotipico in caso di dominanza incompleta."
     },
     {
       "id": "u4-0068",
@@ -308,7 +308,7 @@
         "AB, perché i due alleli si annullano a vicenda"
       ],
       "corretta": 1,
-      "spiegazione": "L'allele 0 è recessivo rispetto ad A e a B, quindi si manifesta solo quando è l'unico presente: il gruppo 0 corrisponde al solo genotipo 00. Per gli altri gruppi, invece, il genotipo non è deducibile dal fenotipo, perché A e B possono essere in omozigosi o accompagnati dall'allele 0.\n\nA) e D) Invertono il rapporto di dominanza: A0 dà gruppo A e B0 dà gruppo B.\nC) Il gene del sistema AB0 è autosomico e presente in due copie in entrambi i sessi: l'emizigosi non si applica.\nE) Il genotipo AB corrisponde al gruppo AB, con entrambi gli antigeni espressi per codominanza."
+      "spiegazione": "L'allele 0 è recessivo rispetto ad A e a B, quindi si manifesta solo quando è l'unico presente: il gruppo 0 corrisponde al solo genotipo 00. Anche il gruppo AB corrisponde a un solo genotipo, AB. Per i gruppi A e B, invece, il genotipo non è deducibile dal fenotipo, perché l'allele può essere in omozigosi o accompagnato dall'allele 0.\n\nA) e D) Invertono il rapporto di dominanza: A0 dà gruppo A e B0 dà gruppo B.\nC) Il gene del sistema AB0 è autosomico e presente in due copie in entrambi i sessi: l'emizigosi non si applica.\nE) Il genotipo AB corrisponde al gruppo AB, con entrambi gli antigeni espressi per codominanza."
     },
     {
       "id": "u4-0072",
@@ -394,10 +394,10 @@
         "si assortiscono in modo indipendente, come tutti gli altri geni",
         "tendono a essere trasmessi insieme, con meno del 50% di ricombinanti",
         "non possono mai essere separati l'uno dall'altro",
-        "si trovano necessariamente sullo stesso cromatidio dopo la replicazione"
+        "danno tanti più ricombinanti quanto più sono vicini fra loro"
       ],
       "corretta": 2,
-      "spiegazione": "Geni vicini appartengono allo stesso gruppo di associazione: solo un crossing over che cada nel tratto compreso fra loro può separarli, e la probabilità che ciò accada è tanto minore quanto minore è la distanza. Nella progenie le combinazioni parentali risultano quindi più numerose delle ricombinanti, e la frequenza di queste ultime resta sotto il 50%.\n\nA) e B) L'assortimento indipendente e il 50% di ricombinanti sono proprio ciò che l'associazione impedisce di osservare.\nD) L'associazione è quasi sempre incompleta: il crossing over separa i due geni in una quota di gameti.\nE) Dopo la replicazione ogni cromosoma ha due cromatidi, e i due geni si trovano su entrambi: l'affermazione non ha a che fare con l'associazione."
+      "spiegazione": "Geni vicini appartengono allo stesso gruppo di associazione: solo un crossing over che cada nel tratto compreso fra loro può separarli, e la probabilità che ciò accada è tanto minore quanto minore è la distanza. Nella progenie le combinazioni parentali risultano quindi più numerose delle ricombinanti, e la frequenza di queste ultime resta sotto il 50%.\n\nA) e B) L'assortimento indipendente e il 50% di ricombinanti sono proprio ciò che l'associazione impedisce di osservare.\nD) L'associazione è quasi sempre incompleta: il crossing over separa i due geni in una quota di gameti.\nE) È il rapporto rovesciato: più i geni sono vicini, meno probabile è un crossing over nel tratto che li separa, e meno ricombinanti si osservano."
     },
     {
       "id": "u4-0078",
@@ -437,9 +437,13 @@
         "incompleta",
         "ridotta",
         "parziale",
-        "bassa"
+        "bassa",
+        "60",
+        "60 per cento",
+        "0,6",
+        "0,60"
       ],
-      "spiegazione": "La penetranza si misura come percentuale di portatori che esprimono il fenotipo: in questo caso vale il 60%. Quando è inferiore al 100% la malattia può non comparire in alcuni portatori, che restano comunque in grado di trasmettere l'allele.\n\nNon va confusa con l'espressività, che descrive quanto gravemente il fenotipo si manifesta in chi lo esprime: un allele può avere penetranza completa ed espressività molto variabile, o viceversa."
+      "spiegazione": "La penetranza si misura come percentuale di portatori che esprimono il fenotipo: in questo caso vale il 60%, e anche questo valore completa correttamente la frase. Quando è inferiore al 100% la malattia può non comparire in alcuni portatori, che restano comunque in grado di trasmettere l'allele.\n\nNon va confusa con l'espressività, che descrive quanto gravemente il fenotipo si manifesta in chi lo esprime: un allele può avere penetranza completa ed espressività molto variabile, o viceversa."
     },
     {
       "id": "u4-0081",
@@ -469,7 +473,7 @@
         "additivi",
         "sommatorio"
       ],
-      "spiegazione": "Ogni allele cosiddetto additivo sposta il valore del carattere di una piccola quantità, sempre nella stessa direzione: il fenotipo finale dipende da quanti ne possiede l'individuo, non da quali. Con molti loci in gioco le classi diventano numerose e ravvicinate, e la distribuzione nella popolazione assume l'andamento a campana.\n\nÈ un modello diverso da quello della dominanza, dove un singolo allele basta a determinare il fenotipo e gli alleli non si sommano fra loro."
+      "spiegazione": "Ogni allele cosiddetto additivo sposta il valore del carattere di una piccola quantità, sempre nella stessa direzione: nel modello additivo semplice, in cui ogni allele contribuisce in egual misura, il fenotipo dipende da quanti ne possiede l'individuo, non da quali; nella realtà i contributi dei diversi loci possono differire. Con molti loci in gioco le classi diventano numerose e ravvicinate, e la distribuzione nella popolazione assume l'andamento a campana.\n\nÈ un modello diverso da quello della dominanza, dove un singolo allele basta a determinare il fenotipo e gli alleli non si sommano fra loro."
     },
     {
       "id": "u4-0083",
@@ -591,7 +595,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Traslocazione reciproca",
-      "testo": "Nella traslocazione reciproca:",
+      "testo": "Nella traslocazione reciproca equilibrata:",
       "opzioni": [
         "un intero cromosoma risulta presente in tre copie invece che in due",
         "un segmento di cromosoma viene perduto insieme ai geni che contiene",
@@ -637,7 +641,7 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Malattie recessive: definizione",
-      "testo": "Una malattia che si manifesta soltanto nell'individuo omozigote, mentre l'eterozigote resta sano, è detta ……",
+      "testo": "Una malattia autosomica che si manifesta soltanto in chi porta due alleli patogeni, uguali o diversi, mentre chi ne porta uno solo resta sano, è detta ……",
       "accettate": [
         "recessiva",
         "recessive",
@@ -650,7 +654,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Ereditarietà autosomica dominante: calcolo del rischio",
-      "testo": "Un uomo affetto da una malattia autosomica dominante ed eterozigote per l'allele responsabile ha figli con una donna sana. La probabilità che ciascun figlio sia affetto è:",
+      "testo": "Un uomo affetto da una malattia autosomica dominante a penetranza completa, eterozigote per l'allele responsabile, ha figli con una donna sana. La probabilità che ciascun figlio sia affetto è:",
       "opzioni": [
         "25%",
         "75%",
@@ -688,7 +692,7 @@
         "le figlie femmine avranno il 50% di probabilità di essere affette"
       ],
       "corretta": 3,
-      "spiegazione": "La madre trasmette a caso uno dei suoi due cromosomi X: metà dei figli maschi riceve quello mutato e, essendo emizigote, risulta affetto. Le figlie ricevono in ogni caso l'X sano del padre, quindi nessuna è affetta, ma metà di loro è portatrice come la madre.\n\nA) L'allele mutato è presente su uno solo dei due X materni: i maschi colpiti sono la metà, non tutti.\nB) Il 25% si riferisce alla probabilità calcolata sull'insieme dei figli di entrambi i sessi, non al rischio del singolo figlio maschio, che è del 50%.\nC) Il padre sano non protegge i figli maschi, ai quali trasmette il cromosoma Y e non un X normale.\nE) Perché una figlia sia affetta servirebbe un allele mutato anche dal padre, che qui è sano."
+      "spiegazione": "La madre trasmette a caso uno dei suoi due cromosomi X: metà dei figli maschi riceve quello mutato e, essendo emizigote, risulta affetto. Le figlie ricevono in ogni caso l'X sano del padre, quindi, nel modello mendeliano semplice, nessuna è affetta, ma metà di loro è portatrice come la madre.\n\nA) L'allele mutato è presente su uno solo dei due X materni: i maschi colpiti sono la metà, non tutti.\nB) Il 25% si riferisce alla probabilità calcolata sull'insieme dei figli di entrambi i sessi, non al rischio del singolo figlio maschio, che è del 50%.\nC) Il padre sano non protegge i figli maschi, ai quali trasmette il cromosoma Y e non un X normale.\nE) Perché una figlia sia affetta servirebbe un allele mutato anche dal padre, che qui è sano."
     },
     {
       "id": "u4-0098",
@@ -709,7 +713,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Ereditarietà dominante legata all'X: la madre affetta",
-      "testo": "Una donna affetta ed eterozigote per una malattia dominante legata al cromosoma X ha figli con un uomo sano. Ci si attende che:",
+      "testo": "Una donna affetta ed eterozigote per una malattia dominante legata al cromosoma X, a penetranza completa, ha figli con un uomo sano. Ci si attende che:",
       "opzioni": [
         "nessun figlio risulti affetto, perché il padre è sano",
         "siano affette solo le figlie che ereditano anche l'X paterno",

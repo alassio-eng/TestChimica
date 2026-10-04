@@ -31,7 +31,7 @@
         "silenziosa",
         "silenti"
       ],
-      "spiegazione": "Il codice genetico è degenerato: più codoni specificano lo stesso amminoacido, soprattutto per differenze nella terza base. Una sostituzione che ricade all'interno di questa ridondanza non cambia la sequenza amminoacidica, e la mutazione è detta silente o sinonima.\n\nNon va confusa con la mutazione missenso, che fa inserire un amminoacido diverso, né con la mutazione neutra in senso stretto, che è quella che cambia l'amminoacido senza conseguenze funzionali apprezzabili. Va ricordato che una mutazione silente non è sempre priva di effetti: può alterare un sito di splicing o la stabilità del messaggero."
+      "spiegazione": "Il codice genetico è degenerato: più codoni specificano lo stesso amminoacido, soprattutto per differenze nella terza base. Una sostituzione che ricade all'interno di questa ridondanza non cambia la sequenza amminoacidica, e la mutazione è detta silente o sinonima.\n\nNon va confusa con la mutazione missenso, che fa inserire un amminoacido diverso, né con il concetto di mutazione neutra, che riguarda l'effetto sulla sopravvivenza e sulla riproduzione e non il tipo di cambiamento: possono essere neutre una missenso che non altera la funzione o una variante in una regione non codificante. Va ricordato che una mutazione silente non è sempre priva di effetti: può alterare un sito di splicing o la stabilità del messaggero."
     },
     {
       "id": "u4-0003",
@@ -89,7 +89,7 @@
         "composta",
         "composto"
       ],
-      "spiegazione": "Nell'eterozigosi composta nessuno dei due alleli è quello selvatico: sono entrambi mutati, ma con mutazioni diverse. Dal punto di vista clinico il soggetto è affetto come un omozigote per una malattia recessiva, perché non dispone di alcuna copia funzionante del gene; è una situazione frequente nelle malattie recessive con molte mutazioni diverse nella popolazione, come la fibrosi cistica.\n\nL'eterozigosi semplice indica invece la presenza di un allele selvatico e di un allele mutato, e di regola non dà malattia nelle condizioni recessive. L'omozigosi è la presenza dello stesso identico allele in duplice copia."
+      "spiegazione": "Nell'eterozigosi composta nessuno dei due alleli è quello selvatico: sono entrambi mutati, ma con mutazioni diverse. Se entrambe le varianti sono patogeniche, il soggetto è affetto da una malattia recessiva come un omozigote, perché nessuna delle due copie funziona a sufficienza; è una situazione frequente nelle malattie recessive con molte mutazioni diverse nella popolazione, come la fibrosi cistica.\n\nL'eterozigosi semplice indica invece la presenza di un allele selvatico e di un allele mutato, e di regola non dà malattia nelle condizioni recessive. L'omozigosi è la presenza dello stesso identico allele in duplice copia."
     },
     {
       "id": "u4-0007",
@@ -484,7 +484,7 @@
         "matroclina",
         "per via materna"
       ],
-      "spiegazione": "Una madre affetta trasmette la condizione a tutti i figli, maschi e femmine; un padre affetto non la trasmette a nessuno. Nell'albero genealogico la malattia segue quindi le sole linee femminili, e questo distingue l'ereditarietà mitocondriale da quella legata all'X, in cui i maschi affetti trasmettono comunque l'allele a tutte le figlie.\n\nLa gravità è spesso variabile fra i figli della stessa madre, perché nella cellula uovo coesistono mitocondri normali e mutati in proporzioni diverse."
+      "spiegazione": "Una madre trasmette il proprio DNA mitocondriale a tutti i figli, maschi e femmine; un padre, di regola, a nessuno. Nell'albero genealogico la malattia segue quindi le sole linee femminili, e questo distingue l'ereditarietà mitocondriale da quella legata all'X, in cui i maschi affetti trasmettono comunque l'allele a tutte le figlie.\n\nTrasmettere un DNA mitocondriale mutato non significa però trasmettere con certezza la malattia: se nella madre coesistono molecole normali e mutate (eteroplasmia), ogni figlio può riceverne proporzioni diverse, e il fenotipo compare solo dove la quota mutata supera una soglia. Per questo la gravità varia molto fra figli della stessa madre."
     },
     {
       "id": "u4-0034",
@@ -529,7 +529,7 @@
         "100%, perché il primo figlio affetto lo dimostra"
       ],
       "corretta": 2,
-      "spiegazione": "La figlia affetta è omozigote recessiva e ha ricevuto un allele mutato da ciascun genitore: i genitori sani sono quindi entrambi eterozigoti. Dall'incrocio Aa × Aa un quarto della progenie è aa, cioè affetto. La probabilità vale per ogni gravidanza, indipendentemente dagli esiti precedenti.\n\nA) I genitori sani di un figlio affetto sono portatori: è il quadro caratteristico delle malattie recessive.\nB) Il 50% è la probabilità che un figlio sia eterozigote portatore, oppure il rischio di trasmissione in una malattia dominante.\nD) Tre quarti è la quota di figli sani, non di figli affetti: è la stessa proporzione letta al contrario.\nE) La nascita di un figlio affetto non modifica la probabilità delle gravidanze successive, che resta un quarto."
+      "spiegazione": "La figlia affetta porta due alleli patogeni, uguali (omozigosi) o diversi (eterozigosi composta), uno da ciascun genitore: i genitori sani sono quindi entrambi eterozigoti. Dall'incrocio Aa × Aa un quarto della progenie è aa, cioè affetto. La probabilità vale per ogni gravidanza, indipendentemente dagli esiti precedenti.\n\nA) I genitori sani di un figlio affetto sono portatori: è il quadro caratteristico delle malattie recessive.\nB) Il 50% è la probabilità che un figlio sia eterozigote portatore, oppure il rischio di trasmissione in una malattia dominante.\nD) Tre quarti è la quota di figli sani, non di figli affetti: è la stessa proporzione letta al contrario.\nE) La nascita di un figlio affetto non modifica la probabilità delle gravidanze successive, che resta un quarto."
     },
     {
       "id": "u4-0037",
@@ -558,7 +558,7 @@
         "interessa l'intero assetto cromosomico, presente in più di due copie"
       ],
       "corretta": 4,
-      "spiegazione": "Nella poliploidia il numero di cromosomi resta un multiplo esatto del corredo aploide, ma il multiplo è superiore a due: 3n, 4n. È quindi una forma di euploidia anomala, diversa dall'aneuploidia, in cui varia il numero di singoli cromosomi e il totale non è più un multiplo di n. Nell'uomo la poliploidia non è compatibile con la vita ed è causa di aborto precoce.\n\nA) La presenza di un solo cromosoma sovrannumerario è la definizione di trisomia, cioè di aneuploidia.\nB) Il crossing over ineguale genera duplicazioni e delezioni di segmenti, non assetti cromosomici multipli.\nC) La perdita di un segmento interno è una delezione, un'alterazione di struttura.\nD) È vero il contrario: alcune aneuploidie sono compatibili con la vita, la poliploidia nell'uomo no."
+      "spiegazione": "Nella poliploidia il numero di cromosomi resta un multiplo esatto del corredo aploide, ma il multiplo è superiore a due: 3n, 4n. È quindi una forma di euploidia anomala, diversa dall'aneuploidia, in cui varia il numero di singoli cromosomi e il totale non è più un multiplo di n. Nell'uomo una poliploidia costituzionale completa porta di norma all'aborto o a una sopravvivenza molto breve dopo la nascita; alcune cellule normali, come molti epatociti, sono invece fisiologicamente poliploidi.\n\nA) La presenza di un solo cromosoma sovrannumerario è la definizione di trisomia, cioè di aneuploidia.\nB) Il crossing over ineguale genera duplicazioni e delezioni di segmenti, non assetti cromosomici multipli.\nC) La perdita di un segmento interno è una delezione, un'alterazione di struttura.\nD) È vero il contrario: alcune aneuploidie sono compatibili con la vita, mentre una poliploidia completa non permette nell'uomo uno sviluppo normale."
     },
     {
       "id": "u4-0039",
@@ -645,7 +645,7 @@
         "la malattia colpisce in ugual misura i due sessi in ogni generazione"
       ],
       "corretta": 3,
-      "spiegazione": "Il maschio è emizigote: un solo allele mutato sul suo unico X basta a farlo ammalare. La femmina, per essere affetta, dovrebbe riceverne due, evento molto più raro. Gli affetti sono quindi quasi tutti maschi, e ricevono l'allele dalla madre eterozigote, che è sana: la malattia sembra saltare le generazioni e riaffiorare nei nipoti maschi attraverso le figlie.\n\nA) Il padre trasmette ai figli maschi il cromosoma Y: nessun figlio maschio può ricevere da lui l'allele. Le figlie invece lo ricevono tutte.\nB) Le eterozigoti sono di regola sane, perché l'altro X porta l'allele selvatico.\nC) Alla madre portatrice non serve un padre affetto: basta che trasmetta il proprio X mutato.\nE) La parità fra i sessi caratterizza le malattie autosomiche, non quelle legate all'X."
+      "spiegazione": "Il maschio è emizigote: un solo allele mutato sul suo unico X basta a farlo ammalare. La femmina, per essere affetta, dovrebbe riceverne due, evento molto più raro. Gli affetti sono quindi quasi tutti maschi, e ricevono l'allele dalla madre eterozigote, che di regola è sana: la malattia sembra saltare le generazioni e riaffiorare nei nipoti maschi attraverso le figlie.\n\nA) Il padre trasmette ai figli maschi il cromosoma Y: nessun figlio maschio può ricevere da lui l'allele. Le figlie invece lo ricevono tutte.\nB) Le eterozigoti sono di regola sane, perché l'altro X porta l'allele selvatico; per l'inattivazione casuale dell'X alcune possono avere sintomi, di solito lievi.\nC) Alla madre portatrice non serve un padre affetto: basta che trasmetta il proprio X mutato.\nE) La parità fra i sessi caratterizza le malattie autosomiche, non quelle legate all'X."
     },
     {
       "id": "u4-0045",
@@ -709,7 +709,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Ereditarietà dominante legata al cromosoma X",
-      "testo": "In una malattia dominante legata al cromosoma X, un padre affetto:",
+      "testo": "In una malattia dominante legata al cromosoma X a penetranza completa, un padre affetto:",
       "opzioni": [
         "trasmette la malattia a tutti i figli maschi e a nessuna delle figlie",
         "trasmette la malattia a metà dei figli, indipendentemente dal sesso",
@@ -729,7 +729,7 @@
       "accettate": [
         "down"
       ],
-      "spiegazione": "È l'aneuploidia autosomica più frequente fra i nati vivi: nella maggior parte dei casi deriva da una non disgiunzione nella gametogenesi, con un rischio che aumenta con l'età materna, e non si ripete in famiglia. Una quota minore di casi dipende da una traslocazione robertsoniana che coinvolge il 21: in quei casi il cariotipo mostra 46 cromosomi, uno dei quali traslocato, e un genitore può esserne portatore equilibrato.\n\nLa trisomia 13 corrisponde alla sindrome di Patau e la trisomia 18 alla sindrome di Edwards, entrambe con sopravvivenza molto ridotta."
+      "spiegazione": "È l'aneuploidia autosomica più frequente fra i nati vivi: nella maggior parte dei casi deriva da una non disgiunzione nella gametogenesi, con un rischio che aumenta con l'età materna; la ricorrenza nella stessa famiglia è poco frequente, ma non nulla. Una quota minore di casi dipende da una traslocazione robertsoniana che coinvolge il 21: in quei casi il cariotipo mostra 46 cromosomi, uno dei quali traslocato, e un genitore può esserne portatore equilibrato.\n\nLa trisomia 13 corrisponde alla sindrome di Patau e la trisomia 18 alla sindrome di Edwards, entrambe con sopravvivenza molto ridotta."
     }
   ]
 }

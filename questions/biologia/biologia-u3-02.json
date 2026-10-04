@@ -76,7 +76,7 @@
         "Viene convertito in DNA dalla trascrittasi inversa senza essere rimosso dal filamento"
       ],
       "corretta": 2,
-      "spiegazione": "Gli inneschi sono transitori: un'attività esonucleasica 5'→3' li elimina, una DNA polimerasi riempie il vuoto estendendo il frammento a monte e la ligasi chiude l'interruzione residua. Il DNA maturo non contiene ribonucleotidi.\n\nA) La presenza stabile di RNA nel DNA sarebbe una fonte di instabilità: nulla resta dell'innesco.\nB) L'innesco non è un messaggero e non viene tradotto.\nD) Lo spliceosoma opera sui pre-mRNA nel nucleo e non ha alcun ruolo nella replicazione.\nE) La trascrittasi inversa sintetizza DNA su stampo di RNA (nei retrovirus, e nella cellula come componente catalitica della telomerasi): non converte gli inneschi in DNA."
+      "spiegazione": "Gli inneschi sono transitori: vengono rimossi (nei batteri dall'attività esonucleasica 5'→3' della DNA polimerasi I, negli eucarioti dalla RNasi H e da una nucleasi dedicata), una DNA polimerasi riempie il vuoto estendendo il frammento a monte e la ligasi chiude l'interruzione residua. Il DNA maturo non contiene ribonucleotidi.\n\nA) La presenza stabile di RNA nel DNA sarebbe una fonte di instabilità: nulla resta dell'innesco.\nB) L'innesco non è un messaggero e non viene tradotto.\nD) Lo spliceosoma opera sui pre-mRNA nel nucleo e non ha alcun ruolo nella replicazione.\nE) La trascrittasi inversa sintetizza DNA su stampo di RNA (nei retrovirus, e nella cellula come componente catalitica della telomerasi): non converte gli inneschi in DNA."
     },
     {
       "id": "u3-0056",
@@ -161,7 +161,7 @@
         "ttaggg",
         "t t a g g g"
       ],
-      "spiegazione": "La ripetizione TTAGGG, presente in migliaia di copie, è la stessa in tutti i vertebrati: il filamento che la contiene è ricco di guanine ed è quello allungato dalla telomerasi, sporgente rispetto al complementare.\n\nLa sequenza è ripetitiva e non codifica alcun prodotto: la sua funzione è strutturale e dipende dalle proteine che la riconoscono e ripiegano l'estremità in una configurazione protetta."
+      "spiegazione": "La ripetizione TTAGGG, presente in migliaia di copie, è la stessa in tutti i vertebrati: il filamento che la contiene è ricco di guanine ed è quello allungato dalla telomerasi, sporgente rispetto al complementare.\n\nLa sequenza è ripetitiva e non codifica proteine: la sua funzione è soprattutto strutturale e dipende dalle proteine che la riconoscono e ripiegano l'estremità in una configurazione protetta."
     },
     {
       "id": "u3-0062",
@@ -307,7 +307,7 @@
       "testo": "Come termina la trascrizione di un gene codificante proteine negli eucarioti?",
       "opzioni": [
         "Con l'intervento del fattore rho, che raggiunge la polimerasi scorrendo lungo il trascritto",
-        "Con il taglio del trascritto al segnale di poliadenilazione e il successivo distacco della polimerasi",
+        "Con il taglio del trascritto a valle del segnale di poliadenilazione e il successivo distacco della polimerasi",
         "Con l'arrivo della polimerasi al codone di stop, che ne provoca il distacco immediato",
         "Con la rimozione del cappuccio in 5', che segnala il completamento del trascritto",
         "Con la formazione di una forcina nell'RNA seguita da una serie di uracili, che stacca l'enzima dallo stampo"
@@ -357,7 +357,7 @@
         "silenziatore",
         "silenziatori"
       ],
-      "spiegazione": "Il silencer è l'elemento speculare all'enhancer: come questo può agire a distanza e in entrambi gli orientamenti, ma l'effetto della sua occupazione è negativo.\n\nEntrambi sono elementi che agiscono in cis e non vengono trascritti: ciò che cambia è la natura dei fattori che reclutano e l'effetto che questi hanno sull'apparato basale."
+      "spiegazione": "Il silencer è l'elemento speculare all'enhancer: come questo può agire a distanza e in entrambi gli orientamenti, ma l'effetto della sua occupazione è negativo.\n\nEntrambi sono elementi che agiscono in cis legando fattori proteici: ciò che cambia è la natura dei fattori che reclutano e l'effetto che questi hanno sull'apparato basale."
     },
     {
       "id": "u3-0075",
@@ -646,14 +646,14 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "Regioni non tradotte dell'mRNA",
-      "testo": "Le sequenze presenti alle due estremità dell'mRNA maturo, che il ribosoma non legge ma che ne regolano stabilità ed efficienza di traduzione, si chiamano regioni ……",
+      "testo": "Le sequenze presenti alle due estremità dell'mRNA maturo, che non specificano amminoacidi della proteina ma ne regolano stabilità ed efficienza di traduzione, si chiamano regioni ……",
       "accettate": [
         "non tradotte",
         "utr",
         "regioni non tradotte",
         "non codificanti"
       ],
-      "spiegazione": "Sono comprese fra il cappuccio e il codone di inizio da un lato, e fra il codone di stop e la coda di poli-A dall'altro: pur non contribuendo alla sequenza della proteina, contengono i siti riconosciuti dai miRNA e dalle proteine che stabilizzano o silenziano il messaggero.\n\nDerivano da esoni e restano quindi nell'mRNA maturo: è la ragione per cui esone e sequenza codificante non sono sinonimi."
+      "spiegazione": "Sono comprese fra il cappuccio e il codone di inizio da un lato, e fra il codone di stop e la coda di poli-A dall'altro: pur non contribuendo alla sequenza della proteina, contengono i siti riconosciuti dai miRNA e dalle proteine che stabilizzano o silenziano il messaggero.\n\nLa regione al 5' viene comunque percorsa dalla subunità minore durante la ricerca del codone di inizio. Derivano da esoni e restano quindi nell'mRNA maturo: è la ragione per cui esone e sequenza codificante non sono sinonimi."
     },
     {
       "id": "u3-0095",

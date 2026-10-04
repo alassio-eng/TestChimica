@@ -63,7 +63,7 @@
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Area sottesa dal grafico velocità-tempo",
-      "testo": "In un grafico velocità-tempo, l'area compresa fra la curva e l'asse dei tempi rappresenta:",
+      "testo": "In un grafico velocità-tempo di un corpo che si muove sempre nello stesso verso, l'area compresa fra la curva e l'asse dei tempi rappresenta:",
       "opzioni": [
         "la velocità finale raggiunta",
         "l'accelerazione media",
@@ -72,7 +72,7 @@
         "lo spazio percorso"
       ],
       "corretta": 4,
-      "spiegazione": "L'area ha per dimensioni il prodotto di una velocità per un tempo, cioè una lunghezza: rappresenta lo spazio percorso. Nel moto uniforme l'area è un rettangolo, v·t; nel moto uniformemente accelerato da fermo è un triangolo, ½·t·(at) = ½at².\n\nA) La velocità finale si legge direttamente sull'asse delle ordinate.\nB) L'accelerazione media è la pendenza della curva, non l'area.\nC) Il tempo si legge sull'asse delle ascisse.\nD) Il lavoro richiede una forza, che in un grafico cinematico non compare."
+      "spiegazione": "L'area ha per dimensioni il prodotto di una velocità per un tempo, cioè una lunghezza: rappresenta lo spazio percorso. Nel moto uniforme l'area è un rettangolo, v·t; nel moto uniformemente accelerato da fermo è un triangolo, ½·t·(at) = ½at². Se il corpo invertisse il verso del moto, le porzioni di area sotto l'asse andrebbero sommate in valore assoluto per avere lo spazio percorso, e con il loro segno per avere lo spostamento.\n\nA) La velocità finale si legge direttamente sull'asse delle ordinate.\nB) L'accelerazione si ricava dalla pendenza, non dall'area: quella media è la pendenza della secante fra gli estremi dell'intervallo.\nC) Il tempo si legge sull'asse delle ascisse.\nD) Il lavoro richiede una forza, che in un grafico cinematico non compare."
     },
     {
       "id": "u2-0056",
@@ -83,7 +83,6 @@
       "accettate": [
         "decelerazione",
         "decelerazioni",
-        "accelerazione negativa",
         "moto decelerato",
         "moto ritardato"
       ],
@@ -205,7 +204,7 @@
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Velocità nel moto circolare uniforme",
-      "testo": "Un punto percorre una circonferenza di raggio 2 m compiendo un giro completo in 4 s. Il modulo della sua velocità vale circa:",
+      "testo": "Un punto percorre di moto uniforme una circonferenza di raggio 2 m, compiendo un giro completo in 4 s. Il modulo della sua velocità vale circa:",
       "opzioni": [
         "0,5 m/s",
         "6,28 m/s",
@@ -586,7 +585,7 @@
         "0,004 N·s"
       ],
       "corretta": 3,
-      "spiegazione": "L'impulso è il prodotto della forza per l'intervallo di tempo: I = F Δt = 50 × 0,2 = 10 N·s, pari alla variazione della quantità di moto del corpo, cioè 10 kg·m/s.\n\nA) 100 N·s è il risultato corretto moltiplicato per dieci.\nB) 250 N·s è F/Δt, cioè la divisione al posto del prodotto.\nC) 50 N·s ripete il valore della forza, come se il tempo fosse di 1 s.\nE) 0,004 N·s è Δt/F, il rapporto rovesciato."
+      "spiegazione": "L'impulso è il prodotto della forza per l'intervallo di tempo: I = F Δt = 50 × 0,2 = 10 N·s. Se è l'unica forza che agisce, è pari alla variazione della quantità di moto del corpo, cioè 10 kg·m/s.\n\nA) 100 N·s è il risultato corretto moltiplicato per dieci.\nB) 250 N·s è F/Δt, cioè la divisione al posto del prodotto.\nC) 50 N·s ripete il valore della forza, come se il tempo fosse di 1 s.\nE) 0,004 N·s è Δt/F, il rapporto rovesciato."
     },
     {
       "id": "u2-0092",

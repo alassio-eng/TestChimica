@@ -104,14 +104,14 @@
         "due chilometri"
       ],
       "corretta": 3,
-      "spiegazione": "I circa 6,4 miliardi di paia di basi di una cellula diploide corrispondono a poco più di due metri di doppia elica, che devono stare in un nucleo del diametro di pochi micrometri. È la ragione per cui la cromatina esiste: senza i livelli successivi di compattazione il DNA non entrerebbe nel nucleo.\n\nA), B) e C) Sottostimano di ordini di grandezza: già il solo cromosoma 1 supera gli otto centimetri di lunghezza.\nE) Sovrastima di circa mille volte.\n\nIl solo avvolgimento nei nucleosomi accorcia il DNA di circa sei volte; il cromosoma metafasico, il grado massimo di condensazione, di alcune migliaia."
+      "spiegazione": "I circa 6,4 miliardi di paia di basi di una cellula diploide in G1, prima della replicazione, corrispondono a poco più di due metri di doppia elica, che devono stare in un nucleo del diametro di pochi micrometri. È la ragione per cui la cromatina esiste: senza i livelli successivi di compattazione il DNA non entrerebbe nel nucleo.\n\nA), B) e C) Sottostimano di ordini di grandezza: già il solo cromosoma 1 supera gli otto centimetri di lunghezza.\nE) Sovrastima di circa mille volte.\n\nIl solo avvolgimento nei nucleosomi accorcia il DNA di circa sei volte; il cromosoma metafasico, il grado massimo di condensazione, di alcune migliaia."
     },
     {
       "id": "u2-0058",
       "unita": "u2",
       "tipo": "completamento",
       "argomento": "Livelli superiori di compattazione",
-      "testo": "Oltre la fibra da 30 nm la cromatina si compatta ulteriormente ripiegandosi in …… ancorate a un'impalcatura proteica.",
+      "testo": "Nel modello classico di compattazione, oltre la fibra da 30 nm la cromatina si ripiega in …… ancorate a un'impalcatura proteica.",
       "accettate": [
         "anse",
         "ansa",
@@ -134,7 +134,7 @@
         "acrocentrico"
       ],
       "corretta": 4,
-      "spiegazione": "Nei cromosomi acrocentrici il centromero è spostato quasi all'estremità e il braccio corto è ridotto al minimo. Nell'uomo sono acrocentrici i cromosomi 13, 14, 15, 21 e 22, ed è sui loro bracci corti che si trovano le regioni organizzatrici del nucleolo.\n\nA) Nel metacentrico il centromero è mediano e i due bracci hanno lunghezza simile.\nB) Nel submetacentrico è spostato dal centro, ma non tanto da rendere un braccio molto più corto.\nC) «Policentrico» non appartiene alla classificazione morfologica dei cromosomi umani.\nD) Un cromosoma dicentrico ha due centromeri ed è il prodotto anomalo di un riarrangiamento, non una forma normale."
+      "spiegazione": "Nei cromosomi acrocentrici il centromero è spostato quasi all'estremità e il braccio corto è ridotto al minimo. Nell'uomo sono acrocentrici gli autosomi 13, 14, 15, 21 e 22, ed è sui loro bracci corti che si trovano le regioni organizzatrici del nucleolo; anche il cromosoma Y ha una morfologia simile, ma non porta queste regioni.\n\nA) Nel metacentrico il centromero è mediano e i due bracci hanno lunghezza simile.\nB) Nel submetacentrico è spostato dal centro, ma non tanto da rendere un braccio molto più corto.\nC) «Policentrico» non appartiene alla classificazione morfologica dei cromosomi umani.\nD) Un cromosoma dicentrico ha due centromeri ed è il prodotto anomalo di un riarrangiamento, non una forma normale."
     },
     {
       "id": "u2-0060",
@@ -146,7 +146,7 @@
         "trasposasi",
         "transposasi"
       ],
-      "spiegazione": "La trasposasi è codificata dal trasposone stesso, ne riconosce le ripetizioni terminali invertite, taglia il DNA a entrambe le estremità e ne salda le estremità nel nuovo sito: è il meccanismo «taglia e incolla», che a differenza della retrotrasposizione non aumenta il numero di copie.\n\nNel genoma umano i trasposoni a DNA sono presenti ma nella quasi totalità inattivi, perché le copie di trasposasi hanno accumulato mutazioni: la mobilità residua è dovuta essenzialmente ai retrotrasposoni."
+      "spiegazione": "La trasposasi è codificata dal trasposone stesso, ne riconosce le ripetizioni terminali invertite, taglia il DNA a entrambe le estremità e ne salda le estremità nel nuovo sito: è il meccanismo «taglia e incolla», che nella sua forma semplice sposta l'elemento senza moltiplicarlo, a differenza della retrotrasposizione «copia e incolla».\n\nNel genoma umano i trasposoni a DNA sono presenti ma nella quasi totalità inattivi, perché le copie di trasposasi hanno accumulato mutazioni: la mobilità residua è dovuta essenzialmente ai retrotrasposoni."
     }
   ]
 }

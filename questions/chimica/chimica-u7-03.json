@@ -78,7 +78,7 @@
       "unita": "u7",
       "tipo": "multipla",
       "argomento": "Stereochimica degli amminoacidi: convenzione di Fischer",
-      "testo": "Gli amminoacidi delle proteine hanno configurazione:",
+      "testo": "Gli amminoacidi chirali delle proteine hanno configurazione:",
       "opzioni": [
         "D: nella proiezione di Fischer, con il carbossile in alto, il gruppo amminico è a destra",
         "L: nella proiezione di Fischer, con il carbossile in alto, il gruppo amminico è a sinistra",
@@ -87,7 +87,7 @@
         "L: tutti ruotano il piano della luce polarizzata verso sinistra"
       ],
       "corretta": 1,
-      "spiegazione": "Gli amminoacidi proteici appartengono alla serie L. Nella proiezione di Fischer, con il carbossile in alto e la catena laterale in basso, il gruppo amminico del carbonio α è a sinistra, come l'ossidrile della L-gliceraldeide.\n\nA) La configurazione D è quella degli amminoacidi rari presenti, per esempio, nelle pareti batteriche, non di quelli delle proteine.\nC) Le proteine contengono solo L-amminoacidi; una miscela racemica si ottiene, per esempio, dalla sintesi chimica non stereoselettiva.\nD) Con il carbossile in alto, il gruppo amminico a destra corrisponde alla configurazione D, non alla L.\nE) Confonde la configurazione L con il verso di rotazione: la lettera L non significa levogiro. La L-alanina, per esempio, è destrogira. Il verso di rotazione si misura sperimentalmente."
+      "spiegazione": "Gli amminoacidi proteici appartengono alla serie L. Nella proiezione di Fischer, con il carbossile in alto e la catena laterale in basso, il gruppo amminico del carbonio α è a sinistra, come l'ossidrile della L-gliceraldeide. La glicina, achirale, non ha configurazione D o L.\n\nA) La configurazione D è quella degli amminoacidi rari presenti, per esempio, nelle pareti batteriche, non di quelli delle proteine.\nC) Gli amminoacidi chirali delle proteine sono tutti L; una miscela racemica si ottiene, per esempio, dalla sintesi chimica non stereoselettiva.\nD) Con il carbossile in alto, il gruppo amminico a destra corrisponde alla configurazione D, non alla L.\nE) Confonde la configurazione L con il verso di rotazione: la lettera L non significa levogiro. La L-alanina, per esempio, è destrogira. Il verso di rotazione si misura sperimentalmente."
     },
     {
       "id": "u7-0059",

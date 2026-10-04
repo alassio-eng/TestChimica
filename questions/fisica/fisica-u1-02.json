@@ -59,7 +59,7 @@
         "amper",
         "a"
       ],
-      "spiegazione": "L'ampere è l'unica grandezza elettrica fra le sette fondamentali del SI: tutte le altre unità elettriche sono derivate.\n\nDall'ampere discende per esempio il coulomb, che è la carica trasportata in un secondo da una corrente di un ampere: 1 C = 1 A · 1 s."
+      "spiegazione": "L'intensità di corrente elettrica è l'unica grandezza elettrica fra le sette fondamentali del SI, e la sua unità è l'ampere: tutte le altre unità elettriche sono derivate.\n\nDall'ampere discende per esempio il coulomb, che è la carica trasportata in un secondo da una corrente di un ampere: 1 C = 1 A · 1 s."
     },
     {
       "id": "u1-0055",

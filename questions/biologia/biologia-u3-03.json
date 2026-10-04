@@ -153,7 +153,7 @@
         "Perché sostituisce il DNA telomerico perduto con sequenze prese da altri cromosomi"
       ],
       "corretta": 3,
-      "spiegazione": "Nelle cellule somatiche la telomerasi è quasi inattiva e l'accorciamento progressivo porta alla senescenza replicativa; la grande maggioranza delle cellule tumorali ne riattiva l'espressione e aggira quel limite.\n\nA) L'innesco a RNA è indispensabile per qualunque DNA polimerasi.\nB) La perdita alle estremità dipende dal meccanismo stesso della replicazione e riguarda anche le cellule tumorali: ciò che cambia è la compensazione.\nC) I cromosomi delle cellule umane, normali o tumorali, sono lineari.\nE) Non esiste un meccanismo ordinario di questo tipo: sarebbe una fonte di instabilità, non una soluzione."
+      "spiegazione": "Nelle cellule somatiche la telomerasi è quasi inattiva e l'accorciamento progressivo porta alla senescenza replicativa; la grande maggioranza delle cellule tumorali ne riattiva l'espressione e aggira quel limite.\n\nA) Nessuna DNA polimerasi comincia una catena dal nulla: serve sempre un'estremità 3'-OH da allungare, che nella replicazione è fornita da un innesco a RNA.\nB) La perdita alle estremità dipende dal meccanismo stesso della replicazione e riguarda anche le cellule tumorali: ciò che cambia è la compensazione.\nC) I cromosomi delle cellule umane, normali o tumorali, sono lineari.\nE) Una minoranza di tumori, intorno al 10-15%, fa davvero qualcosa di simile: allunga i telomeri per ricombinazione, copiando DNA telomerico da altri telomeri (meccanismo ALT). La domanda però chiede che cosa vale per la maggior parte delle cellule tumorali, e lì il meccanismo è la telomerasi."
     },
     {
       "id": "u3-0111",
@@ -181,7 +181,7 @@
         "Dal sito di inizio, posto a valle del promotore e indicato convenzionalmente come +1"
       ],
       "corretta": 4,
-      "spiegazione": "Il promotore serve a posizionare la polimerasi ma non viene trascritto: la sintesi dell'RNA comincia dal nucleotide convenzionalmente numerato +1, rispetto al quale gli elementi del promotore sono in posizione negativa.\n\nA) L'enhancer può trovarsi molto lontano e non è il punto di partenza della trascrizione.\nB) La TATA box appartiene al promotore e si trova a monte del +1.\nC) L'AUG è interno al trascritto e riguarda la traduzione: prima di esso c'è la regione non tradotta al 5'.\nD) Se il promotore fosse trascritto, ogni messaggero porterebbe in testa la propria sequenza regolativa."
+      "spiegazione": "Il promotore serve a posizionare la polimerasi: la sintesi dell'RNA comincia dal nucleotide convenzionalmente numerato +1, e gli elementi classici del promotore, come la TATA box, sono a monte, in posizione negativa.\n\nA) L'enhancer può trovarsi molto lontano e non è il punto di partenza della trascrizione.\nB) La TATA box appartiene al promotore e si trova a monte del +1.\nC) L'AUG è interno al trascritto e riguarda la traduzione: prima di esso c'è la regione non tradotta al 5'.\nD) La trascrizione non parte dal primo nucleotide del promotore ma dal +1, a valle degli elementi che hanno posizionato la polimerasi."
     },
     {
       "id": "u3-0113",
@@ -414,7 +414,7 @@
         "small nuclear rna",
         "rna nucleari piccoli"
       ],
-      "spiegazione": "Ciascuno di essi, indicato con la lettera U e un numero, riconosce una regione precisa del pre-mRNA per complementarità di basi: il riconoscimento dei siti di splicing è quindi affidato a un appaiamento fra RNA, non a una proteina.\n\nGli snRNA non sono soltanto elementi di riconoscimento: nel complesso riorganizzato costituiscono anche il sito catalitico che esegue le due transesterificazioni."
+      "spiegazione": "Sono indicati con la lettera U e un numero. Alcuni riconoscono i siti di splicing appaiandosi al pre-mRNA, come U1 al sito 5' e U2 al punto di ramificazione; altri si appaiano fra loro, come U4 con U6. Il riconoscimento avviene quindi in buona parte attraverso appaiamenti fra RNA, aiutati dalle proteine delle snRNP.\n\nGli snRNA non sono soltanto elementi di riconoscimento: nel complesso riorganizzato costituiscono anche il sito catalitico che esegue le due transesterificazioni."
     },
     {
       "id": "u3-0129",
@@ -460,7 +460,7 @@
         "Nel reticolo endoplasmatico ruvido, mentre la proteina viene sintetizzata"
       ],
       "corretta": 0,
-      "spiegazione": "La maturazione è nucleare e in buona parte co-trascrizionale: il messaggero raggiunge il citoplasma già cappucciato, privo di introni e poliadenilato. È proprio la separazione fra nucleo e citoplasma a rendere possibili questi controlli, che nei procarioti non esistono.\n\nB) Nel citoplasma il messaggero viene tradotto, non maturato: uno spliceosoma citoplasmatico non esiste.\nC) I mitocondri hanno un proprio sistema di espressione, distinto da quello nucleare.\nD) Un messaggero non maturato non verrebbe neppure esportato: i controlli precedono l'uscita.\nE) Nel reticolo avviene la maturazione di alcune proteine, non quella degli RNA."
+      "spiegazione": "La maturazione è nucleare e in buona parte co-trascrizionale: il messaggero raggiunge il citoplasma già cappucciato, privo di introni e poliadenilato. È proprio la separazione fra nucleo e citoplasma a rendere possibili questi controlli prima della traduzione. Nei procarioti il messaggero viene tradotto mentre è ancora in sintesi e non passa per queste tappe, anche se rRNA e tRNA vengono maturati.\n\nB) Nel citoplasma il messaggero viene tradotto, non maturato: uno spliceosoma citoplasmatico non esiste.\nC) I mitocondri hanno un proprio sistema di espressione, distinto da quello nucleare.\nD) Un messaggero non maturato non verrebbe neppure esportato: i controlli precedono l'uscita.\nE) Nel reticolo avviene la maturazione di alcune proteine, non quella degli RNA."
     },
     {
       "id": "u3-0132",
@@ -604,7 +604,7 @@
         "NADH"
       ],
       "corretta": 2,
-      "spiegazione": "I fattori di inizio, di allungamento e di rilascio sono proteine che legano e idrolizzano GTP: l'idrolisi accompagna sia l'ingresso del tRNA carico nel sito A sia la traslocazione del ribosoma.\n\nA) L'UTP è un substrato della sintesi dell'RNA, non un cofattore dei fattori di allungamento.\nB) L'ATP è consumato in traduzione, ma a monte: serve alle aminoacil-tRNA sintetasi per caricare l'amminoacido sul tRNA.\nD) L'AMP ciclico è un secondo messaggero e non una fonte di energia per la traduzione.\nE) Il NADH è un trasportatore di elettroni del metabolismo energetico."
+      "spiegazione": "I fattori di allungamento sono GTPasi, come diversi fattori di inizio e di terminazione: l'idrolisi del GTP accompagna sia l'ingresso del tRNA carico nel sito A sia la traslocazione del ribosoma.\n\nA) L'UTP è un substrato della sintesi dell'RNA, non un cofattore dei fattori di allungamento.\nB) L'ATP è consumato in traduzione, ma a monte: serve alle aminoacil-tRNA sintetasi per caricare l'amminoacido sul tRNA.\nD) L'AMP ciclico è un secondo messaggero e non una fonte di energia per la traduzione.\nE) Il NADH è un trasportatore di elettroni del metabolismo energetico."
     },
     {
       "id": "u3-0142",
@@ -681,7 +681,7 @@
         "posttrascrizionale",
         "post-trascrizionali"
       ],
-      "spiegazione": "Agisce dopo che il gene è stato trascritto e prima che la proteina sia prodotta: determina quale forma matura il messaggero assuma, quanto a lungo sopravviva e se raggiunga il citoplasma.\n\nEsiste anche nei procarioti, ma negli eucarioti è molto più esteso: la separazione fra nucleo e citoplasma permette splicing, maturazione e controllo dell'esportazione del messaggero, impossibili nei procarioti, dove trascrizione e traduzione avvengono nello stesso compartimento e in parte contemporaneamente."
+      "spiegazione": "Agisce dopo che il gene è stato trascritto e prima che la proteina sia prodotta: determina quale forma matura il messaggero assuma, quanto a lungo sopravviva e se raggiunga il citoplasma.\n\nEsiste anche nei procarioti, ma negli eucarioti è molto più esteso: la separazione fra nucleo e citoplasma permette di maturare il pre-mRNA con capping, splicing e poliadenilazione e di controllarne l'esportazione prima della traduzione. Nei procarioti, dove trascrizione e traduzione avvengono nello stesso compartimento e in parte contemporaneamente, il messaggero non passa per queste tappe."
     },
     {
       "id": "u3-0147",
@@ -697,7 +697,7 @@
         "Si lega stabilmente al substrato e rimane parte della proteina matura"
       ],
       "corretta": 3,
-      "spiegazione": "Le chaperonine formano strutture cilindriche cave: il polipeptide viene accolto all'interno e ripiegato in un ambiente separato dal citosol affollato, dove il rischio di incontrare altre molecole e aggregare è azzerato. Il ciclo è guidato dall'idrolisi di ATP.\n\nA) La demolizione delle proteine è compito del proteasoma, non degli chaperon.\nB) Il ripiegamento avviene nel compartimento in cui la proteina è sintetizzata.\nC) Nessuno chaperon modifica la sequenza: l'informazione è già nella catena.\nE) Gli chaperon si staccano al termine e non entrano nella struttura finale."
+      "spiegazione": "Le chaperonine formano strutture cilindriche cave: il polipeptide viene accolto all'interno e ripiegato in un ambiente separato dal citosol affollato, dove il rischio di incontrare altre molecole e aggregare è azzerato. Il ciclo è guidato dall'idrolisi di ATP.\n\nA) La demolizione delle proteine è compito del proteasoma, non degli chaperon.\nB) Il nucleo non ripiega proteine per conto di altri compartimenti: le chaperonine agiscono dove la proteina deve funzionare, per esempio nel citosol o, per le proteine importate, nella matrice mitocondriale.\nC) Nessuno chaperon modifica la sequenza: l'informazione è già nella catena.\nE) Gli chaperon si staccano al termine e non entrano nella struttura finale."
     },
     {
       "id": "u3-0148",

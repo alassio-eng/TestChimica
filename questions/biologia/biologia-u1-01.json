@@ -61,7 +61,7 @@
         "capside proteico",
         "capsidi"
       ],
-      "spiegazione": "Il capside è formato da un numero limitato di tipi di subunità proteiche, i capsomeri, che si assemblano spontaneamente: è il modo con cui un genoma molto piccolo riesce a codificare un contenitore grande. Le simmetrie più comuni sono l'icosaedrica e l'elicoidale.\n\nL'insieme di capside e acido nucleico costituisce il nucleocapside; alcuni virus possiedono in più un involucro lipidico esterno."
+      "spiegazione": "Il capside è formato da molte copie di pochi tipi di subunità proteiche, che si associano in unità morfologiche dette capsomeri e si assemblano spontaneamente: è il modo con cui un genoma molto piccolo riesce a codificare un contenitore grande. Le simmetrie più comuni sono l'icosaedrica e l'elicoidale.\n\nL'insieme di capside e acido nucleico costituisce il nucleocapside; alcuni virus possiedono in più un involucro lipidico esterno."
     },
     {
       "id": "u1-0005",
@@ -90,14 +90,14 @@
         "envelope",
         "peplos"
       ],
-      "spiegazione": "L'involucro deriva da una membrana dell'ospite (plasmatica, del reticolo endoplasmatico o del Golgi) e ne conserva i lipidi, mentre le proteine inserite sono di origine virale: sono le glicoproteine che mediano il riconoscimento del recettore e la fusione.\n\nI virus con involucro sono più sensibili ai solventi dei lipidi e ai detergenti; i virus nudi, protetti dal solo capside proteico, resistono meglio nell'ambiente esterno."
+      "spiegazione": "L'involucro deriva da una membrana dell'ospite (plasmatica, del reticolo endoplasmatico o del Golgi) e ne conserva i lipidi, mentre le proteine che lo caratterizzano sono di origine virale (vi possono essere incorporate anche alcune proteine dell'ospite): sono le glicoproteine che mediano il riconoscimento del recettore e la fusione.\n\nI virus con involucro sono più sensibili ai solventi dei lipidi e ai detergenti; i virus nudi, protetti dal solo capside proteico, resistono meglio nell'ambiente esterno."
     },
     {
       "id": "u1-0007",
       "unita": "u1",
       "tipo": "multipla",
       "argomento": "Ciclo lisogenico di un virus batterico",
-      "testo": "Nel ciclo lisogenico di un batteriofago, il genoma virale:",
+      "testo": "Nel ciclo lisogenico del batteriofago lambda, il genoma virale:",
       "opzioni": [
         "viene trasferito a un'altra cellula batterica attraverso il pilo sessuale",
         "dirige immediatamente la sintesi di nuovi virioni e la lisi della cellula infettata",
@@ -106,7 +106,7 @@
         "resta libero nel citoplasma e si replica in modo del tutto indipendente dall'ospite"
       ],
       "corretta": 3,
-      "spiegazione": "Nella lisogenia il DNA del fago si integra nel cromosoma batterico come profago e viene duplicato a ogni divisione insieme al genoma dell'ospite, senza produrre virioni. Uno stimolo appropriato può poi indurre il passaggio al ciclo litico.\n\nA) Il trasferimento tramite pilo è la coniugazione batterica.\nB) La produzione immediata di virioni e la lisi descrivono il ciclo litico.\nC) La degradazione del DNA estraneo è opera dei sistemi di restrizione ed è un meccanismo di difesa, non una tappa del ciclo lisogenico.\nE) La replicazione autonoma nel citoplasma è il comportamento di un plasmide, non del profago integrato."
+      "spiegazione": "Nella lisogenia di lambda, il modello classico, il DNA del fago si integra nel cromosoma batterico come profago e viene duplicato a ogni divisione insieme al genoma dell'ospite, senza produrre virioni. Uno stimolo appropriato può poi indurre il passaggio al ciclo litico.\n\nA) Il trasferimento tramite pilo è la coniugazione batterica.\nB) La produzione immediata di virioni e la lisi descrivono il ciclo litico.\nC) La degradazione del DNA estraneo è opera dei sistemi di restrizione ed è un meccanismo di difesa, non una tappa del ciclo lisogenico.\nE) La replicazione autonoma nel citoplasma è il comportamento di un plasmide, non del profago integrato."
     },
     {
       "id": "u1-0008",
@@ -272,13 +272,13 @@
       "testo": "La coniugazione si distingue dagli altri meccanismi di trasferimento genico orizzontale dei batteri perché:",
       "opzioni": [
         "trasferisce RNA anziché DNA dalla cellula donatrice a quella ricevente",
-        "richiede il contatto diretto fra due cellule attraverso un pilo",
+        "richiede il contatto diretto fra la cellula donatrice e la ricevente",
         "richiede un batteriofago che funga da vettore del DNA trasferito",
         "trasferisce DNA libero captato dall'ambiente circostante la cellula",
         "avviene esclusivamente fra cellule appartenenti a specie diverse fra loro"
       ],
       "corretta": 1,
-      "spiegazione": "Nella coniugazione la cellula donatrice, che porta un plasmide coniugativo, stabilisce un contatto con la ricevente tramite un pilo e le trasferisce una copia del plasmide attraverso un ponte citoplasmatico. È il meccanismo con cui si diffondono molti geni di resistenza agli antibiotici.\n\nA) Il materiale trasferito è DNA.\nC) Il trasferimento mediato da un fago è la trasduzione.\nD) La captazione di DNA libero dall'ambiente è la trasformazione.\nE) La coniugazione avviene normalmente fra cellule della stessa specie, e in alcuni casi anche fra specie diverse: non è una condizione necessaria."
+      "spiegazione": "Nella coniugazione la cellula donatrice, che porta un plasmide coniugativo, stabilisce un contatto diretto con la ricevente, in E. coli tramite il pilo sessuale, e le trasferisce una copia del plasmide attraverso un ponte citoplasmatico. È il meccanismo con cui si diffondono molti geni di resistenza agli antibiotici.\n\nA) Il materiale trasferito è DNA.\nC) Il trasferimento mediato da un fago è la trasduzione.\nD) La captazione di DNA libero dall'ambiente è la trasformazione.\nE) La coniugazione avviene normalmente fra cellule della stessa specie, e in alcuni casi anche fra specie diverse: non è una condizione necessaria."
     },
     {
       "id": "u1-0020",
@@ -306,7 +306,7 @@
         "traslocazione"
       ],
       "corretta": 2,
-      "spiegazione": "Durante l'assemblaggio dei virioni, un frammento di DNA batterico può essere impacchettato per errore nel capside al posto del genoma virale: il fago che ne deriva lo inietta nella cellula successiva, che può integrarlo.\n\nA) La trasformazione è la captazione di DNA libero dall'ambiente.\nB) La coniugazione richiede il contatto diretto fra due cellule tramite un pilo.\nD) La trasfezione è l'introduzione sperimentale di acidi nucleici in cellule eucariotiche.\nE) La traslocazione è un riarrangiamento cromosomico, che riguarda le mutazioni di struttura."
+      "spiegazione": "Durante l'assemblaggio dei virioni, un frammento di DNA batterico può essere impacchettato per errore nel capside al posto del genoma virale: il fago che ne deriva lo inietta nella cellula successiva, che può integrarlo.\n\nA) La trasformazione è la captazione di DNA libero dall'ambiente.\nB) La coniugazione richiede il contatto diretto fra la cellula donatrice e la ricevente (in E. coli tramite il pilo sessuale).\nD) La trasfezione è l'introduzione sperimentale di acidi nucleici in cellule eucariotiche.\nE) La traslocazione è un riarrangiamento cromosomico, che riguarda le mutazioni di struttura."
     },
     {
       "id": "u1-0022",
@@ -376,7 +376,7 @@
         "endosimbiontica",
         "teoria endosimbiontica"
       ],
-      "spiegazione": "L'ipotesi è sostenuta da un insieme coerente di osservazioni: doppia membrana, con quella interna simile a una membrana batterica; genoma proprio, circolare e privo di istoni; ribosomi 70S sensibili agli antibiotici antibatterici; divisione per scissione, indipendente dalla divisione della cellula.\n\nIl nucleo e il sistema delle endomembrane hanno invece un'origine diversa, per invaginazione e specializzazione della membrana plasmatica della cellula ospite."
+      "spiegazione": "L'ipotesi è sostenuta da un insieme coerente di osservazioni: doppia membrana, con quella interna simile a una membrana batterica; genoma proprio, circolare e privo di istoni; ribosomi di tipo batterico, sensibili ad alcuni antibiotici antibatterici (nei mammiferi sono più piccoli, 55S, ma conservano l'impianto batterico); divisione per scissione, indipendente dalla divisione della cellula.\n\nIl nucleo e il sistema delle endomembrane hanno invece un'origine diversa, per invaginazione e specializzazione della membrana plasmatica della cellula ospite."
     },
     {
       "id": "u1-0027",
@@ -490,7 +490,7 @@
         "anfifilica",
         "anfifilico"
       ],
-      "spiegazione": "Sono anfipatici i fosfolipidi, il colesterolo, gli acidi grassi a catena lunga e molte proteine di membrana. È questa doppia natura a rendere possibile la formazione spontanea dei doppi strati lipidici e quindi la compartimentazione della cellula.\n\nUn trigliceride, invece, è del tutto apolare: i tre ossidrili del glicerolo sono impegnati nei legami estere e la molecola non ha più alcuna testa idrofila."
+      "spiegazione": "Sono anfipatici i fosfolipidi, il colesterolo, gli acidi grassi a catena lunga e molte proteine di membrana. È questa doppia natura a rendere possibile la formazione spontanea dei doppi strati lipidici e quindi la compartimentazione della cellula.\n\nUn trigliceride, invece, è praticamente apolare: i tre ossidrili del glicerolo sono impegnati nei legami estere e la molecola non ha più una testa idrofila capace di orientarsi verso l'acqua."
     },
     {
       "id": "u1-0035",
@@ -506,7 +506,7 @@
         "fra il gruppo amminico di un amminoacido e la catena laterale di un altro"
       ],
       "corretta": 2,
-      "spiegazione": "È una reazione di condensazione fra il carbossile di un residuo e l'amminogruppo del successivo, con eliminazione di una molecola d'acqua. Il legame che ne risulta ha un parziale carattere di doppio legame, che lo rende planare e non liberamente rotabile: è il vincolo su cui si fondano le strutture secondarie.\n\nA) L'acqua viene eliminata, non aggiunta: la sua addizione è l'idrolisi, cioè la reazione inversa.\nB) Gli amminoacidi non contengono gruppi fosfato nella loro struttura di base.\nD) Il ponte disolfuro è un legame covalente accessorio, che stabilizza la struttura terziaria.\nE) Le catene laterali non partecipano alla formazione dello scheletro polipeptidico."
+      "spiegazione": "Dal punto di vista formale è una condensazione fra il carbossile di un residuo e l'amminogruppo del successivo, con eliminazione di una molecola d'acqua; nel ribosoma la reazione avviene fra amminoacidi già attivati sui rispettivi tRNA. Il legame che ne risulta ha un parziale carattere di doppio legame, che lo rende planare e non liberamente rotabile: è il vincolo su cui si fondano le strutture secondarie.\n\nA) L'acqua viene eliminata, non aggiunta: la sua addizione è l'idrolisi, cioè la reazione inversa.\nB) Gli amminoacidi non contengono gruppi fosfato nella loro struttura di base.\nD) Il ponte disolfuro è un legame covalente accessorio, che stabilizza la struttura terziaria.\nE) Le catene laterali non partecipano alla formazione dello scheletro polipeptidico."
     },
     {
       "id": "u1-0036",

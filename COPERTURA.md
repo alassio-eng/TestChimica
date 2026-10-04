@@ -2,7 +2,7 @@
 
 Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py > COPERTURA.md`.
 
-**2210 domande su 2200** a regime.
+**2219 domande su 2200** a regime.
 
 
 ---
@@ -17,7 +17,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 | U4 | Acidi, basi, tamponi, redox ed elettrochimica | 100/100 | 50M + 50C | 97 | 5 |
 | U5 | Carbonio, idrocarburi, aromatici | 90/90 | 45M + 45C | 67 | 4 |
 | U6 | Gruppi funzionali e isomerie | 70/70 | 34M + 36C | 52 | 1 |
-| U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 150/150 | 75M + 75C | 136 | 9 |
+| U7 | Amminoacidi, carboidrati, lipidi, acidi nucleici | 150/150 | 75M + 75C | 138 | 9 |
 
 ### U1 — Atomo, legami, stati della materia, termodinamica
 
@@ -93,7 +93,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Ibridazione sp³
 - Interazioni deboli nelle biomolecole
 - Interazioni idrofobiche
-- Interazioni idrofobiche nelle proteine
+- Interazioni idrofobiche e doppio strato fosfolipidico
 - Interpretazione cinetica della pressione
 - Ioni poliatomici
 - Ipotesi del modello del gas ideale
@@ -288,7 +288,6 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Criterio di spontaneità di una reazione redox
 - Definizione di acido secondo Brønsted e Lowry
 - Definizione di agente riducente
-- Definizione di anodo
 - Definizione di catodo
 - Definizione di ossidazione
 - Definizione di soluzione tampone
@@ -315,12 +314,13 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Lo ione idronio
 - Meccanismo d'azione di un tampone
 - Natura logaritmica della scala del pH
+- Neutralizzazione in forma ionica
 - Nome dell'equazione dei tamponi
-- Numero di ossidazione dell'ossigeno nei perossidi
+- Numero di ossidazione del fosforo
+- Polarità degli elettrodi nella cella galvanica
 - Ponte salino
 - Potenziale in condizioni non standard
 - Prodotto ionico dell'acqua
-- Reazione fra un acido e una base
 - Reazioni di dismutazione
 - Regola di somma dei numeri di ossidazione
 - Relazione fra Ka e Kb di una coppia coniugata
@@ -485,15 +485,13 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U7 — Amminoacidi, carboidrati, lipidi, acidi nucleici
 
-150 domande su 150 · 75 a risposta multipla e 75 a completamento · 136 argomenti distinti · file: chimica-u7-01.json, chimica-u7-02.json, chimica-u7-03.json, chimica-u7-04.json
+150 domande su 150 · 75 a risposta multipla e 75 a completamento · 138 argomenti distinti · file: chimica-u7-01.json, chimica-u7-02.json, chimica-u7-03.json, chimica-u7-04.json
 
 - Deaminazione della citosina (3 domande)
 - Amminoacidi essenziali (2 domande)
 - Amminoacidi: codici a una lettera (2 domande)
 - Amminozuccheri (2 domande)
-- Epimeri (2 domande)
 - Formazione del legame peptidico (2 domande)
-- Legame fosfodiestere (2 domande)
 - Omopolisaccaridi: glicogeno (2 domande)
 - Riduzione dei monosaccaridi (2 domande)
 - Struttura del DNA: regole di Chargaff (2 domande)
@@ -553,6 +551,8 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Disaccaridi: lattosio
 - Disaccaridi: maltosio
 - Disaccaridi: saccarosio
+- Epimeri
+- Epimeri: mannosio e glucosio
 - Eteropolisaccaridi: glicosamminoglicani
 - FAD/FADH₂
 - Glicazione delle proteine: emoglobina glicata
@@ -567,6 +567,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Interazioni ioniche nelle proteine
 - Isomeria dei monosaccaridi: enantiomeri
 - Legame N-glicosidico nei nucleosidi
+- Legame fosfodiestere
 - Legame fosfodiestere: estremità del filamento
 - Legame fosfodiestere: scheletro
 - Legame glicosidico
@@ -584,6 +585,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Omopolisaccaridi: amido
 - Omopolisaccaridi: cellulosa
 - Ossidazione dei monosaccaridi
+- Polarità del filamento di acido nucleico
 - Ponti disolfuro
 - Proprietà acido-base: forma a pH acido
 - Proprietà acido-base: forma prevalente
@@ -728,7 +730,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Legge di Hooke (2 domande)
 - Moto rettilineo uniforme (2 domande)
 - Moto uniformemente accelerato (2 domande)
-- Spazio di arresto (2 domande)
+- Spazio di frenata (2 domande)
 - Urto perfettamente anelastico (2 domande)
 - Velocità media (2 domande)
 - Accelerazione
@@ -761,7 +763,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Corpi collegati
 - Corpo rigido
 - Costante elastica
-- Dipendenza dello spazio di arresto dalla velocità
+- Dipendenza dello spazio di frenata dalla velocità
 - Energia cinetica
 - Energia cinetica e velocità
 - Energia meccanica
@@ -1308,7 +1310,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Nucleo figlio
 - Nucleo figlio del decadimento β⁻
 - Nucleo instabile
-- Oggetto nel centro di curvatura (p = 2f)
+- Oggetto a distanza doppia della focale (p = 2f)
 - Onde elettromagnetiche trasversali
 - Ordine delle regioni dello spettro
 - Orientazione dei campi E e B
@@ -1336,17 +1338,17 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ---
 
-## Biologia — 820/820
+## Biologia — 829/820
 
 | | unità | domande | tipi | argomenti | quota d'esame |
 |---|---|---|---|---|---|
 | U1 | Le basi dell'organizzazione biologica e molecolare della vita | 80/80 | 40M + 40C | 80 | 3 |
 | U2 | I meccanismi cellulari di trasmissione e controllo dell'informazione genetica e epigenetica | 60/60 | 30M + 30C | 60 | 2 |
 | U3 | Il flusso dell'informazione | 180/180 | 90M + 90C | 180 | 7 |
-| U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 110/110 | 55M + 55C | 110 | 4 |
-| U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 200/200 | 100M + 100C | 200 | 8 |
+| U4 | I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati | 112/110 | 56M + 56C | 112 | 4 |
+| U5 | Le strutture cellulari: biogenesi, morfologia e funzioni | 205/200 | 104M + 101C | 205 | 8 |
 | U6 | La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale | 100/100 | 50M + 50C | 54 | 4 |
-| U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 90/90 | 45M + 45C | 90 | 3 |
+| U7 | Il controllo della proliferazione e della sopravvivenza cellulare | 92/90 | 46M + 46C | 92 | 3 |
 
 ### U1 — Le basi dell'organizzazione biologica e molecolare della vita
 
@@ -1494,7 +1496,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Organizzazione minimale di un cromosoma eucariotico
 - Pseudogeni
 - Rimodellamento della cromatina
-- SINE
+- SINE: le sequenze Alu
 - Sequenze a copia singola
 - Varianti istoniche e identità del centromero
 
@@ -1685,7 +1687,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
 
-110 domande su 110 · 55 a risposta multipla e 55 a completamento · 110 argomenti distinti · file: biologia-u4-01.json, biologia-u4-02.json, biologia-u4-03.json
+112 domande su 110 · 56 a risposta multipla e 56 a completamento · 112 argomenti distinti · file: biologia-u4-01.json, biologia-u4-02.json, biologia-u4-03.json, biologia-u4-04.json
 
 - Agenti mutageni
 - Alberi genealogici: i simboli
@@ -1693,6 +1695,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Alberi genealogici: unione consanguinea
 - Alleli letali e rapporti mendeliani atipici
 - Alleli multipli
+- Alterazioni di struttura: l'inserzione
 - Alterazioni di struttura: l'inversione
 - Alterazioni di struttura: la delezione
 - Alterazioni di struttura: la duplicazione
@@ -1710,6 +1713,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Definizione di cariotipo
 - Definizione di penetranza
 - Delezioni in fase e fuori fase
+- Distanza di mappa da un reincrocio di prova
 - Dominanza incompleta
 - Dominanza incompleta: il fenotipo dell'eterozigote
 - Dominanza incompleta: rapporti nella progenie
@@ -1749,6 +1753,8 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Incrocio fra eterozigoti: rapporto genotipico
 - Inserzione di nucleotidi
 - Inserzioni e delezioni: lo slittamento del modulo di lettura
+- Legge dell'assortimento indipendente
+- Legge della segregazione
 - Malattie recessive: definizione
 - Mappe fisiche e mappe genetiche
 - Mappe genetiche: unità di distanza
@@ -1772,7 +1778,6 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Pleiotropia ed eredità poligenica a confronto
 - Pleiotropia: riconoscerla nel quadro clinico
 - Poliploidia ed euploidia
-- Prima legge di Mendel
 - Principio generale della riparazione su singolo filamento
 - Rapporti mendeliani atipici
 - Riconoscere un carattere poligenico
@@ -1780,7 +1785,6 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Riparazione delle rotture a doppio filamento
 - Riparazione per escissione
 - Riparazione per escissione di base
-- Seconda legge di Mendel: assortimento indipendente
 - Sistema AB0: genotipi
 - Sistema AB0: incroci
 - Sistema AB0: incrocio AB per 0
@@ -1800,12 +1804,14 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U5 — Le strutture cellulari: biogenesi, morfologia e funzioni
 
-200 domande su 200 · 100 a risposta multipla e 100 a completamento · 200 argomenti distinti · file: biologia-u5-01.json, biologia-u5-02.json, biologia-u5-03.json, biologia-u5-04.json
+205 domande su 200 · 104 a risposta multipla e 101 a completamento · 205 argomenti distinti · file: biologia-u5-01.json, biologia-u5-02.json, biologia-u5-03.json, biologia-u5-04.json, biologia-u5-05.json
 
 - Acidificazione del lume lisosomiale
+- Alterazioni della dineina citoplasmatica
 - Antiporto
 - Asimmetria della membrana plasmatica
 - Autofagia selettiva dei mitocondri
+- Bilancio energetico dell'ossidazione del glucosio
 - Canali e trasportatori
 - Canali per l'acqua
 - Cellule in soluzione ipotonica
@@ -1826,6 +1832,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Endocitosi in fase fluida
 - Endosomi tardivi
 - Enzimi del trasferimento trasversale dei fosfolipidi
+- Esportazione degli mRNA dal nucleo
 - Fibrosi cistica e ERAD
 - Funzione detossificante dei perossisomi
 - Funzioni dei perossisomi
@@ -1892,6 +1899,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Il trasportatore mobile liposolubile
 - Il trasporto del glucosio nell'eritrocita
 - Il valore critico del potenziale
+- Import mitocondriale: il complesso OXA
 - Importazione nei perossisomi
 - Importazione nella matrice mitocondriale
 - Importina α e importina β
@@ -1994,6 +2002,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Struttura del microtubulo
 - TIM22 e TIM23
 - Tipi di autofagia
+- Tipi di autofagia a confronto
 - Tonicità delle soluzioni
 - Transcitosi
 - Traslocazione nel reticolo durante la sintesi
@@ -2064,7 +2073,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 
 ### U7 — Il controllo della proliferazione e della sopravvivenza cellulare
 
-90 domande su 90 · 45 a risposta multipla e 45 a completamento · 90 argomenti distinti · file: biologia-u7-01.json, biologia-u7-02.json
+92 domande su 90 · 46 a risposta multipla e 46 a completamento · 92 argomenti distinti · file: biologia-u7-01.json, biologia-u7-02.json, biologia-u7-03.json
 
 - APC/C
 - Anafase A
@@ -2099,6 +2108,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - Fase G2
 - Fasi della mitosi
 - Fattori di crescita e punto di restrizione
+- Gli organelli durante la mitosi
 - Il DISC
 - Il centromero
 - Il centrosoma
@@ -2115,6 +2125,7 @@ Che cosa c'è, unità per unità. Rigenerabile con `python3 tools/copertura.py >
 - L'apoptosoma
 - L'inibitore p16
 - La fase S
+- La necrosi
 - La securina
 - Le caspasi
 - MOMP

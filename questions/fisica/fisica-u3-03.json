@@ -37,7 +37,7 @@
       "unita": "u3",
       "tipo": "multipla",
       "argomento": "Galleggiamento: carico massimo sostenibile",
-      "testo": "Una zattera di legno di densità 600 kg/m³ e volume 2,0 m³ galleggia in acqua di densità 1000 kg/m³. La massa del carico massimo che può sostenere senza immergersi completamente vale:",
+      "testo": "Una zattera di legno di densità 600 kg/m³ e volume 2,0 m³ galleggia in acqua di densità 1000 kg/m³. La massa del carico che la porta esattamente al limite dell'immersione completa vale:",
       "opzioni": [
         "1200 kg",
         "800 kg",
@@ -46,7 +46,7 @@
         "3200 kg"
       ],
       "corretta": 1,
-      "spiegazione": "La spinta è massima quando la zattera è tutta immersa e corrisponde al peso di 2,0 m³ d'acqua, cioè a una massa di 1000 × 2,0 = 2000 kg. La zattera da sola ha massa 600 × 2,0 = 1200 kg, quindi il carico aggiuntivo massimo ha massa 2000 − 1200 = 800 kg.\n\nA) 1200 kg è la massa della zattera stessa, non del carico che può portare.\nC) 2000 kg è la massa d'acqua spostata a immersione completa: dimentica di sottrarre il peso della zattera.\nD) 400 kg userebbe un volume di 1,0 m³, cioè metà di quello indicato.\nE) 3200 kg somma le due masse invece di sottrarle."
+      "spiegazione": "La spinta è massima quando la zattera è tutta immersa e corrisponde al peso di 2,0 m³ d'acqua, cioè a una massa di 1000 × 2,0 = 2000 kg. La zattera da sola ha massa 600 × 2,0 = 1200 kg, quindi il carico che la porta al limite ha massa 2000 − 1200 = 800 kg. Con 800 kg la zattera è appena tutta immersa: per restare in parte emersa il carico deve essere minore.\n\nA) 1200 kg è la massa della zattera stessa, non del carico che può portare.\nC) 2000 kg è la massa d'acqua spostata a immersione completa: dimentica di sottrarre il peso della zattera.\nD) 400 kg userebbe un volume di 1,0 m³, cioè metà di quello indicato.\nE) 3200 kg somma le due masse invece di sottrarle."
     },
     {
       "id": "u3-0104",

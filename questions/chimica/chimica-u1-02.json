@@ -591,16 +591,16 @@
       "unita": "u1",
       "tipo": "multipla",
       "argomento": "Interazioni deboli nelle biomolecole",
-      "testo": "Nella doppia elica del DNA i due filamenti sono tenuti uniti fra loro principalmente da:",
+      "testo": "Nella doppia elica del DNA le basi complementari dei due filamenti si appaiano formando:",
       "opzioni": [
         "ponti disolfuro",
-        "legami ionici fra i gruppi fosfato",
+        "legami ionici fra basi di carica opposta",
         "legami fosfodiestere",
-        "legami covalenti fra gli zuccheri",
+        "legami covalenti fra le basi",
         "legami a idrogeno fra le basi azotate complementari"
       ],
       "corretta": 4,
-      "spiegazione": "Le basi appaiate formano legami a idrogeno: due fra adenina e timina, tre fra guanina e citosina. Essendo interazioni deboli, i due filamenti possono essere separati senza rompere alcun legame covalente, come avviene nella replicazione e nella trascrizione.\n\nA) I ponti disolfuro riguardano le cisteine delle proteine.\nB) I gruppi fosfato portano cariche negative e si respingono; sono neutralizzati da cationi e proteine basiche, ma non tengono uniti i filamenti.\nC) Il legame fosfodiestere unisce i nucleotidi lungo lo stesso filamento, non i due filamenti fra loro.\nD) Gli zuccheri sono legati covalentemente solo ai fosfati e alle basi del proprio filamento: non esistono legami covalenti fra zuccheri di filamenti opposti."
+      "spiegazione": "Le basi appaiate formano legami a idrogeno: due fra adenina e timina, tre fra guanina e citosina. Essendo interazioni deboli, i due filamenti possono essere separati senza rompere alcun legame covalente, come avviene nella replicazione e nella trascrizione. Alla stabilità complessiva della doppia elica contribuiscono anche le interazioni di impilamento fra basi sovrapposte, ma l'appaiamento specifico fra i filamenti è dato dai legami a idrogeno.\n\nA) I ponti disolfuro riguardano le cisteine delle proteine.\nB) A pH fisiologico le basi azotate sono neutre: fra le basi appaiate non si formano legami ionici. Le cariche dello scheletro stanno sui fosfati, che si respingono.\nC) Il legame fosfodiestere unisce i nucleotidi lungo lo stesso filamento, non i due filamenti fra loro.\nD) Con legami covalenti fra le basi i filamenti non potrebbero separarsi senza rompere legami covalenti, mentre nella replicazione si separano rompendo solo interazioni deboli."
     },
     {
       "id": "u1-0093",
@@ -675,7 +675,7 @@
       "unita": "u1",
       "tipo": "multipla",
       "argomento": "Formule dei composti ionici",
-      "testo": "Qual è la formula del fosfato di calcio, il sale che costituisce la parte minerale dell'osso?",
+      "testo": "Qual è la formula del fosfato di calcio (fosfato tricalcico)?",
       "opzioni": [
         "Ca₃PO₄",
         "Ca(PO₄)₂",
@@ -684,7 +684,7 @@
         "CaPO₄"
       ],
       "corretta": 3,
-      "spiegazione": "Il calcio forma lo ione Ca²⁺, il fosfato è PO₄³⁻. Per ottenere un composto elettricamente neutro servono tre cationi (+6 in totale) e due anioni (−6 in totale): Ca₃(PO₄)₂.\n\nA) Darebbe +3: manca il secondo gruppo fosfato, e le parentesi servono proprio a indicare che l'intero ione poliatomico va preso due volte.\nB) Darebbe una carica complessiva di −4.\nC) Darebbe una carica complessiva di +1.\nE) Sarebbe neutro solo se il fosfato avesse carica 2−."
+      "spiegazione": "Il calcio forma lo ione Ca²⁺, il fosfato è PO₄³⁻. Per ottenere un composto elettricamente neutro servono tre cationi (+6 in totale) e due anioni (−6 in totale): Ca₃(PO₄)₂. Il minerale dell'osso non è fosfato tricalcico puro, ma un'apatite (idrossiapatite) non stechiometrica e in parte carbonata.\n\nA) Darebbe +3: manca il secondo gruppo fosfato, e le parentesi servono proprio a indicare che l'intero ione poliatomico va preso due volte.\nB) Darebbe una carica complessiva di −4.\nC) Darebbe una carica complessiva di +1.\nE) Sarebbe neutro solo se il fosfato avesse carica 2−."
     },
     {
       "id": "u1-0099",

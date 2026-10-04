@@ -511,17 +511,16 @@
         "trasversale"
       ],
       "corretta": 4,
-      "spiegazione": "L'oscillazione avviene perpendicolarmente alla direzione lungo cui la perturbazione avanza: è la definizione di onda trasversale. Le onde trasversali meccaniche richiedono un mezzo capace di opporsi agli sforzi di taglio, e una corda tesa lo è.\n\nA) Se l'onda è periodica, la lunghezza d'onda è definita come per qualunque altra onda.\nB) Un'onda stazionaria nasce dalla sovrapposizione di un'onda con la sua riflessa: qui nulla lo impone.\nC) Nelle onde longitudinali l'oscillazione è parallela alla propagazione.\nD) L'onda si propaga grazie alle proprietà elastiche della corda: è meccanica, non elettromagnetica."
+      "spiegazione": "L'oscillazione avviene perpendicolarmente alla direzione lungo cui la perturbazione avanza: è la definizione di onda trasversale. Nella corda tesa la forza di richiamo che rende possibile l'onda trasversale è la tensione.\n\nA) Se l'onda è periodica, la lunghezza d'onda è definita come per qualunque altra onda.\nB) Un'onda stazionaria nasce dalla sovrapposizione di un'onda con la sua riflessa: qui nulla lo impone.\nC) Nelle onde longitudinali l'oscillazione è parallela alla propagazione.\nD) L'onda si propaga grazie alle proprietà elastiche della corda: è meccanica, non elettromagnetica."
     },
     {
       "id": "u4-0038",
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Legge dell'inverso del quadrato",
-      "testo": "L'intensità di un'onda emessa da una sorgente puntiforme diminuisce con il …… della distanza",
+      "testo": "L'intensità di un'onda emessa da una sorgente puntiforme è inversamente proporzionale al …… della distanza",
       "accettate": [
-        "quadrato",
-        "quadrato inverso"
+        "quadrato"
       ],
       "spiegazione": "L'energia si distribuisce su superfici sferiche la cui area cresce con il quadrato del raggio: I = P/(4πr²).\n\nTriplicando la distanza l'intensità si riduce a un nono, non a un terzo."
     },

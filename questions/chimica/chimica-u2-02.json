@@ -21,7 +21,7 @@
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Calcolo dell'innalzamento ebullioscopico",
-      "testo": "Una soluzione acquosa 0,50 m di un non elettrolita (costante ebullioscopica dell'acqua 0,512 °C·kg/mol) bolle, a 1 atm, alla temperatura di:",
+      "testo": "Una soluzione acquosa 0,50 m di un non elettrolita non volatile (costante ebullioscopica dell'acqua 0,512 °C·kg/mol) bolle, a 1 atm, alla temperatura di:",
       "opzioni": [
         "99,74 °C",
         "100,00 °C",

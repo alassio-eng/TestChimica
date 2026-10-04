@@ -22,7 +22,7 @@
       "unita": "u6",
       "tipo": "multipla",
       "argomento": "Legge di Coulomb e principio di azione e reazione",
-      "testo": "Una carica di 4 μC e una di 1 μC si attraggono. Il modulo della forza che la carica maggiore esercita sulla minore, rispetto a quello della forza che la minore esercita sulla maggiore, è:",
+      "testo": "Due cariche puntiformi di +4 μC e −1 μC si attraggono. Il modulo della forza che la prima esercita sulla seconda, rispetto al modulo della forza che la seconda esercita sulla prima, è:",
       "opzioni": [
         "uguale",
         "quattro volte maggiore",
@@ -31,7 +31,7 @@
         "sedici volte maggiore"
       ],
       "corretta": 0,
-      "spiegazione": "La legge di Coulomb, F = k q₁q₂/r², contiene il prodotto delle due cariche: la forza ha lo stesso modulo per entrambe. È un caso del terzo principio della dinamica: le due forze sono uguali in modulo, opposte in verso e applicate a corpi diversi.\n\nB) Attribuisce alla carica più grande una forza più grande. Il prodotto q₁q₂ è lo stesso per le due forze.\nC) Inverte lo stesso errore: anche la carica minore esercita una forza uguale al prodotto q₁q₂ diviso r².\nD) Usa la radice del rapporto fra le cariche. Le due forze sono uguali per il principio di azione e reazione.\nE) Eleva al quadrato il rapporto fra le cariche, confondendolo con la dipendenza dal quadrato della distanza."
+      "spiegazione": "La legge di Coulomb, F = k |q₁q₂|/r², contiene il prodotto delle due cariche: la forza ha lo stesso modulo per entrambe. È un caso del terzo principio della dinamica: le due forze sono uguali in modulo, opposte in verso e applicate a corpi diversi.\n\nB) Attribuisce alla carica di modulo maggiore una forza più grande. Il prodotto q₁q₂ è lo stesso per le due forze.\nC) Inverte lo stesso errore: anche la carica minore esercita una forza uguale al prodotto q₁q₂ diviso r².\nD) Usa la radice del rapporto fra le cariche. Le due forze sono uguali per il principio di azione e reazione.\nE) Eleva al quadrato il rapporto fra le cariche, confondendolo con la dipendenza dal quadrato della distanza."
     },
     {
       "id": "u6-0103",

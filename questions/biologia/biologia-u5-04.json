@@ -57,7 +57,7 @@
         "perde ioni potassio, che trascinano acqua verso l'esterno"
       ],
       "corretta": 2,
-      "spiegazione": "In una soluzione ipotonica i soluti extracellulari sono meno concentrati: l'acqua entra per osmosi e il volume cellulare aumenta. La membrana plasmatica, priva di una parete che la contenga, può cedere, e nel globulo rosso si parla di emolisi. È il motivo per cui le soluzioni da infondere devono essere isotoniche rispetto al plasma.\n\nA) È quanto avviene in una soluzione ipertonica, in cui i soluti sono più concentrati all'esterno.\nB) L'assenza di variazioni di volume caratterizza la soluzione isotonica, in cui i flussi d'acqua nei due versi si equivalgono.\nD) Non esistono pompe per l'acqua: il suo movimento è sempre passivo, osmotico, eventualmente facilitato dalle acquaporine.\nE) Il flusso d'acqua segue la differenza di concentrazione dei soluti fra i due lati della membrana, non una fuga di potassio."
+      "spiegazione": "In una soluzione ipotonica i soluti extracellulari sono meno concentrati: l'acqua entra per osmosi e il volume cellulare aumenta. La membrana plasmatica, priva di una parete che la contenga, può cedere, e nel globulo rosso si parla di emolisi.\n\nA) È quanto avviene in una soluzione ipertonica, in cui i soluti sono più concentrati all'esterno.\nB) L'assenza di variazioni di volume caratterizza la soluzione isotonica, in cui i flussi d'acqua nei due versi si equivalgono.\nD) Non esistono pompe per l'acqua: il suo movimento è sempre passivo, osmotico, eventualmente facilitato dalle acquaporine.\nE) Il flusso d'acqua segue la differenza di concentrazione dei soluti fra i due lati della membrana, non una fuga di potassio."
     },
     {
       "id": "u5-0155",
@@ -101,7 +101,7 @@
         "soglia",
         "soglie"
       ],
-      "spiegazione": "Sotto la soglia la depolarizzazione si estingue; raggiunta la soglia, l'apertura dei canali del sodio voltaggio-dipendenti diventa autosostenuta e il potenziale d'azione procede fino in fondo con ampiezza costante. Per questo si dice che la risposta è «tutto o nulla»: l'intensità dello stimolo non si traduce in un potenziale d'azione più grande, ma in una frequenza maggiore."
+      "spiegazione": "Sotto la soglia la depolarizzazione si estingue; raggiunta la soglia, nel neurone l'apertura dei canali del sodio voltaggio-dipendenti diventa autosostenuta e il potenziale d'azione procede fino in fondo con ampiezza costante. Per questo si dice che la risposta è «tutto o nulla»: l'intensità dello stimolo non si traduce in un potenziale d'azione più grande, ma in una frequenza maggiore."
     },
     {
       "id": "u5-0158",
@@ -203,7 +203,7 @@
         "fenilalanina-glicina",
         "fenilalanina glicina"
       ],
-      "spiegazione": "Le ripetizioni FG formano una maglia che blocca il passaggio delle macromolecole, a meno che queste non siano accompagnate da un recettore di trasporto in grado di interagire con esse e di attraversarle. Le ripetizioni FG costituiscono quindi la barriera e la via di passaggio, ma non danno la direzione al trasporto: quella dipende dal gradiente di Ran."
+      "spiegazione": "Le ripetizioni FG formano una maglia che blocca il passaggio delle macromolecole, a meno che queste non siano accompagnate da un recettore di trasporto in grado di interagire con esse e di attraversarle. Le ripetizioni FG costituiscono quindi la barriera e la via di passaggio, ma non danno la direzione al trasporto: per importine ed esportine la dà il gradiente di Ran, mentre l'esportazione della maggior parte degli mRNA usa un recettore diverso e non dipende da Ran."
     },
     {
       "id": "u5-0165",
@@ -233,7 +233,7 @@
         "alcune subunità dei complessi della fosforilazione ossidativa"
       ],
       "corretta": 4,
-      "spiegazione": "Le tredici proteine codificate dal genoma mitocondriale sono tutte subunità dei complessi respiratori e dell'ATP sintasi, inserite nella membrana interna dal complesso OXA. Ne consegue che i complessi della catena sono assemblaggi misti, con subunità di origine mitocondriale e altre, più numerose, di origine nucleare.\n\nA) La grande maggioranza delle proteine mitocondriali è codificata nel nucleo e importata, comprese quelle della matrice e della membrana esterna.\nB) Sono proteine di origine nucleare, importate attraverso TOM e TIM23.\nC) I traslocatori sono codificati nel nucleo: diversamente, il mitocondrio non potrebbe costruire il proprio sistema di importazione.\nD) Al contrario, sono tutte proteine fortemente idrofobiche destinate alla membrana interna."
+      "spiegazione": "Le tredici proteine codificate dal genoma mitocondriale sono tutte subunità dei complessi respiratori e dell'ATP sintasi, inserite nella membrana interna dal complesso OXA. Ne consegue che i complessi I, III e IV e l'ATP sintasi sono assemblaggi misti, con subunità di origine mitocondriale e altre, più numerose, di origine nucleare; il complesso II è invece interamente codificato nel nucleo.\n\nA) La grande maggioranza delle proteine mitocondriali è codificata nel nucleo e importata, comprese quelle della matrice e della membrana esterna.\nB) Sono proteine di origine nucleare, importate attraverso TOM e TIM23.\nC) I traslocatori sono codificati nel nucleo: diversamente, il mitocondrio non potrebbe costruire il proprio sistema di importazione.\nD) Al contrario, sono tutte proteine fortemente idrofobiche destinate alla membrana interna."
     },
     {
       "id": "u5-0167",
@@ -261,7 +261,7 @@
         "L'ossidazione del NADH a opera del complesso I",
         "Il trasferimento di elettroni dall'ubichinone al complesso III",
         "La riduzione dell'ossigeno ad acqua nel complesso IV",
-        "La fosforilazione a livello del substrato del succinil-CoA",
+        "La sintesi di GTP accoppiata alla conversione del succinil-CoA",
         "Il pompaggio di protoni verso lo spazio intermembrana"
       ],
       "corretta": 3,
@@ -321,7 +321,7 @@
         "b-ossidazione",
         "β-ossidazione"
       ],
-      "spiegazione": "La β-ossidazione avviene nella matrice mitocondriale e, per gli acidi grassi a catena molto lunga, nei perossisomi, che li accorciano prima di consegnarli ai mitocondri. Ogni ciclo produce acetil-CoA, che entra nel ciclo di Krebs, più un NADH e un FADH₂, che alimentano la catena respiratoria."
+      "spiegazione": "La β-ossidazione avviene nella matrice mitocondriale e, per gli acidi grassi a catena molto lunga, nei perossisomi, che li accorciano prima di consegnarli ai mitocondri. Nel mitocondrio ogni ciclo produce acetil-CoA, che entra nel ciclo di Krebs, più un NADH e un FADH₂ che alimentano la catena respiratoria. Nel perossisoma, invece, la prima ossidazione cede gli elettroni direttamente all'ossigeno formando perossido di idrogeno, e quell'energia non viene recuperata come ATP."
     },
     {
       "id": "u5-0173",
@@ -475,7 +475,7 @@
       "unita": "u5",
       "tipo": "multipla",
       "argomento": "La perdita del rivestimento",
-      "testo": "Una vescicola appena formata perde il proprio rivestimento perché:",
+      "testo": "Una vescicola rivestita di COPII, appena staccata dal reticolo endoplasmatico, perde il proprio rivestimento perché:",
       "opzioni": [
         "il pH del citosol si abbassa nelle vicinanze della vescicola",
         "le SNARE della vescicola degradano le proteine del rivestimento",
@@ -484,7 +484,7 @@
         "la vescicola si fonde con un lisosoma che ne digerisce il rivestimento"
       ],
       "corretta": 3,
-      "spiegazione": "Il rivestimento si assembla quando una piccola GTPasi — Sar1 per COPII, ARF per COPI e per la clatrina del Golgi — si inserisce nella membrana nella forma legata a GTP. L'idrolisi del GTP fa staccare la GTPasi e destabilizza il rivestimento, che si smonta liberando le subunità per un nuovo ciclo: la membrana nuda può così fondersi con il bersaglio.\n\nA) Il pH citosolico è mantenuto stabile e non è il segnale che regola il rivestimento.\nB) Le SNARE mediano la fusione delle membrane e non hanno attività proteolitica.\nC) Il rivestimento è sul versante citosolico e le sue subunità tornano nel citosol, non nel lume.\nE) Lo smontaggio precede la fusione e non comporta alcuna degradazione del rivestimento, che viene riutilizzato."
+      "spiegazione": "Il rivestimento COPII si assembla quando la piccola GTPasi Sar1 si inserisce nella membrana nella forma legata a GTP. L'idrolisi del GTP fa staccare Sar1 e destabilizza il rivestimento, che si smonta liberando le subunità per un nuovo ciclo: la membrana nuda può così fondersi con il bersaglio. Lo stesso principio vale per COPI con la GTPasi ARF; il rivestimento di clatrina viene invece smontato da chaperon della famiglia Hsp70, con consumo di ATP.\n\nA) Il pH citosolico è mantenuto stabile e non è il segnale che regola il rivestimento.\nB) Le SNARE mediano la fusione delle membrane e non hanno attività proteolitica.\nC) Il rivestimento è sul versante citosolico e le sue subunità tornano nel citosol, non nel lume.\nE) Lo smontaggio precede la fusione e non comporta alcuna degradazione del rivestimento, che viene riutilizzato."
     },
     {
       "id": "u5-0184",
@@ -540,12 +540,12 @@
       "opzioni": [
         "vengono sintetizzate in forma inattiva e attivate solo all'esterno",
         "sono legate in modo stabile alla membrana interna del lisosoma",
-        "sono confinate nel lume e inattive al pH quasi neutro del citosol",
+        "sono confinate nel lume e poco attive al pH quasi neutro del citosol",
         "sono protette da un rivestimento di clatrina che le neutralizza",
         "il citosol contiene inibitori che bloccano qualunque idrolasi"
       ],
       "corretta": 2,
-      "spiegazione": "Le idrolasi lavorano in modo efficiente solo a pH acido, quello che la pompa protonica mantiene nel lume del lisosoma. Se una piccola quantità sfugge nel citosol, dove il pH è vicino alla neutralità, la loro attività è minima. La doppia protezione — confinamento e dipendenza dal pH — riduce il rischio di autodigestione.\n\nA) Le idrolasi non sono attivate fuori dalla cellula: lavorano dentro i lisosomi, e il loro requisito è il pH acido.\nB) Sono enzimi solubili del lume, non proteine ancorate alla membrana.\nD) La clatrina riveste le vescicole dal lato citosolico e non ha alcuna funzione di contenimento dell'attività enzimatica.\nE) La tutela principale non è un sistema di inibitori: è il confinamento nel compartimento acido."
+      "spiegazione": "Le idrolasi lavorano in modo efficiente soprattutto a pH acido, quello che la pompa protonica mantiene nel lume del lisosoma. Se una piccola quantità sfugge nel citosol, dove il pH è vicino alla neutralità, l'attività di molte di esse cala molto. La protezione essenziale resta però il confinamento: alcune proteasi lisosomiali, le catepsine, conservano attività anche a pH neutro, e una permeabilizzazione estesa della membrana lisosomiale può portare la cellula a morte.\n\nA) Le idrolasi non sono attivate fuori dalla cellula: lavorano dentro i lisosomi, e il loro requisito è il pH acido.\nB) Sono enzimi solubili del lume, non proteine ancorate alla membrana.\nD) La clatrina riveste le vescicole dal lato citosolico e non ha alcuna funzione di contenimento dell'attività enzimatica.\nE) La tutela principale non è un sistema di inibitori: è il confinamento nel compartimento acido."
     },
     {
       "id": "u5-0188",
@@ -578,14 +578,14 @@
       "unita": "u5",
       "tipo": "completamento",
       "argomento": "Il carico classico della transcitosi",
-      "testo": "Le immunoglobuline trasportate per transcitosi attraverso l'epitelio e riversate nelle secrezioni, legate al recettore per le immunoglobuline polimeriche, sono le ……",
+      "testo": "Le immunoglobuline dimeriche trasportate per transcitosi attraverso l'epitelio e riversate nelle secrezioni, legate al recettore per le immunoglobuline polimeriche, sono le ……",
       "accettate": [
         "iga",
         "immunoglobuline a",
         "immunoglobulina a",
         "ig a"
       ],
-      "spiegazione": "Le IgA dimeriche prodotte nel tessuto sottostante si legano al recettore sul versante basolaterale, vengono internalizzate e attraversano la cellula in vescicole, per essere rilasciate sul versante apicale insieme a una porzione del recettore. Il carico non raggiunge in questo percorso i lisosomi, perché l'intero transito avviene attraverso i compartimenti endosomiali."
+      "spiegazione": "Le IgA dimeriche prodotte nel tessuto sottostante si legano al recettore sul versante basolaterale, vengono internalizzate e attraversano la cellula in vescicole, per essere rilasciate sul versante apicale insieme a una porzione del recettore. Il carico non raggiunge in questo percorso i lisosomi, perché l'intero transito avviene attraverso i compartimenti endosomiali. Lo stesso recettore trasporta anche le IgM, che però sono pentameriche."
     },
     {
       "id": "u5-0191",
@@ -702,7 +702,8 @@
         "turc",
         "gamma turc",
         "gamma-turc",
-        "y turc"
+        "y turc",
+        "γ-turc"
       ],
       "spiegazione": "Il γ-TuRC funziona da stampo: la sua forma ad anello riproduce la disposizione delle subunità del microtubulo e offre una superficie da cui la crescita può iniziare, che altrimenti sarebbe molto lenta. Rimanendo associato all'estremità meno, il complesso la stabilizza e la trattiene nel centrosoma."
     },

@@ -80,12 +80,12 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Formazione dei sali",
-      "testo": "La reazione fra un acido e una base, che produce un sale e acqua, si chiama reazione di …… (o di neutralizzazione).",
+      "testo": "La reazione fra un acido e una base, che produce un sale e acqua, si chiama reazione di ……",
       "accettate": [
         "salificazione",
         "neutralizzazione"
       ],
-      "spiegazione": "Lo schema generale è HA + BOH → BA + H₂O: il catione della base e l'anione dell'acido formano il sale, mentre H⁺ e OH⁻ danno acqua.\n\nIl sale ottenuto non dà necessariamente una soluzione neutra: il pH dipende dalla forza dell'acido e della base di partenza, perché gli ioni che derivano da un acido o da una base debole possono idrolizzare."
+      "spiegazione": "È detta salificazione o neutralizzazione. Lo schema generale è HA + BOH → BA + H₂O: il catione della base e l'anione dell'acido formano il sale, mentre H⁺ e OH⁻ danno acqua.\n\nIl sale ottenuto non dà necessariamente una soluzione neutra: il pH dipende dalla forza dell'acido e della base di partenza, perché gli ioni che derivano da un acido o da una base debole possono idrolizzare."
     },
     {
       "id": "u1-0107",
@@ -126,11 +126,11 @@
         "nessuno: tutti i solidi sono isolanti",
         "il solido molecolare",
         "il solido ionico",
-        "il solido covalente reticolare",
+        "il solido covalente reticolare, come diamante e quarzo",
         "il solido metallico"
       ],
       "corretta": 4,
-      "spiegazione": "Nel solido metallico gli elettroni di valenza sono delocalizzati sull'intero reticolo e possono muoversi liberamente: basta una differenza di potenziale perché si stabilisca una corrente.\n\nA) I metalli smentiscono l'affermazione.\nB) I solidi molecolari sono costituiti da molecole neutre e sono isolanti.\nC) Nel solido ionico le cariche esistono, ma sono bloccate nel reticolo: conduce solo fuso o in soluzione.\nD) Nei solidi covalenti gli elettroni sono impegnati in legami localizzati: diamante e quarzo sono isolanti (la grafite fa eccezione grazie agli elettroni π delocalizzati)."
+      "spiegazione": "Nel solido metallico gli elettroni di valenza sono delocalizzati sull'intero reticolo e possono muoversi liberamente: basta una differenza di potenziale perché si stabilisca una corrente.\n\nA) I metalli smentiscono l'affermazione.\nB) I solidi molecolari sono costituiti da molecole neutre e sono isolanti.\nC) Nel solido ionico le cariche esistono, ma sono bloccate nel reticolo: conduce solo fuso o in soluzione.\nD) Nel diamante e nel quarzo gli elettroni sono impegnati in legami covalenti localizzati: sono isolanti. Fra i solidi covalenti reticolari fa eccezione la grafite, che conduce grazie agli elettroni π delocalizzati."
     },
     {
       "id": "u1-0110",
@@ -211,12 +211,12 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Temperatura assoluta",
-      "testo": "La scala di temperatura assoluta, che ha origine allo zero assoluto (−273,15 °C), si misura in gradi ……",
+      "testo": "La scala di temperatura assoluta, che ha origine allo zero assoluto (−273,15 °C), ha come unità di misura il ……",
       "accettate": [
         "kelvin",
         "k"
       ],
-      "spiegazione": "Lo zero assoluto è la temperatura alla quale il moto di agitazione termica raggiunge il minimo possibile: non esistono temperature inferiori, e questo rende la scala Kelvin l'unica adatta alle leggi dei gas.\n\nLa conversione è T(K) = t(°C) + 273,15. L'ampiezza del grado è la stessa nelle due scale: cambia solo l'origine."
+      "spiegazione": "Lo zero assoluto è la temperatura alla quale il moto di agitazione termica raggiunge il minimo possibile: non esistono temperature inferiori. Per questo nelle leggi dei gas la temperatura va espressa in una scala assoluta, nella pratica la scala Kelvin.\n\nL'unità si chiama kelvin (simbolo K), senza «grado». La conversione è T(K) = t(°C) + 273,15: un intervallo di 1 K ha la stessa ampiezza di un intervallo di 1 °C, cambia solo l'origine."
     },
     {
       "id": "u1-0116",
@@ -579,12 +579,12 @@
       "opzioni": [
         "resta costante in qualunque trasformazione del sistema",
         "si può definire soltanto per i sistemi allo stato gassoso",
-        "dipende soltanto dallo stato iniziale e da quello finale del sistema",
+        "dipende solo dallo stato del sistema, non dal percorso seguito",
         "è sempre positivo, qualunque sia la trasformazione considerata",
         "dipende dal particolare percorso seguito dalla trasformazione"
       ],
       "corretta": 2,
-      "spiegazione": "Per una funzione di stato la variazione si calcola come differenza fra valore finale e valore iniziale, indipendentemente dalla strada percorsa. Sono funzioni di stato l'energia interna, l'entalpia, l'entropia e l'energia libera di Gibbs. È questa proprietà a rendere possibile la legge di Hess, cioè il calcolo del ΔH di una reazione sommando quelli di reazioni intermedie.\n\nA) Le funzioni di stato cambiano eccome; ciò che non cambia è la loro variazione a parità di stati estremi.\nB) Valgono per qualunque sistema.\nD) Le variazioni possono avere qualsiasi segno.\nE) Descrive le grandezze di percorso: calore e lavoro dipendono da come la trasformazione avviene."
+      "spiegazione": "Il valore di una funzione di stato è fissato soltanto dallo stato in cui il sistema si trova. Di conseguenza la sua variazione, ΔF = F(finale) − F(iniziale), dipende solo dagli stati iniziale e finale e non dalla strada percorsa. Sono funzioni di stato l'energia interna, l'entalpia, l'entropia e l'energia libera di Gibbs. È questa proprietà a rendere possibile la legge di Hess, cioè il calcolo del ΔH di una reazione sommando quelli di reazioni intermedie.\n\nA) Le funzioni di stato cambiano eccome; ciò che non cambia è la loro variazione a parità di stati estremi.\nB) Valgono per qualunque sistema.\nD) Le variazioni possono avere qualsiasi segno.\nE) Descrive le grandezze di percorso: calore e lavoro dipendono da come la trasformazione avviene."
     },
     {
       "id": "u1-0141",

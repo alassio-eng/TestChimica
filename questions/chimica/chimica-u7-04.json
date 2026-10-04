@@ -84,15 +84,14 @@
       "unita": "u7",
       "tipo": "completamento",
       "argomento": "Proprietà acido-base: zwitterione",
-      "testo": "Una specie che porta contemporaneamente una carica positiva e una negativa, con carica netta zero, come un amminoacido a pH neutro, si chiama ……",
+      "testo": "Una specie che porta contemporaneamente una carica positiva e una negativa, con carica netta zero, come la forma prevalente dell'alanina a pH 7, si chiama ……",
       "accettate": [
         "zwitterione",
         "zwitterioni",
         "ione dipolare",
-        "ione anfotero",
         "sale interno"
       ],
-      "spiegazione": "Nello zwitterione (o ione dipolare) il carbossile è deprotonato (–COO⁻) e il gruppo amminico è protonato (–NH₃⁺): la molecola ha due cariche opposte e carica netta zero. È la forma prevalente degli amminoacidi in soluzione acquosa a pH vicino alla neutralità."
+      "spiegazione": "Nello zwitterione (o ione dipolare) il carbossile è deprotonato (–COO⁻) e il gruppo amminico è protonato (–NH₃⁺): la molecola ha due cariche opposte e carica netta zero. È la forma prevalente, a pH vicino alla neutralità, degli amminoacidi con catena laterale non ionizzabile; quelli con catena laterale acida o basica hanno a pH 7 carica netta diversa da zero. «Anfotero» indica invece la capacità di comportarsi da acido e da base, che non implica carica netta zero: lo ione HCO₃⁻ è anfotero ma ha carica −1."
     },
     {
       "id": "u7-0109",
@@ -220,9 +219,7 @@
       "testo": "Un monosaccaride con cinque atomi di carbonio, come il ribosio, si chiama ……",
       "accettate": [
         "pentoso",
-        "pentosi",
-        "aldopentoso",
-        "aldopentosi"
+        "pentosi"
       ],
       "spiegazione": "I monosaccaridi si classificano per numero di atomi di carbonio: triosi (3), tetrosi (4), pentosi (5), esosi (6). Il ribosio è un aldopentoso, componente dell'RNA e dei nucleotidi come l'ATP."
     },

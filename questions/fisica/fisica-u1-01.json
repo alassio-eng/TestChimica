@@ -673,11 +673,11 @@
       "unita": "u1",
       "tipo": "completamento",
       "argomento": "Prodotto scalare e angolo ottuso",
-      "testo": "Se il prodotto scalare di due vettori non nulli è negativo, l'angolo compreso fra i due vettori è ……",
+      "testo": "Se il prodotto scalare di due vettori non nulli e non paralleli è negativo, l'angolo compreso fra i due vettori è ……",
       "accettate": [
         "ottuso"
       ],
-      "spiegazione": "Nel prodotto a b cos θ i moduli sono positivi per definizione: il segno dipende solo dal coseno, che è negativo per angoli compresi fra 90° e 180°.\n\nÈ il caso di una forza che ha una componente opposta allo spostamento, come la forza di attrito: il lavoro che compie è infatti negativo."
+      "spiegazione": "Nel prodotto a b cos θ i moduli sono positivi per definizione: il segno dipende solo dal coseno, che è negativo per angoli maggiori di 90°. Escluso il caso dei vettori paralleli e discordi, per i quali l'angolo vale 180° ed è piatto, l'angolo è compreso fra 90° e 180°, cioè ottuso.\n\nÈ il caso di una forza che ha una componente opposta allo spostamento, come la forza di attrito: il lavoro che compie è infatti negativo."
     },
     {
       "id": "u1-0049",
@@ -693,7 +693,7 @@
         "25"
       ],
       "corretta": 2,
-      "spiegazione": "Il modulo si ricava dal teorema di Pitagora: √(3² + (−4)²) = √(9 + 16) = √25 = 5. I quadrati eliminano il segno delle componenti.\n\nA) 1 è la somma algebrica delle componenti, 3 + (−4).\nB) 7 somma i valori assoluti delle componenti, come se i due assi fossero allineati.\nD) −5 attribuisce al modulo il segno della componente negativa: il modulo di un vettore è per definizione non negativo.\nE) 25 è la somma dei quadrati, senza estrarre la radice."
+      "spiegazione": "Il modulo si ricava dal teorema di Pitagora: √(3² + (−4)²) = √(9 + 16) = √25 = 5. I quadrati eliminano il segno delle componenti.\n\nA) 1 è il valore assoluto della somma algebrica delle componenti: |3 + (−4)| = |−1| = 1.\nB) 7 somma i valori assoluti delle componenti, come se i due assi fossero allineati.\nD) −5 attribuisce al modulo il segno della componente negativa: il modulo di un vettore è per definizione non negativo.\nE) 25 è la somma dei quadrati, senza estrarre la radice."
     },
     {
       "id": "u1-0050",

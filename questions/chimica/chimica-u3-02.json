@@ -194,11 +194,11 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "Ordine di reazione e molecolarità",
-      "testo": "Il numero di specie chimiche che partecipano effettivamente a un singolo stadio elementare di una reazione è detto …… dello stadio.",
+      "testo": "Il numero di particelle (molecole, atomi o ioni) che partecipano a un singolo stadio elementare di una reazione è detto …… dello stadio.",
       "accettate": [
         "molecolarità"
       ],
-      "spiegazione": "La molecolarità è una proprietà del meccanismo, quindi è sempre un numero intero e piccolo: unimolecolare, bimolecolare, raramente trimolecolare. L'ordine di reazione, invece, si ricava dai dati sperimentali e può risultare frazionario o nullo."
+      "spiegazione": "La molecolarità è una proprietà del meccanismo, quindi è sempre un numero intero e piccolo: unimolecolare, bimolecolare, raramente trimolecolare. Si contano le particelle, non le specie diverse: lo stadio 2 A → prodotti è bimolecolare anche se coinvolge una sola specie. L'ordine di reazione, invece, si ricava dai dati sperimentali e può risultare frazionario o nullo."
     },
     {
       "id": "u3-0016",

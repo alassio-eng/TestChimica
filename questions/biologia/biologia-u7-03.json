@@ -1,0 +1,35 @@
+{
+  "lotto": "biologia-u7-03",
+  "unita": "u7",
+  "generato": "2026-10-04",
+  "domande": [
+    {
+      "id": "u7-0091",
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Gli organelli durante la mitosi",
+      "testo": "Durante la mitosi delle cellule animali l'apparato di Golgi:",
+      "opzioni": [
+        "resta intatto e viene ereditato da una sola delle due cellule figlie",
+        "viene degradato nei lisosomi e ricostruito dalle figlie a partire dal nucleo",
+        "si frammenta in piccoli elementi ripartiti fra le figlie e poi riassemblati",
+        "entra nel nucleo dopo la rottura dell'involucro e si lega ai cromosomi",
+        "continua a secernere a pieno ritmo, perché il traffico non dipende dal ciclo"
+      ],
+      "corretta": 2,
+      "spiegazione": "All'ingresso in mitosi fosforilazioni dipendenti dalle chinasi mitotiche smontano l'organizzazione in cisterne impilate: il Golgi si frammenta in vescicole e piccoli elementi che si distribuiscono nel citoplasma e vengono ripartiti fra le due cellule figlie, dove si riassemblano in telofase. Nello stesso tempo il traffico di membrana e la secrezione rallentano molto. Anche gli altri organelli vengono ripartiti: il reticolo endoplasmatico resta una rete che si divide con il citoplasma, i mitocondri si distribuiscono fra le figlie grazie alla loro dinamica di fissione.\n\nA) Un Golgi intatto passerebbe a una sola figlia, che lascerebbe l'altra priva della via secretoria: la frammentazione serve proprio a una ripartizione equa.\nB) Il Golgi non viene distrutto: i suoi componenti sono conservati e riutilizzati, e il nucleo non produce organelli.\nD) Il Golgi resta nel citoplasma; ai cromosomi si legano i microtubuli del fuso, attraverso i cinetocori.\nE) Durante la mitosi il traffico vescicolare e la secrezione rallentano molto, proprio mentre il Golgi è frammentato."
+    },
+    {
+      "id": "u7-0092",
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "La necrosi",
+      "testo": "La morte cellulare in cui, di regola dopo un danno acuto, la cellula e i suoi organelli si rigonfiano, la membrana plasmatica si rompe e il contenuto riversato all'esterno scatena infiammazione si chiama ……",
+      "accettate": [
+        "necrosi",
+        "morte necrotica"
+      ],
+      "spiegazione": "Nella necrosi la cellula perde la capacità di mantenere i gradienti ionici, per esempio per mancanza di ATP o per un danno diretto alla membrana: entra acqua, organelli e cellula si rigonfiano e la membrana si rompe. Il contenuto liberato richiama cellule infiammatorie e può coinvolgere aree di tessuto, non singole cellule.\n\nL'apoptosi è il processo opposto: la cellula si restringe, si frammenta in corpi apoptotici delimitati da membrana e viene fagocitata senza infiammazione. Esistono anche forme di necrosi regolate da vie di segnalazione, come la necroptosi, ma il quadro morfologico resta quello del rigonfiamento e della rottura."
+    }
+  ]
+}

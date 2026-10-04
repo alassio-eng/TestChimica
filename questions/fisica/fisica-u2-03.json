@@ -65,7 +65,7 @@
       "id": "u2-0105",
       "unita": "u2",
       "tipo": "multipla",
-      "argomento": "Spazio di arresto",
+      "argomento": "Spazio di frenata",
       "testo": "Un'automobile viaggia a 20 m/s e frena con decelerazione costante di 5 m/s². Lo spazio percorso dall'inizio della frenata all'arresto vale:",
       "opzioni": [
         "40 m",
@@ -81,21 +81,19 @@
       "id": "u2-0106",
       "unita": "u2",
       "tipo": "completamento",
-      "argomento": "Spazio di arresto",
+      "argomento": "Spazio di frenata",
       "testo": "Lo spazio percorso da un veicolo dall'istante in cui inizia a frenare fino alla fermata si chiama spazio di ……",
       "accettate": [
-        "arresto",
-        "frenata",
-        "arresto frenata"
+        "frenata"
       ],
-      "spiegazione": "Vale s = v₀²/(2a): dipende dal quadrato della velocità iniziale, quindi raddoppiando la velocità quadruplica.\n\nNel calcolo dello spazio complessivo va aggiunto lo spazio di reazione, percorso a velocità costante nel tempo che intercorre fra la percezione dell'ostacolo e l'inizio della frenata."
+      "spiegazione": "Si chiama spazio di frenata e vale s = v₀²/(2a): dipende dal quadrato della velocità iniziale, quindi raddoppiando la velocità quadruplica.\n\nLo spazio di arresto è un'altra cosa: è la somma dello spazio di frenata e dello spazio di reazione, percorso a velocità costante nel tempo che intercorre fra la percezione dell'ostacolo e l'inizio della frenata."
     },
     {
       "id": "u2-0107",
       "unita": "u2",
       "tipo": "multipla",
-      "argomento": "Dipendenza dello spazio di arresto dalla velocità",
-      "testo": "A parità di decelerazione, raddoppiando la velocità di un veicolo lo spazio necessario a fermarlo:",
+      "argomento": "Dipendenza dello spazio di frenata dalla velocità",
+      "testo": "A parità di decelerazione, raddoppiando la velocità di un veicolo lo spazio di frenata:",
       "opzioni": [
         "aumenta di un fattore √2",
         "aumenta di otto volte",
@@ -104,7 +102,7 @@
         "raddoppia"
       ],
       "corretta": 3,
-      "spiegazione": "Lo spazio di arresto vale v₀²/(2a): dipende dal quadrato della velocità iniziale, quindi raddoppiando v₀ viene moltiplicato per 2² = 4. È la stessa dipendenza quadratica dell'energia cinetica, che la frenata deve dissipare per intero.\n\nA) Il fattore √2 si otterrebbe se lo spazio dipendesse dalla radice della velocità.\nB) Il fattore otto corrisponderebbe a una dipendenza dal cubo della velocità.\nC) L'invarianza richiederebbe che la velocità non compaia nella formula.\nE) Il raddoppio corrisponderebbe a una dipendenza lineare dalla velocità."
+      "spiegazione": "Lo spazio di frenata vale v₀²/(2a): dipende dal quadrato della velocità iniziale, quindi raddoppiando v₀ viene moltiplicato per 2² = 4. È la stessa dipendenza quadratica dell'energia cinetica, che la frenata deve dissipare per intero.\n\nA) Il fattore √2 si otterrebbe se lo spazio dipendesse dalla radice della velocità.\nB) Il fattore otto corrisponderebbe a una dipendenza dal cubo della velocità.\nC) L'invarianza richiederebbe che la velocità non compaia nella formula.\nE) Il raddoppio corrisponderebbe a una dipendenza lineare dalla velocità."
     },
     {
       "id": "u2-0108",
@@ -294,7 +292,7 @@
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Conservazione dell'energia con una molla",
-      "testo": "Una molla di costante elastica 200 N/m è compressa di 10 cm e lanciata contro un blocco di 0,5 kg appoggiato su un piano orizzontale liscio. La velocità acquistata dal blocco vale:",
+      "testo": "Una molla ideale di costante elastica 200 N/m, fissata a una parete, è compressa di 10 cm da un blocco di 0,5 kg appoggiato su un piano orizzontale liscio. Il blocco, inizialmente fermo, viene lasciato libero. La velocità con cui si stacca dalla molla vale:",
       "opzioni": [
         "0,5 m/s",
         "20 m/s",

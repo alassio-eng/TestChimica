@@ -89,11 +89,11 @@ Obiettivo raggiunto (180/180): nessuna chat da aprire.
 
 ## U4 — I meccanismi cellulari di trasmissione e controllo dei caratteri selvatici e mutati
 
-Obiettivo raggiunto (110/110): nessuna chat da aprire.
+Obiettivo raggiunto (112/110): nessuna chat da aprire.
 
 ## U5 — Le strutture cellulari: biogenesi, morfologia e funzioni
 
-Obiettivo raggiunto (200/200): nessuna chat da aprire.
+Obiettivo raggiunto (205/200): nessuna chat da aprire.
 
 ## U6 — La cellula e l'ambiente, la segnalazione cellulare e la trasduzione del segnale
 
@@ -101,5 +101,5 @@ Obiettivo raggiunto (100/100): nessuna chat da aprire.
 
 ## U7 — Il controllo della proliferazione e della sopravvivenza cellulare
 
-Obiettivo raggiunto (90/90): nessuna chat da aprire.
+Obiettivo raggiunto (92/90): nessuna chat da aprire.
 

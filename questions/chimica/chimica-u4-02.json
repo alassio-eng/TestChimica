@@ -431,7 +431,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Condizione di massimo potere tamponante",
-      "testo": "Il potere tamponante di una soluzione è massimo quando:",
+      "testo": "A parità di concentrazione totale di acido debole e base coniugata, il potere tamponante di una soluzione è massimo quando:",
       "opzioni": [
         "il pH della soluzione è uguale al pKa dell'acido debole",
         "il pH della soluzione è uguale a 7",
@@ -481,9 +481,9 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Alterazioni dell'equilibrio acido-base",
-      "testo": "L'abbassamento del pH del sangue al di sotto dell'intervallo fisiologico prende il nome di ……",
+      "testo": "Il disturbo dell'equilibrio acido-base che tende ad abbassare il pH del sangue, per accumulo di acidi o perdita di basi, si chiama ……",
       "accettate": ["acidosi"],
-      "spiegazione": "Si parla di acidosi per pH arterioso inferiore a circa 7,35 e di alcalosi per valori superiori a circa 7,45. L'alterazione è detta respiratoria quando riguarda la CO₂ e metabolica quando riguarda il bicarbonato."
+      "spiegazione": "Acidosi indica il processo che tende ad abbassare il pH; lo stato di pH arterioso effettivamente inferiore a circa 7,35 si chiama, in senso stretto, acidemia. La distinzione serve perché un'acidosi può essere compensata e lasciare il pH nella norma. L'acidosi è detta respiratoria quando dipende dalla CO₂ e metabolica quando dipende dal bicarbonato o dall'accumulo di acidi non volatili. Il processo opposto è l'alcalosi."
     },
     {
       "id": "u4-0041",

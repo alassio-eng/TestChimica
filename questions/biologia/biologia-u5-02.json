@@ -8,7 +8,7 @@
       "unita": "u5",
       "tipo": "multipla",
       "argomento": "Il colesterolo nelle membrane",
-      "testo": "Nelle membrane delle cellule animali il colesterolo:",
+      "testo": "Nelle membrane delle cellule animali, alla temperatura corporea, il colesterolo:",
       "opzioni": [
         "si inserisce fra le code dei fosfolipidi e ne riduce la mobilità",
         "si colloca nella regione polare, a contatto con l'acqua",
@@ -97,7 +97,7 @@
       "unita": "u5",
       "tipo": "multipla",
       "argomento": "Il potenziale d'azione",
-      "testo": "Nella fase di depolarizzazione del potenziale d'azione:",
+      "testo": "Nella fase di depolarizzazione del potenziale d'azione di un neurone:",
       "opzioni": [
         "si aprono i canali del potassio e il K⁺ entra nella cellula",
         "la Na⁺/K⁺-ATPasi inverte il proprio verso di pompaggio",
@@ -106,7 +106,7 @@
         "i canali del sodio restano aperti finché la cellula è depolarizzata"
       ],
       "corretta": 2,
-      "spiegazione": "Quando la depolarizzazione raggiunge il valore soglia, i canali del sodio voltaggio-dipendenti si aprono: il sodio entra seguendo il proprio gradiente elettrochimico e il potenziale si sposta rapidamente verso valori positivi. Gli stessi canali si inattivano dopo pochi istanti, e l'uscita di potassio riporta il potenziale ai valori di riposo.\n\nA) L'apertura dei canali del potassio provoca la ripolarizzazione, e il potassio esce, poiché è più concentrato all'interno.\nB) La pompa non si inverte: mantiene i gradienti nel tempo, mentre le variazioni rapide del potenziale dipendono dai canali.\nD) Il movimento del cloruro non è l'evento che genera la depolarizzazione nel modello classico del potenziale d'azione.\nE) I canali del sodio voltaggio-dipendenti si inattivano spontaneamente dopo breve tempo, pur restando la membrana depolarizzata: è la base del periodo refrattario."
+      "spiegazione": "Quando la depolarizzazione raggiunge il valore soglia, i canali del sodio voltaggio-dipendenti si aprono: il sodio entra seguendo il proprio gradiente elettrochimico e il potenziale si sposta rapidamente verso valori positivi. Gli stessi canali si inattivano dopo pochi istanti, e l'uscita di potassio riporta il potenziale ai valori di riposo. In altre cellule eccitabili, come alcune cellule muscolari, la depolarizzazione può dipendere anche dall'ingresso di Ca²⁺.\n\nA) L'apertura dei canali del potassio provoca la ripolarizzazione, e il potassio esce, poiché è più concentrato all'interno.\nB) La pompa non si inverte: mantiene i gradienti nel tempo, mentre le variazioni rapide del potenziale dipendono dai canali.\nD) Il movimento del cloruro non è l'evento che genera la depolarizzazione nel modello classico del potenziale d'azione.\nE) I canali del sodio voltaggio-dipendenti si inattivano spontaneamente dopo breve tempo, pur restando la membrana depolarizzata: è la base del periodo refrattario."
     },
     {
       "id": "u5-0058",
@@ -120,7 +120,7 @@
         "scambiatore",
         "antiporte"
       ],
-      "spiegazione": "Nell'antiporto (o scambiatore) il flusso secondo gradiente di un soluto alimenta il flusso contro gradiente dell'altro, nel verso opposto. Un esempio è lo scambiatore Na⁺/H⁺, che espelle protoni usando il gradiente di sodio. Quando i due soluti viaggiano nello stesso verso si parla di simporto; quando ne viene trasportato uno solo, di uniporto."
+      "spiegazione": "Nell'antiporto (o scambiatore) i due soluti attraversano la membrana in versi opposti. Spesso il flusso secondo gradiente di uno alimenta il flusso contro gradiente dell'altro, come nello scambiatore Na⁺/H⁺, che espelle protoni usando il gradiente di sodio; il termine però indica solo la direzione: esistono anche scambiatori che lavorano secondo gradiente per entrambi i soluti. Quando i due soluti viaggiano nello stesso verso si parla di simporto; quando ne viene trasportato uno solo, di uniporto."
     },
     {
       "id": "u5-0059",
@@ -135,7 +135,7 @@
         "ioni idrogeno",
         "idrogenioni"
       ],
-      "spiegazione": "La pompa protonica della membrana lisosomiale, una ATPasi di tipo V, consuma ATP per accumulare protoni nel lume e portarne il pH a valori intorno a 4,5-5. L'ambiente acido è la condizione in cui lavorano le idrolasi acide e spiega perché un'eventuale fuoriuscita di questi enzimi nel citosol, a pH vicino alla neutralità, sia poco dannosa."
+      "spiegazione": "La pompa protonica della membrana lisosomiale, una ATPasi di tipo V, consuma ATP per accumulare protoni nel lume e portarne il pH a valori intorno a 4,5-5. L'ambiente acido è la condizione in cui lavorano le idrolasi acide e limita il danno di piccole fuoriuscite nel citosol, dove il pH è vicino alla neutralità e molte idrolasi sono poco attive; alcune proteasi lisosomiali però restano attive, e il confinamento resta la protezione essenziale."
     },
     {
       "id": "u5-0060",
@@ -296,7 +296,7 @@
         "3 NADH, 1 FADH₂, 1 GTP e 2 CO₂"
       ],
       "corretta": 4,
-      "spiegazione": "Nel giro completo i due atomi di carbonio dell'acetile vengono persi come due molecole di anidride carbonica; tre deidrogenazioni riducono NAD⁺ e una riduce FAD, mentre la conversione del succinil-CoA a succinato permette una fosforilazione a livello del substrato che genera GTP (in alcuni tessuti direttamente ATP). L'ossalacetato viene rigenerato alla fine del ciclo.\n\nA) Le deidrogenazioni che riducono NAD⁺ sono tre, mentre il FAD viene ridotto una sola volta, dalla succinato deidrogenasi.\nB) Per singolo acetil-CoA i NADH sono tre, non quattro, e la fosforilazione a livello del substrato è una sola: si forma un solo GTP.\nC) L'acetil-CoA porta due atomi di carbonio nel ciclo e due escono come anidride carbonica: un terzo CO₂ non sarebbe bilanciato.\nD) La fosforilazione a livello del substrato nel ciclo è una sola, e le molecole di anidride carbonica prodotte sono due."
+      "spiegazione": "In ogni giro escono due molecole di anidride carbonica, tante quanti sono gli atomi di carbonio portati dall'acetile, anche se i carboni eliminati in quel giro provengono dall'ossalacetato e non dall'acetile appena entrato; tre deidrogenazioni riducono NAD⁺ e una riduce FAD, mentre la conversione del succinil-CoA a succinato permette una fosforilazione a livello del substrato che genera GTP (in alcuni tessuti direttamente ATP). L'ossalacetato viene rigenerato alla fine del ciclo.\n\nA) Le deidrogenazioni che riducono NAD⁺ sono tre, mentre il FAD viene ridotto una sola volta, dalla succinato deidrogenasi.\nB) Per singolo acetil-CoA i NADH sono tre, non quattro, e la fosforilazione a livello del substrato è una sola: si forma un solo GTP.\nC) L'acetil-CoA porta due atomi di carbonio nel ciclo e due escono come anidride carbonica: un terzo CO₂ non sarebbe bilanciato.\nD) La fosforilazione a livello del substrato nel ciclo è una sola, e le molecole di anidride carbonica prodotte sono due."
     },
     {
       "id": "u5-0071",
@@ -479,7 +479,7 @@
       "accettate": [
         "erad"
       ],
-      "spiegazione": "Nell'ERAD le proteine che non superano il controllo di qualità vengono retrotraslocate attraverso la membrana, poliubiquitinate sul versante citosolico e degradate dal proteasoma. È la via che elimina la CFTR mutata nella fibrosi cistica, e spiega perché in quella malattia la proteina non raggiunga la membrana plasmatica."
+      "spiegazione": "Nell'ERAD le proteine che non superano il controllo di qualità vengono retrotraslocate attraverso la membrana, poliubiquitinate sul versante citosolico e degradate dal proteasoma. È la via che elimina la CFTR con la mutazione più frequente della fibrosi cistica, ΔF508, e spiega perché con quella mutazione la proteina raggiunga poco la membrana plasmatica; altre mutazioni di CFTR agiscono in modo diverso."
     },
     {
       "id": "u5-0084",
@@ -567,7 +567,7 @@
         "viene tagliato dalla peptidasi del segnale e rilasciato all'esterno"
       ],
       "corretta": 1,
-      "spiegazione": "L'ubiquitinazione del recettore attivato ne determina l'inclusione nelle vescicole intraluminali dell'endosoma: il recettore non torna in superficie e viene digerito insieme al ligando nel lisosoma. È un meccanismo di attenuazione del segnale, che riduce il numero di recettori disponibili sulla membrana.\n\nA) Il recettore delle LDL si stacca dal ligando e viene riusato molte volte; quello dell'EGF viene invece eliminato insieme al ligando.\nC) Il ritorno in superficie insieme al proprio ligando è il comportamento del recettore della transferrina.\nD) L'internalizzazione del complesso recettore-ligando segue rapidamente l'attivazione.\nE) La peptidasi del segnale agisce nel reticolo endoplasmatico sulla sequenza segnale della catena nascente e non ha ruolo in questo processo."
+      "spiegazione": "L'ubiquitinazione del recettore attivato ne determina l'inclusione nelle vescicole intraluminali dell'endosoma: gran parte dei recettori non torna in superficie e viene digerita insieme al ligando nel lisosoma, anche se una quota può essere riciclata. È un meccanismo di attenuazione del segnale, che riduce il numero di recettori disponibili sulla membrana.\n\nA) Il recettore delle LDL si stacca dal ligando e viene riusato molte volte; quello dell'EGF viene invece in prevalenza eliminato insieme al ligando.\nC) Il ritorno in superficie insieme al proprio ligando è il comportamento del recettore della transferrina.\nD) L'internalizzazione del complesso recettore-ligando segue rapidamente l'attivazione.\nE) La peptidasi del segnale agisce nel reticolo endoplasmatico sulla sequenza segnale della catena nascente e non ha ruolo in questo processo."
     },
     {
       "id": "u5-0090",
@@ -645,7 +645,7 @@
       "unita": "u5",
       "tipo": "multipla",
       "argomento": "Ciglia e flagelli",
-      "testo": "In un ciglio mobile l'assonema è costituito da:",
+      "testo": "In un ciglio mobile classico, come quelli delle vie respiratorie, l'assonema è costituito da:",
       "opzioni": [
         "nove triplette periferiche di microtubuli e una coppia centrale",
         "nove doppiette periferiche senza alcuna coppia centrale",
@@ -654,7 +654,7 @@
         "nove doppiette periferiche di microtubuli e una coppia centrale"
       ],
       "corretta": 4,
-      "spiegazione": "La struttura 9+2 è caratteristica delle ciglia mobili e dei flagelli: nove doppiette disposte in circolo e due microtubuli singoli al centro. Il movimento nasce dalla dineina assonemale, che, ancorata a una doppietta, cerca di camminare lungo quella adiacente; poiché le doppiette sono vincolate fra loro, lo slittamento si traduce in flessione.\n\nA) Le triplette sono l'organizzazione dei centrioli e del corpo basale, che non hanno coppia centrale.\nB) La disposizione 9+0 è quella del ciglio primario, immobile e con funzione sensoriale.\nC) Tredici è il numero dei protofilamenti di un singolo microtubulo, non delle doppiette dell'assonema.\nD) Actina e miosina generano altri tipi di movimento, come la contrazione muscolare; l'assonema è costituito da microtubuli."
+      "spiegazione": "La struttura 9+2 è caratteristica delle ciglia mobili classiche e dei flagelli: nove doppiette disposte in circolo e due microtubuli singoli al centro. Il movimento nasce dalla dineina assonemale, che, ancorata a una doppietta, cerca di camminare lungo quella adiacente; poiché le doppiette sono vincolate fra loro, lo slittamento si traduce in flessione.\n\nA) Le triplette sono l'organizzazione dei centrioli e del corpo basale, che non hanno coppia centrale.\nB) La disposizione 9+0 è tipica del ciglio primario, immobile e con funzione sensoriale (fanno eccezione le ciglia mobili 9+0 del nodo embrionale).\nC) Tredici è il numero dei protofilamenti di un singolo microtubulo, non delle doppiette dell'assonema.\nD) Actina e miosina generano altri tipi di movimento, come la contrazione muscolare; l'assonema è costituito da microtubuli."
     },
     {
       "id": "u5-0096",

@@ -578,7 +578,7 @@
       "opzioni": [
         "sono prodotti continuamente dalla pubertà fino alla menopausa",
         "restano bloccati in metafase II fino alla pubertà",
-        "restano bloccati in profase I dalla vita fetale fino all'ovulazione",
+        "restano bloccati in profase I dalla vita fetale fino a poco prima dell'ovulazione",
         "completano entrambe le divisioni meiotiche prima della nascita",
         "restano bloccati in profase II fino al momento della fecondazione"
       ],
@@ -643,7 +643,7 @@
         "L'apoptosi non consuma energia, mentre la necrosi richiede ATP"
       ],
       "corretta": 3,
-      "spiegazione": "Nell'apoptosi la cellula si restringe, la cromatina si condensa, il DNA viene frammentato e la cellula si suddivide in corpi apoptotici delimitati da membrana, che vengono fagocitati senza che il contenuto cellulare si riversi all'esterno. Per questo non c'è risposta infiammatoria.\n\nA) È tipico della necrosi, che colpisce aree di tessuto danneggiato; l'apoptosi elimina in genere cellule singole.\nB) Descrive la necrosi: il rigonfiamento e la rottura della membrana liberano il contenuto cellulare e scatenano l'infiammazione.\nC) Nell'apoptosi il DNA viene frammentato in modo ordinato, fra un nucleosoma e l'altro, già prima della fagocitosi.\nE) È il contrario: l'apoptosi è un processo attivo e regolato che richiede energia; la necrosi è tipicamente conseguenza di una perdita di energia."
+      "spiegazione": "Nell'apoptosi la cellula si restringe, la cromatina si condensa, il DNA viene frammentato e la cellula si suddivide in corpi apoptotici delimitati da membrana, che vengono fagocitati senza che il contenuto cellulare si riversi all'esterno. Per questo, se la rimozione è tempestiva, non c'è risposta infiammatoria; i corpi apoptotici non rimossi possono invece andare incontro a necrosi secondaria.\n\nA) È tipico della necrosi, che colpisce aree di tessuto danneggiato; l'apoptosi elimina in genere cellule singole.\nB) Descrive la necrosi: il rigonfiamento e la rottura della membrana liberano il contenuto cellulare e scatenano l'infiammazione.\nC) Nell'apoptosi il DNA viene frammentato in modo ordinato, fra un nucleosoma e l'altro, già prima della fagocitosi.\nE) È il contrario: l'apoptosi è un processo attivo e regolato che richiede energia; la necrosi è tipicamente conseguenza di una perdita di energia."
     },
     {
       "id": "u7-0045",
@@ -718,7 +718,7 @@
         "death inducing signaling complex",
         "complesso di segnalazione che induce la morte"
       ],
-      "spiegazione": "Il legame di un ligando di morte, come il ligando di Fas, raggruppa i recettori; i loro domini di morte reclutano l'adattatore FADD, che a sua volta richiama le procaspasi 8. Avvicinate nel complesso, queste si attivano per taglio reciproco e attivano le caspasi esecutrici.\n\nIl principio è lo stesso dell'apoptosoma: una piattaforma che concentra le caspasi iniziatrici e ne provoca l'attivazione per prossimità."
+      "spiegazione": "Il legame di un ligando di morte, come il ligando di Fas, raggruppa i recettori; i loro domini di morte reclutano l'adattatore FADD, che a sua volta richiama le procaspasi 8. Concentrate nel complesso, queste dimerizzano e si attivano per prossimità; il successivo autotaglio ne stabilizza la forma attiva, e la caspasi 8 attiva a sua volta le caspasi esecutrici.\n\nIl principio è lo stesso dell'apoptosoma: una piattaforma che concentra le caspasi iniziatrici e ne provoca l'attivazione per prossimità."
     },
     {
       "id": "u7-0050",

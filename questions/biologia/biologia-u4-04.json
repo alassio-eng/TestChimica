@@ -1,0 +1,36 @@
+{
+  "lotto": "biologia-u4-04",
+  "unita": "u4",
+  "generato": "2026-10-04",
+  "domande": [
+    {
+      "id": "u4-0111",
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Distanza di mappa da un reincrocio di prova",
+      "testo": "Un diibrido AaBb, che ha ricevuto A e B dallo stesso genitore, viene incrociato con un doppio omozigote recessivo aabb. Su 1000 figli: 420 hanno fenotipo dominante per entrambi i caratteri, 410 recessivo per entrambi, 90 dominante solo per A e 80 dominante solo per B. Qual è la distanza fra i due geni?",
+      "opzioni": [
+        "17 centimorgan",
+        "83 centimorgan",
+        "9 centimorgan",
+        "50 centimorgan",
+        "1,7 centimorgan"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nel reincrocio di prova il fenotipo di ogni figlio rivela il gamete prodotto dal diibrido. Poiché A e B provengono dallo stesso genitore, le combinazioni parentali sono AB e ab (420 + 410), le ricombinanti Ab e aB (90 + 80 = 170). La frequenza di ricombinazione è 170 su 1000, cioè il 17%, e 1% di ricombinanti corrisponde a 1 centimorgan: i geni distano 17 unità di mappa. Il valore è sotto il 50%, quindi i geni sono associati.\n\nÈ una distanza genetica, non fisica: nell'uomo un centimorgan corrisponde in media a circa un milione di paia di basi, ma il rapporto cambia da una regione all'altra perché il crossing over non è distribuito in modo uniforme.\n\nB) 83% è la quota delle classi parentali: conta le combinazioni non ricombinate.\nC) Considera solo la classe ricombinante più numerosa, 90 su 1000; le classi ricombinanti sono due e vanno sommate.\nD) Il 50% di ricombinanti è il valore atteso per geni che si assortiscono in modo indipendente, non quello osservato.\nE) Sbaglia la conversione: 170 su 1000 è il 17%, non l'1,7%, e ogni punto percentuale vale un centimorgan."
+    },
+    {
+      "id": "u4-0112",
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Alterazioni di struttura: l'inserzione",
+      "testo": "Lo spostamento di un segmento cromosomico, che si stacca da un cromosoma e si colloca all'interno di un altro cromosoma senza alcuno scambio reciproco, si chiama ……",
+      "accettate": [
+        "inserzione",
+        "inserzione cromosomica",
+        "inserzioni"
+      ],
+      "spiegazione": "Nell'inserzione il segmento viene rimosso dalla sede di origine e inserito in un punto interno di un altro cromosoma, o di un altro tratto dello stesso. Se nessun materiale va perso, il portatore è equilibrato e di norma sano, ma può produrre gameti sbilanciati, con il segmento in più o in meno.\n\nSi distingue dalla traslocazione reciproca, in cui due cromosomi si scambiano segmenti, e dall'inserzione di nucleotidi, che è una mutazione genica di pochi nucleotidi. Le inserzioni cromosomiche piccole possono sfuggire all'analisi del cariotipo e richiedere tecniche molecolari."
+    }
+  ]
+}

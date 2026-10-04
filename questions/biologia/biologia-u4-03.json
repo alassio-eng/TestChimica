@@ -17,7 +17,7 @@
         "La presenza di una base azotata chimicamente alterata"
       ],
       "corretta": 2,
-      "spiegazione": "Quando la rottura interessa entrambi i filamenti, nella molecola non resta alcun tratto integro da copiare: l'informazione di quella regione è persa su entrambe le eliche. Per questo le rotture a doppio filamento richiedono meccanismi dedicati, che o ricorrono a una copia esterna della sequenza, il cromatidio fratello, o risaldano direttamente le estremità accettando qualche perdita di nucleotidi.\n\nA) L'appaiamento errato riguarda il solo filamento di nuova sintesi e viene corretto dalla riparazione del mismatch sul modello del filamento parentale.\nB) e E) Una base alterata o deaminata viene rimossa dalla riparazione per escissione di base, che poi risintetizza il nucleotide corretto copiando il filamento opposto.\nD) Il dimero di timina viene eliminato con l'escissione di nucleotidi, che asporta un tratto di un solo filamento e lo ricostruisce sull'altro."
+      "spiegazione": "Quando la rottura interessa entrambi i filamenti, nel punto di rottura nessuno dei due filamenti offre più uno stampo continuo da copiare, e le estremità possono essere danneggiate. Per questo le rotture a doppio filamento richiedono meccanismi dedicati, che o ricorrono a una copia esterna della sequenza, il cromatidio fratello, o risaldano direttamente le estremità, con il rischio di perdere qualche nucleotide.\n\nA) L'appaiamento errato riguarda il solo filamento di nuova sintesi e viene corretto dalla riparazione del mismatch sul modello del filamento parentale.\nB) e E) Una base alterata o deaminata viene rimossa dalla riparazione per escissione di base, che poi risintetizza il nucleotide corretto copiando il filamento opposto.\nD) Il dimero di timina viene eliminato con l'escissione di nucleotidi, che asporta un tratto di un solo filamento e lo ricostruisce sull'altro."
     },
     {
       "id": "u4-0102",
@@ -61,7 +61,7 @@
         "diibridi",
         "doppio eterozigote"
       ],
-      "spiegazione": "Il diibrido, di genotipo AaBb, produce quattro tipi di gameti: in proporzioni uguali se i due geni sono indipendenti, con prevalenza dei tipi parentali se sono associati. L'incrocio fra due diibridi per geni indipendenti dà il rapporto fenotipico 9 : 3 : 3 : 1.\n\nL'individuo eterozigote per un solo gene è detto monoibrido; i termini non dicono nulla sulla posizione dei geni, che va stabilita a parte."
+      "spiegazione": "Il diibrido, di genotipo AaBb, produce quattro tipi di gameti: in proporzioni uguali se i due geni sono indipendenti, con prevalenza dei tipi parentali se sono associati. L'incrocio fra due diibridi per geni indipendenti, a dominanza completa e senza epistasi, dà il rapporto fenotipico 9 : 3 : 3 : 1.\n\nL'individuo eterozigote per un solo gene è detto monoibrido; i termini non dicono nulla sulla posizione dei geni, che va stabilita a parte."
     },
     {
       "id": "u4-0105",
@@ -106,7 +106,7 @@
         "una non disgiunzione del cromosoma 21 nella gametogenesi"
       ],
       "corretta": 4,
-      "spiegazione": "La forma di gran lunga più comune è la trisomia libera: un gamete porta due copie del cromosoma 21 perché queste non si sono separate durante la gametogenesi, e lo zigote risulta 47,XX,+21 oppure 47,XY,+21. Il rischio aumenta con l'età materna e la condizione non si ripete di regola in famiglia.\n\nA) La forma da traslocazione robertsoniana esiste ed è quella che può ricorrere in famiglia, ma rappresenta una quota minoritaria dei casi; il cariotipo mostra 46 cromosomi, uno dei quali traslocato.\nB) e C) La sindrome dipende dalla dose in eccesso di un intero cromosoma, non dall'alterazione o dalla perdita di una singola porzione di esso.\nD) La triploidia riguarda tutti i cromosomi e non è compatibile con la vita."
+      "spiegazione": "La forma di gran lunga più comune è la trisomia libera: un gamete porta due copie del cromosoma 21 perché queste non si sono separate durante la gametogenesi, e lo zigote risulta 47,XX,+21 oppure 47,XY,+21. Il rischio aumenta con l'età materna, e quello che si ripeta nella stessa famiglia è basso, ma non nullo.\n\nA) La forma da traslocazione robertsoniana esiste ed è quella che può ricorrere in famiglia, ma rappresenta una quota minoritaria dei casi; il cariotipo mostra 46 cromosomi, uno dei quali traslocato.\nB) e C) Nella forma comune la sindrome dipende dalla dose in eccesso di un intero cromosoma 21 (rari casi derivano da trisomie parziali): né una mutazione puntiforme né la perdita di una porzione del cromosoma la causano.\nD) La triploidia riguarda tutti i cromosomi e porta di norma all'aborto o alla morte poco dopo la nascita: non è la causa della sindrome di Down."
     },
     {
       "id": "u4-0108",
@@ -119,7 +119,7 @@
         "acrocentrici",
         "acrocentrica"
       ],
-      "spiegazione": "Gli acrocentrici del cariotipo umano portano sui bracci corti sequenze ripetute e i geni per gli RNA ribosomiali, presenti in copie multiple: è il motivo per cui la perdita di quei bracci nella traslocazione robertsoniana non dà conseguenze fenotipiche nel portatore.\n\nIl cromosoma metacentrico ha centromero mediano e bracci uguali, il submetacentrico centromero leggermente spostato e bracci di lunghezza diversa ma entrambi ben rappresentati."
+      "spiegazione": "Gli autosomi acrocentrici umani (13, 14, 15, 21 e 22) portano sui bracci corti sequenze ripetute e i geni per gli RNA ribosomiali, presenti in copie multiple: è il motivo per cui la perdita di quei bracci nella traslocazione robertsoniana non dà conseguenze fenotipiche nel portatore.\n\nIl cromosoma metacentrico ha centromero mediano e bracci uguali, il submetacentrico centromero leggermente spostato e bracci di lunghezza diversa ma entrambi ben rappresentati."
     },
     {
       "id": "u4-0109",
@@ -135,7 +135,7 @@
         "tutte le figlie femmine siano affette dalla malattia come il padre"
       ],
       "corretta": 0,
-      "spiegazione": "Il padre ha un solo cromosoma X, che porta l'allele mutato, e lo trasmette a tutte le figlie e a nessun figlio maschio, ai quali passa invece l'Y. Le figlie, ricevendo dalla madre un X sano, sono eterozigoti e quindi portatrici non affette; i maschi ricevono dalla madre l'unico X di cui dispongono e sono sani. La malattia ricomparirà eventualmente nella generazione successiva, nei figli maschi delle figlie portatrici.\n\nB) e D) Il padre non trasmette il proprio X ai figli maschi, che per questo sono indenni; alle figlie invece lo trasmette sempre.\nC) La distribuzione paritaria fra i sessi è tipica delle condizioni autosomiche.\nE) Perché una figlia sia affetta occorre un secondo allele mutato dalla madre, che qui non è portatrice."
+      "spiegazione": "Il padre ha un solo cromosoma X, che porta l'allele mutato, e lo trasmette a tutte le figlie e a nessun figlio maschio, ai quali passa invece l'Y. Le figlie, ricevendo dalla madre un X sano, sono eterozigoti e quindi, di regola, portatrici non affette; i maschi ricevono dalla madre l'unico X di cui dispongono e sono sani. La malattia ricomparirà eventualmente nella generazione successiva, nei figli maschi delle figlie portatrici.\n\nB) e D) Il padre non trasmette il proprio X ai figli maschi, che per questo sono indenni; alle figlie invece lo trasmette sempre.\nC) La distribuzione paritaria fra i sessi è tipica delle condizioni autosomiche.\nE) Perché una figlia sia affetta occorre un secondo allele mutato dalla madre, che qui non è portatrice."
     },
     {
       "id": "u4-0110",

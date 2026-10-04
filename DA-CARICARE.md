@@ -1,18 +1,15 @@
-# Delta: biologia-u3-02 e correzione degli schemi fissi
+# Delta: revisione del 4 ottobre (chimica, fisica, biologia)
 
-Carica nel repository rispettando le cartelle (sovrascrivi gli esistenti):
+Carica le cartelle così come sono, sovrascrivendo i file esistenti:
 
-- questions/biologia/biologia-u3-02.json  (nuovo, u3-0051…u3-0100)
-- questions/biologia/index.json           (registra il lotto)
-- questions/biologia/biologia-u1-01.json  (solo ordine delle opzioni)
-- questions/biologia/biologia-u2-01.json  (solo ordine delle opzioni)
-- questions/biologia/biologia-u3-03.json  (solo ordine delle opzioni)
-- questions/chimica/chimica-u3-02.json    (solo ordine delle opzioni)
-- tools/valida.py                         (nuovo controllo degli schemi periodici)
-- COPERTURA.md, APERTURA-CHAT.md          (rigenerati)
+- questions/chimica/   13 lotti revisionati
+- questions/fisica/    13 lotti revisionati
+- questions/biologia/  19 lotti revisionati + 3 nuovi (biologia-u4-04,
+                       biologia-u5-05, biologia-u7-03) + index.json
+- COPERTURA.md, APERTURA-CHAT.md  (rigenerati)
 
-Nei quattro lotti riordinati id, testi, risposte e spiegazioni sono invariati:
-cambia solo la lettera sotto cui sta ciascuna opzione. Lo storico sul
-dispositivo resta valido.
+Nessun id rinumerato o rimosso. Gli altri file della revisione
+(index.json di chimica e fisica, alcuni lotti) sono già identici a
+quelli pubblicati e non servono.
 
 Questo file non va caricato.

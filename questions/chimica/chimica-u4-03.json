@@ -360,7 +360,7 @@
       "unita": "u4",
       "tipo": "multipla",
       "argomento": "Tampone formato da base debole e acido coniugato",
-      "testo": "Quale fra le seguenti coppie costituisce un tampone formato da una base debole e dal suo acido coniugato?",
+      "testo": "Quale fra le seguenti coppie permette di preparare un tampone efficace intorno a pH 9? (pKa: CH₃COOH 4,74; NH₄⁺ 9,25)",
       "opzioni": [
         "HCl e NH₄Cl",
         "NaOH e NaCl",
@@ -369,7 +369,7 @@
         "NH₃ e NH₄Cl"
       ],
       "corretta": 4,
-      "spiegazione": "L'ammoniaca è una base debole e lo ione ammonio, fornito da NH₄Cl, è il suo acido coniugato: la coppia tampona efficacemente intorno a pH 9,25, cioè al pKa dello ione ammonio.\n\nA) l'acido forte reagisce con l'ammoniaca eventualmente presente e non costituisce con il sale una coppia coniugata debole.\nB) una base forte e un sale neutro non formano alcuna coppia coniugata.\nC) è un tampone, ma costruito nel modo opposto: parte da un acido debole e dalla sua base coniugata, non da una base debole.\nD) manca l'acido coniugato: NaCl fornisce solo ioni spettatori, quindi l'ammoniaca resta sola."
+      "spiegazione": "Un tampone lavora al meglio intorno al pKa della propria coppia coniugata, entro circa una unità di pH. L'ammoniaca è una base debole e lo ione ammonio, fornito da NH₄Cl, è il suo acido coniugato, con pKa 9,25: la coppia NH₃/NH₄⁺ tampona all'incirca fra pH 8,3 e 10,3.\n\nA) l'acido forte reagisce con l'ammoniaca eventualmente presente e non costituisce con il sale una coppia coniugata debole.\nB) una base forte e un sale neutro non formano alcuna coppia coniugata.\nC) è un tampone a tutti gli effetti, ma la coppia acido acetico/acetato ha pKa 4,74 e lavora all'incirca fra pH 3,7 e 5,7, non intorno a pH 9.\nD) manca l'acido coniugato: NaCl fornisce solo ioni spettatori, quindi l'ammoniaca resta sola."
     },
     {
       "id": "u4-0078",
@@ -519,11 +519,11 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Alterazioni dell'equilibrio acido-base",
-      "testo": "L'innalzamento del pH del sangue al di sopra dell'intervallo fisiologico prende il nome di ……",
+      "testo": "Il disturbo dell'equilibrio acido-base che tende ad alzare il pH del sangue, per perdita di acidi o accumulo di basi, si chiama ……",
       "accettate": [
         "alcalosi"
       ],
-      "spiegazione": "Si parla di alcalosi per pH arterioso superiore a circa 7,45. È respiratoria quando deriva da un'eccessiva eliminazione di CO₂, come nell'iperventilazione, e metabolica quando dipende da un aumento del bicarbonato o da una perdita di acidi, per esempio con il vomito protratto."
+      "spiegazione": "Alcalosi indica il processo che tende ad alzare il pH; lo stato di pH arterioso effettivamente superiore a circa 7,45 si chiama, in senso stretto, alcalemia. È respiratoria quando deriva da un'eccessiva eliminazione di CO₂, come nell'iperventilazione, e metabolica quando dipende da un aumento del bicarbonato o da una perdita di acidi, per esempio con il vomito protratto."
     },
     {
       "id": "u4-0089",
@@ -671,7 +671,7 @@
       "unita": "u4",
       "tipo": "completamento",
       "argomento": "Accettore finale di elettroni nella respirazione",
-      "testo": "Nella respirazione cellulare la specie che funge da accettore finale degli elettroni è l'……",
+      "testo": "Nella respirazione cellulare aerobica la specie che funge da accettore finale degli elettroni è l'……",
       "accettate": [
         "ossigeno",
         "O2",

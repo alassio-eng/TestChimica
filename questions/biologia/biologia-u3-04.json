@@ -132,7 +132,7 @@
         "promotore",
         "promotori"
       ],
-      "spiegazione": "Il promotore non viene trascritto: determina dove la trascrizione comincia e con quale efficienza, ed è il punto su cui convergono i segnali dei fattori regolativi.\n\nVa distinto dall'operatore dei batteri, che è il sito di legame del repressore, e dagli enhancer eucariotici, che agiscono a distanza e non ospitano l'assemblaggio della polimerasi."
+      "spiegazione": "Il promotore determina dove la trascrizione comincia e con quale efficienza, ed è il punto su cui convergono i segnali dei fattori regolativi. Nei geni trascritti dalla RNA polimerasi II i suoi elementi classici, come la TATA box, stanno a monte del sito di inizio.\n\nVa distinto dall'operatore dei batteri, che è il sito di legame del repressore, e dagli enhancer eucariotici, che agiscono a distanza e non ospitano l'assemblaggio della polimerasi."
     },
     {
       "id": "u3-0160",
@@ -205,7 +205,7 @@
         "Che agisca sul gene omologo dell'altro cromosoma anziché sul proprio"
       ],
       "corretta": 1,
-      "spiegazione": "Ciò che conta per un enhancer non è la posizione lungo la sequenza ma la possibilità di essere avvicinato al promotore dal ripiegamento del DNA: per questo funziona a monte o a valle, vicino o lontano, in un orientamento o nell'altro.\n\nA) L'indipendenza dalla posizione è esattamente la proprietà che distingue gli elementi distali.\nC) Il segno dell'effetto dipende dai fattori che l'elemento recluta, non dal suo orientamento.\nD) Gli enhancer non vengono trascritti: sono siti di legame per proteine.\nE) Un elemento in cis agisce sulla molecola di cui fa parte, non sull'omologo."
+      "spiegazione": "Ciò che conta per un enhancer non è la posizione lungo la sequenza ma la possibilità di essere avvicinato al promotore dal ripiegamento del DNA: per questo funziona a monte o a valle, vicino o lontano, in un orientamento o nell'altro.\n\nA) L'indipendenza dalla posizione è esattamente la proprietà che distingue gli elementi distali.\nC) Il segno dell'effetto dipende dai fattori che l'elemento recluta, non dal suo orientamento.\nD) L'enhancer agisce come sito di legame per proteine, non come parte del trascritto del gene: non ha bisogno di essere copiato insieme al gene per funzionare.\nE) Un elemento in cis agisce sulla molecola di cui fa parte, non sull'omologo."
     },
     {
       "id": "u3-0165",
@@ -264,7 +264,7 @@
         "Perde la coda di poli-A e diventa un RNA regolatore del proprio gene"
       ],
       "corretta": 2,
-      "spiegazione": "L'esportazione non è automatica: il messaggero viene riconosciuto come esportabile solo se porta i segni di una maturazione completa, e un trascritto difettoso resta nel nucleo, dove i sistemi di degradazione lo eliminano.\n\nA) Un trascritto non maturato non supera il controllo che precede l'uscita dal nucleo.\nB) La polimerasi non torna indietro e non ha alcuna funzione di riparazione dell'RNA.\nD) Il nucleolo è la sede della maturazione degli rRNA, non un deposito di messaggeri difettosi.\nE) La perdita della coda avvia la degradazione del messaggero, non la sua conversione in un regolatore."
+      "spiegazione": "L'esportazione non è automatica: il messaggero viene riconosciuto come esportabile solo se porta i segni di una maturazione completa, e un trascritto difettoso resta nel nucleo, dove i sistemi di degradazione lo eliminano.\n\nA) Un trascritto non maturato non supera il controllo che precede l'uscita dal nucleo.\nB) Un trascritto già rilasciato non torna alla polimerasi: la polimerasi può correggere un errore solo durante la sintesi, arretrando e tagliando l'estremità appena prodotta, non su un RNA già completato.\nD) Il nucleolo è la sede della maturazione degli rRNA, non un deposito di messaggeri difettosi.\nE) La perdita della coda avvia la degradazione del messaggero, non la sua conversione in un regolatore."
     },
     {
       "id": "u3-0169",
@@ -293,7 +293,7 @@
         "Perché solo i messaggeri stabili ricevono il cappuccio e la coda di poli-A"
       ],
       "corretta": 0,
-      "spiegazione": "Un messaggero può essere letto molte volte, anche da più ribosomi contemporaneamente: la resa complessiva dipende quindi tanto da quanti messaggeri vengono prodotti quanto da quanto a lungo restano disponibili alla traduzione.\n\nB) La velocità di traduzione dipende dal macchinario ribosomiale, non dalla durata del messaggero.\nC) La trascrizione avviene sul gene e non è influenzata dalla sorte del trascritto già prodotto.\nD) La lunghezza della proteina dipende dalla sequenza codificante, non dalla stabilità.\nE) Cappuccio e coda vengono aggiunti a tutti i messaggeri durante la maturazione: semmai sono loro a conferire stabilità."
+      "spiegazione": "Un messaggero può essere letto molte volte, anche da più ribosomi contemporaneamente: la resa complessiva dipende quindi tanto da quanti messaggeri vengono prodotti quanto da quanto a lungo restano disponibili alla traduzione.\n\nB) La velocità di traduzione dipende dal macchinario ribosomiale, non dalla durata del messaggero.\nC) La trascrizione avviene sul gene e non è influenzata dalla sorte del trascritto già prodotto.\nD) La lunghezza della proteina dipende dalla sequenza codificante, non dalla stabilità.\nE) Cappuccio e coda vengono aggiunti durante la maturazione alla quasi totalità dei messaggeri nucleari, a prescindere dalla loro durata successiva: semmai sono loro a conferire stabilità."
     },
     {
       "id": "u3-0171",
@@ -347,7 +347,7 @@
         "codice genetico",
         "codice"
       ],
-      "spiegazione": "È degenerato, perché quasi tutti gli amminoacidi hanno più codoni, ma non ambiguo, perché ogni codone ne specifica uno solo; ed è praticamente lo stesso in tutti gli organismi.\n\nNon va confuso con il genoma, che è l'insieme dell'informazione contenuta nel DNA di un organismo: il codice è la chiave di lettura, il genoma è il testo da leggere."
+      "spiegazione": "È degenerato, perché quasi tutti gli amminoacidi hanno più codoni, ma non ambiguo, perché ogni codone di senso ne specifica uno solo; ed è praticamente lo stesso in tutti gli organismi.\n\nNon va confuso con il genoma, che è l'insieme dell'informazione contenuta nel DNA di un organismo: il codice è la chiave di lettura, il genoma è il testo da leggere."
     },
     {
       "id": "u3-0175",
@@ -393,7 +393,7 @@
         "Le due subunità restano unite e ricominciano la traduzione da quella posizione"
       ],
       "corretta": 1,
-      "spiegazione": "Il fattore di rilascio promuove l'idrolisi del legame fra la catena polipeptidica e il tRNA del sito P: la proteina è libera, e il complesso si smonta liberando messaggero e subunità, che potranno essere riutilizzati.\n\nA) La catena deve staccarsi dal tRNA per poter ripiegarsi e funzionare.\nC) Un ribosoma che ignorasse il codone di stop produrrebbe una proteina allungata in modo anomalo.\nD) Il messaggero non viene tagliato: può essere tradotto altre volte.\nE) Al termine le subunità si dissociano: una nuova traduzione richiede un nuovo complesso di inizio."
+      "spiegazione": "Il fattore di rilascio promuove l'idrolisi del legame fra la catena polipeptidica e il tRNA del sito P: la proteina è libera, e il complesso si smonta liberando messaggero e subunità, che potranno essere riutilizzati.\n\nA) La catena, che può aver cominciato a ripiegarsi già mentre usciva dal ribosoma, deve comunque staccarsi dal tRNA per essere rilasciata e funzionare.\nC) Un ribosoma che ignorasse il codone di stop produrrebbe una proteina allungata in modo anomalo.\nD) Il messaggero non viene tagliato: può essere tradotto altre volte.\nE) Al termine le subunità si dissociano: una nuova traduzione richiede un nuovo complesso di inizio."
     },
     {
       "id": "u3-0178",
@@ -422,7 +422,7 @@
         "La trasferisce nel nucleo, dove viene smontata dagli enzimi nucleari"
       ],
       "corretta": 3,
-      "spiegazione": "Quando il recupero fallisce l'alternativa è l'eliminazione: la proteina viene ubiquitinata e demolita dal proteasoma, e i suoi amminoacidi tornano disponibili. È il modo in cui la cellula impedisce che le molecole mal ripiegate si accumulino e aggreghino.\n\nA) L'espulsione non risolverebbe nulla e non esiste una via di questo tipo per le proteine citosoliche difettose.\nB) La sequenza è stabilita dal messaggero e non può essere modificata dopo la sintesi.\nC) Conservarla sarebbe pericoloso, perché le superfici idrofobiche esposte favoriscono l'aggregazione.\nE) Il nucleo non è una sede di degradazione delle proteine citosoliche. Per una singola proteina mal ripiegata la via principale è il proteasoma; in alternativa può essere portata nel lisosoma per autofagia, mai nel nucleo."
+      "spiegazione": "Quando il recupero fallisce l'alternativa è l'eliminazione: la proteina viene ubiquitinata e demolita dal proteasoma, e i suoi amminoacidi tornano disponibili. È il modo in cui la cellula impedisce che le molecole mal ripiegate si accumulino e aggreghino.\n\nA) L'espulsione non risolverebbe nulla e non esiste una via di questo tipo per le proteine citosoliche difettose.\nB) La sequenza è stabilita dal messaggero e non può essere modificata dopo la sintesi.\nC) Conservarla sarebbe pericoloso, perché le superfici idrofobiche esposte favoriscono l'aggregazione.\nE) Il nucleo non è un deposito in cui spedire le proteine citosoliche da smaltire: la degradazione avviene dove si trova la proteina, a opera del proteasoma, presente sia nel citosol sia nel nucleo; in alternativa, per autofagia, nel lisosoma."
     },
     {
       "id": "u3-0180",
@@ -435,7 +435,7 @@
         "poliubiquitilazione",
         "poliubiquitinilazione"
       ],
-      "spiegazione": "È la catena, e non la singola molecola, a costituire il segnale che la particella regolatoria del proteasoma riconosce: le molecole di ubiquitina si legano l'una all'altra attraverso residui di lisina.\n\nL'attacco di una sola molecola, la monoubiquitinazione, ha significati diversi e non comporta degradazione: regola per esempio il destino di alcune proteine di membrana e l'attività di altre."
+      "spiegazione": "È la catena, e non la singola molecola, a costituire il segnale tipico che la particella regolatoria del proteasoma riconosce: le molecole di ubiquitina si legano l'una all'altra attraverso residui di lisina.\n\nL'attacco di una sola molecola, la monoubiquitinazione, di regola non indirizza al proteasoma: regola per esempio l'attività di alcune proteine e lo smistamento di proteine di membrana, che possono così essere avviate alla degradazione nei lisosomi."
     }
   ]
 }

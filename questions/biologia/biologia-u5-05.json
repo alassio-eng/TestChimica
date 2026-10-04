@@ -1,0 +1,85 @@
+{
+  "lotto": "biologia-u5-05",
+  "unita": "u5",
+  "generato": "2026-10-04",
+  "domande": [
+    {
+      "id": "u5-0201",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Esportazione degli mRNA dal nucleo",
+      "testo": "L'esportazione della maggior parte degli mRNA maturi dal nucleo al citosol:",
+      "opzioni": [
+        "avviene per diffusione libera attraverso il canale centrale del poro",
+        "usa un recettore dedicato e non dipende dal gradiente di Ran",
+        "è mediata dalle importine, che legano il messaggero nel nucleo",
+        "avviene solo in mitosi, quando l'involucro nucleare si disgrega",
+        "richiede che il messaggero venga prima tradotto nel nucleo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Gli mRNA maturi escono dal nucleo come complessi con proteine, riconosciuti da un recettore di esportazione dedicato, diverso dalle carioferine, che interagisce con le ripetizioni FG delle nucleoporine. La direzione del trasporto non dipende dal gradiente di Ran, che governa invece il traffico di importine ed esportine: sul versante citosolico del poro un'ATPasi rimodella il complesso e lo stacca, impedendogli di tornare indietro. Solo i messaggeri che hanno completato la maturazione vengono esportati.\n\nA) Un mRNA con le sue proteine è troppo grande per la diffusione libera: serve un recettore che attraversi la barriera di ripetizioni FG.\nC) Le importine portano carichi dal citosol al nucleo; l'esportazione degli mRNA usa un altro recettore.\nD) L'esportazione avviene di continuo in interfase, attraverso i pori; la cellula non aspetta la mitosi per tradurre i propri messaggeri.\nE) Nel nucleo non avviene traduzione: è proprio l'esportazione a portare il messaggero ai ribosomi del citosol."
+    },
+    {
+      "id": "u5-0202",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Bilancio energetico dell'ossidazione del glucosio",
+      "testo": "Assumendo che l'ossidazione di un NADH nella catena respiratoria renda 2,5 ATP e quella di un FADH₂ 1,5 ATP, e che il NADH citosolico entri nel mitocondrio con la navetta malato-aspartato, quante molecole di ATP (o GTP) rende in totale l'ossidazione completa di una molecola di glucosio?",
+      "opzioni": [
+        "2",
+        "4",
+        "30",
+        "32",
+        "38"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il conto si fa sommando le fonti. Fosforilazione a livello del substrato: 2 ATP netti dalla glicolisi e 2 GTP dal ciclo di Krebs, in tutto 4. Coenzimi ridotti: 2 NADH dalla glicolisi, 2 dalla piruvato deidrogenasi e 6 dal ciclo di Krebs, cioè 10 NADH, che con la navetta malato-aspartato valgono 25 ATP; 2 FADH₂ dal ciclo di Krebs, che valgono 3 ATP. Il totale è 4 + 25 + 3 = 32.\n\nI rendimenti per NADH e FADH₂ non sono numeri interi, perché dipendono da quanti protoni servono per sintetizzare e trasportare un ATP: sono stime, e il totale va letto come «circa 30-32».\n\nA) 2 è il guadagno netto della sola glicolisi, cioè la resa in assenza di ossigeno.\nB) 4 conta solo le fosforilazioni a livello del substrato e trascura la fosforilazione ossidativa, che produce la gran parte dell'ATP.\nC) 30 si ottiene con la navetta del glicerolo fosfato, che cede gli elettroni del NADH citosolico al FAD e rende 1,5 ATP per NADH: il testo indica invece la navetta malato-aspartato.\nE) 38 è il valore dei testi più vecchi, calcolato con 3 ATP per NADH e 2 per FADH₂ e senza considerare il costo del trasporto: non corrisponde alle ipotesi date."
+    },
+    {
+      "id": "u5-0203",
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Import mitocondriale: il complesso OXA",
+      "testo": "Il complesso della membrana mitocondriale interna che vi inserisce, dal lato della matrice, le proteine sintetizzate dai ribosomi mitocondriali si chiama ……",
+      "accettate": [
+        "oxa",
+        "oxa1",
+        "complesso oxa",
+        "traslocasi oxa"
+      ],
+      "spiegazione": "OXA inserisce nella membrana interna, partendo dalla matrice, le proteine codificate dal DNA mitocondriale, tutte subunità dei complessi respiratori e dell'ATP sintasi, e anche alcune proteine di origine nucleare che sono già passate nella matrice.\n\nGli altri complessi vanno distinti per destinazione: TOM fa attraversare la membrana esterna, SAM inserisce nella membrana esterna le proteine a barile β, TIM23 porta nella matrice le proteine con presequenza, TIM22 inserisce nella membrana interna i trasportatori con molti segmenti transmembrana provenienti dal citosol."
+    },
+    {
+      "id": "u5-0204",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Tipi di autofagia a confronto",
+      "testo": "Quale delle seguenti associazioni fra tipo di autofagia e meccanismo è corretta?",
+      "opzioni": [
+        "Macroautofagia: singole proteine attraversano la membrana del lisosoma tramite LAMP-2A",
+        "Autofagia mediata da chaperon: un autofagosoma a doppia membrana sequestra organelli interi",
+        "Mitofagia: i mitocondri danneggiati vengono demoliti dal proteasoma senza passare dai lisosomi",
+        "Microautofagia: un autofagosoma già formato si fonde con un lisosoma",
+        "Microautofagia: il lisosoma si invagina e ingloba direttamente porzioni di citoplasma"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nella microautofagia è il lisosoma stesso a catturare il materiale: la sua membrana si introflette e ingloba piccole porzioni di citoplasma, senza autofagosoma. Nella macroautofagia, invece, il materiale viene prima racchiuso in un autofagosoma a doppia membrana, che poi si fonde con un lisosoma; nell'autofagia mediata da chaperon singole proteine, riconosciute da Hsc70, attraversano la membrana lisosomiale tramite LAMP-2A.\n\nA) È il meccanismo dell'autofagia mediata da chaperon, non della macroautofagia.\nB) L'autofagosoma a doppia membrana appartiene alla macroautofagia; l'autofagia mediata da chaperon tratta singole proteine solubili.\nC) La mitofagia è una forma selettiva di macroautofagia: i mitocondri vengono racchiusi in autofagosomi e demoliti nei lisosomi; il proteasoma degrada singole proteine, non organelli.\nD) La fusione di un autofagosoma con un lisosoma è la tappa finale della macroautofagia."
+    },
+    {
+      "id": "u5-0205",
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Alterazioni della dineina citoplasmatica",
+      "testo": "In un motoneurone, una mutazione che riduce l'attività della dineina citoplasmatica compromette soprattutto:",
+      "opzioni": [
+        "il trasporto di vescicole dal corpo cellulare verso il terminale assonico",
+        "il battito delle ciglia mobili dell'epitelio respiratorio",
+        "il trasporto retrogrado dal terminale assonico verso il corpo cellulare",
+        "la nucleazione dei microtubuli a partire dal centrosoma",
+        "lo scorrimento dei filamenti di actina nella contrazione muscolare"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nell'assone i microtubuli hanno l'estremità meno verso il corpo cellulare e la dineina citoplasmatica, che cammina verso l'estremità meno, è il motore del trasporto retrogrado: riporta al corpo cellulare organelli invecchiati, vescicole endocitiche e segnali provenienti dalla periferia. Nei neuroni, con assoni lunghissimi, questo trasporto è particolarmente critico: alterazioni della dineina citoplasmatica o dei suoi regolatori causano malattie neurologiche, fra cui forme di degenerazione dei motoneuroni e, per mutazioni del regolatore LIS1, la lissencefalia, dovuta a un difetto della migrazione dei neuroni durante lo sviluppo.\n\nA) Il trasporto anterogrado, verso il terminale, è compito delle chinesine, che si muovono verso l'estremità più.\nB) Il battito delle ciglia dipende dalla dineina assonemale, una proteina distinta da quella citoplasmatica.\nD) La nucleazione dei microtubuli spetta al complesso ad anello della γ-tubulina, non a un motore.\nE) Lo scorrimento dell'actina nella contrazione è opera della miosina II."
+    }
+  ]
+}

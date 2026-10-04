@@ -166,7 +166,7 @@
       "unita": "u6",
       "tipo": "completamento",
       "argomento": "Forza elettrica conservativa",
-      "testo": "Il lavoro compiuto dalla forza elettrica su una carica dipende solo dalla posizione iniziale e da quella finale, non dal percorso: per questo la forza elettrica si dice ……",
+      "testo": "Il lavoro compiuto dalla forza elettrostatica su una carica dipende solo dalla posizione iniziale e da quella finale, non dal percorso: per questo la forza elettrostatica si dice ……",
       "accettate": [
         "conservativa",
         "conservative",
@@ -696,12 +696,12 @@
       "opzioni": [
         "l'intensità del campo che attraversa la spira cresce nel tempo",
         "la spira ruota attorno a un suo diametro perpendicolare al campo",
-        "la spira viene schiacciata in un campo costante, riducendone l'area",
+        "la spira viene schiacciata in un campo costante perpendicolare al suo piano, riducendone l'area",
         "la spira è ferma in un campo magnetico intenso e costante",
-        "una calamita viene allontanata dalla spira"
+        "una calamita posta sull'asse della spira viene allontanata lungo l'asse"
       ],
       "corretta": 3,
-      "spiegazione": "La corrente indotta nasce solo dalla variazione del flusso magnetico. Una spira ferma in un campo costante è attraversata da un flusso costante, per quanto grande: la fem indotta è nulla.\n\nA) Se cresce B, a parità di area e di orientazione cresce il flusso: si induce una corrente.\nB) La rotazione cambia l'angolo fra campo e normale alla spira e quindi il flusso Φ = BS cos θ.\nC) Riducendo l'area attraversata dal campo si riduce il flusso, e la variazione induce una corrente.\nE) Allontanando la calamita il campo sulla spira diminuisce e con esso il flusso."
+      "spiegazione": "La corrente indotta nasce solo dalla variazione del flusso magnetico. Una spira ferma in un campo costante è attraversata da un flusso costante, per quanto grande: la fem indotta è nulla.\n\nA) Se cresce B, a parità di area e di orientazione cresce il flusso: si induce una corrente.\nB) La rotazione cambia l'angolo fra campo e normale alla spira e quindi il flusso Φ = BS cos θ.\nC) Con il campo perpendicolare alla spira il flusso vale B·S: riducendo l'area si riduce il flusso, e la variazione induce una corrente.\nE) Allontanando la calamita il campo sulla spira diminuisce e con esso il flusso."
     },
     {
       "id": "u6-0100",

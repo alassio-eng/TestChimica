@@ -220,8 +220,7 @@
       "testo": "La grandezza che misura la resistenza di un corpo a variare il proprio stato di moto si chiama ……",
       "accettate": [
         "massa",
-        "massa inerziale",
-        "inerzia"
+        "massa inerziale"
       ],
       "spiegazione": "Nella relazione a = F/m la massa compare al denominatore: a parità di forza, un corpo di massa doppia acquista accelerazione dimezzata.\n\nLa massa è una grandezza scalare, si misura in chilogrammi e non dipende dal luogo; il peso, che è una forza, si misura in newton e cambia con l'accelerazione di gravità."
     },
@@ -499,14 +498,14 @@
       "accettate": [
         "impulso"
       ],
-      "spiegazione": "L'impulso è un vettore e si misura in N·s, unità equivalente al kg·m/s: il teorema dell'impulso afferma infatti che l'impulso di una forza è uguale alla variazione della quantità di moto del corpo.\n\nÈ il principio dei dispositivi di sicurezza: airbag e caschi allungano il tempo dell'urto e, a parità di variazione della quantità di moto, riducono la forza che agisce sul corpo."
+      "spiegazione": "L'impulso è un vettore e si misura in N·s, unità equivalente al kg·m/s: il teorema dell'impulso afferma infatti che l'impulso della forza risultante è uguale alla variazione della quantità di moto del corpo.\n\nÈ il principio dei dispositivi di sicurezza: airbag e caschi allungano il tempo dell'urto e, a parità di variazione della quantità di moto, riducono la forza che agisce sul corpo."
     },
     {
       "id": "u2-0037",
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Conservazione dell'energia meccanica",
-      "testo": "Un corpo viene lasciato cadere da fermo da un'altezza di 20 m. Trascurando ogni attrito e assumendo g = 9,8 m/s², la sua velocità all'arrivo al suolo vale circa:",
+      "testo": "Un corpo viene lasciato cadere da fermo da un'altezza di 20 m. Trascurando ogni attrito e assumendo g = 9,8 m/s², la sua velocità all'arrivo al suolo, arrotondata al decimo di m/s, vale:",
       "opzioni": [
         "20 m/s",
         "392 m/s",
@@ -515,7 +514,7 @@
         "19,8 m/s"
       ],
       "corretta": 4,
-      "spiegazione": "L'energia potenziale iniziale si trasforma integralmente in energia cinetica: m g h = ½ m v², da cui v = √(2 g h) = √(2 × 9,8 × 20) = √392 ≈ 19,8 m/s. La massa si semplifica e non serve conoscerla.\n\nA) 20 ripete l'altezza di caduta.\nB) 392 è 2 g h, cioè il valore di v² senza estrarre la radice.\nC) 196 è il prodotto g·h: è il valore di ½v², non di v.\nD) 14 m/s è √(g h), cioè il risultato di chi dimentica il fattore 2."
+      "spiegazione": "L'energia potenziale iniziale si trasforma integralmente in energia cinetica: m g h = ½ m v², da cui v = √(2 g h) = √(2 × 9,8 × 20) = √392 ≈ 19,8 m/s. La massa si semplifica e non serve conoscerla.\n\nA) 20 m/s è il risultato arrotondato all'unità, oppure il valore dell'altezza ricopiato: arrotondato al decimo, come chiede il testo, il risultato è 19,8 m/s.\nB) 392 è 2 g h, cioè il valore di v² senza estrarre la radice.\nC) 196 è il prodotto g·h: è il valore di ½v², non di v.\nD) 14 m/s è √(g h), cioè il risultato di chi dimentica il fattore 2."
     },
     {
       "id": "u2-0038",
@@ -535,7 +534,7 @@
       "unita": "u2",
       "tipo": "multipla",
       "argomento": "Teorema dell'impulso",
-      "testo": "L'impulso di una forza applicata a un corpo è uguale:",
+      "testo": "L'impulso della forza risultante applicata a un corpo è uguale:",
       "opzioni": [
         "alla variazione della quantità di moto del corpo",
         "al lavoro compiuto dalla forza sul corpo",
@@ -544,7 +543,7 @@
         "alla potenza media sviluppata dalla forza"
       ],
       "corretta": 0,
-      "spiegazione": "Il teorema dell'impulso si scrive F Δt = Δp: forza per tempo dà una variazione di quantità di moto, e le unità coincidono, perché 1 N·s = 1 kg·m/s.\n\nB) Il lavoro è una grandezza scalare misurata in joule: non può eguagliare un vettore misurato in N·s.\nC) La variazione di energia cinetica è uguale al lavoro, cioè al prodotto della forza per lo spostamento, non per il tempo.\nD) L'impulso dà la variazione della quantità di moto, non il suo valore iniziale.\nE) La potenza si misura in watt ed è una grandezza dimensionalmente diversa."
+      "spiegazione": "Il teorema dell'impulso si scrive F Δt = Δp, con F forza risultante: forza per tempo dà una variazione di quantità di moto, e le unità coincidono, perché 1 N·s = 1 kg·m/s.\n\nB) Il lavoro è una grandezza scalare misurata in joule: non può eguagliare un vettore misurato in N·s.\nC) La variazione di energia cinetica è uguale al lavoro, cioè al prodotto della forza per lo spostamento, non per il tempo.\nD) L'impulso dà la variazione della quantità di moto, non il suo valore iniziale.\nE) La potenza si misura in watt ed è una grandezza dimensionalmente diversa."
     },
     {
       "id": "u2-0040",

@@ -94,13 +94,13 @@
       "testo": "Due vettori che hanno la stessa direzione ma verso opposto si dicono:",
       "opzioni": [
         "concordi",
-        "complanari",
+        "opposti",
         "perpendicolari",
         "discordi",
         "equiversi"
       ],
       "corretta": 3,
-      "spiegazione": "Avere la stessa direzione significa giacere su rette parallele; se i versi sono opposti i vettori si dicono discordi, e il modulo della loro somma è pari alla differenza dei moduli, cioè il minimo possibile.\n\nA) I vettori concordi hanno la stessa direzione e anche lo stesso verso.\nB) Complanari significa soltanto che giacciono nello stesso piano, e non dice nulla sulla direzione.\nC) I vettori perpendicolari formano un angolo retto, quindi non hanno la stessa direzione.\nE) Equiversi è sinonimo di concordi, quindi descrive il caso opposto a quello richiesto."
+      "spiegazione": "Avere la stessa direzione significa giacere su rette parallele; se i versi sono opposti i vettori si dicono discordi, e il modulo della loro somma è pari al valore assoluto della differenza dei moduli, cioè il minimo possibile.\n\nA) I vettori concordi hanno la stessa direzione e anche lo stesso verso.\nB) Opposti si dicono due vettori discordi che hanno anche lo stesso modulo: qui i moduli non sono specificati, quindi il termine è troppo restrittivo.\nC) I vettori perpendicolari formano un angolo retto, quindi non hanno la stessa direzione.\nE) Equiversi è sinonimo di concordi, quindi descrive il caso opposto a quello richiesto."
     },
     {
       "id": "u1-0078",

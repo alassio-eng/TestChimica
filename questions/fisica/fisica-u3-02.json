@@ -99,7 +99,7 @@
         "1000",
         "1 000"
       ],
-      "spiegazione": "Un grammo è 10⁻³ kg e un centimetro cubo è 10⁻⁶ m³: il rapporto vale 10⁻³/10⁻⁶ = 10³. Quindi 1 g/cm³ = 1000 kg/m³, che è all'incirca la densità dell'acqua. Il fattore 1000 vale in entrambi i versi della conversione."
+      "spiegazione": "Un grammo è 10⁻³ kg e un centimetro cubo è 10⁻⁶ m³: il rapporto vale 10⁻³/10⁻⁶ = 10³. Quindi 1 g/cm³ = 1000 kg/m³, che è all'incirca la densità dell'acqua. Nel verso opposto, da kg/m³ a g/cm³, si divide per 1000."
     },
     {
       "id": "u3-0058",
@@ -489,7 +489,7 @@
       "accettate": [
         "dinamica"
       ],
-      "spiegazione": "La pressione dinamica è il contributo legato al moto del fluido; il termine p è la pressione statica, o laterale, e il termine ρgh è il contributo di quota. La somma dei tre resta costante lungo un tubo di flusso: dove la pressione dinamica cresce, perché il fluido accelera, quella statica deve calare."
+      "spiegazione": "La pressione dinamica è il contributo legato al moto del fluido; il termine p è la pressione statica, o laterale, e il termine ρgh è il contributo di quota. La somma dei tre resta costante lungo un tubo di flusso: a quota costante, dove la pressione dinamica cresce, perché il fluido accelera, quella statica deve calare."
     },
     {
       "id": "u3-0085",
@@ -656,13 +656,13 @@
       "unita": "u3",
       "tipo": "completamento",
       "argomento": "Unità di misura della viscosità",
-      "testo": "Nel Sistema Internazionale la viscosità si misura in pascal per ……",
+      "testo": "Nel Sistema Internazionale l'unità di misura della viscosità dinamica è il prodotto del pascal per il ……",
       "accettate": [
         "secondo",
         "secondi",
         "s"
       ],
-      "spiegazione": "L'unità è il pascal per secondo inteso come prodotto, Pa·s (pascal·secondo), non come rapporto Pa/s. Nel sistema CGS si usa il poise, con 1 Pa·s = 10 poise. L'acqua a 20 °C ha viscosità di circa 1,0 × 10⁻³ Pa·s, cioè un centipoise."
+      "spiegazione": "L'unità è il pascal·secondo, Pa·s: un prodotto, non il rapporto Pa/s. Nel sistema CGS si usa il poise, con 1 Pa·s = 10 poise. L'acqua a 20 °C ha viscosità di circa 1,0 × 10⁻³ Pa·s, cioè un centipoise."
     },
     {
       "id": "u3-0098",

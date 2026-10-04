@@ -622,8 +622,6 @@
       "testo": "Per convenzione la sequenza di un filamento di acido nucleico si scrive e si legge dall'estremità 5' all'estremità ……",
       "accettate": [
         "3'",
-        "3",
-        "tre",
         "3 primo"
       ],
       "spiegazione": "Le sequenze si scrivono dall'estremità 5', che porta il fosfato libero, all'estremità 3', con l'ossidrile libero. È anche la direzione in cui la catena si allunga nella sintesi degli acidi nucleici: ogni nuovo nucleotide si lega all'ossidrile in 3' dell'ultimo.\nLa polarità deriva dai legami fosfodiestere 3'–5' che uniscono i nucleotidi."

@@ -451,11 +451,11 @@
       "unita": "u5",
       "tipo": "completamento",
       "argomento": "Isomeria cis-trans",
-      "testo": "Nell'isomero …… di un alchene i due sostituenti di riferimento si trovano dallo stesso lato del piano del doppio legame.",
+      "testo": "Nell'isomero …… di un alchene i due sostituenti di riferimento si trovano dalla stessa parte rispetto al doppio legame.",
       "accettate": [
         "cis"
       ],
-      "spiegazione": "Cis (nella nomenclatura E/Z corrisponde di norma all'isomero Z). Quando i sostituenti stanno da parti opposte l'isomero è trans (E). I due isomeri sono diastereoisomeri e hanno proprietà fisiche diverse."
+      "spiegazione": "Cis. Quando i sostituenti stanno da parti opposte l'isomero è trans. Nel but-2-ene cis coincide con Z e trans con E, ma in generale la corrispondenza non è automatica: E e Z si assegnano con le regole di priorità. I due isomeri sono diastereoisomeri e hanno proprietà fisiche diverse."
     },
     {
       "id": "u5-0083",

@@ -166,7 +166,7 @@
       "unita": "u6",
       "tipo": "multipla",
       "argomento": "Caderine",
-      "testo": "Le caderine mediano un'adesione:",
+      "testo": "Le caderine classiche, come l'E-caderina, mediano un'adesione:",
       "opzioni": [
         "eterofilica e dipendente dagli ioni calcio",
         "omofilica e indipendente dagli ioni calcio",
@@ -491,7 +491,7 @@
         "fosfolipasi",
         "fosfolipasi c"
       ],
-      "spiegazione": "La fosfolipasi C (isoforma β, attivata da Gq) taglia il PIP2 della membrana in due secondi messaggeri: l'IP3, idrosolubile, che diffonde nel citosol e libera Ca2+ dal reticolo endoplasmatico, e il diacilglicerolo, che resta in membrana e, insieme al Ca2+, attiva la proteina chinasi C."
+      "spiegazione": "La fosfolipasi C (isoforma β, attivata da Gq) taglia il PIP2 della membrana in due secondi messaggeri: l'IP3, idrosolubile, che diffonde nel citosol e libera Ca2+ dal reticolo endoplasmatico, e il diacilglicerolo, che resta in membrana e, insieme al Ca2+, attiva le isoforme classiche della proteina chinasi C."
     },
     {
       "id": "u6-0034",

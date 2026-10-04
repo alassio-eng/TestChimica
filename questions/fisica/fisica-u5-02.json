@@ -92,7 +92,7 @@
         "moltiplicando la costante dei gas R per la temperatura assoluta"
       ],
       "corretta": 2,
-      "spiegazione": "La costante di Boltzmann è la costante dei gas riferita a una singola particella invece che a una mole: k = R/N_A = 8,31/6,022 × 10²³ ≈ 1,38 × 10⁻²³ J/K.\n\nA) Il prodotto darebbe un valore enorme, dell'ordine di 10²⁴ J/K. Il passaggio dalla mole alla singola particella è una divisione.\nB) Il rapporto è rovesciato e il risultato non ha nemmeno le unità di misura di k, che sono J/K.\nD) k è una costante universale, uguale per qualunque sistema: non può dipendere dalla quantità di gas considerata.\nE) Il prodotto RT è un'energia per mole, non una costante: dipende dalla temperatura."
+      "spiegazione": "La costante di Boltzmann è la costante dei gas riferita a una singola particella invece che a una mole: k = R/N_A = 8,31/(6,022 × 10²³) ≈ 1,38 × 10⁻²³ J/K.\n\nA) Il prodotto darebbe un valore enorme, dell'ordine di 10²⁴ J/K. Il passaggio dalla mole alla singola particella è una divisione.\nB) Il rapporto è rovesciato e il risultato non ha nemmeno le unità di misura di k, che sono J/K.\nD) k è una costante universale, uguale per qualunque sistema: non può dipendere dalla quantità di gas considerata.\nE) Il prodotto RT è un'energia per mole, non una costante: dipende dalla temperatura."
     },
     {
       "id": "u5-0057",
@@ -232,7 +232,7 @@
       "unita": "u5",
       "tipo": "multipla",
       "argomento": "Curva di riscaldamento",
-      "testo": "Si fornisce calore a velocità costante a un blocco di ghiaccio a −20 °C, fino a trasformarlo tutto in vapore. Nel grafico della temperatura in funzione del tempo:",
+      "testo": "Si fornisce calore a velocità costante a un blocco di ghiaccio a −20 °C, a pressione atmosferica, fino a trasformarlo tutto in vapore. Nel grafico della temperatura in funzione del tempo:",
       "opzioni": [
         "la temperatura cresce in modo uniforme dall'inizio alla fine",
         "compare un solo tratto orizzontale, in corrispondenza dei 100 °C",
@@ -241,7 +241,7 @@
         "compaiono due tratti orizzontali, uno a 0 °C e uno a 100 °C"
       ],
       "corretta": 4,
-      "spiegazione": "I tratti orizzontali corrispondono ai due cambiamenti di stato, fusione ed ebollizione: il calore fornito è latente e la temperatura resta costante. Fra di essi e ai due estremi la temperatura cresce, con pendenze diverse perché i calori specifici di ghiaccio, acqua e vapore sono diversi.\n\nA) Ignora i cambiamenti di stato, durante i quali la temperatura non cambia pur continuando a fornire calore.\nB) Anche la fusione a 0 °C richiede calore latente e dà un tratto orizzontale.\nC) Il riscaldamento di una fase è continuo, non a gradini.\nD) A −20 °C non avviene alcun cambiamento di stato: è solo la temperatura iniziale. Il secondo tratto orizzontale è a 100 °C."
+      "spiegazione": "I tratti orizzontali corrispondono ai due cambiamenti di stato, fusione ed ebollizione: il calore fornito è latente e la temperatura resta costante. Prima della fusione e fra i due tratti orizzontali la temperatura cresce, con pendenze diverse perché i calori specifici del ghiaccio e dell'acqua sono diversi; il processo termina quando l'ultima acqua è evaporata.\n\nA) Ignora i cambiamenti di stato, durante i quali la temperatura non cambia pur continuando a fornire calore.\nB) Anche la fusione a 0 °C richiede calore latente e dà un tratto orizzontale.\nC) Il riscaldamento di una fase è continuo, non a gradini.\nD) A −20 °C non avviene alcun cambiamento di stato: è solo la temperatura iniziale. Il secondo tratto orizzontale è a 100 °C."
     },
     {
       "id": "u5-0067",
@@ -356,7 +356,7 @@
         "dipende dalla temperatura in gradi Celsius e si annulla a 0 °C"
       ],
       "corretta": 3,
-      "spiegazione": "La potenza irraggiata è proporzionale a T⁴, con T in kelvin: raddoppiando la temperatura assoluta diventa sedici volte maggiore. È il motivo per cui l'irraggiamento è trascurabile a bassa temperatura e dominante in un forno o in una fiamma.\n\nA) La dipendenza è molto più rapida di quella lineare.\nB) Il materiale influisce attraverso l'emissività, ma la temperatura resta il fattore determinante.\nC) Un corpo più caldo irraggia di più, non di meno.\nE) A 0 °C un corpo continua a irraggiare. L'emissione si annullerebbe solo allo zero assoluto, cioè a −273,15 °C."
+      "spiegazione": "La potenza irraggiata è proporzionale a T⁴, con T in kelvin: raddoppiando la temperatura assoluta diventa sedici volte maggiore. Per questo, al crescere della temperatura, l'irraggiamento diventa rapidamente il meccanismo dominante, come in un forno o in una fiamma; a temperatura corporea resta comunque una via importante di perdita di calore.\n\nA) La dipendenza è molto più rapida di quella lineare.\nB) Il materiale influisce attraverso l'emissività, ma la temperatura resta il fattore determinante.\nC) Un corpo più caldo irraggia di più, non di meno.\nE) A 0 °C un corpo continua a irraggiare. L'emissione si annullerebbe solo allo zero assoluto, cioè a −273,15 °C."
     },
     {
       "id": "u5-0075",
