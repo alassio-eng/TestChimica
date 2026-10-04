@@ -689,10 +689,10 @@
         "la rottura ossidativa dello scheletro polipeptidico",
         "la carbonilazione delle catene laterali di lisina e arginina",
         "la formazione di legami crociati fra residui di tirosina",
-        "la deaminazione delle catene laterali di asparagina"
+        "la deamidazione delle catene laterali di asparagina"
       ],
       "corretta": 0,
-      "spiegazione": "Due gruppi –SH di cisteina ossidati formano un ponte disolfuro. Questo può essere ridotto di nuovo a due –SH per scambio con tioli come il glutatione, che a loro volta si ossidano. È una delle poche modificazioni ossidative reversibili.\n\nB) La frammentazione della catena è irreversibile: i tioli non ricostruiscono un legame peptidico.\nC) L'introduzione di gruppi carbonilici è una modificazione irreversibile: le proteine carbonilate vengono degradate, non riparate.\nD) I legami covalenti fra anelli di tirosina (ditirosina) sono irreversibili.\nE) La deaminazione non è un'ossidazione, e i tioli non la invertono."
+      "spiegazione": "Due gruppi –SH di cisteina ossidati formano un ponte disolfuro. Questo può essere ridotto di nuovo a due –SH per scambio con tioli come il glutatione, che a loro volta si ossidano. È una delle poche modificazioni ossidative reversibili.\n\nB) La frammentazione della catena è irreversibile: i tioli non ricostruiscono un legame peptidico.\nC) L'introduzione di gruppi carbonilici è una modificazione irreversibile: le proteine carbonilate vengono degradate, non riparate.\nD) I legami covalenti fra anelli di tirosina (ditirosina) sono irreversibili.\nE) La deamidazione, che idrolizza il gruppo ammidico e trasforma l'asparagina in aspartato, non è un'ossidazione, e i tioli non la invertono."
     },
     {
       "id": "u7-0101",

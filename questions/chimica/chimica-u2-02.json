@@ -158,13 +158,13 @@
       "testo": "Due soluzioni separate da una membrana semipermeabile hanno osmolarità rispettivamente di 0,20 e 0,40 osmol/L. Il solvente si sposta prevalentemente:",
       "opzioni": [
         "dalla soluzione a 0,20 verso quella a 0,40 osmol/L",
-        "dalla soluzione a 0,40 verso quella a 0,20 soltanto se si applica una pressione",
+        "nessun flusso di solvente: è il soluto a passare dalla soluzione a 0,40 verso quella a 0,20",
         "in nessuna direzione, perché la membrana blocca anche il solvente",
         "dalla soluzione a 0,40 verso quella a 0,20 osmol/L",
         "in entrambe le direzioni, senza alcun flusso netto"
       ],
       "corretta": 0,
-      "spiegazione": "Il solvente si muove verso la soluzione più concentrata, cioè verso quella a 0,40 osmol/L, diluendola e riducendo la differenza di osmolarità. Detto in altri termini, l'acqua si sposta là dove la sua concentrazione è minore.\n\nB) Applicando pressione alla soluzione concentrata si può arrestare o invertire il flusso: è il principio dell'osmosi inversa, non il comportamento spontaneo.\nC) Una membrana semipermeabile lascia passare proprio il solvente.\nD) È la direzione opposta a quella spontanea.\nE) Il passaggio avviene nei due sensi, ma il flusso netto non è nullo finché le osmolarità restano diverse."
+      "spiegazione": "Il solvente si muove verso la soluzione più concentrata, cioè verso quella a 0,40 osmol/L, diluendola e riducendo la differenza di osmolarità. Detto in altri termini, l'acqua si sposta là dove la sua concentrazione è minore.\n\nB) Confonde l'osmosi con la diffusione: la membrana semipermeabile trattiene il soluto, e a muoversi è il solvente.\nC) Una membrana semipermeabile lascia passare proprio il solvente.\nD) È la direzione opposta a quella spontanea.\nE) Il passaggio avviene nei due sensi, ma il flusso netto non è nullo finché le osmolarità restano diverse."
     },
     {
       "id": "u2-0063",
@@ -187,13 +187,13 @@
       "unita": "u2",
       "tipo": "completamento",
       "argomento": "Tonicità",
-      "testo": "Una soluzione che ha la stessa pressione osmotica del plasma, e che quindi non provoca alcun movimento netto di acqua attraverso la membrana cellulare, si dice ……",
+      "testo": "Una soluzione che, a contatto con le cellule, non provoca alcun movimento netto di acqua attraverso la loro membrana si dice ……",
       "accettate": [
         "isotonica",
         "isotonico",
         "isotoniche"
       ],
-      "spiegazione": "Nelle soluzioni isotoniche le cellule mantengono volume e forma. È isotonica con il plasma la soluzione fisiologica (NaCl 0,9% p/V). La glucosata al 5% è isoosmotica al momento dell'infusione, ma il glucosio entra nelle cellule e viene metabolizzato: in pratica si comporta come acqua libera.\n\nUna soluzione con pressione osmotica maggiore è ipertonica e sottrae acqua alle cellule; una con pressione minore è ipotonica e ne provoca il rigonfiamento."
+      "spiegazione": "Nelle soluzioni isotoniche le cellule mantengono volume e forma. È isotonica con il plasma la soluzione fisiologica (NaCl 0,9% p/V). La tonicità descrive l'effetto sulle cellule, mentre l'isoosmoticità indica soltanto la stessa osmolarità: i due concetti coincidono solo se i soluti non attraversano la membrana. La glucosata al 5% è isoosmotica al momento dell'infusione ma non isotonica, perché il glucosio entra nelle cellule e viene metabolizzato: in pratica si comporta come acqua libera.\n\nUna soluzione con pressione osmotica maggiore è ipertonica e sottrae acqua alle cellule; una con pressione minore è ipotonica e ne provoca il rigonfiamento."
     },
     {
       "id": "u2-0065",

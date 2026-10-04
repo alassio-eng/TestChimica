@@ -8,7 +8,7 @@
       "unita": "u6",
       "tipo": "completamento",
       "argomento": "Nomenclatura degli alcoli",
-      "testo": "Nella nomenclatura IUPAC il suffisso che identifica un alcol, come in etanolo, è ……",
+      "testo": "Nella nomenclatura IUPAC il suffisso che identifica un alcol è ……",
       "accettate": [
         "-olo",
         "olo"
@@ -119,7 +119,7 @@
       "unita": "u6",
       "tipo": "completamento",
       "argomento": "Nomenclatura di aldeidi e chetoni",
-      "testo": "Nella nomenclatura IUPAC il suffisso che identifica un'aldeide, come in etanale, è ……",
+      "testo": "Nella nomenclatura IUPAC il suffisso che identifica un'aldeide è ……",
       "accettate": [
         "-ale",
         "ale"

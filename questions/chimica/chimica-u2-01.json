@@ -623,7 +623,7 @@
       "accettate": [
         "molare"
       ],
-      "spiegazione": "La superficie del liquido è in parte occupata da particelle di soluto non volatili: a parità di temperatura, un numero minore di molecole di solvente riesce a lasciare la fase liquida, e l'equilibrio si stabilisce a una pressione di vapore più bassa.\n\nÈ un effetto puramente statistico e non chimico: dipende dalla proporzione fra particelle di solvente e di soluto, non dalla natura del soluto."
+      "spiegazione": "Per la legge di Raoult la tensione di vapore della soluzione vale p = x(solvente) · p°: un soluto non volatile abbassa la frazione molare del solvente, e la tensione di vapore scende nella stessa proporzione. Il motivo di fondo è entropico: mescolato con il soluto, il solvente ha un'energia libera minore che allo stato puro e quindi una minore tendenza a passare in fase vapore.\n\nVa evitata la spiegazione secondo cui le particelle di soluto «occupano la superficie» del liquido e ostacolano l'evaporazione: l'effetto non dipende da dove si trovano le particelle, ma solo dal loro numero relativo. Per questo è un effetto statistico e non chimico: conta la proporzione fra particelle di solvente e di soluto, non la natura del soluto."
     },
     {
       "id": "u2-0045",

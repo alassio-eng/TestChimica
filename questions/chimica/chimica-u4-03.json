@@ -353,7 +353,7 @@
         "Ca",
         "Ca2+"
       ],
-      "spiegazione": "A differenza dell'acido urico, che precipita a pH acido, e del fosfato di calcio, che precipita a pH alcalino, l'ossalato di calcio è poco solubile su tutto l'intervallo di pH dell'urina: l'acido ossalico è già completamente dissociato ai pH urinari, per cui alcalinizzare o acidificare le urine non sposta l'equilibrio in modo utile."
+      "spiegazione": "A differenza dell'acido urico, che precipita a pH acido, e del fosfato di calcio, che precipita a pH alcalino, l'ossalato di calcio è poco solubile su tutto l'intervallo di pH dell'urina: l'acido ossalico (pKa₂ ≈ 4,2–4,3) ai pH urinari si trova già prevalentemente nella forma bivalente, l'ossalato, per cui alcalinizzare o acidificare le urine non sposta l'equilibrio in modo utile."
     },
     {
       "id": "u4-0077",
@@ -423,11 +423,11 @@
         "7,2",
         "8,2",
         "6,2",
-        "1,2",
+        "7,3",
         "7,0"
       ],
       "corretta": 2,
-      "spiegazione": "Nella coppia la base coniugata è HPO₄²⁻ e l'acido è H₂PO₄⁻. Il rapporto base/acido vale 0,010/0,10 = 0,1, il cui logaritmo è −1: pH = 7,2 − 1 = 6,2. L'eccesso della forma acida sposta il pH al di sotto del pKa.\n\nA) 7,2 sarebbe il pH di un tampone equimolare, con rapporto base/acido pari a 1.\nB) si ottiene sommando 1 invece di sottrarlo, cioè invertendo le due specie nel rapporto.\nD) nasce dall'uso del valore 0,1 al posto del suo logaritmo nell'equazione di Henderson-Hasselbalch.\nE) 7,0 è il pH dell'acqua pura a 25 °C e non ha alcun ruolo nel calcolo."
+      "spiegazione": "Nella coppia la base coniugata è HPO₄²⁻ e l'acido è H₂PO₄⁻. Il rapporto base/acido vale 0,010/0,10 = 0,1, il cui logaritmo è −1: pH = 7,2 − 1 = 6,2. L'eccesso della forma acida sposta il pH al di sotto del pKa.\n\nA) 7,2 sarebbe il pH di un tampone equimolare, con rapporto base/acido pari a 1.\nB) si ottiene sommando 1 invece di sottrarlo, cioè invertendo le due specie nel rapporto.\nD) nasce dall'uso del rapporto 0,1 al posto del suo logaritmo nell'equazione di Henderson-Hasselbalch: 7,2 + 0,1 = 7,3.\nE) 7,0 è il pH dell'acqua pura a 25 °C e non ha alcun ruolo nel calcolo."
     },
     {
       "id": "u4-0082",
@@ -612,7 +612,7 @@
         "0,42 V"
       ],
       "corretta": 3,
-      "spiegazione": "La forza elettromotrice si calcola come E°(catodo) − E°(anodo). La riduzione avviene sulla coppia con potenziale maggiore, cioè il rame: E° = +0,34 − (−0,76) = +1,10 V. Il valore positivo conferma che la reazione fra zinco metallico e ioni rameici è spontanea.\n\nA) ha il modulo giusto ma il segno sbagliato: deriva dall'avere scambiato catodo e anodo. Una cella galvanica in funzione ha sempre fem positiva.\nB) somma l'errore di segno a quello di calcolo del caso precedente.\nC) è il potenziale standard della sola coppia dello zinco, cambiato di segno: un singolo potenziale non è una forza elettromotrice.\nE) si ottiene sommando algebricamente i due potenziali anziché sottrarli, cioè sbagliando il segno del termine dell'anodo."
+      "spiegazione": "La forza elettromotrice si calcola come E°(catodo) − E°(anodo). La riduzione avviene sulla coppia con potenziale maggiore, cioè il rame: E° = +0,34 − (−0,76) = +1,10 V. Il valore positivo conferma che la reazione fra zinco metallico e ioni rameici è spontanea.\n\nA) ha il modulo giusto ma il segno sbagliato: deriva dall'avere scambiato catodo e anodo. Una cella galvanica in funzione ha sempre fem positiva.\nB) somma algebricamente i due potenziali (−0,76 + 0,34) invece di sottrarre il potenziale dell'anodo da quello del catodo.\nC) è il potenziale standard della sola coppia dello zinco, cambiato di segno: un singolo potenziale non è una forza elettromotrice.\nE) è la differenza dei moduli (0,76 − 0,34): ignora il segno negativo del potenziale dello zinco. Sottraendo correttamente −0,76 si ottiene +0,34 + 0,76."
     },
     {
       "id": "u4-0095",

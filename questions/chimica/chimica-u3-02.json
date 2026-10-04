@@ -187,7 +187,7 @@
         "6"
       ],
       "corretta": 2,
-      "spiegazione": "Se al raddoppio di [A] la velocità raddoppia, l'ordine rispetto ad A è 1, perché 2 elevato a 1 fa 2; se al raddoppio di [B] la velocità quadruplica, l'ordine rispetto a B è 2, perché 2 elevato a 2 fa 4. La legge cinetica è dunque v = k[A][B]^2 e l'ordine complessivo è la somma degli esponenti.\n\nA) riporta il solo ordine rispetto ad A, fermandosi alla prima osservazione.\nB) riporta il solo ordine rispetto a B.\nD) assume un ordine 2 rispetto a ciascun reagente, ignorando che rispetto ad A l'ordine è 1.\nE) moltiplica i due fattori di aumento della velocità invece di sommare gli esponenti."
+      "spiegazione": "Se al raddoppio di [A] la velocità raddoppia, l'ordine rispetto ad A è 1, perché 2 elevato a 1 fa 2; se al raddoppio di [B] la velocità quadruplica, l'ordine rispetto a B è 2, perché 2 elevato a 2 fa 4. La legge cinetica è dunque v = k[A][B]^2 e l'ordine complessivo è la somma degli esponenti.\n\nA) riporta il solo ordine rispetto ad A, fermandosi alla prima osservazione.\nB) riporta il solo ordine rispetto a B.\nD) assume un ordine 2 rispetto a ciascun reagente, ignorando che rispetto ad A l'ordine è 1.\nE) somma i due fattori di aumento della velocità (2 + 4) invece degli esponenti (1 + 2): i fattori dicono di quanto cresce la velocità, gli esponenti danno l'ordine."
     },
     {
       "id": "u3-0015",

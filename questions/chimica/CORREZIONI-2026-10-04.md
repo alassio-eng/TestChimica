@@ -29,3 +29,28 @@ Nessun id modificato, aggiunto o rimosso. Posizioni delle risposte corrette inva
 ## Formato spiegazioni
 - 29 spiegazioni di U1-U2 riscritte con una riga per distrattore (u1-0030 corretta anche nel merito: con 3 elettroni in 3 orbitali gli spaiati possono essere solo 1 o 3)
 - 23 spiegazioni di u4-03 riordinate in ordine alfabetico
+
+---
+
+# Seconda revisione — 4 ottobre 2026
+
+Revisione completa dei 700 quesiti. Nessun id modificato, aggiunto o rimosso. Posizioni delle risposte corrette invariate (A 72 · B 72 · C 73 · D 70 · E 66).
+
+## Errori nelle spiegazioni
+- u3-0014: riga E. Il 6 nasce dalla somma dei fattori (2 + 4), non dal loro prodotto (che darebbe 8).
+- u4-0094: righe B ed E. La somma algebrica dà −0,42 (B). Lo 0,42 dell'opzione E nasce dalla differenza dei moduli (0,76 − 0,34).
+- u4-0081: il distrattore D era 1,2, che non deriva dall'errore descritto. Ora è 7,3 (7,2 + 0,1, il rapporto usato al posto del suo logaritmo).
+
+## Quesiti riscritti
+- u2-0064: tolto «stessa pressione osmotica ... e quindi», che confondeva isotonica e isoosmotica. La spiegazione ora distingue i due concetti.
+- u6-0019, u6-0052, u6-0059: tolto dal testo l'esempio che conteneva la risposta («propanone», «etanolo», «etanale»).
+
+## Imprecisioni corrette
+- u4-0076: l'acido ossalico non è «completamente» dissociato ai pH urinari (pKa₂ ≈ 4,2–4,3). Ora: «prevalentemente nella forma bivalente».
+- u7-0100: opzione E e spiegazione, «deaminazione» corretta in «deamidazione» dell'asparagina.
+- u2-0044: spiegazione riscritta con la legge di Raoult. Eliminato il modello del soluto che «occupa la superficie».
+- u2-0062: il distrattore B (osmosi inversa, vero sotto condizioni) è sostituito con la confusione fra osmosi e diffusione.
+
+## Restano aperti (non toccati)
+- Formule senza pedici in 8 quesiti di U3 e 30 di U6 (CO2, C3H8, ->): differenza solo grafica.
+- Argomenti del syllabus senza un quesito dedicato: equilibri multipli (U3), tautomeria dell'urato (U6), proteine ed emoglobina come tamponi (U4).
