@@ -18,6 +18,9 @@ const MAX_RIPASSO = 31;                  // tetto per i test di errori e ripasso
 const GIORNO = 86400000;
 const RIPASSO_1 = 3 * GIORNO;
 const RIPASSO_2 = 10 * GIORNO;
+// deve coincidere con VERSIONE in sw.js: la mostra «Dati e backup», così si
+// vede subito quale versione dell'app sta girando sul dispositivo
+const APP_VERSIONE = 'v13';
 const STORE_KEY = 'bancoChimica.v1';     // slot storico: il contenuto è migrato, non la chiave
 const MATERIA_KEY = 'bancoChimica.materia';
 const SCHEMA_STATO = 2;
@@ -550,7 +553,12 @@ function componiTestDaElenco(chiavi, limite) {
 const VIEWS = ['home', 'test', 'results', 'browse', 'errors', 'stats', 'data'];
 let vistaCorrente = 'home';
 
+let aggiornamentoInSospeso = false;
+
 function mostra(vista, titolo) {
+  // una versione nuova arrivata durante un test si applica al ritorno in home,
+  // per non far perdere le risposte date
+  if (vista === 'home' && aggiornamentoInSospeso) { location.reload(); return; }
   vistaCorrente = vista;
   VIEWS.forEach(v => { $('#view-' + v).hidden = (v !== vista); });
   $('#topbar-title').textContent = titolo || ('Banco domande · ' + (M() ? M().nome : 'semestre filtro'));
@@ -1384,6 +1392,7 @@ function renderDati() {
       `${m.nome}: ${m.domande.length} domande da ${m.lotti.length} ${plur(m.lotti.length, 'lotto', 'lotti')} — ${dett}` +
       (m.appelli.length ? ` · più ${m.ufficiali.length} quesiti di ${m.appelli.length} ${plur(m.appelli.length, 'appello ufficiale', 'appelli ufficiali')}` : '')));
   }
+  info.appendChild(el('p', null, `Versione dell'app: ${APP_VERSIONE}.`));
   $('#import-result').textContent = '';
 }
 
@@ -1497,7 +1506,33 @@ function collega() {
 
 function registraServiceWorker() {
   if (!('serviceWorker' in navigator)) return;
+
+  // Quando il service worker nuovo prende il controllo, la pagina sta ancora
+  // usando il guscio vecchio (app.js, style.css): si ricarica una volta, così
+  // la versione pubblicata compare alla prima apertura e non alla seconda.
+  // Alla prima installazione non c'è nulla da ricaricare.
+  const avevaController = !!navigator.serviceWorker.controller;
+  let gestito = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!avevaController || gestito) return;
+    gestito = true;
+    if (vistaCorrente === 'test' && sessione) {
+      aggiornamentoInSospeso = true;
+      toast('È pronta una versione nuova dell\'app: si applica quando torni alla schermata iniziale.');
+      return;
+    }
+    location.reload();
+  });
+
   const reg = () => navigator.serviceWorker.register('sw.js')
+    .then(r => {
+      // Un'app installata riaperta dallo sfondo non naviga, quindi il browser
+      // non controlla se c'è un service worker nuovo: lo si chiede ogni volta
+      // che l'app torna in primo piano.
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') r.update().catch(() => {});
+      });
+    })
     .catch(e => console.warn('Service worker non registrato', e));
   if (document.readyState === 'complete') reg();
   else window.addEventListener('load', reg, { once: true });

@@ -6,7 +6,7 @@
    si leggono gli indici delle singole materie e da lì i loro lotti e i
    loro appelli ufficiali. */
 
-const VERSIONE = 'v12';
+const VERSIONE = 'v13';
 const CACHE_SHELL = 'banco-chimica-shell-' + VERSIONE;
 const CACHE_DATI = 'banco-chimica-dati-' + VERSIONE;
 

@@ -1,11 +1,9 @@
-# Delta: nuova icona (caduceo)
+# Delta: aggiornamento automatico della PWA (v13)
 
-Carica sovrascrivendo:
-- icons/icon-180.png, icon-192.png, icon-512.png, icon-maskable-512.png
-- index.html, manifest.webmanifest   (link alle icone con ?v=2, per forzarne il ricaricamento)
-- sw.js                              (versione v12: rimette in cache il guscio con le icone nuove)
+Carica sovrascrivendo app.js e sw.js.
 
-Sul telefono l'icona dell'app installata può restare la vecchia per un po':
-se non cambia, rimuovi l'app dalla schermata Home e aggiungila di nuovo.
+- Riaperta dallo sfondo, l'app controlla se c'è una versione nuova e si ricarica da sola.
+- Se c'è un test in corso, l'aggiornamento aspetta il ritorno alla schermata iniziale.
+- In «Dati e backup» compare la versione che sta girando: dopo il caricamento deve dire v13.
 
 Questo file non va caricato.
