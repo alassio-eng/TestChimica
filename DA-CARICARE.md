@@ -1,18 +1,11 @@
-# Delta: appelli ufficiali 2025
+# Delta: nuova icona (caduceo)
 
-Carica le cartelle così come sono, sovrascrivendo i file esistenti.
+Carica sovrascrivendo:
+- icons/icon-180.png, icon-192.png, icon-512.png, icon-maskable-512.png
+- index.html, manifest.webmanifest   (link alle icone con ?v=2, per forzarne il ricaricamento)
+- sw.js                              (versione v12: rimette in cache il guscio con le icone nuove)
 
-App
-- index.html, app.js, style.css, sw.js   (sezione «Appelli ufficiali», filtro «Fonte»
-                                          nello sfoglio, service worker v11)
-
-Domande
-- questions/<materia>/appelli/          NUOVE cartelle, 2 file per materia (31 quesiti l'uno)
-- questions/<materia>/index.json        registrano gli appelli
-
-Strumenti e documentazione
-- tools/valida.py, README.md, SPEC-NUOVA-MATERIA.md
-
-Banco invariato: nessun lotto toccato, nessun id cambiato.
+Sul telefono l'icona dell'app installata può restare la vecchia per un po':
+se non cambia, rimuovi l'app dalla schermata Home e aggiungila di nuovo.
 
 Questo file non va caricato.
