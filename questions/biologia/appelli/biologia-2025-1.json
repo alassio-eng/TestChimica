@@ -1,0 +1,463 @@
+{
+  "appello": "biologia-2025-1",
+  "materia": "biologia",
+  "nome": "1° appello",
+  "data": "2025-11-20",
+  "fonte": "Semestre filtro 2025: testi e chiavi della prova ufficiale. Spiegazioni originali del banco.",
+  "domande": [
+    {
+      "id": "app25-1-01",
+      "numero": 1,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Smistamento degli enzimi lisosomiali",
+      "testo": "Dove vengono specificamente riconosciute e modificate le idrolasi destinate al compartimento lisosomiale?",
+      "opzioni": [
+        "Corpi multivescicolari",
+        "Compartimento intermedio",
+        "Granuli di secrezione",
+        "Reticolo endoplasmatico rugoso",
+        "Cis-Golgi"
+      ],
+      "corretta": 4,
+      "spiegazione": "Nel cis-Golgi una fosfotransferasi riconosce le idrolasi lisosomiali e aggiunge un gruppo N-acetilglucosammina-fosfato a residui di mannosio delle loro catene oligosaccaridiche; rimossa poi la N-acetilglucosammina, il mannosio-6-fosfato esposto è il segnale letto dai recettori del trans-Golgi, che le indirizzano agli endosomi e poi ai lisosomi.\n\nA) I corpi multivescicolari sono endosomi tardivi: le idrolasi ci arrivano già marcate.\nB) Il compartimento intermedio fra reticolo e Golgi è una stazione di transito, non il luogo del riconoscimento.\nC) I granuli di secrezione appartengono alla via di secrezione regolata, che porta fuori dalla cellula.\nD) Nel reticolo rugoso le idrolasi vengono sintetizzate e glicosilate, ma il segnale del mannosio-6-fosfato è aggiunto più avanti, nel cis-Golgi."
+    },
+    {
+      "id": "app25-1-02",
+      "numero": 2,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Codominanza nel sistema AB0",
+      "testo": "Il sistema dei gruppi sanguigni AB0 è un classico esempio di:",
+      "opzioni": [
+        "Dominanza incompleta",
+        "Eredità legata all'X",
+        "Codominanza",
+        "Eredità poligenica",
+        "Penetranza incompleta"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nell'eterozigote IᴬIᴮ entrambi gli alleli si esprimono pienamente: sui globuli rossi compaiono sia l'antigene A sia l'antigene B, e il gruppo è AB. È la codominanza; l'allele i, che non produce antigene, è invece recessivo rispetto agli altri due.\n\nA) Nella dominanza incompleta l'eterozigote ha un fenotipo intermedio, non entrambi i fenotipi.\nB) Il gene AB0 sta su un autosoma, il cromosoma 9.\nD) Il carattere dipende da un solo gene, con più alleli: è allelia multipla, non eredità poligenica.\nE) La penetranza riguarda la frequenza con cui un genotipo si manifesta, non il rapporto fra i due alleli dell'eterozigote, che è ciò che il quesito chiede."
+    },
+    {
+      "id": "app25-1-03",
+      "numero": 3,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Ligasi dell'ubiquitina E3",
+      "testo": "Tre classi di proteine E (E1, E2, E3), nella via dell'ubiquitinazione, giocano un ruolo fondamentale nel processo di degradazione proteica. In particolare, le proteine E3:",
+      "opzioni": [
+        "Riconoscono le proteine da degradare e le legano all'ubiquitina, marcandole così per la degradazione nel proteasoma",
+        "Agiscono da enzimi attivatori dell'ubiquitina",
+        "Trasportano le proteine ubiquitinate a livello dei lisosomi per la degradazione",
+        "Trasportano l'ubiquitina al proteasoma",
+        "Degradano direttamente le proteine marcate con ubiquitina"
+      ],
+      "corretta": 0,
+      "spiegazione": "E1 attiva l'ubiquitina con consumo di ATP, E2 la riceve e la porta, E3 è la ligasi che riconosce il substrato e vi trasferisce l'ubiquitina. Le E3 sono moltissime ed è da loro che dipende quale proteina venga marcata per il proteasoma.\n\nB) L'attivazione dell'ubiquitina è il compito delle E1.\nC) Le E3 marcano il substrato ma non lo trasportano; nella via descritta dal quesito la proteina marcata è degradata dal proteasoma.\nD) Le E3 non portano l'ubiquitina al proteasoma: la trasferiscono sul substrato, ed è la proteina poliubiquitinata a essere riconosciuta dal proteasoma.\nE) La degradazione è opera del proteasoma, non degli enzimi della marcatura."
+    },
+    {
+      "id": "app25-1-04",
+      "numero": 4,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Fasi della mitosi",
+      "testo": "Lo stadio della mitosi in cui i cromosomi si allineano sulla piastra equatoriale tra i due poli del fuso è chiamato……, mentre quello in cui i cromosomi iniziano a separarsi è chiamato…",
+      "opzioni": [
+        "Profase, telofase",
+        "Metafase, profase",
+        "Profase, anafase",
+        "Metafase, telofase",
+        "Metafase, anafase"
+      ],
+      "corretta": 4,
+      "spiegazione": "In metafase i cromosomi, agganciati al fuso per i cinetocori, si dispongono sulla piastra equatoriale; in anafase i cromatidi fratelli si separano e migrano verso i poli opposti.\n\nA) In profase i cromosomi si condensano ma non sono ancora allineati; in telofase la separazione è già conclusa.\nB) La prima metà è giusta, ma la profase precede la metafase e non è la fase della separazione.\nC) In profase non c'è ancora allineamento sulla piastra.\nD) In telofase i cromatidi hanno già raggiunto i poli e si riformano gli involucri nucleari."
+    },
+    {
+      "id": "app25-1-05",
+      "numero": 5,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Estensione delle membrane cellulari",
+      "testo": "Nella grande maggioranza delle cellule somatiche di un organismo: 1) la membrana plasmatica è meno estesa della membrana del reticolo endoplasmatico, 2) la membrana nucleare esterna è parte del reticolo endoplasmatico, 3) la membrana mitocondriale interna è quantitativamente più estesa della membrana mitocondriale esterna.",
+      "opzioni": [
+        "Tutte le affermazioni sono esatte",
+        "Solo la 1 e la 2 sono esatte",
+        "Solo la 1 e la 3 sono esatte",
+        "Solo la 2 è esatta",
+        "Solo la 1 è esatta"
+      ],
+      "corretta": 0,
+      "spiegazione": "1) Il reticolo endoplasmatico è il sistema di membrane più esteso della cellula: in un epatocita supera di molte volte la superficie della membrana plasmatica.\n2) La membrana nucleare esterna è in continuità con il reticolo rugoso e porta ribosomi: ne fa parte.\n3) La membrana mitocondriale interna è ripiegata nelle creste e ha una superficie molto maggiore di quella esterna.\n\nB), C), D) ed E) Ciascuna esclude almeno un'affermazione vera."
+    },
+    {
+      "id": "app25-1-06",
+      "numero": 6,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Maturazione del pre-mRNA",
+      "testo": "I meccanismi di maturazione del pre-mRNA negli eucarioti comprendono:",
+      "opzioni": [
+        "Splicing",
+        "Aggiunta di una coda di poli(A) all'estremità 3' dell'mRNA",
+        "Aggiunta di un cappuccio di 7-metilguanosina all'estremità 5' dell'mRNA",
+        "Tutte le risposte sono corrette",
+        "Splicing alternativo"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il trascritto primario diventa mRNA maturo con l'aggiunta del cappuccio in 5', la rimozione degli introni per splicing e la poliadenilazione in 3'. Lo splicing alternativo è una variante dello splicing che ricava messaggeri diversi dallo stesso trascritto.\n\nA), B), C) ed E) Sono tutti meccanismi reali di maturazione, ma ciascuno da solo è una risposta incompleta."
+    },
+    {
+      "id": "app25-1-07",
+      "numero": 7,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Amminoacil-tRNA sintetasi",
+      "testo": "Le amminoacil-tRNA sintetasi:",
+      "opzioni": [
+        "Idrolizzano GTP per catalizzare il legame tra l'amminoacido e il suo tRNA",
+        "Sono in numero pari ai diversi tRNA sintetizzati nella cellula",
+        "Sono enzimi processivi",
+        "Catalizzano il legame del gruppo NH₂ di uno specifico amminoacido con l'estremità 3'-OH della sequenza CCA terminale del tRNA",
+        "Catalizzano il legame del gruppo COOH di uno specifico amminoacido con l'estremità 3'-OH della sequenza CCA terminale del tRNA"
+      ],
+      "corretta": 4,
+      "spiegazione": "La sintetasi attiva l'amminoacido con ATP e lo lega con un legame estere fra il suo carbossile e l'ossidrile dell'adenosina terminale della sequenza CCA del tRNA. Il gruppo amminico resta libero: servirà a formare il legame peptidico.\n\nA) L'energia viene dall'ATP, non dal GTP, che serve invece ai fattori della traduzione.\nB) Di norma c'è una sintetasi per ciascun amminoacido, mentre i tRNA sono più numerosi: una sintetasi carica tutti i tRNA dello stesso amminoacido.\nC) Non sono processive: caricano un tRNA alla volta e lo rilasciano.\nD) Il gruppo coinvolto è il carbossile, non l'ammino."
+    },
+    {
+      "id": "app25-1-08",
+      "numero": 8,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Fibra da 11 nm",
+      "testo": "La struttura «a collana di perle» vede:",
+      "opzioni": [
+        "Il DNA nudo (spessore 20 nm)",
+        "Il DNA avvolto intorno ai nucleosomi (spessore 30 nm)",
+        "Il DNA avvolto intorno ai nucleosomi (spessore 11 nm)",
+        "Il DNA avvolto intorno all'istone H1 (spessore 5 nm)",
+        "Il DNA nudo (spessore 30 nm)"
+      ],
+      "corretta": 2,
+      "spiegazione": "La collana di perle è la fibra da 11 nm: il DNA si avvolge attorno a ottameri di istoni, le perle, collegate da tratti di DNA linker, il filo.\n\nA) e E) Il DNA nudo ha un diametro di circa 2 nm.\nB) La fibra da 30 nm è il livello successivo, in cui i nucleosomi si impacchettano con l'aiuto dell'istone H1.\nD) H1 si lega al DNA linker fuori dall'ottamero: il DNA non si avvolge attorno a H1."
+    },
+    {
+      "id": "app25-1-09",
+      "numero": 9,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Segnalazione paracrina",
+      "testo": "Si definisce paracrina:",
+      "opzioni": [
+        "Lo scambio di segnali elettrici tra neuroni tramite sinapsi",
+        "La comunicazione intercellulare basata su molecole segnale che agiscono su cellule vicine alla cellula che le rilascia",
+        "La comunicazione tra virus e batteri",
+        "La comunicazione intercellulare basata su molecole segnale che agiscono su cellule molto lontane rispetto alla cellula che le rilascia",
+        "La comunicazione basata su molecole segnale che agiscono sulla stessa cellula che le rilascia"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nella segnalazione paracrina il segnale diffonde per un breve tratto nel liquido interstiziale e agisce sulle cellule vicine, come i fattori di crescita o i mediatori locali dell'infiammazione.\n\nA) La comunicazione fra neuroni è sinaptica, e alla sinapsi chimica il segnale è un neurotrasmettitore.\nC) Non è una categoria della segnalazione cellulare.\nD) Il segnale che raggiunge bersagli lontani attraverso il sangue è endocrino.\nE) Il segnale che agisce sulla cellula stessa che lo rilascia è autocrino."
+    },
+    {
+      "id": "app25-1-10",
+      "numero": 10,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Transizioni e transversioni",
+      "testo": "Una mutazione che modifica il codone UCA in UGA è denominata:",
+      "opzioni": [
+        "Transizione",
+        "Traslocazione",
+        "Mutazione missenso",
+        "Mutazione silente",
+        "Transversione"
+      ],
+      "corretta": 4,
+      "spiegazione": "La seconda base passa da C a G: una pirimidina sostituita da una purina. Lo scambio fra le due classi di basi si chiama transversione.\n\nA) Una transizione scambia una purina con un'altra purina, o una pirimidina con un'altra, come C con U.\nB) La traslocazione è un riarrangiamento cromosomico, non la sostituzione di una base.\nC) UCA codifica serina e UGA è un codone di stop: è una mutazione non senso, non missenso.\nD) Una mutazione silente lascia invariato l'amminoacido; qui la catena si interrompe.\n\nNota: la mutazione è anche non senso, opzione che il quesito non offre; fra quelle proposte la sola esatta descrive il tipo di sostituzione."
+    },
+    {
+      "id": "app25-1-11",
+      "numero": 11,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Componenti della matrice extracellulare",
+      "testo": "La matrice extracellulare è composta da:",
+      "opzioni": [
+        "Proteine istoniche",
+        "Proteoglicani, glicosamminoglicani, proteine strutturali e proteine di adesione",
+        "Fosfolipidi e colesterolo",
+        "Molecole di tubulina",
+        "Filamenti di actina"
+      ],
+      "corretta": 1,
+      "spiegazione": "La matrice extracellulare comprende glicosamminoglicani e proteoglicani, che formano un gel idratato, proteine strutturali come collagene ed elastina, e proteine di adesione come fibronectina e laminina, che la collegano alle cellule.\n\nA) Gli istoni stanno nel nucleo, associati al DNA.\nC) Fosfolipidi e colesterolo sono componenti delle membrane.\nD) La tubulina forma i microtubuli del citoscheletro.\nE) I filamenti di actina appartengono al citoscheletro, all'interno della cellula."
+    },
+    {
+      "id": "app25-1-12",
+      "numero": 12,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Parete dei batteri Gram-positivi e Gram-negativi",
+      "testo": "Considerando le principali differenze strutturali tra le pareti cellulari dei batteri Gram-positivi e Gram-negativi, quale delle seguenti affermazioni è corretta?",
+      "opzioni": [
+        "La disposizione di flagelli e pili",
+        "La presenza di lipopolisaccaridi nei Gram positivi e di acido teicoico nei Gram negativi",
+        "Nessuna delle affermazioni enunciate è corretta",
+        "Il diverso spessore dello strato di peptidoglicano e l'assenza della membrana esterna nei Gram-positivi e la sua presenza nei Gram-negativi",
+        "L'assenza di pili e flagelli nei Gram-negativi e la presenza nei Gram positivi"
+      ],
+      "corretta": 3,
+      "spiegazione": "I Gram-positivi hanno uno strato spesso di peptidoglicano e nessuna membrana esterna; i Gram-negativi hanno un peptidoglicano sottile, racchiuso fra la membrana plasmatica e una membrana esterna ricca di lipopolisaccaride. È questa struttura a determinare la colorazione di Gram.\n\nA) Flagelli e pili non fanno parte della parete e non distinguono i due gruppi.\nB) È invertita: il lipopolisaccaride è dei Gram-negativi, gli acidi teicoici dei Gram-positivi.\nC) L'affermazione D è corretta.\nE) Pili e flagelli si trovano in entrambi i gruppi."
+    },
+    {
+      "id": "app25-1-13",
+      "numero": 13,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Caratteristiche comuni dei virus",
+      "testo": "Tutti i virus….",
+      "opzioni": [
+        "Hanno come acido nucleico il DNA",
+        "Infettano cellule",
+        "Infettano solo cellule eucariotiche",
+        "Hanno come acido nucleico l'RNA",
+        "Infettano solo cellule animali"
+      ],
+      "corretta": 1,
+      "spiegazione": "I virus sono parassiti endocellulari obbligati: senza una cellula ospite non si replicano. È l'unica proprietà comune a tutti fra quelle elencate.\n\nA) e D) Il genoma virale può essere a DNA o a RNA, mai entrambi.\nC) I batteriofagi infettano cellule procariotiche.\nE) Esistono virus delle piante, dei funghi e dei batteri."
+    },
+    {
+      "id": "app25-1-14",
+      "numero": 14,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Segnali di localizzazione nucleare",
+      "testo": "I segnali che determinano l'import e l'export delle proteine nel e dal nucleo",
+      "opzioni": [
+        "Formano alfa-eliche amfipatiche con cariche negative",
+        "Non vengono rimossi al termine del processo",
+        "Legano sequenze GF delle proteine del poro nucleare",
+        "Coinvolgono, rispettivamente, RAN-GAP e RAN-GEF",
+        "Sono riconosciuti dalle proteine della lamina nucleare"
+      ],
+      "corretta": 1,
+      "spiegazione": "I segnali di localizzazione e di esportazione nucleare restano nella proteina: molte proteine fanno la spola fra nucleo e citoplasma, e dopo ogni mitosi devono essere reimportate nel nucleo che si riforma.\n\nA) Le eliche anfipatiche, peraltro con cariche positive, sono le presequenze mitocondriali; i segnali nucleari classici sono brevi tratti ricchi di lisina e arginina.\nC) Le ripetizioni FG delle nucleoporine sono legate dai recettori di trasporto, importine ed esportine, non dai segnali.\nD) RanGAP e RanGEF mantengono il gradiente di Ran-GTP che dà direzione al trasporto, ma non sono ciò che riconosce i segnali.\nE) I segnali sono riconosciuti da importine ed esportine; la lamina non partecipa al trasporto."
+    },
+    {
+      "id": "app25-1-15",
+      "numero": 15,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Composizione dei cromosomi",
+      "testo": "I cromosomi sono costituiti da",
+      "opzioni": [
+        "Solo DNA",
+        "Solo RNA",
+        "DNA e lipidi",
+        "RNA e proteine",
+        "DNA e proteine"
+      ],
+      "corretta": 4,
+      "spiegazione": "Un cromosoma eucariotico è una molecola di DNA associata a proteine, istoniche e non istoniche: l'insieme è la cromatina.\n\nA) Il DNA da solo non è un cromosoma: le proteine ne determinano l'organizzazione.\nB) e D) L'RNA non è il materiale genetico dei cromosomi cellulari.\nC) I lipidi non fanno parte della cromatina."
+    },
+    {
+      "id": "app25-1-16",
+      "numero": 16,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Sindrome 47,XYY",
+      "testo": "Nella specie Homo sapiens la disomia del cromosoma Y (47,XYY) è generalmente associata a un fenotipo maschile ……",
+      "accettate": [
+        "normale"
+      ],
+      "spiegazione": "Gli individui 47,XYY sono di norma maschi fertili con fenotipo sostanzialmente normale, spesso più alti della media; molti non sanno di avere il cromosoma in più. Il cromosoma Y porta pochi geni, e l'eccesso è ben tollerato.\n\nLa statura elevata è un tratto frequente, ma il termine atteso è «normale»."
+    },
+    {
+      "id": "app25-1-17",
+      "numero": 17,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Composizione di un nucleotide",
+      "testo": "Il nucleotide denominato dAMP è composto da una molecola di 2'-deossi-D-ribosio, una molecola di …… ed un gruppo fosfato.",
+      "accettate": [
+        "adenina"
+      ],
+      "spiegazione": "dAMP è il desossiadenosina monofosfato: la base adenina, lo zucchero 2'-desossiribosio e un fosfato. La d iniziale indica il desossiribosio, cioè un nucleotide del DNA."
+    },
+    {
+      "id": "app25-1-18",
+      "numero": 18,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Importazione nella matrice mitocondriale",
+      "testo": "La traslocazione da parte del complesso TIM23 di proteine attraverso la membrana interna mitocondriale è favorita dal potenziale di membrana della membrana interna perché amminoacidi carichi …… sono presenti nella sequenza segnale delle proteine da traslocare.",
+      "accettate": [
+        "positivamente",
+        "positivi"
+      ],
+      "spiegazione": "La presequenza mitocondriale è un'elica anfipatica ricca di residui basici, carichi positivamente. Il lato della matrice della membrana interna è negativo, per il pompaggio di protoni della catena respiratoria: il campo elettrico attira la presequenza attraverso TIM23."
+    },
+    {
+      "id": "app25-1-19",
+      "numero": 19,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Fase S",
+      "testo": "Nelle cellule eucariotiche, la duplicazione del DNA si verifica durante la fase …… del ciclo cellulare.",
+      "accettate": [
+        "S",
+        "sintesi"
+      ],
+      "spiegazione": "Il ciclo cellulare comprende G1, S, G2 e la mitosi. La fase S, di sintesi, è quella in cui il DNA si replica: al termine ogni cromosoma è formato da due cromatidi fratelli."
+    },
+    {
+      "id": "app25-1-20",
+      "numero": 20,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Importazione post-traduzionale nei mitocondri",
+      "testo": "Le proteine neosintetizzate destinate ai …… sono traslocate una volta ultimata la loro sintesi ma prima di avere acquisito la corretta struttura tridimensionale.",
+      "accettate": [
+        "mitocondri",
+        "mitocondrio"
+      ],
+      "spiegazione": "Le proteine mitocondriali codificate dal nucleo sono sintetizzate sui ribosomi liberi del citosol e importate dopo la traduzione, mantenute non ripiegate da chaperon citosolici: i pori TOM e TIM lasciano passare solo catene distese. Le proteine nucleari e perossisomiali invece possono essere importate già ripiegate.\n\nNelle cellule vegetali lo stesso vale per i cloroplasti; per una cellula animale la risposta è «mitocondri»."
+    },
+    {
+      "id": "app25-1-21",
+      "numero": 21,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Primasi",
+      "testo": "Nella replicazione del DNA l'enzima che sintetizza brevi frammenti di RNA, detti primer, che servono come innesco per l'azione della DNA polimerasi, è la ……",
+      "accettate": [
+        "primasi"
+      ],
+      "spiegazione": "Nessuna DNA polimerasi sa iniziare una catena: serve un'estremità 3'-OH già presente. La primasi, una RNA polimerasi specializzata, sintetizza il breve innesco; uno solo sul filamento continuo, uno per ogni frammento di Okazaki sul filamento in ritardo."
+    },
+    {
+      "id": "app25-1-22",
+      "numero": 22,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Complesso OXA",
+      "testo": "Le poche proteine di membrana codificate dal DNA mitocondriale e tradotte nella matrice mitocondriale sono inserite nella membrana interna del mitocondrio grazie al complesso di traslocazione …… (usare l'acronimo).",
+      "accettate": [
+        "OXA",
+        "OXA1"
+      ],
+      "spiegazione": "Il complesso OXA inserisce nella membrana interna, partendo dalla matrice, le proteine sintetizzate dai ribosomi mitocondriali, tutte subunità della catena respiratoria e dell'ATP sintasi. TOM e TIM servono invece alle proteine che arrivano dal citosol."
+    },
+    {
+      "id": "app25-1-23",
+      "numero": 23,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Cromosomi nei gameti",
+      "testo": "Nelle cellule germinali umane mature sono presenti …… cromosomi monocromatidici.",
+      "accettate": [
+        "23",
+        "ventitré"
+      ],
+      "spiegazione": "I gameti maturi sono aploidi: un cromosoma per ciascuna delle 23 coppie. Al termine della seconda divisione meiotica i cromatidi fratelli si sono separati, quindi ogni cromosoma è formato da un solo cromatidio.\n\nVale pienamente per lo spermatozoo; l'ovocita ovulato è bloccato in metafase II e completa la seconda divisione solo dopo la fecondazione."
+    },
+    {
+      "id": "app25-1-24",
+      "numero": 24,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Acido ialuronico",
+      "testo": "L'acido …… è una macromolecola della matrice extracellulare che appartiene alla famiglia dei glicosamminoglicani.",
+      "accettate": [
+        "ialuronico",
+        "ialuronato"
+      ],
+      "spiegazione": "L'acido ialuronico è un glicosamminoglicano molto lungo e non solforato, l'unico che non è legato covalentemente a una proteina centrale, cioè non forma un proteoglicano, e che viene sintetizzato direttamente sulla membrana plasmatica; fa da asse a cui si associano proteoglicani come l'aggrecano. Trattiene grandi quantità d'acqua e conferisce alla matrice resistenza alla compressione."
+    },
+    {
+      "id": "app25-1-25",
+      "numero": 25,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Promotore",
+      "testo": "La sequenza segnale, tipicamente presente a monte di un gene, che consente l'inizio della trascrizione è il ……",
+      "accettate": [
+        "promotore"
+      ],
+      "spiegazione": "Il promotore è la sequenza su cui si assemblano l'RNA polimerasi e, negli eucarioti, i fattori generali di trascrizione. Si trova per lo più a monte del sito d'inizio e definisce il punto e il filamento da cui parte la sintesi dell'RNA."
+    },
+    {
+      "id": "app25-1-26",
+      "numero": 26,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "TATA box",
+      "testo": "Negli eucarioti, la regione del promotore di un gene che fornisce un sito di legame per i fattori generali di trascrizione facilitando il reclutamento della RNA polimerasi II viene definita …… box.",
+      "accettate": [
+        "TATA"
+      ],
+      "spiegazione": "La TATA box, ricca di adenine e timine, si trova circa 25-30 basi a monte del sito di inizio. È riconosciuta dalla proteina TBP del fattore TFIID, il primo passo del montaggio del complesso di preinizio."
+    },
+    {
+      "id": "app25-1-27",
+      "numero": 27,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Cascata di trasduzione del segnale",
+      "testo": "Nel processo di trasduzione del segnale, un ligando extracellulare si lega a un recettore specifico, innescando una …… di eventi intracellulari che convertono il segnale esterno in una risposta biologica specifica.",
+      "accettate": [
+        "cascata"
+      ],
+      "spiegazione": "Il recettore attivato mette in moto una serie di passaggi in successione, come l'attivazione di proteine G, la produzione di secondi messaggeri e la fosforilazione di chinasi a catena. Ogni passaggio può attivare molte molecole del successivo: la cascata amplifica il segnale."
+    },
+    {
+      "id": "app25-1-28",
+      "numero": 28,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Metafase",
+      "testo": "Si dice che una cellula è in …… quando i cromosomi sono allineati in piastra equatoriale.",
+      "accettate": [
+        "metafase"
+      ],
+      "spiegazione": "In metafase i cromosomi, al massimo della condensazione, sono allineati sulla piastra equatoriale con i cinetocori agganciati ai microtubuli dei due poli. È la fase in cui si allestisce il cariotipo."
+    },
+    {
+      "id": "app25-1-29",
+      "numero": 29,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Esposizione della fosfatidilserina nell'apoptosi",
+      "testo": "Durante l'apoptosi, la cellula destinata a morire viene riconosciuta e rimossa dai macrofagi grazie all'esposizione, sulla superficie esterna della membrana plasmatica, della …… , un segnale «eat me».",
+      "accettate": [
+        "fosfatidilserina"
+      ],
+      "spiegazione": "Nelle cellule vive la fosfatidilserina è confinata nel foglietto interno della membrana. Nell'apoptosi l'asimmetria si perde e la fosfatidilserina compare all'esterno, dove i fagociti la riconoscono e inglobano la cellula senza scatenare infiammazione."
+    },
+    {
+      "id": "app25-1-30",
+      "numero": 30,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Asimmetria della membrana plasmatica",
+      "testo": "Fosfatidilcolina e Sfingomielina sono lipidi fortemente arricchiti nel foglietto …… della membrana dei globuli rossi.",
+      "accettate": [
+        "esterno",
+        "extracitoplasmatico"
+      ],
+      "spiegazione": "Il doppio strato è asimmetrico: fosfatidilcolina e sfingomielina prevalgono nel foglietto esterno, fosfatidiletanolammina e fosfatidilserina in quello interno, rivolto al citosol. L'asimmetria è mantenuta da enzimi che spostano attivamente i lipidi fra i due foglietti."
+    },
+    {
+      "id": "app25-1-31",
+      "numero": 31,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Penetranza",
+      "testo": "La frequenza con cui un genotipo determina l'espressione del corrispondente fenotipo è definita ……",
+      "accettate": [
+        "penetranza"
+      ],
+      "spiegazione": "La penetranza è la percentuale di individui con un dato genotipo che ne manifestano il fenotipo: se è inferiore al 100% si parla di penetranza incompleta. Da non confondere con l'espressività, che misura quanto intensamente il fenotipo si manifesta in chi lo esprime."
+    }
+  ]
+}

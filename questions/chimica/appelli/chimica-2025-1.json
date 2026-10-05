@@ -1,0 +1,468 @@
+{
+  "appello": "chimica-2025-1",
+  "materia": "chimica",
+  "nome": "1° appello",
+  "data": "2025-11-20",
+  "fonte": "Semestre filtro 2025: testi e chiavi della prova ufficiale. Spiegazioni originali del banco.",
+  "domande": [
+    {
+      "id": "app25-1-01",
+      "numero": 1,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Nomenclatura dei sali: il solfato",
+      "testo": "Quale tra le seguenti è la formula chimica del solfato di bario?",
+      "opzioni": [
+        "BaS",
+        "BaSO₄",
+        "BaHSO₄",
+        "BaSO₃",
+        "Ba₂SO₄"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il bario, metallo alcalino-terroso del gruppo 2, forma lo ione Ba²⁺; il solfato è l'anione SO₄²⁻ dell'acido solforico. Le due cariche si compensano in rapporto 1:1: BaSO₄.\n\nA) BaS è il solfuro di bario: il suffisso -uro indica il sale dell'acido senza ossigeno, H₂S.\nC) L'idrogenosolfato HSO₄⁻ ha carica −1: con il bario servirebbero due anioni, Ba(HSO₄)₂, e in ogni caso non sarebbe il solfato.\nD) BaSO₃ è il solfito: il suffisso -ito indica l'anione con un ossigeno in meno, SO₃²⁻.\nE) Ba₂SO₄ richiederebbe un bario con numero di ossidazione +1, che il bario non assume."
+    },
+    {
+      "id": "app25-1-02",
+      "numero": 2,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Numero atomico",
+      "testo": "Il numero atomico di un elemento è:",
+      "opzioni": [
+        "la somma del numero di protoni ed elettroni",
+        "la somma del numero di protoni e neutroni",
+        "il numero totale di elettroni",
+        "il numero di protoni contenuti nel nucleo",
+        "il numero di neutroni contenuti nel nucleo"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il numero atomico Z è il numero di protoni nel nucleo ed è ciò che identifica l'elemento: cambiando Z si cambia elemento.\n\nA) La somma di protoni ed elettroni non corrisponde ad alcuna grandezza usata per classificare gli elementi.\nB) È la definizione del numero di massa A, che varia fra gli isotopi dello stesso elemento.\nC) Gli elettroni coincidono con i protoni solo nell'atomo neutro: uno ione ha un numero di elettroni diverso ma lo stesso Z.\nE) Il numero di neutroni varia fra gli isotopi e non identifica l'elemento."
+    },
+    {
+      "id": "app25-1-03",
+      "numero": 3,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Ibridazione negli alcani",
+      "testo": "Gli alcani aciclici sono molecole",
+      "opzioni": [
+        "ramificate",
+        "caratterizzate da isomeria geometrica",
+        "aromatiche",
+        "lineari",
+        "in cui tutti gli atomi di carbonio sono ibridati sp³"
+      ],
+      "corretta": 4,
+      "spiegazione": "Gli alcani sono idrocarburi saturi: ogni carbonio forma quattro legami semplici diretti ai vertici di un tetraedro, quindi è ibridato sp³. È l'unica proprietà che vale per tutti gli alcani aciclici.\n\nA) Esistono alcani ramificati, come l'isobutano, ma anche lineari: la ramificazione non è una proprietà generale.\nB) L'isomeria geometrica richiede una rotazione impedita, da doppio legame o da anello; negli alcani aciclici la rotazione attorno ai legami semplici è libera.\nC) Gli aromatici sono ciclici e con elettroni delocalizzati: gli alcani sono saturi e alifatici.\nD) Come per A: molti alcani sono lineari, ma non tutti."
+    },
+    {
+      "id": "app25-1-04",
+      "numero": 4,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Ossidazione degli alcoli secondari",
+      "testo": "Il 2-propanolo, in ambiente acido, può essere ossidato dal dicromato di potassio formando",
+      "opzioni": [
+        "acetone",
+        "ossido di propilene",
+        "acetaldeide",
+        "1-propanolo",
+        "etanolo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il 2-propanolo, CH₃–CH(OH)–CH₃, è un alcol secondario: l'ossidazione con un ossidante come il dicromato in ambiente acido toglie due idrogeni, uno dall'ossidrile e uno dal carbonio che lo porta, e forma il chetone corrispondente, il propanone, cioè l'acetone.\n\nB) L'ossido di propilene è un epossido e si prepara dall'alchene, non per ossidazione di un alcol.\nC) L'acetaldeide ha due atomi di carbonio ed è il prodotto di ossidazione dell'etanolo, un alcol primario.\nD) L'1-propanolo è un isomero di posizione del reagente: l'ossidazione non sposta il gruppo funzionale lungo la catena.\nE) L'etanolo ha un carbonio in meno e, in più, è un alcol: un'ossidazione non trasforma un alcol in un altro alcol."
+    },
+    {
+      "id": "app25-1-05",
+      "numero": 5,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Composizione del collagene",
+      "testo": "Quale dei seguenti aminoacidi è il più abbondante nel collagene?",
+      "opzioni": [
+        "Glicina",
+        "Alanina",
+        "Serina",
+        "Triptofano",
+        "Istidina"
+      ],
+      "corretta": 0,
+      "spiegazione": "La catena del collagene ripete la sequenza Gly–X–Y: la glicina occupa una posizione su tre ed è quindi circa un terzo dei residui. Il suo gruppo laterale è un solo idrogeno, l'unico abbastanza piccolo da stare all'interno della tripla elica, dove le tre catene sono strettamente accostate.\n\nB) L'alanina ha un metile laterale, troppo ingombrante per quella posizione, e nel collagene è molto meno frequente.\nC) La serina è comune in molte proteine ma non ha un ruolo strutturale particolare nel collagene.\nD) Il triptofano, con il suo voluminoso anello indolico, nel collagene è quasi assente.\nE) L'istidina è presente in piccola quantità; nelle posizioni X e Y prevalgono prolina e idrossiprolina."
+    },
+    {
+      "id": "app25-1-06",
+      "numero": 6,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Bilanciamento di una disproporzione",
+      "testo": "Dopo aver bilanciato la seguente reazione a Cl₂ + b NaOH → c NaCl + d NaClO₃ + e H₂O si può affermare che:",
+      "opzioni": [
+        "b = 6",
+        "e = 4",
+        "c = 6",
+        "a = 2",
+        "e = 2"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il cloro si disproporziona: passa da 0 a −1 nel cloruro e da 0 a +5 nel clorato. Ogni cloro che si ossida cede 5 elettroni e ogni cloro che si riduce ne acquista 1, quindi per un clorato si formano cinque cloruri: 3 Cl₂ + 6 NaOH → 5 NaCl + NaClO₃ + 3 H₂O. Dunque a = 3, b = 6, c = 5, d = 1, e = 3.\n\nControllo: Na 6 = 5 + 1; Cl 6 = 5 + 1; O 6 = 3 + 3; H 6 = 2·3.\n\nB) e vale 3: con 6 idrogeni dall'idrossido si formano 3 molecole d'acqua.\nC) c vale 5, non 6: il sesto cloro finisce nel clorato.\nD) a vale 3: servono 6 atomi di cloro per i 5 cloruri e il clorato.\nE) e vale 3, non 2; è d, il coefficiente del clorato, a valere 1."
+    },
+    {
+      "id": "app25-1-07",
+      "numero": 7,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Formula di un alchene dal nome IUPAC",
+      "testo": "Nel 2,3-dimetil-1-butene ci sono",
+      "opzioni": [
+        "quattro gruppi metile",
+        "due doppi legami",
+        "cinque atomi di carbonio",
+        "dodici atomi di idrogeno",
+        "quattro atomi di carbonio"
+      ],
+      "corretta": 3,
+      "spiegazione": "La struttura è CH₂=C(CH₃)–CH(CH₃)–CH₃: quattro carboni nella catena del butene più due metili, cioè sei carboni. Gli idrogeni sono 2 + 0 + 1 + 3 + 3 + 3 = 12: la formula è C₆H₁₂, quella di un alchene con un solo doppio legame (CₙH₂ₙ).\n\nA) I gruppi metile sono tre: i due sostituenti e il C4 terminale della catena.\nB) Il suffisso -ene con un solo locante (1-) indica un unico doppio legame; due sarebbero un diene.\nC) I carboni sono sei: quattro della catena principale e due dei sostituenti.\nE) Quattro è il numero dei carboni della sola catena principale: si dimenticano i sostituenti."
+    },
+    {
+      "id": "app25-1-08",
+      "numero": 8,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Energia libera e potenziale di cella",
+      "testo": "La relazione tra la variazione dell'energia libera di Gibbs (ΔG) e il potenziale di una cella elettrochimica (E) è",
+      "opzioni": [
+        "ΔG = E/nF",
+        "ΔG = −nFE",
+        "ΔG = nFE",
+        "ΔG = −nFE°",
+        "ΔG = RT ln E"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il lavoro elettrico massimo che la cella può compiere è la carica trasferita, nF, per la differenza di potenziale E; coincide con la diminuzione di energia libera, quindi ΔG = −nFE. Il segno meno lega la spontaneità (ΔG < 0) a un potenziale positivo.\n\nA) Dividere E per nF non dà un'energia: la relazione è un prodotto.\nC) Senza il segno meno una cella spontanea, con E > 0, avrebbe ΔG > 0: l'opposto di ciò che accade.\nD) La forma con E° vale per le grandezze standard, ΔG° = −nFE°; la domanda chiede la relazione generale fra ΔG ed E.\nE) Nelle relazioni termodinamiche compare il logaritmo del quoziente di reazione Q, non del potenziale."
+    },
+    {
+      "id": "app25-1-09",
+      "numero": 9,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Capacità di un orbitale",
+      "testo": "Il numero massimo di elettroni presenti in un orbitale con l = 1 è:",
+      "opzioni": [
+        "6",
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "corretta": 2,
+      "spiegazione": "Qualunque orbitale, quale che sia il suo numero quantico l, ospita al massimo due elettroni con spin opposto: è il principio di esclusione di Pauli. l = 1 indica un orbitale p, ma la domanda riguarda un singolo orbitale.\n\nA) 6 è la capienza dell'intero sottolivello p, che comprende tre orbitali: l'errore è leggere «orbitale» come «sottolivello».\nB) Un orbitale con un solo elettrone è semipieno, non al massimo della capienza.\nD) 4 non corrisponde ad alcun orbitale né ad alcun sottolivello.\nE) 3 è il numero degli orbitali p, non degli elettroni che uno di essi può contenere."
+    },
+    {
+      "id": "app25-1-10",
+      "numero": 10,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Idrolisi dei sali: soluzione basica",
+      "testo": "Quale delle seguenti soluzioni saline avrà un pH superiore a 7?",
+      "opzioni": [
+        "KClO₄",
+        "NaHCO₃",
+        "NaCl",
+        "KHSO₄",
+        "NH₄NO₃"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il bicarbonato di sodio libera Na⁺, che non ha comportamento acido-base, e HCO₃⁻, anione anfiprotico il cui carattere basico prevale: HCO₃⁻ + H₂O ⇌ H₂CO₃ + OH⁻. La soluzione è debolmente basica.\n\nA) KClO₄ deriva da una base forte e da un acido forte: soluzione neutra.\nC) NaCl, idrossido di sodio più acido cloridrico: soluzione neutra.\nD) HSO₄⁻ cede ancora un protone, e la soluzione è acida.\nE) NH₄⁺ è l'acido coniugato di una base debole e acidifica la soluzione; NO₃⁻ è spettatore."
+    },
+    {
+      "id": "app25-1-11",
+      "numero": 11,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Acidi grassi omega-3 e omega-6",
+      "testo": "Gli acidi grassi omega-3 e omega-6:",
+      "opzioni": [
+        "Sono tutti saturi",
+        "Sono sintetizzati dal fegato",
+        "Sono tutti polinsaturi",
+        "Sono componenti essenziali dei glicerofosfolipidi",
+        "Comprendono acido oleico, acido linoleico e acido arachidonico"
+      ],
+      "corretta": 2,
+      "spiegazione": "La sigla omega indica la posizione del primo doppio legame contata dall'estremità metilica: per definizione sono acidi grassi insaturi, e quelli delle due famiglie hanno tutti più di un doppio legame, come il linoleico (18:2, ω-6), l'arachidonico (20:4, ω-6), l'α-linolenico (18:3, ω-3), l'EPA e il DHA.\n\nA) Un acido grasso saturo non ha doppi legami, quindi non ha una posizione omega.\nB) I capostipiti delle due famiglie, linoleico e α-linolenico, sono essenziali: l'uomo non sa introdurre doppi legami oltre il carbonio 9 contando dal carbossile, cioè nelle posizioni ω-3 e ω-6, e deve assumerli con la dieta.\nD) Possono far parte dei glicerofosfolipidi, ma non ne sono componenti obbligatori: molti fosfolipidi contengono acidi grassi saturi o monoinsaturi.\nE) L'acido oleico (18:1) è un omega-9 monoinsaturo: basta lui a rendere falso l'elenco."
+    },
+    {
+      "id": "app25-1-12",
+      "numero": 12,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Idrolisi dei sali: soluzione acida",
+      "testo": "Quale delle seguenti soluzioni saline avrà un pH inferiore a 7?",
+      "opzioni": [
+        "NaCl",
+        "KNO₃",
+        "KClO₄",
+        "NaHCO₃",
+        "NH₄Cl"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il cloruro d'ammonio libera Cl⁻, spettatore, e NH₄⁺, acido coniugato dell'ammoniaca, base debole: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺. La soluzione è acida.\n\nA) NaCl deriva da base forte e acido forte: neutra.\nB) KNO₃, idrossido di potassio più acido nitrico: neutra.\nC) KClO₄, idrossido di potassio più acido perclorico: neutra.\nD) NaHCO₃ è debolmente basico: lo ione bicarbonato si comporta prevalentemente da base."
+    },
+    {
+      "id": "app25-1-13",
+      "numero": 13,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Nucleoside",
+      "testo": "Un nucleoside è costituito da:",
+      "opzioni": [
+        "una base azotata legata covalentemente ad un pentoso e a tre gruppi fosfato",
+        "un pentoso legato a tre gruppi fosfato",
+        "una base azotata legata a un pentoso tramite legame a idrogeno",
+        "una base azotata legata a tre gruppi fosfato",
+        "una base azotata legata covalentemente ad un pentoso"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il nucleoside è base azotata più pentoso, uniti dal legame covalente N-glicosidico fra un azoto della base e il carbonio 1' dello zucchero. Con uno o più fosfati sul carbonio 5' diventa un nucleotide.\n\nA) Con tre fosfati è un nucleotide trifosfato, come l'ATP.\nB) Senza la base non è né un nucleoside né un nucleotide.\nC) Base e zucchero sono legati covalentemente: i legami a idrogeno sono quelli fra basi complementari.\nD) Manca lo zucchero, che è la parte che tiene insieme la molecola."
+    },
+    {
+      "id": "app25-1-14",
+      "numero": 14,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Acido arachidonico",
+      "testo": "L'acido arachidonico:",
+      "opzioni": [
+        "È un acido grasso insaturo omega-6",
+        "possiede 24 atomi di carbonio",
+        "Deriva dal colesterolo",
+        "Viene sintetizzato nel fegato",
+        "È un acido grasso insaturo omega-3"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'arachidonico è 20:4, ω-6: venti carboni, quattro doppi legami, il primo al sesto carbonio dall'estremità metilica. Deriva dall'acido linoleico, essenziale, ed è il precursore degli eicosanoidi.\n\nB) I carboni sono 20: il prefisso eicosa- degli eicosanoidi lo ricorda.\nC) Il colesterolo è precursore di ormoni steroidei, acidi biliari e vitamina D, non di acidi grassi.\nD) È imprecisa più che falsa: l'arachidonico non è sintetizzato ex novo, ma prodotto, soprattutto nel fegato e non solo lì, per desaturazione e allungamento del linoleico assunto con la dieta. A è l'unica affermazione che lo definisce senza ambiguità.\nE) È omega-6, non omega-3: sono omega-3 l'α-linolenico, l'EPA e il DHA."
+    },
+    {
+      "id": "app25-1-15",
+      "numero": 15,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Solubilità dei gas e temperatura",
+      "testo": "Quale effetto ha un AUMENTO di temperatura sulla solubilità dell'ossigeno in acqua?",
+      "opzioni": [
+        "La solubilità diminuisce",
+        "La solubilità aumenta",
+        "L'effetto dipende dalla temperatura iniziale",
+        "Nessun effetto sulla solubilità",
+        "In presenza di altri gas aumenta"
+      ],
+      "corretta": 0,
+      "spiegazione": "La dissoluzione di un gas in acqua è di norma esotermica: fornendo calore l'equilibrio si sposta verso il gas libero, e la solubilità diminuisce. È per questo che le acque calde contengono meno ossigeno disciolto.\n\nB) È la regola di molti solidi, non dei gas.\nC) Il valore di partenza cambia l'entità dell'effetto, non il suo verso.\nD) La temperatura è proprio uno dei fattori che più influenzano la solubilità dei gas.\nE) Gli altri gas modificano le pressioni parziali, non invertono l'effetto della temperatura."
+    },
+    {
+      "id": "app25-1-16",
+      "numero": 16,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Isomeria cis-trans negli alcheni",
+      "testo": "Avendo sostituenti identici su un atomo di carbonio insaturo, 1-butene non presenta …… configurazionale.",
+      "accettate": [
+        "isomeria"
+      ],
+      "spiegazione": "Nell'1-butene, CH₂=CH–CH₂–CH₃, il primo carbonio del doppio legame porta due idrogeni: per avere isomeri cis e trans servono due sostituenti diversi su ciascuno dei due carboni del doppio legame. L'isomeria geometrica, o cis-trans, è un tipo di isomeria configurazionale.\n\nIl 2-butene invece la presenta: entrambi i carboni del doppio legame portano un idrogeno e un metile."
+    },
+    {
+      "id": "app25-1-17",
+      "numero": 17,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Tensione di vapore e temperatura",
+      "testo": "Con l'aumentare della …… aumenta la tensione di vapore di un liquido.",
+      "accettate": [
+        "temperatura"
+      ],
+      "spiegazione": "A temperatura più alta una frazione maggiore di molecole ha energia sufficiente a lasciare il liquido, e l'equilibrio fra evaporazione e condensazione si stabilisce a una pressione di vapore più alta. Il liquido bolle quando la sua tensione di vapore eguaglia la pressione esterna."
+    },
+    {
+      "id": "app25-1-18",
+      "numero": 18,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Amminoacidi essenziali: fenilalanina e tirosina",
+      "testo": "La tirosina può essere sintetizzata dalla fenilalanina tramite una reazione enzimatica. Quindi, tra questi due aminoacidi, la …… non è un aminoacido essenziale.",
+      "accettate": [
+        "tirosina"
+      ],
+      "spiegazione": "La fenilalanina idrossilasi aggiunge un ossidrile all'anello della fenilalanina e forma tirosina: l'organismo può quindi produrre tirosina purché assuma fenilalanina, che resta essenziale.\n\nNella fenilchetonuria quell'enzima è carente o non funzionante e la tirosina diventa a sua volta necessaria con la dieta."
+    },
+    {
+      "id": "app25-1-19",
+      "numero": 19,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Gruppi amminici liberi in un dipeptide",
+      "testo": "Il numero di gruppi amminici liberi presenti nel dipeptide Acido Aspartico – Glicina è ……",
+      "accettate": [
+        "1"
+      ],
+      "spiegazione": "Nel legame peptidico il carbossile α dell'aspartato si unisce all'ammino α della glicina, che quindi non è più libero. Resta libero soltanto l'ammino α dell'aspartato, all'estremità N-terminale; nessuno dei due ha gruppi amminici nella catena laterale.\n\nL'aspartato ha invece un carbossile in più nella catena laterale: i carbossili liberi sono due."
+    },
+    {
+      "id": "app25-1-20",
+      "numero": 20,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Le proteine come polimeri",
+      "testo": "Le proteine naturali sono polimeri di …… uniti da legami peptidici.",
+      "accettate": [
+        "amminoacidi",
+        "aminoacidi",
+        "alfa-amminoacidi",
+        "alfa-aminoacidi",
+        "alfa amminoacidi",
+        "alfa aminoacidi"
+      ],
+      "spiegazione": "Le proteine sono catene di α-amminoacidi legati da legami ammidici fra il carbossile di un residuo e l'ammino del successivo.\n\nLe grafie «amminoacidi» e «aminoacidi» sono entrambe in uso e sono accettate."
+    },
+    {
+      "id": "app25-1-21",
+      "numero": 21,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Conteggio dei carboni dal nome IUPAC",
+      "testo": "Nel 4-etil-2,2-dimetileptano vi sono …… atomi di carbonio.",
+      "accettate": [
+        "11"
+      ],
+      "spiegazione": "La catena principale è l'eptano, 7 carboni; l'etile in posizione 4 ne aggiunge 2 e i due metili sul carbonio 2 altri 2: 7 + 2 + 2 = 11. La formula è C₁₁H₂₄."
+    },
+    {
+      "id": "app25-1-22",
+      "numero": 22,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legge di Boyle",
+      "testo": "Per la legge di Boyle–Mariotte per un gas ideale P₁·V₁ = P₂·V₂, per cui il prodotto P·V è sempre ……",
+      "accettate": [
+        "costante",
+        "invariato"
+      ],
+      "spiegazione": "A temperatura e quantità di gas fissate, pressione e volume sono inversamente proporzionali: se uno raddoppia l'altro si dimezza, e il loro prodotto non cambia.\n\nLa costanza vale solo a temperatura costante: è la condizione implicita nella legge di Boyle."
+    },
+    {
+      "id": "app25-1-23",
+      "numero": 23,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Somma dei numeri di ossidazione",
+      "testo": "In un composto neutro la somma algebrica dei numeri di ossidazione dei diversi elementi è ……",
+      "accettate": [
+        "zero",
+        "nulla",
+        "nullo"
+      ],
+      "spiegazione": "I numeri di ossidazione sono cariche formali attribuite agli atomi: in una specie neutra la loro somma deve dare la carica totale, cioè zero. In uno ione la somma è invece uguale alla carica dello ione, per esempio −2 nel solfato."
+    },
+    {
+      "id": "app25-1-24",
+      "numero": 24,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "ATP",
+      "testo": "L' …… (utilizzare l'acronimo) è un nucleotide composto da adenina, ribosio e tre gruppi fosfato.",
+      "accettate": [
+        "ATP"
+      ],
+      "spiegazione": "Adenosina trifosfato: la base adenina, lo zucchero ribosio e tre fosfati in serie, legati fra loro da legami fosfoanidridici la cui idrolisi libera l'energia usata dalla cellula.\n\nCon un solo fosfato sarebbe AMP, con due ADP; con il desossiribosio sarebbe dATP."
+    },
+    {
+      "id": "app25-1-25",
+      "numero": 25,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Legge dell'azione di massa",
+      "testo": "Secondo la legge dell'azione di massa, la costante di equilibrio Kc per la reazione aA + bB ⇌ cC + dD è definita come il rapporto tra il …… delle concentrazioni molari dei prodotti e quello delle concentrazioni molari dei reagenti, ciascuna elevata al proprio coefficiente stechiometrico.",
+      "accettate": [
+        "prodotto"
+      ],
+      "spiegazione": "Kc = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ): al numeratore il prodotto delle concentrazioni dei prodotti, al denominatore quello dei reagenti, ciascuna elevata al proprio coefficiente.\n\nAttenzione a non scrivere «somma»: le concentrazioni si moltiplicano."
+    },
+    {
+      "id": "app25-1-26",
+      "numero": 26,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Ponti disolfuro",
+      "testo": "Nelle proteine la formazione di ponti disolfuro può avvenire grazie alla presenza di più residui dell'aminoacido ……",
+      "accettate": [
+        "cisteina"
+      ],
+      "spiegazione": "I gruppi tiolici –SH delle catene laterali di due cisteine si ossidano e formano un legame covalente –S–S–, che stabilizza la struttura terziaria e talvolta quaternaria.\n\nLa cistina è il dimero di due cisteine unite dal ponte disolfuro: la domanda chiede l'amminoacido, quindi cisteina. La metionina contiene zolfo ma non ha un gruppo –SH."
+    },
+    {
+      "id": "app25-1-27",
+      "numero": 27,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Legame dativo nello ione ammonio",
+      "testo": "L'ammoniaca forma lo ione ammonio mediante un legame covalente …… con un protone.",
+      "accettate": [
+        "dativo",
+        "coordinativo",
+        "di coordinazione"
+      ],
+      "spiegazione": "L'azoto dell'ammoniaca possiede un doppietto non condiviso e lo mette in comune con lo ione H⁺, che non ha elettroni: entrambi gli elettroni del legame provengono dallo stesso atomo. Una volta formato, il quarto legame N–H è identico agli altri tre."
+    },
+    {
+      "id": "app25-1-28",
+      "numero": 28,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Definizione di molecola",
+      "testo": "Per molecola si intende un insieme permanente di atomi uguali o diversi connessi con legami ……",
+      "accettate": [
+        "covalenti"
+      ],
+      "spiegazione": "La molecola è un'unità discreta di atomi tenuti insieme da legami covalenti, come H₂O, NH₃ o CO₂. I composti ionici come NaCl non formano molecole ma reticoli di ioni."
+    },
+    {
+      "id": "app25-1-29",
+      "numero": 29,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Massimo potere tampone",
+      "testo": "Il potere tampone è massimo quando il pH della soluzione è …… al pK dell'acido debole.",
+      "accettate": [
+        "uguale",
+        "pari"
+      ],
+      "spiegazione": "Per l'equazione di Henderson-Hasselbalch, pH = pKa + log([A⁻]/[HA]): pH e pKa coincidono quando acido e base coniugata hanno la stessa concentrazione, e in quella condizione il tampone neutralizza ugualmente bene acidi e basi aggiunti."
+    },
+    {
+      "id": "app25-1-30",
+      "numero": 30,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Definizione di pH",
+      "testo": "Il pH è il logaritmo del …… della concentrazione molare di idrogenioni (ioni idrossonio, H₃O⁺).",
+      "accettate": [
+        "reciproco",
+        "inverso"
+      ],
+      "spiegazione": "pH = −log[H₃O⁺] = log(1/[H₃O⁺]): il segno meno davanti al logaritmo equivale a prendere il logaritmo del reciproco."
+    },
+    {
+      "id": "app25-1-31",
+      "numero": 31,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Molarità",
+      "testo": "La misura di concentrazione che indica le moli di soluto presenti in un litro di soluzione si chiama ……",
+      "accettate": [
+        "molarità"
+      ],
+      "spiegazione": "Molarità: M = moli di soluto / litri di soluzione.\n\nDa non confondere con la molalità, che riferisce le moli di soluto a un chilogrammo di solvente, non a un litro di soluzione."
+    }
+  ]
+}

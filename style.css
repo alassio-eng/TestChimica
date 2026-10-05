@@ -291,6 +291,9 @@ label.radio input { margin-right: 8px; }
 
 .unit.full .unit-tag { background: var(--accent); color: var(--accent-ink); }
 
+/* appelli ufficiali: stessa forma delle unità, segnati come prove reali */
+.unit.appello .unit-tag { background: var(--ink); color: var(--surface); font-size: 12px; }
+
 .unit-body { flex: 1; min-width: 0; }
 .unit-name { font-weight: 600; font-size: 15px; }
 .unit-meta { font-size: 12.5px; color: var(--ink-soft); margin-top: 2px; }
@@ -436,6 +439,7 @@ label.radio input { margin-right: 8px; }
 }
 
 .err-item .due { color: var(--warn); font-weight: 600; }
+.err-item .uff { color: var(--ink); font-weight: 600; }
 .err-item .qtext { font-size: 15px; }
 
 .err-item details { margin-top: 8px; }
@@ -566,6 +570,7 @@ label.radio input { margin-right: 8px; }
 }
 
 .browse-tags .tag.ko { background: var(--ko-bg); color: var(--ko); }
+.browse-tags .tag.uff { background: var(--surface-2); color: var(--ink); font-weight: 600; }
 
 .browse-q .option.giusta {
   border-color: var(--ok);

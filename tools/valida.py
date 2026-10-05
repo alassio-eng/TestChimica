@@ -175,12 +175,98 @@ def valida_materia(base, voce, errori, avvisi):
             per_unita[u] += 1
             per_tipo[tipo] += 1
 
+    appelli = valida_appelli(mid, dirname, idx, ammesse, visti, errori, avvisi)
+
     return {
         "id": mid, "nome": idx.get("nome", mid), "unita": unita,
         "per_unita": per_unita, "per_tipo": per_tipo, "lotti": len(lotti),
         "posizioni": posizioni, "piu_lunga": piu_lunga, "multiple": multiple,
-        "sequenze": sequenze,
+        "sequenze": sequenze, "appelli": appelli,
     }
+
+
+def valida_appelli(mid, dirname, idx, ammesse, visti, errori, avvisi):
+    """Controlla gli appelli ufficiali dichiarati nell'indice della materia.
+
+    Sono prove reali riprodotte per intero: testo, ordine e chiavi restano
+    quelli ufficiali, quindi qui non si misurano posizione e lunghezza della
+    risposta corretta, che non sono state scelte da noi. Si controllano
+    invece struttura, unicità degli id (anche rispetto al banco), unità,
+    formato 15 + 16 e numerazione originale."""
+    voci = idx.get("appelli") or []
+    cartella = os.path.join(dirname, "appelli")
+    dichiarati = {v.get("file") for v in voci}
+    if os.path.isdir(cartella):
+        for n in sorted(os.listdir(cartella)):
+            if n.endswith(".json") and "appelli/" + n not in dichiarati:
+                avvisi.append(f"{mid}: appelli/{n} è sul disco ma non è elencato nell'indice")
+    riepilogo = []
+    for v in voci:
+        etich = f"{mid}/{v.get('file')}"
+        if not v.get("id") or not v.get("file"):
+            errori.append(f"{mid}: voce di appello senza id o senza file")
+            continue
+        p = os.path.join(dirname, v["file"])
+        if not os.path.exists(p):
+            errori.append(f"{mid}: l'indice elenca l'appello {v['file']}, che non esiste")
+            continue
+        dati = leggi(p, errori, etich)
+        if dati is None:
+            continue
+        domande = dati.get("domande") or []
+        tipi = [q.get("tipo") for q in domande]
+        if tipi != ["multipla"] * 15 + ["completamento"] * 16:
+            errori.append(f"{etich}: un appello ha 31 quesiti, 15 a risposta multipla seguiti da 16 a completamento")
+        if [q.get("numero") for q in domande] != list(range(1, len(domande) + 1)):
+            errori.append(f"{etich}: la numerazione originale dei quesiti non è 1…{len(domande)}")
+        for q in domande:
+            qid = q.get("id")
+            dove = f"{mid} · {qid} (appello {v['id']})"
+            if not qid:
+                errori.append(f"{etich}: quesito senza id")
+                continue
+            if qid in visti:
+                errori.append(f"{dove}: id duplicato (già in {visti[qid]})")
+                continue
+            visti[qid] = v["file"]
+            if q.get("unita") not in ammesse:
+                errori.append(f"{dove}: unità «{q.get('unita')}» non dichiarata")
+            for campo in ("testo", "spiegazione", "argomento"):
+                if not q.get(campo):
+                    errori.append(f"{dove}: manca il campo «{campo}»")
+            if q.get("tipo") == "multipla":
+                opz = q.get("opzioni") or []
+                c = q.get("corretta")
+                giuste = q.get("corrette") or [c]
+                if len(opz) != 5:
+                    errori.append(f"{dove}: {len(opz)} opzioni invece di 5")
+                if not all(isinstance(i, int) and not isinstance(i, bool) and 0 <= i < len(opz) for i in giuste):
+                    errori.append(f"{dove}: indice della risposta corretta non valido")
+                    continue
+                if c not in giuste:
+                    errori.append(f"{dove}: «corretta» deve comparire fra le «corrette»")
+                # due opzioni identiche sono ammesse solo se il testo ufficiale le
+                # contiene e il quesito le dichiara entrambe corrette
+                uguali = len({" ".join(o.split()).lower() for o in opz}) != len(opz)
+                if uguali and len(giuste) < 2:
+                    errori.append(f"{dove}: due opzioni identiche senza «corrette»")
+                sp = q.get("spiegazione", "")
+                citate = set(re.findall(r"(?:^|(?<=[\s«\"'(\[]))([A-E])\)", sp))
+                lett = {LETTERE[i] for i in giuste}
+                if citate & lett:
+                    errori.append(f"{dove}: la spiegazione cita la lettera di una risposta corretta")
+                if len(set(LETTERE[:len(opz)]) - lett - citate) > 0:
+                    avvisi.append(f"{dove}: la spiegazione non analizza {sorted(set(LETTERE[:len(opz)]) - lett - citate)}")
+            elif q.get("tipo") == "completamento":
+                acc = q.get("accettate")
+                if not isinstance(acc, list) or not acc or any(norm(a) == "" for a in acc):
+                    errori.append(f"{dove}: «accettate» mancante o con voci vuote")
+                elif len({norm(a) for a in acc}) != len(acc):
+                    avvisi.append(f"{dove}: risposte accettate equivalenti dopo la normalizzazione")
+            else:
+                errori.append(f"{dove}: tipo sconosciuto «{q.get('tipo')}»")
+        riepilogo.append((v["id"], len(domande)))
+    return riepilogo
 
 
 def ciclo_massimo(seq):
@@ -242,6 +328,9 @@ def main() -> int:
                 att, ob = r["per_unita"][u["id"]], u.get("obiettivo", 0)
                 barra = "█" * round(20 * min(1, att / ob)) if ob else ""
                 print(f"    {u['id'].upper()}  {att:4d} / {ob:4d}  {barra}")
+        if r["appelli"]:
+            print("  appelli ufficiali (fuori dal banco): " +
+                  " · ".join(f"{a} {n} quesiti" for a, n in r["appelli"]))
         if r["multiple"]:
             pos = " ".join(f"{LETTERE[i]}:{r['posizioni'][i]}" for i in range(5))
             quota = 100 * r["piu_lunga"] / r["multiple"]

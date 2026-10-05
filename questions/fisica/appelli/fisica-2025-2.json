@@ -1,0 +1,470 @@
+{
+  "appello": "fisica-2025-2",
+  "materia": "fisica",
+  "nome": "2° appello",
+  "data": "2025-12-10",
+  "fonte": "Semestre filtro 2025: testi e chiavi della prova ufficiale. Spiegazioni originali del banco.",
+  "domande": [
+    {
+      "id": "app25-2-01",
+      "numero": 1,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Gas reale e gas ideale",
+      "testo": "In un gas reale:",
+      "opzioni": [
+        "Fra le particelle non esistono interazioni a distanza",
+        "Il covolume non è trascurabile",
+        "Gli urti tra particelle sono perfettamente elastici",
+        "Le particelle sono puntiformi",
+        "Vale la relazione PV = nRT"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel gas reale le molecole hanno un volume proprio, il covolume, che si sottrae al volume disponibile, e si attraggono fra loro: sono le due correzioni dell'equazione di van der Waals.\n\nA) L'assenza di interazioni è un'ipotesi del gas ideale.\nC) Anche gli urti perfettamente elastici fanno parte del modello ideale.\nD) Le particelle puntiformi sono l'ipotesi opposta al covolume.\nE) PV = nRT è l'equazione di stato del gas ideale; il gas reale la segue solo a bassa pressione e alta temperatura."
+    },
+    {
+      "id": "app25-2-02",
+      "numero": 2,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Galleggiamento con carico",
+      "testo": "Una zattera di legno a base quadrata di lato 4 m e altezza 50 cm galleggia sull'acqua portando un carico di 400 Kg. Sapendo che la densità del legno è 0,8 g/cm³, quale è la altezza della zattera immersa in acqua?",
+      "opzioni": [
+        "45 cm",
+        "42,5 cm",
+        "40 cm",
+        "37,5 cm",
+        "35 cm"
+      ],
+      "corretta": 1,
+      "spiegazione": "Volume della zattera 4 · 4 · 0,5 = 8 m³, massa 800 kg/m³ · 8 m³ = 6400 kg; con il carico 6800 kg. All'equilibrio il volume immerso sposta una massa d'acqua uguale: 6800 kg / 1000 kg/m³ = 6,8 m³. Divisa per la base di 16 m², l'altezza immersa è 0,425 m.\n\nA) 45 cm aggiunge due volte il contributo del carico.\nC) 40 cm è l'immersione della zattera scarica: si dimentica il carico, che da solo aggiunge 400/16 000 m = 2,5 cm.\nD) 37,5 cm sottrae i 2,5 cm del carico invece di aggiungerli.\nE) 35 cm sottrae due volte quel contributo."
+    },
+    {
+      "id": "app25-2-03",
+      "numero": 3,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Unità di misura dell'energia",
+      "testo": "La grandezza fisica Energia Cinetica di un corpo",
+      "opzioni": [
+        "si misura in Kg/sec²",
+        "si misura in watt",
+        "si misura in Joule",
+        "è costante nel moto uniformemente accelerato",
+        "è nulla nel moto rettilineo uniforme"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'energia cinetica, ½mv², è un'energia e nel Sistema Internazionale si misura in joule: 1 J = 1 kg · m²/s².\n\nA) kg/s² sono le unità di una costante elastica o di una tensione superficiale (N/m): manca il metro quadro.\nB) Il watt misura la potenza, energia per unità di tempo.\nD) Se il moto è accelerato la velocità cambia, e con essa l'energia cinetica.\nE) Nel moto rettilineo uniforme la velocità è costante ma non nulla: l'energia cinetica è costante, non zero."
+    },
+    {
+      "id": "app25-2-04",
+      "numero": 4,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Decimetro cubo e litro",
+      "testo": "Un volume di 10 dm³ corrisponde a:",
+      "opzioni": [
+        "100 millilitri",
+        "100 litri",
+        "10 litri",
+        "1 litro",
+        "10 millilitri"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il litro è definito come un decimetro cubo: 10 dm³ = 10 L.\n\nA) 100 mL sono 0,1 L.\nB) 100 L sono 100 dm³: si moltiplica per 10 senza motivo.\nD) 1 L è un solo decimetro cubo.\nE) 10 mL sono 10 cm³: si confonde il decimetro cubo con il centimetro cubo."
+    },
+    {
+      "id": "app25-2-05",
+      "numero": 5,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Somma e differenza di vettori",
+      "testo": "La somma di due vettori a e b è tale da produrre come risultato un vettore di modulo |a – b|. Possiamo affermare che i due vettori:",
+      "opzioni": [
+        "Formano un angolo acuto",
+        "Hanno la stessa direzione e lo stesso verso",
+        "Formano un angolo ottuso",
+        "Hanno la stessa direzione e versi opposti",
+        "Sono perpendicolari"
+      ],
+      "corretta": 4,
+      "spiegazione": "Leggendo |a − b| come il modulo del vettore differenza, la condizione è |a + b| = |a − b|. Elevando al quadrato: a² + b² + 2ab cos α = a² + b² − 2ab cos α, quindi cos α = 0 e i vettori sono perpendicolari. Sono le due diagonali di un rettangolo, che hanno la stessa lunghezza.\n\nA) Con un angolo acuto la somma è più lunga della differenza.\nB) Con vettori concordi la somma ha modulo a + b.\nC) Con un angolo ottuso la somma è più corta della differenza.\nD) È la risposta se |a − b| si legge come differenza dei moduli: due vettori opposti danno una somma di modulo |a − b|.\n\nNota: il quesito è ambiguo proprio per questo. La chiave ufficiale è E, che corrisponde alla lettura vettoriale della notazione."
+    },
+    {
+      "id": "app25-2-06",
+      "numero": 6,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Livello sonoro di 0 dB",
+      "testo": "Cosa vuol dire che un suono ha un livello sonoro di 0 Decibel?",
+      "opzioni": [
+        "Che la sua intensità è molto al di sotto del livello di udibilità",
+        "Che la sua intensità è 0",
+        "Niente: non può esistere un suono che ha un livello sonoro di 0 Decibel",
+        "Che ha una frequenza di 1 KHz",
+        "Che la sua intensità è 10⁻¹² W/m²"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il livello sonoro è L = 10 log(I/I₀), con I₀ = 10⁻¹² W/m², la soglia di udibilità convenzionale. L = 0 dB significa I = I₀.\n\nA) 0 dB è la soglia, non un valore molto al di sotto: sotto soglia il livello è negativo.\nB) Un'intensità nulla darebbe un logaritmo di zero, cioè meno infinito.\nC) 0 dB è un livello del tutto definito: quello della soglia.\nD) 1 kHz è la frequenza a cui è riferita la soglia I₀, ma il livello in decibel non dice nulla sulla frequenza del suono."
+    },
+    {
+      "id": "app25-2-07",
+      "numero": 7,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Capacità termica",
+      "testo": "Due corpi di massa M1 e M2 hanno la stessa capacità termica. Se assorbono dall'ambiente la stessa quantità di calore Q, subiscono rispettivamente una variazione di temperatura ΔT1 e ΔT2. Si può affermare che:",
+      "opzioni": [
+        "Per determinare le variazioni di temperatura è necessario sapere se la trasformazione avviene a pressione o a volume costante.",
+        "ΔT1 > ΔT2",
+        "ΔT1 = ΔT2",
+        "ΔT1 < ΔT2",
+        "È necessario conoscere le masse dei due corpi per determinare le variazioni di temperatura."
+      ],
+      "corretta": 2,
+      "spiegazione": "La capacità termica è C = Q/ΔT, quindi ΔT = Q/C: con lo stesso calore e la stessa capacità le variazioni di temperatura sono uguali.\n\nA) La distinzione fra pressione e volume costante conta per i gas; qui la capacità dei due corpi è data ed è la stessa.\nB) e D) Una differenza richiederebbe capacità termiche diverse.\nE) La massa servirebbe se fosse dato il calore specifico; la capacità termica include già la massa, C = m · c."
+    },
+    {
+      "id": "app25-2-08",
+      "numero": 8,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Superfici equipotenziali di una carica puntiforme",
+      "testo": "Data una carica puntiforme quali sono le superfici equipotenziali",
+      "opzioni": [
+        "Superfici cubiche con la carica al centro",
+        "Piani a distanza crescente dalla carica",
+        "Sfere concentriche alla carica",
+        "Ellissi di cui la carica occupa uno dei fuochi",
+        "Superfici piramidali con la carica al centro"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il potenziale di una carica puntiforme, V = kq/r, dipende solo dalla distanza: i punti allo stesso potenziale stanno su sfere centrate nella carica, sempre perpendicolari alle linee di campo radiali.\n\nA) e E) Cubi e piramidi hanno punti a distanze diverse dal centro, quindi a potenziali diversi.\nB) Le equipotenziali piane appartengono a un campo uniforme, come quello di un condensatore piano.\nD) Le ellissi sono curve piane e non hanno la simmetria sferica del campo di una carica isolata."
+    },
+    {
+      "id": "app25-2-09",
+      "numero": 9,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Potenza trasportata da un'onda sonora",
+      "testo": "Un'onda sonora di frequenza f si propaga con velocità v dentro un lungo tubo di sezione A. Se si raddoppia la frequenza dell'onda sonora, a parità del resto, la potenza mediata su un periodo trasportata dall'onda:",
+      "opzioni": [
+        "Si dimezza",
+        "Resta inalterata",
+        "Diventa un quarto",
+        "Raddoppia",
+        "Aumenta di un fattore 4"
+      ],
+      "corretta": 4,
+      "spiegazione": "Per un'onda armonica la potenza media è P = ½ ρ A v ω² s², dove s è l'ampiezza di spostamento delle particelle e ω = 2πf. A parità di ampiezza la potenza cresce con il quadrato della frequenza: raddoppiare f la moltiplica per 4.\n\nA) e C) La potenza aumenta con la frequenza, non diminuisce.\nB) Resterebbe uguale solo se si tenesse fissa l'ampiezza di pressione, non quella di spostamento.\nD) È la dipendenza lineare: si dimentica che la frequenza compare al quadrato.\n\nNota: «a parità del resto» va inteso a parità di ampiezza di spostamento, che è l'ipotesi della chiave ufficiale."
+    },
+    {
+      "id": "app25-2-10",
+      "numero": 10,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Energia interna del gas perfetto",
+      "testo": "La variazione di energia interna di un gas perfetto che va da uno stato A (PA, VA, TA) a uno stato B (PB, VB, TB) vale:",
+      "opzioni": [
+        "nCV ΔP",
+        "nCV ΔT",
+        "nCP ΔT",
+        "nCV ΔT",
+        "nCP ΔP"
+      ],
+      "corretta": 1,
+      "corrette": [
+        1,
+        3
+      ],
+      "spiegazione": "L'energia interna di un gas perfetto dipende solo dalla temperatura: in qualunque trasformazione ΔU = n · Cᵥ · ΔT, con Cᵥ calore molare a volume costante.\n\nA) e E) L'energia interna non dipende dalla variazione di pressione.\nC) n · Cₚ · ΔT è il calore scambiato a pressione costante, cioè la variazione di entalpia, non di energia interna.\n\nNota: nel testo ufficiale le opzioni B e D sono identiche. Sono quindi giuste entrambe, e l'app le accetta tutte e due."
+    },
+    {
+      "id": "app25-2-11",
+      "numero": 11,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Campo nel condensatore piano",
+      "testo": "Le linee di campo elettrico all'interno di un condensatore piano ideale sono:",
+      "opzioni": [
+        "Dirette dall'armatura positiva a quella negativa perpendicolarmente ad esse",
+        "Cilindriche attorno alle armature",
+        "Dirette dall'armatura negativa a quella positiva perpendicolarmente ad esse",
+        "Parallele alle superfici affacciate alle armature",
+        "A raggiera"
+      ],
+      "corretta": 0,
+      "spiegazione": "Fra le armature il campo è uniforme: linee rette, parallele ed equidistanti, che escono dall'armatura positiva ed entrano in quella negativa, perpendicolari alle superfici.\n\nB) Le linee cilindriche, o meglio radiali attorno a un asse, sono quelle di un filo carico.\nC) Il verso è invertito: le linee vanno dal + al −.\nD) Le linee di campo sono sempre perpendicolari alla superficie di un conduttore in equilibrio.\nE) Le linee a raggiera appartengono a una carica puntiforme."
+    },
+    {
+      "id": "app25-2-12",
+      "numero": 12,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Pressione assoluta in immersione",
+      "testo": "A quale pressione, in atmosfere, è sottoposto un sub che si trova a 50 m sotto il livello del mare?",
+      "opzioni": [
+        "60",
+        "5",
+        "50",
+        "30",
+        "6"
+      ],
+      "corretta": 4,
+      "spiegazione": "Ogni 10 m d'acqua aggiungono circa 1 atm: ρgh = 1000 · 9,8 · 50 ≈ 4,9 · 10⁵ Pa, circa 5 atm. A queste va sommata l'atmosfera che grava sulla superficie: la pressione assoluta è circa 6 atm.\n\nA) 60 atm è dieci volte la risposta corretta: un errore di un fattore 10 nella conversione fra pascal e atmosfere.\nB) 5 atm è la sola pressione idrostatica, cioè la pressione relativa: manca la pressione atmosferica.\nC) 50 atm si ottiene contando 1 atm per metro invece che ogni dieci metri.\nD) Non corrisponde ad alcun calcolo plausibile con i dati."
+    },
+    {
+      "id": "app25-2-13",
+      "numero": 13,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Numero di Reynolds",
+      "testo": "Nel sistema S. I. quale è l'unità di misura della grandezza fisica «Numero di Reynolds»?",
+      "opzioni": [
+        "Kg × m/s²",
+        "Ohm",
+        "(Ohm)⁻¹",
+        "È una grandezza fisica adimensionale",
+        "Pa × s/m"
+      ],
+      "corretta": 3,
+      "spiegazione": "Re = ρvd/η è il rapporto fra forze d'inerzia e forze viscose: le unità si semplificano e il risultato è un numero puro. Sotto circa 2000 il moto in un condotto è di norma laminare.\n\nA) kg · m/s² è il newton, unità di forza.\nB) L'ohm misura la resistenza elettrica.\nC) L'inverso dell'ohm, il siemens, misura la conduttanza.\nE) Pa · s è l'unità della viscosità: diviso per un metro non dà nulla di adimensionale."
+    },
+    {
+      "id": "app25-2-14",
+      "numero": 14,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Lastra a facce piane e parallele",
+      "testo": "Un raggio di luce nel passaggio attraverso una lastra di vetro a facce piane e parallele viene:",
+      "opzioni": [
+        "Deviato in modo da allontanarsi dalla normale alla lastra.",
+        "Deviato in modo da avvicinarsi alla normale alla lastra.",
+        "Deviato in modo da avvicinarsi alla superficie della lastra.",
+        "Traslato parallelamente a sé stesso.",
+        "Tutte le risposte proposte sono errate."
+      ],
+      "corretta": 3,
+      "spiegazione": "Il raggio si rifrange due volte, entrando e uscendo. Le due facce sono parallele, quindi l'angolo di uscita è uguale a quello di ingresso: il raggio emergente ha la stessa direzione di quello incidente, spostato lateralmente.\n\nA) e C) All'uscita dal vetro il raggio si allontana effettivamente dalla normale, ma questa deviazione compensa esattamente quella subita all'ingresso: la direzione finale coincide con quella iniziale.\nB) È ciò che accade dentro il vetro, entrando da un mezzo meno rifrangente: ma all'uscita la deviazione si annulla.\nE) La risposta D è corretta.\n\nNota: se il quesito chiedesse il comportamento del raggio dentro la lastra, la risposta sarebbe B. La chiave ufficiale si riferisce all'attraversamento completo."
+    },
+    {
+      "id": "app25-2-15",
+      "numero": 15,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Composizione di spostamenti",
+      "testo": "Una nave percorre in successione 10 Km verso Nord, 6 Km verso Est e infine 18 Km verso Sud. Quanto vale il modulo dello spostamento risultante?",
+      "opzioni": [
+        "15 Km",
+        "10 Km",
+        "5 Km",
+        "25 Km",
+        "20 Km"
+      ],
+      "corretta": 1,
+      "spiegazione": "Lungo l'asse nord-sud lo spostamento netto è 10 − 18 = −8 km, cioè 8 km verso sud; lungo l'asse est-ovest è 6 km verso est. Il modulo è l'ipotenusa: √(8² + 6²) = √100 = 10 km.\n\nA), C), D) ed E) Non derivano dalla composizione corretta: sommare i tratti senza tenere conto dei versi darebbe la distanza percorsa, 34 km, che è un'altra grandezza; lo spostamento dipende solo dai punti di partenza e di arrivo."
+    },
+    {
+      "id": "app25-2-16",
+      "numero": 16,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Elettronvolt",
+      "testo": "Un elettrone si sposta tra 2 punti di un campo elettrico, tra i quali esiste una d.d.p. di 3 × 10⁴ Volt. La variazione di energia dell'elettrone è pari a …… KeV.",
+      "accettate": [
+        "30"
+      ],
+      "spiegazione": "Un elettronvolt è l'energia acquistata da una carica elementare che attraversa una differenza di potenziale di 1 V. Fra due punti a 3 · 10⁴ V di differenza l'energia dell'elettrone varia, in modulo, di 3 · 10⁴ eV = 30 keV, circa 4,8 · 10⁻¹⁵ J: la acquista come energia cinetica se si muove verso il potenziale più alto, la perde nel verso opposto."
+    },
+    {
+      "id": "app25-2-17",
+      "numero": 17,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Conversione da m/s a km/h",
+      "testo": "Una velocità di 30 m/s espressa in Km/h vale ……",
+      "accettate": [
+        "108"
+      ],
+      "spiegazione": "1 m/s = 3600 m/h = 3,6 km/h, quindi 30 m/s = 30 · 3,6 = 108 km/h. Per il passaggio inverso si divide per 3,6."
+    },
+    {
+      "id": "app25-2-18",
+      "numero": 18,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Linee del campo magnetico",
+      "testo": "Le linee di forza del campo magnetico sono ……",
+      "accettate": [
+        "chiuse"
+      ],
+      "spiegazione": "Non esistono cariche magnetiche isolate: le linee del campo magnetico non nascono e non finiscono in un punto, ma si richiudono su se stesse, per esempio uscendo dal polo nord di un magnete e rientrando dal polo sud. Le linee del campo elettrostatico invece partono dalle cariche positive e terminano su quelle negative."
+    },
+    {
+      "id": "app25-2-19",
+      "numero": 19,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Grafico spazio-tempo del moto accelerato",
+      "testo": "Il grafico s–t di un moto uniformemente accelerato è di forma ……",
+      "accettate": [
+        "parabolica",
+        "parabola"
+      ],
+      "spiegazione": "La legge oraria s = s₀ + v₀t + ½at² è di secondo grado nel tempo: il grafico è un arco di parabola. Il grafico velocità-tempo dello stesso moto è invece una retta."
+    },
+    {
+      "id": "app25-2-20",
+      "numero": 20,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Legge di Coulomb",
+      "testo": "La forza elettrica Fe tra due cariche secondo la legge di Coulomb è inversamente proporzionale al quadrato della …… che le separa.",
+      "accettate": [
+        "distanza"
+      ],
+      "spiegazione": "F = k q₁q₂/r²: raddoppiando la distanza la forza si riduce a un quarto. La stessa dipendenza vale per la gravitazione."
+    },
+    {
+      "id": "app25-2-21",
+      "numero": 21,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Fibre ottiche",
+      "testo": "Il funzionamento delle fibre ottiche come guide di luce si basa sul fenomeno della …… totale",
+      "accettate": [
+        "riflessione"
+      ],
+      "spiegazione": "Nel nucleo della fibra l'indice di rifrazione è più alto che nel rivestimento: la luce che colpisce la superficie di separazione con un angolo superiore all'angolo limite viene riflessa completamente e resta confinata nella fibra. È il principio degli endoscopi."
+    },
+    {
+      "id": "app25-2-22",
+      "numero": 22,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Caduta libera: velocità e quota",
+      "testo": "L'altezza dal suolo alla quale la velocità di un grave in caduta libera senza attriti, inizialmente a riposo a 12 m, uguaglia la metà di quella finale, è …… m",
+      "accettate": [
+        "9"
+      ],
+      "spiegazione": "In caduta libera v² = 2g · (spazio percorso). Al suolo v² = 2g · 12; metà velocità significa un quarto di v², quindi un quarto della caduta: 3 m. A quel punto il corpo si trova a 12 − 3 = 9 m dal suolo.\n\nL'errore tipico è rispondere 6 m: la velocità non è proporzionale allo spazio percorso ma alla sua radice."
+    },
+    {
+      "id": "app25-2-23",
+      "numero": 23,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Entropia come funzione di stato",
+      "testo": "Se un sistema termodinamico passa dallo stato A allo stato B lungo una trasformazione irreversibile, la sua variazione di entropia è …… quella calcolata lungo una trasformazione reversibile che congiunga gli stessi stati A e B.",
+      "accettate": [
+        "uguale",
+        "uguale a",
+        "pari a"
+      ],
+      "spiegazione": "L'entropia è una funzione di stato: la sua variazione dipende solo dagli stati iniziale e finale. Per calcolarla si sceglie una qualunque trasformazione reversibile fra gli stessi stati. Ciò che distingue il processo irreversibile è l'entropia prodotta nell'universo, sistema più ambiente, che aumenta."
+    },
+    {
+      "id": "app25-2-24",
+      "numero": 24,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Suono nel vuoto",
+      "testo": "Sulla superficie della luna le onde sonore …… si propagano",
+      "accettate": [
+        "non"
+      ],
+      "spiegazione": "Il suono è un'onda meccanica: ha bisogno di un mezzo materiale che vibri. Sulla Luna non c'è atmosfera e il suono non si propaga; la luce, onda elettromagnetica, viaggia invece anche nel vuoto."
+    },
+    {
+      "id": "app25-2-25",
+      "numero": 25,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Frazione immersa e densità",
+      "testo": "Dalle densità ρ_olivo = 850 kg/m³ e ρ_acqua = 1000 kg/m³ si ricava che la frazione di volume immerso di un tronco di legno di ulivo in acqua dolce è pari a ……",
+      "accettate": [
+        "0,85",
+        "85%"
+      ],
+      "spiegazione": "Un corpo che galleggia è immerso per una frazione del volume uguale al rapporto fra la sua densità e quella del liquido: 850/1000 = 0,85."
+    },
+    {
+      "id": "app25-2-26",
+      "numero": 26,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Lavoro nella trasformazione inversa",
+      "testo": "Un gas va dallo stato A allo stato B lungo una trasformazione isobara reversibile, compiendo un lavoro pari a 100 J. Il lavoro compiuto nella trasformazione inversa sarà …… J",
+      "accettate": [
+        "-100"
+      ],
+      "spiegazione": "Ripercorrendo la stessa trasformazione reversibile in senso opposto il lavoro ha lo stesso modulo e segno opposto: se all'andata il gas si espande e compie 100 J, al ritorno viene compresso e il lavoro compiuto dal gas è −100 J."
+    },
+    {
+      "id": "app25-2-27",
+      "numero": 27,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Decibel e rapporto di intensità",
+      "testo": "Un suono di intensità acustica pari a 60 dB è superiore alla soglia di udibilità di un fattore ……",
+      "accettate": [
+        "1.000.000",
+        "1000000",
+        "milione",
+        "10^6"
+      ],
+      "spiegazione": "Da L = 10 log(I/I₀): 60 = 10 log(I/I₀), quindi I/I₀ = 10⁶, un milione. Ogni 10 dB in più l'intensità si moltiplica per 10: non cresce in proporzione al numero dei decibel."
+    },
+    {
+      "id": "app25-2-28",
+      "numero": 28,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Carico massimo di una zattera",
+      "testo": "Una zattera di legno (densità 800 kg/cm³) che ha base quadrata di lato 4 m e altezza 50 cm galleggia sull'acqua (densità 1000 kg/cm³). Quale è il massimo peso (espresso in N) con cui si può caricare la zattera senza che affondi? ……",
+      "accettate": [
+        "16000",
+        "16.000",
+        "15696",
+        "15.696"
+      ],
+      "spiegazione": "Il volume è 4 · 4 · 0,5 = 8 m³. A immersione completa la spinta è 1000 · 8 · g, il peso della zattera 800 · 8 · g; il carico massimo è la differenza, 200 kg/m³ · 8 m³ · g = 1600 kg · g. Con g = 10 m/s² sono 16 000 N, con g = 9,81 m/s² circa 15 700 N.\n\nNota: il testo ufficiale scrive kg/cm³, un refuso per kg/m³. Sono accettati entrambi i valori previsti dalla correzione, 16.000 e 15.696."
+    },
+    {
+      "id": "app25-2-29",
+      "numero": 29,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Conversione di un'accelerazione",
+      "testo": "Sapendo che 1 metro è uguale a 100 centimetri, un'accelerazione di 320 cm/s² corrisponde a …… m/s² nel Sistema Internazionale.",
+      "accettate": [
+        "3,2"
+      ],
+      "spiegazione": "Il tempo resta in secondi; i centimetri si dividono per 100: 320 cm/s² = 3,2 m/s², circa un terzo dell'accelerazione di gravità."
+    },
+    {
+      "id": "app25-2-30",
+      "numero": 30,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Meccanismi di trasmissione del calore",
+      "testo": "Lo scambio di calore può avvenire tramite conduzione, convezione e ……",
+      "accettate": [
+        "irraggiamento"
+      ],
+      "spiegazione": "L'irraggiamento trasmette energia con onde elettromagnetiche ed è l'unico dei tre meccanismi che funziona anche nel vuoto: è così che il calore del Sole arriva sulla Terra. Conduzione e convezione richiedono un mezzo materiale."
+    },
+    {
+      "id": "app25-2-31",
+      "numero": 31,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Effetto Doppler",
+      "testo": "Un'ambulanza si muove con velocità costante v su una strada rettilinea, a sirena spiegata; la sirena emette un allarme sonoro di frequenza f. Un pedone fermo sul bordo della strada vede l'ambulanza che si avvicina e sente l'allarme sonoro con una frequenza f' maggiore di f del 5%. Sapendo che la velocità del suono in aria è c ~ 1200 Km/hr, e considerando nel calcolo soltanto termini al primo ordine in v/c, la velocità v vale …… Km/hr",
+      "accettate": [
+        "60"
+      ],
+      "spiegazione": "Per una sorgente in avvicinamento f' = f · c/(c − v) ≈ f · (1 + v/c) al primo ordine. Un aumento del 5% significa v/c = 0,05, quindi v = 0,05 · 1200 = 60 km/h. Il calcolo esatto darebbe circa 57 km/h: per questo il testo chiede l'approssimazione al primo ordine."
+    }
+  ]
+}

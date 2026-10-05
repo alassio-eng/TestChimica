@@ -47,6 +47,11 @@ try {
     <h2>Scegli l'unità</h2>
     <div id="unit-list" class="unit-list"></div>
 
+    <div id="appelli-box" hidden>
+      <h2>Appelli ufficiali</h2>
+      <div id="appelli-list" class="unit-list"></div>
+    </div>
+
     <h2>Formato dei test</h2>
     <div id="format-info" class="card"></div>
 
@@ -89,6 +94,13 @@ try {
       <p class="note">Qui niente viene registrato: le domande che leggi restano
         «mai somministrate» e gli errori non entrano nel ripasso. È ripasso libero.</p>
       <div class="filters">
+        <label>Fonte
+          <select id="browse-source">
+            <option value="">domande del banco</option>
+            <option value="ufficiali">solo appelli ufficiali</option>
+            <option value="tutte">banco e appelli</option>
+          </select>
+        </label>
         <label>Unità
           <select id="browse-unit"></select>
         </label>

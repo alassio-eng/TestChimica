@@ -1,0 +1,462 @@
+{
+  "appello": "fisica-2025-1",
+  "materia": "fisica",
+  "nome": "1° appello",
+  "data": "2025-11-20",
+  "fonte": "Semestre filtro 2025: testi e chiavi della prova ufficiale. Spiegazioni originali del banco.",
+  "domande": [
+    {
+      "id": "app25-1-01",
+      "numero": 1,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Periodo dell'oscillatore massa-molla",
+      "testo": "A una molla orizzontale (di massa trascurabile) è attaccato un cubetto di legno di massa m = 7 kg che oscilla con un periodo di π/3 secondi. Quanto vale il coefficiente k della molla in unità SI?",
+      "opzioni": [
+        "252π",
+        "126",
+        "28",
+        "252",
+        "4"
+      ],
+      "corretta": 3,
+      "spiegazione": "Per l'oscillatore massa-molla T = 2π√(m/k), da cui k = 4π²m/T². Con T² = π²/9: k = 4π² · 7 · 9/π² = 4 · 7 · 9 = 252 N/m. I π² si semplificano.\n\nA) Lascia un π che nel calcolo si semplifica.\nB) 126 = 2 · 7 · 9: si ottiene con 2π² al posto di 4π², cioè dimenticando di elevare al quadrato il 2 di 2π.\nC) 28 = 4 · 7: è il risultato con T = π anziché π/3, cioè senza il fattore 9 del periodo al quadrato.\nE) Conserva soltanto il fattore 4 della formula e perde massa e periodo."
+    },
+    {
+      "id": "app25-1-02",
+      "numero": 2,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Indice di rifrazione, costante dielettrica e permeabilità",
+      "testo": "L'indice di rifrazione di un mezzo dipende dalla sua costante dielettrica ε e dalla sua permeabilità magnetica μ, secondo la legge:",
+      "opzioni": [
+        "n = 1/(εμ)",
+        "n = ε/μ",
+        "n = √(εμ)",
+        "n = εμ",
+        "n = 1/√(εμ)"
+      ],
+      "corretta": 2,
+      "spiegazione": "La luce si propaga nel vuoto a c = 1/√(ε₀μ₀) e in un mezzo a v = 1/√(εμ). L'indice è n = c/v = √(εμ/ε₀μ₀) = √(εᵣμᵣ): la formula vale con ε e μ intese come grandezze relative, adimensionali, che è il senso del quesito.\n\nA) Manca la radice ed è invertita.\nB) Il rapporto fra ε e μ non compare in alcuna relazione dell'indice di rifrazione.\nD) Manca la radice quadrata.\nE) Con ε e μ assolute, 1/√(εμ) è la velocità della luce nel mezzo; con grandezze relative è 1/n = v/c. In nessuno dei due casi è l'indice di rifrazione."
+    },
+    {
+      "id": "app25-1-03",
+      "numero": 3,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Legge di Poiseuille: caduta di pressione",
+      "testo": "Un condotto cilindrico orizzontale di raggio R e lunghezza L è percorso da un fluido viscoso, con portata Q, in regime di moto laminare. In queste condizioni viene misurata tra i capi del condotto una caduta di pressione ΔP. Se, a parità delle altre condizioni, vengono raddoppiati sia il raggio che la lunghezza del condotto, la quantità ΔP:",
+      "opzioni": [
+        "Diventa il doppio",
+        "Diventa un ottavo",
+        "Resta invariata",
+        "Diventa un quarto",
+        "Diventa il quadruplo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per la legge di Poiseuille Q = πR⁴ΔP/(8ηL), quindi a portata fissata ΔP ∝ L/R⁴. Raddoppiando L il numeratore raddoppia, raddoppiando R il denominatore cresce di 2⁴ = 16: ΔP diventa 2/16 = 1/8.\n\nA) Considera solo la lunghezza e dimentica il raggio.\nC) Pensa che i due raddoppi si compensino, come se il raggio comparisse alla prima potenza.\nD) 1/4 si ottiene usando il quadrato del raggio, cioè l'area, al posto della quarta potenza e trascurando la lunghezza (1/2²), oppure usando R³ al posto di R⁴ (2/8).\nE) 4 si ottiene trattando i due raddoppi come se entrambi aumentassero ΔP (2 · 2): il raggio invece sta al denominatore, alla quarta potenza, e un condotto più largo abbassa la caduta di pressione."
+    },
+    {
+      "id": "app25-1-04",
+      "numero": 4,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Multipli e sottomultipli",
+      "testo": "Facendo uso dei multipli e dei sottomultipli, si può affermare che:",
+      "opzioni": [
+        "10⁻⁹ km = 1 dm",
+        "10⁻⁹ km = 1 nm",
+        "10⁻⁹ km = 1 µm",
+        "10⁻⁹ km = 1 mm",
+        "10⁻⁹ km = 1 cm"
+      ],
+      "corretta": 2,
+      "spiegazione": "1 km = 10³ m, quindi 10⁻⁹ km = 10⁻⁹ · 10³ m = 10⁻⁶ m, che è un micrometro.\n\nA) 1 dm = 10⁻¹ m.\nB) 1 nm = 10⁻⁹ m: è l'errore di chi applica 10⁻⁹ al metro dimenticando che si parte dal chilometro.\nD) 1 mm = 10⁻³ m.\nE) 1 cm = 10⁻² m."
+    },
+    {
+      "id": "app25-1-05",
+      "numero": 5,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Secondo principio della dinamica",
+      "testo": "Applicando una forza uguale a due corpi diversi, i due corpi acquistano:",
+      "opzioni": [
+        "la stessa accelerazione",
+        "quesito senza soluzione univoca o corretta",
+        "accelerazioni direttamente proporzionali alle masse",
+        "la stessa velocità",
+        "accelerazioni inversamente proporzionali alle masse"
+      ],
+      "corretta": 4,
+      "spiegazione": "Dal secondo principio a = F/m: a parità di forza, l'accelerazione è tanto maggiore quanto più piccola è la massa.\n\nA) Accelerazioni uguali si avrebbero solo con masse uguali.\nB) La risposta esiste ed è univoca.\nC) Inverte la proporzionalità: è l'errore più comune su F = ma.\nD) La forza determina l'accelerazione, non la velocità, che dipende anche dalle condizioni iniziali e dal tempo."
+    },
+    {
+      "id": "app25-1-06",
+      "numero": 6,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Fluido incomprimibile",
+      "testo": "Un fluido si definisce incompressibile:",
+      "opzioni": [
+        "Quando al suo interno, a parità di altezza, la pressione non dipende dalla posizione",
+        "Quando la sua densità non dipende dalla temperatura",
+        "Quando la sua densità rimane costante anche se sottoposto a variazioni di pressione",
+        "Quando per esso vale il principio di conservazione dell'energia cinetica",
+        "Quando il suo coefficiente di viscosità è trascurabile."
+      ],
+      "corretta": 2,
+      "spiegazione": "Incompressibile significa che il volume, e quindi la densità, non cambia quando cambia la pressione. I liquidi lo sono con ottima approssimazione, i gas no.\n\nA) Descrive un fluido in equilibrio idrostatico, non la comprimibilità.\nB) La dipendenza dalla temperatura è la dilatazione termica, una proprietà diversa.\nD) Non è una proprietà che definisca un tipo di fluido.\nE) Descrive un fluido non viscoso: viscosità e comprimibilità sono proprietà indipendenti, e il fluido ideale le richiede entrambe."
+    },
+    {
+      "id": "app25-1-07",
+      "numero": 7,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Galleggiamento: frazione immersa",
+      "testo": "Una zattera di legno (densità del legno: 0,8 g/cm³) che ha una base quadrata di lato 4 m e altezza 50 cm, galleggia sull'acqua. Quale percentuale dell'altezza totale della zattera è immersa in acqua?",
+      "opzioni": [
+        "10%",
+        "80%",
+        "50%",
+        "Nessuna delle risposte proposte è corretta.",
+        "20%"
+      ],
+      "corretta": 1,
+      "spiegazione": "All'equilibrio peso e spinta si equivalgono: ρ(legno) · V · g = ρ(acqua) · V(immerso) · g, quindi V(immerso)/V = 0,8/1 = 80%. Con una base costante, la frazione di volume immersa coincide con la frazione dell'altezza: 40 cm su 50. Le dimensioni della zattera non servono.\n\nA) Non deriva da alcun rapporto fra le grandezze date.\nC) Sarebbe la frazione immersa di un corpo con densità metà di quella dell'acqua.\nD) La risposta corretta è fra quelle proposte.\nE) 20% è la parte emersa, il complemento della risposta."
+    },
+    {
+      "id": "app25-1-08",
+      "numero": 8,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Dimensioni della forza",
+      "testo": "Indicando con [M] una quantità che ha le dimensioni di una massa, con [L] una quantità che ha le dimensioni di una lunghezza e con [T] una quantità che ha le dimensioni di un tempo, che dimensioni ha una forza?",
+      "opzioni": [
+        "[M][L][T]⁻¹",
+        "[M][L]²[T]⁻²",
+        "[L][T]⁻²",
+        "[M][L][T]",
+        "[M][L][T]⁻²"
+      ],
+      "corretta": 4,
+      "spiegazione": "F = m · a, e l'accelerazione ha dimensioni [L][T]⁻²: [F] = [M][L][T]⁻², cioè kg · m/s², il newton.\n\nA) Sono le dimensioni della quantità di moto, m · v.\nB) Sono le dimensioni dell'energia o del lavoro, forza per spostamento.\nC) Sono le dimensioni dell'accelerazione: manca la massa.\nD) Non corrisponde ad alcuna grandezza della meccanica."
+    },
+    {
+      "id": "app25-1-09",
+      "numero": 9,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Potenza elettrica e corrente",
+      "testo": "Le potenze utilizzate dai seguenti elettrodomestici sono: P (ferro da stiro) = 1 kW; P (televisore) = 150 W; P (lavatrice) = 2,5 kW; P (forno elettrico) = 1500 W. Se vengono collegati alla rete domestica (220 V), quale degli elettrodomestici è attraversato da una corrente di intensità maggiore?",
+      "opzioni": [
+        "Il ferro da stiro",
+        "Il forno elettrico",
+        "La lavatrice",
+        "Il televisore",
+        "Sono attraversati tutti dalla stessa corrente"
+      ],
+      "corretta": 2,
+      "spiegazione": "Con P = V · I e la stessa tensione per tutti, la corrente è proporzionale alla potenza: I = P/V. La lavatrice, 2500 W, assorbe circa 11 A, contro 6,8 A del forno, 4,5 A del ferro e 0,7 A del televisore.\n\nA) Il ferro da stiro assorbe 1000 W: meno della lavatrice e del forno.\nB) Il forno assorbe 1500 W: attenzione al confronto fra unità diverse, 1500 W sono meno di 2,5 kW.\nD) Il televisore è l'apparecchio che assorbe la corrente minore.\nE) La tensione è la stessa per tutti, non la corrente, che dipende dalla potenza."
+    },
+    {
+      "id": "app25-1-10",
+      "numero": 10,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Energia cinetica media e temperatura",
+      "testo": "Secondo la teoria cinetica dei gas, se la temperatura delle molecole di un gas triplica allora:",
+      "opzioni": [
+        "Non è possibile rispondere se non si conoscono le pressioni iniziale e finale del gas",
+        "Non è possibile rispondere se non si conosce la temperatura iniziale del gas",
+        "L'energia cinetica media delle molecole raddoppia",
+        "L'energia cinetica media delle molecole triplica",
+        "L'energia cinetica media delle molecole diventa 9 volte maggiore di quella iniziale"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'energia cinetica media di traslazione è proporzionale alla temperatura assoluta, E = (3/2)kT: se T triplica, triplica anche l'energia.\n\nA) La relazione dipende solo dalla temperatura, non dalla pressione.\nB) Basta il rapporto fra le temperature, purché assolute, per conoscere il rapporto fra le energie.\nC) Raddoppia l'energia di chi interpreta «triplica» come «aumenta di due volte».\nE) Nove volte si avrebbe triplicando la velocità media, non la temperatura: l'energia dipende da v², e v da √T."
+    },
+    {
+      "id": "app25-1-11",
+      "numero": 11,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Moto circolare uniforme",
+      "testo": "Il moto di un punto materiale in cui sono costanti la curvatura della traiettoria e la velocità scalare è un moto:",
+      "opzioni": [
+        "uniformemente accelerato",
+        "elicoidale",
+        "armonico",
+        "quesito senza soluzione univoca o corretta.",
+        "circolare uniforme"
+      ],
+      "corretta": 4,
+      "spiegazione": "Curvatura costante significa raggio di curvatura costante: in un moto piano la traiettoria è una circonferenza. Se in più il modulo della velocità è costante, il moto è circolare uniforme, con accelerazione solo centripeta.\n\nA) Nel moto uniformemente accelerato la velocità scalare cambia.\nB) Un'elica percorsa a velocità costante ha anch'essa curvatura costante, ma è una traiettoria nello spazio: il quesito sottintende un moto piano, e la risposta ufficiale è E.\nC) Nel moto armonico la velocità varia continuamente fra zero e un massimo.\nD) La risposta ufficiale esiste ed è E."
+    },
+    {
+      "id": "app25-1-12",
+      "numero": 12,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Che cosa trasporta un'onda",
+      "testo": "Quale di queste quantità fisiche NON viene trasportata da un'onda acustica che si propaga in un mezzo materiale:",
+      "opzioni": [
+        "Informazione",
+        "Potenza",
+        "Quantità di moto",
+        "Massa",
+        "Energia"
+      ],
+      "corretta": 3,
+      "spiegazione": "Le particelle del mezzo oscillano attorno alla loro posizione di equilibrio senza spostarsi globalmente: l'onda trasporta energia, non materia.\n\nA) Il suono è il veicolo della voce e di ogni segnale acustico.\nB) L'energia trasportata nell'unità di tempo è una potenza.\nC) Un'onda trasporta anche quantità di moto: è ciò che produce la pressione di radiazione acustica su un ostacolo.\nE) Il trasporto di energia è la caratteristica che definisce un'onda."
+    },
+    {
+      "id": "app25-1-13",
+      "numero": 13,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Rendimento del ciclo di Carnot",
+      "testo": "Dette rispettivamente T1 e T2 la temperatura della sorgente fredda e della sorgente calda, in un ciclo di Carnot il rendimento:",
+      "opzioni": [
+        "vale 1 − T1/T2, con T1 e T2 espresse in gradi centigradi.",
+        "vale 1 − T2/T1, con le temperature espresse in K.",
+        "è maggiore di 1.",
+        "è un numero negativo.",
+        "vale 1 − T1/T2, con le temperature espresse in K."
+      ],
+      "corretta": 4,
+      "spiegazione": "Il rendimento della macchina di Carnot è η = 1 − T(fredda)/T(calda), con le temperature assolute in kelvin. È sempre compreso fra 0 e 1 ed è il massimo possibile fra due sorgenti date.\n\nA) Con i gradi Celsius il rapporto perde significato: a 0 °C la sorgente fredda darebbe rendimento 1, e sotto zero darebbe valori superiori a 1.\nB) Con T2 > T1 il rapporto T2/T1 supera 1 e il rendimento sarebbe negativo.\nC) Nessuna macchina termica converte in lavoro più energia di quella che assorbe.\nD) Il rendimento è un rapporto fra lavoro prodotto e calore assorbito, entrambi positivi per una macchina."
+    },
+    {
+      "id": "app25-1-14",
+      "numero": 14,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Velocità delle onde elettromagnetiche",
+      "testo": "La velocità di propagazione delle onde elettromagnetiche:",
+      "opzioni": [
+        "350.209 km/s",
+        "è costante",
+        "dipende dall'indice di rifrazione del mezzo in cui viaggiano",
+        "nessuna delle risposte precedenti è corretta",
+        "dipende dalla frequenza dell'onda"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel vuoto le onde elettromagnetiche viaggiano a c ≈ 3 · 10⁸ m/s; in un mezzo materiale a v = c/n, dove n è l'indice di rifrazione.\n\nA) Il valore è sbagliato: c vale circa 300.000 km/s.\nB) È costante soltanto nel vuoto.\nD) Una risposta corretta c'è.\nE) Nei mezzi dispersivi la velocità dipende effettivamente anche dalla frequenza, ed è ciò che separa i colori in un prisma: ma lo fa attraverso l'indice di rifrazione, e la chiave ufficiale è C."
+    },
+    {
+      "id": "app25-1-15",
+      "numero": 15,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Potenziale all'interno di un conduttore in equilibrio",
+      "testo": "Qual è la differenza di potenziale tra due punti all'interno di un conduttore isolato caricato con carica di 10 nC e di capacità 5 nF?",
+      "opzioni": [
+        "0 V",
+        "2 mV",
+        "50 mV",
+        "10 mV",
+        "2 V"
+      ],
+      "corretta": 0,
+      "spiegazione": "In un conduttore in equilibrio la carica si dispone sulla superficie esterna e all'interno il campo elettrico è nullo: tutti i punti del conduttore sono allo stesso potenziale e la differenza fra due di essi è zero. Carica e capacità sono dati che non servono.\n\nB) Applica Q/C sbagliando il risultato di tre ordini di grandezza.\nC) 50 è il prodotto dei due numeri, non una differenza di potenziale.\nD) Non deriva da alcuna relazione fra i dati.\nE) 2 V = Q/C è il potenziale del conduttore rispetto all'infinito: è la trappola del quesito, che chiede invece la differenza fra due punti interni."
+    },
+    {
+      "id": "app25-1-16",
+      "numero": 16,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Lavoro come prodotto scalare",
+      "testo": "Il lavoro meccanico di una forza è definito come il prodotto …… tra il vettore forza e il vettore spostamento.",
+      "accettate": [
+        "scalare"
+      ],
+      "spiegazione": "L = F · s = F s cos θ: il prodotto scalare di due vettori è un numero, e infatti il lavoro è una grandezza scalare. È nullo quando forza e spostamento sono perpendicolari."
+    },
+    {
+      "id": "app25-1-17",
+      "numero": 17,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Campo elettrico e magnetico perpendicolari",
+      "testo": "Una carica elettrica in movimento genera un campo elettromagnetico in cui i vettori campo elettrico e campo magnetico sono sempre …… l'uno rispetto all'altro.",
+      "accettate": [
+        "ortogonali",
+        "perpendicolari"
+      ],
+      "spiegazione": "In un'onda elettromagnetica i campi elettrico e magnetico sono perpendicolari fra loro ed entrambi perpendicolari alla direzione di propagazione: l'onda è trasversale."
+    },
+    {
+      "id": "app25-1-18",
+      "numero": 18,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Energia del fotone",
+      "testo": "L'energia di un fotone è direttamente proporzionale alla sua ……",
+      "accettate": [
+        "frequenza"
+      ],
+      "spiegazione": "E = h · f, con h costante di Planck. Poiché f = c/λ, l'energia è invece inversamente proporzionale alla lunghezza d'onda: per questo l'ultravioletto è più energetico del visibile."
+    },
+    {
+      "id": "app25-1-19",
+      "numero": 19,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Carica in un campo magnetico uniforme",
+      "testo": "Una carica elettrica entra in una regione di spazio, dove è presente un campo magnetico uniforme, con velocità ortogonale alla direzione del campo. La carica descriverà un'orbita ……",
+      "accettate": [
+        "circolare"
+      ],
+      "spiegazione": "La forza di Lorentz F = qv × B è sempre perpendicolare alla velocità e ha modulo costante: non cambia la velocità in modulo ma solo in direzione, e fa da forza centripeta. Il moto è circolare uniforme, di raggio r = mv/(qB).\n\nSe la velocità avesse anche una componente parallela al campo la traiettoria sarebbe un'elica."
+    },
+    {
+      "id": "app25-1-20",
+      "numero": 20,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Forze dissipative",
+      "testo": "Quando un pendolo viene sollecitato da una forza esterna comincia ad oscillare. Le sue oscillazioni però si smorzano rapidamente al cessare della forza esterna. Ciò avviene perché sul pendolo agiscono forze di tipo ……",
+      "accettate": [
+        "dissipativo",
+        "dissipative"
+      ],
+      "spiegazione": "L'attrito con l'aria e quello nel punto di sospensione sono forze non conservative: sottraggono energia meccanica al pendolo trasformandola in calore, e l'ampiezza delle oscillazioni diminuisce nel tempo."
+    },
+    {
+      "id": "app25-1-21",
+      "numero": 21,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Immagine data da una lente convergente",
+      "testo": "Se un oggetto è posto tra il centro e il fuoco di una lente convergente, si otterrà un'immagine …… e ingrandita.",
+      "accettate": [
+        "reale"
+      ],
+      "spiegazione": "Se per «centro» si intende il punto a distanza doppia della focale (2f), un oggetto fra 2f e f produce un'immagine reale, capovolta e ingrandita, al di là di 2f dall'altra parte della lente. È la configurazione del proiettore.\n\nNota: il quesito è ambiguo. Se «centro» indicasse il centro ottico della lente, l'oggetto sarebbe fra la lente e il fuoco e l'immagine sarebbe virtuale, diritta e ingrandita, come in una lente d'ingrandimento. La chiave ufficiale è «reale»; anche «capovolta» sarebbe vera, ma non è la parola attesa."
+    },
+    {
+      "id": "app25-1-22",
+      "numero": 22,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Trasformazione isocora",
+      "testo": "In una trasformazione isocora la variazione di energia interna ΔU coincide con il …… scambiato dal sistema.",
+      "accettate": [
+        "calore"
+      ],
+      "spiegazione": "A volume costante il gas non compie lavoro, W = 0, e il primo principio ΔU = Q − W si riduce a ΔU = Q: tutto il calore scambiato va in energia interna."
+    },
+    {
+      "id": "app25-1-23",
+      "numero": 23,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Lunghezza d'onda",
+      "testo": "Un'onda sonora di frequenza f si propaga in un mezzo con velocità v. La sua lunghezza d'onda λ vale ……",
+      "accettate": [
+        "v/f"
+      ],
+      "spiegazione": "Per qualunque onda periodica v = λ · f, quindi λ = v/f: la distanza percorsa in un periodo, T = 1/f."
+    },
+    {
+      "id": "app25-1-24",
+      "numero": 24,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Frequenza e periodo",
+      "testo": "In fisica ondulatoria, la frequenza f è calcolata come l'inverso del …… di un'onda.",
+      "accettate": [
+        "periodo"
+      ],
+      "spiegazione": "Il periodo T è il tempo di un'oscillazione completa e la frequenza il numero di oscillazioni al secondo: f = 1/T, misurata in hertz."
+    },
+    {
+      "id": "app25-1-25",
+      "numero": 25,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Urto completamente anelastico",
+      "testo": "Una sferetta di cera di massa 20 g correndo su un piano privo d'attrito con velocità costante di 2 m/sec urta, rimanendo attaccata, una sfera di acciaio di massa 40 g. Dopo l'urto le due sfere procedono insieme alla velocità di …… m/sec.",
+      "accettate": [
+        "2/3",
+        "0,67",
+        "0,667"
+      ],
+      "spiegazione": "Nell'urto si conserva la quantità di moto: 20 g · 2 m/s = (20 + 40) g · v, quindi v = 40/60 = 2/3 m/s, circa 0,67 m/s. L'energia cinetica invece non si conserva: l'urto è completamente anelastico."
+    },
+    {
+      "id": "app25-1-26",
+      "numero": 26,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Prefisso nano",
+      "testo": "Per convertire una pressione da Pascal (Pa) a nanoPascal (nPa), si moltiplica il valore in Pascal per 10 elevato alla potenza di ……",
+      "accettate": [
+        "9"
+      ],
+      "spiegazione": "1 nPa = 10⁻⁹ Pa, quindi 1 Pa = 10⁹ nPa: passando a un'unità più piccola il numero cresce e si moltiplica per 10⁹. L'esponente −9 servirebbe per la conversione inversa."
+    },
+    {
+      "id": "app25-1-27",
+      "numero": 27,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Pressione idrostatica",
+      "testo": "Per un fluido con densità ρ = 1000 kg/m³ e g = 9,81 m/s² su un'altezza di 5 m, la pressione manometrica sul fondo vale …… Pa.",
+      "accettate": [
+        "49050",
+        "49.050"
+      ],
+      "spiegazione": "Per la legge di Stevino la pressione dovuta alla colonna di liquido è p = ρgh = 1000 · 9,81 · 5 = 49 050 Pa, circa mezza atmosfera. «Manometrica» significa misurata rispetto alla pressione atmosferica, che quindi non si aggiunge."
+    },
+    {
+      "id": "app25-1-28",
+      "numero": 28,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Bernoulli in un condotto orizzontale",
+      "testo": "In un condotto orizzontale scorre un fluido di densità ρ = 10³ kg/m³ che, ai fini della domanda, può essere considerato ideale; la portata è Q = 100 cm³/s. Nel punto 1 la sezione del condotto è S₁ = 1 cm², mentre nel punto 2 la sezione è S₂ = 2 cm². Quanto è la differenza di pressione P₂ – P₁, espressa in N/m²? ……",
+      "accettate": [
+        "375"
+      ],
+      "spiegazione": "Dalla continuità: v₁ = Q/S₁ = 10⁻⁴ m³/s / 10⁻⁴ m² = 1 m/s e v₂ = 0,5 m/s. Per Bernoulli a quota costante P₂ − P₁ = ½ρ(v₁² − v₂²) = ½ · 1000 · (1 − 0,25) = 375 N/m².\n\nIl segno è positivo: nel tratto più largo il fluido è più lento e la pressione è maggiore."
+    },
+    {
+      "id": "app25-1-29",
+      "numero": 29,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Conversione di volumi e masse",
+      "testo": "In un mm³ di sangue sono disciolti 4 µg di una certa proteina. In un litro di sangue saranno disciolti …… g di quella proteina.",
+      "accettate": [
+        "4"
+      ],
+      "spiegazione": "Un litro è un decimetro cubo, cioè 10⁶ mm³. I microgrammi sono quindi 4 · 10⁶ µg, e poiché 1 g = 10⁶ µg la massa è 4 g."
+    },
+    {
+      "id": "app25-1-30",
+      "numero": 30,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Legge di Ohm",
+      "testo": "La legge che stabilisce che la tensione è proporzionale alla corrente attraverso un conduttore, con una costante di proporzionalità chiamata …… , è conosciuta come legge di Ohm.",
+      "accettate": [
+        "resistenza"
+      ],
+      "spiegazione": "V = R · I: la costante di proporzionalità fra tensione e corrente è la resistenza elettrica, misurata in ohm. Vale per i conduttori detti ohmici."
+    },
+    {
+      "id": "app25-1-31",
+      "numero": 31,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Resistenze in serie e in parallelo",
+      "testo": "Due conduttori uguali di resistenza 1000 Ohm sono posti in parallelo e il loro complesso è posto in serie con un conduttore di resistenza 500 Ohm. La resistenza totale del collegamento è …… Ohm.",
+      "accettate": [
+        "1000",
+        "mille"
+      ],
+      "spiegazione": "Due resistenze uguali in parallelo equivalgono a metà di ciascuna: 1/R = 1/1000 + 1/1000, R = 500 Ω. In serie con l'altra da 500 Ω le resistenze si sommano: 500 + 500 = 1000 Ω."
+    }
+  ]
+}

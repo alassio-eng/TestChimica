@@ -26,6 +26,12 @@ esportazione e importazione di un file JSON.
   Se un'unità non ha abbastanza domande di un tipo, la differenza viene coperta
   con l'altro tipo della stessa unità e il fatto viene dichiarato prima di
   iniziare.
+- **Appelli ufficiali**: per ogni materia le prove reali del semestre filtro
+  2025 (1° e 2° appello), ciascuna intera, 31 quesiti nell'ordine originale,
+  con le chiavi ufficiali e spiegazioni scritte per il banco. Stanno fuori dai
+  test per unità e da «tutto il programma», così restano una simulazione
+  pulita; gli errori fatti lì entrano comunque in «I miei errori» e nei
+  ripassi. La voce di ogni appello riporta l'esito dell'ultimo tentativo.
 - **Estrae solo domande mai somministrate su questo dispositivo.** Quando
   l'unità è esaurita lo dice esplicitamente, prima di iniziare, e chiede
   conferma; nel ripescaggio dà la precedenza alle domande sbagliate (più errori
@@ -36,8 +42,8 @@ esportazione e importazione di un file JSON.
 - **Alla consegna**: punteggio, resa per unità didattica, e per ogni domanda la
   risposta data, quella corretta e la spiegazione completa.
 - **Sfoglia le domande**: ripasso libero sull'intero banco della materia, una
-  domanda per volta, con filtri per unità, tipo e stato (mai somministrate, già
-  viste, sbagliate) e ricerca nel testo, nell'argomento e nella spiegazione. Si
+  domanda per volta, con filtri per fonte (banco, solo appelli ufficiali,
+  entrambi), unità, tipo e stato (mai somministrate, già viste, sbagliate) e ricerca nel testo, nell'argomento e nella spiegazione. Si
   può provare a rispondere e vedere subito correzione e spiegazione, oppure
   scoprire direttamente la risposta. **Non tocca lo storico**: nulla viene
   marcato come somministrato, nessun errore entra nel ripasso, il serbatoio
@@ -71,8 +77,10 @@ icons/                  icone 180 · 192 · 512 · maskable
 questions/
   index.json            manifest delle materie
   chimica/
-    index.json          unità, quote, formato, elenco dei lotti
+    index.json          unità, quote, formato, elenco dei lotti e degli appelli
     chimica-u1-01.json …  un file per unità, col prefisso della materia
+    appelli/
+      chimica-2025-1.json   prova ufficiale intera (id app25-1-01 … app25-1-31)
   fisica/
     index.json
     fisica-u1-01.json …

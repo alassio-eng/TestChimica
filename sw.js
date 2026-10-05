@@ -3,9 +3,10 @@
    così un lotto nuovo viene raccolto appena il dispositivo è online.
 
    Il banco è multi-materia: si parte dal manifest questions/index.json,
-   si leggono gli indici delle singole materie e da lì i loro lotti. */
+   si leggono gli indici delle singole materie e da lì i loro lotti e i
+   loro appelli ufficiali. */
 
-const VERSIONE = 'v10';
+const VERSIONE = 'v11';
 const CACHE_SHELL = 'banco-chimica-shell-' + VERSIONE;
 const CACHE_DATI = 'banco-chimica-dati-' + VERSIONE;
 
@@ -36,7 +37,8 @@ async function cacheDomande() {
     const dir = 'questions/' + (voce.cartella || voce.id) + '/';
     try {
       const idx = await metti(cache, dir + 'index.json');
-      await Promise.all((idx.lotti || []).map(f => metti(cache, dir + f).catch(() => null)));
+      const file = (idx.lotti || []).concat((idx.appelli || []).map(a => a.file));
+      await Promise.all(file.map(f => metti(cache, dir + f).catch(() => null)));
     } catch (e) { /* materia non ancora pubblicata: si prosegue con le altre */ }
   }));
 }

@@ -1,15 +1,18 @@
-# Delta: revisione del 4 ottobre (chimica, fisica, biologia)
+# Delta: appelli ufficiali 2025
 
-Carica le cartelle così come sono, sovrascrivendo i file esistenti:
+Carica le cartelle così come sono, sovrascrivendo i file esistenti.
 
-- questions/chimica/   13 lotti revisionati
-- questions/fisica/    13 lotti revisionati
-- questions/biologia/  19 lotti revisionati + 3 nuovi (biologia-u4-04,
-                       biologia-u5-05, biologia-u7-03) + index.json
-- COPERTURA.md, APERTURA-CHAT.md  (rigenerati)
+App
+- index.html, app.js, style.css, sw.js   (sezione «Appelli ufficiali», filtro «Fonte»
+                                          nello sfoglio, service worker v11)
 
-Nessun id rinumerato o rimosso. Gli altri file della revisione
-(index.json di chimica e fisica, alcuni lotti) sono già identici a
-quelli pubblicati e non servono.
+Domande
+- questions/<materia>/appelli/          NUOVE cartelle, 2 file per materia (31 quesiti l'uno)
+- questions/<materia>/index.json        registrano gli appelli
+
+Strumenti e documentazione
+- tools/valida.py, README.md, SPEC-NUOVA-MATERIA.md
+
+Banco invariato: nessun lotto toccato, nessun id cambiato.
 
 Questo file non va caricato.

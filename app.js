@@ -103,8 +103,17 @@ function chiaviRisposta(s) {
   return set;
 }
 
+/* Indici delle opzioni giuste. Di norma è una sola; un quesito ufficiale
+   con due opzioni identiche nel testo originale le dichiara entrambe. */
+const giuste = q => (Array.isArray(q.corrette) && q.corrette.length ? q.corrette : [q.corretta]).map(Number);
+
 function rispostaCorretta(q, data) {
-  if (q.tipo === 'multipla') return Number(data) === Number(q.corretta);
+  if (q.tipo === 'multipla') {
+    // una domanda senza risposta non è mai esatta: Number(null) varrebbe 0,
+    // cioè l'opzione A, e verrebbe contata come giusta quando la A è la corretta
+    if (data === null || data === undefined || data === '') return false;
+    return giuste(q).includes(Number(data));
+  }
   if (!data) return false;
   const date = chiaviRisposta(data);
   if (!date.size || [...date][0] === '') return false;
@@ -116,7 +125,9 @@ function rispostaCorretta(q, data) {
 }
 
 function testoCorretto(q) {
-  if (q.tipo === 'multipla') return `${String.fromCharCode(65 + q.corretta)}) ${q.opzioni[q.corretta]}`;
+  if (q.tipo === 'multipla') {
+    return giuste(q).map(i => `${String.fromCharCode(65 + i)}) ${q.opzioni[i]}`).join('  oppure  ');
+  }
   return (q.accettate || []).join('  ·  ');
 }
 
@@ -262,7 +273,10 @@ async function caricaBanco(forzaRete) {
       abbrev: voce.abbrev || voce.id.slice(0, 3).toUpperCase(),
       dir,
       formato: FORMATO_DEFAULT,
-      unita: [], lotti: [], domande: [], perUnita: {}
+      unita: [], lotti: [], domande: [], perUnita: {},
+      // gli appelli ufficiali stanno fuori dal banco: non entrano nei test per
+      // unità né in «Tutto il programma», così restano una simulazione pulita
+      appelli: [], ufficiali: []
     };
     try {
       const idx = await leggi(dir + 'index.json');
@@ -270,6 +284,7 @@ async function caricaBanco(forzaRete) {
       m.formato = Object.assign({}, FORMATO_DEFAULT, idx.formato || {});
       m.unita = (idx.unita || []).map(u => Object.assign({ quota: 0, obiettivo: 0 }, u));
       m.lotti = idx.lotti || [];
+      m.elencoAppelli = idx.appelli || [];
       m.aggiornato = idx.aggiornato || null;
     } catch (e) {
       problemi.push(`Materia ${voce.id}: indice non caricato (${e.message})`);
@@ -296,6 +311,35 @@ async function caricaBanco(forzaRete) {
     m.perUnita = {};
     for (const u of m.unita) m.perUnita[u.id] = [];
     for (const q of m.domande) (m.perUnita[q.unita] = m.perUnita[q.unita] || []).push(q);
+
+    // Appelli ufficiali: registrati in perId, così gli errori fatti lì entrano
+    // in «I miei errori» e nei ripassi, ma tenuti fuori da m.domande.
+    for (const voceApp of (m.elencoAppelli || [])) {
+      try {
+        const dati = await leggi(dir + voceApp.file);
+        const app = {
+          id: voceApp.id,
+          nome: voceApp.nome || dati.nome || voceApp.id,
+          data: voceApp.data || dati.data || null,
+          domande: []
+        };
+        (dati.domande || []).forEach((q, i) => {
+          const err = validaDomanda(q, m, voceApp.file, i);
+          if (err) { problemi.push(err); return; }
+          q.materia = m.id;
+          q.appello = app.id;
+          const k = chiave(m.id, q.id);
+          if (banco.perId[k]) { problemi.push(`Id duplicato ignorato: ${k}`); return; }
+          banco.perId[k] = q;
+          app.domande.push(q);
+          m.ufficiali.push(q);
+        });
+        app.domande.sort((a, b) => (a.numero || 0) - (b.numero || 0));
+        if (app.domande.length) m.appelli.push(app);
+      } catch (e) {
+        problemi.push(`Appello ${m.id}/${voceApp.file} non caricato: ${e.message}`);
+      }
+    }
     materie.push(m);
   }
 
@@ -322,6 +366,10 @@ function validaDomanda(q, m, file, i) {
     if (!Array.isArray(q.opzioni) || q.opzioni.length < 2) return `${m.id}/${q.id}: opzioni mancanti`;
     if (!Number.isInteger(q.corretta) || q.corretta < 0 || q.corretta >= q.opzioni.length) {
       return `${m.id}/${q.id}: indice della risposta corretta non valido`;
+    }
+    if (q.corrette !== undefined && (!Array.isArray(q.corrette) ||
+        !q.corrette.every(i => Number.isInteger(i) && i >= 0 && i < q.opzioni.length))) {
+      return `${m.id}/${q.id}: elenco delle risposte corrette non valido`;
     }
   } else if (q.tipo === 'completamento') {
     if (!Array.isArray(q.accettate) || !q.accettate.length) return `${m.id}/${q.id}: risposte accettate mancanti`;
@@ -608,12 +656,61 @@ function renderFormato() {
   p2.appendChild(el('strong', null, 'Singola unità'));
   p2.append(` — ${f.unita.totale} domande: ${f.unita.multipla} a risposta multipla e ${f.unita.completamento} a completamento.`);
   box.append(p1, p2, el('p', 'hint', 'In entrambi i casi vengono prima le domande a risposta multipla, poi quelle a completamento.'));
+  if (m.appelli.length) {
+    const p3 = el('p', 'hint');
+    p3.appendChild(el('strong', null, 'Appelli ufficiali'));
+    p3.append(' — le prove reali dello scorso anno, intere e nell\'ordine originale. Restano fuori dagli altri test, così ognuna è una simulazione pulita; gli errori entrano comunque in «I miei errori».');
+    box.appendChild(p3);
+  }
+}
+
+const MESI = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio',
+  'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
+function dataEstesa(iso) {
+  const [a, mm, g] = String(iso || '').split('-').map(Number);
+  return (a && mm && g) ? `${g} ${MESI[mm - 1]} ${a}` : '';
+}
+
+const ambitoAppello = id => 'appello:' + id;
+const appelloDaAmbito = (m, ambito) => (m && typeof ambito === 'string' && ambito.startsWith('appello:'))
+  ? m.appelli.find(a => ambitoAppello(a.id) === ambito) || null
+  : null;
+
+function renderAppelli() {
+  const m = M();
+  const box = $('#appelli-box');
+  const lista = $('#appelli-list');
+  lista.innerHTML = '';
+  box.hidden = !m || !m.appelli.length;
+  if (box.hidden) return;
+
+  m.appelli.forEach((a, i) => {
+    const nm = a.domande.filter(q => q.tipo === 'multipla').length;
+    const nc = a.domande.length - nm;
+    const fatti = stato.sessioni.filter(s => s.materia === m.id && s.ambito === ambitoAppello(a.id));
+    const b = el('button', 'unit appello');
+    b.type = 'button';
+    b.append(el('div', 'unit-tag', String(i + 1) + '°'));
+    const body = el('div', 'unit-body');
+    body.appendChild(el('div', 'unit-name', `${a.nome}${a.data ? ' · ' + dataEstesa(a.data) : ''}`));
+    const meta = el('div', 'unit-meta');
+    meta.textContent = `${a.domande.length} domande · ${nm} a risposta multipla e ${nc} a completamento · nell'ordine originale`;
+    if (fatti.length) {
+      const u = fatti[fatti.length - 1];
+      meta.append(` — ${plur(fatti.length, 'svolto una volta', 'svolto ' + fatti.length + ' volte')}, l'ultima ${u.punteggio}/${u.totale}`);
+    }
+    body.appendChild(meta);
+    b.appendChild(body);
+    b.addEventListener('click', () => avviaAppello(a.id));
+    lista.appendChild(b);
+  });
 }
 
 function renderHome() {
   const m = M();
   renderMaterie();
   renderFormato();
+  renderAppelli();
 
   const tot = m ? m.domande.length : 0;
   const inedite = m ? m.domande.filter(q => !vistaDi(q)).length : 0;
@@ -703,6 +800,15 @@ function avviaTest(ambito) {
   partenza(domande, ambito);
 }
 
+/* Un appello ufficiale si svolge intero e nell'ordine originale: nessuna
+   estrazione, nessuna ridistribuzione, nessun avviso. */
+function avviaAppello(id) {
+  const m = M();
+  const a = m && m.appelli.find(x => x.id === id);
+  if (!a || !a.domande.length) { toast('Appello non disponibile.'); return; }
+  partenza(a.domande.slice(), ambitoAppello(a.id));
+}
+
 function avviaTestDaElenco(chiavi, etichetta) {
   const domande = componiTestDaElenco(chiavi, MAX_RIPASSO);
   if (!domande.length) { toast('Nessuna domanda da ripassare.'); return; }
@@ -734,6 +840,11 @@ function etichettaAmbito(a) {
   if (a === 'all') return (m ? m.abbrev + ' · ' : '') + 'Tutto il programma';
   if (a === 'errori') return 'Test di soli errori';
   if (a === 'ripasso') return 'Ripasso in scadenza';
+  if (typeof a === 'string' && a.startsWith('appello:')) {
+    const app = appelloDaAmbito(m, a);
+    const anno = app && app.data ? ' ' + app.data.slice(0, 4) : '';
+    return (m ? m.abbrev + ' · ' : '') + (app ? app.nome + anno : 'Appello') + ' (ufficiale)';
+  }
   const u = unitaPerId(m, a);
   return u ? a.toUpperCase() + ' · ' + u.nome : a;
 }
@@ -745,7 +856,8 @@ function renderDomanda() {
   box.innerHTML = '';
 
   box.appendChild(el('div', 'qtype',
-    (q.tipo === 'multipla' ? 'Risposta multipla' : 'Completamento') + ' · ' + q.unita.toUpperCase()));
+    (q.tipo === 'multipla' ? 'Risposta multipla' : 'Completamento') + ' · ' + q.unita.toUpperCase() +
+    (q.appello ? ' · quesito ufficiale n. ' + q.numero : '')));
   box.appendChild(el('div', 'qtext', q.testo));
 
   if (q.tipo === 'multipla') {
@@ -944,8 +1056,23 @@ function renderErrori() {
 
 const sfoglio = { elenco: [], i: 0, data: null, rivelata: false };
 
+/* Da dove si sfoglia: il banco (predefinito), i soli quesiti degli appelli
+   ufficiali, oppure tutto insieme. */
+function fonteSfoglio(m, fonte) {
+  if (!m) return [];
+  if (fonte === 'ufficiali') return m.ufficiali;
+  if (fonte === 'tutte') return m.domande.concat(m.ufficiali);
+  return m.domande;
+}
+
+const etichettaAppello = (m, q) => {
+  const a = m && m.appelli.find(x => x.id === q.appello);
+  return a ? `${a.nome}${a.data ? ' ' + a.data.slice(0, 4) : ''} · quesito n. ${q.numero}` : 'Appello ufficiale';
+};
+
 function filtriSfoglio() {
   return {
+    fonte: $('#browse-source').value,
     unita: $('#browse-unit').value,
     tipo: $('#browse-type').value,
     stato: $('#browse-state').value,
@@ -957,7 +1084,7 @@ function elencoSfoglio() {
   const m = M();
   if (!m) return [];
   const f = filtriSfoglio();
-  return m.domande.filter(q => {
+  return fonteSfoglio(m, f.fonte).filter(q => {
     if (f.unita && q.unita !== f.unita) return false;
     if (f.tipo && q.tipo !== f.tipo) return false;
     if (f.stato === 'inedite' && vistaDi(q)) return false;
@@ -974,6 +1101,12 @@ function elencoSfoglio() {
 
 function renderFiltriSfoglio() {
   const m = M();
+  const fonte = $('#browse-source');
+  const ufficialiDisponibili = !!(m && m.ufficiali.length);
+  [...fonte.options].forEach(o => { if (o.value) o.disabled = !ufficialiDisponibili; });
+  if (!ufficialiDisponibili) fonte.value = '';
+  const pool = fonteSfoglio(m, fonte.value);
+
   const sel = $('#browse-unit');
   const scelto = sel.value;
   sel.innerHTML = '';
@@ -981,7 +1114,7 @@ function renderFiltriSfoglio() {
   tutte.value = ''; tutte.textContent = 'tutte le unità';
   sel.appendChild(tutte);
   unitaDi(m).forEach(u => {
-    const n = (m.perUnita[u.id] || []).length;
+    const n = pool.filter(q => q.unita === u.id).length;
     const o = document.createElement('option');
     o.value = u.id;
     o.textContent = `${u.id.toUpperCase()} · ${u.nome} (${n})`;
@@ -1034,6 +1167,7 @@ function renderSfoglio() {
     ' · ' + q.unita.toUpperCase() + (q.argomento ? ' · ' + q.argomento : '');
   box.appendChild(testa);
   const segni = el('div', 'browse-tags');
+  if (q.appello) segni.appendChild(el('span', 'tag uff', etichettaAppello(m, q)));
   if (vistaDi(q)) segni.appendChild(el('span', 'tag', 'già somministrata'));
   if (erroreDi(q) && !erroreDi(q).risolto) segni.appendChild(el('span', 'tag ko', 'sbagliata in passato'));
   if (segni.children.length) box.appendChild(segni);
@@ -1048,7 +1182,7 @@ function renderSfoglio() {
       let cls = 'option';
       if (scelta) cls += ' selected';
       if (sfoglio.rivelata) {
-        if (i === q.corretta) cls += ' giusta';
+        if (giuste(q).includes(i)) cls += ' giusta';
         else if (scelta) cls += ' sbagliata';
       }
       const b = el('button', cls);
@@ -1096,6 +1230,7 @@ function apriSfoglio(unitaIniziale) {
   // i filtri ripartono puliti a ogni apertura: trovarsi ancora addosso la
   // selezione di mezz'ora fa, magari su un'altra materia, fa sembrare che
   // manchino delle domande.
+  $('#browse-source').value = '';
   renderFiltriSfoglio();
   $('#browse-unit').value = unitaIniziale || '';
   $('#browse-type').value = '';
@@ -1110,6 +1245,7 @@ function vociErrore(e, superata) {
   const box = el('div', 'err-item');
   const meta = el('div', 'meta');
   meta.appendChild(el('span', null, `${q.unita.toUpperCase()} · ${q.argomento || 'senza argomento'}`));
+  if (q.appello) meta.appendChild(el('span', 'uff', etichettaAppello(banco.materie.find(x => x.id === q.materia), q)));
   meta.appendChild(el('span', null, `sbagliata ${e.n} ${plur(e.n, 'volta', 'volte')}`));
   meta.appendChild(el('span', null, `ultimo errore ${fmtDate(e.ultimoErrore)}`));
   if (superata) {
@@ -1245,7 +1381,8 @@ function renderDati() {
       ? unitaDi(m).map(u => `${u.id.toUpperCase()} ${(m.perUnita[u.id] || []).length}`).join(' · ')
       : 'nessuna unità definita';
     info.appendChild(el('p', null,
-      `${m.nome}: ${m.domande.length} domande da ${m.lotti.length} ${plur(m.lotti.length, 'lotto', 'lotti')} — ${dett}`));
+      `${m.nome}: ${m.domande.length} domande da ${m.lotti.length} ${plur(m.lotti.length, 'lotto', 'lotti')} — ${dett}` +
+      (m.appelli.length ? ` · più ${m.ufficiali.length} quesiti di ${m.appelli.length} ${plur(m.appelli.length, 'appello ufficiale', 'appelli ufficiali')}` : '')));
   }
   $('#import-result').textContent = '';
 }
@@ -1279,6 +1416,8 @@ function collega() {
   $('#btn-browse').addEventListener('click', () => apriSfoglio());
   ['#browse-unit', '#browse-type', '#browse-state'].forEach(sel =>
     $(sel).addEventListener('change', () => aggiornaSfoglio(false)));
+  // cambiando fonte cambiano anche i conteggi per unità del filtro accanto
+  $('#browse-source').addEventListener('change', () => { renderFiltriSfoglio(); aggiornaSfoglio(false); });
   let ricercaTimer = null;
   $('#browse-search').addEventListener('input', () => {
     clearTimeout(ricercaTimer);

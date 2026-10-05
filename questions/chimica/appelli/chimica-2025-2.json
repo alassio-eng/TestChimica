@@ -1,0 +1,466 @@
+{
+  "appello": "chimica-2025-2",
+  "materia": "chimica",
+  "nome": "2° appello",
+  "data": "2025-12-10",
+  "fonte": "Semestre filtro 2025: testi e chiavi della prova ufficiale. Spiegazioni originali del banco.",
+  "domande": [
+    {
+      "id": "app25-2-01",
+      "numero": 1,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Glucosio e galattosio: epimeri",
+      "testo": "Nel nostro organismo il galattosio può essere convertito in glucosio. Quale è la relazione tra i due saccaridi?",
+      "opzioni": [
+        "sono enantiomeri",
+        "sono tautomeri",
+        "non sono epimeri",
+        "sono epimeri",
+        "non sono isomeri"
+      ],
+      "corretta": 3,
+      "spiegazione": "Glucosio e galattosio hanno la stessa formula, C₆H₁₂O₆, e differiscono soltanto per la configurazione del carbonio 4: due diastereoisomeri che differiscono per un solo centro chirale si chiamano epimeri.\n\nA) Gli enantiomeri sono immagini speculari, con configurazione opposta in tutti i centri chirali, come D- e L-glucosio.\nB) I tautomeri si interconvertono spontaneamente per spostamento di un idrogeno e di un doppio legame, come le forme cheto ed enolica.\nC) Sono proprio l'esempio classico di epimeri, al carbonio 4.\nE) Hanno la stessa formula molecolare e struttura diversa: sono isomeri."
+    },
+    {
+      "id": "app25-2-02",
+      "numero": 2,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Effetto dello ione comune",
+      "testo": "In una soluzione l'aggiunta di uno ione già presente in un sale poco solubile produce:",
+      "opzioni": [
+        "una reazione di ossidoriduzione",
+        "aumento del pH",
+        "diminuzione della temperatura",
+        "aumento della solubilità del sale",
+        "riduzione della solubilità del sale"
+      ],
+      "corretta": 4,
+      "spiegazione": "È l'effetto dello ione comune. Per il principio di Le Châtelier, aumentare la concentrazione di uno degli ioni sposta l'equilibrio di solubilità verso il solido: il prodotto ionico deve restare uguale a Kps, quindi può sciogliersi meno sale.\n\nA) Nessun elettrone viene trasferito: è un equilibrio di solubilità.\nB) Il pH cambia solo se lo ione aggiunto ha proprietà acido-base, e comunque non è l'effetto descritto.\nC) Eventuali effetti termici della dissoluzione non c'entrano con lo ione comune.\nD) È l'effetto opposto a quello che si osserva."
+    },
+    {
+      "id": "app25-2-03",
+      "numero": 3,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Isotopi",
+      "testo": "Gli isotopi di un elemento sono atomi che hanno lo stesso numero:",
+      "opzioni": [
+        "atomico",
+        "di massa",
+        "di elettroni e neutroni",
+        "di elettroni nel nucleo",
+        "di neutroni"
+      ],
+      "corretta": 0,
+      "spiegazione": "Isotopi sono atomi dello stesso elemento, quindi con lo stesso numero atomico Z, cioè lo stesso numero di protoni; differiscono per il numero di neutroni e di conseguenza per il numero di massa.\n\nB) Il numero di massa è proprio ciò che cambia fra gli isotopi.\nC) Gli elettroni coincidono negli atomi neutri, ma i neutroni no.\nD) Nel nucleo non ci sono elettroni.\nE) Il numero di neutroni è ciò che distingue un isotopo dall'altro, come in ¹²C, ¹³C e ¹⁴C."
+    },
+    {
+      "id": "app25-2-04",
+      "numero": 4,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Formula del cloruro di sodio",
+      "testo": "Quale tra le seguenti è la formula chimica del cloruro di sodio?",
+      "opzioni": [
+        "NaCl",
+        "Na₂Cl",
+        "K₂Cl",
+        "NaCl₂",
+        "KCl"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il sodio forma lo ione Na⁺ e il cloro lo ione Cl⁻: cariche +1 e −1 si compensano in rapporto 1:1.\n\nB) Due sodi per un cloro lascerebbero una carica positiva non compensata.\nC) Contiene potassio e ha comunque una stechiometria impossibile.\nD) Richiederebbe un sodio +2, che un metallo alcalino non assume.\nE) KCl è il cloruro di potassio."
+    },
+    {
+      "id": "app25-2-05",
+      "numero": 5,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Glicogeno: funzione e sedi",
+      "testo": "Quale delle seguenti affermazioni riguardanti il glicogeno è corretta?",
+      "opzioni": [
+        "È un polisaccaride lineare e la sua struttura non presenta ramificazioni",
+        "È la forma in cui viene accumulato il glucosio, principalmente nel fegato e nei muscoli",
+        "Col termine «glicemia» si intende la concentrazione di glicogeno nel sangue",
+        "È la forma in cui viene accumulato il glucosio, principalmente nel cervello",
+        "È formato quasi interamente da glucosio e da una piccola percentuale di galattosio"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il glicogeno è il polisaccaride di riserva degli animali. Si accumula soprattutto nel fegato, che lo usa per mantenere la glicemia, e nei muscoli scheletrici, che lo consumano per sé.\n\nA) È molto ramificato: legami α(1→6) ogni 8-12 residui si aggiungono alla catena α(1→4).\nC) La glicemia è la concentrazione di glucosio, non di glicogeno.\nD) Il cervello ha riserve di glicogeno minime e dipende dal glucosio del sangue.\nE) È formato soltanto da glucosio: è un omopolisaccaride."
+    },
+    {
+      "id": "app25-2-06",
+      "numero": 6,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Configurazione elettronica",
+      "testo": "L'atomo con la struttura elettronica 1s² 2s² 2p⁵ è:",
+      "opzioni": [
+        "Ossigeno",
+        "Azoto",
+        "Neon",
+        "Fluoro",
+        "Argon"
+      ],
+      "corretta": 3,
+      "spiegazione": "Gli elettroni sono 2 + 2 + 5 = 9: in un atomo neutro coincidono con il numero atomico, e Z = 9 è il fluoro. Gli manca un solo elettrone per completare il secondo livello, ed è per questo che forma facilmente F⁻.\n\nA) L'ossigeno, Z = 8, ha 2p⁴.\nB) L'azoto, Z = 7, ha 2p³.\nC) Il neon, Z = 10, ha 2p⁶.\nE) L'argon, Z = 18, riempie anche il terzo livello fino a 3p⁶."
+    },
+    {
+      "id": "app25-2-07",
+      "numero": 7,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Idrolisi",
+      "testo": "L'idrolisi consiste nella:",
+      "opzioni": [
+        "formazione di un legame chimico in presenza di acqua",
+        "solubilizzazione di un composto molecolare",
+        "rottura di un legame intramolecolare in presenza di idrogeno",
+        "scissione di molecole per effetto dell'acqua",
+        "scissione di molecole applicando un campo elettrico"
+      ],
+      "corretta": 3,
+      "spiegazione": "Idrolisi significa rottura per mezzo dell'acqua: un legame si spezza e i due frammenti si prendono uno H e l'altro OH della molecola d'acqua. Sono idrolisi la digestione delle proteine, dei polisaccaridi e dei grassi.\n\nA) La formazione di un legame con eliminazione di acqua è la condensazione, il processo inverso.\nB) La dissoluzione è un fenomeno fisico e non spezza legami covalenti.\nC) La scissione per mezzo dell'idrogeno si chiama idrogenolisi.\nE) La scissione con la corrente elettrica è l'elettrolisi."
+    },
+    {
+      "id": "app25-2-08",
+      "numero": 8,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Tamponi del sangue",
+      "testo": "Quali sono i tamponi del sangue?",
+      "opzioni": [
+        "CO₂/HCO₃⁻, H₂PO₄⁻/HPO₄²⁻, proteina/proteinato",
+        "CO₂/HCO₃⁻, H₃PO₄/HPO₄²⁻, proteina/proteinato",
+        "CO₂/HCO₃⁻, H₃PO₄/H₂PO₄⁻, proteina/proteinato",
+        "CO₂/HCO₃⁻, NH₃/NH₄⁺, proteina/proteinato",
+        "CO₂/HCO₃⁻, HSO₄⁻/SO₄²⁻, proteina/proteinato"
+      ],
+      "corretta": 0,
+      "spiegazione": "I sistemi tampone del sangue sono il bicarbonato, il fosfato e le proteine, fra cui l'emoglobina. Per il fosfato la coppia che lavora a pH 7,4 è H₂PO₄⁻/HPO₄²⁻, con pKa₂ di circa 7,2, intorno a 6,8 nelle condizioni ioniche del plasma.\n\nB) H₃PO₄ e HPO₄²⁻ non sono una coppia coniugata: differiscono di due protoni.\nC) La coppia H₃PO₄/H₂PO₄⁻ ha pKa circa 2: a pH 7,4 non tampona.\nD) NH₄⁺/NH₃ ha pKa circa 9,25 e nel sangue non è un tampone significativo; l'ammoniaca conta nell'escrezione renale di acidi.\nE) HSO₄⁻/SO₄²⁻ ha pKa circa 2: a pH fisiologico il solfato è tutto nella forma SO₄²⁻."
+    },
+    {
+      "id": "app25-2-09",
+      "numero": 9,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Neutralizzazione di un acido debole",
+      "testo": "A 0,5 litri di una soluzione 0,2 M di acido acetico vengono aggiunte 0,1 moli di NaOH con la formazione di acetato di sodio. La soluzione risultante sarà:",
+      "opzioni": [
+        "Acida per il fenomeno dell'idrolisi salina",
+        "Acida per l'eccesso di acido acetico",
+        "Basica per il fenomeno dell'idrolisi salina",
+        "Neutra perché neutralizzata perfettamente",
+        "Basica per l'eccesso di NaOH"
+      ],
+      "corretta": 2,
+      "spiegazione": "Le moli di acido acetico sono 0,5 L × 0,2 mol/L = 0,1 mol, quante quelle di NaOH: la neutralizzazione è esatta e resta soltanto acetato di sodio. L'acetato è la base coniugata di un acido debole e reagisce con l'acqua: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. La soluzione è basica.\n\nA) L'idrolisi dell'acetato produce OH⁻, non H₃O⁺.\nB) Non c'è eccesso di acido: le moli sono uguali.\nD) Al punto di equivalenza fra acido debole e base forte il pH è sopra 7: neutro sarebbe solo con un acido forte.\nE) Non c'è eccesso di NaOH, che è stato consumato tutto."
+    },
+    {
+      "id": "app25-2-10",
+      "numero": 10,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Ossidoriduzione",
+      "testo": "Tutte le reazioni in cui si verifica un trasferimento di elettroni da una specie chimica ad un'altra sono dette:",
+      "opzioni": [
+        "dismutazioni",
+        "elettrochimiche",
+        "elettrolitiche",
+        "semireazioni",
+        "ossidoriduzioni"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il trasferimento di elettroni, con variazione dei numeri di ossidazione, è la definizione di reazione di ossidoriduzione, o redox: una specie si ossida cedendo elettroni e un'altra si riduce acquistandoli.\n\nA) La dismutazione è un caso particolare, in cui la stessa specie si ossida e si riduce.\nB) Le reazioni elettrochimiche sono le redox che avvengono in una cella: non tutte le redox lo sono.\nC) L'elettrolisi è una redox forzata dalla corrente elettrica, un caso particolare.\nD) Le semireazioni sono le due metà, ossidazione e riduzione, in cui si scompone una redox."
+    },
+    {
+      "id": "app25-2-11",
+      "numero": 11,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Polisaccaridi di riserva",
+      "testo": "Indicare quale tra queste affermazioni è corretta:",
+      "opzioni": [
+        "Il glicogeno è un omopolisaccaride",
+        "L'amido è un polisaccaride di riserva presente nei tessuti animali",
+        "Il glicogeno è caratterizzato da un solo tipo di legame glicosidico",
+        "L'amido è un eteropolisaccaride",
+        "Il glicogeno è immagazzinato principalmente nel cervello"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il glicogeno è formato da un solo tipo di monomero, il glucosio: è un omopolisaccaride.\n\nB) L'amido è la riserva dei vegetali; negli animali la riserva è il glicogeno.\nC) I legami sono di due tipi: α(1→4) nelle catene e α(1→6) nei punti di ramificazione.\nD) Anche l'amido è fatto solo di glucosio: è un omopolisaccaride.\nE) Le sedi principali sono il fegato e i muscoli."
+    },
+    {
+      "id": "app25-2-12",
+      "numero": 12,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Steroidi e ormoni steroidei",
+      "testo": "Quale di questi steroidi non è un ormone?",
+      "opzioni": [
+        "Colesterolo",
+        "Estradiolo",
+        "Cortisone",
+        "Testosterone",
+        "Cortisolo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il colesterolo è uno steroide con funzione strutturale nelle membrane ed è il precursore degli ormoni steroidei, ma non agisce come ormone.\n\nB) L'estradiolo è il principale estrogeno.\nC) Il cortisone è un glucocorticoide, forma inattiva del cortisolo con cui si interconverte.\nD) Il testosterone è l'androgeno principale.\nE) Il cortisolo è il glucocorticoide attivo."
+    },
+    {
+      "id": "app25-2-13",
+      "numero": 13,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Proprietà generali dei lipidi",
+      "testo": "Indicare quale affermazione sui lipidi è corretta:",
+      "opzioni": [
+        "gli acidi grassi insaturi sono generalmente solidi a temperatura ambiente",
+        "gli acidi grassi saturi presenti nel nostro organismo sono solamente 2: acido stearico e acido palmitico",
+        "sono generalmente idrofobi e lipofili",
+        "sono generalmente insolubili in solventi organici",
+        "nessuno steroide è un lipide"
+      ],
+      "corretta": 2,
+      "spiegazione": "Ciò che accomuna i lipidi non è una struttura chimica ma una proprietà: sono poco o per nulla solubili in acqua e solubili nei solventi organici apolari.\n\nA) I doppi legami cis piegano la catena e ostacolano l'impacchettamento: gli acidi grassi insaturi cis sono di norma liquidi a temperatura ambiente, e i trigliceridi che li contengono in prevalenza sono gli oli.\nB) Ce ne sono altri, come il miristico e il laurico; palmitico e stearico sono soltanto i più abbondanti.\nD) È il contrario: la solubilità nei solventi organici è proprio ciò che li definisce.\nE) Gli steroidi, come il colesterolo, sono una classe di lipidi."
+    },
+    {
+      "id": "app25-2-14",
+      "numero": 14,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "pH di un acido forte diluito",
+      "testo": "Qual è il pH di una soluzione 0,1 mM di HCl?",
+      "opzioni": [
+        "2",
+        "4",
+        "6",
+        "5",
+        "3"
+      ],
+      "corretta": 1,
+      "spiegazione": "0,1 mM = 0,1 × 10⁻³ M = 10⁻⁴ M. HCl è un acido forte e si dissocia del tutto: [H₃O⁺] = 10⁻⁴ M e pH = 4.\n\nA) pH 2 corrisponde a 10⁻² M, cioè a 10 mM.\nC) pH 6 corrisponde a 10⁻⁶ M, cento volte più diluito.\nD) pH 5 corrisponde a 10⁻⁵ M: è l'errore di chi tratta 0,1 mM come se fosse 0,01 mM.\nE) pH 3 corrisponde a 1 mM: si dimentica il fattore 0,1."
+    },
+    {
+      "id": "app25-2-15",
+      "numero": 15,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Legge di Raoult",
+      "testo": "La pressione di vapore di un liquido in una miscela dipende dalla sua pressione di vapore allo stato puro e dalla sua concentrazione espressa come:",
+      "opzioni": [
+        "% Peso/peso (massa/massa)",
+        "% Peso/volume",
+        "Molalità",
+        "Molarità",
+        "Frazione molare"
+      ],
+      "corretta": 4,
+      "spiegazione": "Per la legge di Raoult la tensione di vapore di un componente è Pᵢ = xᵢ · P°ᵢ: conta la frazione molare, cioè la quota di molecole di quel componente sul totale.\n\nA) Una percentuale in massa non conta le molecole: a parità di massa, molecole più leggere sono più numerose.\nB) Vale la stessa obiezione, con in più un volume che dipende dalla temperatura.\nC) La molalità compare nelle formule dell'innalzamento ebullioscopico e dell'abbassamento crioscopico, non nella legge di Raoult.\nD) La molarità compare nella pressione osmotica, π = iMRT."
+    },
+    {
+      "id": "app25-2-16",
+      "numero": 16,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Carboni insaturi in un cicloalchene",
+      "testo": "Il numero di C insaturi in un cicloalchene con formula bruta C₆H₁₀ è ……",
+      "accettate": [
+        "2"
+      ],
+      "spiegazione": "C₆H₁₀ ha due idrogeni in meno di un cicloalcano C₆H₁₂: un'insaturazione è l'anello, l'altra il doppio legame. In un cicloalchene c'è un solo doppio legame, che coinvolge due atomi di carbonio, come nel cicloesene: i carboni insaturi sono due."
+    },
+    {
+      "id": "app25-2-17",
+      "numero": 17,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Pressione osmotica",
+      "testo": "La pressione osmotica è la pressione che bisogna esercitare sulla soluzione perché non venga …… dal solvente",
+      "accettate": [
+        "diluita"
+      ],
+      "spiegazione": "Attraverso una membrana semipermeabile il solvente passa spontaneamente verso la soluzione più concentrata e la diluisce. La pressione osmotica è la pressione da applicare alla soluzione per arrestare quel flusso, cioè per impedirne la diluizione."
+    },
+    {
+      "id": "app25-2-18",
+      "numero": 18,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Equazione di Henderson-Hasselbalch",
+      "testo": "L'equazione di Henderson Hasselbalch si utilizza per calcolare il pH di una soluzione ……",
+      "accettate": [
+        "tampone"
+      ],
+      "spiegazione": "pH = pKa + log([base coniugata]/[acido]) presuppone che in soluzione siano presenti in quantità confrontabili un acido debole e la sua base coniugata, cioè un tampone. Per un acido forte o per un acido debole da solo si usano altre formule."
+    },
+    {
+      "id": "app25-2-19",
+      "numero": 19,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Acido secondo Brønsted",
+      "testo": "Secondo la teoria di Bronsted un composto in grado di rilasciare ioni H⁺ è un ……",
+      "accettate": [
+        "acido"
+      ],
+      "spiegazione": "Per Brønsted e Lowry l'acido è un donatore di protoni e la base un accettore. Cedendo il protone l'acido si trasforma nella sua base coniugata."
+    },
+    {
+      "id": "app25-2-20",
+      "numero": 20,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Densità del ghiaccio",
+      "testo": "Come è noto il ghiaccio galleggia nell'acqua perché ha una …… minore.",
+      "accettate": [
+        "densità"
+      ],
+      "spiegazione": "Nel ghiaccio i legami a idrogeno bloccano le molecole in un reticolo esagonale aperto, più voluminoso dell'acqua liquida: a parità di massa il volume aumenta e la densità diminuisce, circa 0,92 g/cm³ contro 1,00. È un comportamento anomalo: per quasi tutte le sostanze il solido è più denso del liquido."
+    },
+    {
+      "id": "app25-2-21",
+      "numero": 21,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Innalzamento ebullioscopico",
+      "testo": "La temperatura di ebollizione della soluzione fisiologica è …… della temperatura di ebollizione dell'acqua distillata.",
+      "accettate": [
+        "maggiore",
+        "superiore",
+        "più alta",
+        "più elevata"
+      ],
+      "spiegazione": "Il soluto disciolto, NaCl allo 0,9%, abbassa la tensione di vapore dell'acqua: per raggiungere la pressione esterna serve una temperatura più alta. È l'innalzamento ebullioscopico, proprietà colligativa che dipende dal numero di particelle in soluzione."
+    },
+    {
+      "id": "app25-2-22",
+      "numero": 22,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Doppio legame e rotazione impedita",
+      "testo": "Il doppio legame C=C nell'etene impedisce la rotazione degli atomi attorno all'asse di tale legame e rende la molecola ……",
+      "accettate": [
+        "rigida",
+        "planare",
+        "piatta",
+        "bloccata",
+        "vincolata",
+        "stereorigida"
+      ],
+      "spiegazione": "Ruotare attorno al doppio legame significherebbe rompere il legame π, formato dalla sovrapposizione laterale degli orbitali p. Ne derivano la rigidità e la geometria planare: i due carboni sono ibridati sp² e tutti e sei gli atomi dell'etene stanno sullo stesso piano.\n\nNota: la chiave ufficiale non è nota con certezza. Sono accettati i termini proposti nelle correzioni pubblicate, con «rigida» come il più aderente alla rotazione impedita."
+    },
+    {
+      "id": "app25-2-23",
+      "numero": 23,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Kw e temperatura",
+      "testo": "La costante di dissociazione dell'acqua Kw è indipendente dalla temperatura? ……",
+      "accettate": [
+        "no"
+      ],
+      "spiegazione": "Kw è la costante di equilibrio dell'autoprotolisi dell'acqua e, come ogni costante di equilibrio, varia con la temperatura. L'autoprotolisi è endotermica, quindi Kw cresce con la temperatura: vale 10⁻¹⁴ a 25 °C e circa 2,4 × 10⁻¹⁴ a 37 °C, dove l'acqua neutra ha pH di circa 6,8."
+    },
+    {
+      "id": "app25-2-24",
+      "numero": 24,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Glicina nel collagene",
+      "testo": "Circa un terzo degli aminoacidi del collagene è costituito dall'aminoacido ……",
+      "accettate": [
+        "glicina"
+      ],
+      "spiegazione": "La sequenza Gly–X–Y si ripete lungo tutta la catena: la glicina compare ogni tre residui. È l'unico amminoacido abbastanza piccolo da occupare l'interno della tripla elica. Nelle posizioni X e Y si trovano spesso prolina e idrossiprolina."
+    },
+    {
+      "id": "app25-2-25",
+      "numero": 25,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Bilanciamento delle redox",
+      "testo": "Per bilanciare le reazioni redox in soluzione acida si applica il metodo delle ……",
+      "accettate": [
+        "semireazioni",
+        "semi-reazioni",
+        "semi reazioni"
+      ],
+      "spiegazione": "Il metodo delle semireazioni, o ionico-elettronico, separa ossidazione e riduzione, bilancia in ciascuna gli atomi, l'ossigeno con H₂O e l'idrogeno con H⁺ in ambiente acido, e le cariche con gli elettroni; infine moltiplica le due semireazioni perché gli elettroni ceduti e acquistati si uguaglino, e le somma."
+    },
+    {
+      "id": "app25-2-26",
+      "numero": 26,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Energia di attivazione",
+      "testo": "L'Energia di attivazione di una reazione chimica è definita come la differenza di energia tra il complesso attivato e i ……",
+      "accettate": [
+        "reagenti"
+      ],
+      "spiegazione": "L'energia di attivazione è la barriera da superare: la differenza fra l'energia dello stato di transizione, o complesso attivato, e quella dei reagenti. Un catalizzatore la abbassa senza cambiare l'energia di reagenti e prodotti.\n\nLa differenza fra prodotti e reagenti è invece il ΔH della reazione."
+    },
+    {
+      "id": "app25-2-27",
+      "numero": 27,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Isotopi: che cosa cambia",
+      "testo": "Negli isotopi di un elemento è diverso il numero di …… nel nucleo.",
+      "accettate": [
+        "neutroni"
+      ],
+      "spiegazione": "Gli isotopi hanno lo stesso numero di protoni, che definisce l'elemento, e un diverso numero di neutroni: per questo cambia il numero di massa A = Z + N. Per esempio ¹²C, ¹³C e ¹⁴C hanno 6, 7 e 8 neutroni."
+    },
+    {
+      "id": "app25-2-28",
+      "numero": 28,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Legge di Henry",
+      "testo": "La solubilità dei gas nei liquidi è governata dalla legge di ……",
+      "accettate": [
+        "Henry"
+      ],
+      "spiegazione": "Per la legge di Henry la concentrazione di un gas disciolto è proporzionale alla sua pressione parziale sopra il liquido: C = k · P. La costante dipende dal gas, dal solvente e dalla temperatura; a temperatura più alta i gas sono meno solubili."
+    },
+    {
+      "id": "app25-2-29",
+      "numero": 29,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Entalpia e calore a pressione costante",
+      "testo": "L'entalpia è particolarmente utile nello studio delle reazioni chimiche a pressione costante dove è uguale al …… scambiato",
+      "accettate": [
+        "calore"
+      ],
+      "spiegazione": "A pressione costante, e se il sistema compie solo lavoro di espansione, la variazione di entalpia coincide con il calore scambiato: ΔH = Qp. Una reazione esotermica cede calore e ha ΔH negativo."
+    },
+    {
+      "id": "app25-2-30",
+      "numero": 30,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Definizione di numero di ossidazione",
+      "testo": "Il numero di ossidazione di un atomo in una molecola è la carica formale che l'atomo assume attribuendo gli elettroni di legame all'elemento più ……",
+      "accettate": [
+        "elettronegativo"
+      ],
+      "spiegazione": "Si immagina ogni legame come se fosse ionico e si assegnano gli elettroni condivisi all'atomo più elettronegativo; fra atomi uguali gli elettroni si dividono a metà. In H₂O, per esempio, l'ossigeno risulta −2 e ciascun idrogeno +1."
+    },
+    {
+      "id": "app25-2-31",
+      "numero": 31,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Urea come diammide",
+      "testo": "L'urea è il prodotto finale del catabolismo delle proteine e viene eliminata principalmente attraverso i reni. Dal punto di vista chimico è la diammide dell'acido ……",
+      "accettate": [
+        "carbonico"
+      ],
+      "spiegazione": "L'urea, CO(NH₂)₂, si ottiene formalmente sostituendo con due gruppi –NH₂ i due ossidrili dell'acido carbonico, CO(OH)₂: è quindi la sua diammide."
+    }
+  ]
+}

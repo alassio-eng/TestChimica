@@ -145,6 +145,30 @@ spiegazione di una domanda esistente è invece innocuo.
 
 ---
 
+### Appelli ufficiali
+
+Le prove ufficiali stanno in `questions/<materia>/appelli/<materia>-<anno>-<n>.json`
+e sono elencate nell'indice della materia, a parte rispetto ai lotti:
+
+```json
+"appelli": [
+  { "id": "2025-1", "nome": "1° appello", "data": "2025-11-20", "file": "appelli/fisica-2025-1.json" }
+]
+```
+
+Ogni file contiene i 31 quesiti nell'ordine originale, 15 a risposta multipla e
+16 a completamento, con lo stesso formato delle domande del banco più il campo
+`numero`, il numero del quesito nella prova. Gli id seguono lo schema
+`app<anno a due cifre>-<n>-<numero a due cifre>` (`app25-1-01`) e non si
+toccano mai, come quelli del banco.
+
+Testi, ordine delle opzioni e chiavi sono quelli ufficiali: niente
+permutazioni, niente correzioni del contenuto. Un refuso evidente nel testo si
+segnala nella spiegazione. Se il testo ufficiale ha due opzioni identiche, il
+quesito le dichiara entrambe giuste con `"corrette": [1, 3]` accanto a
+`"corretta": 1`. Le spiegazioni sono scritte per il banco, non copiate da
+correzioni pubblicate altrove.
+
 ## 4. Come devono essere le domande
 
 Sono le regole con cui è stato costruito il banco di chimica. Rispettale: sono

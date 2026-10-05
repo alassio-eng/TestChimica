@@ -1,0 +1,463 @@
+{
+  "appello": "biologia-2025-2",
+  "materia": "biologia",
+  "nome": "2° appello",
+  "data": "2025-12-10",
+  "fonte": "Semestre filtro 2025: testi e chiavi della prova ufficiale. Spiegazioni originali del banco.",
+  "domande": [
+    {
+      "id": "app25-2-01",
+      "numero": 1,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Fagocitosi e autofagia",
+      "testo": "I processi di fagocitosi e autofagia:",
+      "opzioni": [
+        "contribuiscono a proteggere la cellula da parassiti extracellulari e intracellulari",
+        "sono lo stesso processo indicato con termini diversi",
+        "avvengono solo in cellule specializzate",
+        "il primo coinvolge lisosomi, il secondo no",
+        "sono processi alternativi, nelle cellule avviene o l'uno o l'altro"
+      ],
+      "corretta": 0,
+      "spiegazione": "La fagocitosi ingloba materiale esterno, compresi i microrganismi; l'autofagia sequestra componenti del citoplasma, fra cui anche batteri penetrati nella cellula. Entrambe terminano con la digestione nei lisosomi e contribuiscono alla difesa da patogeni esterni e interni.\n\nB) Sono processi distinti: uno parte dalla membrana plasmatica, l'altro da membrane interne che formano l'autofagosoma.\nC) L'autofagia avviene in tutte le cellule eucariotiche; è la fagocitosi su larga scala a essere tipica di cellule specializzate come macrofagi e neutrofili.\nD) Entrambi si concludono con la fusione con un lisosoma.\nE) Non si escludono: la stessa cellula può svolgerli entrambi."
+    },
+    {
+      "id": "app25-2-02",
+      "numero": 2,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Definizione di gene",
+      "testo": "Un gene è:",
+      "opzioni": [
+        "Una proteina che controlla le caratteristiche ereditarie",
+        "Una sequenza di DNA che contiene le informazioni solo per RNA non codificanti",
+        "Una molecola di RNA che trasporta informazioni genetiche dalla cellula al nucleo",
+        "Una sequenza di DNA che regola esclusivamente l'espressione di altre sequenze di DNA, senza codificare proteine",
+        "Una sequenza di DNA che contiene le informazioni per la sintesi di una catena polipeptidica o di una molecola di RNA"
+      ],
+      "corretta": 4,
+      "spiegazione": "Un gene è un tratto di DNA trascritto in un RNA funzionale: un messaggero che verrà tradotto in una catena polipeptidica, oppure un RNA che svolge la sua funzione senza essere tradotto, come rRNA, tRNA e miRNA.\n\nA) Le proteine sono prodotti dei geni, non geni.\nB) Esclude i geni che codificano proteine.\nC) Descrive in modo confuso un RNA messaggero, che peraltro va dal nucleo al citoplasma.\nD) Descrive una sequenza regolativa, come un enhancer, che non è un gene."
+    },
+    {
+      "id": "app25-2-03",
+      "numero": 3,
+      "unita": "u2",
+      "tipo": "multipla",
+      "argomento": "Livelli di compattazione della cromatina",
+      "testo": "Il massimo livello di compattamento della cromatina è costituito da:",
+      "opzioni": [
+        "Fibra da 300 nm",
+        "Fibra da 30 nm",
+        "Fibra da 11 nm",
+        "Solenoide",
+        "Cromosoma metafasico"
+      ],
+      "corretta": 4,
+      "spiegazione": "Il cromosoma metafasico è la forma più condensata della cromatina: le anse della fibra da 30 nm, fissate a un'impalcatura proteica, sono ulteriormente avvolte e compattate fino a uno spessore di circa 1400 nm per i due cromatidi.\n\nA) Le anse da 300 nm sono un livello intermedio, tipico della cromatina in interfase.\nB) e D) La fibra da 30 nm, descritta nel modello a solenoide, è solo il secondo livello di compattazione.\nC) La fibra da 11 nm, la collana di perle, è il primo livello."
+    },
+    {
+      "id": "app25-2-04",
+      "numero": 4,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Sedi di sintesi dell'RNA ribosomale",
+      "testo": "In quale/i dei seguenti comparti di una cellula eucariotica animale è prodotto l'RNA ribosomale?",
+      "opzioni": [
+        "Nel reticolo endoplasmatico rugoso",
+        "Nel nucleolo e nei mitocondri",
+        "Nel citoplasma e nel nucleolo",
+        "Nel reticolo endoplasmatico liscio",
+        "Nei mitocondri e nel reticolo endoplasmatico liscio"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel nucleolo la RNA polimerasi I trascrive il precursore degli rRNA 18S, 5,8S e 28S. I mitocondri hanno un proprio genoma e propri ribosomi, i cui rRNA 12S e 16S sono trascritti nella matrice.\n\nA) Il reticolo rugoso porta ribosomi già assemblati, ma non sintetizza RNA.\nC) Nel citoplasma non si trascrive RNA: i ribosomi vi arrivano dal nucleo già assemblati nelle subunità.\nD) e E) Il reticolo liscio sintetizza lipidi e non contiene DNA da trascrivere.\n\nNota: l'rRNA 5S è trascritto dalla RNA polimerasi III nel nucleoplasma, fuori dal nucleolo; fra le opzioni proposte la più corretta resta comunque B."
+    },
+    {
+      "id": "app25-2-05",
+      "numero": 5,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Omologhi in un organismo aploide",
+      "testo": "Se in una metafase mitotica di una cellula di un ipotetico organismo aploide n=12 si osservano 24 cromatidi fratelli, quante coppie di cromosomi omologhi sono presenti?",
+      "opzioni": [
+        "12",
+        "48",
+        "36",
+        "0",
+        "24"
+      ],
+      "corretta": 3,
+      "spiegazione": "Una cellula aploide ha un solo esemplare di ciascun cromosoma: non esistono coppie di omologhi. In metafase i suoi 12 cromosomi sono duplicati, ed ecco i 24 cromatidi fratelli; ma due cromatidi fratelli non sono una coppia di omologhi.\n\nA) 12 è il numero dei cromosomi, non delle coppie di omologhi.\nB) e C) Non corrispondono ad alcun conteggio coerente con i dati.\nE) 24 è il numero dei cromatidi: è la confusione fra cromatidi fratelli e cromosomi omologhi."
+    },
+    {
+      "id": "app25-2-06",
+      "numero": 6,
+      "unita": "u4",
+      "tipo": "multipla",
+      "argomento": "Cromosomi omologhi",
+      "testo": "Due cromosomi omologhi di una qualsiasi coppia:",
+      "opzioni": [
+        "Definiscono il sesso dell'individuo",
+        "Hanno dimensioni diverse",
+        "Si appaiono durante la fase S",
+        "Sono caratterizzati da identica sequenza di loci genici",
+        "Sono caratterizzati da identica sequenza di basi azotate nel loro DNA"
+      ],
+      "corretta": 3,
+      "spiegazione": "Gli omologhi, uno di origine materna e uno paterna, portano gli stessi geni nello stesso ordine: a ogni locus dell'uno corrisponde lo stesso locus dell'altro, anche se gli alleli possono essere diversi.\n\nA) Solo la coppia dei cromosomi sessuali determina il sesso.\nB) Gli omologhi hanno la stessa dimensione; l'eccezione è la coppia XY nel maschio.\nC) Si appaiano nella profase della prima divisione meiotica; in fase S si duplica il DNA.\nE) La sequenza di basi differisce, perché gli alleli possono essere diversi: è ciò che rende possibile l'eterozigosi.\n\nNota: anche per D la coppia XY del maschio fa eccezione, perché X e Y condividono solo le regioni pseudoautosomiche; il quesito si riferisce di fatto agli autosomi."
+    },
+    {
+      "id": "app25-2-07",
+      "numero": 7,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "RNA ribosomali dei procarioti",
+      "testo": "Nei procarioti l'RNA ribosomale è rappresentato da molecole con i seguenti coefficienti di sedimentazione",
+      "opzioni": [
+        "23, 16 e 5 Svedberg",
+        "18, 28 e 5 Svedberg",
+        "18, 28, 5,8 e 5 Svedberg",
+        "12 e 16 Svedberg",
+        "16 e 23 Svedberg"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il ribosoma procariotico, 70S, ha una subunità minore 30S con l'rRNA 16S e una maggiore 50S con gli rRNA 23S e 5S.\n\nB) 18S e 28S sono rRNA eucariotici; e manca il 5,8S.\nC) È l'insieme degli rRNA del ribosoma eucariotico 80S.\nD) 12S e 16S sono gli rRNA dei mitocondri umani.\nE) Manca il 5S, che fa parte anch'esso della subunità maggiore."
+    },
+    {
+      "id": "app25-2-08",
+      "numero": 8,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Citoscheletro e metabolismo nei diversi organismi",
+      "testo": "Quali di queste affermazioni sugli oggetti biologici NON è corretta?",
+      "opzioni": [
+        "I virus hanno un citoscheletro ancestrale",
+        "Le cellule procariotiche sono prive di citoscheletro complesso ma hanno un sistema di proteine strutturali con funzioni analoghe a quelle del citoscheletro eucariotico",
+        "Il citoscheletro è una componente strutturale presente in tutte le cellule eucariotiche",
+        "Alcuni organismi monocellulari sintetizzano molecole di ATP utilizzando l'energia liberata dalla fermentazione",
+        "Alcune cellule procariotiche possono operare la fotosintesi"
+      ],
+      "corretta": 0,
+      "spiegazione": "I virus non sono cellule: sono formati da acido nucleico e capside, talvolta con un involucro, e non hanno citoscheletro né metabolismo proprio. È l'affermazione falsa.\n\nB) È vera: i batteri hanno proteine omologhe a tubulina e actina, come FtsZ, che forma l'anello di divisione, e MreB, che controlla la forma.\nC) È vera: un citoscheletro, almeno di actina e tubulina, è presente in tutte le cellule eucariotiche; i filamenti intermedi invece mancano in diversi eucarioti, come piante e funghi.\nD) È vera: i lieviti in assenza di ossigeno ricavano ATP dalla glicolisi con fermentazione alcolica.\nE) È vera: i cianobatteri svolgono la fotosintesi ossigenica."
+    },
+    {
+      "id": "app25-2-09",
+      "numero": 9,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Permeabilità del doppio strato lipidico",
+      "testo": "Le membrane biologiche sono pochissimo permeabili a:",
+      "opzioni": [
+        "N₂",
+        "O₂",
+        "H₂O",
+        "CO₂",
+        "Ioni Ca²⁺"
+      ],
+      "corretta": 4,
+      "spiegazione": "Gli ioni sono carichi e idratati: per attraversare il cuore idrofobico del doppio strato dovrebbero perdere il guscio d'acqua, con un costo energetico altissimo. Passano solo attraverso canali e trasportatori.\n\nA), B) e D) Le piccole molecole apolari, come azoto, ossigeno e anidride carbonica, diffondono liberamente attraverso il doppio strato.\nC) L'acqua attraversa il doppio strato lentamente, ma molto più degli ioni; nelle membrane con acquaporine passa rapidamente."
+    },
+    {
+      "id": "app25-2-10",
+      "numero": 10,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Recettori intracellulari",
+      "testo": "Le molecole segnale che agiscono tramite recettori intracellulari sono:",
+      "opzioni": [
+        "Fattori di crescita",
+        "Ormoni peptidici",
+        "Neurormoni",
+        "Ormoni steroidei",
+        "Neurotrasmettitori"
+      ],
+      "corretta": 3,
+      "spiegazione": "Gli ormoni steroidei sono lipofili: attraversano la membrana plasmatica e si legano a recettori nel citoplasma o nel nucleo, che agiscono come fattori di trascrizione.\n\nA) I fattori di crescita sono proteine e agiscono su recettori di membrana, spesso tirosina chinasi.\nB) Gli ormoni peptidici sono idrofili e si legano a recettori di superficie.\nC) I neurormoni, per lo più peptidi come ossitocina e vasopressina, usano recettori di membrana.\nE) I neurotrasmettitori agiscono su canali ionici e recettori accoppiati a proteine G della membrana postsinaptica."
+    },
+    {
+      "id": "app25-2-11",
+      "numero": 11,
+      "unita": "u1",
+      "tipo": "multipla",
+      "argomento": "Enzimi proteici e ribozimi",
+      "testo": "Quale delle seguenti affermazioni evidenzia una differenza significativa tra enzimi proteici e ribozimi?",
+      "opzioni": [
+        "Sono evolutivamente correlati e strutturalmente simili",
+        "Agiscono in compartimenti cellulari separati",
+        "La loro attività non richiede energia",
+        "Richiedono siti attivi con caratteristiche diverse",
+        "Hanno un'attività catalitica intercambiabile tra proteine e RNA"
+      ],
+      "corretta": 3,
+      "spiegazione": "Gli enzimi proteici costruiscono il sito attivo con le catene laterali di venti amminoacidi diversi; i ribozimi dispongono solo di quattro nucleotidi e di ioni metallici. La diversa chimica del sito attivo è la differenza sostanziale fra le due classi di catalizzatori.\n\nA) Sono molecole di natura diversa, con strutture non paragonabili: non descrive una differenza, e non è vero.\nB) Possono agire negli stessi compartimenti: nel ribosoma l'rRNA catalitico e le proteine lavorano insieme.\nC) Non è una differenza: sia gli enzimi sia i ribozimi abbassano l'energia di attivazione, e il bisogno di energia dipende dalla reazione, non dalla natura del catalizzatore.\nE) Le attività non sono intercambiabili."
+    },
+    {
+      "id": "app25-2-12",
+      "numero": 12,
+      "unita": "u6",
+      "tipo": "multipla",
+      "argomento": "Fibronectina",
+      "testo": "La fibronectina è:",
+      "opzioni": [
+        "Un polisaccaride presente nella matrice extracellulare",
+        "Una glicoproteina della matrice extracellulare che collega le integrine (proteine transmembrana) a componenti della matrice extracellulare, come il collagene",
+        "Un enzima che degrada le proteine presenti nella matrice extracellulare",
+        "Una proteina integrale di membrana",
+        "Una proteina del citoscheletro"
+      ],
+      "corretta": 1,
+      "spiegazione": "La fibronectina è una glicoproteina dimerica con domini che legano le integrine, attraverso la sequenza RGD, e altri componenti della matrice come collagene ed eparan solfato: unisce le cellule alla matrice e guida la migrazione cellulare.\n\nA) È una proteina, sia pure glicosilata, non un polisaccaride.\nC) La degradazione della matrice è opera delle metalloproteinasi.\nD) È extracellulare: la proteina integrale che la lega è l'integrina.\nE) Il collegamento con il citoscheletro passa per l'integrina, ma la fibronectina sta fuori dalla cellula."
+    },
+    {
+      "id": "app25-2-13",
+      "numero": 13,
+      "unita": "u5",
+      "tipo": "multipla",
+      "argomento": "Mannosio-6-fosfato",
+      "testo": "Il segnale di localizzazione lisosomiale di una proteina neosintetizzata è:",
+      "opzioni": [
+        "Una serina fosforilata",
+        "Un residuo di mannosio fosforilato di una sua catena oligosaccaridica",
+        "Un'ancora lipidica a cui viene legata la proteina nel reticolo",
+        "Una sequenza amminoacidica amino terminale della proteina da smistare",
+        "Una tirosina fosforilata"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel cis-Golgi le idrolasi lisosomiali ricevono su residui di mannosio un gruppo N-acetilglucosammina-fosfato; rimossa la N-acetilglucosammina, il mannosio-6-fosfato esposto è riconosciuto dai recettori del trans-Golgi, che le indirizzano agli endosomi e da lì ai lisosomi.\n\nA) e E) La fosforilazione di serine e tirosine è un meccanismo di regolazione dell'attività delle proteine, non un segnale di smistamento verso i lisosomi.\nC) Un'ancora lipidica trattiene la proteina su una membrana, come l'ancora GPI sulla superficie cellulare.\nD) Una sequenza amminoterminale indirizza al reticolo endoplasmatico o ai mitocondri."
+    },
+    {
+      "id": "app25-2-14",
+      "numero": 14,
+      "unita": "u3",
+      "tipo": "multipla",
+      "argomento": "Eventi alla forcella replicativa",
+      "testo": "Indicare quale affermazione NON è corretta nel contesto della replicazione del DNA, a livello della forcella di replicazione:",
+      "opzioni": [
+        "L'enzima elicasi separa i due filamenti del DNA rompendo i legami a idrogeno tra le basi azotate complementari e creando una struttura a Y (forcella replicativa)",
+        "La sintesi del filamento guida (leading strand) procede in maniera continua in direzione 5'-3', mentre la sintesi del filamento ritardato (lagging strand) avviene in modo discontinuo tramite la formazione di brevi segmenti di DNA chiamati frammenti di Okazaki",
+        "Le proteine SSB si legano ai filamenti di DNA separati prevenendo la loro riassociazione",
+        "La DNA polimerasi si lega al filamento di DNA per iniziare la trascrizione del DNA in RNA",
+        "Viene sintetizzato un breve segmento di RNA (primer) che fornisce l'estremità 3'-OH necessaria per l'inizio della sintesi del DNA da parte della DNA polimerasi"
+      ],
+      "corretta": 3,
+      "spiegazione": "La DNA polimerasi copia il DNA in DNA. La trascrizione di DNA in RNA è opera della RNA polimerasi e non avviene alla forcella replicativa: l'affermazione è falsa.\n\nA) È vera: l'elicasi apre la doppia elica consumando ATP.\nB) È vera: le polimerasi allungano solo in direzione 5'→3', e sul filamento in ritardo la sintesi procede a frammenti.\nC) È vera: le SSB stabilizzano il DNA a singolo filamento.\nE) È vera: la primasi sintetizza l'innesco che la DNA polimerasi allunga."
+    },
+    {
+      "id": "app25-2-15",
+      "numero": 15,
+      "unita": "u7",
+      "tipo": "multipla",
+      "argomento": "Separazione degli omologhi in meiosi",
+      "testo": "In quale fase della meiosi ha luogo la separazione dei cromosomi omologhi?",
+      "opzioni": [
+        "Metafase II",
+        "Anafase II",
+        "Anafase I",
+        "Profase I",
+        "Metafase I"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nell'anafase I i due omologhi di ciascun bivalente migrano verso poli opposti, mentre i cromatidi fratelli restano uniti al centromero: è la divisione riduzionale.\n\nA) In metafase II i cromosomi, ormai senza omologo, si allineano sulla piastra.\nB) In anafase II si separano i cromatidi fratelli, come nella mitosi.\nD) In profase I gli omologhi si appaiano e avviene il crossing over: si uniscono, non si separano.\nE) In metafase I i bivalenti si allineano sulla piastra, ancora uniti."
+    },
+    {
+      "id": "app25-2-16",
+      "numero": 16,
+      "unita": "u4",
+      "tipo": "completamento",
+      "argomento": "Alleli",
+      "testo": "Due geni che occupano lo stesso locus (posizione) su ciascuno dei cromosomi omologhi e si differenziano per una variazione anche minima nella sequenza nucleotidica – come una singola sostituzione di base – vengono definiti ……",
+      "accettate": [
+        "alleli"
+      ],
+      "spiegazione": "Gli alleli sono forme alternative dello stesso gene, nella stessa posizione dei due omologhi. Basta la differenza di una base, come nell'anemia falciforme, perché due alleli producano proteine con proprietà diverse."
+    },
+    {
+      "id": "app25-2-17",
+      "numero": 17,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "Regolazione epigenetica",
+      "testo": "La metilazione del DNA e le modificazioni degli istoni costituiscono un tipo di regolazione definita ……",
+      "accettate": [
+        "epigenetica"
+      ],
+      "spiegazione": "Le modificazioni epigenetiche cambiano l'espressione dei geni senza alterare la sequenza del DNA e possono essere ereditate nelle divisioni cellulari: la metilazione delle citosine nei dinucleotidi CpG e l'acetilazione o la metilazione degli istoni aprono o chiudono la cromatina."
+    },
+    {
+      "id": "app25-2-18",
+      "numero": 18,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Ripetizioni FG e direzionalità del trasporto nucleare",
+      "testo": "È vero o falso che le ripetizioni Fenilalanina-Glicina presenti nelle nucleoporine sono fondamentali per garantire la direzionalità del trasporto di proteine nucleo/citosol? ……",
+      "accettate": [
+        "falso"
+      ],
+      "spiegazione": "Le ripetizioni FG formano una barriera nel canale del poro che lascia passare solo le molecole legate a importine ed esportine; ma sono uguali nei due sensi. La direzione è data dal gradiente di Ran-GTP, abbondante nel nucleo e scarso nel citosol, che fa caricare e scaricare i recettori dalla parte giusta."
+    },
+    {
+      "id": "app25-2-19",
+      "numero": 19,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Formazione del legame peptidico",
+      "testo": "Il legame peptidico si forma tra il gruppo carbossilico dell'amminoacido donatore e il gruppo amminico dell'amminoacido accettore con liberazione di una molecola di …… e la formazione di un legame covalente C-N",
+      "accettate": [
+        "acqua",
+        "H2O"
+      ],
+      "spiegazione": "La formazione del legame peptidico è una condensazione: il carbossile perde un OH e il gruppo amminico un H, che insieme formano una molecola d'acqua. La reazione inversa, che spezza il legame aggiungendo acqua, è l'idrolisi.\n\nNel ribosoma il gruppo uscente è il tRNA: l'acqua è persa a monte, quando l'amminoacido viene attivato e legato al suo tRNA."
+    },
+    {
+      "id": "app25-2-20",
+      "numero": 20,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Topoisomerasi",
+      "testo": "Durante la replicazione del DNA, l'enzima che elimina il superavvolgimento del DNA creato dall'apertura dei filamenti nella forcella replicativa è la ……",
+      "accettate": [
+        "topoisomerasi"
+      ],
+      "spiegazione": "Aprendo l'elica, l'elicasi accumula superavvolgimenti positivi davanti alla forcella. Le topoisomerasi tagliano transitoriamente uno o entrambi i filamenti, lasciano ruotare il DNA e richiudono il taglio, dissipando la tensione. Nei batteri questo compito spetta alla DNA girasi, una topoisomerasi di tipo II."
+    },
+    {
+      "id": "app25-2-21",
+      "numero": 21,
+      "unita": "u2",
+      "tipo": "completamento",
+      "argomento": "DNA altamente ripetitivo",
+      "testo": "La frazione di DNA eucariotico che si rinatura in modo estremamente rapido viene definita altamente ……",
+      "accettate": [
+        "ripetitiva",
+        "ripetuta"
+      ],
+      "spiegazione": "Negli esperimenti di rinaturazione più copie ha una sequenza, più rapidamente ogni filamento ritrova un complementare. Il DNA altamente ripetitivo, come il DNA satellite dei centromeri, è formato da brevi sequenze ripetute moltissime volte e si rinatura per primo."
+    },
+    {
+      "id": "app25-2-22",
+      "numero": 22,
+      "unita": "u1",
+      "tipo": "completamento",
+      "argomento": "Coiled-coil",
+      "testo": "Il motivo strutturale denominato «coiled-coil» che caratterizza molti domini proteici è generalmente costituito da due a quattro …… che si avvolgono l'una attorno all'altra formando una sovrastruttura stabile attraverso interazioni idrofobiche.",
+      "accettate": [
+        "alfa-eliche",
+        "alfa eliche",
+        "α-eliche",
+        "eliche alfa"
+      ],
+      "spiegazione": "Nel coiled-coil due o più α-eliche anfipatiche si avvolgono l'una sull'altra affacciando i residui idrofobici, disposti secondo una ripetizione di sette amminoacidi in cui due posizioni, a e d, sono idrofobiche. È il motivo della cheratina, della miosina e dei fattori di trascrizione a cerniera di leucine."
+    },
+    {
+      "id": "app25-2-23",
+      "numero": 23,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "TFIIH",
+      "testo": "Negli eucarioti, il fattore di trascrizione che ha attività enzimatica (chinasica ed elicasica) è il fattore ……",
+      "accettate": [
+        "TFIIH",
+        "TF2H"
+      ],
+      "spiegazione": "TFIIH è il fattore generale con attività elicasica, che apre il DNA al promotore, e chinasica, che fosforila il dominio carbossiterminale dell'RNA polimerasi II permettendole di lasciare il promotore. Partecipa anche alla riparazione per escissione di nucleotidi."
+    },
+    {
+      "id": "app25-2-24",
+      "numero": 24,
+      "unita": "u7",
+      "tipo": "completamento",
+      "argomento": "Necrosi e infiammazione",
+      "testo": "Il processo di necrosi induce un fenomeno …… locale perché il contenuto della cellula viene rilasciato nell'ambiente circostante.",
+      "accettate": [
+        "infiammatorio"
+      ],
+      "spiegazione": "Nella necrosi la cellula si rigonfia e la membrana si rompe: il contenuto riversato all'esterno richiama cellule del sistema immunitario e scatena infiammazione. Nell'apoptosi invece la cellula si frammenta in corpi delimitati da membrana, fagocitati senza infiammazione."
+    },
+    {
+      "id": "app25-2-25",
+      "numero": 25,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Metalloproteinasi della matrice",
+      "testo": "La matrice extracellulare viene degradata da enzimi prodotti dalle cellule che sono chiamati ……",
+      "accettate": [
+        "metalloproteinasi",
+        "MMP"
+      ],
+      "spiegazione": "Le metalloproteinasi della matrice sono proteasi dipendenti dallo zinco che degradano collagene e altre proteine della matrice. Servono al rimodellamento dei tessuti e alla migrazione cellulare, e sono sfruttate dalle cellule tumorali per invadere i tessuti."
+    },
+    {
+      "id": "app25-2-26",
+      "numero": 26,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "SREBP",
+      "testo": "La coda citosolica della proteina transmembrana SREBP, acronimo per Sterol Response Element Binding Protein, viene separata proteoliticamente dal resto della proteina nel complesso di Golgi e trasportata al ……",
+      "accettate": [
+        "nucleo"
+      ],
+      "spiegazione": "Quando il colesterolo scarseggia, SREBP passa dal reticolo al Golgi, dove due proteasi ne liberano il dominio citosolico. Questo frammento entra nel nucleo e, come fattore di trascrizione, attiva i geni della sintesi e della captazione del colesterolo, come quello del recettore delle LDL."
+    },
+    {
+      "id": "app25-2-27",
+      "numero": 27,
+      "unita": "u6",
+      "tipo": "completamento",
+      "argomento": "Secondi messaggeri",
+      "testo": "Durante la trasduzione del segnale, i secondi …… come cAMP, IP₃, DAG e Ca²⁺ contribuiscono all'amplificazione del segnale, permettendo a un singolo evento di legame ligando-recettore di attivare molteplici risposte intracellulari.",
+      "accettate": [
+        "messaggeri"
+      ],
+      "spiegazione": "Il primo messaggero è il ligando extracellulare; i secondi messaggeri sono piccole molecole o ioni prodotti o liberati in gran numero dopo l'attivazione del recettore, e diffondono rapidamente nella cellula attivando chinasi e altri effettori."
+    },
+    {
+      "id": "app25-2-28",
+      "numero": 28,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Sistema di endomembrane",
+      "testo": "Nelle cellule animali, la sintesi, la modificazione e il trasporto di proteine e lipidi sono processi coordinati dal sistema endomembranoso, che è composto dal reticolo endoplasmatico, dall'apparato del Golgi, dalle vescicole di …… e dai lisosomi.",
+      "accettate": [
+        "trasporto"
+      ],
+      "spiegazione": "Le vescicole di trasporto gemmano da un compartimento e si fondono con il successivo, portando con sé proteine e lipidi: collegano reticolo, Golgi, endosomi, lisosomi e membrana plasmatica. Mitocondri e perossisomi non fanno parte del sistema."
+    },
+    {
+      "id": "app25-2-29",
+      "numero": 29,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "tRNA iniziatore",
+      "testo": "Il codone di inizio del processo della traduzione, AUG, lega un tRNA iniziatore che trasporta l'amminoacido …… nel sito P del ribosoma",
+      "accettate": [
+        "metionina"
+      ],
+      "spiegazione": "Il codone AUG codifica la metionina; un tRNA iniziatore dedicato la porta direttamente nel sito P all'avvio della traduzione. Nei batteri è una metionina formilata, la N-formilmetionina."
+    },
+    {
+      "id": "app25-2-30",
+      "numero": 30,
+      "unita": "u3",
+      "tipo": "completamento",
+      "argomento": "Introni",
+      "testo": "I geni eucariotici contengono regioni codificanti (esoni) e regioni non codificanti (introni) mentre nei geni procariotici non sono presenti gli ……",
+      "accettate": [
+        "introni"
+      ],
+      "spiegazione": "Nei geni batterici la sequenza codificante è di regola continua, e trascrizione e traduzione possono avvenire contemporaneamente. Gli introni eucariotici vengono rimossi dallo splicing nel nucleo prima che il messaggero sia esportato."
+    },
+    {
+      "id": "app25-2-31",
+      "numero": 31,
+      "unita": "u5",
+      "tipo": "completamento",
+      "argomento": "Reticolo endoplasmatico liscio",
+      "testo": "Sintesi di ormoni steroidei, produzione di particelle lipoproteiche, reazioni di disintossicazione sono caratteristiche del reticolo endoplasmatico ……",
+      "accettate": [
+        "liscio"
+      ],
+      "spiegazione": "Il reticolo liscio è privo di ribosomi ed è la sede della sintesi dei lipidi, degli steroidi nelle cellule endocrine, della detossificazione dei farmaci nel fegato e dell'accumulo del calcio nel muscolo. La sintesi delle proteine di secrezione e di membrana è invece compito del reticolo rugoso."
+    }
+  ]
+}
